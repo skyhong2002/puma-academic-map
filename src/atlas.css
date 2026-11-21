@@ -330,7 +330,7 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
 }
 .atlas-campus button:hover { background: var(--map-orange-light); }
 .atlas-campus__title { display: flex; align-items: center; gap: 5px; min-height: 33px; font-weight: 750 !important; text-align: left; }
-.atlas-campus__title img, .atlas-emblem {
+.atlas-emblem {
   display: grid;
   place-items: center;
   flex: none;

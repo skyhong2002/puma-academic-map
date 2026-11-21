@@ -3,6 +3,7 @@ import 'leaflet.markercluster';
 import 'leaflet.markercluster/dist/MarkerCluster.css';
 import { createCampusView } from './campus-map.js';
 import { departmentFor } from './departments.js';
+import { emblemFor, emblemImage } from './emblems.js';
 import worldCountries from './world-countries.json';
 import { isTaiwan, people } from './person-data.js';
 
@@ -15,6 +16,11 @@ export function personDetails(person, point, { showName = true } = {}) {
   title.textContent = person.name;
   const place = document.createElement('p');
   place.textContent = [point.institution, point.campus, point.unit, point.building, point.city, point.country].filter(Boolean).join(' · ');
+  const emblem = emblemFor(point.institution);
+  if (emblem) {
+    place.className = 'map-detail__institution';
+    place.prepend(emblemImage(emblem));
+  }
   const claim = document.createElement('p');
   claim.textContent = person.affiliation_text;
   if (showName) content.append(title);
@@ -29,6 +35,11 @@ export function personDetails(person, point, { showName = true } = {}) {
   const activities = person.refs.filter((ref) => ref.kind === 'support');
   const refs = [...person.refs.filter((ref) => ref.kind !== 'support'), { label: point.unit ? '系館座標來源' : '機構座標來源', url: point.source_url }];
   if (point.address_source_url) refs.push({ label: point.unit ? '系所位置來源' : '機構地址來源', url: point.address_source_url });
+  if (emblem) {
+    refs.push({ label: '機構標誌來源', url: emblem.source_url, description: emblem.credit });
+    refs.push({ label: '機構標誌使用條件', url: emblem.license_url });
+    if (emblem.usage_url) refs.push({ label: '機構識別規範', url: emblem.usage_url });
+  }
   if (person.portrait) {
     refs.push({ label: '照片來源', url: person.portrait.source_url, description: person.portrait.credit });
     if (person.portrait.license_url) refs.push({ label: '照片授權', url: person.portrait.license_url });
