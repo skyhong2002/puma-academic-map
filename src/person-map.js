@@ -42,7 +42,12 @@ export function personDetails(person, point, { heading = false, onLocate } = {})
     if (heading) image.height = 64;
     identity.append(image);
   }
-  identity.append(title);
+  if (heading) {
+    const description = document.createElement('div');
+    description.className = 'map-detail__identity-text';
+    description.append(title, claim);
+    identity.append(description);
+  } else identity.append(title);
   if (point) {
     const place = document.createElement('p');
     place.className = 'map-detail__place';
@@ -53,7 +58,7 @@ export function personDetails(person, point, { heading = false, onLocate } = {})
     }
     content.append(place);
   }
-  content.append(claim);
+  if (!heading) content.append(claim);
   const activities = person.refs.filter((ref) => ref.kind === 'support');
   const refs = person.refs.filter((ref) => ref.kind !== 'support');
   if (point?.source_url) refs.push({ label: point.unit ? '系館座標來源' : '機構座標來源', url: point.source_url });

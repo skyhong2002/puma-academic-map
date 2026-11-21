@@ -521,6 +521,7 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
 }
 .map-detail h2 { margin: 0 0 8px; font-size: 21px; line-height: 1.3; overflow-wrap: anywhere; }
 .map-detail__identity { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+.map-detail__identity-text { min-width: 0; }
 .map-detail__identity h2 { margin: 0; }
 .map-detail__locate-person {
   padding: 0;
@@ -538,6 +539,11 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
 .map-detail__identity img { flex: none; object-fit: cover; }
 .map-detail .map-detail__place { margin: 0 0 8px; color: var(--ink-soft); line-height: 1.5; }
 .map-detail .map-detail__claim { margin: 0 0 14px; }
+.map-detail .map-detail__identity-text .map-detail__claim {
+  margin: 4px 0 0;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
 .map-detail .map-detail__sources { margin: 0; padding: 0; list-style: none; }
 .map-detail .map-detail__sources li { padding-block: 8px; border-top: 1px solid var(--rule); }
 .map-detail__references {

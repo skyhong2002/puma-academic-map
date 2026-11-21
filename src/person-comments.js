@@ -92,6 +92,7 @@ export function personComments(person, point) {
   const heading = element('h3', '留言板');
   heading.tabIndex = -1;
   const form = element('form');
+  form.className = 'person-comments__composer';
   const input = commentInput();
   input.placeholder = `我想對${person.name}說……`;
   input.setAttribute('aria-label', input.placeholder);
@@ -122,7 +123,7 @@ export function personComments(person, point) {
   const verification = commentVerification(async (signal) => request(`${await endpoint}/challenge`, { signal }));
   verification.checkbox.addEventListener('change', () => { status.textContent = ''; });
   form.append(authors.row, input, trap, verification.row, submit, status);
-  section.append(heading, form, listStatus, list, more, retry);
+  section.append(heading, listStatus, list, more, retry, form);
 
   let next = null;
   let loaded = false;
@@ -192,7 +193,7 @@ export function personComments(person, point) {
           shown.set(updated.id, replacement);
           item.replaceWith(replacement);
           replacement.querySelector('button').focus();
-          status.textContent = '留言已更新。';
+          replacement.querySelector('[role="status"]').textContent = '留言已更新。';
         } catch (error) {
           feedback.textContent = errorText(error);
         } finally {
