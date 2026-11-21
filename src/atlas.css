@@ -16,8 +16,6 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
   --panel-orange: #ffddbd;
   --panel-orange-card: #ffead6;
   --panel-orange-hover: #ffd2a8;
-  --map-tide: #c9602c;
-  --map-tide-light: #ffddb1;
   --paper: #fff;
   --paper-raised: #f2f4f5;
   --ink: var(--map-orange-ink);
@@ -45,27 +43,11 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
 .map-app .atlas-current {
   z-index: 250;
   pointer-events: none;
+  opacity: 0;
+  transition: opacity 200ms ease;
 }
-.atlas-current::before, .atlas-current::after {
-  content: '';
-  position: absolute;
-  width: min(76%, 1040px);
-  height: min(61%, 620px);
-  background: repeating-radial-gradient(ellipse at 4% 110%, transparent 0 18px,
-    color-mix(in srgb, var(--map-tide) 54%, transparent) 20px 21px,
-    color-mix(in srgb, var(--map-tide-light) 72%, transparent) 22px 23px,
-    transparent 25px 31px);
-  mask-image: radial-gradient(ellipse at 29% 67%, black 9%, #000b 36%, transparent 72%),
-    linear-gradient(90deg, transparent, #000 14%, #000 87%, transparent);
-  mask-composite: intersect;
-  animation: atlas-ripple 7s ease-in-out infinite alternate;
-}
-.atlas-current::before { left: -12%; bottom: -12%; rotate: -15deg; }
-.atlas-current::after { right: -17%; top: 9%; rotate: 142deg; animation-delay: -4s; }
-@keyframes atlas-ripple {
-  from { opacity: .66; translate: 0 0; }
-  to { opacity: 1; translate: 6px -4px; }
-}
+.map-app .atlas-current.is-current-visible { opacity: 1; }
+.atlas-current canvas { position: absolute; top: 0; left: 0; }
 .map-tools, .map-panel-toggle { position: absolute; z-index: 800; }
 .map-toolbar {
   grid-row: 1;
@@ -222,7 +204,7 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
     padding-block: calc(7px + env(safe-area-inset-top)) 7px;
   }
   .map-app .map-toolbar #atlas-home { width: 44px; height: 44px; }
-  .map-toolbar__brand img { width: 30px; height: 30px; }
+  .map-toolbar__brand img { width: 42px; height: 42px; }
   .map-toolbar h1 {
     position: absolute;
     width: 1px;
@@ -313,7 +295,7 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
   }
 }
 @media (width < 720px) and (height < 520px) {
-  .map-toolbar__brand img { width: 28px; height: 28px; }
+  .map-toolbar__brand img { width: 40px; height: 40px; }
 }
 @media (width >= 720px) {
   .map-app {
@@ -387,7 +369,7 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
 }
 @media (prefers-reduced-motion: reduce) {
   .map-app { --panel-duration: 0ms; }
-  .atlas-current::before, .atlas-current::after { animation: none; }
+  .map-app .atlas-current { transition: none; }
 }
 .map-app .map-panel .pa-directory {
   --pa-dir-bg: var(--panel-orange);

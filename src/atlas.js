@@ -2,6 +2,7 @@ import L from 'leaflet';
 import 'leaflet.markercluster';
 import { locatedUnit, unitLocations } from './unit-locations.js';
 import { emblemFor, emblemImage, institutionMark } from './emblems.js';
+import { addOceanCurrent } from './ocean-current.js';
 
 const catalog = Object.values(import.meta.glob('../data/institutions/*.json', { eager: true, import: 'default' })).flat();
 
@@ -130,9 +131,7 @@ export function createAtlas(container, people, { onCampus, onCampusZoom, onPerso
     maxZoom: CAMPUS_PEOPLE_ZOOM,
     attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
   }).addTo(map);
-  const current = map.createPane('current');
-  current.classList.add('atlas-current');
-  current.setAttribute('aria-hidden', 'true');
+  addOceanCurrent(map);
   const orange = getComputedStyle(container).getPropertyValue('--map-orange').trim();
   const registeredCampuses = campusGroups(people);
   const groups = registeredCampuses.filter((group) => group.people.length);
@@ -531,11 +530,6 @@ export function createAtlas(container, people, { onCampus, onCampusZoom, onPerso
       const element = layer.getElement();
       return [{ parent: element.parentElement, copy: element.cloneNode(true) }];
     }) : [];
-    current.hidden = map.getZoom() >= CAMPUS_ZOOM;
-    const size = map.getSize();
-    current.style.width = `${size.x}px`;
-    current.style.height = `${size.y}px`;
-    L.DomUtil.setPosition(current, map.containerPointToLayerPoint([0, 0]));
     if (map.getZoom() < CAMPUS_ZOOM) {
       cards.clearLayers();
       if (!map.hasLayer(clusters)) clusters.addTo(map);
