@@ -264,6 +264,11 @@ function showPerson(person, point, { restoring = false, tall = false, fromParent
   }
   details.replaceChildren(body, personComments(person, point));
   if (references.childElementCount > 1) details.append(references);
+  import('./person-research.js').then(({ personResearch }) => {
+    if (!body.isConnected) return;
+    const research = personResearch(person, (other) => showPerson(other, undefined, { fromParent: true }));
+    if (research) body.append(research);
+  }, () => {});
   showPanel('detail', { focus: !restoring });
   if (tall) setSheetTall(true);
   if (!restoring && point) locateAfterPanelResize(point, person);
