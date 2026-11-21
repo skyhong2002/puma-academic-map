@@ -28,8 +28,11 @@
 ```sh
 npm ci
 npm run build
-docker compose -p puma-academic -f deploy/compose.yml up -d --build --wait
+docker compose -p puma-comments-candidate -f deploy/compose.yml \
+  -f ~/Projects/puma-academic-map/comments-production.yml up -d --build --wait
 ```
+
+正式站沿用原留言服務的 Compose project 與資料卷。主機上的 `comments-production.yml` 額外保留 `127.0.0.1:19133` 給既有的 Tailscale 預覽網址。
 
 本機開發可在兩個終端分別執行 `npm run comments`（Node.js 24）和 `npm run dev`。Vite 會代理留言 API 到 `4174`。正式環境的反向代理須維持在 Cloudflare Tunnel 後方，因為 API 使用 Cloudflare 提供的來源 IP 做限速。
 
@@ -38,7 +41,7 @@ docker compose -p puma-academic -f deploy/compose.yml up -d --build --wait
 - 每筆署名在人物資料有自己的公開留言板。名錄和地圖共用同一個留言板，同名的不同署名分開。留言板 ID 取自原站段落及署名原文，調整地圖座標、學術來源或照片不影響歷史留言。更正署名原文或移動段落前，請一併更新資料庫的 `comments.person`，保留留言歷史。
 - 留言即時公開，限 500 字純文字。發文者可以在原瀏覽器編輯或刪除留言。瀏覽器保存留言的編輯權杖，API 只儲存其雜湊。
 - 防濫用採用來源、來源與人物組合、人物及全站的發文限速，並以蜜罐欄位、同板一小時內的重複內容比對，以及網址與電子郵件過濾降低空灌和廣告。限速資料只保存短效的來源 HMAC。IPv6 以 `/64` 分組。
-- 歷史留言透過人物與時間索引，每次讀取 20 則。SQLite 採 WAL 和持久化 volume。更新服務時保留 `puma-academic_comments` volume，備份時使用 SQLite 的線上備份功能。
+- 歷史留言透過人物與時間索引，每次讀取 20 則。SQLite 採 WAL 和持久化 volume。更新服務時保留 `puma-comments-candidate_comments` volume，備份時使用 SQLite 的線上備份功能。
 
 ### GA4 網站分析
 
