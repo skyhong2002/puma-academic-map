@@ -1,92 +1,57 @@
-// Decorative tracks through the waters around Taiwan.
-const tracks = [
-  [[20.6, 116.9], [22, 118.3], [23.15, 119], [23.8, 119.4], [24.5, 119.85], [25.35, 120.6], [26.05, 121.7], [26.8, 123.1]],
-  [[18.8, 123.3], [20.7, 122.9], [22, 122.45], [23.45, 122.2], [24.65, 122.45], [25.5, 123.35], [26.15, 124.65], [27.15, 126.3]],
+import land from './ocean-land.json';
+
+const stepMs = 1000 / 30;
+const colors = ['#267985', '#438f9c', '#e9fbfa'];
+const eddies = [
+  { lon: 124.1, lat: 22.7, radius: .95, turn: -1.3 },
+  { lon: 125.6, lat: 24.8, radius: 1.25, turn: 1.15 },
+  { lon: 122.8, lat: 19.9, radius: .85, turn: 1 },
+  { lon: 118.8, lat: 22.4, radius: .75, turn: -.45 },
 ];
-const palette = ['23, 101, 125', '247, 254, 248', '44, 133, 148'];
-const mix = (a, b, t) => a + (b - a) * t;
 
-function smooth(a, b, c, d, t) {
-  return b + 0.5 * t * (c - a + t * (2 * a - 5 * b + 4 * c - d + t * (3 * (b - c) + d - a)));
+function bell(value) {
+  return Math.exp(-value * value);
 }
 
-function projectTrack(map, track) {
-  const anchors = track.map((point) => map.latLngToContainerPoint(point));
-  const points = [{ ...anchors[0], distance: 0 }];
-  let distance = 0;
-  for (let i = 0; i < anchors.length - 1; i += 1) {
-    const a = anchors[i - 1] ?? anchors[i];
-    const b = anchors[i];
-    const c = anchors[i + 1];
-    const d = anchors[i + 2] ?? c;
-    for (let j = 1; j <= 10; j += 1) {
-      const t = j / 10;
-      const x = smooth(a.x, b.x, c.x, d.x, t);
-      const y = smooth(a.y, b.y, c.y, d.y, t);
-      const previous = points.at(-1);
-      distance += Math.hypot(x - previous.x, y - previous.y);
-      points.push({ x, y, distance });
-    }
+// An illustrative flow field with a wide offshore jet, a strait drift and eddies.
+function velocity(lon, lat) {
+  const bend = Math.max(0, lat - 23.6);
+  const offshore = 122.1 + .26 * bend ** 2 + .18 * Math.max(0, 21.8 - lat);
+  const jet = bell((lon - offshore) / 1.45);
+  const strait = bell((lon - (119.4 + (lat - 23.5) * .64)) / 1.65);
+  let east = .1 + jet * (.15 + .57 * bend) + strait * .62;
+  let north = .14 + jet * 1.28 + strait * .66;
+  for (const { lon: centerX, lat: centerY, radius, turn } of eddies) {
+    const x = (lon - centerX) / radius;
+    const y = (lat - centerY) / radius;
+    const spin = Math.exp(-.68 * (x * x + y * y)) * turn;
+    east -= y * spin;
+    north += x * spin;
   }
-  return { points, distance };
+  const extent = Math.min(
+    1, (lon - 114) / 2, (131 - lon) / 3, (lat - 16) / 3, (31 - lat) / 3,
+  );
+  return { east, north, strength: Math.max(0, extent) * Math.min(1, jet + strait + .24) };
 }
 
-function pointAt(track, distance, lane, time) {
-  const { points } = track;
-  let first = 0;
-  let last = points.length - 1;
-  while (last - first > 1) {
-    const middle = (first + last) >> 1;
-    if (points[middle].distance <= distance) first = middle;
-    else last = middle;
-  }
-  const a = points[first];
-  const b = points[last];
-  const span = b.distance - a.distance || 1;
-  const t = (distance - a.distance) / span;
-  const offset = lane.offset + Math.sin(distance / 62 - time * .52 + lane.phase) * 3;
-  return {
-    x: mix(a.x, b.x, t) - (b.y - a.y) * offset / span,
-    y: mix(a.y, b.y, t) + (b.x - a.x) * offset / span,
-  };
-}
-
-function drawStreak(context, track, head, lane, time, opacity, size) {
-  const tail = Math.max(0, head - lane.length);
-  const fade = Math.min(1, head / 45, (track.distance - head) / 58);
-  if (fade <= 0) return;
-  const a = pointAt(track, tail, lane, time);
-  const b = pointAt(track, head, lane, time);
-  if (Math.max(a.x, b.x) < -24 || Math.min(a.x, b.x) > size.x + 24 ||
-      Math.max(a.y, b.y) < -24 || Math.min(a.y, b.y) > size.y + 24) return;
-
-  const gradient = context.createLinearGradient(a.x, a.y, b.x, b.y);
-  const alpha = fade * opacity * lane.opacity;
-  gradient.addColorStop(0, `rgba(${lane.color}, 0)`);
-  gradient.addColorStop(.66, `rgba(${lane.color}, ${alpha})`);
-  gradient.addColorStop(1, `rgba(${lane.color}, ${alpha * .5})`);
+function landMask(map, width, height) {
+  const mask = document.createElement('canvas');
+  mask.width = width;
+  mask.height = height;
+  const context = mask.getContext('2d');
   context.beginPath();
-  context.moveTo(a.x, a.y);
-  for (let i = 1; i <= 9; i += 1) {
-    const point = pointAt(track, mix(tail, head, i / 9), lane, time);
-    context.lineTo(point.x, point.y);
+  for (const ring of land.rings) {
+    ring.forEach(([lon, lat], index) => {
+      const { x, y } = map.latLngToContainerPoint([lat, lon]);
+      if (index === 0) context.moveTo(x, y);
+      else context.lineTo(x, y);
+    });
+    context.closePath();
   }
-  context.strokeStyle = gradient;
-  context.lineWidth = lane.width;
+  context.fill('evenodd');
+  context.lineWidth = 2;
   context.stroke();
-}
-
-function makeLanes(count) {
-  return Array.from({ length: count }, (_, i) => ({
-    offset: (i - (count - 1) / 2) * 8,
-    phase: i * 2.35,
-    speed: 13 + i % 4 * 4,
-    length: 31 + i % 4 * 11,
-    spacing: 80 + i % 3 * 28,
-    color: palette[i % palette.length],
-    width: i % 3 === 1 ? 1.6 : 1.25,
-    opacity: i % 3 === 1 ? .77 : .56,
-  }));
+  return context.getImageData(0, 0, width, height).data;
 }
 
 export function addOceanCurrent(map) {
@@ -99,34 +64,81 @@ export function addOceanCurrent(map) {
   if (!context) return;
 
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
-  const bands = [makeLanes(5), makeLanes(7)];
-  let projected = [];
-  let size;
-  let opacity = 0;
   let frame;
-  let lastDraw = -Infinity;
-  const origin = performance.now();
+  let lastDraw = 0;
+  let width = 0;
+  let height = 0;
+  let landPixels;
+  let west;
+  let longitudePerPixel;
+  let latitudes;
+  let opacity;
+  let particles = [];
 
-  function draw(time) {
-    context.clearRect(0, 0, size.x, size.y);
-    context.lineCap = 'round';
-    context.lineJoin = 'round';
-    for (const [i, track] of projected.entries()) {
-      for (const lane of bands[i]) {
-        const period = track.distance + lane.length;
-        const offset = lane.phase * 31 + time * lane.speed;
-        for (let step = 0; step < period; step += lane.spacing) {
-          const head = (offset + step) % period;
-          if (head < track.distance) drawStreak(context, track, head, lane, time, opacity, size);
-        }
-      }
+  function flowAt(x, y) {
+    if (x < 0 || y < 0 || x >= width || y >= height ||
+        landPixels[(Math.floor(y) * width + Math.floor(x)) * 4 + 3]) return;
+    return velocity(west + x * longitudePerPixel, latitudes[Math.floor(y)]);
+  }
+
+  function seed(particle, initial = false) {
+    particle.age = 0;
+    particle.life = 0;
+    for (let attempt = 0; attempt < 12; attempt += 1) {
+      const x = Math.random() * width;
+      const y = Math.random() * height;
+      const flow = flowAt(x, y);
+      if (!flow || Math.random() >= flow.strength) continue;
+      particle.x = x;
+      particle.y = y;
+      particle.age = initial ? Math.random() * 50 : 0;
+      particle.life = 43 + Math.random() * 62;
+      return;
     }
   }
 
+  function draw() {
+    context.globalCompositeOperation = 'destination-out';
+    context.fillStyle = 'rgba(0, 0, 0, .12)';
+    context.fillRect(0, 0, width, height);
+    context.globalCompositeOperation = 'source-over';
+    context.lineWidth = .95;
+    context.lineCap = 'round';
+    for (const particle of particles) {
+      const { x, y, age, life, color } = particle;
+      if (age >= life) {
+        seed(particle);
+        continue;
+      }
+
+      const { east, north, strength } = flowAt(x, y) ?? {};
+      if (!strength) {
+        seed(particle);
+        continue;
+      }
+      const nextX = x + east * 1.55;
+      const nextY = y - north * 1.55;
+      if (!flowAt(nextX, nextY)?.strength) {
+        seed(particle);
+        continue;
+      }
+      context.globalAlpha = opacity * strength * Math.min(1, age / 10, (life - age) / 14) * .72;
+      context.strokeStyle = colors[color];
+      context.beginPath();
+      context.moveTo(x, y);
+      context.lineTo(nextX, nextY);
+      context.stroke();
+      particle.x = nextX;
+      particle.y = nextY;
+      particle.age += 1;
+    }
+    context.globalAlpha = 1;
+  }
+
   function animate(now) {
-    if (now - lastDraw >= 1000 / 30) {
-      draw((now - origin) / 1000);
-      lastDraw = now;
+    if (now - lastDraw >= stepMs) {
+      draw();
+      lastDraw = now - (now - lastDraw) % stepMs;
     }
     frame = requestAnimationFrame(animate);
   }
@@ -137,37 +149,45 @@ export function addOceanCurrent(map) {
   }
 
   function update() {
-    size = map.getSize();
-    const zoom = map.getZoom();
+    stop();
     const bounds = map.getBounds();
-    const inView = bounds.getWest() < 127 && bounds.getEast() > 116 &&
-      bounds.getSouth() < 28 && bounds.getNorth() > 18;
-    opacity = inView && zoom >= 4 && size.x && size.y ? Math.min(1, Math.max(0, (11 - zoom) / 3)) : 0;
-    pane.classList.toggle('is-current-visible', Boolean(opacity));
-    if (!opacity || document.hidden) {
-      stop();
-      return;
-    }
+    const zoom = map.getZoom();
+    const inView = bounds.getWest() < 131 && bounds.getEast() > 114 &&
+      bounds.getSouth() < 31 && bounds.getNorth() > 16;
+    const size = map.getSize();
+    opacity = inView && zoom >= 5 ? Math.min(1, Math.max(0, (11 - zoom) / 3)) : 0;
+    pane.classList.toggle('is-current-visible', Boolean(opacity && size.x && size.y));
+    if (!opacity || !size.x || !size.y || document.hidden) return;
 
+    width = size.x;
+    height = size.y;
     const ratio = Math.min(window.devicePixelRatio || 1, 2);
-    const width = Math.ceil(size.x * ratio), height = Math.ceil(size.y * ratio);
-    if (width !== canvas.width || height !== canvas.height) {
-      canvas.width = width;
-      canvas.height = height;
-      canvas.style.width = `${size.x}px`;
-      canvas.style.height = `${size.y}px`;
-      context.setTransform(ratio, 0, 0, ratio, 0, 0);
-    }
+    canvas.width = Math.ceil(width * ratio);
+    canvas.height = Math.ceil(height * ratio);
+    canvas.style.width = `${width}px`;
+    canvas.style.height = `${height}px`;
+    context.setTransform(ratio, 0, 0, ratio, 0, 0);
     const position = map.containerPointToLayerPoint([0, 0]);
     canvas.style.transform = `translate3d(${position.x}px, ${position.y}px, 0)`;
-    projected = tracks.map((track) => projectTrack(map, track));
-    if (reducedMotion.matches) {
-      stop();
-      draw(0);
-    } else if (frame === undefined) frame = requestAnimationFrame(animate);
+    west = bounds.getWest();
+    longitudePerPixel = (bounds.getEast() - west) / width;
+    latitudes = Array.from({ length: height }, (_, y) => map.containerPointToLatLng([0, y]).lat);
+    landPixels = landMask(map, width, height);
+    const count = Math.min(670, Math.max(150, Math.round(width * height / 1500)));
+    particles = Array.from({ length: count }, (_, i) => {
+      const particle = { color: i % colors.length };
+      seed(particle, true);
+      return particle;
+    });
+    for (let i = 0; i < 18; i += 1) draw();
+    if (!reducedMotion.matches) {
+      lastDraw = performance.now();
+      frame = requestAnimationFrame(animate);
+    }
   }
 
-  map.on('move resize', update);
+  map.on('movestart', stop);
+  map.on('moveend resize', update);
   document.addEventListener('visibilitychange', update);
   reducedMotion.addEventListener('change', update);
   map.once('unload', () => {
