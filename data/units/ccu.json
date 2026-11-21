@@ -1,0 +1,200 @@
+{
+  "institution": "國立中正大學",
+  "units": {
+    "哲學系": {
+      "lat": 23.5615355,
+      "lon": 120.4734526,
+      "building": "文學院",
+      "source_url": "https://www.openstreetmap.org/relation/16391790",
+      "address_source_url": "https://deptphi.ccu.edu.tw/p/404-1062-4873.php?Lang=zh-tw",
+      "aliases": [
+        "哲學研究所"
+      ]
+    },
+    "外國語文學系": {
+      "lat": 23.5615355,
+      "lon": 120.4734526,
+      "building": "文學院",
+      "source_url": "https://www.openstreetmap.org/relation/16391790",
+      "address_source_url": "https://s2.exam.ccu.edu.tw/ccuee_gp/STest.php",
+      "aliases": [
+        "外文系",
+        "外國文學系"
+      ]
+    },
+    "企業管理學系": {
+      "lat": 23.5606642,
+      "lon": 120.4762075,
+      "building": "管理學院",
+      "source_url": "https://www.openstreetmap.org/way/268069278",
+      "address_source_url": "https://busadm.ccu.edu.tw/p/406-1248-54672%2Cr3500.php?Lang=zh-tw",
+      "aliases": [
+        "企管系"
+      ]
+    },
+    "法律學系": {
+      "lat": 23.5641361,
+      "lon": 120.4768953,
+      "building": "法學院（社會科學院二館）",
+      "source_url": "https://www.openstreetmap.org/way/268069281",
+      "address_source_url": "https://s2.exam.ccu.edu.tw/ccuee_gp/STest.php",
+      "aliases": [
+        "法律系"
+      ]
+    },
+    "社會福利學系": {
+      "lat": 23.5605576,
+      "lon": 120.4745199,
+      "building": "社會科學院一館",
+      "source_url": "https://www.openstreetmap.org/way/52155377",
+      "address_source_url": "https://dsw.ccu.edu.tw/p/404-1084-11286.php?Lang=zh-tw",
+      "aliases": [
+        "社福系"
+      ]
+    },
+    "傳播學系": {
+      "lat": 23.5605576,
+      "lon": 120.4745199,
+      "building": "社會科學院一館",
+      "source_url": "https://www.openstreetmap.org/way/52155377",
+      "address_source_url": "https://s2.exam.ccu.edu.tw/ccuee_gp/STest.php",
+      "aliases": [
+        "傳播系",
+        "電訊傳播研究所"
+      ]
+    },
+    "政治學系": {
+      "lat": 23.5641361,
+      "lon": 120.4768953,
+      "building": "法學院（社會科學院二館）",
+      "source_url": "https://www.openstreetmap.org/way/268069281",
+      "address_source_url": "https://polsci.ccu.edu.tw/p/404-1087-19301.php?Lang=zh-tw",
+      "aliases": [
+        "政治系"
+      ]
+    },
+    "化學暨生物化學系": {
+      "lat": 23.565184,
+      "lon": 120.4749181,
+      "building": "理學院二館",
+      "source_url": "https://www.openstreetmap.org/way/268069286",
+      "address_source_url": "https://deptche.ccu.edu.tw/p/412-1078-2022.php?Lang=zh-tw",
+      "aliases": [
+        "化生系",
+        "化學系"
+      ]
+    },
+    "成人及繼續教育學系": {
+      "lat": 23.5635508,
+      "lon": 120.4763391,
+      "building": "教育學院一館",
+      "source_url": "https://www.openstreetmap.org/way/268069282",
+      "address_source_url": "https://www026186.ccu.edu.tw/advisory/teacherData.php",
+      "aliases": [
+        "成教系",
+        "成人教育學系"
+      ]
+    },
+    "勞工關係學系": {
+      "lat": 23.5605576,
+      "lon": 120.4745199,
+      "building": "社會科學院一館",
+      "source_url": "https://www.openstreetmap.org/way/52155377",
+      "address_source_url": "https://labor.ccu.edu.tw/var/file/86/1086/img/453251196.pdf",
+      "aliases": [
+        "勞工系",
+        "勞關系"
+      ]
+    },
+    "數學系": {
+      "lat": 23.5643138,
+      "lon": 120.4760241,
+      "building": "理學院一館（數學系館）",
+      "source_url": "https://www.openstreetmap.org/way/268069285",
+      "address_source_url": "https://math.ccu.edu.tw/p/404-1069-12096.php?Lang=zh-tw"
+    },
+    "財務金融學系": {
+      "lat": 23.5606642,
+      "lon": 120.4762075,
+      "building": "管理學院",
+      "source_url": "https://www.openstreetmap.org/way/268069278",
+      "address_source_url": "https://deptfin.ccu.edu.tw/p/404-1118-830.php?Lang=zh-tw",
+      "aliases": [
+        "財金系",
+        "財務金融系"
+      ]
+    },
+    "師資培育中心": {
+      "lat": 23.5635508,
+      "lon": 120.4763391,
+      "building": "教育學院一館",
+      "source_url": "https://www.openstreetmap.org/way/268069282",
+      "address_source_url": "https://resttc.ccu.edu.tw/var/file/126/1126/img/1090/547428730.pdf",
+      "aliases": [
+        "師培中心"
+      ]
+    },
+    "教育學研究所": {
+      "lat": 23.5635508,
+      "lon": 120.4763391,
+      "building": "教育學院一館",
+      "source_url": "https://www.openstreetmap.org/way/268069282",
+      "address_source_url": "https://s2.exam.ccu.edu.tw/ccuee_gp/STest.php",
+      "aliases": [
+        "教育所"
+      ]
+    },
+    "物理學系": {
+      "lat": 23.564948,
+      "lon": 120.4757748,
+      "building": "物理館",
+      "source_url": "https://www.openstreetmap.org/way/1101622267",
+      "address_source_url": "https://physics.ccu.edu.tw/p/404-1077-69783.php?Lang=zh-tw",
+      "aliases": [
+        "物理系"
+      ]
+    },
+    "地球與環境科學系": {
+      "lat": 23.5642985,
+      "lon": 120.4752979,
+      "building": "地震館",
+      "source_url": "https://www.openstreetmap.org/way/1101621009",
+      "address_source_url": "https://eq.ccu.edu.tw/var/file/70/1070/img/1205/885556362.pdf",
+      "aliases": [
+        "地科系"
+      ]
+    },
+    "會計與資訊科技學系": {
+      "lat": 23.5612176,
+      "lon": 120.4789653,
+      "building": "創新大樓（管理學院二館）",
+      "source_url": "https://www.openstreetmap.org/way/1257874743",
+      "address_source_url": "https://ait.ccu.edu.tw/",
+      "aliases": [
+        "會資系",
+        "會計系"
+      ]
+    },
+    "運動競技學系": {
+      "lat": 23.5633601,
+      "lon": 120.4708397,
+      "building": "田徑場大樓",
+      "source_url": "https://www.openstreetmap.org/way/1211599020",
+      "address_source_url": "https://das-sle.ccu.edu.tw/p/406-1134-97452%2Cr1017.php?Lang=zh-tw",
+      "aliases": [
+        "運競系",
+        "運動競技系"
+      ]
+    },
+    "經濟學系": {
+      "lat": 23.5606642,
+      "lon": 120.4762075,
+      "building": "管理學院",
+      "source_url": "https://www.openstreetmap.org/way/268069278",
+      "address_source_url": "https://econ.ccu.edu.tw/p/404-1117-7270.php?Lang=zh-tw",
+      "aliases": [
+        "經濟系"
+      ]
+    }
+  }
+}

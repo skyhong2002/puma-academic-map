@@ -2,6 +2,7 @@ import L from 'leaflet';
 import 'leaflet.markercluster';
 import 'leaflet.markercluster/dist/MarkerCluster.css';
 import { createCampusView } from './campus-map.js';
+import { departmentFor } from './departments.js';
 import worldCountries from './world-countries.json';
 import { isTaiwan, people } from './person-data.js';
 
@@ -13,7 +14,7 @@ export function personDetails(person, point, { showName = true } = {}) {
   const title = document.createElement('strong');
   title.textContent = person.name;
   const place = document.createElement('p');
-  place.textContent = [point.institution, point.unit, point.building, point.city, point.country].filter(Boolean).join(' · ');
+  place.textContent = [point.institution, point.campus, point.unit, point.building, point.city, point.country].filter(Boolean).join(' · ');
   const claim = document.createElement('p');
   claim.textContent = person.affiliation_text;
   if (showName) content.append(title);
@@ -47,34 +48,6 @@ export function personDetails(person, point, { showName = true } = {}) {
   }
   content.append(list);
   return content;
-}
-
-const institutionFiles = import.meta.glob('../data/institutions/*.json', { eager: true, import: 'default' });
-const aliasesByInstitution = new Map(Object.values(institutionFiles).flat()
-  .map(({ name, aliases }) => [name, aliases]));
-
-const normalizeUnit = (text) => text.replace(/\s+/g, '').replaceAll('台', '臺');
-
-export function departmentFor(person, institution) {
-  const aliases = [institution, institution.replace(/^國立/, ''), ...aliasesByInstitution.get(institution) ?? []]
-    .map(normalizeUnit).sort((a, b) => b.length - a.length);
-  for (const ref of person.refs) {
-    if (!ref.label.startsWith('教育部 ') || !ref.label.endsWith('師資名錄')) continue;
-    const listing = ref.description.split('記載：')[1];
-    for (const claim of listing?.split('；') ?? []) {
-      const heading = normalizeUnit(claim.split('，')[0].split('財團法人').at(-1));
-      const alias = aliases.find((item) => heading.startsWith(item));
-      if (alias && heading.length > alias.length) return heading.slice(alias.length);
-    }
-  }
-  for (const claim of person.affiliation_text.split(/[、，；／/]/)) {
-    const heading = normalizeUnit(claim).replace(/^(前|曾任)/, '');
-    const alias = aliases.find((item) => heading.startsWith(item));
-    if (!alias) continue;
-    const department = heading.slice(alias.length).match(/^([\p{Script=Han}]{1,24}?(?:學系|研究所|學位學程|學程|學院|中心|系|所))(?=兼任|專任|名譽|榮譽|退休|教授|副教授|助理|博士|碩士|講師|研究員|主任|特聘|講座|$)/u);
-    if (department) return department[1];
-  }
-  return '系所未標明';
 }
 
 function groupIcon(count) {

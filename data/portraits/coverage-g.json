@@ -1,0 +1,52 @@
+{
+  "會員名單": {
+    "陳登武（國立台灣師範大學歷史學系教授）": {
+      "file": "coverage-g-chen-dengwu.webp",
+      "credit": "國立臺灣師範大學校訊，合影左一具名，CC BY 4.0；頭肩方形裁切與 WebP 轉檔",
+      "source_url": "https://pr.ntnu.edu.tw/ntnunews/index.php?id=12981&mode=data&type_id=72",
+      "license_url": "https://www.ntnu.edu.tw/static.php?id=privacy"
+    },
+    "林彥鋒（國家衛生研究院副研究員級主治醫師）": {
+      "file": "coverage-g-lin-yenfeng.webp",
+      "credit": "國家衛生研究院全球資訊網，官方師資頁個人照片；依政府網站開放資料宣告重製與轉為 WebP",
+      "source_url": "https://www.nhri.edu.tw/Directorial/research_more?id=bfd93314984445429621c87fd2fa82ae",
+      "license_url": "https://www.nhri.edu.tw/Webservices/opendata"
+    },
+    "洪瑞雲（國立陽明交通大學工業工程系退休教授）": {
+      "file": "coverage-g-hung-juiyun.webp",
+      "credit": "國立陽明交通大學工業工程與管理學系，退休師資頁個人照片；依系所網站資訊開放宣告重製與轉為 WebP",
+      "source_url": "https://www.nycu.edu.tw/iem/ch/app/tabfolder/35320",
+      "license_url": "https://iem.nycu.edu.tw/iem/ch/app/artwebsite/view?module=artwebsite&id=35512&serno=4135ebf7-d13b-4a29-a862-b134927e679c"
+    },
+    "蔡宏政（中山大學海洋永續發展與海洋政策研究所教授）": {
+      "file": "coverage-g-tsai-hungcheng.webp",
+      "credit": "海洋委員會，依政府資料開放授權條款第 1 版；原圖具名，頭肩方形裁切與 WebP 轉檔",
+      "source_url": "https://www.oac.gov.tw/ch/home.jsp?dataserno=202610160002&id=661&mcustomize=news_view.jsp&parentpath=0%2C660",
+      "license_url": "https://www.oac.gov.tw/ch/home.jsp?id=145&parentpath=0,13"
+    },
+    "陳允元（國立台北教育大學台灣語文與文化學系副教授）": {
+      "file": "coverage-g-chen-yunyuan.webp",
+      "credit": "臺中文學館，依政府資料開放授權條款第 1 版；圖說具名發言者，頭肩方形裁切與 WebP 轉檔",
+      "source_url": "https://www.tlm.taichung.gov.tw/gallery/Play.aspx?Parser=16%2C6%2C99%2C121%2C%2C%2C%2C355",
+      "license_url": "https://www.tlm.taichung.gov.tw/content/index.aspx?Parser=1,10,94"
+    },
+    "林美香（國立臺灣大學歷史系教授）": {
+      "file": "coverage-g-lin-meihsiang.webp",
+      "credit": "中央研究院，依政府資料開放授權條款第 1 版；中研院訊第 1705 期圖說確認合影左三為林美香，頭肩方形裁切與 WebP 轉檔",
+      "source_url": "https://www.sinica.edu.tw/news_content/55/805",
+      "license_url": "https://www.sinica.edu.tw/cp/85"
+    },
+    "林瓊華（台北藝術大學通識教育助理教授）": {
+      "file": "coverage-g-lin-chiunghua.webp",
+      "credit": "國史館，依政府資料開放授權條款第 1 版；活動新聞圖4明確標示林瓊華在合影左一，頭肩方形裁切與 WebP 轉檔",
+      "source_url": "https://www.drnh.gov.tw/p/406-1003-16320%2Cr46.php?Lang=zh-tw",
+      "license_url": "https://www.drnh.gov.tw/var/file/3/1003/img/10/305653380.pdf"
+    },
+    "洪文玲（國立高雄科技大學造船及海洋工程系副教授）": {
+      "file": "coverage-g-hung-wenling.webp",
+      "credit": "國立海洋科技博物館，官方講座公告以姓名及學校系所標註講者；依政府網站資料開放宣告重製、頭肩裁切與 WebP 轉檔",
+      "source_url": "https://www.nmmst.gov.tw/chhtml/newsdetail/556/9792",
+      "license_url": "https://www.nmmst.gov.tw/chhtml/content/598/4421"
+    }
+  }
+}

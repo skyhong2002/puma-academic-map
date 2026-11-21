@@ -1,0 +1,193 @@
+{
+  "institution": "輔仁大學",
+  "units": {
+    "心理學系": {
+      "lat": 25.035181,
+      "lon": 121.431614,
+      "building": "聖言樓",
+      "source_url": "https://www.openstreetmap.org/way/240394081",
+      "address_source_url": "https://www.cfs.fju.edu.tw/upload/news/696100673nm4608n021.pdf#page=50",
+      "aliases": [
+        "心理系"
+      ]
+    },
+    "臨床心理學系": {
+      "lat": 25.038588,
+      "lon": 121.4312806,
+      "building": "國璽樓",
+      "source_url": "https://www.openstreetmap.org/way/537357524",
+      "address_source_url": "https://www.cfs.fju.edu.tw/upload/news/696100673nm4608n021.pdf#page=50",
+      "aliases": [
+        "臨床心理系",
+        "醫學院臨床心理學系",
+        "醫學院臨床心理系"
+      ]
+    },
+    "醫學系": {
+      "lat": 25.038588,
+      "lon": 121.4312806,
+      "building": "國璽樓",
+      "source_url": "https://www.openstreetmap.org/way/537357524",
+      "address_source_url": "https://www.cfs.fju.edu.tw/upload/news/696100673nm4608n021.pdf#page=50"
+    },
+    "哲學系": {
+      "lat": 25.0364404,
+      "lon": 121.4332781,
+      "building": "文華樓",
+      "source_url": "https://www.openstreetmap.org/way/366345822",
+      "address_source_url": "https://www.philosophy.fju.edu.tw/zh/%E7%B3%BB%E6%89%80%E7%B0%A1%E4%BB%8B/%E7%B3%BB%E6%89%80%E6%B2%BF%E9%9D%A9"
+    },
+    "歷史學系": {
+      "lat": 25.0364404,
+      "lon": 121.4332781,
+      "building": "文華樓",
+      "source_url": "https://www.openstreetmap.org/way/366345822",
+      "address_source_url": "https://www.cfs.fju.edu.tw/upload/news/696100673nm4608n021.pdf#page=50",
+      "aliases": [
+        "歷史系"
+      ]
+    },
+    "法律學院": {
+      "lat": 25.036376,
+      "lon": 121.4320334,
+      "building": "樹德樓",
+      "source_url": "https://www.openstreetmap.org/way/366345792",
+      "address_source_url": "https://www.ls.fju.edu.tw/Member.aspx?CatID=2180d60e-b91d-4bff-bb82-2f641bb5609c"
+    },
+    "法律學系": {
+      "lat": 25.036376,
+      "lon": 121.4320334,
+      "building": "樹德樓",
+      "source_url": "https://www.openstreetmap.org/way/366345792",
+      "address_source_url": "https://www.cfs.fju.edu.tw/upload/news/696100673nm4608n021.pdf#page=50",
+      "aliases": [
+        "法律系"
+      ]
+    },
+    "社會學系": {
+      "lat": 25.0363097,
+      "lon": 121.4307273,
+      "building": "羅耀拉大樓",
+      "source_url": "https://www.openstreetmap.org/relation/6651163",
+      "address_source_url": "https://www.cfs.fju.edu.tw/upload/news/696100673nm4608n021.pdf#page=50",
+      "aliases": [
+        "社會系"
+      ]
+    },
+    "社會工作學系": {
+      "lat": 25.0363097,
+      "lon": 121.4307273,
+      "building": "羅耀拉大樓",
+      "source_url": "https://www.openstreetmap.org/relation/6651163",
+      "address_source_url": "https://www.cfs.fju.edu.tw/upload/news/696100673nm4608n021.pdf#page=50",
+      "aliases": [
+        "社會工作系",
+        "社工系"
+      ]
+    },
+    "宗教學系": {
+      "lat": 25.0363097,
+      "lon": 121.4307273,
+      "building": "羅耀拉大樓",
+      "source_url": "https://www.openstreetmap.org/relation/6651163",
+      "address_source_url": "https://www.cfs.fju.edu.tw/upload/news/696100673nm4608n021.pdf#page=50",
+      "aliases": [
+        "宗教系"
+      ]
+    },
+    "音樂學系": {
+      "lat": 25.0365274,
+      "lon": 121.4351671,
+      "building": "藝術學院大樓",
+      "source_url": "https://www.openstreetmap.org/way/366345827",
+      "address_source_url": "https://www.cfs.fju.edu.tw/upload/news/696100673nm4608n021.pdf#page=50",
+      "aliases": [
+        "音樂系"
+      ]
+    },
+    "營養科學系": {
+      "lat": 25.0353995,
+      "lon": 121.4339923,
+      "building": "秉雅樓",
+      "source_url": "https://www.openstreetmap.org/way/367602047",
+      "address_source_url": "https://www.cfs.fju.edu.tw/upload/news/696100673nm4608n021.pdf#page=50",
+      "aliases": [
+        "營養系",
+        "營養學系"
+      ]
+    },
+    "兒童與家庭學系": {
+      "lat": 25.0353995,
+      "lon": 121.4339923,
+      "building": "秉雅樓",
+      "source_url": "https://www.openstreetmap.org/way/367602047",
+      "address_source_url": "https://www.cfs.fju.edu.tw/",
+      "aliases": [
+        "兒家系"
+      ]
+    },
+    "企業管理學系": {
+      "lat": 25.0372858,
+      "lon": 121.4317182,
+      "building": "利瑪竇大樓",
+      "source_url": "https://www.openstreetmap.org/way/366345845",
+      "address_source_url": "https://www.mba.fju.edu.tw/introduction.php?type_id=6",
+      "aliases": [
+        "企管系"
+      ]
+    },
+    "博物館學研究所": {
+      "lat": 25.0352338,
+      "lon": 121.4334534,
+      "building": "朝橒樓",
+      "source_url": "https://www.openstreetmap.org/way/367602048",
+      "address_source_url": "https://fjcuadm.fju.edu.tw/department.php?id=86",
+      "aliases": [
+        "博館所",
+        "博物館研究所"
+      ]
+    },
+    "西班牙語文學系": {
+      "lat": 25.0348455,
+      "lon": 121.4320846,
+      "building": "外語學院大樓",
+      "source_url": "https://www.openstreetmap.org/way/240396148",
+      "address_source_url": "https://www.cfs.fju.edu.tw/upload/news/696100673nm4608n021.pdf#page=50",
+      "aliases": [
+        "西班牙文學系",
+        "西文系"
+      ]
+    },
+    "數學系": {
+      "lat": 25.033795,
+      "lon": 121.432885,
+      "building": "耕莘樓（數學系館）",
+      "source_url": "https://www.openstreetmap.org/way/366345813",
+      "address_source_url": "https://www.math.fju.edu.tw/zh-hant/link/%E6%95%B8%E5%AD%B8%E7%B3%BB%E7%A9%BA%E9%96%93",
+      "aliases": [
+        "數學學系"
+      ]
+    },
+    "化學系": {
+      "lat": 25.034425,
+      "lon": 121.431515,
+      "building": "耕莘樓（化學系館）",
+      "source_url": "https://www.openstreetmap.org/way/366345813",
+      "address_source_url": "https://ch.fju.edu.tw/%E7%B3%BB%E6%89%80%E7%B0%A1%E4%BB%8B/%E6%95%99%E5%AE%A4%E5%B9%B3%E9%9D%A2%E5%9C%96/",
+      "aliases": [
+        "化學學系"
+      ]
+    },
+    "生命科學系": {
+      "lat": 25.034105,
+      "lon": 121.432313,
+      "building": "耕莘樓（生命科學系館）",
+      "source_url": "https://www.openstreetmap.org/way/366345813",
+      "address_source_url": "https://bio.fju.edu.tw/node/98",
+      "aliases": [
+        "生科系",
+        "生命科學學系"
+      ]
+    }
+  }
+}

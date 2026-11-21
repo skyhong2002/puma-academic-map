@@ -1,0 +1,40 @@
+{
+  "會員名單": {
+    "陳玉箴（國立臺灣師範大學臺灣語文學系教授）": {
+      "file": "coverage-f-chen-yu-chen.webp",
+      "credit": "國立臺灣師範大學校園新聞，CC BY 4.0；裁切、縮圖與 WebP 轉檔",
+      "source_url": "https://pr.ntnu.edu.tw/news/index.php?id=21646&mode=data",
+      "license_url": "https://www.ntnu.edu.tw/static.php?id=privacy"
+    },
+    "林國慶（國立台灣大學農業經濟系名譽教授）": {
+      "file": "coverage-f-lin-kuo-ching.webp",
+      "credit": "農業部農業知識入口網，CC BY 4.0；裁切、縮圖與 WebP 轉檔",
+      "source_url": "https://kmweb.moa.gov.tw/theme_data.php?id=51507&sub_theme=quality_farmer&theme=news",
+      "license_url": "https://kmweb.moa.gov.tw/ws.php?id=260"
+    },
+    "陳進金（國立東華大學歷史學系教授）": {
+      "file": "coverage-f-chen-jin-jin.webp",
+      "credit": "法務部司法官學院，政府資料開放授權條款第 1 版；自合影裁切及 WebP 轉檔",
+      "source_url": "https://www.tpi.moj.gov.tw/290822/290835/290836/1159787/post",
+      "license_url": "https://www.tpi.moj.gov.tw/290966/290969/588954/post"
+    },
+    "陳文玲（政大X實驗學院教授）": {
+      "file": "coverage-f-chen-wen-ling.webp",
+      "credit": "張永泰／美國之音，公有領域；自合影裁切、縮圖與 WebP 轉檔",
+      "source_url": "https://www.voachinese.com/a/cross-strait-young-values-20121217/1566310.html",
+      "license_url": "https://commons.wikimedia.org/wiki/Special:Redirect/page/50266247#Licensing"
+    },
+    "鍾國芳（中央研究院生物多樣性研究中心研究員）": {
+      "file": "coverage-f-chung-kuo-fang.webp",
+      "credit": "農業部林業及自然保育署，依政府網站資料開放宣告；自獲獎合照裁切、縮圖與 WebP 轉檔",
+      "source_url": "https://www.forest.gov.tw/0000176/news/0077180",
+      "license_url": "https://www.forest.gov.tw/ZH/opendata"
+    },
+    "陳聖智（國立政治大學傳播學院數位內容碩副教授）": {
+      "file": "coverage-f-chen-sheng-chih.webp",
+      "credit": "衛生福利部，政府資料開放授權條款第 1 版；自活動照片裁切、縮圖與 WebP 轉檔",
+      "source_url": "https://dep.mohw.gov.tw/DOIM/fp-7418-84582-114.html",
+      "license_url": "https://www.mohw.gov.tw/cp-81-155-1.html"
+    }
+  }
+}

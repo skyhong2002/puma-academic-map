@@ -1,6 +1,7 @@
 import roster from '../data/signatories.json';
 import sources from '../data/affiliation-sources.json';
 import institutions from '../data/institution-points.json';
+import { refineCampus } from './unit-locations.js';
 const portraitIndices = import.meta.glob('../data/portraits/*.json', { eager: true, import: 'default' });
 
 const portraitFiles = import.meta.glob('../data/portraits/*.webp', { eager: true, import: 'default', query: '?url' });
@@ -42,6 +43,7 @@ export const people = Object.entries(roster.sections).flatMap(([section, group])
   const uniqueEntries = [...new Map(group.entries.map((entry) => [entry.raw, entry])).values()];
   return uniqueEntries.map((entry) => {
     const refs = affiliationSources(section, entry.raw);
+    const person = { ...entry, section, refs, portrait: portraitFor(section, entry.raw) };
     const officialLocations = refs.flatMap((ref) => (ref.institutions ?? []).flatMap((institution) => {
       const place = institutions[institution];
       return place ? [{ institution, ...place }] : [];
@@ -50,7 +52,8 @@ export const people = Object.entries(roster.sections).flatMap(([section, group])
     const locations = [...new Map([...officialLocations, ...researched]
       .filter((point) => point.country && point.institution && Number.isFinite(point.lat) && Number.isFinite(point.lon)
         && Math.abs(point.lat) <= 90 && Math.abs(point.lon) <= 180)
-      .map((point) => [`${point.country}|${point.institution}`, point])).values()];
-    return { ...entry, section, refs, locations, portrait: portraitFor(section, entry.raw) };
+      .map((point) => refineCampus(person, point))
+      .map((point) => [JSON.stringify([point.country, point.institution, point.campus]), point])).values()];
+    return { ...person, locations };
   });
 });

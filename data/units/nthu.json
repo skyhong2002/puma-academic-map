@@ -1,0 +1,216 @@
+{
+  "institution": "國立清華大學",
+  "units": {
+    "中國文學系": {
+      "lat": 24.78987,
+      "lon": 120.9897,
+      "building": "人文社會學院",
+      "source_url": "https://campusmap.cc.nthu.edu.tw/xml/Markersite.xml",
+      "address_source_url": "https://cl.site.nthu.edu.tw/p/406-1401-306305%2Cr11.php?Lang=zh-tw",
+      "aliases": [
+        "中文系"
+      ]
+    },
+    "臺灣文學研究所": {
+      "lat": 24.78987,
+      "lon": 120.9897,
+      "building": "人文社會學院",
+      "source_url": "https://campusmap.cc.nthu.edu.tw/xml/Markersite.xml",
+      "address_source_url": "https://tl.site.nthu.edu.tw/p/412-1399-22901.php?Lang=zh-tw",
+      "aliases": [
+        "臺灣文學所",
+        "臺文所"
+      ]
+    },
+    "社會學研究所": {
+      "lat": 24.78987,
+      "lon": 120.9897,
+      "building": "人文社會學院",
+      "source_url": "https://campusmap.cc.nthu.edu.tw/xml/Markersite.xml",
+      "address_source_url": "https://iosoc.site.nthu.edu.tw/p/412-1547-18994.php?Lang=zh-tw",
+      "aliases": [
+        "社會所",
+        "社會所中國研究學程",
+        "社會學研究所中國研究學程",
+        "中國研究碩士學程"
+      ]
+    },
+    "人類學研究所": {
+      "lat": 24.78987,
+      "lon": 120.9897,
+      "building": "人文社會學院",
+      "source_url": "https://campusmap.cc.nthu.edu.tw/xml/Markersite.xml",
+      "address_source_url": "https://campusmap.cc.nthu.edu.tw/xml/Markersite.xml",
+      "aliases": [
+        "人類所"
+      ]
+    },
+    "人文社會學院學士班": {
+      "lat": 24.78987,
+      "lon": 120.9897,
+      "building": "人文社會學院",
+      "source_url": "https://campusmap.cc.nthu.edu.tw/xml/Markersite.xml",
+      "address_source_url": "https://dhss.site.nthu.edu.tw/p/406-1610-308417%2Cr11069.php?Lang=zh-tw",
+      "aliases": [
+        "人社院學士班",
+        "人社學士班"
+      ]
+    },
+    "資訊工程學系": {
+      "lat": 24.79591,
+      "lon": 120.99211,
+      "building": "台達館",
+      "source_url": "https://campusmap.cc.nthu.edu.tw/xml/Markersite.xml",
+      "address_source_url": "https://dee.site.nthu.edu.tw/p/404-1175-28309.php?Lang=zh-tw",
+      "aliases": [
+        "資工系",
+        "資訊系"
+      ]
+    },
+    "電機工程學系": {
+      "lat": 24.79591,
+      "lon": 120.99211,
+      "building": "台達館",
+      "source_url": "https://campusmap.cc.nthu.edu.tw/xml/Markersite.xml",
+      "address_source_url": "https://dee.site.nthu.edu.tw/p/404-1175-28309.php?Lang=zh-tw",
+      "aliases": [
+        "電機系",
+        "電機工程系"
+      ]
+    },
+    "通識教育中心": {
+      "lat": 24.795557,
+      "lon": 120.993703,
+      "building": "教育館",
+      "source_url": "https://campusmap.cc.nthu.edu.tw/xml/Markersite.xml",
+      "address_source_url": "https://cge.site.nthu.edu.tw/p/404-1573-240835.php",
+      "aliases": [
+        "通識中心"
+      ]
+    },
+    "藝術與設計學系": {
+      "lat": 24.793486,
+      "lon": 120.964496,
+      "building": "藝設系館（南大校區）",
+      "source_url": "https://campusmap.cc.nthu.edu.tw/sd/xml/Markersite.xml",
+      "address_source_url": "https://art.nthu.edu.tw/?page_id=3947",
+      "aliases": [
+        "藝設系"
+      ]
+    },
+    "環境與文化資源學系": {
+      "lat": 24.785606,
+      "lon": 120.991198,
+      "building": "竹師教育學院大樓",
+      "source_url": "https://campusmap.cc.nthu.edu.tw/xml/Markersite.xml",
+      "address_source_url": "https://decr.site.nthu.edu.tw/p/412-1130-22880.php?Lang=zh-tw",
+      "aliases": [
+        "環文系"
+      ]
+    },
+    "天文研究所": {
+      "lat": 24.79434,
+      "lon": 120.9924,
+      "building": "物理館",
+      "source_url": "https://campusmap.cc.nthu.edu.tw/xml/Markersite.xml",
+      "address_source_url": "https://www.astr.nthu.edu.tw/p/412-1336-6041.php?Lang=en",
+      "aliases": [
+        "天文所"
+      ]
+    },
+    "教育與學習科技學系": {
+      "lat": 24.785606,
+      "lon": 120.991198,
+      "building": "竹師教育學院大樓",
+      "source_url": "https://campusmap.cc.nthu.edu.tw/xml/Markersite.xml",
+      "address_source_url": "https://delt.site.nthu.edu.tw/index.php",
+      "aliases": [
+        "教科系"
+      ]
+    },
+    "科技藝術研究所": {
+      "lat": 24.792584,
+      "lon": 120.963262,
+      "building": "第二活動中心（南大校區）",
+      "source_url": "https://campusmap.cc.nthu.edu.tw/sd/xml/Markersite.xml",
+      "address_source_url": "https://art.nthu.edu.tw/?page_id=3947",
+      "aliases": [
+        "科藝所"
+      ]
+    },
+    "英語教育中心": {
+      "lat": 24.79438,
+      "lon": 120.99325,
+      "building": "第二綜合大樓",
+      "source_url": "https://campusmap.cc.nthu.edu.tw/xml/Markersite.xml",
+      "address_source_url": "https://nthu-english.site.nthu.edu.tw/p/412-1532-18290.php",
+      "aliases": [
+        "英教中心"
+      ]
+    },
+    "統計與數據科學研究所": {
+      "lat": 24.79507,
+      "lon": 120.99358,
+      "building": "第三綜合大樓",
+      "source_url": "https://campusmap.cc.nthu.edu.tw/xml/Markersite.xml",
+      "address_source_url": "https://campusmap.cc.nthu.edu.tw/xml/Markersite.xml",
+      "aliases": [
+        "統計研究所",
+        "統計所"
+      ]
+    },
+    "分子與細胞生物研究所": {
+      "lat": 24.78945,
+      "lon": 120.9897,
+      "building": "生命科學二館",
+      "source_url": "https://campusmap.cc.nthu.edu.tw/xml/Markersite.xml",
+      "address_source_url": "https://campusmap.cc.nthu.edu.tw/xml/Markersite.xml",
+      "aliases": [
+        "分生所"
+      ]
+    },
+    "動力機械工程學系": {
+      "lat": 24.79519,
+      "lon": 120.99604,
+      "building": "工程一館",
+      "source_url": "https://campusmap.cc.nthu.edu.tw/xml/Markersite.xml",
+      "address_source_url": "https://campusmap.cc.nthu.edu.tw/xml/Markersite.xml",
+      "aliases": [
+        "動機系",
+        "動力機械系"
+      ]
+    },
+    "音樂學系": {
+      "lat": 24.792348,
+      "lon": 120.964215,
+      "building": "音樂系館（南大校區）",
+      "source_url": "https://campusmap.cc.nthu.edu.tw/sd/xml/Markersite.xml",
+      "address_source_url": "https://art.nthu.edu.tw/?page_id=3947",
+      "aliases": [
+        "音樂系"
+      ]
+    },
+    "科技管理學院": {
+      "lat": 24.78699,
+      "lon": 120.98795,
+      "building": "台積館",
+      "source_url": "https://campusmap.cc.nthu.edu.tw/xml/Markersite.xml",
+      "address_source_url": "https://www.ctm.nthu.edu.tw/tw/contact",
+      "aliases": [
+        "科管院",
+        "科管學院"
+      ]
+    },
+    "生醫工程與環境科學系": {
+      "lat": 24.78928,
+      "lon": 120.9914,
+      "building": "生醫工程與環境科學館",
+      "source_url": "https://campusmap.cc.nthu.edu.tw/xml/Markersite.xml",
+      "address_source_url": "https://campusmap.cc.nthu.edu.tw/sd/xml/Markersite.xml",
+      "aliases": [
+        "醫環系",
+        "生醫工程系"
+      ]
+    }
+  }
+}

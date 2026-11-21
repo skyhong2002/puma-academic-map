@@ -1,0 +1,130 @@
+{
+  "institution": "國立臺灣師範大學",
+  "units": {
+    "臺灣語文學系": {
+      "lat": 25.0277,
+      "lon": 121.529425,
+      "building": "教育學院大樓（耐震補強期間聯合辦公室）",
+      "source_url": "https://ap.itc.ntnu.edu.tw/NtnuMap/map.do?SchType=m&DeviceE=E&DeviceR=R&DeviceT=T",
+      "address_source_url": "https://www.ga.ntnu.edu.tw/SRP/",
+      "aliases": [
+        "臺文系",
+        "臺灣語文系"
+      ]
+    },
+    "臺灣史研究所": {
+      "lat": 25.0277,
+      "lon": 121.529425,
+      "building": "教育學院大樓（耐震補強期間聯合辦公室）",
+      "source_url": "https://ap.itc.ntnu.edu.tw/NtnuMap/map.do?SchType=m&DeviceE=E&DeviceR=R&DeviceT=T",
+      "address_source_url": "https://www.ga.ntnu.edu.tw/SRP/",
+      "aliases": [
+        "臺史所",
+        "臺灣史所"
+      ]
+    },
+    "翻譯研究所": {
+      "lat": 25.0277,
+      "lon": 121.529425,
+      "building": "教育學院大樓（耐震補強期間聯合辦公室）",
+      "source_url": "https://ap.itc.ntnu.edu.tw/NtnuMap/map.do?SchType=m&DeviceE=E&DeviceR=R&DeviceT=T",
+      "address_source_url": "https://www.ga.ntnu.edu.tw/SRP/",
+      "aliases": [
+        "翻譯所"
+      ]
+    },
+    "幼兒與家庭科學學系": {
+      "lat": 25.0277,
+      "lon": 121.529425,
+      "building": "教育學院大樓（耐震補強期間聯合辦公室）",
+      "source_url": "https://ap.itc.ntnu.edu.tw/NtnuMap/map.do?SchType=m&DeviceE=E&DeviceR=R&DeviceT=T",
+      "address_source_url": "https://www.ga.ntnu.edu.tw/SRP/",
+      "aliases": [
+        "幼家科學系",
+        "幼家系",
+        "人類發展與家庭學系"
+      ]
+    },
+    "健康促進與衛生教育學系": {
+      "lat": 25.0277,
+      "lon": 121.529425,
+      "building": "教育學院大樓（耐震補強期間聯合辦公室）",
+      "source_url": "https://ap.itc.ntnu.edu.tw/NtnuMap/map.do?SchType=m&DeviceE=E&DeviceR=R&DeviceT=T",
+      "address_source_url": "https://www.ga.ntnu.edu.tw/SRP/",
+      "aliases": [
+        "衛教系",
+        "衛生教育學系"
+      ]
+    },
+    "學習資訊專業學院": {
+      "lat": 25.0277,
+      "lon": 121.529425,
+      "building": "教育學院大樓",
+      "source_url": "https://ap.itc.ntnu.edu.tw/NtnuMap/map.do?SchType=m&DeviceE=E&DeviceR=R&DeviceT=T",
+      "address_source_url": "https://www.sli.ntnu.edu.tw/index.php/about/"
+    },
+    "體育與運動科學系": {
+      "lat": 25.025881,
+      "lon": 121.526333,
+      "building": "和平校區體育館",
+      "source_url": "https://www.openstreetmap.org/way/602798035",
+      "address_source_url": "https://www.pe.ntnu.edu.tw/student/scholarships.htm",
+      "aliases": [
+        "體育學系",
+        "體育系"
+      ]
+    },
+    "設計學系": {
+      "lat": 25.028506,
+      "lon": 121.532116,
+      "building": "青田大樓（設計系館）",
+      "source_url": "https://www.openstreetmap.org/way/613085036",
+      "address_source_url": "https://www.design.ntnu.edu.tw/?page_id=3974"
+    },
+    "政治學研究所": {
+      "lat": 25.024909,
+      "lon": 121.527816,
+      "building": "誠大樓（政治學研究所舊址）",
+      "source_url": "https://www.openstreetmap.org/way/206087144",
+      "address_source_url": "https://sw.ntnu.edu.tw/File/Archive/EF-47-87-49-DB-6E-B8-4C-E0-A4-53-3E-C7-66-84-26.pdf",
+      "aliases": [
+        "政研所"
+      ]
+    },
+    "民族音樂研究所": {
+      "lat": 25.024853,
+      "lon": 121.528952,
+      "building": "音樂學院二樓",
+      "source_url": "https://www.musicollege.ntnu.edu.tw/index.php/en/location-en/",
+      "address_source_url": "https://www.musicollege.ntnu.edu.tw/index.php/folk-music-institute/",
+      "aliases": [
+        "民音所",
+        "民族音樂所"
+      ]
+    },
+    "原住民族教育文化學分學程": {
+      "lat": 25.0277,
+      "lon": 121.529425,
+      "building": "教育學院大樓（主辦單位文學院聯合辦公室）",
+      "source_url": "https://www.ga.ntnu.edu.tw/SRP/",
+      "address_source_url": "https://www.cla.ntnu.edu.tw/index.php/iec-program-enrollment/",
+      "aliases": [
+        "原住民族教育文化學程"
+      ]
+    },
+    "數學教育中心": {
+      "lat": 25.007338,
+      "lon": 121.536514,
+      "building": "科教大樓",
+      "source_url": "https://ap.itc.ntnu.edu.tw/NtnuMap/map.do?SchType=G&DeviceE=E&DeviceR=R&DeviceT=T",
+      "address_source_url": "https://pms.itc.ntnu.edu.tw/HireApp/AdminServletCtrl?action=job_detail&s=6444"
+    },
+    "科學教育中心": {
+      "lat": 25.007338,
+      "lon": 121.536514,
+      "building": "科教大樓",
+      "source_url": "https://ap.itc.ntnu.edu.tw/NtnuMap/map.do?SchType=G&DeviceE=E&DeviceR=R&DeviceT=T",
+      "address_source_url": "https://www.sec.ntnu.edu.tw/zh_tw/Faculty2/faculty"
+    }
+  }
+}

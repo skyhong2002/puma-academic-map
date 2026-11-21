@@ -577,8 +577,8 @@ export function mountDirectory(element, { onSelectCounty, onLocate, onLocateUnit
           places.length ? h('ul', { class: 'pa-dir-entry-places' }, places.map((place) => h('li', {},
             h('button', { type: 'button', class: 'pa-dir-cand',
               onClick: () => onLocate?.(entry, place),
-              text: [place.institution, place.city, place.country].filter(Boolean).join(' · '),
-              'aria-label': `在地圖定位 ${entry.name}，${place.institution}`,
+              text: [place.institution, place.campus, place.city, place.country].filter(Boolean).join(' · '),
+              'aria-label': `在地圖定位 ${entry.name}，${[place.institution, place.campus, place.city].filter(Boolean).join(' · ')}`,
             })))) : null,
           !places.length ? h('p', { class: 'pa-dir-entry-note', text: '尚未取得可對應的機構座標。' }) : null,
           candidates.length

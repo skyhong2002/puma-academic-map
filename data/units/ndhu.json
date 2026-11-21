@@ -1,0 +1,126 @@
+{
+  "institution": "國立東華大學",
+  "units": {
+    "歷史學系": {
+      "lat": 23.8940456,
+      "lon": 121.5420904,
+      "building": "人文社會科學學院三館",
+      "source_url": "https://www.openstreetmap.org/relation/7009081",
+      "address_source_url": "https://dhist.ndhu.edu.tw/p/412-1060-83.php",
+      "aliases": [
+        "歷史學系暨研究所"
+      ]
+    },
+    "臺灣文化學系": {
+      "lat": 23.8940456,
+      "lon": 121.5420904,
+      "building": "人文社會科學學院三館",
+      "source_url": "https://www.openstreetmap.org/relation/7009081",
+      "address_source_url": "https://rb014.ndhu.edu.tw/p/404-1014-231018.php?Lang=zh-tw",
+      "aliases": [
+        "臺灣文化學系暨研究所"
+      ]
+    },
+    "華文文學與創作學系": {
+      "lat": 23.8949284,
+      "lon": 121.5421093,
+      "building": "人文社會科學學院一館",
+      "source_url": "https://www.openstreetmap.org/relation/7009080",
+      "address_source_url": "https://rb014.ndhu.edu.tw/p/404-1014-231018.php?Lang=zh-tw",
+      "aliases": [
+        "華文文學系",
+        "華文系"
+      ]
+    },
+    "諮商與臨床心理學系": {
+      "lat": 23.8959839,
+      "lon": 121.5410983,
+      "building": "人文社會科學學院二館",
+      "source_url": "https://www.openstreetmap.org/relation/7009079",
+      "address_source_url": "https://rb014.ndhu.edu.tw/p/404-1014-231018.php?Lang=zh-tw"
+    },
+    "社會學系": {
+      "lat": 23.8959839,
+      "lon": 121.5410983,
+      "building": "人文社會科學學院二館",
+      "source_url": "https://www.openstreetmap.org/relation/7009079",
+      "address_source_url": "https://rb014.ndhu.edu.tw/p/404-1014-231018.php?Lang=zh-tw"
+    },
+    "經濟學系": {
+      "lat": 23.8959839,
+      "lon": 121.5410983,
+      "building": "人文社會科學學院二館",
+      "source_url": "https://www.openstreetmap.org/relation/7009079",
+      "address_source_url": "https://rb014.ndhu.edu.tw/p/404-1014-231018.php?Lang=zh-tw"
+    },
+    "民族發展與社會工作學系": {
+      "lat": 23.8957731,
+      "lon": 121.545962,
+      "building": "原住民民族學院教學大樓 A、B 棟",
+      "source_url": "https://www.openstreetmap.org/relation/7009082",
+      "address_source_url": "https://ga.ndhu.edu.tw/var/file/6/1006/img/3910/906295265.pdf"
+    },
+    "族群關係與文化學系": {
+      "lat": 23.8957731,
+      "lon": 121.545962,
+      "building": "原住民民族學院教學大樓 A、B 棟",
+      "source_url": "https://www.openstreetmap.org/relation/7009082",
+      "address_source_url": "https://erc.ndhu.edu.tw/p/406-1062-144088%2Cr1351.php?Lang=zh-tw"
+    },
+    "國際企業學系": {
+      "lat": 23.8977621,
+      "lon": 121.539781,
+      "building": "管理學院",
+      "source_url": "https://www.openstreetmap.org/relation/2651732",
+      "address_source_url": "https://management.ndhu.edu.tw/p/412-1013-328.php?Lang=zh-tw"
+    },
+    "藝術創意產業學系": {
+      "lat": 23.8928153,
+      "lon": 121.5429232,
+      "building": "藝術學院",
+      "source_url": "https://www.openstreetmap.org/relation/12118860",
+      "address_source_url": "https://artci.ndhu.edu.tw/p/405-1074-257047%2Cc22970.php?Lang=zh-tw"
+    },
+    "自然資源與環境學系": {
+      "lat": 23.895982,
+      "lon": 121.5485419,
+      "building": "環境暨海洋學院",
+      "source_url": "https://www.openstreetmap.org/way/891232004",
+      "address_source_url": "https://ga.ndhu.edu.tw/var/file/6/1006/img/3910/906295265.pdf"
+    },
+    "法律學系": {
+      "lat": 23.8959839,
+      "lon": 121.5410983,
+      "building": "人文社會科學學院二館",
+      "source_url": "https://www.openstreetmap.org/relation/7009079",
+      "address_source_url": "https://rc078.ndhu.edu.tw/p/412-1115-9363.php?Lang=zh-tw"
+    },
+    "光電工程學系": {
+      "lat": 23.8993976,
+      "lon": 121.5450823,
+      "building": "理工二館",
+      "source_url": "https://www.openstreetmap.org/relation/2602880",
+      "address_source_url": "https://ga.ndhu.edu.tw/var/file/6/1006/img/3910/906295265.pdf"
+    },
+    "資訊工程學系": {
+      "lat": 23.8993976,
+      "lon": 121.5450823,
+      "building": "理工二館",
+      "source_url": "https://www.openstreetmap.org/relation/2602880",
+      "address_source_url": "https://ga.ndhu.edu.tw/var/file/6/1006/img/3910/906295265.pdf",
+      "aliases": [
+        "資訊工程學系暨研究所"
+      ]
+    },
+    "通識教育中心": {
+      "lat": 23.894914,
+      "lon": 121.5493152,
+      "building": "洄瀾學院",
+      "source_url": "https://www.openstreetmap.org/way/194114647",
+      "address_source_url": "https://genedu.ndhu.edu.tw/p/404-1076-245696.php?Lang=zh-tw",
+      "aliases": [
+        "洄瀾學院通識教育中心"
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "國立東華大學": {
+    "file": "tw-ndhu.png",
+    "source_url": "https://www.ndhu.edu.tw/p/405-1000-45040,c8810.php?Lang=zh-tw",
+    "license_url": "https://osa.ndhu.edu.tw/var/file/5/1005/attach/43/pta_51647_3266072_89260.pdf",
+    "credit": "國立東華大學官方校徽。秘書室公告可下載使用，保留原正圓比例及官方色彩。",
+    "usage": "僅作非商業地理識別。請保留原比例和色彩，並避免暗示校方支持。",
+    "usage_url": "https://rdoffice.ndhu.edu.tw/var/file/3/1003/img/4640/RDD-4-005.pdf"
+  },
+  "國立雲林科技大學": {
+    "file": "tw-yuntech.png",
+    "source_url": "https://www.yuntech.edu.tw/index.php/home/2019-07-25-02-21-1",
+    "license_url": "https://www.yuntech.edu.tw/index.php/home/2019-07-25-02-21-1",
+    "credit": "國立雲林科技大學學校 CI 基本系統，校方提供標準校徽供下載使用。",
+    "usage": "以校方提供的標準校徽作非商業地理識別，避免暗示校方支持。"
+  },
+  "德明財經科技大學": {
+    "file": "tw-takming.svg",
+    "source_url": "https://www.takming.edu.tw/schoolinfo/schoolsong.htm",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Takming_University_of_Science_and_Technology_logo.svg",
+    "credit": "德明財經科技大學校徽。Wikimedia Commons 將校方公開的幾何圖樣標為公有領域，並保留商標註記。",
+    "usage": "依校方校徽說明作非商業地理識別，保留原比例和色彩，避免暗示校方支持。",
+    "usage_url": "https://www.takming.edu.tw/CI/tm_cis.pdf"
+  }
+}

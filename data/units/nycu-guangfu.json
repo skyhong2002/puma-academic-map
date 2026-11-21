@@ -1,0 +1,298 @@
+{
+  "institution": "國立陽明交通大學",
+  "campus": "新竹光復校區",
+  "units": {
+    "資訊工程學系": {
+      "lat": 24.787002,
+      "lon": 120.9974558,
+      "building": "工程三館",
+      "source_url": "https://www.openstreetmap.org/way/134752749",
+      "address_source_url": "https://www.cs.nycu.edu.tw/contact-us?locale=zh",
+      "aliases": [
+        "資訊系",
+        "資工系",
+        "資工學系"
+      ]
+    },
+    "電機工程學系": {
+      "lat": 24.7869784,
+      "lon": 120.9967598,
+      "building": "工程四館",
+      "source_url": "https://www.openstreetmap.org/way/134752750",
+      "address_source_url": "https://iece.dee.nycu.edu.tw/news.php?locale=tw&news_id=835&pa=getItem",
+      "aliases": [
+        "電機系",
+        "電機工程系"
+      ]
+    },
+    "電子研究所": {
+      "lat": 24.7869784,
+      "lon": 120.9967598,
+      "building": "工程四館",
+      "source_url": "https://www.openstreetmap.org/way/134752750",
+      "address_source_url": "https://iee.nycu.edu.tw/tw/about/index.php?kind=11&root=1",
+      "aliases": [
+        "電子所"
+      ]
+    },
+    "電機學院": {
+      "lat": 24.7869784,
+      "lon": 120.9967598,
+      "building": "工程四館",
+      "source_url": "https://www.openstreetmap.org/way/134752750",
+      "address_source_url": "https://ece.nycu.edu.tw/content/index.aspx?Parser=1%2C4%2C32"
+    },
+    "電控工程研究所": {
+      "lat": 24.7858656,
+      "lon": 120.9973888,
+      "building": "工程五館",
+      "source_url": "https://www.openstreetmap.org/way/135404506",
+      "address_source_url": "https://cn.nycu.edu.tw/news.php?locale=tw&news_id=269&pa=getItem",
+      "aliases": [
+        "電控所"
+      ]
+    },
+    "電信工程研究所": {
+      "lat": 24.7869784,
+      "lon": 120.9967598,
+      "building": "工程四館",
+      "source_url": "https://www.openstreetmap.org/way/134752750",
+      "address_source_url": "https://cm.nycu.edu.tw/news.php?locale=tw&news_id=253&pa=getItem",
+      "aliases": [
+        "電信所",
+        "通訊所"
+      ]
+    },
+    "土木工程學系": {
+      "lat": 24.7888034,
+      "lon": 120.9974848,
+      "building": "工程二館",
+      "source_url": "https://www.openstreetmap.org/way/441724030",
+      "address_source_url": "https://ce.nycu.edu.tw/en/traffic-info",
+      "aliases": [
+        "土木系",
+        "土木工程系"
+      ]
+    },
+    "機械工程學系": {
+      "lat": 24.7858656,
+      "lon": 120.9973888,
+      "building": "工程五館",
+      "source_url": "https://www.openstreetmap.org/way/135404506",
+      "address_source_url": "https://me.nycu.edu.tw/zh_tw/contact",
+      "aliases": [
+        "機械系",
+        "機械工程系"
+      ]
+    },
+    "材料科學與工程學系": {
+      "lat": 24.785948,
+      "lon": 120.9960747,
+      "building": "工程六館",
+      "source_url": "https://www.openstreetmap.org/way/134794408",
+      "address_source_url": "https://mse.nycu.edu.tw/%E7%B3%BB%E6%89%80%E4%BD%8D%E7%BD%AE/",
+      "aliases": [
+        "材料系",
+        "材料科學系",
+        "材料科學與工程系"
+      ]
+    },
+    "光電工程學系": {
+      "lat": 24.7867653,
+      "lon": 120.995971,
+      "building": "交映樓",
+      "source_url": "https://www.openstreetmap.org/way/135631888",
+      "address_source_url": "https://dop.nycu.edu.tw/ch/administration.html?cID=3",
+      "aliases": [
+        "光電系",
+        "光電工程系"
+      ]
+    },
+    "半導體工程學系": {
+      "lat": 24.7869784,
+      "lon": 120.9967598,
+      "building": "工程四館",
+      "source_url": "https://www.openstreetmap.org/way/134752750",
+      "address_source_url": "https://mee.nycu.edu.tw/en/about-us/%E5%9C%B0%E7%90%86%E4%BD%8D%E7%BD%AE/",
+      "aliases": [
+        "半導體系",
+        "半導體工程系"
+      ]
+    },
+    "應用數學系": {
+      "lat": 24.7880365,
+      "lon": 120.9967157,
+      "building": "科學一館",
+      "source_url": "https://www.openstreetmap.org/way/134752398",
+      "address_source_url": "https://imf.nycu.edu.tw/imf/ch/app/data/doc?detailNo=1494229310716776448&module=nycu0141&type=s",
+      "aliases": [
+        "應數系"
+      ]
+    },
+    "應用化學系": {
+      "lat": 24.7890131,
+      "lon": 120.9965219,
+      "building": "科學二館",
+      "source_url": "https://www.openstreetmap.org/way/134752912",
+      "address_source_url": "https://dac.nycu.edu.tw/%E7%B3%BB%E6%89%80%E6%88%90%E5%93%A1/%E8%A1%8C%E6%94%BF%E4%BA%BA%E5%93%A1/",
+      "aliases": [
+        "應化系",
+        "應用化學學系"
+      ]
+    },
+    "電子物理學系": {
+      "lat": 24.7880738,
+      "lon": 120.9960237,
+      "building": "科學三館",
+      "source_url": "https://www.openstreetmap.org/relation/13172246",
+      "address_source_url": "https://physlab.ep.nycu.edu.tw/?page_id=28",
+      "aliases": [
+        "電物系",
+        "電子物理系"
+      ]
+    },
+    "物理研究所": {
+      "lat": 24.7880738,
+      "lon": 120.9960237,
+      "building": "科學三館",
+      "source_url": "https://www.openstreetmap.org/relation/13172246",
+      "address_source_url": "https://phys.nycu.edu.tw/%E6%9C%AC%E6%89%80%E4%BB%8B%E7%B4%B9/%E7%A9%BA%E9%96%93%E9%85%8D%E7%BD%AE/",
+      "aliases": [
+        "物理所"
+      ]
+    },
+    "統計學研究所": {
+      "lat": 24.7846364,
+      "lon": 120.9972857,
+      "building": "綜合一館",
+      "source_url": "https://www.openstreetmap.org/way/134753275",
+      "address_source_url": "https://stat.nycu.edu.tw/zh_tw/about/contact",
+      "aliases": [
+        "統計所",
+        "統計研究所"
+      ]
+    },
+    "太空系統工程研究所": {
+      "lat": 24.7858656,
+      "lon": 120.9973888,
+      "building": "工程五館",
+      "source_url": "https://www.openstreetmap.org/way/135404506",
+      "address_source_url": "https://isse.nycu.edu.tw/zh-tw/about/detail/contact",
+      "aliases": [
+        "太空所"
+      ]
+    },
+    "音樂研究所": {
+      "lat": 24.785957,
+      "lon": 120.9998823,
+      "building": "人社三館",
+      "source_url": "https://www.openstreetmap.org/way/256900770",
+      "address_source_url": "https://imu.nycu.edu.tw/intro.php",
+      "aliases": [
+        "音樂所"
+      ]
+    },
+    "應用藝術研究所": {
+      "lat": 24.787388,
+      "lon": 120.9986367,
+      "building": "人社一館",
+      "source_url": "https://www.openstreetmap.org/way/135992304",
+      "address_source_url": "https://iaa.nycu.edu.tw/?page_id=538",
+      "aliases": [
+        "應藝所",
+        "應用藝術所"
+      ]
+    },
+    "外國語文學系": {
+      "lat": 24.785957,
+      "lon": 120.9998823,
+      "building": "人社三館",
+      "source_url": "https://www.openstreetmap.org/way/256900770",
+      "address_source_url": "https://fl.nycu.edu.tw/%E8%A1%8C%E6%94%BF%E4%BA%BA%E5%93%A1/",
+      "aliases": [
+        "外文系",
+        "外國語文系"
+      ]
+    },
+    "工業工程與管理學系": {
+      "lat": 24.7853729,
+      "lon": 120.9985309,
+      "building": "管理二館",
+      "source_url": "https://www.openstreetmap.org/way/134753729",
+      "address_source_url": "https://cross.web.nycu.edu.tw/contact/",
+      "aliases": [
+        "工業工程系",
+        "工業工程學系",
+        "工工系",
+        "工管系",
+        "工業工程與管理系"
+      ]
+    },
+    "管理學院": {
+      "lat": 24.7853729,
+      "lon": 120.9985309,
+      "building": "管理二館",
+      "source_url": "https://www.openstreetmap.org/way/134753729",
+      "address_source_url": "https://com.nycu.edu.tw/",
+      "aliases": [
+        "管院"
+      ]
+    },
+    "資訊管理研究所": {
+      "lat": 24.7853729,
+      "lon": 120.9985309,
+      "building": "管理二館",
+      "source_url": "https://www.openstreetmap.org/way/134753729",
+      "address_source_url": "https://iim.nycu.edu.tw/iim/ch/app/artwebsite/view?id=37986&module=artwebsite&serno=df31ea99-58f7-4fb7-87a4-d2956a919e15",
+      "aliases": [
+        "資管所",
+        "資訊管理所"
+      ]
+    },
+    "語言教學與研究中心": {
+      "lat": 24.7846364,
+      "lon": 120.9972857,
+      "building": "綜合一館",
+      "source_url": "https://www.openstreetmap.org/way/134753275",
+      "address_source_url": "https://ltrc.nycu.edu.tw/members/",
+      "aliases": [
+        "語言中心"
+      ]
+    },
+    "環境工程研究所": {
+      "lat": 24.7903738,
+      "lon": 120.996202,
+      "building": "環境工程館",
+      "source_url": "https://www.openstreetmap.org/way/138080039",
+      "address_source_url": "https://ev.nycu.edu.tw/zh_tw/about",
+      "aliases": [
+        "環工所",
+        "環境工程所"
+      ]
+    },
+    "百川學士學位學程": {
+      "lat": 24.7846364,
+      "lon": 120.9972857,
+      "building": "綜合一館",
+      "source_url": "https://www.openstreetmap.org/way/134753275",
+      "address_source_url": "https://aretehp.nycu.edu.tw/?p=3762",
+      "aliases": [
+        "百川學程",
+        "百川學士學程",
+        "百川學位學程"
+      ]
+    },
+    "企業管理碩士學位學程": {
+      "lat": 24.7875905,
+      "lon": 121.0005458,
+      "building": "管理一館",
+      "source_url": "https://www.openstreetmap.org/way/134752746",
+      "address_source_url": "https://gmba.nycu.edu.tw/faculty/yau-de-wang/",
+      "aliases": [
+        "企業管理碩士學程",
+        "GMBA",
+        "Global MBA"
+      ]
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "institution": "國立臺北藝術大學",
+  "units": {
+    "博物館研究所": {
+      "lat": 25.13388,
+      "lon": 121.471265,
+      "building": "研究大樓",
+      "source_url": "https://www.openstreetmap.org/way/379374324",
+      "address_source_url": "https://chai.tnua.edu.tw/faculty/pr10/",
+      "aliases": [
+        "博物館所"
+      ]
+    },
+    "電影創作學系": {
+      "lat": 25.132124,
+      "lon": 121.466635,
+      "building": "藝文生態館",
+      "source_url": "https://www.openstreetmap.org/way/256161760",
+      "address_source_url": "https://admissionex.tnua.edu.tw/wp-content/uploads/2025/04/114_bachelor_map.pdf",
+      "aliases": [
+        "電影系",
+        "電影學系",
+        "電影創作系"
+      ]
+    },
+    "美術學系": {
+      "lat": 25.134292,
+      "lon": 121.47158,
+      "building": "美術系館",
+      "source_url": "https://www.openstreetmap.org/way/256161747",
+      "address_source_url": "https://ga.tnua.edu.tw/wp-content/uploads/2021/07/%E9%99%84%E4%BB%B6%E5%9B%9B-1.pdf",
+      "aliases": [
+        "美術系"
+      ]
+    },
+    "戲劇學系": {
+      "lat": 25.131638,
+      "lon": 121.469287,
+      "building": "戲劇系館",
+      "source_url": "https://www.openstreetmap.org/way/547027662",
+      "address_source_url": "https://admissionex.tnua.edu.tw/wp-content/uploads/2025/04/114_bachelor_map.pdf",
+      "aliases": [
+        "戲劇系"
+      ]
+    },
+    "劇場設計學系": {
+      "lat": 25.131379,
+      "lon": 121.468638,
+      "building": "戲劇舞蹈大樓",
+      "source_url": "https://www.openstreetmap.org/way/256161753",
+      "address_source_url": "https://ga.tnua.edu.tw/wp-content/uploads/2021/07/%E9%99%84%E4%BB%B6%E5%9B%9B-1.pdf",
+      "aliases": [
+        "劇場設計系"
+      ]
+    },
+    "傳統音樂學系": {
+      "lat": 25.132019,
+      "lon": 121.46907,
+      "building": "音樂二館",
+      "source_url": "https://www.openstreetmap.org/way/256161750",
+      "address_source_url": "https://admissionex.tnua.edu.tw/wp-content/uploads/2025/04/114_bachelor_map.pdf",
+      "aliases": [
+        "音樂學院傳統音樂學系",
+        "傳音系",
+        "傳統音樂系"
+      ]
+    },
+    "通識教育中心": {
+      "lat": 25.134044,
+      "lon": 121.471064,
+      "building": "教學大樓",
+      "source_url": "https://www.openstreetmap.org/way/256161746",
+      "address_source_url": "https://cfge.tnua.edu.tw/web/introduction/introduction.jsp?cp_id=CP1721898896328&lang=tw",
+      "aliases": [
+        "通識中心",
+        "通識教育"
+      ]
+    },
+    "音樂學系": {
+      "lat": 25.13243,
+      "lon": 121.469706,
+      "building": "音樂一館",
+      "source_url": "https://www.openstreetmap.org/way/547027651",
+      "address_source_url": "https://admissionex.tnua.edu.tw/wp-content/uploads/2026/02/115_exam_music01.pdf",
+      "aliases": [
+        "音樂系"
+      ]
+    },
+    "動畫學系": {
+      "lat": 25.136318,
+      "lon": 121.472425,
+      "building": "動畫與新媒體藝術大樓",
+      "source_url": "https://www.openstreetmap.org/way/1009726557",
+      "address_source_url": "https://admissionex.tnua.edu.tw/wp-content/uploads/2025/04/114_bachelor_map.pdf",
+      "aliases": [
+        "動畫系所",
+        "動畫系",
+        "動新大樓"
+      ]
+    }
+  }
+}

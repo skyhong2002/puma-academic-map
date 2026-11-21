@@ -1,0 +1,128 @@
+{
+  "institution": "國立陽明交通大學",
+  "campus": "臺北陽明校區",
+  "units": {
+    "醫學系": {
+      "lat": 25.1227788,
+      "lon": 121.5143682,
+      "building": "醫學館",
+      "source_url": "https://www.openstreetmap.org/way/172361054",
+      "address_source_url": "https://med.nycu.edu.tw/",
+      "aliases": [
+        "醫學院醫學系"
+      ]
+    },
+    "醫學院": {
+      "lat": 25.1227788,
+      "lon": 121.5143682,
+      "building": "醫學館",
+      "source_url": "https://www.openstreetmap.org/way/172361054",
+      "address_source_url": "https://som.nycu.edu.tw/som/ch/app/artwebsite/view?id=36413&module=artwebsite&serno=3b4eb2b8-d61a-4336-a5bf-2f91c00f664c",
+      "aliases": []
+    },
+    "牙醫學系": {
+      "lat": 25.1229308,
+      "lon": 121.5151678,
+      "building": "牙醫館",
+      "source_url": "https://www.openstreetmap.org/way/172361533",
+      "address_source_url": "https://www.nycu.edu.tw/cod/ch/app/artwebsite/view?id=38949&module=artwebsite&serno=70549edc-8cc8-4d8c-81cb-dcbe7fd8a9f1",
+      "aliases": [
+        "牙醫系"
+      ]
+    },
+    "中醫學系": {
+      "lat": 25.1197583,
+      "lon": 121.514581,
+      "building": "傳統醫學大樓甲棟",
+      "source_url": "https://www.openstreetmap.org/way/402804513",
+      "address_source_url": "https://exam.nycu.edu.tw/apfiles/action.aspx?id=94154e34-e6a0-4b27-8082-864c380e043e",
+      "aliases": [
+        "中醫系"
+      ]
+    },
+    "護理學院": {
+      "lat": 25.122306,
+      "lon": 121.515541,
+      "building": "護理館",
+      "source_url": "https://www.openstreetmap.org/way/172361532",
+      "address_source_url": "https://exam.nycu.edu.tw/apfiles/action.aspx?id=94154e34-e6a0-4b27-8082-864c380e043e",
+      "aliases": [
+        "護理學系"
+      ]
+    },
+    "生物醫學影像暨放射科學系": {
+      "lat": 25.1236072,
+      "lon": 121.5157054,
+      "building": "生醫工程館",
+      "source_url": "https://www.openstreetmap.org/way/172360345",
+      "address_source_url": "https://exam.nycu.edu.tw/apfiles/action.aspx?id=94154e34-e6a0-4b27-8082-864c380e043e",
+      "aliases": [
+        "生醫影像暨放射科學系",
+        "生物醫學放射科學系"
+      ]
+    },
+    "生物醫學資訊研究所": {
+      "lat": 25.1192615,
+      "lon": 121.5138458,
+      "building": "守仁樓",
+      "source_url": "https://www.openstreetmap.org/way/172360772",
+      "address_source_url": "https://bmi.nycu.edu.tw/%E7%B3%BB%E6%89%80%E8%B3%87%E8%A8%8A/%E7%A9%BA%E9%96%93%E8%A6%8F%E5%8A%83/",
+      "aliases": [
+        "生物醫學資訊所",
+        "生醫資訊所"
+      ]
+    },
+    "臨床醫學研究所": {
+      "lat": 25.1229158,
+      "lon": 121.5159048,
+      "building": "醫學二館",
+      "source_url": "https://www.openstreetmap.org/way/172361531",
+      "address_source_url": "https://ga-ephone.nycu.edu.tw/information.php?area_id=8&class_id=2&parent_id=235",
+      "aliases": [
+        "臨醫所"
+      ]
+    },
+    "神經科學研究所": {
+      "lat": 25.1204807,
+      "lon": 121.5136383,
+      "building": "圖資大樓",
+      "source_url": "https://www.openstreetmap.org/relation/12472290",
+      "address_source_url": "https://ins.nycu.edu.tw/",
+      "aliases": [
+        "神研所",
+        "神經所"
+      ]
+    },
+    "視覺文化研究所": {
+      "lat": 25.1235176,
+      "lon": 121.5129934,
+      "building": "知行樓",
+      "source_url": "https://maps.app.goo.gl/PE4pzTZRwvbDZ95m9",
+      "address_source_url": "https://svc.nycu.edu.tw/svc/ch/app/artwebsite/view?id=5919&module=artwebsite&serno=9e1ac969-39d7-42c1-9689-eb5f6ca79713",
+      "aliases": [
+        "視覺文化所"
+      ]
+    },
+    "生物醫學工程學系": {
+      "lat": 25.1236072,
+      "lon": 121.5157054,
+      "building": "生醫工程館",
+      "source_url": "https://www.openstreetmap.org/way/172360345",
+      "address_source_url": "https://nycubme.nycu.edu.tw/archives/3812",
+      "aliases": [
+        "醫工系",
+        "生醫工程系"
+      ]
+    },
+    "衛生福利研究所": {
+      "lat": 25.122306,
+      "lon": 121.515541,
+      "building": "護理館",
+      "source_url": "https://www.openstreetmap.org/way/172361532",
+      "address_source_url": "https://shmp.nycu.edu.tw/userfiles/shmpch/files/20260326132435936.pdf",
+      "aliases": [
+        "衛福所"
+      ]
+    }
+  }
+}

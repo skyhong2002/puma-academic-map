@@ -137,6 +137,24 @@
         "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.974/24.792/7500"
       },
       {
+        "name": "新竹博愛校區",
+        "county": "新竹市",
+        "address": "新竹市東區博愛街75號",
+        "source_url": "https://www.nycu.edu.tw/nycu/ch/app/artwebsite/view?id=3981&module=artwebsite&serno=c7e74691-8e3b-4ce5-bc4c-bf801f78b1fe",
+        "lat": 24.796925,
+        "lon": 120.981409,
+        "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.01/24.81/9000"
+      },
+      {
+        "name": "六家校區",
+        "county": "新竹縣",
+        "address": "新竹縣竹北市六家五路一段1號",
+        "source_url": "https://www.nycu.edu.tw/nycu/ch/app/artwebsite/view?id=3981&module=artwebsite&serno=c7e74691-8e3b-4ce5-bc4c-bf801f78b1fe",
+        "lat": 24.812305,
+        "lon": 121.023443,
+        "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.01/24.81/9000"
+      },
+      {
         "name": "臺北陽明校區",
         "county": "臺北市",
         "address": "臺北市北投區立農街二段155號",
@@ -329,6 +347,35 @@
         "lat": 24.821201,
         "lon": 121.729059,
         "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.729/24.816/6500"
+      }
+    ],
+    "checked_on": "2026-11-21"
+  },
+  {
+    "name": "國立臺北大學",
+    "aliases": [
+      "臺北大學",
+      "北大"
+    ],
+    "official_url": "https://new.ntpu.edu.tw/",
+    "campuses": [
+      {
+        "name": "三峽校區",
+        "county": "新北市",
+        "address": "新北市三峽區大學路151號",
+        "source_url": "https://new.ntpu.edu.tw/about/map-directions",
+        "lat": 24.944342,
+        "lon": 121.372753,
+        "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.37/24.94/10000"
+      },
+      {
+        "name": "臺北民生校區",
+        "county": "臺北市",
+        "address": "臺北市中山區民生東路三段67號",
+        "source_url": "https://new.ntpu.edu.tw/about/map-directions",
+        "lat": 25.0592094,
+        "lon": 121.5426152,
+        "coordinate_source_url": "https://www.openstreetmap.org/way/312715992"
       }
     ],
     "checked_on": "2026-11-21"

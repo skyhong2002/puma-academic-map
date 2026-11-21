@@ -1,6 +1,7 @@
 import L from 'leaflet';
 import 'leaflet.markercluster';
 import { locatedUnit, unitLocations } from './unit-locations.js';
+import { emblemFor, emblemImage } from './emblems.js';
 
 const catalog = Object.values(import.meta.glob('../data/institutions/*.json', { eager: true, import: 'default' })).flat();
 
@@ -62,6 +63,11 @@ function campusTitle(point) {
 }
 
 function addEmblem(item, institution) {
+  const emblem = emblemFor(institution);
+  if (emblem) {
+    item.prepend(emblemImage(emblem));
+    return;
+  }
   const glyph = document.createElement('span');
   glyph.className = 'atlas-emblem';
   glyph.setAttribute('aria-hidden', 'true');
@@ -115,13 +121,25 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
   const positions = [0, 1, -1, 2, -2, 3, -3].flatMap((row) =>
     [0, 1, -1, 2, -2, 3, -3].map((column) => [column * 210, row * 125 - 10]));
   const peopleByUnit = new Map();
+  const campusesWithUnits = new Set();
   for (const group of groups) {
     for (const person of group.people) {
       const unit = locatedUnit(person, group.point);
       if (!unit) continue;
+      campusesWithUnits.add(group.point);
       if (!peopleByUnit.has(unit)) peopleByUnit.set(unit, new Set());
       peopleByUnit.get(unit).add(person);
     }
+  }
+
+  function mapPill(label, modifier, action) {
+    const item = button('', `atlas-map-pill ${modifier}`, action);
+    const text = document.createElement('span');
+    text.className = 'atlas-map-pill__label';
+    text.textContent = label;
+    item.append(text);
+    L.DomEvent.disableClickPropagation(item);
+    return item;
   }
 
   function showUnitPins(bounds) {
@@ -138,32 +156,31 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
       const pixel = map.latLngToLayerPoint(anchor);
       const members = points.flatMap((point) =>
         [...(peopleByUnit.get(point) ?? [])].map((person) => ({ person, point })));
-      const item = button(points.length === 1 ? points[0].unit : building, 'atlas-unit-label', () => onCampus({
+      const item = mapPill(points.length === 1 ? points[0].unit : building, 'atlas-unit-label', () => onCampus({
         point: points[0], unit: points.length === 1 ? points[0].unit : building,
         people: [...new Set(members.map(({ person }) => person))],
       }));
       item.title = [building, ...new Set(points.map((point) => point.unit))].join('・');
-      L.DomEvent.disableClickPropagation(item);
       cards.addLayer(L.marker(anchor, {
         icon: L.divIcon({ html: item, className: 'atlas-unit-marker', iconSize: [0, 0] }),
         interactive: false, keyboard: false,
       }));
       members.forEach(({ person, point }, index) => {
-        const ring = Math.floor(Math.sqrt(index / 6)) + 1;
-        const start = 6 * (ring - 1) ** 2;
-        const angle = (index - start) / (6 * (2 * ring - 1)) * Math.PI * 2;
-        const radius = ring === 1 ? 31 : 46 * ring - 10;
-        const position = map.layerPointToLatLng(pixel.add([Math.cos(angle) * radius, Math.sin(angle) * radius]));
-        const pin = button(person.portrait ? '' : Array.from(person.name)[0], 'atlas-person-dot', () => onPerson(person, point));
+        const columns = 4;
+        const row = Math.floor(index / columns);
+        const rowSize = Math.min(columns, members.length - row * columns);
+        const horizontal = (index % columns - (rowSize - 1) / 2) * 27;
+        const vertical = 27 + row * 27;
+        const position = map.layerPointToLatLng(pixel.add([horizontal, vertical]));
+        const pin = mapPill(person.name, 'atlas-person-dot', () => onPerson(person, point));
         pin.setAttribute('aria-label', person.name);
         pin.title = `${person.name}・${point.unit}`;
         if (person.portrait) {
           const image = document.createElement('img');
           image.src = person.portrait.image;
           image.alt = '';
-          pin.append(image);
+          pin.prepend(image);
         }
-        L.DomEvent.disableClickPropagation(pin);
         cards.addLayer(L.marker(position, {
           icon: L.divIcon({ html: pin, className: 'atlas-person-marker', iconSize: [24, 24] }),
           interactive: false, keyboard: false, zIndexOffset: 300,
@@ -199,9 +216,10 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
         const label = fallback.length === 1 && directPerson ? fallback[0].name : groupTitle;
         const open = () => fallback.length === 1 && directPerson
           ? onPerson(fallback[0], point) : onCampus({ ...group, people: fallback, campusOnly: true });
-        const marker = button(fallback.length > 1 ? `${label} · ${fallback.length}` : label, 'atlas-campus-fallback', open);
+        const marker = mapPill(fallback.length > 1 ? `${label} · ${fallback.length}` : label, 'atlas-campus-fallback', open);
+        const emblem = emblemFor(point.institution);
+        if (emblem && !directPerson) marker.prepend(emblemImage(emblem));
         marker.title = fallback.length ? `${label}・校區定位` : label;
-        L.DomEvent.disableClickPropagation(marker);
         cards.addLayer(L.marker(anchor, {
           icon: L.divIcon({ html: marker, className: 'atlas-fallback-marker', iconSize: [0, 0] }),
           interactive: false, keyboard: false,
@@ -217,9 +235,19 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
           && placed.every((box) => Math.abs(screen.x + x - box.x) >= (box.width + width) / 2 + 8
             || screen.y + y <= box.y - box.height - 8 || top >= box.y + 8);
       });
+      const openCampus = () => {
+        if (directPerson) {
+          const person = people[0];
+          onPerson(person, locatedUnit(person, point) ?? point);
+        } else if (campusesWithUnits.has(point)) {
+          const coordinates = people.map((person) => locatedUnit(person, point)).filter(Boolean)
+            .map(({ lat, lon }) => [lat, lon]);
+          map.setView(L.latLngBounds(coordinates).getCenter(), UNIT_ZOOM);
+        } else onCampus(group);
+      };
       {
         const pin = L.circleMarker(anchor, { radius: 5, color: '#fff', weight: 1, fillColor: '#ac491e', fillOpacity: 1 });
-        pin.on('click', () => directPerson ? onPerson(people[0], point) : onCampus(group));
+        pin.on('click', openCampus);
         cards.addLayer(pin);
       }
       if (!position) continue;
@@ -232,10 +260,7 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
       const card = document.createElement('div');
       card.className = 'atlas-campus';
       L.DomEvent.disableClickPropagation(card);
-      const title = button(directPerson ? people[0].name : groupTitle, 'atlas-campus__title', () => {
-        if (directPerson) onPerson(people[0], point);
-        else onCampus(group);
-      });
+      const title = button(directPerson ? people[0].name : groupTitle, 'atlas-campus__title', openCampus);
       title.title = groupTitle;
       if (directPerson && people[0].portrait) {
         const img = document.createElement('img');
@@ -248,7 +273,7 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
         const previews = document.createElement('div');
         previews.className = 'atlas-campus__people';
         for (const person of people.slice(0, PREVIEW_LIMIT)) {
-          const entry = button(person.name, 'atlas-campus__person', () => onPerson(person, point));
+          const entry = button(person.name, 'atlas-campus__person', () => onPerson(person, locatedUnit(person, point) ?? point));
           entry.title = person.name;
           if (person.portrait) {
             const img = document.createElement('img');

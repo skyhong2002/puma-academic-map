@@ -1,0 +1,169 @@
+{
+  "institution": "國立臺北大學",
+  "units": {
+    "經濟學系": {
+      "lat": 24.9443574,
+      "lon": 121.3698562,
+      "building": "社會科學大樓",
+      "source_url": "https://www.openstreetmap.org/way/294649856",
+      "address_source_url": "https://econ.ntpu.edu.tw/p/412-1001-90.php?Lang=zh-tw",
+      "aliases": [
+        "經濟系"
+      ]
+    },
+    "社會學系": {
+      "lat": 24.9443574,
+      "lon": 121.3698562,
+      "building": "社會科學大樓",
+      "source_url": "https://www.openstreetmap.org/way/294649856",
+      "address_source_url": "https://sociology.ntpu.edu.tw/teacher?cate=1",
+      "aliases": [
+        "社會系"
+      ]
+    },
+    "社會工作學系": {
+      "lat": 24.9443574,
+      "lon": 121.3698562,
+      "building": "社會科學大樓",
+      "source_url": "https://www.openstreetmap.org/way/294649856",
+      "address_source_url": "https://www.sw.ntpu.edu.tw/",
+      "aliases": [
+        "社工系",
+        "社會工作系"
+      ]
+    },
+    "犯罪學研究所": {
+      "lat": 24.9443574,
+      "lon": 121.3698562,
+      "building": "社會科學大樓",
+      "source_url": "https://www.openstreetmap.org/way/294649856",
+      "address_source_url": "https://crm.ntpu.edu.tw/index.php?id=8239&lang=cht&option=module&task=pageinfo",
+      "aliases": [
+        "犯罪所"
+      ]
+    },
+    "法律學系": {
+      "lat": 24.9442633,
+      "lon": 121.3731542,
+      "building": "法學大樓",
+      "source_url": "https://www.openstreetmap.org/way/294649854",
+      "address_source_url": "https://www.law.ntpu.edu.tw/",
+      "aliases": [
+        "法律系"
+      ]
+    },
+    "法律學院": {
+      "lat": 24.9442633,
+      "lon": 121.3731542,
+      "building": "法學大樓",
+      "source_url": "https://www.openstreetmap.org/way/294649854",
+      "address_source_url": "https://www.law.ntpu.edu.tw/wp-content/uploads/a8fc099a97fd9f8f15fff03a78cc8c08.pdf",
+      "aliases": [
+        "法學院"
+      ]
+    },
+    "人文學院": {
+      "lat": 24.9461414,
+      "lon": 121.3709234,
+      "building": "人文大樓",
+      "source_url": "https://www.openstreetmap.org/way/478550884",
+      "address_source_url": "https://cms-carrier.ntpu.edu.tw/uploads/113_7a288575b5.pdf"
+    },
+    "中國文學系": {
+      "lat": 24.9461414,
+      "lon": 121.3709234,
+      "building": "人文大樓",
+      "source_url": "https://www.openstreetmap.org/way/478550884",
+      "address_source_url": "https://www.cl.ntpu.edu.tw/ntpu-20/114M-guidelines.pdf",
+      "aliases": [
+        "中文系",
+        "中國語文學系",
+        "中國文學"
+      ]
+    },
+    "歷史學系": {
+      "lat": 24.9461414,
+      "lon": 121.3709234,
+      "building": "人文大樓",
+      "source_url": "https://www.openstreetmap.org/way/478550884",
+      "address_source_url": "https://history.ntpu.edu.tw/page.php?id=101&ids=3",
+      "aliases": [
+        "歷史系",
+        "人文學院歷史系",
+        "人文學院歷史學系",
+        "歷史系歷史系",
+        "人文學院歷史系歷史系"
+      ]
+    },
+    "民俗藝術與文化資產研究所": {
+      "lat": 24.9461414,
+      "lon": 121.3709234,
+      "building": "人文大樓",
+      "source_url": "https://www.openstreetmap.org/way/478550884",
+      "address_source_url": "https://fach.ntpu.edu.tw/",
+      "aliases": [
+        "民俗藝術研究所",
+        "古典文獻與民俗藝術研究所"
+      ]
+    },
+    "語言中心": {
+      "lat": 24.9461414,
+      "lon": 121.3709234,
+      "building": "人文大樓",
+      "source_url": "https://www.openstreetmap.org/way/478550884",
+      "address_source_url": "https://lc.ntpu.edu.tw/web/about/about.jsp"
+    },
+    "休閒運動管理學系": {
+      "lat": 24.9455089,
+      "lon": 121.3722879,
+      "building": "商學大樓",
+      "source_url": "https://www.openstreetmap.org/way/513686083",
+      "address_source_url": "https://lsm.ntpu.edu.tw/",
+      "aliases": [
+        "休運系",
+        "休閒運動管理系"
+      ]
+    },
+    "資訊管理研究所": {
+      "lat": 24.9455089,
+      "lon": 121.3722879,
+      "building": "商學大樓",
+      "source_url": "https://www.openstreetmap.org/way/513686083",
+      "address_source_url": "https://icim2025c.gm.ntpu.edu.tw/faq",
+      "aliases": [
+        "資管所"
+      ]
+    },
+    "通識教育中心": {
+      "lat": 24.9447226,
+      "lon": 121.3706936,
+      "building": "行政大樓",
+      "source_url": "https://www.openstreetmap.org/way/294649855",
+      "address_source_url": "https://cms-carrier.ntpu.edu.tw/uploads/113_bf161085bc.pdf",
+      "aliases": [
+        "通識中心"
+      ]
+    },
+    "體育室": {
+      "lat": 24.9405326,
+      "lon": 121.3661476,
+      "building": "綜合體育館暨學生活動中心",
+      "source_url": "https://www.openstreetmap.org/way/529188199",
+      "address_source_url": "https://cms-carrier.ntpu.edu.tw/uploads/113_bf161085bc.pdf"
+    },
+    "數位行銷進修學士學位學程": {
+      "lat": 25.0592094,
+      "lon": 121.5426152,
+      "building": "教學大樓",
+      "source_url": "https://www.openstreetmap.org/way/312715992",
+      "address_source_url": "https://www.dma.ntpu.edu.tw/view.php?id=MTQ1NQ%3D%3D",
+      "campus": "臺北民生校區",
+      "city": "臺北市",
+      "aliases": [
+        "數位行銷學程",
+        "數位行銷學士學位學程",
+        "商學院數位行銷進修學士學位學程"
+      ]
+    }
+  }
+}

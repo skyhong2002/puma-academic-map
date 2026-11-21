@@ -1,0 +1,52 @@
+{
+  "institution": "國立成功大學",
+  "units": {
+    "牙醫學系": {
+      "lat": 23.0004746,
+      "lon": 120.2198972,
+      "building": "牙醫學系館",
+      "source_url": "https://www.openstreetmap.org/way/252083018",
+      "address_source_url": "https://dentistry.ncku.edu.tw/p/412-1166-23689.php?Lang=zh-tw",
+      "aliases": [
+        "牙醫系"
+      ]
+    },
+    "職能治療學系": {
+      "lat": 23.0014136,
+      "lon": 120.2216965,
+      "building": "職治系館",
+      "source_url": "https://www.openstreetmap.org/way/251639577",
+      "address_source_url": "https://adms-acad.ncku.edu.tw/var/file/44/1044/img/4493/443799234.pdf",
+      "aliases": [
+        "職治系"
+      ]
+    },
+    "臨床醫學研究所": {
+      "lat": 23.0018271,
+      "lon": 120.2178168,
+      "building": "成大醫院門診大樓",
+      "source_url": "https://www.openstreetmap.org/way/340925670",
+      "address_source_url": "https://icmmed.ncku.edu.tw/faculty-info/%E8%AC%9D%E5%A5%87%E7%92%8B/",
+      "aliases": [
+        "臨床所"
+      ]
+    },
+    "醫學系": {
+      "lat": 23.0018981,
+      "lon": 120.2206517,
+      "building": "醫學院教學大樓",
+      "source_url": "https://www.openstreetmap.org/way/340925763",
+      "address_source_url": "https://researchoutput.ncku.edu.tw/zh/organisations/school-of-medicine/"
+    },
+    "中國文學系": {
+      "lat": 23.0003355,
+      "lon": 120.217984,
+      "building": "中國文學系館",
+      "source_url": "https://deh.csie.ncku.edu.tw/extn/poi_detail/32194",
+      "address_source_url": "https://chinese.ncku.edu.tw/p/405-1142-84431%2Cc5397.php?Lang=zh-tw",
+      "aliases": [
+        "中文系"
+      ]
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "institution": "國立中興大學",
+  "units": {
+    "森林學系": {
+      "lat": 24.122195,
+      "lon": 120.677204,
+      "building": "森林系一館",
+      "source_url": "https://www.openstreetmap.org/way/354970802",
+      "address_source_url": "https://oaa.nchu.edu.tw/_run.php?file=283253accfc4e03870dc221b5e28d200d4e50f01.pdf&name=115%E7%A2%A9%E5%A3%AB%E7%94%84%E8%A9%A6%E7%B3%BB%E6%89%80%E8%81%AF%E7%B5%A1%E6%96%B9%E5%BC%8F-%E7%B6%B2%E9%A0%81.pdf&work=down",
+      "aliases": [
+        "森林系"
+      ]
+    },
+    "資訊工程學系": {
+      "lat": 24.120958,
+      "lon": 120.677529,
+      "building": "理學大樓",
+      "source_url": "https://www.openstreetmap.org/way/356883641",
+      "address_source_url": "https://oaa.nchu.edu.tw/_run.php?file=283253accfc4e03870dc221b5e28d200d4e50f01.pdf&name=115%E7%A2%A9%E5%A3%AB%E7%94%84%E8%A9%A6%E7%B3%BB%E6%89%80%E8%81%AF%E7%B5%A1%E6%96%B9%E5%BC%8F-%E7%B6%B2%E9%A0%81.pdf&work=down",
+      "aliases": [
+        "資工系"
+      ]
+    },
+    "行銷學系": {
+      "lat": 24.121026,
+      "lon": 120.673355,
+      "building": "社管大樓",
+      "source_url": "https://www.openstreetmap.org/way/56300871",
+      "address_source_url": "https://marketing.nchu.edu.tw/",
+      "aliases": [
+        "行銷系"
+      ]
+    },
+    "電機工程學系": {
+      "lat": 24.122519,
+      "lon": 120.676434,
+      "building": "電機大樓",
+      "source_url": "https://www.openstreetmap.org/way/283043882",
+      "address_source_url": "https://oaa.nchu.edu.tw/_run.php?file=283253accfc4e03870dc221b5e28d200d4e50f01.pdf&name=115%E7%A2%A9%E5%A3%AB%E7%94%84%E8%A9%A6%E7%B3%BB%E6%89%80%E8%81%AF%E7%B5%A1%E6%96%B9%E5%BC%8F-%E7%B6%B2%E9%A0%81.pdf&work=down",
+      "aliases": [
+        "電機系"
+      ]
+    },
+    "國際政治研究所": {
+      "lat": 24.121026,
+      "lon": 120.673355,
+      "building": "社管大樓",
+      "source_url": "https://www.openstreetmap.org/way/56300871",
+      "address_source_url": "https://gioip.nchu.edu.tw/Front/template/Page.aspx?id=Tcnx67x3qlU%3D",
+      "aliases": [
+        "國政所"
+      ]
+    },
+    "園藝學系": {
+      "lat": 24.120703,
+      "lon": 120.676501,
+      "building": "作物科學大樓",
+      "source_url": "https://www.openstreetmap.org/way/297828010",
+      "address_source_url": "https://oaa.nchu.edu.tw/_run.php?file=283253accfc4e03870dc221b5e28d200d4e50f01.pdf&name=115%E7%A2%A9%E5%A3%AB%E7%94%84%E8%A9%A6%E7%B3%BB%E6%89%80%E8%81%AF%E7%B5%A1%E6%96%B9%E5%BC%8F-%E7%B6%B2%E9%A0%81.pdf&work=down",
+      "aliases": [
+        "園藝系"
+      ]
+    },
+    "臺灣文學與跨國文化研究所": {
+      "lat": 24.123403,
+      "lon": 120.672789,
+      "building": "人文大樓",
+      "source_url": "https://www.openstreetmap.org/way/384282788",
+      "address_source_url": "https://oaa.nchu.edu.tw/_run.php?file=283253accfc4e03870dc221b5e28d200d4e50f01.pdf&name=115%E7%A2%A9%E5%A3%AB%E7%94%84%E8%A9%A6%E7%B3%BB%E6%89%80%E8%81%AF%E7%B5%A1%E6%96%B9%E5%BC%8F-%E7%B6%B2%E9%A0%81.pdf&work=down",
+      "aliases": [
+        "臺文所",
+        "臺灣文學與跨國文化所"
+      ]
+    },
+    "農藝學系": {
+      "lat": 24.120703,
+      "lon": 120.676501,
+      "building": "作物科學大樓",
+      "source_url": "https://www.openstreetmap.org/way/297828010",
+      "address_source_url": "https://agro.nchu.edu.tw/web/admission/detail.php?id=9&lang=zh_tw",
+      "aliases": [
+        "農藝系"
+      ]
+    },
+    "通識教育中心": {
+      "lat": 24.121839,
+      "lon": 120.672587,
+      "building": "綜合教學大樓",
+      "source_url": "https://www.openstreetmap.org/way/299257365",
+      "address_source_url": "https://oaa.nchu.edu.tw/zh-tw/unit-page-p.231/page-detail.414",
+      "aliases": [
+        "通識中心"
+      ]
+    },
+    "分子生物學研究所": {
+      "lat": 24.121806,
+      "lon": 120.67562,
+      "building": "生命科學大樓",
+      "source_url": "https://www.openstreetmap.org/way/314580590",
+      "address_source_url": "https://oaa.nchu.edu.tw/_run.php?file=283253accfc4e03870dc221b5e28d200d4e50f01.pdf&name=115%E7%A2%A9%E5%A3%AB%E7%94%84%E8%A9%A6%E7%B3%BB%E6%89%80%E8%81%AF%E7%B5%A1%E6%96%B9%E5%BC%8F-%E7%B6%B2%E9%A0%81.pdf&work=down",
+      "aliases": [
+        "分生所",
+        "生科院分子生物學研究所"
+      ]
+    },
+    "外國語文學系": {
+      "lat": 24.123403,
+      "lon": 120.672789,
+      "building": "人文大樓",
+      "source_url": "https://www.openstreetmap.org/way/384282788",
+      "address_source_url": "https://oaa.nchu.edu.tw/_run.php?file=283253accfc4e03870dc221b5e28d200d4e50f01.pdf&name=115%E7%A2%A9%E5%A3%AB%E7%94%84%E8%A9%A6%E7%B3%BB%E6%89%80%E8%81%AF%E7%B5%A1%E6%96%B9%E5%BC%8F-%E7%B6%B2%E9%A0%81.pdf&work=down",
+      "aliases": [
+        "外文系"
+      ]
+    },
+    "應用數學系": {
+      "lat": 24.121088,
+      "lon": 120.677081,
+      "building": "資訊科學大樓",
+      "source_url": "https://www.openstreetmap.org/way/320373289",
+      "address_source_url": "https://oaa.nchu.edu.tw/_run.php?file=283253accfc4e03870dc221b5e28d200d4e50f01.pdf&name=115%E7%A2%A9%E5%A3%AB%E7%94%84%E8%A9%A6%E7%B3%BB%E6%89%80%E8%81%AF%E7%B5%A1%E6%96%B9%E5%BC%8F-%E7%B6%B2%E9%A0%81.pdf&work=down",
+      "aliases": [
+        "應數系"
+      ]
+    },
+    "土壤環境科學系": {
+      "lat": 24.120913,
+      "lon": 120.675512,
+      "building": "農業環境科學大樓",
+      "source_url": "https://www.openstreetmap.org/way/283044019",
+      "address_source_url": "https://oaa.nchu.edu.tw/_run.php?file=283253accfc4e03870dc221b5e28d200d4e50f01.pdf&name=115%E7%A2%A9%E5%A3%AB%E7%94%84%E8%A9%A6%E7%B3%BB%E6%89%80%E8%81%AF%E7%B5%A1%E6%96%B9%E5%BC%8F-%E7%B6%B2%E9%A0%81.pdf&work=down",
+      "aliases": [
+        "土環系"
+      ]
+    },
+    "生命科學系": {
+      "lat": 24.121806,
+      "lon": 120.67562,
+      "building": "生命科學大樓",
+      "source_url": "https://www.openstreetmap.org/way/314580590",
+      "address_source_url": "https://oaa.nchu.edu.tw/_run.php?file=283253accfc4e03870dc221b5e28d200d4e50f01.pdf&name=115%E7%A2%A9%E5%A3%AB%E7%94%84%E8%A9%A6%E7%B3%BB%E6%89%80%E8%81%AF%E7%B5%A1%E6%96%B9%E5%BC%8F-%E7%B6%B2%E9%A0%81.pdf&work=down",
+      "aliases": [
+        "生科系"
+      ]
+    },
+    "材料科學與工程學系": {
+      "lat": 24.122611,
+      "lon": 120.675392,
+      "building": "化工暨材料大樓",
+      "source_url": "https://www.openstreetmap.org/way/283043912",
+      "address_source_url": "https://oaa.nchu.edu.tw/_run.php?file=283253accfc4e03870dc221b5e28d200d4e50f01.pdf&name=115%E7%A2%A9%E5%A3%AB%E7%94%84%E8%A9%A6%E7%B3%BB%E6%89%80%E8%81%AF%E7%B5%A1%E6%96%B9%E5%BC%8F-%E7%B6%B2%E9%A0%81.pdf&work=down",
+      "aliases": [
+        "材料系",
+        "材料科學與工程系"
+      ]
+    },
+    "文學院": {
+      "lat": 24.123403,
+      "lon": 120.672789,
+      "building": "人文大樓",
+      "source_url": "https://www.openstreetmap.org/way/384282788",
+      "address_source_url": "https://www.nchu.edu.tw/academic/mid/105"
+    }
+  }
+}

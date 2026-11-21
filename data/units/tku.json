@@ -1,0 +1,159 @@
+{
+  "institution": "淡江大學",
+  "units": {
+    "公共行政暨法律學系": {
+      "lat": 25.1765659,
+      "lon": 121.450113,
+      "building": "商管大樓",
+      "source_url": "https://www.openstreetmap.org/way/292253711",
+      "address_source_url": "https://pa.tku.edu.tw/pa/?page_id=4304",
+      "aliases": [
+        "公行系",
+        "公共行政學系"
+      ]
+    },
+    "數學學系": {
+      "lat": 25.1754251,
+      "lon": 121.448157,
+      "building": "騮先紀念科學館",
+      "source_url": "https://www.openstreetmap.org/way/235418066",
+      "address_source_url": "https://www.math.tku.edu.tw/",
+      "aliases": [
+        "數學系"
+      ]
+    },
+    "化學學系": {
+      "lat": 25.1752883,
+      "lon": 121.4488484,
+      "building": "鍾靈化學館",
+      "source_url": "https://www.openstreetmap.org/way/235418085",
+      "address_source_url": "https://www.tfsx.tku.edu.tw/chemistry/",
+      "aliases": [
+        "化學系"
+      ]
+    },
+    "化學工程與材料工程學系": {
+      "lat": 25.1759346,
+      "lon": 121.4517376,
+      "building": "工學大樓",
+      "source_url": "https://www.openstreetmap.org/way/235418107",
+      "address_source_url": "https://che.tku.edu.tw/",
+      "aliases": [
+        "化材系"
+      ]
+    },
+    "外交與國際關係學系": {
+      "lat": 25.1753972,
+      "lon": 121.4512686,
+      "building": "驚聲紀念大樓",
+      "source_url": "https://www.openstreetmap.org/way/235418157",
+      "address_source_url": "https://www.tidx.tku.edu.tw/Front/Template/Page.aspx?Sn=16&id=zTq4pS6u2k8%3D",
+      "aliases": [
+        "外交系",
+        "外交與國際關係學系全英語學士班"
+      ]
+    },
+    "通識與核心課程中心": {
+      "lat": 25.1743169,
+      "lon": 121.4509232,
+      "building": "覺生綜合大樓",
+      "source_url": "https://www.openstreetmap.org/way/235418151",
+      "address_source_url": "https://www.core.tku.edu.tw/core/?page_id=2673",
+      "aliases": [
+        "通核中心"
+      ]
+    },
+    "歷史學系": {
+      "lat": 25.1762324,
+      "lon": 121.4494125,
+      "building": "文學館",
+      "source_url": "https://www.openstreetmap.org/way/285904595",
+      "address_source_url": "https://www.history.tku.edu.tw/history/?page_id=1301",
+      "aliases": [
+        "歷史系"
+      ]
+    },
+    "教育心理與諮商研究所": {
+      "lat": 25.1758075,
+      "lon": 121.4526402,
+      "building": "教育大樓",
+      "source_url": "https://www.openstreetmap.org/way/235418109",
+      "address_source_url": "https://www.edpsy.tku.edu.tw/edpsy/?page_id=467",
+      "aliases": [
+        "教心所"
+      ]
+    },
+    "大眾傳播學系": {
+      "lat": 25.1757408,
+      "lon": 121.4490673,
+      "building": "傳播館",
+      "source_url": "https://www.openstreetmap.org/way/235418089",
+      "address_source_url": "https://www.tamx.tku.edu.tw/",
+      "aliases": [
+        "大傳系"
+      ]
+    },
+    "統計與資料科學學系": {
+      "lat": 25.1765659,
+      "lon": 121.450113,
+      "building": "商管大樓",
+      "source_url": "https://www.openstreetmap.org/way/292253711",
+      "address_source_url": "https://www.stat.tku.edu.tw/stat/?page_id=16771",
+      "aliases": [
+        "統計學系",
+        "統計系"
+      ]
+    },
+    "建築學系": {
+      "lat": 25.1764207,
+      "lon": 121.4511423,
+      "building": "建築館",
+      "source_url": "https://www.openstreetmap.org/way/294126064",
+      "address_source_url": "https://www.arch.tku.edu.tw/arch/?page_id=6659",
+      "aliases": [
+        "建築系"
+      ]
+    },
+    "體育事務處": {
+      "lat": 25.1761845,
+      "lon": 121.4486806,
+      "building": "紹謨紀念體育館",
+      "source_url": "https://www.openstreetmap.org/way/964229634",
+      "address_source_url": "https://www.sports.tku.edu.tw/shao-mo-stadium/",
+      "aliases": [
+        "體育處"
+      ]
+    },
+    "經濟學系": {
+      "lat": 25.1765659,
+      "lon": 121.450113,
+      "building": "商管大樓",
+      "source_url": "https://www.openstreetmap.org/way/292253711",
+      "address_source_url": "https://www.econ.tku.edu.tw/econ/?page_id=821",
+      "aliases": [
+        "經濟系"
+      ]
+    },
+    "通識與核心課程中心學習與發展學門": {
+      "lat": 25.1758075,
+      "lon": 121.4526402,
+      "building": "教育大樓",
+      "source_url": "https://www.openstreetmap.org/way/235418109",
+      "address_source_url": "https://www.core.tku.edu.tw/core/?page_id=4131",
+      "aliases": [
+        "學習與發展學門"
+      ]
+    },
+    "風險管理與保險學系": {
+      "lat": 25.1765659,
+      "lon": 121.450113,
+      "building": "商管大樓",
+      "source_url": "https://www.openstreetmap.org/way/292253711",
+      "address_source_url": "https://www.management.tku.edu.tw/zh-tw/departments/departments#ins",
+      "aliases": [
+        "風保系",
+        "保險學系"
+      ]
+    }
+  }
+}

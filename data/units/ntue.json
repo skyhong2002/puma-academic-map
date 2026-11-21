@@ -1,0 +1,144 @@
+{
+  "institution": "國立臺北教育大學",
+  "units": {
+    "文教法律研究所": {
+      "lat": 25.0241217,
+      "lon": 121.54497,
+      "building": "行政大樓",
+      "source_url": "https://www.openstreetmap.org/way/324901029",
+      "address_source_url": "https://law.ntue.edu.tw/"
+    },
+    "教育經營與管理學系": {
+      "lat": 25.0241217,
+      "lon": 121.54497,
+      "building": "行政大樓",
+      "source_url": "https://www.openstreetmap.org/way/324901029",
+      "address_source_url": "https://www.ntue.edu.tw/p/412-1000-2386.php?Lang=zh-tw"
+    },
+    "教育學系": {
+      "lat": 25.0240982,
+      "lon": 121.5460599,
+      "building": "至善樓",
+      "source_url": "https://www.openstreetmap.org/way/324901026",
+      "address_source_url": "https://www.ntue.edu.tw/p/412-1000-2386.php?Lang=zh-tw",
+      "aliases": [
+        "國民教育學系",
+        "國教系"
+      ]
+    },
+    "心理與諮商學系": {
+      "lat": 25.0240982,
+      "lon": 121.5460599,
+      "building": "至善樓",
+      "source_url": "https://www.openstreetmap.org/way/324901026",
+      "address_source_url": "https://www.ntue.edu.tw/p/412-1000-2386.php?Lang=zh-tw",
+      "aliases": [
+        "心諮系"
+      ]
+    },
+    "幼兒與家庭教育學系": {
+      "lat": 25.0241217,
+      "lon": 121.54497,
+      "building": "行政大樓",
+      "source_url": "https://www.openstreetmap.org/way/324901029",
+      "address_source_url": "https://www.ntue.edu.tw/p/412-1000-2386.php?Lang=zh-tw"
+    },
+    "數學暨資訊教育學系": {
+      "lat": 25.0240715,
+      "lon": 121.5455349,
+      "building": "科學館",
+      "source_url": "https://www.openstreetmap.org/way/324901027",
+      "address_source_url": "https://www.ntue.edu.tw/p/412-1000-2388.php?Lang=zh-tw",
+      "aliases": [
+        "數資系"
+      ]
+    },
+    "自然科學教育學系": {
+      "lat": 25.0240715,
+      "lon": 121.5455349,
+      "building": "科學館",
+      "source_url": "https://www.openstreetmap.org/way/324901027",
+      "address_source_url": "https://www.ntue.edu.tw/p/412-1000-2388.php?Lang=zh-tw"
+    },
+    "語文與創作學系": {
+      "lat": 25.0241217,
+      "lon": 121.54497,
+      "building": "行政大樓",
+      "source_url": "https://www.openstreetmap.org/way/324901029",
+      "address_source_url": "https://www.ntue.edu.tw/p/412-1000-2387.php?Lang=zh-tw",
+      "aliases": [
+        "語創系"
+      ]
+    },
+    "兒童英語教育學系": {
+      "lat": 25.0241217,
+      "lon": 121.54497,
+      "building": "行政大樓",
+      "source_url": "https://www.openstreetmap.org/way/324901029",
+      "address_source_url": "https://www.ntue.edu.tw/p/412-1000-2387.php?Lang=zh-tw",
+      "aliases": [
+        "兒英系"
+      ]
+    },
+    "藝術與造形設計學系": {
+      "lat": 25.0227014,
+      "lon": 121.5456382,
+      "building": "藝術館",
+      "source_url": "https://www.openstreetmap.org/way/269784108",
+      "address_source_url": "https://www.ntue.edu.tw/p/412-1000-2387.php?Lang=zh-tw",
+      "aliases": [
+        "藝術與造型設計學系",
+        "藝設系"
+      ]
+    },
+    "臺灣語言與文化學系": {
+      "lat": 25.0241217,
+      "lon": 121.54497,
+      "building": "行政大樓",
+      "source_url": "https://www.openstreetmap.org/way/324901029",
+      "address_source_url": "https://www.ntue.edu.tw/p/412-1000-2387.php?Lang=zh-tw",
+      "aliases": [
+        "臺灣語文與文化學系",
+        "臺灣文化研究所",
+        "臺灣文學研究所",
+        "臺文系"
+      ]
+    },
+    "文化創意產業經營學系": {
+      "lat": 25.0237541,
+      "lon": 121.5454415,
+      "building": "視聽教育館",
+      "source_url": "https://www.openstreetmap.org/way/324901028",
+      "address_source_url": "https://www.ntue.edu.tw/p/412-1000-2387.php?Lang=zh-tw",
+      "aliases": [
+        "文創系"
+      ]
+    },
+    "當代藝術評論與策展研究全英語碩士學位學程": {
+      "lat": 25.0242841,
+      "lon": 121.5456902,
+      "building": "芳蘭樓",
+      "source_url": "https://laintue.ntue.edu.tw/p/412-1038-5111.php?Lang=en",
+      "address_source_url": "https://www.ntue.edu.tw/p/412-1000-2389.php?Lang=zh-tw",
+      "aliases": [
+        "當代藝術評論與策展研究碩士全英文學位學程",
+        "當代藝術評論與策展研究全英文碩士學位學程",
+        "當代策展學位學程"
+      ]
+    },
+    "通識教育中心": {
+      "lat": 25.0238691,
+      "lon": 121.5449479,
+      "building": "圖書館",
+      "source_url": "https://www.openstreetmap.org/way/324901030",
+      "address_source_url": "https://www.ntue.edu.tw/p/404-1000-12835.php?Lang=zh-tw"
+    },
+    "師資培育處": {
+      "lat": 25.0241217,
+      "lon": 121.54497,
+      "building": "行政大樓",
+      "source_url": "https://www.openstreetmap.org/way/324901029",
+      "address_source_url": "https://academicntue.ntue.edu.tw/var/file/2/1002/img/78/114-2student.pdf"
+    }
+  }
+}

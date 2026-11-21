@@ -1,0 +1,102 @@
+{
+  "institution": "國立陽明交通大學",
+  "units": {
+    "人文社會學系": {
+      "campus": "六家校區",
+      "city": "新竹縣",
+      "lat": 24.8121881,
+      "lon": 121.0231426,
+      "building": "客家大樓",
+      "source_url": "https://www.openstreetmap.org/relation/3809411",
+      "address_source_url": "https://hs.nycu.edu.tw/about",
+      "aliases": [
+        "人社系",
+        "人文社會系",
+        "族群與文化碩士班"
+      ]
+    },
+    "傳播與科技學系": {
+      "campus": "六家校區",
+      "city": "新竹縣",
+      "lat": 24.8121881,
+      "lon": 121.0231426,
+      "building": "客家大樓",
+      "source_url": "https://www.openstreetmap.org/relation/3809411",
+      "address_source_url": "https://dcat.nycu.edu.tw/graduate/graduate-admission/recommendation-admission/",
+      "aliases": [
+        "傳科系",
+        "傳播與科技系"
+      ]
+    },
+    "客家文化學院": {
+      "campus": "六家校區",
+      "city": "新竹縣",
+      "lat": 24.8121881,
+      "lon": 121.0231426,
+      "building": "客家大樓",
+      "source_url": "https://www.openstreetmap.org/relation/3809411",
+      "address_source_url": "https://hakka.nycu.edu.tw/about/51/",
+      "aliases": [
+        "客家學院"
+      ]
+    },
+    "國際客家研究中心": {
+      "campus": "六家校區",
+      "city": "新竹縣",
+      "lat": 24.8121881,
+      "lon": 121.0231426,
+      "building": "客家大樓",
+      "source_url": "https://www.openstreetmap.org/relation/3809411",
+      "address_source_url": "https://hkc.hakka.nycu.edu.tw/page/contact/index.aspx"
+    },
+    "生物科技學系": {
+      "campus": "新竹博愛校區",
+      "city": "新竹市",
+      "lat": 24.7978732,
+      "lon": 120.9799525,
+      "building": "賢齊館",
+      "source_url": "https://www.openstreetmap.org/way/638753797",
+      "address_source_url": "https://ceb.nycu.edu.tw/dbt/",
+      "aliases": [
+        "生科系",
+        "生物科技系"
+      ]
+    },
+    "工程生物科學學院": {
+      "campus": "新竹博愛校區",
+      "city": "新竹市",
+      "lat": 24.7978732,
+      "lon": 120.9799525,
+      "building": "賢齊館",
+      "source_url": "https://www.openstreetmap.org/way/638753797",
+      "address_source_url": "https://ceb.nycu.edu.tw/%E6%8D%90%E6%AC%BE%E5%B0%88%E5%8D%80/",
+      "aliases": [
+        "生物科技學院"
+      ]
+    },
+    "生物資訊及系統生物研究所": {
+      "campus": "新竹博愛校區",
+      "city": "新竹市",
+      "lat": 24.7978732,
+      "lon": 120.9799525,
+      "building": "賢齊館",
+      "source_url": "https://www.openstreetmap.org/way/638753797",
+      "address_source_url": "https://ceb.nycu.edu.tw/ibsb/",
+      "aliases": [
+        "生物資訊及系統生物所"
+      ]
+    },
+    "分子醫學與生物工程研究所": {
+      "campus": "新竹博愛校區",
+      "city": "新竹市",
+      "lat": 24.7978732,
+      "lon": 120.9799525,
+      "building": "賢齊館",
+      "source_url": "https://www.openstreetmap.org/way/638753797",
+      "address_source_url": "https://ceb.nycu.edu.tw/imb/",
+      "aliases": [
+        "分子醫學與生物工程所"
+      ]
+    }
+  }
+}
