@@ -181,29 +181,31 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
   function showPeople(buildings, occupied) {
     const size = map.getSize();
     const columns = size.x < 540 ? 3 : 4;
-    const step = 54 + (map.getZoom() - UNIT_ZOOM) * 20;
+    const step = map.getZoom() < UNIT_ZOOM ? 82 : 54 + (map.getZoom() - UNIT_ZOOM) * 20;
     const pins = [];
     const labelCount = occupied.length;
-    for (const { anchor, members } of buildings) {
+    for (const { anchor, members, campus = false } of buildings) {
       const center = map.latLngToContainerPoint(anchor);
       members.forEach(({ person, point }, index) => {
         const row = Math.floor(index / columns);
         const rowSize = Math.min(columns, members.length - row * columns);
         const x = center.x + (index % columns - (rowSize - 1) / 2) * step;
-        const y = center.y + 35 + row * (PERSON_HEIGHT + PERSON_GAP);
+        const y = center.y + (campus ? 0 : 35) + row * (PERSON_HEIGHT + PERSON_GAP);
         const width = person.portrait ? 50 : PERSON_HEIGHT;
         const box = { left: x - width / 2, right: x + width / 2,
           top: y - PERSON_HEIGHT / 2, bottom: y + PERSON_HEIGHT / 2 };
-        while (!hasRoom(box, occupied)) {
-          box.top += PERSON_HEIGHT + PERSON_GAP;
-          box.bottom += PERSON_HEIGHT + PERSON_GAP;
+        for (let offset = 1; !hasRoom(box, occupied); offset += 1) {
+          const distance = campus ? Math.ceil(offset / 2) * (offset % 2 ? 1 : -1) : offset;
+          const shifted = y + distance * (PERSON_HEIGHT + PERSON_GAP);
+          box.top = shifted - PERSON_HEIGHT / 2;
+          box.bottom = shifted + PERSON_HEIGHT / 2;
         }
         occupied.push(box);
         const position = map.containerPointToLatLng([x, box.top + PERSON_HEIGHT / 2]);
         const initial = Array.from(person.name)[0] ?? '';
         const pin = mapPill(initial, 'atlas-person-dot', () => onPerson(person, point));
         pin.setAttribute('aria-label', person.name);
-        pin.title = `${person.name}・${point.unit}`;
+        pin.title = `${person.name}・${point.unit ?? campusTitle(point)}`;
         if (person.portrait) {
           const image = document.createElement('img');
           image.src = person.portrait.image;
@@ -250,35 +252,38 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
     const visible = groups.filter(({ point }) => bounds.contains([point.lat, point.lon]))
       .sort((a, b) => b.people.length - a.people.length);
     const detailed = map.getZoom() >= UNIT_ZOOM;
-    const buildings = detailed ? showUnitPins(bounds) : [];
-    const unitLabels = [];
-    if (detailed) cards.eachLayer((layer) => unitLabels.push(layer.getElement().firstElementChild));
+    const individualGroups = detailed ? showUnitPins(bounds) : [];
     const size = map.getSize();
     for (const group of visible) {
       const { point, people } = group;
       const anchor = L.latLng(point.lat, point.lon);
       const screen = map.latLngToContainerPoint(anchor);
       const groupTitle = campusTitle(point);
-      const directPerson = people.length === 1;
+      const individualPeople = detailed ? people.filter((person) => !locatedUnit(person, point)) : people;
+      if (individualPeople.length > 0 && individualPeople.length <= PREVIEW_LIMIT) {
+        individualGroups.push({
+          anchor,
+          campus: true,
+          members: individualPeople.map((person) => ({ person, point: locatedUnit(person, point) ?? point })),
+        });
+        continue;
+      }
       if (detailed) {
-        const fallback = people.filter((person) => !locatedUnit(person, point));
-        if (!fallback.length && people.length) continue;
-        const label = fallback.length === 1 && directPerson ? fallback[0].name : groupTitle;
-        const open = () => fallback.length === 1 && directPerson
-          ? onPerson(fallback[0], point) : onCampus({ ...group, people: fallback, campusOnly: true });
-        const marker = mapPill(fallback.length > 1 ? `${label} · ${fallback.length}` : label, 'atlas-campus-fallback', open);
+        if (!individualPeople.length && people.length) continue;
+        const open = () => onCampus({ ...group, people: individualPeople, campusOnly: true });
+        const label = individualPeople.length ? `${groupTitle} · ${individualPeople.length}` : groupTitle;
+        const marker = mapPill(label, 'atlas-campus-fallback', open);
         const emblem = emblemFor(point.institution);
-        if (emblem && !directPerson) marker.prepend(emblemImage(emblem));
-        marker.title = fallback.length ? `${label}・校區定位` : label;
+        if (emblem) marker.prepend(emblemImage(emblem));
+        marker.title = individualPeople.length ? `${label}・校區定位` : label;
         cards.addLayer(L.marker(anchor, {
           icon: L.divIcon({ html: marker, className: 'atlas-fallback-marker', iconSize: [0, 0] }),
           interactive: false, keyboard: false,
         }));
-        unitLabels.push(marker);
         continue;
       }
-      const width = directPerson ? 172 : 196;
-      const height = !people.length || directPerson ? 48 : people.length > PREVIEW_LIMIT ? 114 : 94;
+      const width = 196;
+      const height = people.length ? 114 : 48;
       const position = positions.find(([x, y]) => {
         const left = screen.x + x - width / 2;
         const top = screen.y + y - height;
@@ -287,10 +292,7 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
             || screen.y + y <= box.y - box.height - 8 || top >= box.y + 8);
       });
       const openCampus = () => {
-        if (directPerson) {
-          const person = people[0];
-          onPerson(person, locatedUnit(person, point) ?? point);
-        } else if (campusesWithUnits.has(point)) {
+        if (campusesWithUnits.has(point)) {
           const coordinates = people.map((person) => locatedUnit(person, point)).filter(Boolean)
             .map(({ lat, lon }) => [lat, lon]);
           map.setView(L.latLngBounds(coordinates).getCenter(), UNIT_ZOOM);
@@ -311,16 +313,11 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
       const card = document.createElement('div');
       card.className = 'atlas-campus';
       L.DomEvent.disableClickPropagation(card);
-      const title = button(directPerson ? people[0].name : groupTitle, 'atlas-campus__title', openCampus);
+      const title = button(groupTitle, 'atlas-campus__title', openCampus);
       title.title = groupTitle;
-      if (directPerson && people[0].portrait) {
-        const img = document.createElement('img');
-        img.src = people[0].portrait.image;
-        img.alt = '';
-        title.prepend(img);
-      } else addEmblem(title, point.institution);
+      addEmblem(title, point.institution);
       card.append(title);
-      if (!directPerson && people.length) {
+      if (people.length) {
         const previews = document.createElement('div');
         previews.className = 'atlas-campus__people';
         for (const person of people.slice(0, PREVIEW_LIMIT)) {
@@ -335,20 +332,19 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
           previews.append(entry);
         }
         card.append(previews);
-        if (people.length > PREVIEW_LIMIT) {
-          card.append(button(`查看全部 ${people.length} 人`, 'atlas-campus__more', () => onCampus(group)));
-        }
+        card.append(button(`查看全部 ${people.length} 人`, 'atlas-campus__more', () => onCampus(group)));
       }
       const icon = L.divIcon({ className: 'atlas-campus-marker', html: card, iconSize: [width, height], iconAnchor: [width / 2, height] });
       cards.addLayer(L.marker(at, { icon, interactive: false, keyboard: false }));
     }
-    if (detailed) {
+    if (individualGroups.length) {
       const { left, top } = container.getBoundingClientRect();
-      const occupied = unitLabels.map((element) => {
+      const labels = container.querySelectorAll('.atlas-unit-label, .atlas-campus-fallback, .atlas-campus');
+      const occupied = Array.from(labels, (element) => {
         const box = element.getBoundingClientRect();
         return { left: box.left - left, right: box.right - left, top: box.top - top, bottom: box.bottom - top };
       });
-      showPeople(buildings, occupied);
+      showPeople(individualGroups, occupied);
     }
   }
 
