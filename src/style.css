@@ -157,6 +157,20 @@ a {
   padding: 20px var(--gutter) 14px;
 }
 
+.masthead__brand {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(10px, 2vw, 22px);
+}
+
+.masthead__logo {
+  display: block;
+  width: clamp(56px, 8vw, 116px);
+  height: auto;
+  border-radius: 8px;
+}
+
 .masthead__kicker {
   margin: 0 0 4px;
   color: var(--accent-ink);
