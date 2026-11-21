@@ -19,6 +19,49 @@ function hasRoom(box, occupied) {
     box.bottom + PERSON_GAP <= other.top || box.top >= other.bottom + PERSON_GAP);
 }
 
+function moveBox(box, x, y) {
+  return { left: box.left + x, right: box.right + x, top: box.top + y, bottom: box.bottom + y };
+}
+
+function findViewportRoom(box, occupied, size) {
+  const minimumX = PERSON_GAP - box.left;
+  const maximumX = size.x - PERSON_GAP - box.right;
+  const minimumY = PERSON_GAP - box.top;
+  const maximumY = size.y - PERSON_GAP - box.bottom;
+  if (minimumX > maximumX || minimumY > maximumY) return;
+
+  const limit = (value, min, max) => Math.min(max, Math.max(min, value));
+  const closestX = limit(0, minimumX, maximumX);
+  const closestY = limit(0, minimumY, maximumY);
+  if (hasRoom(moveBox(box, closestX, closestY), occupied)) return [closestX, closestY];
+
+  const xCandidates = new Set([closestX]);
+  for (const other of occupied) {
+    xCandidates.add(limit(other.left - PERSON_GAP - box.right, minimumX, maximumX));
+    xCandidates.add(limit(other.right + PERSON_GAP - box.left, minimumX, maximumX));
+  }
+  let position;
+  let bestDistance = Infinity;
+  for (const x of [...xCandidates].sort((a, b) => Math.abs(a) - Math.abs(b))) {
+    if (x * x >= bestDistance) break;
+    const neighbours = occupied.filter((other) =>
+      box.right + x + PERSON_GAP > other.left && box.left + x < other.right + PERSON_GAP);
+    const yCandidates = [closestY];
+    for (const other of neighbours) {
+      yCandidates.push(limit(other.top - PERSON_GAP - box.bottom, minimumY, maximumY));
+      yCandidates.push(limit(other.bottom + PERSON_GAP - box.top, minimumY, maximumY));
+    }
+    for (const y of yCandidates) {
+      const distance = x * x + y * y;
+      if (distance < bestDistance && hasRoom(moveBox(box, x, y), neighbours)) {
+        bestDistance = distance;
+        position = [x, y];
+      }
+    }
+  }
+  return position;
+}
+
 function button(label, className, activate) {
   const item = document.createElement('button');
   item.type = 'button';
@@ -190,7 +233,7 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
     return buildings;
   }
 
-  function placeLabels(individualGroups) {
+  function placeLabels(individualGroups, closest) {
     const viewport = container.getBoundingClientRect();
     const labels = [
       ...container.querySelectorAll('.atlas-campus'),
@@ -208,6 +251,18 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
       };
       const group = groupsByLabel.get(label);
       if (group) group.labelBox = box;
+      if (closest) {
+        const [x, y] = findViewportRoom(box, occupied, map.getSize()) ?? [0, 0];
+        label.style.translate = `${x}px ${y}px`;
+        const moved = moveBox(box, x, y);
+        if (group) {
+          group.labelBox = moved;
+          group.labelOffsetX = x;
+          group.labelOffset = y;
+        }
+        occupied.push(moved);
+        continue;
+      }
       const visible = box.right > 0 && box.left < viewport.width &&
         box.bottom > 0 && box.top < viewport.height;
       if (visible && !label.classList.contains('atlas-campus') && !hasRoom(box, occupied)) {
@@ -236,21 +291,29 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
     return occupied;
   }
 
-  function showPeople(groups, occupied) {
+  function showPeople(groups, occupied, closest) {
     const size = map.getSize();
-    const rowWidth = Math.min(size.x - 16, size.x < 540 ? 280 : 360);
-    for (const { anchor, members, campus, label, labelBox, labelOffset = 0 } of groups) {
+    const rowWidth = Math.max(32, Math.min(size.x - 16, size.x < 540 ? 280 : 360));
+    const overflow = [];
+    if (closest) groups.sort((a, b) =>
+      Number(b.members[0].point === focusedUnit) - Number(a.members[0].point === focusedUnit) ||
+      b.members.length - a.members.length);
+    for (const { anchor, members, campus, label, labelBox, labelOffsetX = 0, labelOffset = 0 } of groups) {
       const center = map.latLngToContainerPoint(anchor);
       const rowStep = PERSON_HEIGHT + PERSON_GAP;
       const rows = [];
       for (const { person, point } of members) {
         const pin = mapPill(person.name, 'atlas-person-dot atlas-person-dot--named', () => onPerson(person, point));
         pin.title = `${person.name}・${point.unit ?? campusTitle(point)}`;
+        if (closest) pin.style.maxWidth = `${rowWidth}px`;
         if (person.portrait) {
+          const portrait = document.createElement('span');
+          portrait.className = 'atlas-person-dot__portrait';
           const image = document.createElement('img');
           image.src = person.portrait.image;
           image.alt = '';
-          pin.prepend(image);
+          portrait.append(image);
+          pin.prepend(portrait);
         }
         const marker = L.marker(anchor, {
           icon: L.divIcon({ html: pin, className: 'atlas-person-marker', iconSize: [0, 0] }),
@@ -280,33 +343,71 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
         top: labelBox?.top ?? firstTop,
         bottom: top - PERSON_GAP,
       };
-      const at = (dy) => ({ ...block, top: block.top + dy, bottom: block.bottom + dy });
       const candidates = [0, -rowStep, rowStep, -2 * rowStep, 2 * rowStep, -3 * rowStep, 3 * rowStep];
       const neighbours = occupied.filter((other) => other !== labelBox);
-      const offset = candidates.find((dy) => {
-        const box = at(dy);
+      const vertical = closest ? undefined : candidates.find((dy) => {
+        const box = moveBox(block, 0, dy);
         return (dy === 0 || !labelBox || (labelBox.bottom > 0 && labelBox.top < size.y)) &&
           (campus || (box.top >= 0 && box.bottom <= size.y)) && hasRoom(box, neighbours);
       });
-      if (offset === undefined) {
+      const position = closest ? findViewportRoom(block, neighbours, size) :
+        vertical === undefined ? undefined : [0, vertical];
+      if (!position) {
         for (const row of rows) {
           for (const { marker } of row.items) cards.removeLayer(marker);
         }
+        if (closest) {
+          overflow.push({ anchor, members, label });
+        }
         continue;
       }
+      const [dx, dy] = position;
       if (labelBox) {
         occupied.splice(occupied.indexOf(labelBox), 1);
-        label.style.translate = `0 ${labelOffset + offset}px`;
+        label.style.translate = `${labelOffsetX + dx}px ${labelOffset + dy}px`;
+        if (closest && Math.hypot(labelOffsetX + dx, labelOffset + dy) > 48) {
+          const pin = map.containerPointToLatLng([
+            (labelBox.left + labelBox.right) / 2 + dx, (labelBox.top + labelBox.bottom) / 2 + dy,
+          ]);
+          cards.addLayer(L.polyline([anchor, pin], { color: orange, weight: 1,
+            opacity: 0.6, dashArray: '2 4', interactive: false }));
+        }
       }
-      occupied.push(at(offset));
+      occupied.push(moveBox(block, dx, dy));
       for (const row of rows) {
-        let left = row.left;
+        let left = row.left + dx;
         for (const { marker, width } of row.items) {
-          marker.setLatLng(map.containerPointToLatLng([left + width / 2, row.top + offset + PERSON_HEIGHT / 2]));
+          marker.setLatLng(map.containerPointToLatLng([left + width / 2, row.top + dy + PERSON_HEIGHT / 2]));
           left += width + PERSON_GAP;
         }
       }
     }
+    for (const group of overflow) showOverflowLabel(group, occupied, size);
+  }
+
+  function showOverflowLabel({ anchor, members, label }, occupied, size) {
+    const { point } = members[0];
+    const people = members.map(({ person }) => person);
+    if (!label) {
+      label = mapPill(campusTitle(point), 'atlas-campus-fallback',
+        () => onCampus({ point, people, campusOnly: true }));
+      appendCount(label, people.length);
+      cards.addLayer(L.marker(anchor, {
+        icon: L.divIcon({ html: label, className: 'atlas-fallback-marker', iconSize: [0, 0] }),
+        interactive: false, keyboard: false,
+      }));
+      const viewport = container.getBoundingClientRect();
+      const rect = label.getBoundingClientRect();
+      const box = { left: rect.left - viewport.left, right: rect.right - viewport.left,
+        top: rect.top - viewport.top, bottom: rect.bottom - viewport.top };
+      const [x, y] = findViewportRoom(box, occupied, size) ?? [0, 0];
+      label.style.translate = `${x}px ${y}px`;
+      occupied.push(moveBox(box, x, y));
+    }
+    const description = `${label.querySelector('.atlas-map-pill__label').textContent}・查看全部 ${people.length} 位署名者`;
+    label.title = description;
+    label.setAttribute('aria-label', description);
+    label.classList.add('atlas-map-pill--overflow');
   }
 
   function appendCount(label, total) {
@@ -374,7 +475,8 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
     }
     if (map.hasLayer(clusters)) clusters.remove();
     cards.clearLayers();
-    const bounds = map.getBounds().pad(0.08);
+    const closest = zoom === CAMPUS_PEOPLE_ZOOM;
+    const bounds = closest ? map.getBounds() : map.getBounds().pad(0.08);
     const placed = [];
     const visible = groups.filter(({ point }) => bounds.contains([point.lat, point.lon]))
       .sort((a, b) => b.people.length - a.people.length);
@@ -468,8 +570,8 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
       cards.addLayer(L.marker(at, { icon, interactive: false, keyboard: false }));
     }
     if (detailed || individualGroups.length) {
-      const occupied = placeLabels(individualGroups);
-      if (individualGroups.length) showPeople(individualGroups, occupied);
+      const occupied = placeLabels(individualGroups, closest);
+      if (individualGroups.length) showPeople(individualGroups, occupied, closest);
     }
     if (animate) animateCampusChange(outgoing);
   }
