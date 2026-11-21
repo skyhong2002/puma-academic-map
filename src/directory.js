@@ -205,7 +205,7 @@ function countBadge(count, unit) {
 // ---------- 主元件 ----------
 
 export function mountDirectory(element, {
-  onSelectCounty, onLocate, onLocateUnit, onSearchPerson, onSearchChange, onSearchOpen, onSearchClear, onOpenPerson,
+  onSelectCounty, onLocate, onLocateUnit, onSearchPerson, onSearchChange, onSearchOpen, onSearchClear, onOpenPerson, onBeforeNavigate,
 } = {}) {
   if (!element) throw new Error('mountDirectory 需要容器元素');
   const uid = `pa-dir-${Math.random().toString(36).slice(2, 8)}`;
@@ -282,9 +282,17 @@ export function mountDirectory(element, {
   let searchTimer = 0;
   let compositionTimer;
   let composing = false;
+  let searchStarted = false;
   const isComposingSearch = (event) => composing || event.isComposing || event.keyCode === 229;
 
+  function rememberSearchStart() {
+    if (searchStarted || !searchInput.value.trim()) return;
+    searchStarted = true;
+    onBeforeNavigate?.({ committedQuery: true });
+  }
+
   function scheduleSearch() {
+    rememberSearchStart();
     onSearchChange?.(searchInput.value);
     clearTimeout(searchTimer);
     searchTimer = setTimeout(() => {
@@ -310,6 +318,7 @@ export function mountDirectory(element, {
   searchForm.addEventListener('submit', (event) => {
     event.preventDefault();
     if (isComposingSearch(event)) return;
+    rememberSearchStart();
     onSearchOpen?.();
     clearTimeout(searchTimer);
     state.query = searchInput.value;
@@ -344,6 +353,7 @@ export function mountDirectory(element, {
     clearTimeout(searchTimer);
     searchInput.value = '';
     state.query = '';
+    searchStarted = false;
   }
 
   function clearSearch() {
@@ -354,6 +364,8 @@ export function mountDirectory(element, {
 
   // ---- 導覽動作 ----
   function selectMode(groupBy) {
+    if (groupBy === state.groupBy && !state.institution && state.view === 'browse' && !searchInput.value) return;
+    onBeforeNavigate?.();
     state.groupBy = groupBy;
     state.institution = null;
     state.view = 'browse';
@@ -363,6 +375,7 @@ export function mountDirectory(element, {
   }
 
   function selectCounty(county, { notify = true, focus = 'heading' } = {}) {
+    if (notify) onBeforeNavigate?.();
     state.county = county;
     state.mapInstitution = null;
     state.mapDepartment = null;
@@ -375,6 +388,7 @@ export function mountDirectory(element, {
   }
 
   function selectInstitution(inst, { fromCounty } = {}) {
+    onBeforeNavigate?.();
     const keepCounty = fromCounty ?? (state.county && inst.counties.includes(state.county) ? state.county : null);
     const countyChanged = keepCounty !== state.county;
     state.county = keepCounty;
@@ -387,6 +401,7 @@ export function mountDirectory(element, {
   }
 
   function showUnlocated() {
+    onBeforeNavigate?.();
     state.view = 'unlocated';
     state.institution = null;
     state.entryLimit = PAGE;
@@ -763,13 +778,13 @@ export function mountDirectory(element, {
     searchForm,
     searchInput,
     isComposingSearch,
-    snapshot() {
+    snapshot({ committedQuery = false } = {}) {
       return {
         county: state.county,
         groupBy: state.groupBy,
         institution: institutionById.get(state.institution)?.name,
         view: state.view,
-        query: composing ? state.query : searchInput.value,
+        query: composing || committedQuery ? state.query : searchInput.value,
         entryLimit: state.entryLimit,
         searchLimit: state.searchLimit,
         expanded: [...main.querySelectorAll('details[data-entry][open]')].map((entry) => entry.dataset.entry),
@@ -777,12 +792,14 @@ export function mountDirectory(element, {
     },
     restore(saved) {
       if (!saved) return;
+      clearTimeout(searchTimer);
       state.county = COUNTY_ORDER.includes(saved.county) ? saved.county : null;
       state.groupBy = saved.groupBy === 'institutions' ? 'institutions' : 'people';
       state.institution = institutions.find(({ name }) => name === saved.institution)?.id ?? null;
       state.view = saved.view === 'unlocated' ? 'unlocated' : 'browse';
       state.query = typeof saved.query === 'string' ? saved.query : '';
       searchInput.value = state.query;
+      searchStarted = Boolean(state.query.trim());
       if (Number.isInteger(saved.entryLimit) && saved.entryLimit > 0) state.entryLimit = saved.entryLimit;
       if (Number.isInteger(saved.searchLimit) && saved.searchLimit > 0) state.searchLimit = saved.searchLimit;
       render();

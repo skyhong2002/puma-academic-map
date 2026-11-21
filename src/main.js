@@ -16,6 +16,7 @@ const directoryElement = $('directory');
 const overview = $('map-overview');
 const about = $('about-map');
 const panelToggle = $('panel-toggle');
+const panelBack = $('panel-back');
 const aboutButton = $('map-about');
 const panelContent = $('panel-content');
 const mapApp = panel.closest('.map-app');
@@ -24,6 +25,7 @@ const toolbar = mapApp.querySelector('.map-toolbar');
 const number = new Intl.NumberFormat('zh-TW');
 let returnFocus;
 let panelDetail;
+let panelHistory = [];
 let panelView = 'directory';
 let collapsedScrollTop = 0;
 let pendingReveal;
@@ -109,8 +111,8 @@ function detailTitle(text) {
   return title;
 }
 
-function showCampus(campus, restore, restoring = false) {
-  let returnButton;
+function showCampus(campus, { restoring = false } = {}) {
+  if (!restoring) rememberPanel();
   if (!restoring) track('view_academic_location');
   const { point, people, unit, campusOnly } = campus;
   panelDetail = { type: 'campus', point: pointKey(point), campusOnly };
@@ -126,12 +128,7 @@ function showCampus(campus, restore, restoring = false) {
     const item = document.createElement('li');
     const button = document.createElement('button');
     button.type = 'button';
-    if (restore?.person === person) returnButton = button;
-    button.addEventListener('click', () => {
-      const scrollTop = panelContent.scrollTop;
-      const location = locatedUnit(person, point) ?? point;
-      showPerson(person, location, { campus, person, scrollTop });
-    });
+    button.addEventListener('click', () => showPerson(person, locatedUnit(person, point) ?? point));
     if (person.portrait) {
       const image = document.createElement('img');
       image.src = person.portrait.image;
@@ -208,41 +205,15 @@ function showCampus(campus, restore, restoring = false) {
     details.append(link);
   }
   details.append(members);
-  showPanel('detail', { focus: !restoring && !returnButton });
-  if (returnButton) {
-    panelContent.scrollTop = restore.scrollTop;
-    returnButton.scrollIntoView({ block: 'nearest' });
-    returnButton.focus({ preventScroll: true });
-  }
+  showPanel('detail', { focus: !restoring });
   if (!restoring) revealAfterPanelResize(point);
 }
 
-function showPerson(person, point, returnToList, restoring = false) {
+function showPerson(person, point, { restoring = false } = {}) {
+  if (!restoring) rememberPanel();
   panelDetail = { type: 'person', point: point && pointKey(point), person: personRef(person) };
-  if (returnToList?.campus) {
-    const { campus, scrollTop } = returnToList;
-    panelDetail.parent = { point: pointKey(campus.point), campusOnly: campus.campusOnly, scrollTop };
-  }
   atlas.select(point, person);
   const body = personDetails(person, point, { heading: true });
-  if (returnToList) {
-    const close = document.createElement('button');
-    close.type = 'button';
-    close.className = 'map-detail__close-person';
-    close.textContent = '×';
-    const { campus, target, scrollTop } = returnToList;
-    close.setAttribute('aria-label', campus ? '回到校區名單' : '回到署名者名錄');
-    close.addEventListener('click', () => {
-      if (campus) showCampus(campus, returnToList);
-      else {
-        showPanel('directory', { focus: !target?.isConnected });
-        panelContent.scrollTop = scrollTop;
-        target?.focus({ preventScroll: true });
-      }
-    });
-    body.classList.add('has-return');
-    body.querySelector('.map-detail__identity').append(close);
-  }
   const references = document.createElement('details');
   references.className = 'map-detail__references';
   const summary = document.createElement('summary');
@@ -273,8 +244,12 @@ const atlas = createAtlas($('map'), people, {
 const findPerson = (entry) => people.find((person) => person.section === entry.section && person.raw === entry.raw);
 let searchTracked = false;
 const directory = mountDirectory(directoryElement, {
+  onBeforeNavigate(options) {
+    if (panelView === 'directory') rememberPanel(options);
+  },
   onSearchClear: () => atlas.select(),
   onSearchChange(query) {
+    if (panelView !== 'directory') rememberPanel();
     atlas.select();
     if (!searchTracked && query.trim()) {
       searchTracked = true;
@@ -283,6 +258,7 @@ const directory = mountDirectory(directoryElement, {
     showPanel('directory', { focus: false });
   },
   onSearchOpen() {
+    if (panelView !== 'directory') rememberPanel();
     showPanel('directory', { focus: false });
   },
   onSearchPerson(entry) {
@@ -291,11 +267,10 @@ const directory = mountDirectory(directoryElement, {
     const unit = person.locations.map((point) => locatedUnit(person, point)).find(Boolean);
     locateOnMap(unit ?? person.locations[0], person);
   },
-  onOpenPerson(entry, target) {
+  onOpenPerson(entry) {
     const person = findPerson(entry);
     if (!person) return;
-    const scrollTop = panelContent.scrollTop;
-    showPerson(person, person.locations[0], { target, scrollTop });
+    showPerson(person, person.locations[0]);
   },
   onLocateUnit(point) {
     showCampus({ point, unit: point.unit, people: atlas.peopleAt(point) });
@@ -430,6 +405,8 @@ function dismissDetails() {
   if (panelView !== 'detail') return;
   closePanel({ focusTarget: panelToggle });
   panelView = 'directory';
+  panelHistory = [];
+  updatePanelBack();
   collapsedScrollTop = 0;
 }
 $('reset-map').addEventListener('click', () => {
@@ -439,7 +416,10 @@ $('reset-map').addEventListener('click', () => {
 });
 aboutButton.addEventListener('click', () => {
   if (!panel.hidden && !about.hidden) closePanel({ focusTarget: aboutButton });
-  else showPanel('about');
+  else {
+    rememberPanel();
+    showPanel('about');
+  }
 });
 document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape' && !event.defaultPrevented && !directory.isComposingSearch(event)) closePanel();
@@ -473,9 +453,9 @@ function personRef(person) {
   return person && { section: person.section, raw: person.raw };
 }
 
-function saveView() {
+function panelSnapshot(options) {
   const { selection, focusedUnit, ...camera } = atlas.snapshot();
-  const state = {
+  return {
     camera,
     selection: selection && { point: pointKey(selection.point), person: personRef(selection.person) },
     focusedUnit: focusedUnit && pointKey(focusedUnit),
@@ -486,10 +466,29 @@ function saveView() {
       tall: mapApp.classList.contains('is-sheet-tall'),
       scrollTop: panel.hidden ? collapsedScrollTop : panelContent.scrollTop,
     },
-    directory: directory.snapshot(),
+    directory: directory.snapshot(options),
   };
+}
+
+function updatePanelBack() {
+  const previous = panelHistory.at(-1);
+  panelBack.hidden = !previous;
+  $('panel-back-title').textContent = previous?.title ?? '';
+  panelBack.setAttribute('aria-label', previous ? `返回${previous.title}` : '返回上一頁');
+}
+
+function rememberPanel(options) {
+  const title = panelView === 'directory'
+    ? directoryElement.querySelector('.pa-dir-view-title')?.textContent
+    : (panelView === 'detail' ? details : about).querySelector('h2')?.textContent;
+  panelHistory.push({ ...panelSnapshot(options), title: title || '署名者名錄' });
+  if (panelHistory.length > 20) panelHistory.shift();
+  updatePanelBack();
+}
+
+function saveView() {
   try {
-    sessionStorage.setItem(SESSION_KEY, JSON.stringify(state));
+    sessionStorage.setItem(SESSION_KEY, JSON.stringify({ ...panelSnapshot(), history: panelHistory }));
   } catch {
     // The atlas still works when browser storage is unavailable.
   }
@@ -502,18 +501,47 @@ function restoreDetail(saved) {
     if (!point) return false;
     const campus = atlas.resolveCampus(point, saved.campusOnly);
     if (!campus) return false;
-    showCampus(campus, undefined, true);
+    showCampus(campus, { restoring: true });
     return true;
   }
   if (saved.type !== 'person' || !saved.person) return false;
   const person = findPerson(saved.person);
   if (!person) return false;
-  const parentPoint = atlas.resolvePoint(saved.parent?.point);
-  const campus = parentPoint && atlas.resolveCampus(parentPoint, saved.parent.campusOnly);
-  const back = campus?.people.includes(person) ? { campus, person, scrollTop: saved.parent.scrollTop } : undefined;
-  showPerson(person, point, back, true);
+  showPerson(person, point, { restoring: true });
   return true;
 }
+
+function restorePanel(state, { back = false } = {}) {
+  if (!state?.camera || !state.panel) return;
+  pendingReveal = undefined;
+  directory.restore(state.directory);
+  mapApp.style.setProperty('--panel-duration', '0ms');
+  const { view, detail, open, tall, scrollTop } = state.panel;
+  if (view !== 'detail' || !restoreDetail(detail)) {
+    showPanel(view === 'about' ? 'about' : 'directory', { focus: false });
+  }
+  const expanded = back || open === true;
+  setPanelExpanded(expanded);
+  setSheetTall((back ? tall || mapApp.classList.contains('is-sheet-tall') : tall) && expanded);
+  mapApp.style.setProperty('--sheet-toolbar-height', `${toolbar.offsetHeight}px`);
+  collapsedScrollTop = Number.isFinite(scrollTop) ? scrollTop : 0;
+  if (expanded) panelContent.scrollTop = collapsedScrollTop;
+  atlas.resize({ pan: false });
+  const selectedPoint = atlas.resolvePoint(state.selection?.point);
+  atlas.select(selectedPoint, state.selection?.person && findPerson(state.selection.person));
+  atlas.restoreView(state.camera, atlas.resolvePoint(state.focusedUnit));
+  mapApp.style.removeProperty('--panel-duration');
+  if (back) {
+    const heading = panelContent.querySelector('section:not([hidden]) h2');
+    heading?.focus({ preventScroll: true });
+  }
+}
+
+panelBack.addEventListener('click', () => {
+  const previous = panelHistory.pop();
+  updatePanelBack();
+  if (previous) restorePanel(previous, { back: true });
+});
 
 function restoreView() {
   let state;
@@ -523,22 +551,17 @@ function restoreView() {
     return;
   }
   if (!state?.camera || !state.panel) return;
-  directory.restore(state.directory);
-  mapApp.style.setProperty('--panel-duration', '0ms');
-  const { view, detail, open, tall, scrollTop } = state.panel;
-  if (view !== 'detail' || !restoreDetail(detail)) {
-    showPanel(view === 'about' ? 'about' : 'directory', { focus: false });
+  panelHistory = Array.isArray(state.history) ? state.history.slice(-20) : [];
+  if (!panelHistory.length && state.panel.view !== 'directory') {
+    const parent = state.panel.detail?.parent;
+    panelHistory.push({
+      ...state,
+      title: parent ? (atlas.resolvePoint(parent.point)?.unit || atlas.resolvePoint(parent.point)?.institution || '校區名單') : '署名者名錄',
+      panel: parent ? { view: 'detail', detail: { ...parent, type: 'campus' }, scrollTop: parent.scrollTop } : { view: 'directory' },
+    });
   }
-  setPanelExpanded(open === true);
-  setSheetTall(open === true && tall === true);
-  mapApp.style.setProperty('--sheet-toolbar-height', `${toolbar.offsetHeight}px`);
-  collapsedScrollTop = Number.isFinite(scrollTop) ? scrollTop : 0;
-  if (open) panelContent.scrollTop = collapsedScrollTop;
-  atlas.resize({ pan: false });
-  const selectedPoint = atlas.resolvePoint(state.selection?.point);
-  atlas.select(selectedPoint, state.selection?.person && findPerson(state.selection.person));
-  atlas.restoreView(state.camera, atlas.resolvePoint(state.focusedUnit));
-  mapApp.style.removeProperty('--panel-duration');
+  updatePanelBack();
+  restorePanel(state);
 }
 
 async function openLinkedBoard(id) {
