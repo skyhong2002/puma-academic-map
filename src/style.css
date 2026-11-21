@@ -1014,3 +1014,78 @@ path.bin-4 { fill: var(--bin-4); }
   overflow-wrap: anywhere;
   text-align: center;
 }
+
+.place-roster-panel {
+  position: absolute;
+  z-index: 1100;
+  inset-inline: auto 12px;
+  inset-block: 54px 16px;
+  display: flex;
+  flex-direction: column;
+  width: min(290px, calc(100% - 24px));
+  padding: 10px;
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+  color: var(--ink);
+  background: var(--paper-raised);
+  box-shadow: 0 4px 20px #0004;
+}
+
+.place-roster-panel__close {
+  align-self: flex-end;
+  flex: none;
+  padding: 5px 8px;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.place-roster {
+  overflow: auto;
+  overscroll-behavior: contain;
+  padding: 2px 4px 6px;
+}
+
+.place-roster h3 {
+  margin: .7rem 0 .35rem;
+  font-size: 1em;
+}
+
+.place-roster details {
+  border-block-end: 1px solid var(--rule);
+}
+
+.place-roster summary,
+.place-roster__person {
+  min-height: 32px;
+  padding: 5px 8px;
+  cursor: pointer;
+}
+
+.place-roster__person {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: start;
+}
+
+.place-roster__person:hover,
+.place-roster__person:focus-visible,
+.place-roster summary:hover {
+  color: #9a3f12;
+  background: #f7e3d6;
+}
+
+.place-roster__person img {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  object-fit: cover;
+}
