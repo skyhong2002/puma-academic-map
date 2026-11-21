@@ -545,7 +545,12 @@ function publicCommentRow(comment, person) {
   board.addEventListener('click', () => openPersonBoard(person, { fromParent: true }));
   meta.append(author, arrow, board);
   const affiliation = person.affiliation_text?.trim();
-  if (affiliation) meta.append(`（${affiliation}）`);
+  if (affiliation) {
+    const title = document.createElement('span');
+    title.className = 'map-public-comments__affiliation';
+    title.textContent = `（${affiliation}）`;
+    meta.append(title);
+  }
 
   const content = document.createElement('div');
   content.className = 'map-public-comments__content';
