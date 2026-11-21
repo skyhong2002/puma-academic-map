@@ -15,7 +15,6 @@ const details = $('place-details');
 const directoryElement = $('directory');
 const overview = $('map-overview');
 const home = $('home-panel');
-const regions = $('map-regions');
 const about = $('about-map');
 const publicComments = $('public-comments');
 const publicList = $('public-comments-list');
@@ -37,7 +36,6 @@ let loadingPublicComments = false;
 let peopleByBoard;
 let panelAncestors = [];
 let panelView = 'home';
-let activeRegion = null;
 let collapsedScrollTop = 0;
 let pendingReveal;
 let sheetDrag;
@@ -76,7 +74,7 @@ function showPanel(view, { focus = true, restoreScroll = false, open = true } = 
   if (restoreScroll) panelContent.scrollTop = collapsedScrollTop;
   if (focus) {
     if (!restoreScroll) panelContent.scrollTop = 0;
-    panel.querySelector('#panel-content > section:not([hidden]) h2')?.focus({ preventScroll: true });
+    (view === 'home' ? home : panel.querySelector('#panel-content > section:not([hidden]) h2'))?.focus({ preventScroll: true });
   }
 }
 
@@ -521,20 +519,6 @@ overview.addEventListener('click', (event) => {
   }
 });
 
-function setActiveRegion(region) {
-  activeRegion = region;
-  for (const button of regions.querySelectorAll('button[data-region]')) {
-    button.setAttribute('aria-pressed', String(button.dataset.region === region));
-  }
-}
-
-regions.addEventListener('click', (event) => {
-  const button = event.target.closest('button[data-region]');
-  if (!button) return;
-  pendingReveal = undefined;
-  setActiveRegion(button.dataset.region);
-  atlas.exploreRegion(activeRegion);
-});
 publicMore.addEventListener('click', loadPublicComments);
 
 function boardPeople() {
@@ -665,7 +649,6 @@ function panelSnapshot() {
       detail: panelView === 'detail' ? panelDetail : undefined,
       open: !panel.hidden,
       tall: mapApp.classList.contains('is-sheet-tall'),
-      region: activeRegion,
       scrollTop: panel.hidden ? collapsedScrollTop : panelContent.scrollTop,
     },
     directory: directory.snapshot(),
@@ -684,7 +667,7 @@ function homeSnapshot() {
   return {
     camera: { lat, lng, zoom },
     directory: homeDirectory,
-    panel: { view: 'home', open: true, scrollTop: 0, region: activeRegion },
+    panel: { view: 'home', open: true, scrollTop: 0 },
     title: '地圖首頁',
   };
 }
@@ -721,7 +704,6 @@ function showHomePanel({ focus = true, open = true, resetMap = false } = {}) {
   showPanel('home', { focus, open });
   panelContent.scrollTop = 0;
   if (resetMap) {
-    setActiveRegion(null);
     atlas.resize({ pan: false });
     atlas.reset();
   }
@@ -767,10 +749,9 @@ function restorePanel(state, { back = false } = {}) {
   pendingReveal = undefined;
   directory.restore(state.directory);
   mapApp.style.setProperty('--panel-duration', '0ms');
-  const { view, detail, open, tall, scrollTop, region } = state.panel;
+  const { view, detail, open, tall, scrollTop } = state.panel;
   const expanded = back || open === true;
   const isHome = view === 'home' || (view === 'directory' && isHomeDirectory(state.directory));
-  setActiveRegion(region ?? null);
   if (view !== 'detail' || !restoreDetail(detail)) {
     const nextView = isHome ? 'home' : ['about', 'comments'].includes(view) ? view : 'directory';
     showPanel(nextView, { focus: false, open: expanded });
@@ -786,7 +767,7 @@ function restorePanel(state, { back = false } = {}) {
   atlas.restoreView(state.camera, atlas.resolvePoint(state.focusedUnit));
   mapApp.style.removeProperty('--panel-duration');
   if (back) {
-    const heading = panelContent.querySelector('section:not([hidden]) h2');
+    const heading = panelView === 'home' ? home : panelContent.querySelector('section:not([hidden]) h2');
     heading?.focus({ preventScroll: true });
   }
 }

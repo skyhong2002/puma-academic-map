@@ -2,18 +2,10 @@ import L from 'leaflet';
 import 'leaflet.markercluster';
 import { locatedUnit, unitLocations } from './unit-locations.js';
 import { emblemFor, emblemImage, institutionMark } from './emblems.js';
-import { isTaiwan } from './person-data.js';
 
 const catalog = Object.values(import.meta.glob('../data/institutions/*.json', { eager: true, import: 'default' })).flat();
 
 const START = [[21.87, 118.15], [26.42, 122.16]];
-const REGION_BOUNDS = {
-  north: [[24.42, 120.85], [25.34, 122.03]],
-  central: [[23.43, 120.05], [24.73, 121.38]],
-  south: [[21.89, 120.02], [23.72, 121.02]],
-  east: [[21.95, 120.74], [24.95, 122.11]],
-  islands: [[23.16, 118.15], [26.42, 120.53]],
-};
 const CAMPUS_ZOOM = 14;
 const UNIT_ZOOM = 17;
 const CAMPUS_PEOPLE_ZOOM = 20;
@@ -659,22 +651,13 @@ export function createAtlas(container, people, { onCampus, onCampusZoom, onPerso
     if (animate) animateCampusChange(outgoing);
   }
 
-  function fitRegion(bounds, maxZoom) {
+  function reset() {
     focusedUnit = undefined;
     select();
     const { x, y } = map.getSize();
-    map.fitBounds(bounds, {
-      padding: [Math.min(32, x / 12), Math.min(44, y / 8)], maxZoom, animate: false,
+    map.fitBounds(START, {
+      padding: [Math.min(32, x / 40), Math.min(44, y / 8)], animate: false,
     });
-  }
-  const reset = () => fitRegion(START);
-  function exploreRegion(region) {
-    if (region === 'overseas') {
-      const points = groups.filter(({ point }) => !isTaiwan(point)).map(({ point }) => [point.lat, point.lon]);
-      if (points.length) fitRegion(points, 5);
-      return;
-    }
-    if (Object.hasOwn(REGION_BOUNDS, region)) fitRegion(REGION_BOUNDS[region], 10);
   }
   map.on('moveend', showCampuses);
   reset();
@@ -682,7 +665,6 @@ export function createAtlas(container, people, { onCampus, onCampusZoom, onPerso
   new ResizeObserver(() => resize({ debounceMoveend: true })).observe(container);
   return {
     reset,
-    exploreRegion,
     resize,
     select,
     snapshot() {
