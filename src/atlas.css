@@ -63,7 +63,13 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
   animation: atlas-ripple 14s ease-in-out infinite alternate paused;
 }
 .atlas-current::before { left: -12%; bottom: -12%; rotate: -15deg; }
-.atlas-current::after { right: -17%; top: 9%; rotate: 142deg; animation-delay: -4s; }
+.atlas-current::after {
+  right: -21%;
+  top: -8%;
+  width: min(86%, 1140px);
+  rotate: 165deg;
+  animation-delay: -4s;
+}
 @keyframes atlas-ripple {
   to { opacity: .74; }
 }
