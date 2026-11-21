@@ -1,0 +1,1203 @@
+[
+  {
+    "section": "共同領銜",
+    "raw": "林明璋（中央研究院院士、陽明交通大學應用化學系講座教授、美國Emory大學榮譽Woodruff講座教授）",
+    "sources": [
+      {
+        "label": "中研院週報",
+        "description": "中央研究院記載林明璋當選院士時任美國 Emory University 化學講座教授。",
+        "url": "https://newsletter.sinica.edu.tw/reviews/89/777/index.html"
+      },
+      {
+        "label": "大學公告",
+        "description": "Emory University 校方退休人員公告列出 Ming-Chang Lin 及其化學系任職。",
+        "url": "https://news.emory.edu/emory-report-archive/erarchive/2006/May/May%2030/Retire.htm"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "Emory University",
+        "country": "美國",
+        "city": "喬治亞州亞特蘭大",
+        "lat": 33.7972678,
+        "lon": -84.3233022,
+        "source_url": "https://tigerweb.geo.census.gov/tigerwebmain/Files/bas26/tigerweb_bas26_colleges_us.html"
+      }
+    ]
+  },
+  {
+    "section": "共同領銜",
+    "raw": "王惠鈞（中央研究院院士、臺北醫學大學醫學科技學院專任講座教授、中央研究院生醫轉譯研究中心客座講座、中央研究院生物化學研究所訪問學者）",
+    "sources": [
+      {
+        "label": "中研院院士名錄",
+        "description": "中央研究院院士名錄記載王惠鈞擔任臺北醫學大學醫學科技學院專任講座教授及中研院生醫轉譯中心客座講座。",
+        "url": "https://academicians.sinica.edu.tw/index.php?AcademicianNSearch%5Blocationid%5D=0&AcademicianNSearch%5BmemberID%5D=L&r=academician-n%2Flist",
+        "institutions": [
+          "臺北醫學大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "陳鈴津（中央研究院院士、中央研究院基因體中心客座講座、長庚大學特聘講座教授、美國加州大學聖地亞哥分校醫學院暨癌症中心兒科榮譽教授）",
+    "sources": [
+      {
+        "label": "研究中心手冊",
+        "description": "中央研究院基因體研究中心列出陳鈴津過去任教於加州大學聖地牙哥分校小兒科的經歷。",
+        "url": "https://www.genomics.sinica.edu.tw/images/stories/grc/GRC_w_Bookmarks.pdf"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "University of California, San Diego",
+        "country": "美國",
+        "city": "加州聖地牙哥",
+        "lat": 32.877749,
+        "lon": -117.235866,
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip"
+      }
+    ]
+  },
+  {
+    "section": "共同領銜",
+    "raw": "薛化元（政治大學台灣史研究所教授、台灣教授協會會長）",
+    "sources": [
+      {
+        "label": "大學個人頁",
+        "description": "政治大學歷史學系公開薛化元的學術資料。",
+        "url": "https://history.nccu.edu.tw/PageStaffing/Detail?fid=3431&id=837",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "locations": [],
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/%E8%96%9B%E5%8C%96%E5%85%83_%E6%94%BF%E5%A4%A7%E7%AB%8B%E6%B3%95%E9%99%A2%E5%8F%B0%E7%81%A3%E5%8F%B2%E7%A2%A9%E5%A3%AB%E5%AD%B8%E5%88%86%E7%8F%AD_%28cropped%29.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%E8%96%9B%E5%8C%96%E5%85%83_%E6%94%BF%E5%A4%A7%E7%AB%8B%E6%B3%95%E9%99%A2%E5%8F%B0%E7%81%A3%E5%8F%B2%E7%A2%A9%E5%A3%AB%E5%AD%B8%E5%88%86%E7%8F%AD_(cropped).jpg",
+      "credit": "立法院",
+      "license": "立法院政府網站資料開放宣告（須註明來源）"
+    }
+  },
+  {
+    "section": "共同領銜",
+    "raw": "林元輝（政治大學名譽教授）",
+    "sources": [
+      {
+        "label": "大學學術文件",
+        "description": "政大傳播學院歷年博士論文指導委員名單列出該院教授林元輝。",
+        "url": "https://depeva.video.nccu.edu.tw/sysdata/doc/8/827bccb55d886a22/pdf.pdf",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "吳介民（中央研究院社會學研究所特聘研究員）",
+    "sources": [
+      {
+        "label": "研究所個人頁",
+        "description": "中研院社會學研究所列出吳介民的任職與著作。",
+        "url": "https://www.ios.sinica.edu.tw/fellow/wujiehmin"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "鄭欽仁（台灣大學歷史學系名譽教授）",
+    "sources": [
+      {
+        "label": "大學電子報",
+        "description": "臺灣大學電子報在退休教職員名冊中列出鄭欽仁。",
+        "url": "https://sec.ntu.edu.tw/epaper/article.asp?num=550&sn=570",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "張嘉尹（東吳大學法學院專任特聘教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "東吳大學法學院暨法律學系列張嘉尹為專任特聘教授。",
+        "url": "https://www.law.scu.edu.tw/faculty/c1m30d",
+        "institutions": [
+          "東吳大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "陳儒修（政大廣電系退休教授）",
+    "sources": [
+      {
+        "label": "大學學術文件",
+        "description": "政大傳播學院歷年博士論文指導委員名單列出該院教授陳儒修。",
+        "url": "https://depeva.video.nccu.edu.tw/sysdata/doc/8/827bccb55d886a22/pdf.pdf",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "劉文（中央研究院民族學研究所副研究員）",
+    "sources": [
+      {
+        "label": "研究所個人頁",
+        "description": "中研院民族學研究所提供劉文的學術個人頁。",
+        "url": "https://www.ioe.sinica.edu.tw/Researcher/Detail?SiteID=6d0e3b6b-4623-45b4-ba6e-395e3b79eae0&filter=AF0F4F36-5948-4D38-A3EB-7533EDF78E6C&id=17C31455-794A-4B94-8ED1-8199EE00B90D"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "林佳和（政治大學法律學院副教授）",
+    "sources": [
+      {
+        "label": "學院個人頁",
+        "description": "政大法學院列出林佳和的法律學系等任教單位及副教授職級。",
+        "url": "https://cls.law.nccu.edu.tw/zh_tw/Faculty/teachers/Associate_Professor/%E6%9E%97%E4%BD%B3%E5%92%8C-54882826",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "侯宗佑（政治大學數位內容與科技學程助理教授）",
+    "sources": [
+      {
+        "label": "大學專訪",
+        "description": "政大傳播學院記載侯宗佑任數位內容碩士學位學程助理教授。",
+        "url": "https://www.comm.nccu.edu.tw/PageDoc?fid=11488",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "曹家榮（臺灣科技大學跨域創新暨國際華語中心副教授）",
+    "sources": [
+      {
+        "label": "系所師資名錄",
+        "description": "臺灣科技大學通識教育中心師資名錄列出曹家榮為副教授。",
+        "url": "https://www.doh.ntust.edu.tw/p/412-1026-3398.php?Lang=zh-tw",
+        "institutions": [
+          "國立臺灣科技大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "許文堂（台灣教授協會秘書長）",
+    "sources": [
+      {
+        "label": "教育部專家資料",
+        "description": "教育部轉型正義教育資源網列許文堂曾任臺灣教授協會秘書長及中研院近代史研究所副研究員。",
+        "url": "https://hre.pro.edu.tw/changetglist2/27"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "于昌民（台灣大學外文系副教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "臺大外文系列于昌民為專任副教授。",
+        "url": "https://www.forex.ntu.edu.tw/7316/",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "成令方（高雄醫學大學性別研究所退休教授、倫敦亞非學院研究訪問教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "高雄醫學大學性別研究所退休教師頁記載成令方曾任該所教授。",
+        "url": "https://gigs.kmu.edu.tw/index.php/zh-tw/61-%E5%B8%AB%E8%B3%87%E4%BB%8B%E7%B4%B9/%E9%80%80%E4%BC%91%E6%95%99%E5%B8%AB/78-%E6%88%90%E4%BB%A4%E6%96%B9",
+        "institutions": [
+          "高雄醫學大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "吳易澄（馬偕醫學大學醫學系助理教授、新竹馬偕紀念醫院醫師）",
+    "sources": [
+      {
+        "label": "學系個人頁",
+        "description": "馬偕醫學大學醫學系列出吳易澄為助理教授。",
+        "url": "https://www.mmu.edu.tw/medicine/xmdoc/cont?sid=0Q023567863805704932&xsmsid=0Q005583577403752074"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "吳易叡（成功大學全校不分系教授）",
+    "sources": [
+      {
+        "label": "大學學術資料庫",
+        "description": "成功大學學術資料庫列吳易叡隸屬全校不分系學士學位學程。",
+        "url": "https://researchoutput.ncku.edu.tw/zh/persons/harry-yi-jui-wu/",
+        "institutions": [
+          "國立成功大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "李明仁（嘉義大學應用歷史學系退休教授）",
+    "sources": [
+      {
+        "label": "大學教師資料庫",
+        "description": "嘉義大學列出應用歷史學系李明仁的研究成果。",
+        "url": "https://web085004.adm.ncyu.edu.tw/eRes.pub/ctrlrd/teaRes.aspx?teacher=A0311"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "袁千雯（台灣大學創新設計學院教授）",
+    "sources": [
+      {
+        "label": "學院個人頁",
+        "description": "臺大創新設計學院列出袁千雯為創新領域學士學位學程的專任教授。",
+        "url": "https://dschool.ntu.edu.tw/people/tinayuan/",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "李永熾（台灣大學歷史學系退休教授）",
+    "sources": [
+      {
+        "label": "系所電子報",
+        "description": "臺大歷史系報導該系退休教授李永熾獲頒旭日中綬章。",
+        "url": "https://epaper.ntu.edu.tw/view.php?id=32055&listid=178",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "劉玉皙（世新大學傳播管理學系副教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "世新大學傳播管理學系列出劉玉皙為副教授，頁名寫作劉玉晳。",
+        "url": "https://cm.wp.shu.edu.tw/?page_id=532",
+        "institutions": [
+          "世新大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "莊萬壽（長榮大學名譽講座教授、前台師大台文創所所長及退休教授）",
+    "sources": [
+      {
+        "label": "系所出版品",
+        "description": "長榮大學發布的專刊介紹莊萬壽為臺灣研究所名譽講座教授。",
+        "url": "https://dweb.cjcu.edu.tw/ShepherdFiles/C0203/File/20180130123759405.pdf",
+        "institutions": [
+          "長榮大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "劉景寬（中山大學醫學院講座教授）",
+    "sources": [
+      {
+        "label": "大學研究發展處名錄",
+        "description": "國立中山大學西灣講座名錄列出醫學院精準醫學研究所的劉景寬。",
+        "url": "https://ora.nsysu.edu.tw/p/412-1045-17009.php?Lang=zh-tw",
+        "institutions": [
+          "國立中山大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "楊維哲（台灣大學數學系名譽教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "臺大數學系列出楊維哲為名譽教授。",
+        "url": "https://www.math.ntu.edu.tw/entity_people/entity_people/21508",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "陳月妙（中正大學外國語文學系退休教授）",
+    "sources": [
+      {
+        "label": "系所退休師資",
+        "description": "中正大學外國語文學系退休教師名錄列出陳月妙教授。",
+        "url": "https://fllcccu.ccu.edu.tw/p/406-1060-5988%2Cr737.php?Lang=zh-tw",
+        "institutions": [
+          "國立中正大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "葉耀元（美國聖湯瑪斯大學國際研究講座教授）",
+    "sources": [
+      {
+        "label": "大學個人頁",
+        "description": "University of St. Thomas, Houston 列出葉耀元的國際研究講座教授任職。",
+        "url": "https://stthom.edu/faculty/yao-yuan-yeh/"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "王塗發（台北大學經濟學系退休教授）",
+    "sources": [
+      {
+        "label": "立法院歷屆委員簡介",
+        "description": "立法院公開歷屆委員簡介列王塗發曾任臺北大學經濟系教授兼主任。",
+        "url": "https://www.ly.gov.tw/EngPages/List.aspx?nodeid=1327",
+        "institutions": [
+          "國立臺北大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "李忠憲（成功大學電機系教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "成功大學電機工程學系提供教授李忠憲的學術資料。",
+        "url": "https://www.ee.ncku.edu.tw/teacher/index2.php?teacher_id=22",
+        "institutions": [
+          "國立成功大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "李酉潭（政治大學國家發展研究所兼任教授）",
+    "sources": [
+      {
+        "label": "大學活動頁",
+        "description": "政治大學公開活動頁列出李酉潭為國家發展研究所兼任教授。",
+        "url": "https://moltke.nccu.edu.tw/Registration/registration.do?action=conferenceInfo&conferenceID=X21720",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "陳時奮（加拿大西安大略大學榮譽教授/美國西華盛頓大學講座教授）",
+    "sources": [
+      {
+        "label": "大學個人頁",
+        "description": "西華盛頓大學列出 Shih-Fen Chen 為國際商務講座教授，並記載其曾任教於西安大略大學毅偉商學院。",
+        "url": "https://cbe.wwu.edu/index.php/people/chens20"
+      },
+      {
+        "label": "大學個人頁",
+        "description": "西安大略大學毅偉商學院收錄 Shih-Fen Chen 的教學與研究資料。",
+        "url": "https://www.ivey.uwo.ca/faculty_research/directory/shih-fen-chen/"
+      },
+      {
+        "label": "大學院刊",
+        "description": "政大商學院刊以中英姓名刊載陳時奮及其毅偉商學院任職。",
+        "url": "https://osaas.commerce.nccu.edu.tw/uploads/journal/18.pdf"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "Western Washington University",
+        "country": "美國",
+        "city": "華盛頓州貝靈厄姆",
+        "lat": 48.7326288,
+        "lon": -122.4872169,
+        "source_url": "https://tigerweb.geo.census.gov/tigerwebmain/Files/bas26/tigerweb_bas26_colleges_us.html"
+      },
+      {
+        "institution": "Western University (Ivey Business School)",
+        "country": "加拿大",
+        "city": "安大略省倫敦",
+        "lat": 43.0044246,
+        "lon": -81.2772525,
+        "source_url": "https://www.uwo.ca/fm/client_services/building_info.html"
+      }
+    ]
+  },
+  {
+    "section": "共同領銜",
+    "raw": "林欽惠（德國柏林洪堡大學亞非學系專任講師）",
+    "sources": [
+      {
+        "label": "大學人員名錄",
+        "description": "柏林洪堡大學人員名錄列出 Chin-Hui Lin 為亞非研究所學術人員。",
+        "url": "https://agnes.hu-berlin.de/lupo/rds?keep=y&moduleCall=webInfo&personal.pid=26543&publishConfFile=webInfoPerson&publishSubDir=personal&purge=y&showsearch=n&state=verpublish&status=init&vmfile=no"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "Humboldt-Universität zu Berlin",
+        "country": "德國",
+        "city": "柏林",
+        "lat": 52.5245522,
+        "lon": 13.3920646,
+        "source_url": "https://www.openstreetmap.org/way/43016019"
+      }
+    ]
+  },
+  {
+    "section": "共同領銜",
+    "raw": "張順志（成功大學電機系教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "成功大學電機工程學系列出張順志的教授任職經歷。",
+        "url": "https://www.ee.ncku.edu.tw/teacher/index2.php?teacher_id=71",
+        "institutions": [
+          "國立成功大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "趙順良（政大英文系教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "政治大學英國語文學系列出趙順良為專任教授。",
+        "url": "https://english.nccu.edu.tw/PageStaffing/Detail?fid=4507&id=1077",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "黃苕冠（美國漢密爾頓學院講師）",
+    "sources": [
+      {
+        "label": "大學活動頁",
+        "description": "文藻外語大學公開活動頁介紹黃苕冠任教於美國 Hamilton College。",
+        "url": "https://c026.wzu.edu.tw/article/518213"
+      },
+      {
+        "label": "大學個人頁",
+        "description": "Hamilton College 師資名錄列出 Tiao-Guan Huang 的華語教學經歷。",
+        "url": "https://www.hamilton.edu/academics/our-faculty/directory/faculty-detail/tiao-guan-huang"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "Hamilton College",
+        "country": "美國",
+        "city": "紐約州柯克蘭鎮",
+        "lat": 43.0526657,
+        "lon": -75.4077156,
+        "source_url": "https://tigerweb.geo.census.gov/tigerwebmain/Files/acs25/tigerweb_acs25_cdp_ny.html"
+      }
+    ]
+  },
+  {
+    "section": "共同領銜",
+    "raw": "賴瓊慧（林口長庚紀念醫院教授）",
+    "sources": [
+      {
+        "label": "醫院新聞稿",
+        "description": "長庚醫院官方新聞稿說明賴瓊慧同為林口長庚紀念醫院與長庚大學醫學院教授。",
+        "url": "https://www.cgmh.org.tw/dept/News/PressNews/251029001",
+        "institutions": [
+          "長庚大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "楊其文（國立台北藝術大學名譽教授）",
+    "sources": [
+      {
+        "label": "大學名譽教授名冊",
+        "description": "臺北藝術大學人事室列楊其文為戲劇學院名譽教授。",
+        "url": "https://person.tnua.edu.tw/wp-content/uploads/2024/12/%E6%9C%AC%E6%A0%A1%E6%AD%B7%E5%B9%B4%E5%90%8D%E8%AD%BD%E6%95%99%E6%8E%88%E5%90%8D%E5%86%8A.pdf",
+        "institutions": [
+          "國立臺北藝術大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "祝平一（中央研究院歷史語言研究所研究員）",
+    "sources": [
+      {
+        "label": "研究所個人頁",
+        "description": "中研院歷史語言研究所列出祝平一為研究員。",
+        "url": "https://www1.ihp.sinica.edu.tw/Fellows/Ping-yi_Chu"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "周耿生（馬偕醫護管理專科學校 跨領域教育中心副教授）",
+    "sources": [
+      {
+        "label": "專科學校會議紀錄",
+        "description": "馬偕醫護管理專科學校行政會議紀錄列周耿生為跨領域教育中心主任。",
+        "url": "https://web.mkc.edu.tw/Download.aspx?dir=Archive&file=F8-0A-48-3B-7C-78-5F-8C-CC-5D-EE-96-52-CD-FD-11.pdf&filename=%E7%AC%AC12%E6%AC%A1%E8%A1%8C%E6%94%BF%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%84%28114.07.15%29&sn=2390"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "葉紘麟（開南大學人文社會學院助理教授）",
+    "sources": [
+      {
+        "label": "期刊作者資料",
+        "description": "葉紘麟發表的學術論文列作者隸屬開南大學國家暨區域發展研究中心。",
+        "url": "https://www.tisanet.org/quarterly/22-1-4.pdf"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "黃揚名（輔仁大學心理學系副教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "輔仁大學心理學系列出黃揚名為副教授。",
+        "url": "https://psy.fju.edu.tw/members/teachers/1"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "温宏斌（國立陽明交通大學電機系特聘教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "陽明交通大學電機工程學系列出温宏斌為特聘教授。",
+        "url": "https://dee.nycu.edu.tw/teachers.php?locale=tw&pa=getItem&teacher_id=26",
+        "institutions": [
+          "國立陽明交通大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "劉曜華（逢甲大學都資系副教授）",
+    "sources": [
+      {
+        "label": "大學系所介紹",
+        "description": "逢甲大學系所介紹列劉曜華為都市計畫與空間資訊領域副教授。",
+        "url": "https://web.admission.fcu.edu.tw/110/research/110DepIntro.pdf",
+        "institutions": [
+          "逢甲大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "許慧如（師大台文系教授）",
+    "sources": [
+      {
+        "label": "大學研究資料庫",
+        "description": "臺灣師範大學學術成果資料庫列許慧如為臺灣語文學系教授。",
+        "url": "https://scholar.lib.ntnu.edu.tw/zh/persons/hui-lu-khoo/",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "林圭偵（中研院副研究員）",
+    "sources": [
+      {
+        "label": "研究所個人頁",
+        "description": "中研院歷史語言研究所列林圭偵為副研究員。",
+        "url": "https://www1.ihp.sinica.edu.tw/jp/Fellows/Kuei-chen_Lin"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "吳明季（國立屏東大學文化發展原住民專班助理教授）",
+    "sources": [
+      {
+        "label": "大學學程手冊",
+        "description": "屏東大學原住民族學程公布的師資介紹列吳明季為專案助理教授。",
+        "url": "https://indigenous.nptu.edu.tw/var/file/133/1133/img/2440/384833874.pdf",
+        "institutions": [
+          "國立屏東大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "曾光華（中正大學企管系教授）",
+    "sources": [
+      {
+        "label": "大學講義",
+        "description": "中正大學出版的講義列曾光華為企管所、行銷所副教授，職稱以該文件為準。",
+        "url": "https://dovoha.ccu.edu.tw/var/file/159/1159/img/109IMM.pdf",
+        "institutions": [
+          "國立中正大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "江榮傑（正修科技大學機械系退休教授退休教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "正修科技大學機械工程系個人頁記載江榮傑曾任該系專任教授。",
+        "url": "https://me.csu.edu.tw/p/905-1129-0195.php?Lang=zh-tw"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "洪瑞隆（台大醫院臨床教授）",
+    "sources": [
+      {
+        "label": "醫院人員名錄",
+        "description": "臺灣大學附設醫院列洪瑞隆為腫瘤醫學部主治醫師。",
+        "url": "https://www.ntuh.gov.tw/ntuh/Fpage.action?fid=3103&muid=3347"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "閻鴻亞（台北藝術大學文學跨域所兼任助理教授）",
+    "sources": [
+      {
+        "label": "大學會議紀錄",
+        "description": "臺北藝術大學校務會議附件列閻鴻亞為兼任助理教授。",
+        "url": "https://sec.tnua.edu.tw/wp-content/uploads/2022/10/107.10.22.pdf",
+        "institutions": [
+          "國立臺北藝術大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "曾旭正（台灣心靈生態村協進會理事長）",
+    "sources": [
+      {
+        "label": "司法院法人登記公告",
+        "description": "司法院公開的設立登記公告列曾旭正為臺灣心靈生態村協進會理事長。",
+        "url": "https://www.judicial.gov.tw/tw/cp-144-1016508-3ed06-1.html"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "陳志豪（國立臺灣師範大學臺史所副教授）",
+    "sources": [
+      {
+        "label": "系所公告",
+        "description": "臺灣師範大學臺灣史研究所公告陳志豪副教授接任所長。",
+        "url": "https://www.taih.ntnu.edu.tw/index.php/2025/02/07/2025-02-07-01/",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "陳幼馨（美國猶他州立大學世界語言與文化學系副教授）",
+    "sources": [
+      {
+        "label": "大學人員名錄",
+        "description": "猶他州立大學列出 Yu-Hsing Chen 為世界語言與文化系副教授。",
+        "url": "https://catalog.usu.edu/pages/TtIs5hufYgu8xKYw6A7u"
+      },
+      {
+        "label": "大學研討會議程",
+        "description": "喬治華盛頓大學公布的研討會議程同列陳幼馨的中英姓名與猶他州立大學。",
+        "url": "https://eall.columbian.gwu.edu/sites/g/files/zaxdzs6041/files/downloads/CASLAR-6%20Conference%20Schedule%20%2807_27%20updated%20version%29.pdf"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "Utah State University",
+        "country": "美國",
+        "city": "猶他州洛根",
+        "lat": 41.740748,
+        "lon": -111.81391,
+        "source_url": "https://topology-institutions.osg-htc.org/ui"
+      }
+    ]
+  },
+  {
+    "section": "共同領銜",
+    "raw": "郭華仁（台大農藝學系名譽教授）",
+    "sources": [
+      {
+        "label": "系所師資名錄",
+        "description": "臺灣大學農藝學系列郭華仁為名譽教授。",
+        "url": "https://agron.ntu.edu.tw/cp_n_42947.html",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "陳萬益（國立清華大學台灣文學所榮譽教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "清華大學臺灣文學研究所列出陳萬益為退休教授。",
+        "url": "https://tl.site.nthu.edu.tw/p/412-1399-22952.php?Lang=en",
+        "institutions": [
+          "國立清華大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "李錦旭（屏東大學退休老師）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "屏東大學社會發展學系師資頁列李錦旭為兼任副教授。",
+        "url": "https://social.nptu.edu.tw/p/405-1128-103668%2Cc10404.php?Lang=zh-tw",
+        "institutions": [
+          "國立屏東大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "吳懷晨（台北藝術大學人文學院教授）",
+    "sources": [
+      {
+        "label": "大學學院會議紀錄",
+        "description": "臺北藝術大學人文學院會議紀錄列吳懷晨為學院優良教師代表。",
+        "url": "https://sec.tnua.edu.tw/wp-content/uploads/2025/09/1140916_%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%84.pdf",
+        "institutions": [
+          "國立臺北藝術大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "張林煌（台中教育大學資工系教授）",
+    "sources": [
+      {
+        "label": "系所公告",
+        "description": "臺中教育大學資訊工程學系公告記載張林煌教授指導該系學生。",
+        "url": "https://cs.ntcu.edu.tw/data/8",
+        "institutions": [
+          "國立臺中教育大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "梁文菁（國立台灣師範大學表演藝術系教授）",
+    "sources": [
+      {
+        "label": "大學學術資料庫",
+        "description": "臺灣師範大學學術資料庫列梁文菁為表演藝術研究所教授。",
+        "url": "https://scholar.lib.ntnu.edu.tw/zh/persons/wen-ching-lia-liang/",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "畢恆達（國立臺灣大學建築與城鄉研究所退休教授）",
+    "sources": [
+      {
+        "label": "系所退休教師頁",
+        "description": "臺灣大學建築與城鄉研究所列畢恆達為退休教授。",
+        "url": "https://bp.ntu.edu.tw/News_Content_n_100344_s_250170.html",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "洪子偉（中研院歐美所研究員）",
+    "sources": [
+      {
+        "label": "中研院會議紀錄",
+        "description": "中央研究院公開會議紀錄列出洪子偉當時為歐美研究所副研究員。",
+        "url": "https://file.apps.sinica.edu.tw/filepool/conference/council/file/2024/2304Lqh330Ash1qarA0iwiFF/25-1%20Minutes.pdf"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "吳瑟致（台北海洋科技大學助理教授）",
+    "sources": [
+      {
+        "label": "通識中心師資名錄",
+        "description": "臺北海洋科技大學通識教育中心專任教師頁列出吳瑟致。",
+        "url": "https://gec.tumt.edu.tw/p/412-1020-2782.php?Lang=zh-tw"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳宜倩（東吳大學人權碩士學位學程教授）",
+    "sources": [
+      {
+        "label": "學程師資頁",
+        "description": "東吳大學人權學程師資介紹列出陳宜倩。",
+        "url": "https://lass.artsoc.scu.edu.tw/subabout/2/14",
+        "institutions": [
+          "東吳大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "張國財（新竹教育大學退休副教授）",
+    "sources": [
+      {
+        "label": "系所退休教師頁",
+        "description": "清華大學公布退休教師張國財曾任國立新竹教育大學數學教育系副教授。",
+        "url": "https://am.site.nthu.edu.tw/p/412-1133-31.php?Lang=zh-tw"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "劉定綱（師大台文系兼任助理教授）",
+    "sources": [
+      {
+        "label": "系所兼任師資",
+        "description": "臺灣師範大學臺灣語文學系兼任教師名錄列出劉定綱。",
+        "url": "https://www.tcll.ntnu.edu.tw/index.php/faculty/",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "鄭光倫（淡江大學公共行政暨法律學系助理教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "淡江大學公共行政暨法律學系提供鄭光倫的師資頁。",
+        "url": "https://www.pa.tku.edu.tw/pa/?tkumembers=%E9%84%AD%E5%85%89%E5%80%AB"
+      },
+      {
+        "label": "大學教師名錄",
+        "description": "淡江大學教師歷程列鄭光倫為政法系助理教授。",
+        "url": "https://teacher.tku.edu.tw/TchrSmy.aspx?cd=ULPX"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "何雅雯（曾任韓國西江大學中文系副教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "韓國西江大學中國文化系公開何雅雯的師資資料。",
+        "url": "https://scc.sogang.ac.kr/echina/echina02_1_7.html"
+      },
+      {
+        "label": "學術出版品",
+        "description": "中研院中國文哲研究集刊出版的專文作者資料列何雅雯為西江大學中文系副教授。",
+        "url": "https://www.litphil.sinica.edu.tw/newsletter/119/119-3-50.pdf"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "Sogang University",
+        "country": "韓國",
+        "city": "首爾",
+        "lat": 37.551111,
+        "lon": 126.941111,
+        "source_url": "https://www.wikidata.org/wiki/Q374457"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "杜宜儒（美國加州大學聖塔克魯斯分校 UC Santa Cruz講師 lecturer）",
+    "sources": [
+      {
+        "label": "大學人員名錄",
+        "description": "加州大學聖塔克魯斯分校列出 I Ju Tu 為語言與應用語言學單位華語講師。",
+        "url": "https://campusdirectory.ucsc.edu/cd_detail?uid=etu6"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "University of California, Santa Cruz",
+        "country": "美國",
+        "city": "加州聖塔克魯斯",
+        "lat": 36.9916803,
+        "lon": -122.0588487,
+        "source_url": "https://tigerweb.geo.census.gov/tigerwebmain/Files/bas26/tigerweb_bas26_colleges_us.html"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "賴慈芸（師大翻譯所教授）",
+    "sources": [
+      {
+        "label": "大學學術資料庫",
+        "description": "臺灣師範大學學術資料庫列賴慈芸為翻譯研究所教授。",
+        "url": "https://scholar.lib.ntnu.edu.tw/zh/persons/sharon-tzu-yun-lai/",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "顏維婷（中央研究院政治學研究所助研究員）",
+    "sources": [
+      {
+        "label": "研究所活動頁",
+        "description": "中研院政治學研究所列出顏維婷為助研究員。",
+        "url": "https://ipsas20.project.sinica.edu.tw/IPSASwithme_28.html"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "呂佩怡（國立台北教育大學當代藝術評論與策展研究碩士全英文學位學程教授）",
+    "sources": [
+      {
+        "label": "學程個人頁",
+        "description": "臺北教育大學當代藝術評論與策展研究全英語碩士學位學程提供呂佩怡的個人頁。",
+        "url": "https://ccsca.ntue.edu.tw/web/people/people2_in.jsp?fp_id=FP1704940732896",
+        "institutions": [
+          "國立臺北教育大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "吳明敏（中興大學行銷系名譽教授）",
+    "sources": [
+      {
+        "label": "大學公告",
+        "description": "中興大學公開新聞列吳明敏為行銷學系名譽教授。",
+        "url": "https://www2.nchu.edu.tw/news-detail/id/56736",
+        "institutions": [
+          "國立中興大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "張耀仁（中原大學電子系特聘教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "中原大學電子工程學系列張耀仁為特聘教授。",
+        "url": "https://el.cycu.edu.tw/portfolio-item/%E5%BC%B5%E8%80%80%E4%BB%81-yao-jen-chang/",
+        "institutions": [
+          "中原大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "黃武雄（台大數學系退休教授）",
+    "sources": [
+      {
+        "label": "大學電子報",
+        "description": "臺灣大學電子報在退休教職員名冊中列出黃武雄。",
+        "url": "https://sec.ntu.edu.tw/epaper/article.asp?num=550&sn=570",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "張瑞吉（台灣大學數學系退休教授台灣大學數學系退休教授）",
+    "sources": [
+      {
+        "label": "大學電子報",
+        "description": "臺灣大學電子報在資深優良教師名單中列出張瑞吉。",
+        "url": "https://sec.ntu.edu.tw/epaper/article.asp?num=550&sn=570",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳俊昇（曾任日本筑波大學外國研究員）",
+    "sources": [
+      {
+        "label": "出版品作者簡介",
+        "description": "著作的作者簡介列陳俊昇曾任筑波大學國際日本研究專攻外國研究員。",
+        "url": "https://ctcn.ebook.hyread.com.tw/bookDetail.jsp?id=171520"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "University of Tsukuba",
+        "country": "日本",
+        "city": "茨城縣筑波市",
+        "lat": 36.1036759,
+        "lon": 140.1020979,
+        "source_url": "https://www.wikidata.org/wiki/Q743615"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "廖凱弘（國立臺北大學數位行銷學程助理教授）",
+    "sources": [
+      {
+        "label": "學程師資名錄",
+        "description": "臺北大學數位行銷進修學士學位學程列廖凱弘為助理教授。",
+        "url": "https://www.dma.ntpu.edu.tw/teacher.php?ids=MTE2MDE1X%2BadjuS9qeiKsw%3D%3D",
+        "institutions": [
+          "國立臺北大學"
+        ]
+      }
+    ],
+    "locations": []
+  }
+]

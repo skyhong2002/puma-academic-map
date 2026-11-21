@@ -1,4 +1,5 @@
 import L from 'leaflet';
+import { addTaiwanPeople } from './person-map.js';
 
 /** 統一縣市寫法（台 → 臺），讓圖資、機構資料與名錄用同一個鍵。 */
 export const normalizeCounty = (name) => String(name ?? '').trim().replace(/台/g, '臺');
@@ -246,6 +247,7 @@ export function createCountyMap({ container, insetContainer, geojson, binOf, onH
   };
 
   fitBase();
+  const locate = addTaiwanPeople(map);
   paint();
   map.on('zoomend', syncInteraction);
 
@@ -261,6 +263,7 @@ export function createCountyMap({ container, insetContainer, geojson, binOf, onH
 
   return {
     counties: [...entries.keys()],
+    locate,
     select(county) {
       const next = county && entries.has(county) ? county : null;
       if (next === selected) return;

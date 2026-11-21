@@ -2,7 +2,7 @@
 // 只讀 data/*.json；所有文字以 textContent 寫入，不使用 innerHTML。
 import './directory.css';
 import roster from '../data/signatories.json';
-import affiliationSources from '../data/affiliation-sources.json';
+import { affiliationSources, isTaiwan, people, portraitFor } from './person-data.js';
 const institutionFiles = import.meta.glob('../data/institutions/*.json', { eager: true, import: 'default' });
 
 const COUNTY_ORDER = [
@@ -110,7 +110,13 @@ for (const [section, data] of Object.entries(roster.sections || {})) {
   });
 }
 function sourcesFor(entry) {
-  return affiliationSources[entry.section]?.[entry.raw] ?? [];
+  return affiliationSources(entry.section, entry.raw);
+}
+
+const pointsBySection = new Map();
+for (const person of people) {
+  if (!pointsBySection.has(person.section)) pointsBySection.set(person.section, new Map());
+  pointsBySection.get(person.section).set(person.raw, person.locations);
 }
 
 const sourcedCount = entries.filter((entry) => sourcesFor(entry).length).length;
@@ -198,11 +204,13 @@ function countBadge(count, unit) {
 
 // ---------- 主元件 ----------
 
-export function mountDirectory(element, { onSelectCounty } = {}) {
+export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
   if (!element) throw new Error('mountDirectory 需要容器元素');
   const uid = `pa-dir-${Math.random().toString(36).slice(2, 8)}`;
   const state = {
     county: null,
+    overseas: false,
+    groupBy: 'people',
     institution: null,
     view: 'browse', // browse | uncatalogued
     query: '',
@@ -216,13 +224,13 @@ export function mountDirectory(element, { onSelectCounty } = {}) {
   // 標頭與統計
   const statsList = h('dl', { class: 'pa-dir-stats' },
     stat('公開署名', entries.length, '筆'),
-    stat('有機構候選', matchedCount, '筆'),
+    stat('有學術查核來源', sourcedCount, '筆'),
     stat('已收錄機構', institutions.length, '所'),
   );
   const header = h('header', { class: 'pa-dir-header' },
-    h('h2', { class: 'pa-dir-title', id: `${uid}-title`, text: '機構與署名目錄' }),
+    h('h2', { class: 'pa-dir-title', id: `${uid}-title`, text: '署名者名錄' }),
     h('p', { class: 'pa-dir-lede' },
-      '依官方資料列出縣市內的機構與校區地址。署名依原站原文呈現；機構候選僅由名稱比對產生，尚未逐筆查核。'),
+      '依姓名查閱公開署名、學術單位與查核來源，也可切換至已建檔機構。'),
     statsList,
   );
 
@@ -258,7 +266,12 @@ export function mountDirectory(element, { onSelectCounty } = {}) {
     h('p', { class: 'pa-dir-muted', text: '地點為機構公開的校區地址，不代表署名者任職於該校區，也不代表機構本身表態。' }),
   );
 
-  element.append(header, searchForm, countyNav, live, main, footer);
+  const peopleMode = h('button', { type: 'button', class: 'pa-dir-chip', text: '署名者',
+    onClick: () => selectMode('people') });
+  const institutionMode = h('button', { type: 'button', class: 'pa-dir-chip', text: '機構',
+    onClick: () => selectMode('institutions') });
+  const modes = h('div', { class: 'map-switch', role: 'group', 'aria-label': '名錄分類' }, peopleMode, institutionMode);
+  element.append(header, searchForm, modes, countyNav, live, main, footer);
 
   // ---- 事件 ----
   let searchTimer = 0;
@@ -311,6 +324,15 @@ export function mountDirectory(element, { onSelectCounty } = {}) {
   }
 
   // ---- 導覽動作 ----
+  function selectMode(groupBy) {
+    state.groupBy = groupBy;
+    state.institution = null;
+    state.view = 'browse';
+    state.entryLimit = PAGE;
+    resetSearch();
+    render({ focus: 'heading' });
+  }
+
   function selectCounty(county, { notify = true, focus = 'heading' } = {}) {
     state.county = county;
     state.institution = null;
@@ -344,11 +366,16 @@ export function mountDirectory(element, { onSelectCounty } = {}) {
   // ---- 繪製 ----
   function render({ focus } = {}) {
     clearButton.hidden = !searchInput.value;
-    renderCounties();
+    modes.hidden = state.overseas;
+    countyNav.hidden = state.overseas;
+    peopleMode.setAttribute('aria-pressed', String(state.groupBy === 'people'));
+    institutionMode.setAttribute('aria-pressed', String(state.groupBy === 'institutions'));
+    if (!state.overseas) renderCounties();
     const query = state.query.trim();
     if (query.length >= MIN_QUERY) renderSearch(query);
     else if (state.view === 'uncatalogued') renderUncatalogued();
     else if (state.institution) renderInstitution(institutionById.get(state.institution));
+    else if (state.overseas || state.groupBy === 'people') renderPeople();
     else if (state.county) renderCounty(state.county);
     else renderOverview();
 
@@ -415,6 +442,26 @@ export function mountDirectory(element, { onSelectCounty } = {}) {
       h('span', { class: 'pa-dir-card-count' },
         h('strong', { text: inst.entries.length }), ' 筆署名提及'),
       h('span', { class: 'pa-dir-card-arrow', 'aria-hidden': 'true', text: '›' })));
+  }
+
+  function locationsFor(entry) {
+    const places = pointsBySection.get(entry.section)?.get(entry.raw) ?? [];
+    return places.filter((place) => state.overseas ? !isTaiwan(place) : isTaiwan(place));
+  }
+
+  function renderPeople() {
+    const title = state.overseas ? '海外署名者' : state.county ? `${state.county}署名者` : '全部署名者';
+    const list = entries.filter((entry) => {
+      if (state.overseas) return locationsFor(entry).length > 0;
+      if (state.county) return locationsFor(entry).some((place) => normalizeCounty(place.city)?.startsWith(state.county));
+      return true;
+    });
+    main.replaceChildren(
+      viewTitle(title, `共 ${list.length} 筆署名`),
+      list.length ? entryList(list) : h('p', { class: 'pa-dir-muted', text: '此範圍尚無已定位的署名。可用姓名搜尋完整名單。' }),
+      coverageNote(),
+    );
+    live.textContent = `${title}，共 ${list.length} 筆`;
   }
 
   function renderOverview() {
@@ -528,11 +575,20 @@ export function mountDirectory(element, { onSelectCounty } = {}) {
   function entryItem(entry, { exclude, query = '', result = false } = {}) {
     const candidates = entry.candidates.filter((inst) => inst.id !== exclude);
     const sources = sourcesFor(entry);
+    const portrait = portraitFor(entry.section, entry.raw);
+    const places = pointsBySection.get(entry.section)?.get(entry.raw) ?? [];
     return h('li', { class: 'pa-dir-entry', tabindex: result ? '0' : '-1', dataset: result ? { result: '' } : {} },
       h('div', { class: 'pa-dir-entry-head' },
+        portrait ? h('img', { class: 'pa-dir-portrait', src: portrait.image, alt: `${entry.name}的公開照片`, loading: 'lazy', width: '44', height: '44' }) : null,
         h('span', { class: 'pa-dir-entry-name' }, entry.name ? highlight(entry.name, query) : '（未解析條目）'),
         h('span', { class: `pa-dir-section-tag${entry.section === '共同領銜' ? ' is-lead' : ''}`, text: entry.section })),
       h('p', { class: 'pa-dir-entry-raw' }, highlight(entry.affiliation || entry.raw, query)),
+      places.length ? h('ul', { class: 'pa-dir-entry-places' }, places.map((place) => h('li', {},
+        h('button', { type: 'button', class: 'pa-dir-cand',
+          onClick: () => onLocate?.(entry, place),
+          text: [place.institution, place.city, place.country].filter(Boolean).join(' · '),
+          'aria-label': `在地圖定位 ${entry.name}，${place.institution}`,
+        })))) : null,
       entry.candidates.length === 0
         ? h('p', { class: 'pa-dir-entry-note', text: '尚無機構候選：原文未對應到已收錄機構。' })
         : candidates.length
@@ -551,6 +607,8 @@ export function mountDirectory(element, { onSelectCounty } = {}) {
           ? h('ul', {}, sources.map((source) => h('li', {},
             extLink(source.url, source.label), '，', source.description)))
           : h('p', { class: 'pa-dir-muted', text: '待補可核對此人的公開來源。' })),
+      portrait ? h('p', { class: 'pa-dir-entry-source' },
+        extLink(portrait.source_url, '照片來源'), '，', portrait.credit) : null,
       SOURCE_URL ? h('p', { class: 'pa-dir-entry-source' }, extLink(SOURCE_URL, '原站名單')) : null);
   }
 
@@ -666,6 +724,15 @@ export function mountDirectory(element, { onSelectCounty } = {}) {
   render();
 
   return {
+    setOverseas(value) {
+      if (value === state.overseas) return;
+      state.overseas = value;
+      state.institution = null;
+      state.view = 'browse';
+      state.entryLimit = PAGE;
+      resetSearch();
+      render({ focus: null });
+    },
     setCounty(countyOrNull) {
       const county = normalizeCounty(countyOrNull);
       if (county === state.county && state.view === 'browse' && !state.institution && !searchInput.value && !state.query) return;

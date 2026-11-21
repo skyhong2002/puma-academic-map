@@ -1,0 +1,876 @@
+[
+  {
+    "section": "會員名單",
+    "raw": "陳以萱（捷克帕拉茨基大學亞洲研究系資深講師）",
+    "sources": [
+      {
+        "label": "系所個人介紹",
+        "description": "帕拉茨基大學亞洲研究系列陳以萱（Yixuan Jandová Chen）為華語資深講師。",
+        "url": "https://kas.upol.cz/en/people/doctoral-students/"
+      },
+      {
+        "label": "大學官方活動",
+        "description": "政大華語文中心以中文及英文姓名介紹其帕拉茨基大學講師職務。",
+        "url": "https://www.nccu.edu.tw/p/405-1000-19777%2Cc87.php?Lang=zh-tw"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "帕拉茨基大學",
+        "country": "捷克",
+        "city": "奧洛穆茨",
+        "lat": 49.59508,
+        "lon": 17.25914,
+        "source_url": "https://www.wikidata.org/wiki/Q1637611"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "王寶惜（正修科技大學 餐飲管理系教授）",
+    "sources": [
+      {
+        "label": "系所師資頁",
+        "description": "正修科技大學餐飲管理系師資頁收錄王寶惜。",
+        "url": "https://fbm.csu.edu.tw/p/905-1139-0627.php"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "石婉瑜（台灣大學防災減害與韌性學程副教授）",
+    "sources": [
+      {
+        "label": "學程師資頁",
+        "description": "臺大防災減害與韌性碩士學程列石婉瑜為師資。",
+        "url": "https://mdr3.ntu.edu.tw/faculty"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "張昌祐（中央研究院生物多樣性研究中心助研究員）",
+    "sources": [
+      {
+        "label": "研究中心個人頁",
+        "description": "中研院生物多樣性研究中心列張昌祐為助研究員。",
+        "url": "https://biodiv.sinica.edu.tw/zh_pi-Chang-Yu_Chang"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳振迪（美國俄亥俄州立大學助理教授）",
+    "sources": [
+      {
+        "label": "大學研究中心個人頁",
+        "description": "俄亥俄州立大學東亞研究中心資料列陳振迪（Chen-Ti Chen）為農業、環境與發展經濟學系助理教授。",
+        "url": "https://easc.osu.edu/people/chen.13041"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "俄亥俄州立大學",
+        "country": "美國",
+        "city": "俄亥俄州哥倫布",
+        "lat": 39.999803,
+        "lon": -83.007525,
+        "source_url": "https://nces.ed.gov/collegenavigator/?id=204796"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "蘇怡安（美國華盛頓大學塔科馬分校社會科學系認知心理學助理教授）",
+    "sources": [
+      {
+        "label": "大學官方人事新聞",
+        "description": "華盛頓大學塔科馬分校公告 I-An Su 加入任教，研究領域包含認知心理學。",
+        "url": "https://www.tacoma.uw.edu/news/uw-tacoma-welcomes-dozen-new-faculty-members-2025-26-academic-year"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "華盛頓大學塔科馬分校",
+        "country": "美國",
+        "city": "華盛頓州塔科馬",
+        "lat": 47.244594,
+        "lon": -122.438541,
+        "source_url": "https://nces.ed.gov/collegenavigator/?id=377564"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "李佳蔚（美國德州三一大學音樂系教授）",
+    "sources": [
+      {
+        "label": "大學官方新聞",
+        "description": "Trinity University 官方報導介紹 Chia-Wei Lee 的聲樂教學。",
+        "url": "https://trinity.edu/news/texas-taiwan"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "德州三一大學",
+        "country": "美國",
+        "city": "德州聖安東尼奧",
+        "lat": 29.462682,
+        "lon": -98.48186,
+        "source_url": "https://nces.ed.gov/collegenavigator/?id=229267"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "莊千慧（日本 神戶女子大學副教授）",
+    "sources": [
+      {
+        "label": "大學官方研究者頁",
+        "description": "神戶女子大學研究者頁列莊千慧為國際教養學科准教授。",
+        "url": "https://shinjo-lab.kobe-wu.ac.jp/researcher/c-chuang/"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "神戶女子大學須磨校區",
+        "country": "日本",
+        "city": "神戶",
+        "lat": 34.65736,
+        "lon": 135.10949,
+        "source_url": "https://www.openstreetmap.org/way/369143201"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "廖莘雅（美國華盛頓州立大學心理系副教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "華盛頓州立大學心理學系列廖莘雅（Hsin-Ya Liao）為副教授。",
+        "url": "https://psychology.wsu.edu/faculty/wsu-profile/hsinya.liao/"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "華盛頓州立大學",
+        "country": "美國",
+        "city": "華盛頓州普爾曼",
+        "lat": 46.730448,
+        "lon": -117.158168,
+        "source_url": "https://nces.ed.gov/collegenavigator/?id=236939"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "何宇傑（國立東華大學資訊工程學系助理教授）",
+    "sources": [
+      {
+        "label": "大學師資個人資料",
+        "description": "東華大學教師人才資料庫列何宇傑於資訊工程學系任教。",
+        "url": "https://sys.ndhu.edu.tw/RD/TeacherTreasury/tlist.aspx?tcher=13763"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "Ko-Le Chen（School of Design, Arts and Creative Industries, Northumbria University, UKResearch Fellow ）",
+    "sources": [
+      {
+        "label": "大學研究者個人頁",
+        "description": "Northumbria University 研究入口收錄 Ko-Le Chen 與設計學術單位的關係。",
+        "url": "https://researchportal.northumbria.ac.uk/en/persons/ko-le-chen/"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "諾桑比亞大學",
+        "country": "英國",
+        "city": "泰恩河畔新堡",
+        "lat": 54.9764,
+        "lon": -1.608,
+        "source_url": "https://www.wikidata.org/wiki/Q2503794"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "張貴傑（淡江大學教育心理與諮商研究所副教授）",
+    "sources": [
+      {
+        "label": "大學教師歷程",
+        "description": "淡江大學教師歷程收錄張貴傑與教育心理與諮商研究所的任職資訊。",
+        "url": "https://teacher.tku.edu.tw/StfTchrSmy.aspx?deptcd=ATAX&tid=t936966"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "趙一平（長庚大學資訊工程學系副教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "長庚大學資訊工程學系專任教師頁列趙一平的師資資料。",
+        "url": "https://www.cgu.edu.tw/csie/FullTimeProfessorManagement/Detail/b74b3afc-621c-41fe-83e8-be1721f0c0bb?nodeId=13465"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "許晏庭（中央研究院社會學研究所博士後研究員）",
+    "sources": [
+      {
+        "label": "研究所成員頁",
+        "description": "中研院社會學研究所博士後研究人員名錄收錄許晏庭。",
+        "url": "https://www.ios.sinica.edu.tw/postdocs.php"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "邱繼輝（中央研究院生化所特聘研究員）",
+    "sources": [
+      {
+        "label": "研究所個人頁",
+        "description": "中研院生物化學研究所個人頁收錄邱繼輝特聘研究員。",
+        "url": "https://www.ibc.sinica.edu.tw/facultyV.php?DatetimeStr=20210916145453&type=PI"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "唐嘉妤（國立政治大學社會學系博士候選人）",
+    "sources": [
+      {
+        "label": "學院官方新聞",
+        "description": "政大社科院的博士生工作坊報導將唐嘉妤列為社會學系博士生。",
+        "url": "https://css.nccu.edu.tw/%E5%85%AC%E5%91%8A/elementor-10515/"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳柏伸（南臺科技大學應用日語系兼任講師）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "南臺科技大學應用日語系公告兼任教師陳柏伸的資料。",
+        "url": "https://japan.stust.edu.tw/tc/node/teacher_b16"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "林彥廷（國立高雄餐旅大學通識教育中心專案副教授）",
+    "sources": [
+      {
+        "label": "中心師資頁",
+        "description": "高雄餐旅大學通識教育中心刊載林彥廷的師資資料。",
+        "url": "https://ge.nkuht.edu.tw/p/404-1038-18792.php?Lang=zh-tw"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "黃文瀚（清華大學統計與數據科學研究所教授）",
+    "sources": [
+      {
+        "label": "大學研究者個人頁",
+        "description": "清華大學學術研究系統顯示黃文瀚的統計相關任職資料。",
+        "url": "https://scholars.nthu.edu.tw/esploro/profile/wenhan_hwang"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "陸浩然（美國羅文大學學校心理學助理教授）",
+    "sources": [
+      {
+        "label": "大學官方校錄",
+        "description": "Rowan University 研究生官方校錄列 Hao-Tau Luh 為助理教授。",
+        "url": "https://sites.rowan.edu/catalogs/_docs/2023-2024-graduate-catalog.pdf"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "羅文大學",
+        "country": "美國",
+        "city": "紐澤西州格拉斯伯勒",
+        "lat": 39.709108,
+        "lon": -75.119119,
+        "source_url": "https://nces.ed.gov/collegenavigator/?id=184782"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "洪哲文（清華大學動機系榮譽退休教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "清華大學動力機械工程學系將洪哲文列為榮譽退休教授。",
+        "url": "https://pme.site.nthu.edu.tw/p/406-1308-180007%2Cr4031.php?Lang=zh-tw"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "游量凱（輔大博物館學研究所助理教授）",
+    "sources": [
+      {
+        "label": "系所師資頁",
+        "description": "輔仁大學博物館學研究所將游量凱列於專任教師名單。",
+        "url": "https://fjumust.wixsite.com/homepage/team-4"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "柯乃熒（國立成功大學醫學院護理學系特聘教授）",
+    "sources": [
+      {
+        "label": "大學師資頁",
+        "description": "成功大學公共衛生研究所師資介紹記載柯乃熒在護理學系任職。",
+        "url": "https://publichealth.ncku.edu.tw/faculty/ko-nai-ying"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "廖紫均（國立自然科學博物館副研究員）",
+    "sources": [
+      {
+        "label": "博物館研究者頁",
+        "description": "國立自然科學博物館研究者名錄收錄廖紫均及其人類學組研究。",
+        "url": "https://www.nmns.edu.tw/ch/research/research-and-writing/detail/?id=A049&unit=%E4%BA%BA%E9%A1%9E%E5%AD%B8%E7%B5%84"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "汪淑媛（國立暨南大學社會政策與社會工作學系教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "暨南國際大學社會政策與社會工作學系列出汪淑媛的師資資料。",
+        "url": "https://spsw.ncnu.edu.tw/p/406-1058-11878%2Cr622.php?Lang=zh-tw"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "崔博翔（國立清華大學生醫工程與環境科學系教授）",
+    "sources": [
+      {
+        "label": "大學研究者個人頁",
+        "description": "清華大學學術研究系統收錄崔博翔在生醫工程與環境科學系的資料。",
+        "url": "https://scholars.nthu.edu.tw/esploro/profile/pohsiang_tsui"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "許晉瑋（台大電機系教授）",
+    "sources": [
+      {
+        "label": "研究所師資頁",
+        "description": "臺大電子工程學研究所奈米電子組列有許晉瑋的師資資料。",
+        "url": "https://giee.ntu.edu.tw/tw/faculty/ne/"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳冠宇（龍華科技大學電機系助理教授、台北科技大學電子系兼任助理教授）",
+    "sources": [
+      {
+        "label": "系所師資頁",
+        "description": "龍華科技大學電機工程系於師資介紹收錄陳冠宇。",
+        "url": "https://eee.lhu.edu.tw/p/412-1015-194.php?Lang=zh-tw"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "王定中（嘉義長庚神經外科助理教授級主治醫師）",
+    "sources": [
+      {
+        "label": "醫院醫師介紹",
+        "description": "長庚醫療財團法人醫師頁收錄嘉義長庚神經外科王定中的臨床及教學職務。",
+        "url": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/2812"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "林志昇（德育護理健康學院助理教授）",
+    "sources": [
+      {
+        "label": "系所師資頁",
+        "description": "德育護理健康學院幼兒保育系發布林志昇的師資介紹。",
+        "url": "https://child.dyhu.edu.tw/p/16-1012-47755.php"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "謝宗成（慈濟大學教授）",
+    "sources": [
+      {
+        "label": "大學研究者個人頁",
+        "description": "慈濟大學學研人才庫收錄謝宗成任職資訊。",
+        "url": "https://tcu.elsevierpure.com/zh/persons/tsung-cheng-hsieh/"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳玟如（臺北大學社工系副教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "臺北大學社會工作學系在專任師資中收錄陳玟如。",
+        "url": "https://www.sw.ntpu.edu.tw/index.php?belongid=1&id=74&index=13&lang=cht&option=members&task=pageinfo"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "林其昌（東海大學化材系教授/博雅書院教授/書院長）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "東海大學化學工程與材料工程學系師資頁收錄林其昌。",
+        "url": "https://chemeng2.thu.edu.tw/web/teacher/detail.php?cid=1&id=12"
+      },
+      {
+        "label": "書院師資頁",
+        "description": "東海大學博雅書院師資頁另外列出林其昌。",
+        "url": "https://poya.thu.edu.tw/front/About_Us/teacher1/member.php?ID=dGh1X3BveWEmdGVhY2hlcjE%3D"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "劉俊秀（陽明交通大學土木工程學系退休教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "陽明交通大學土木工程學系收錄劉俊秀的師資資訊。",
+        "url": "https://ce.nycu.edu.tw/member/educators/16"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "蔡尚恩（長榮大學資工系副教授）",
+    "sources": [
+      {
+        "label": "系所師資頁",
+        "description": "長榮大學資訊工程學系之師資介紹列有蔡尚恩。",
+        "url": "https://dweb.cjcu.edu.tw/csie/teacher/CS"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "李根芳（師大翻譯所教授）",
+    "sources": [
+      {
+        "label": "大學研究者個人頁",
+        "description": "臺灣師範大學學術研究資料庫收錄李根芳的翻譯研究所任職資料。",
+        "url": "https://scholar.lib.ntnu.edu.tw/zh/persons/ken-fang-lee/"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "楊東樵（實踐大學媒體傳達設計助理教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "實踐大學媒體傳達設計學系發佈楊東樵的教師介紹。",
+        "url": "https://sccd.usc.edu.tw/full-time-teachers/datavinci-yang/"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "張綠怡（慈濟大學護理學系助理教授）",
+    "sources": [
+      {
+        "label": "學院個人頁",
+        "description": "慈濟大學護理學院列張綠怡為助理教授。",
+        "url": "https://nc.tcu.edu.tw/p/406-1014-64708%2Cr1026.php?Lang=zh-tw"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "柯純融（淡江大學建築學系副教授）",
+    "sources": [
+      {
+        "label": "大學教師歷程",
+        "description": "淡江大學教師歷程收錄建築系柯純融的任職資訊。",
+        "url": "https://teacher.tku.edu.tw/StfTchrSmy.aspx?deptcd=TEAX&tid=t965485"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "萬孟瑋（嘉南藥理大學環境工程與科學系教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "嘉南藥理大學環境工程與科學系收錄萬孟瑋的師資資料。",
+        "url": "https://ev.cnu.edu.tw/?.__id=P20210223163951102&.p=HjrH"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "蔡婉琪（高雄醫學大學醫技系副教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "高雄醫學大學醫學檢驗生物技術學系列出蔡婉琪的師資資料。",
+        "url": "https://mlsb.kmu.edu.tw/index.php/zh-tw/29-wan-chi_tsai"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "沈宗憲（國立臺灣師範大學僑先部教授）",
+    "sources": [
+      {
+        "label": "單位個人頁",
+        "description": "臺灣師範大學僑生先修部公開沈宗憲教師介紹。",
+        "url": "https://www.nups.ntnu.edu.tw/%E6%B2%88%E5%AE%97%E6%86%B2"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "劉靈均（日本大阪公立大學人權問題研究中心客座研究員）",
+    "sources": [
+      {
+        "label": "研究者履歷",
+        "description": "Researchmap 列有劉靈均於大阪公立大學人權問題研究中心擔任客員研究員的經歷。",
+        "url": "https://researchmap.jp/dearlittlecookie/research_experience"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "大阪公立大學人權問題研究中心",
+        "country": "日本",
+        "city": "大阪",
+        "lat": 34.590683,
+        "lon": 135.5050396,
+        "source_url": "https://www.omu.ac.jp/orp/rchr/about/english.html"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "侯侑期（馬里蘭大學University of Maryland, College Park數學系博士候選人）",
+    "sources": [
+      {
+        "label": "系所研究生名錄",
+        "description": "馬里蘭大學數學系研究生名錄收錄侯侑期（Yu-Chi Hou）。",
+        "url": "https://www-math.umd.edu/people/graduate-students.html"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "馬里蘭大學學院市分校",
+        "country": "美國",
+        "city": "馬里蘭州學院市",
+        "lat": 38.988178,
+        "lon": -76.944721,
+        "source_url": "https://nces.ed.gov/collegenavigator/?id=163286"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "顏如儀（University of Cincinnati 數學系教授）",
+    "sources": [
+      {
+        "label": "大學研究者個人頁",
+        "description": "辛辛那提大學研究者名錄收錄顏如儀（Ju-Yi Yen）的數學任職資訊。",
+        "url": "https://researchdirectory.uc.edu/p/yenji"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "辛辛那提大學",
+        "country": "美國",
+        "city": "俄亥俄州辛辛那提",
+        "lat": 39.131159,
+        "lon": -84.51428,
+        "source_url": "https://nces.ed.gov/collegenavigator/?id=201885"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "何彥霆（日本大阪大學助理教授）",
+    "sources": [
+      {
+        "label": "醫學院官方活動",
+        "description": "成大醫學院公告以中英文姓名列何彥霆為大阪大學特聘助理教授。",
+        "url": "https://med.ncku.edu.tw/p/404-1015-286073.php?Lang=zh-tw"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "大阪大學",
+        "country": "日本",
+        "city": "大阪府吹田市",
+        "lat": 34.81917,
+        "lon": 135.52667,
+        "source_url": "https://www.wikidata.org/wiki/Q651233"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "李舒亭（逢甲大學通識中心兼任助理教授）",
+    "sources": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "2019 學年度的資料列李舒亭為逢甲大學通識教育中心兼任助理教授。",
+        "url": "https://data.gov.tw/dataset/27931"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "黃雅容（台南藝術大學退休教授）",
+    "sources": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "2019 學年度的資料列黃雅容為國立臺南藝術大學通識教育中心專任教授，可核對其過往任職。",
+        "url": "https://data.gov.tw/dataset/27931"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "蔡淩蕙（臺北藝術大學音樂學院傳統音樂學系副教授）",
+    "sources": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "2019 學年度的資料列蔡淩蕙為國立臺北藝術大學傳統音樂學系專任副教授。",
+        "url": "https://data.gov.tw/dataset/27931"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "謝良駿（東吳大學法學院法律學系兼任助理教授級專業技術人員）",
+    "sources": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "2019 學年度的資料列謝良駿為東吳大學法律學系兼任講師，可核對其過往任職。",
+        "url": "https://data.gov.tw/dataset/27931"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "莫康笙（致理科技大學 應用英語系助理教授）",
+    "sources": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "2019 學年度的資料列莫康笙為致理科技大學應用英語系專任助理教授。",
+        "url": "https://data.gov.tw/dataset/27931"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "吳宗樹（台灣大學公共衛生學院兼任講師）",
+    "sources": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "2019 學年度的資料列吳宗樹為國立臺灣大學公共衛生學系兼任講師。",
+        "url": "https://data.gov.tw/dataset/27931"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "林乃慧（長榮大學通識中心副教授）",
+    "sources": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "2019 學年度的資料列林乃慧為長榮大學通識教育中心專任副教授。",
+        "url": "https://data.gov.tw/dataset/27931"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "鄭兆君（長庚科技大學副教授）",
+    "sources": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "2019 學年度的資料列鄭兆君為長庚科技大學保健營養系專任講師，可核對其過往任職。",
+        "url": "https://data.gov.tw/dataset/27931"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "高之晨（嘉義長庚心臟外科主治醫師；樹人醫專兼任講師主治醫師；講師）",
+    "sources": [
+      {
+        "label": "醫院醫師介紹",
+        "description": "長庚醫療財團法人醫師介紹收錄高之晨的心臟外科職務。",
+        "url": "https://www.cgmh.org.tw/shcc/Services/DoctorInfo/8612"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "王裕宏（國立科學工藝博物館退休研究員）",
+    "sources": [
+      {
+        "label": "博物館人員資料",
+        "description": "國立科學工藝博物館專業人員人才庫收錄王裕宏的研究人員資料。",
+        "url": "https://www.nstm.gov.tw/ResearcherDetailC003620.aspx?Cond=e413d0e2-cf60-4a59-9961-a294d0ceed21"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "蔡政江（中央研究院數學研究所副研究員）",
+    "sources": [
+      {
+        "label": "國科會獎項資料",
+        "description": "國科會得獎者資料記載蔡政江於中研院數學研究所擔任副研究員。",
+        "url": "https://web.nstc.gov.tw/cen/oaa/award_113/Cheng-Chiang-Tsai.html"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "黃毓惠（林口長庚醫院教授）",
+    "sources": [
+      {
+        "label": "醫院醫師介紹",
+        "description": "林口長庚醫院公告黃毓惠的皮膚科醫師資料。",
+        "url": "https://www.cgmh.org.tw/linkou/Services/DoctorInfo/3764"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "廖御呈（國立屏東大學電腦科學與人工智慧學系兼任講師）",
+    "sources": [
+      {
+        "label": "系所兼任師資頁",
+        "description": "國立屏東大學電腦科學與人工智慧學系將廖御呈列於兼任師資名單。",
+        "url": "https://cs.nptu.edu.tw/p/412-1111-10341.php?Lang=zh-tw"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "李境祐（台北醫學大學(附設醫院) 骨科學科副教授）",
+    "sources": [
+      {
+        "label": "醫院醫師介紹",
+        "description": "臺北醫學大學附設醫院公告李境祐的骨科任職資料。",
+        "url": "https://www.tmuh.org.tw/team/team/06/06/060016"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "楊勝凱（嘉南藥理大學副教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "嘉南藥理大學智慧網路應用科公告楊勝凱的師資資料。",
+        "url": "https://ina.cnu.edu.tw/?.__id=P20230823175204058&.p=HjLr"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "黃盈斐（南臺科技大學助理教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "南臺科技大學幼兒保育系將黃盈斐列為兼任助理教授。",
+        "url": "https://childcare.stust.edu.tw/tc/node/Ying-Fei-Huang"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "林孟慧（國立臺灣大學氣候變遷與永續發展國際學位學程博士候選人）",
+    "sources": [
+      {
+        "label": "政府公開委員簡介",
+        "description": "行政院青年諮詢委員會簡介記載林孟慧在臺大氣候變遷與永續發展國際學位學程的博士班資歷。",
+        "url": "https://advisory.yda.gov.tw/committee-intro/161"
+      }
+    ],
+    "locations": []
+  }
+]

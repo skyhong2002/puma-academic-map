@@ -45,6 +45,14 @@
         "label": "系所個人頁",
         "description": "臺大物理系列出臺大講座教授職稱與校內研究經歷。",
         "url": "https://phys.ntu.edu.tw/News_Content_n_39720_s_81561.html"
+      },
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學物理學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
       }
     ],
     "周婉窈（台灣大學歷史學系名譽教授）": [
@@ -57,6 +65,14 @@
         "label": "系所個人頁",
         "description": "臺大歷史系名譽教授頁列有周婉窈。",
         "url": "https://history.ntu.edu.tw/web/team/team_about.jsp?cp_id=CP1765863230014&lang=tw"
+      },
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學歷史學系，兼任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
       }
     ],
     "薛化元（政治大學台灣史研究所教授、台灣教授協會會長）": [
@@ -64,6 +80,14 @@
         "label": "系所個人頁",
         "description": "政大歷史學系師資頁列有薛化元的學術資料。",
         "url": "https://history.nccu.edu.tw/PageStaffing/Detail?fid=3431&id=837"
+      },
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立政治大學台灣史研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立政治大學"
+        ]
       }
     ],
     "葉啟政（台灣大學社會學系退休教授）": [
@@ -71,6 +95,5858 @@
         "label": "系所名錄",
         "description": "臺大社會學系將葉啟政列為退休教授。",
         "url": "https://sociology.ntu.edu.tw/faculty/fct03/"
+      }
+    ],
+    "陳東升（台灣大學社會學系特聘教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學社會學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "陳弱水（台灣大學歷史系名譽教授、台灣大學特聘講座教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學歷史學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "陳瑞麟（中正大學哲學系講座教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中正大學哲學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中正大學"
+        ]
+      }
+    ],
+    "許甘霖（東海大學社會學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：東海大學社會學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "東海大學"
+        ]
+      }
+    ],
+    "陳方隅（東吳大學政治學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：東吳大學政治學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "東吳大學"
+        ]
+      }
+    ],
+    "陳炳煇（台灣大學機械工程系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學機械工程學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "邱花妹（國立中山大學社會學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中山大學社會學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中山大學"
+        ]
+      }
+    ],
+    "林益仁（台北藝術大學博物館研究所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北藝術大學博物館研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北藝術大學"
+        ]
+      }
+    ],
+    "張容嘉（東華大學民族發展與社會工作學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立東華大學民族發展與社會工作學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立東華大學"
+        ]
+      }
+    ],
+    "李衣雲（政治大學台灣史研究所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立政治大學台灣史研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "楊靜利（中山大學社會學系特聘教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中山大學社會學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中山大學"
+        ]
+      }
+    ],
+    "劉育成（東吳大學社會學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：東吳大學社會學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "東吳大學"
+        ]
+      }
+    ],
+    "黃厚銘（政治大學社會學系特聘教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立政治大學社會學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "黃山耘（台灣大學外國語文學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學外國語文學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "孫英玄（中興大學森林學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中興大學森林學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中興大學"
+        ]
+      }
+    ],
+    "楊姍樺（台灣大學漁業科學研究所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學漁業科學研究所，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "呂美親（台灣師範大學台灣語文學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣師範大學臺灣語文學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "吳俊霖（中興大學資訊工程系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中興大學資訊工程學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中興大學"
+        ]
+      }
+    ],
+    "徐偉群（中原大學財經法律學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：中原大學財經法律學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "中原大學"
+        ]
+      }
+    ],
+    "李宗興（臺灣大學創新領域學士學位學程助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學創新領域學士學位學程，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "邱毓斌（屏東大學社會發展學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立屏東大學社會發展學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立屏東大學"
+        ]
+      }
+    ],
+    "楊芳枝（成功大學台灣文學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立成功大學台灣文學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立成功大學"
+        ]
+      }
+    ],
+    "林達榮（東華大學國際企業學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立東華大學國際企業學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立東華大學"
+        ]
+      }
+    ],
+    "林承毅（政治大學X實驗學院兼任副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立政治大學X實驗學院，兼任講師。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "謝奇璋（成功大學臨床醫學研究所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立成功大學臨床醫學研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立成功大學"
+        ]
+      }
+    ],
+    "許春鎮（國立台灣海洋大學海洋法律研究所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣海洋大學海洋法律研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣海洋大學"
+        ]
+      }
+    ],
+    "李淑君（高雄醫學大學性別研究所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：高雄醫學大學性別研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "高雄醫學大學"
+        ]
+      }
+    ],
+    "黃兆年（國立政治大學國家發展研究所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立政治大學國家發展研究所，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "許維德（國立陽明交通大學人文社會學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立陽明交通大學人文社會學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立陽明交通大學"
+        ]
+      }
+    ],
+    "楊允言（臺中教育大學台灣語文學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺中教育大學臺灣語文學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺中教育大學"
+        ]
+      }
+    ],
+    "許佩賢（國立臺灣師範大學臺灣史研究所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣師範大學臺灣史研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "黃涵榆（臺灣師範大學英語系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣師範大學英語學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "張博超（高雄科技大學造船及海洋工程系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立高雄科技大學造船及海洋工程系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立高雄科技大學"
+        ]
+      }
+    ],
+    "徐峻賢（國立中央大學認知神經科學研究所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中央大學認知神經科學研究所，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中央大學"
+        ]
+      }
+    ],
+    "王奕婷（國立成功大學政治學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立成功大學政治學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立成功大學"
+        ]
+      }
+    ],
+    "高仁山（元智大學兼任教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：元智大學管理學院，兼任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "元智大學"
+        ]
+      }
+    ],
+    "柯政全（高雄醫學大學副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：高雄醫學大學牙醫學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "高雄醫學大學"
+        ]
+      }
+    ],
+    "林文源（國立清華大學教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立清華大學通識教育中心，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立清華大學"
+        ]
+      }
+    ],
+    "王宏仁（中山大學社會學系特聘教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立中山大學社會學系，專任教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立中山大學"
+        ]
+      }
+    ],
+    "陳月妙（中正大學外國語文學系退休教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立中正大學外國語文學系，專任教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立中正大學"
+        ]
+      }
+    ],
+    "李酉潭（政治大學國家發展研究所兼任教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立政治大學國家發展研究所，專任教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "祝平次（國立清華大學中國文學系退休副教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立清華大學中國文學系，專任副教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立清華大學"
+        ]
+      }
+    ],
+    "黃揚名（輔仁大學心理學系副教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：輔仁大學心理學系，專任副教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "輔仁大學"
+        ]
+      }
+    ],
+    "于昌民（台灣大學外文系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學外國語文學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "張順志（成功大學電機系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立成功大學電機工程學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立成功大學"
+        ]
+      }
+    ],
+    "温宏斌（國立陽明交通大學電機系特聘教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立陽明交通大學電機工程學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立陽明交通大學"
+        ]
+      }
+    ],
+    "曾光華（中正大學企管系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中正大學企業管理學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中正大學"
+        ]
+      }
+    ],
+    "陳志豪（國立臺灣師範大學臺史所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣師範大學臺灣史研究所，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "李忠憲（成功大學電機系教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立成功大學電機工程學系，專任教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立成功大學"
+        ]
+      }
+    ],
+    "唐國銘（樹德科技大學資管系退休副教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：樹德科技大學資訊管理系，專任副教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "樹德科技大學"
+        ]
+      }
+    ]
+  },
+  "會員名單": {
+    "林孟儒（逢甲大學機械與電腦輔助工程系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：逢甲大學機械與電腦輔助工程學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "逢甲大學"
+        ]
+      }
+    ],
+    "李以德（真理大學法律系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：真理大學法律學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "真理大學"
+        ]
+      }
+    ],
+    "莊佳穎（國立臺灣師範大學台灣語文學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣師範大學臺灣語文學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "王正嘉（國立中正大學法律學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中正大學法律學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中正大學"
+        ]
+      }
+    ],
+    "洪伯邑（臺灣大學地理環境資源學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學地理環境資源學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "朱夢慈（國立臺南藝術大學民族音樂學研究所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺南藝術大學民族音樂學研究所，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺南藝術大學"
+        ]
+      }
+    ],
+    "黃桂瑩（陽明交通大學視覺文化研究所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立陽明交通大學視覺文化研究所，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立陽明交通大學"
+        ]
+      }
+    ],
+    "李輝煌（國立成功大學工程科學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立成功大學工程科學系，兼任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立成功大學"
+        ]
+      }
+    ],
+    "高崇文（中原大學物理系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：中原大學物理學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "中原大學"
+        ]
+      }
+    ],
+    "翁註重（雲林科技大學工業設計系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立雲林科技大學工業設計系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立雲林科技大學"
+        ]
+      }
+    ],
+    "吳明錡（國立台南大學通識教育中心助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺南大學通識教育中心，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺南大學"
+        ]
+      }
+    ],
+    "王德睦（中正大學社會福利學系退休教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中正大學社會福利學系，兼任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中正大學"
+        ]
+      }
+    ],
+    "邱大昕（高雄醫學大學醫學社會學與社會工作學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：高雄醫學大學醫學社會學與社會工作學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "高雄醫學大學"
+        ]
+      }
+    ],
+    "周怡君（東吳大學社會系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：東吳大學社會學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "東吳大學"
+        ]
+      }
+    ],
+    "陳俐甫（真理大學人文與資訊學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：真理大學人文與資訊學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "真理大學"
+        ]
+      }
+    ],
+    "曾蘇銘（國立台灣藝術大學 戲劇學系客座教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣藝術大學戲劇學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣藝術大學"
+        ]
+      }
+    ],
+    "楊德源（國立高雄科技大學金融系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立高雄科技大學金融系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立高雄科技大學"
+        ]
+      }
+    ],
+    "何明修（台灣大學社會學系特聘教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學社會學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "林士傑（陽明交通大學神經科學研究所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立陽明交通大學神經科學研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立陽明交通大學"
+        ]
+      }
+    ],
+    "傅裕惠（台大戲劇學系兼任助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學戲劇學系，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "陳民樺（中原大學生物醫學工程學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：中原大學生物醫學工程學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "中原大學"
+        ]
+      }
+    ],
+    "周志宏（國立臺北教育大學文教法律研究所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北教育大學文教法律研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北教育大學"
+        ]
+      }
+    ],
+    "陳登武（國立台灣師範大學歷史學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣師範大學歷史學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "黎立仁（國立台中科技大學應用日語系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺中科技大學應用日語系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺中科技大學"
+        ]
+      }
+    ],
+    "陳柏勳（國立陽明交通大學中醫學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立陽明交通大學中醫學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立陽明交通大學"
+        ]
+      }
+    ],
+    "黃雍欽（德明財經科技大學多媒體設計系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：德明財經科技大學多媒體設計系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "德明財經科技大學"
+        ]
+      }
+    ],
+    "羅友志（國立勤益科技大學 健康產業科技研發與管理系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立勤益科技大學健康產業科技研發與管理系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立勤益科技大學"
+        ]
+      }
+    ],
+    "劉名峰（國立金門大學閩南文化碩士學位學程教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立金門大學閩南文化碩士學位學程，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立金門大學"
+        ]
+      }
+    ],
+    "王仲益（陽明交通大學半導體工程學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立陽明交通大學半導體工程學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立陽明交通大學"
+        ]
+      }
+    ],
+    "許政行（中原大學機械工程學系退休教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：中原大學機械工程學系，兼任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "中原大學"
+        ]
+      }
+    ],
+    "柯政郁（台大醫學系耳鼻喉科教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學醫學系，兼任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "陳祈男（成功大學工程科學系退休名譽教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立成功大學工程科學系，兼任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立成功大學"
+        ]
+      }
+    ],
+    "夏詩閔（臺北醫學大學保健營養學系教授兼系主任）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：臺北醫學大學保健營養學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "臺北醫學大學"
+        ]
+      }
+    ],
+    "張政傑（東吳大學日本語文學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：東吳大學日本語文學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "東吳大學"
+        ]
+      }
+    ],
+    "陳怡君（臺北醫學大學保健營養學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：臺北醫學大學保健營養學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "臺北醫學大學"
+        ]
+      }
+    ],
+    "洪意凌（國立清華大學社會學研究所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立清華大學社會學研究所，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立清華大學"
+        ]
+      }
+    ],
+    "林耀盛（國立臺灣大學心理學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學心理學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "倪世傑（政治大學國際事務學院兼任助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立政治大學國際事務學院，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "林俊宏（中原大學土木工程學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：中原大學土木工程學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "中原大學"
+        ]
+      }
+    ],
+    "王櫻芬（臺灣大學音樂學研究所特聘教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學音樂學研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "陳子軒（國立體育大學體育研究所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立體育大學體育研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立體育大學"
+        ]
+      }
+    ],
+    "黃思超（國立中央大學中國文學系副研究員）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中央大學中國文學系，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中央大學"
+        ]
+      }
+    ],
+    "劉錦添（台灣大學經濟系名譽教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學經濟學系，兼任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "陳怡蒨（國立台北大學語言中心兼任助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北大學語言中心，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北大學"
+        ]
+      }
+    ],
+    "王耀俊（臺北市立大學視覺藝術學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：臺北市立大學視覺藝術學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "臺北市立大學"
+        ]
+      }
+    ],
+    "陳芳明（政治大學台灣文學研究所講座教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立政治大學台灣文學研究所，兼任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "譚偉恩（中興大學國際政治研究所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中興大學國際政治研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中興大學"
+        ]
+      }
+    ],
+    "何撒娜（東吳大學社會學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：東吳大學社會學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "東吳大學"
+        ]
+      }
+    ],
+    "吳建澄（國立中山大學資訊工程學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中山大學資訊工程學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中山大學"
+        ]
+      }
+    ],
+    "柯柏如（台灣大學生態學與演化生物學研究所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學生態學與演化生物學研究所，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "林雯玲（台灣大學戲劇系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學戲劇學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "王禕梵（國立成功大學政治學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立成功大學政治學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立成功大學"
+        ]
+      }
+    ],
+    "鄭斐文（東海大學社會系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：東海大學社會學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "東海大學"
+        ]
+      }
+    ],
+    "蕭欽玉（台大數學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學數學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "顏杏如（國立台灣大學歷史學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學歷史學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "張偉德（樹德科技大學 電腦與通訊系特聘教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：樹德科技大學電腦與通訊系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "樹德科技大學"
+        ]
+      }
+    ],
+    "陳盈棻（國立臺北科技大學建築系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北科技大學建築系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北科技大學"
+        ]
+      }
+    ],
+    "陳書毅（國立金門大學建築學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立金門大學建築學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立金門大學"
+        ]
+      }
+    ],
+    "郭庭君（國立臺灣海洋大學海洋事務與資源管理研究所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣海洋大學海洋事務與資源管理研究所，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣海洋大學"
+        ]
+      }
+    ],
+    "陳宇翔（國立台北大學社會學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北大學社會學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北大學"
+        ]
+      }
+    ],
+    "柯志哲（台灣大學社會學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學社會學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "王大維（國立屏東大學教育心理與輔導學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立屏東大學教育心理與輔導學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立屏東大學"
+        ]
+      }
+    ],
+    "陳文彬（國立彰化師範大學運動系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立彰化師範大學運動學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立彰化師範大學"
+        ]
+      }
+    ],
+    "陳縕儂（國立臺灣大學資訊工程學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學資訊工程學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "邱英明（中國醫藥大學生物醫學研究所講座教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：中國醫藥大學生物醫學研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "中國醫藥大學"
+        ]
+      }
+    ],
+    "張學謙（國立臺東大學華語文學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺東大學華語文學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺東大學"
+        ]
+      }
+    ],
+    "馬千里（國立成功大學 生物醫學工程學系兼任助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立成功大學生物醫學工程學系，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立成功大學"
+        ]
+      }
+    ],
+    "張俐璇（國立臺灣大學臺灣文學研究所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學臺灣文學研究所，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "林姿伶（成功大學行為醫學研究所助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立成功大學行為醫學研究所，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立成功大學"
+        ]
+      }
+    ],
+    "林文蘭（國立清華大學社會學研究所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立清華大學社會學研究所，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立清華大學"
+        ]
+      }
+    ],
+    "楊瑞瑟（國立台灣師範大學音樂系兼任教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣師範大學音樂學系，兼任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "江義平（國立臺北大學資訊管理研究所退休教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北大學資訊管理研究所，兼任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北大學"
+        ]
+      }
+    ],
+    "林巾力（國立台灣師範大學台灣語文學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣師範大學臺灣語文學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "陳怡萱（國立政治大學民族學系/土地原專班副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立政治大學民族學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "李家驊（政治大學傳播學院廣電系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立政治大學傳播學院，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "羅頌恩（東海大學美術學系講師）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：東海大學美術學系，兼任講師。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "東海大學"
+        ]
+      }
+    ],
+    "洪慧念（國立陽明交通大學統計學研究所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立陽明交通大學統計學研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立陽明交通大學"
+        ]
+      }
+    ],
+    "王賀白（長庚大學通識教育中心社會科副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：長庚大學通識教育中心，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "長庚大學"
+        ]
+      }
+    ],
+    "廖偉民（國立臺灣師範大學設計學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣師範大學設計學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "胡哲嘉（臺灣科技大學化學工程系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣科技大學化學工程系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣科技大學"
+        ]
+      }
+    ],
+    "林明昌（佛光大學語文學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：佛光大學語文學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "佛光大學"
+        ]
+      }
+    ],
+    "李政忠（中正大學傳播學系兼任副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中正大學傳播學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中正大學"
+        ]
+      }
+    ],
+    "李芳仁（台灣大學分子醫學研究所特聘教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學分子醫學研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "余貞誼（高雄醫學大學性別研究所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：高雄醫學大學性別研究所，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "高雄醫學大學"
+        ]
+      }
+    ],
+    "陳沁紅（國立台灣師範大學音樂系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣師範大學音樂學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "周睦怡（國立臺灣海洋大學海洋觀光管理學士學位學程助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣海洋大學海洋觀光管理學士學位學程，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣海洋大學"
+        ]
+      }
+    ],
+    "郭一勤（崑山科技大學空間設計系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：崑山科技大學空間設計系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "崑山科技大學"
+        ]
+      }
+    ],
+    "梁偉立（國立臺灣大學 森林環境暨資源學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學森林環境暨資源學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "吳育臻（高雄師範大學地理系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立高雄師範大學地理學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立高雄師範大學"
+        ]
+      }
+    ],
+    "王士榮（國立中央大學應用地質研究所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中央大學應用地質研究所，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中央大學"
+        ]
+      }
+    ],
+    "林燕輝（中臺科技大學環境與安全衛生工程系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：中臺科技大學環境與安全衛生工程系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "中臺科技大學"
+        ]
+      }
+    ],
+    "翁士恆（臺北市立大學心理與諮商學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：臺北市立大學心理與諮商學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "臺北市立大學"
+        ]
+      }
+    ],
+    "陳淑美（東海大學教育研究所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：東海大學教育研究所，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "東海大學"
+        ]
+      }
+    ],
+    "羅慧雯（世新大學傳播管理系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：世新大學傳播管理學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "世新大學"
+        ]
+      }
+    ],
+    "許淑娟（高雄師範大學地理學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立高雄師範大學地理學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立高雄師範大學"
+        ]
+      }
+    ],
+    "蔣為文（國立成功大學台灣文學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立成功大學台灣文學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立成功大學"
+        ]
+      }
+    ],
+    "陳玉箴（國立臺灣師範大學臺灣語文學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣師範大學臺灣語文學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "林宣佑（國立中興大學園藝學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中興大學園藝學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中興大學"
+        ]
+      }
+    ],
+    "黃詩涵（銘傳大學諮商臨床與工商心理學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：銘傳大學諮商臨床與工商心理學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "銘傳大學"
+        ]
+      }
+    ],
+    "鄭仕坤（國立中央大學認知神經科學研究所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中央大學認知神經科學研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中央大學"
+        ]
+      }
+    ],
+    "陳敬介（靜宜大學中國文學系，前台灣研究中心副教授，主任）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：靜宜大學中國文學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "靜宜大學"
+        ]
+      }
+    ],
+    "陳品皓（世新大學新聞系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：世新大學新聞學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "世新大學"
+        ]
+      }
+    ],
+    "陳建榮（國立台北大學休閒運動管理學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北大學休閒運動管理學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北大學"
+        ]
+      }
+    ],
+    "鄭安倉（國立高雄科技大學水產養殖系特聘教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立高雄科技大學水產養殖系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立高雄科技大學"
+        ]
+      }
+    ],
+    "胡郁盈（高雄醫學大學性別研究所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：高雄醫學大學性別研究所，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "高雄醫學大學"
+        ]
+      }
+    ],
+    "黎芸靈（東海大學社會工作學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：東海大學社會工作學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "東海大學"
+        ]
+      }
+    ],
+    "吳俊興（國立高雄大學資訊工程學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立高雄大學資訊工程學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立高雄大學"
+        ]
+      }
+    ],
+    "莊國榮（政治大學公共行政系退休助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立政治大學公共行政學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "梁莉芳（東華大學社會學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立東華大學社會學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立東華大學"
+        ]
+      }
+    ],
+    "鄭芳婷（台灣大學台灣文學研究所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學臺灣文學研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "呂春盛（國立臺灣師範大學歷史學系兼任教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣師範大學歷史學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "楊凱鈞（國立陽明交通大學醫學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立陽明交通大學醫學系，兼任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立陽明交通大學"
+        ]
+      }
+    ],
+    "張于忻（台北市立大學華語文教學碩士學位學程助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：臺北市立大學華語文教學碩士學位學程，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "臺北市立大學"
+        ]
+      }
+    ],
+    "李中傑（真理大學統計資訊與精算學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：真理大學統計資訊與精算學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "真理大學"
+        ]
+      }
+    ],
+    "周子欽（國立清華大學通識教育中心兼任助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立清華大學通識教育中心，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立清華大學"
+        ]
+      }
+    ],
+    "張宜君（國立臺灣師範大學教育學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣師範大學教育學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "陳美靜（臺東大學美術產業學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺東大學美術產業學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺東大學"
+        ]
+      }
+    ],
+    "陳玠文（政治大學神經科學研究所助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立政治大學神經科學研究所，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "游勝翔（國立臺北教育大學心理與諮商學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北教育大學心理與諮商學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北教育大學"
+        ]
+      }
+    ],
+    "洪維勵（國立臺北大學休閒運動管理學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北大學休閒運動管理學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北大學"
+        ]
+      }
+    ],
+    "蔡榮祥（國立中正大學政治系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中正大學政治學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中正大學"
+        ]
+      }
+    ],
+    "林惠雯（台大數學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學數學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "許惠悰（中國醫藥大學公共衛生學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：中國醫藥大學公共衛生學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "中國醫藥大學"
+        ]
+      }
+    ],
+    "程俊源（國立臺中教育大學 台灣語文學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺中教育大學臺灣語文學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺中教育大學"
+        ]
+      }
+    ],
+    "廖振富（國立中興大學臺灣文學與跨國文化研究所兼任教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中興大學台灣文學與跨國文化研究所，兼任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中興大學"
+        ]
+      }
+    ],
+    "曾齡儀（臺北醫學大學通識教育中心副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：臺北醫學大學通識教育中心，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "臺北醫學大學"
+        ]
+      }
+    ],
+    "游琇婷（政治大學心理學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立政治大學心理學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "孔祥明（世新大學社會心理系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：世新大學社會心理學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "世新大學"
+        ]
+      }
+    ],
+    "蔡武廷（台灣大學工程科學及海洋工程系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學工程科學及海洋工程學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "江文瑜（臺灣大學語言學研究所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學語言學研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "孫啓榕（中國科技大學建築系專任講師）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：中國科技大學建築系，專任講師。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "中國科技大學"
+        ]
+      }
+    ],
+    "王弘毅（台灣大學臨床醫學研究所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學臨床醫學研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "張惠娟（台北醫學大學心智意識與腦科學研究所助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：臺北醫學大學心智意識與腦科學研究所，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "臺北醫學大學"
+        ]
+      }
+    ],
+    "郭貞秀（台灣大學外國語文學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學外國語文學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "陳世楠（臺灣大學海洋研究所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學海洋研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "邱妙津（東海大學英語中心副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：東海大學英語中心，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "東海大學"
+        ]
+      }
+    ],
+    "黃國超（靜宜大學台灣文學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：靜宜大學台灣文學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "靜宜大學"
+        ]
+      }
+    ],
+    "陳逸杰（國立高雄大學建築學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立高雄大學建築學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立高雄大學"
+        ]
+      }
+    ],
+    "林楚淇（中原大學通識教育中心兼任助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：中原大學通識教育中心，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "中原大學"
+        ]
+      }
+    ],
+    "陳尚志（國立中正大學政治學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中正大學政治學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中正大學"
+        ]
+      }
+    ],
+    "蔡松純（國立臺北教育大學心理與諮商學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北教育大學心理與諮商學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北教育大學"
+        ]
+      }
+    ],
+    "林昭志（國立高雄大學法律學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立高雄大學法律學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立高雄大學"
+        ]
+      }
+    ],
+    "張智宏（國立中央大學認知神經科學研究所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中央大學認知神經科學研究所，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中央大學"
+        ]
+      }
+    ],
+    "施麗雯（台北醫學大學醫學人文研究所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：臺北醫學大學醫學人文研究所，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "臺北醫學大學"
+        ]
+      }
+    ],
+    "何明字（成功大學工程科學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立成功大學工程科學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立成功大學"
+        ]
+      }
+    ],
+    "陳毅峰（東華大學民族發展與社會工作系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立東華大學民族發展與社會工作學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立東華大學"
+        ]
+      }
+    ],
+    "王聖閎（國立中央大學藝術學研究所助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中央大學藝術學研究所，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中央大學"
+        ]
+      }
+    ],
+    "劉効樺（國立東華大學諮商與臨床心理學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立東華大學諮商與臨床心理學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立東華大學"
+        ]
+      }
+    ],
+    "黃貞燕（國立臺北藝術大學博物館研究所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北藝術大學博物館研究所，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北藝術大學"
+        ]
+      }
+    ],
+    "駱芬美（銘傳大學通識教育中心兼任副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：銘傳大學通識教育中心，兼任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "銘傳大學"
+        ]
+      }
+    ],
+    "鄭麗玲（國立台北科技大學 文化事業發展系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北科技大學文化事業發展系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北科技大學"
+        ]
+      }
+    ],
+    "許世融（國立台中教育大學區域與社會發展學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺中教育大學區域與社會發展學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺中教育大學"
+        ]
+      }
+    ],
+    "莊振義（國立臺灣大學地理環境資源學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學地理環境資源學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "郭靜穎（臺大醫學檢驗暨生物技術學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學醫學檢驗暨生物技術學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "曾昭雄（國立陽明交通大學 太空系統工程研究所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立陽明交通大學太空系統工程研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立陽明交通大學"
+        ]
+      }
+    ],
+    "吳晉東（國立雲林科技大學智慧數據科學研究所助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立雲林科技大學智慧數據科學研究所，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立雲林科技大學"
+        ]
+      }
+    ],
+    "高穎家（高雄醫學大學職能治療學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：高雄醫學大學職能治療學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "高雄醫學大學"
+        ]
+      }
+    ],
+    "賴奕銓（靜宜大學行銷與數位經營管理學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：靜宜大學行銷與數位經營管理學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "靜宜大學"
+        ]
+      }
+    ],
+    "張晴文（國立清華大學藝術與設計學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立清華大學藝術與設計學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立清華大學"
+        ]
+      }
+    ],
+    "吳俊瑩（國立台灣大學歷史學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學歷史學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "張書君（臺北醫學大學轉譯醫學博士學位學程副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：臺北醫學大學轉譯醫學博士學位學程，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "臺北醫學大學"
+        ]
+      }
+    ],
+    "鄭肇祺（國立臺東大學文化資源與休閒產業學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺東大學文化資源與休閒產業學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺東大學"
+        ]
+      }
+    ],
+    "羅珮瑜（台大經濟系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學經濟學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "呂佩穎（高雄醫學大學醫學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：高雄醫學大學醫學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "高雄醫學大學"
+        ]
+      }
+    ],
+    "李玉郎（成功大學化學工程學系講座教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立成功大學化學工程學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立成功大學"
+        ]
+      }
+    ],
+    "陳進金（國立東華大學歷史學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立東華大學歷史學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立東華大學"
+        ]
+      }
+    ],
+    "陳冠妃（國立臺灣大學歷史學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學歷史學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "蔡安理（國立台灣師範大學地球科學系兼任助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣師範大學地球科學系，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "郭昭蘭（國立台北藝術大學美術系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北藝術大學美術學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北藝術大學"
+        ]
+      }
+    ],
+    "李律鋒（逢甲大學行銷學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：逢甲大學行銷學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "逢甲大學"
+        ]
+      }
+    ],
+    "魏郁禎（國立臺北教育大學教育經營與管理學系特聘教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北教育大學教育經營與管理學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北教育大學"
+        ]
+      }
+    ],
+    "姜睿明（國立臺北藝術大學戲劇學系兼任助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北藝術大學戲劇學系，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北藝術大學"
+        ]
+      }
+    ],
+    "黃安君（國立陽明交通大學醫學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立陽明交通大學醫學系，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立陽明交通大學"
+        ]
+      }
+    ],
+    "彭渰雯（國立中山大學公共事務管理研究所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中山大學公共事務管理研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中山大學"
+        ]
+      }
+    ],
+    "袁子賢（國立臺南藝術大學動畫藝術與影像美學研究所助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺南藝術大學動畫藝術與影像美學研究所，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺南藝術大學"
+        ]
+      }
+    ],
+    "林靜秀（靜宜大學生態人文學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：靜宜大學生態人文學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "靜宜大學"
+        ]
+      }
+    ],
+    "張瑋琦（國立清華大學環境與文化資源學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立清華大學環境與文化資源學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立清華大學"
+        ]
+      }
+    ],
+    "鄭窈窕（國立臺中科技大學老人服務事業管理系兼任助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺中科技大學老人服務事業管理系，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺中科技大學"
+        ]
+      }
+    ],
+    "楊逸君（國立台南大學英語系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺南大學英語學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺南大學"
+        ]
+      }
+    ],
+    "吳珮文（長榮大學語文教育中心兼任助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：長榮大學語文教育中心，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "長榮大學"
+        ]
+      }
+    ],
+    "龎壯城（國立成功大學中國文學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立成功大學中國文學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立成功大學"
+        ]
+      }
+    ],
+    "魏書娥（南華大學生死系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：南華大學生死學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "南華大學"
+        ]
+      }
+    ],
+    "鍾雲鶯（元智大學中國語文學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：元智大學中國語文學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "元智大學"
+        ]
+      }
+    ],
+    "林修澈（國立政治大學民族學系名譽教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立政治大學民族學系，兼任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "陳惠民（國立臺南藝術大學建築藝術研究所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺南藝術大學建築藝術研究所，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺南藝術大學"
+        ]
+      }
+    ],
+    "潘美玲（國立陽明交通大學人文社會學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立陽明交通大學人文社會學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立陽明交通大學"
+        ]
+      }
+    ],
+    "林逢嘉（成功大學醫學系臨床副教授臨床副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立成功大學醫學系，兼任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立成功大學"
+        ]
+      }
+    ],
+    "呂朝賢（東海大學社會工作系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：東海大學社會工作學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "東海大學"
+        ]
+      }
+    ],
+    "荊偉民（國立高雄師範大學 化學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立高雄師範大學化學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立高雄師範大學"
+        ]
+      }
+    ],
+    "陳俊宏（東吳大學政治系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：東吳大學政治學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "東吳大學"
+        ]
+      }
+    ],
+    "李長曄（逢甲大學土地管理學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：逢甲大學土地管理學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "逢甲大學"
+        ]
+      }
+    ],
+    "陳麗糸（亞洲大學 護理學系兼任助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：亞洲大學護理學系，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "亞洲大學"
+        ]
+      }
+    ],
+    "李台元（國立政治大學民族學系兼任助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立政治大學民族學系，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "王綺穗（臺北藝術大學動畫系所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北藝術大學動畫學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北藝術大學"
+        ]
+      }
+    ],
+    "邱琬淳（臺北醫學大學保健營養學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：臺北醫學大學保健營養學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "臺北醫學大學"
+        ]
+      }
+    ],
+    "李郁緻（國立台南大學教育系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺南大學教育學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺南大學"
+        ]
+      }
+    ],
+    "蔡協澄（國立臺灣大學機械工程學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學機械工程學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "陳鴻圖（東華大學歷史學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立東華大學歷史學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立東華大學"
+        ]
+      }
+    ],
+    "吳峻鋕（國立臺北教育大學通識教育中心兼任助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北教育大學通識教育中心，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北教育大學"
+        ]
+      }
+    ],
+    "張家銘（長庚大學醫學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：長庚大學醫學系，兼任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "長庚大學"
+        ]
+      }
+    ],
+    "曾國展（國立屏東科技大學食品科學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立屏東科技大學食品科學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立屏東科技大學"
+        ]
+      }
+    ],
+    "石婉舜（國立清華大學台灣文學研究所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立清華大學台灣文學研究所，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立清華大學"
+        ]
+      }
+    ],
+    "許馨文（國立臺灣師範大學民族音樂研究所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣師範大學民族音樂研究所，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "游富凱（國立臺北藝術大學戲劇系兼任助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北藝術大學戲劇學系，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北藝術大學"
+        ]
+      }
+    ],
+    "陳建邦（長榮大學美術系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：長榮大學美術學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "長榮大學"
+        ]
+      }
+    ],
+    "游崴（國立臺灣藝術大學雕塑學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣藝術大學雕塑學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣藝術大學"
+        ]
+      }
+    ],
+    "江其衽（國立台灣大學統計與數據科學研究所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學統計與數據科學研究所，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "薛建蓉（輔英科技大學護理系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：輔英科技大學護理系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "輔英科技大學"
+        ]
+      }
+    ],
+    "蔡佳妤（國立高雄大學應用經濟學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立高雄大學應用經濟學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立高雄大學"
+        ]
+      }
+    ],
+    "魏志潾（國立臺灣大學海洋研究所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學海洋研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "留忠賢（中原大學資訊工程系退休副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：中原大學資訊工程學系，兼任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "中原大學"
+        ]
+      }
+    ],
+    "傅鈺雯（國立高雄大學西洋語文學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立高雄大學西洋語文學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立高雄大學"
+        ]
+      }
+    ],
+    "王治平（國立高雄科技大學造船及海洋工程系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立高雄科技大學造船及海洋工程系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立高雄科技大學"
+        ]
+      }
+    ],
+    "洪文玲（國立高雄科技大學造船及海洋工程系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立高雄科技大學造船及海洋工程系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立高雄科技大學"
+        ]
+      }
+    ],
+    "蔡嘉恩（國立臺灣海洋大學海洋法政學士學位學程兼任專技助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣海洋大學海洋法政學士學位學程，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣海洋大學"
+        ]
+      }
+    ],
+    "楊巧玲（國立高雄師範大學教育學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立高雄師範大學教育學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立高雄師範大學"
+        ]
+      }
+    ],
+    "沈俊嚴（台大數學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學數學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "蔡佩桂（國立高雄師範大學跨領域藝術研究所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立高雄師範大學跨領域藝術研究所，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立高雄師範大學"
+        ]
+      }
+    ],
+    "王雅倩（中山醫學大學醫學社會暨社會工作學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：中山醫學大學醫學社會暨社會工作學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "中山醫學大學"
+        ]
+      }
+    ],
+    "陳立民（國立高雄師範大學 視覺設計系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立高雄師範大學視覺設計學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立高雄師範大學"
+        ]
+      }
+    ],
+    "郭容妙（國立中興大學應用數學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中興大學應用數學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中興大學"
+        ]
+      }
+    ],
+    "林牧之（國立臺灣大學共同教育中心兼任助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學共同教育中心，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "詹閔旭（國立中興大學台灣文學與跨國文化研究所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中興大學台灣文學與跨國文化研究所，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中興大學"
+        ]
+      }
+    ],
+    "董致韡（台灣大學農藝學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學農藝學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "黃季平（國立政治大學民族學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立政治大學民族學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "鄭昱宏（國立高雄科技大學人力資源發展系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立高雄科技大學人力資源發展系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立高雄科技大學"
+        ]
+      }
+    ],
+    "鄭志鵬（國立清華大學通識教育中心副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立清華大學通識教育中心，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立清華大學"
+        ]
+      }
+    ],
+    "林延輯（國立臺灣師範大學數學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣師範大學數學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "吳清源（長庚大學中醫系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：長庚大學中醫學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "長庚大學"
+        ]
+      }
+    ],
+    "李若庸（國立臺北大學歷史學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北大學歷史學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北大學"
+        ]
+      }
+    ],
+    "陳怡方（國立東華大學藝術創意產業學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立東華大學藝術創意產業學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立東華大學"
+        ]
+      }
+    ],
+    "曾旭民（長庚大學醫務管理系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：長庚大學醫務管理學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "長庚大學"
+        ]
+      }
+    ],
+    "陳柏安（國立陽明交通大學資訊管理研究所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立陽明交通大學資訊管理研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立陽明交通大學"
+        ]
+      }
+    ],
+    "廖憶純（國立臺灣大學生化科技學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學生化科技學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "陳聖智（國立政治大學傳播學院數位內容碩副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立政治大學傳播學院，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "張智涵（國立臺灣大學生命科學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學生命科學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "趙啟宏（國立陽明交通大學生物科技學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立陽明交通大學生物科技學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立陽明交通大學"
+        ]
+      }
+    ],
+    "陳炳宏（高雄醫學大學生物科技學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：高雄醫學大學生物科技學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "高雄醫學大學"
+        ]
+      }
+    ],
+    "王君琦（國立台北藝術大學電影創作學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北藝術大學電影創作學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北藝術大學"
+        ]
+      }
+    ],
+    "韓承樺（國立台灣大學歷史學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學歷史學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "蔡宏政（國立高雄科技大學工業設計系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立高雄科技大學工業設計系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立高雄科技大學"
+        ]
+      }
+    ],
+    "王楚蓁（臺北教育大學語文與創作學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北教育大學語文與創作學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北教育大學"
+        ]
+      }
+    ],
+    "蕭美玲（國立台北教育大學藝術與造形設計學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北教育大學藝術與造形設計學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北教育大學"
+        ]
+      }
+    ],
+    "林千玉（國立臺南大學特殊教育系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺南大學特殊教育學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺南大學"
+        ]
+      }
+    ],
+    "蔡毓芬（國立臺灣大學外國語文學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學外國語文學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "孫珍理（國立臺灣大學機械工程學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學機械工程學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "邵于玲（台北市立大學 休閒運動管理學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：臺北市立大學休閒運動管理學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "臺北市立大學"
+        ]
+      }
+    ],
+    "陳重仁（國立臺灣大學外國語文學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學外國語文學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "杜宗熹（國立陽明交通大學醫學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立陽明交通大學醫學系，兼任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立陽明交通大學"
+        ]
+      }
+    ],
+    "黃昱倫（國立臺灣師範大學體育與運動科學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣師範大學體育與運動科學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "陳炳仁（高雄醫學大學醫學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：高雄醫學大學醫學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "高雄醫學大學"
+        ]
+      }
+    ],
+    "陳佳穗（國立臺北藝術大學電影創作學系兼任助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北藝術大學電影創作學系，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北藝術大學"
+        ]
+      }
+    ],
+    "黃宜品（實踐大學媒體傳達設計學系兼任講師）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：實踐大學媒體傳達設計學系，專任講師。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "實踐大學"
+        ]
+      }
+    ],
+    "陳麒（國立臺東大學幼兒教育學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺東大學幼兒教育學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺東大學"
+        ]
+      }
+    ],
+    "呂佳蓉（國立臺灣大學語言學研究所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學語言學研究所，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "劉雨庭（國立中興大學土壤環境科學系特聘教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中興大學土壤環境科學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中興大學"
+        ]
+      }
+    ],
+    "陳曉朋（國立臺北藝術大學美術學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北藝術大學美術學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北藝術大學"
+        ]
+      }
+    ],
+    "許超群（高雄醫學大學醫學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：高雄醫學大學醫學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "高雄醫學大學"
+        ]
+      }
+    ],
+    "簡士鎰（國立政治大學資訊管理學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立政治大學資訊管理學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "林莊傑（國立臺灣海洋大學資訊工程學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣海洋大學資訊工程學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣海洋大學"
+        ]
+      }
+    ],
+    "許斐婷（國立中央大學生命科學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中央大學生命科學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中央大學"
+        ]
+      }
+    ],
+    "劉鴻陞（世新大學行政管理學系教授兼管理學院副院長）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：世新大學行政管理學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "世新大學"
+        ]
+      }
+    ],
+    "閔明源（國立台灣大學生命科學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學生命科學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "林振祥（國立中興大學生命科學系）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中興大學生命科學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中興大學"
+        ]
+      }
+    ],
+    "林大利（國立臺灣大學生態學與演化生物學研究所助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學生態學與演化生物學研究所，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "陳淳杰（中原大學電子工程學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：中原大學電子工程學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "中原大學"
+        ]
+      }
+    ],
+    "郭書琴（國立成功大學法律系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立成功大學法律學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立成功大學"
+        ]
+      }
+    ],
+    "劉明豪（國立成功大學物理系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立成功大學物理學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立成功大學"
+        ]
+      }
+    ],
+    "陳靜儀（國立臺北科技大學工業設計系專任助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北科技大學工業設計系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北科技大學"
+        ]
+      }
+    ],
+    "張志宏（國立東華大學通識教育中心兼任講師）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立東華大學通識教育中心，兼任講師。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立東華大學"
+        ]
+      }
+    ],
+    "糠明珊（元智大學通識教學部助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：元智大學通識教學部，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "元智大學"
+        ]
+      }
+    ],
+    "李宜澤（國立東華大學族群關係與文化學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立東華大學族群關係與文化學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立東華大學"
+        ]
+      }
+    ],
+    "張正衡（臺灣大學人類學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學人類學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "遲恒昌（國立彰化師範大學地理學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立彰化師範大學地理學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立彰化師範大學"
+        ]
+      }
+    ],
+    "邱健嘉（國立政治大學財務管理學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立政治大學財務管理學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "林詩偉（長庚大學資訊管理學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：長庚大學資訊管理學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "長庚大學"
+        ]
+      }
+    ],
+    "劉奇璋（國立臺灣大學森林環境暨資源學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學森林環境暨資源學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "孫傳硯（陽明交通大學醫學系講師）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立陽明交通大學醫學系，兼任講師。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立陽明交通大學"
+        ]
+      }
+    ],
+    "陳亮汝（弘光科技大學健康事業管理系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：弘光科技大學健康事業管理系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "弘光科技大學"
+        ]
+      }
+    ],
+    "陳恒安（國立成功大學歷史學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立成功大學歷史學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立成功大學"
+        ]
+      }
+    ],
+    "葉根泉（中國文化大學戲劇學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：中國文化大學戲劇學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "中國文化大學"
+        ]
+      }
+    ],
+    "蘇慶軒（國立屏東大學社會發展學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立屏東大學社會發展學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立屏東大學"
+        ]
+      }
+    ],
+    "劉為光（中原大學設計學博士學位學程主任/副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：中原大學設計學博士學位學程，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "中原大學"
+        ]
+      }
+    ],
+    "張敏琪（國立彰化師範大學美術系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立彰化師範大學美術學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立彰化師範大學"
+        ]
+      }
+    ],
+    "蔡榮任（國立聯合大學 建築學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立聯合大學建築學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立聯合大學"
+        ]
+      }
+    ],
+    "陳龍廷（臺灣師範大學 台灣語文學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣師範大學臺灣語文學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "王麒銘（國立臺灣師範大學歷史學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣師範大學歷史學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "黃意婷（國立成功大學職能治療學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立成功大學職能治療學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立成功大學"
+        ]
+      }
+    ],
+    "周定邦（國立成功大學台灣文學系兼任助理教授級專家）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立成功大學台灣文學系，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立成功大學"
+        ]
+      }
+    ],
+    "丁文卿（國立中正大學勞工關係學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中正大學勞工關係學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中正大學"
+        ]
+      }
+    ],
+    "王俊雄（實踐大學建築設計學系教授兼建築職人學士學位學程主任）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：實踐大學建築設計學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "實踐大學"
+        ]
+      }
+    ],
+    "蕭有志（實踐大學建築設計學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：實踐大學建築設計學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "實踐大學"
+        ]
+      }
+    ],
+    "李志峰（東吳大學法律學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：東吳大學法律學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "東吳大學"
+        ]
+      }
+    ],
+    "陳馥瑋（屏東大學社會發展學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立屏東大學社會發展學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立屏東大學"
+        ]
+      }
+    ],
+    "林瑞瑩（長庚大學醫學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：長庚大學醫學系，兼任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "長庚大學"
+        ]
+      }
+    ],
+    "劉秀娟（國立臺北教育大學幼兒與家庭教育學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北教育大學幼兒與家庭教育學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北教育大學"
+        ]
+      }
+    ],
+    "何慧瑩（國立臺北教育大學自然科學教育學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北教育大學自然科學教育學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北教育大學"
+        ]
+      }
+    ],
+    "林世揚（東華大學經濟系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立東華大學經濟學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立東華大學"
+        ]
+      }
+    ],
+    "謝宗諺（東海大學建築學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：東海大學建築學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "東海大學"
+        ]
+      }
+    ],
+    "陳一標（佛光大學佛教學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：佛光大學佛教學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "佛光大學"
+        ]
+      }
+    ],
+    "吳翠華（元智大學應用外語系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：元智大學應用外語學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "元智大學"
+        ]
+      }
+    ],
+    "張瑞恩（中正大學數學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中正大學數學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中正大學"
+        ]
+      }
+    ],
+    "陳威志（實踐大學媒體傳達設計學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：實踐大學媒體傳達設計學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "實踐大學"
+        ]
+      }
+    ],
+    "賴詩萍（國立清華大學天文研究所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立清華大學天文研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立清華大學"
+        ]
+      }
+    ],
+    "孫千雅（國立清華大學教育與學習科技學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立清華大學教育與學習科技學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立清華大學"
+        ]
+      }
+    ],
+    "廖奕翰（國立陽明交通大學應用化學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立陽明交通大學應用化學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立陽明交通大學"
+        ]
+      }
+    ],
+    "黃宇廷（台灣大學物理系特聘教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學物理學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "于欽平（國立中山大學光電工程學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中山大學光電工程學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中山大學"
+        ]
+      }
+    ],
+    "黃俞升（國立澎湖科技大學海洋遊憩系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立澎湖科技大學海洋遊憩系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立澎湖科技大學"
+        ]
+      }
+    ],
+    "吳哲宏（國立成功大學環境工程學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立成功大學環境工程學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立成功大學"
+        ]
+      }
+    ],
+    "余信賢（臺北醫學大學醫學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：臺北醫學大學醫學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "臺北醫學大學"
+        ]
+      }
+    ],
+    "劉烱錫（台東大學生命科學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺東大學生命科學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺東大學"
+        ]
+      }
+    ],
+    "劉正達（國立虎尾科技大學企業管理系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立虎尾科技大學企業管理系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立虎尾科技大學"
+        ]
+      }
+    ],
+    "林美香（國立臺灣大學歷史系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學歷史學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "邱誌勇（清華大學科技藝術研究所教授兼所長）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立清華大學科技藝術研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立清華大學"
+        ]
+      }
+    ],
+    "陳元朋（國立東華大學歷史學系暨研究所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立東華大學歷史學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立東華大學"
+        ]
+      }
+    ],
+    "葉秀珍（國立中正大學社會福利學系退休教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中正大學社會福利學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中正大學"
+        ]
+      }
+    ],
+    "顏嘉宏（高雄醫學大學天然藥物研究所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：高雄醫學大學天然藥物研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "高雄醫學大學"
+        ]
+      }
+    ],
+    "吳育瑋（臺北醫學大學醫學資訊研究所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：臺北醫學大學醫學資訊研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "臺北醫學大學"
+        ]
+      }
+    ],
+    "何婉甄（國立臺南藝術大學音樂系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺南藝術大學音樂學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺南藝術大學"
+        ]
+      }
+    ],
+    "陳振遠（國立高雄師範大學數學系退休教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立高雄師範大學數學系，兼任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立高雄師範大學"
+        ]
+      }
+    ],
+    "聶西平（國立臺灣師範大學幼兒與家庭科學學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣師範大學幼兒與家庭科學學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "顧廣毅（國立陽明交通大學應用藝術研究所助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立陽明交通大學應用藝術研究所，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立陽明交通大學"
+        ]
+      }
+    ],
+    "孫敏德（中央大學資訊工程系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中央大學資訊工程學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中央大學"
+        ]
+      }
+    ],
+    "廖映庭（國立陽明交通大學醫學系講師）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立陽明交通大學醫學系，兼任講師。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立陽明交通大學"
+        ]
+      }
+    ],
+    "王鼎涵（國立陽明交通大學牙醫系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立陽明交通大學牙醫學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立陽明交通大學"
+        ]
+      }
+    ],
+    "許炳煌（國立臺北教育大學兒童英語教育學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北教育大學兒童英語教育學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北教育大學"
+        ]
+      }
+    ],
+    "許儷絹（中國醫藥大學醫學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：中國醫藥大學醫學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "中國醫藥大學"
+        ]
+      }
+    ],
+    "李佳任（國立高雄師範大學物理系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立高雄師範大學物理學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立高雄師範大學"
+        ]
+      }
+    ],
+    "吳瑞菁（國立臺灣大學醫學檢驗暨生物技術學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學醫學檢驗暨生物技術學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "林桂如（實踐大學音樂系專任副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：實踐大學音樂學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "實踐大學"
+        ]
+      }
+    ],
+    "蔡嘉綾（玄奘大學應用日語學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：玄奘大學應用日語學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "玄奘大學"
+        ]
+      }
+    ],
+    "顏子瑜（國立中正大學財務金融系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中正大學財務金融學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中正大學"
+        ]
+      }
+    ],
+    "曾凡碩（中山大學通訊工程研究所特聘教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中山大學通訊工程研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中山大學"
+        ]
+      }
+    ],
+    "施養信（台灣大學農業化學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學農業化學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "陳巧禎（亞洲大學社會工作學系兼任講師）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：亞洲大學社會工作學系，兼任講師。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "亞洲大學"
+        ]
+      }
+    ],
+    "曾玉村（國立中正大學師資培育中心暨教育學研究所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中正大學師資培育中心，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中正大學"
+        ]
+      }
+    ],
+    "郭俊麟（國立東華大學臺灣文化學系暨研究所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立東華大學臺灣文化學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立東華大學"
+        ]
+      }
+    ],
+    "林育諄（屏東大學社會發展學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立屏東大學社會發展學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立屏東大學"
+        ]
+      }
+    ],
+    "邱靜雯（國立台灣大學化學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學化學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "黃柏堯（台灣大學健康行為與社區科學研究所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學健康行為與社區科學研究所，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "温秉彝（國立中正大學物理系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中正大學物理學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中正大學"
+        ]
+      }
+    ],
+    "張雅晴（國立台灣藝術大學音樂系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣藝術大學音樂學系，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣藝術大學"
+        ]
+      }
+    ],
+    "鄭安睎（國立臺中教育大學區域與社會發展學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺中教育大學區域與社會發展學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺中教育大學"
+        ]
+      }
+    ],
+    "張耀仁（國立屏東大學科學傳播學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立屏東大學科學傳播學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立屏東大學"
+        ]
+      }
+    ],
+    "陳明輝（國立政治大學教育學院兼任助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立政治大學教育學院，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "吳志文（國立臺灣師範大學幼兒與家庭科學學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣師範大學幼兒與家庭科學學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "陳嘉俞（國立中正大學地球與環境科學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中正大學地球與環境科學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中正大學"
+        ]
+      }
+    ],
+    "彭玉樹（東華大學國際企業學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立東華大學國際企業學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立東華大學"
+        ]
+      }
+    ],
+    "張文菁（靜宜大學行銷與數位經營管理學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：靜宜大學行銷與數位經營管理學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "靜宜大學"
+        ]
+      }
+    ],
+    "李濬勳（東吳大學法律學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：東吳大學法律學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "東吳大學"
+        ]
+      }
+    ],
+    "王科植（國立臺灣師範大學資訊工程系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣師範大學資訊工程學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "楊素霞（國立政治大學日本語文學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立政治大學日本語文學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "徐禎苓（台北市立大學中國語文學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：臺北市立大學中國語文學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "臺北市立大學"
+        ]
+      }
+    ],
+    "蔡淑妃（國立臺南大學特殊教育學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺南大學特殊教育學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺南大學"
+        ]
+      }
+    ],
+    "戴瑜慧（國立陽明交通大學傳播與科技學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立陽明交通大學傳播與科技學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立陽明交通大學"
+        ]
+      }
+    ],
+    "林楸燕（東吳大學英文系兼任助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：東吳大學英文學系，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "東吳大學"
+        ]
+      }
+    ],
+    "金仕起（政治大學歷史學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立政治大學歷史學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "曾素玲（東吳大學音樂系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：東吳大學音樂學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "東吳大學"
+        ]
+      }
+    ],
+    "王耀霆（中山大學光電工程系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中山大學光電工程學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中山大學"
+        ]
+      }
+    ],
+    "施奇廷（東海大學應用物理學系特聘教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：東海大學應用物理學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "東海大學"
+        ]
+      }
+    ],
+    "蔡佾玲（國立臺灣藝術大學戲劇學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣藝術大學戲劇學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣藝術大學"
+        ]
+      }
+    ],
+    "邱献良（國立中正大學會計與資訊科技學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中正大學會計與資訊科技學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中正大學"
+        ]
+      }
+    ],
+    "歐子綺（國立政治大學創新國際學院副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立政治大學創新國際學院，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "朱盈樺（國立台北教育大學文化創意產業經營學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北教育大學文化創意產業經營學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北教育大學"
+        ]
+      }
+    ],
+    "萬宗綸（國立陽明交通大學外國語文學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立陽明交通大學外國語文學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立陽明交通大學"
+        ]
+      }
+    ],
+    "李嗣堯（國立台中科技大學應用日語系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺中科技大學應用日語系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺中科技大學"
+        ]
+      }
+    ],
+    "顏榕（台北大學法律學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北大學法律學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北大學"
+        ]
+      }
+    ],
+    "蕭雅心（國立清華大學音樂系兼任助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立清華大學音樂學系，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立清華大學"
+        ]
+      }
+    ],
+    "黃柔蓁（台北醫學大學醫學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：臺北醫學大學醫學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "臺北醫學大學"
+        ]
+      }
+    ],
+    "梁志鳴（台北醫學大學醫療暨生物科技法律研究所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：臺北醫學大學醫療暨生物科技法律研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "臺北醫學大學"
+        ]
+      }
+    ],
+    "黃芸新（佛光大學心理系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：佛光大學心理學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "佛光大學"
+        ]
+      }
+    ],
+    "吳治勳（國立政治大學心理學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立政治大學心理學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "劉豐佾（國立中正大學社會福利學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中正大學社會福利學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中正大學"
+        ]
+      }
+    ],
+    "劉威廷（國立彰化師範大學台灣文學研究所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立彰化師範大學台灣文學研究所，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立彰化師範大學"
+        ]
+      }
+    ],
+    "洪逸柔（國立臺灣藝術大學通識教育中心助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣藝術大學通識教育中心，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣藝術大學"
+        ]
+      }
+    ],
+    "林億明（國立嘉義大學應用經濟學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立嘉義大學應用經濟學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立嘉義大學"
+        ]
+      }
+    ],
+    "巫博瀚（東海大學  教育研究所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：東海大學教育研究所，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "東海大學"
+        ]
+      }
+    ],
+    "蔡怡玟（臺北大學通識教育中心副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北大學通識教育中心，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北大學"
+        ]
+      }
+    ],
+    "趙雪君（國立臺北大學中國文學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北大學中國文學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北大學"
+        ]
+      }
+    ],
+    "王孝勇（靜宜大學大眾傳播學系特聘教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：靜宜大學大眾傳播學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "靜宜大學"
+        ]
+      }
+    ],
+    "胡瑞雪（銘傳大學應用中文與華語文教學系（所）教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：銘傳大學應用中文與華語文教學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "銘傳大學"
+        ]
+      }
+    ],
+    "施睿誼（亞洲大學社會工作學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：亞洲大學社會工作學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "亞洲大學"
+        ]
+      }
+    ],
+    "翁俊堯（弘光科技大學老人福利與長期照顧事業系兼任講師）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：弘光科技大學老人福利與長期照顧事業系，兼任講師。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "弘光科技大學"
+        ]
+      }
+    ],
+    "李淑菁（政大教育學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立政治大學教育學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "曾琮琇（臺北大學中國文學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北大學中國文學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北大學"
+        ]
+      }
+    ],
+    "陳佩貞（臺灣大學農業化學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學農業化學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "王邦任（陽明交通大學資訊工程學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立陽明交通大學資訊工程學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立陽明交通大學"
+        ]
+      }
+    ],
+    "洪芷漪（國立政治大學應用數學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立政治大學應用數學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "謝如柏（國立暨南國際大學中國語文學系教授兼系主任）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立暨南國際大學中國語文學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立暨南國際大學"
+        ]
+      }
+    ],
+    "魏道駿（仁德醫護管理專科學校 餐旅管理科 助理教授兼科主任）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：仁德醫護管理專科學校餐旅管理科，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "仁德醫護管理專科學校"
+        ]
+      }
+    ],
+    "吳治勳（政治大學心理系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立政治大學心理學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "阮曉眉（中正大學社會福利學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中正大學社會福利學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中正大學"
+        ]
+      }
+    ],
+    "陳永洲（國立中正大學運動競技學系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中正大學運動競技學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中正大學"
+        ]
+      }
+    ],
+    "李亞夫（國立成功大學 生命科學系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立成功大學生命科學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立成功大學"
+        ]
+      }
+    ],
+    "朱志傑（國立彰化師範大學企業管理學系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立彰化師範大學企業管理學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立彰化師範大學"
+        ]
+      }
+    ],
+    "黃芊妤（國立清華大學教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立清華大學人類學研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立清華大學"
+        ]
+      }
+    ],
+    "劉承賢（國立台灣師範大學副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣師範大學臺灣語文學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "林育聖（臺北大學副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北大學犯罪學研究所，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北大學"
+        ]
+      }
+    ],
+    "陳千浩（國立高雄餐旅大學副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立高雄餐旅大學餐飲管理系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立高雄餐旅大學"
+        ]
+      }
+    ],
+    "張宇慧（國立中山大學教育所暨師培中心助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中山大學教育研究所，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中山大學"
+        ]
+      }
+    ],
+    "劉兆隆（國立彰化師範大學副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立彰化師範大學公共事務與公民教育學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立彰化師範大學"
+        ]
+      }
+    ],
+    "杜武青（國立中興大學教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中興大學電機工程學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中興大學"
+        ]
+      }
+    ],
+    "王盈勛（國立臺北藝術大學教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北藝術大學通識教育中心，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北藝術大學"
+        ]
+      }
+    ],
+    "涂世雄（中原大學副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：中原大學電機工程學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "中原大學"
+        ]
+      }
+    ],
+    "姚皓傑（台大腦與心智科學所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學腦與心智科學研究所，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "林穎凡（中原大學助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：中原大學土木工程學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "中原大學"
+        ]
+      }
+    ],
+    "趙丹綺（國立台灣藝術大學教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣藝術大學工藝設計學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣藝術大學"
+        ]
+      }
+    ],
+    "黃婉綸（國立臺灣藝術大學兼任講師）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣藝術大學廣播電視學系，兼任講師。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣藝術大學"
+        ]
+      }
+    ],
+    "張洋文（國立臺北商業大學助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北商業大學商業設計管理系，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北商業大學"
+        ]
+      }
+    ],
+    "江謝令涵（國立臺北科技大學環境工程與管理所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北科技大學環境工程與管理研究所，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北科技大學"
+        ]
+      }
+    ],
+    "蔡欣祐（台灣大學分子醫學所副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學分子醫學研究所，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "洪承宇（國立臺灣大學教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學共同教育中心，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "鄭政秉（國立雲林科技大學教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立雲林科技大學財務金融系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立雲林科技大學"
+        ]
+      }
+    ],
+    "許嘉月（台北醫學大學副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：臺北醫學大學醫學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "臺北醫學大學"
+        ]
+      }
+    ],
+    "莊雪華（國立中山大學教育所特聘教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中山大學教育研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中山大學"
+        ]
+      }
+    ],
+    "張鑑元（清大助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立清華大學電機工程學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立清華大學"
+        ]
+      }
+    ],
+    "呂木蘭（國立台中教育大學兼任講師）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺中教育大學通識教育中心，兼任講師。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺中教育大學"
+        ]
+      }
+    ],
+    "蘇峰山（南華大學副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：南華大學應用社會學系，兼任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "南華大學"
+        ]
+      }
+    ],
+    "顏士清（國立清華大學副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立清華大學通識教育中心，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立清華大學"
+        ]
+      }
+    ],
+    "林芳玫（台師大教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣師範大學臺灣語文學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "陳建州（高雄醫學大學副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：高雄醫學大學醫學社會學與社會工作學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "高雄醫學大學"
+        ]
+      }
+    ],
+    "英家銘（國立清華大學副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立清華大學通識教育中心，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立清華大學"
+        ]
+      }
+    ],
+    "謝達斌（國立成功大學教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立成功大學牙醫學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立成功大學"
+        ]
+      }
+    ],
+    "李晨鐘（靜宜大學教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：靜宜大學管理學院，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "靜宜大學"
+        ]
+      }
+    ],
+    "簡美瑟（高雄科技大學教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立高雄科技大學金融資訊系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立高雄科技大學"
+        ]
+      }
+    ],
+    "馮志宇（國立陽明交通大學兼任講師）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立陽明交通大學語言教學與研究中心，兼任講師。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立陽明交通大學"
+        ]
+      }
+    ],
+    "黃正聰（靜宜大學副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：靜宜大學觀光事業學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "靜宜大學"
+        ]
+      }
+    ],
+    "鄭運聰（長庚大學講師）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：長庚大學醫學系，專任講師。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "長庚大學"
+        ]
+      }
+    ],
+    "陳建彰（台大應用力學所教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學應用力學研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "侯貴圓（中山醫學大學助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：中山醫學大學醫學影像暨放射科學系，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "中山醫學大學"
+        ]
+      }
+    ],
+    "饒加恩（國立台北藝術大學講師）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北藝術大學美術學系，專任講師。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北藝術大學"
+        ]
+      }
+    ],
+    "蔡惠名（國立台灣師範大學兼任助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣師範大學臺灣語文學系，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "謝華貞（國立臺北教育大學講師）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北教育大學師資培育處，兼任講師。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北教育大學"
+        ]
+      }
+    ],
+    "柯惟惟（台灣科技大學兼任助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣科技大學全球發展工程學士學位學程，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣科技大學"
+        ]
+      }
+    ],
+    "蔡懿玲（國立臺北護理健康大學助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北護理健康大學健康事業管理系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北護理健康大學"
+        ]
+      }
+    ],
+    "蔣薇華（台北藝術大學副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北藝術大學劇場藝術創作研究所，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北藝術大學"
+        ]
+      }
+    ],
+    "魏鈴穎（台灣大學助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學牙醫學系，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "湯婉君（國立台灣藝術大學兼任講師）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣藝術大學中國音樂學系，兼任講師。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣藝術大學"
+        ]
+      }
+    ],
+    "劉叔秋（國立中山大學教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中山大學海洋生態與保育研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中山大學"
+        ]
+      }
+    ],
+    "孫繼光（國立彰化師範大學助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立彰化師範大學輔導與諮商學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立彰化師範大學"
+        ]
+      }
+    ],
+    "翁仲邦（國立臺北大學副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北大學體育室，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北大學"
+        ]
+      }
+    ],
+    "徐子勝（國立清華大學助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立清華大學分子與細胞生物研究所，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立清華大學"
+        ]
+      }
+    ],
+    "曹英傑（國立陽明交通大學兼任助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立陽明交通大學生物醫學影像暨放射科學系，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立陽明交通大學"
+        ]
+      }
+    ],
+    "蕭宏祺（世新大學教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：世新大學傳播管理學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "世新大學"
+        ]
+      }
+    ],
+    "賴全裕（中山醫學大學教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：中山醫學大學職業安全衛生學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "中山醫學大學"
+        ]
+      }
+    ],
+    "蔡晏榕（國立臺灣戲曲學院助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣戲曲學院客家戲學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣戲曲學院"
+        ]
+      }
+    ],
+    "楊柏遠（國立屏東大學副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立屏東大學智慧機器人學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立屏東大學"
+        ]
+      }
+    ],
+    "蔡尚岳（政治大學教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立政治大學應用物理研究所，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "陳正熙（國立臺灣戲曲學院專任助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣戲曲學院劇場藝術學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣戲曲學院"
+        ]
+      }
+    ],
+    "黃麗綺（輔仁大學哲學系副教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：輔仁大學哲學系，專任副教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "輔仁大學"
+        ]
+      }
+    ],
+    "邱倚璿（輔仁大學心理系教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：輔仁大學心理學系，專任副教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "輔仁大學"
+        ]
+      }
+    ],
+    "張慈宜（輔大心理系副教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：輔仁大學心理學系，專任副教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "輔仁大學"
+        ]
+      }
+    ],
+    "蔡春美（輔仁大學心理學系副教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：輔仁大學心理學系，專任助理教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "輔仁大學"
+        ]
+      }
+    ],
+    "莊文瑞（東吳大學哲學系退休副教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：東吳大學哲學系，專任副教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "東吳大學"
+        ]
+      }
+    ],
+    "徐承蔭（靜宜大學法律學系兼任助理教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：靜宜大學法律學系，兼任講師。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "靜宜大學"
+        ]
+      }
+    ],
+    "陳朝欽（國立清華大學資訊工程學系退休教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立清華大學資訊工程學系，專任教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立清華大學"
+        ]
+      }
+    ],
+    "張煖（淡江大學化學工程與材料工程學系退休教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：淡江大學化學工程與材料工程學系，專任教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "淡江大學"
+        ]
+      }
+    ],
+    "莊文芳（輔仁大學社會工作系副教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：輔仁大學社會工作學系，專任助理教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "輔仁大學"
+        ]
+      }
+    ],
+    "陳其誠（台大數學系退休教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立臺灣大學數學系，專任教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "林鶴玲（台灣大學社會學系退休教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立臺灣大學社會學系，專任教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "賴盟騏（國立高雄科技大學博雅教育中心退休副教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立高雄科技大學博雅教育中心，專任副教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立高雄科技大學"
+        ]
+      }
+    ],
+    "洪嘉宏（國立宜蘭大學通識教育中心兼任助理教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立宜蘭大學通識教育中心，兼任助理教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立宜蘭大學"
+        ]
+      }
+    ],
+    "石易平（輔仁大學社會學系副教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：輔仁大學社會學系，專任助理教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "輔仁大學"
+        ]
+      }
+    ],
+    "陳韻如（台北大學社會系兼任副教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立臺北大學社會學系，專任副教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立臺北大學"
+        ]
+      }
+    ],
+    "紀文鎮（國立台灣師範大學數學系退休教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立臺灣師範大學數學系，兼任教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "許舜欽（長榮大學資訊管理系榮譽教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：長榮大學資訊管理學系，兼任教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "長榮大學"
+        ]
+      }
+    ],
+    "楊聰賢（國立臺北藝術大學音樂系退休教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立臺北藝術大學音樂學系，兼任教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立臺北藝術大學"
+        ]
+      }
+    ],
+    "蔡錦堂（台灣師範大學台灣史研究所退休教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立臺灣師範大學臺灣史研究所，兼任教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "陳君愷（輔仁大學歷史學系教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：輔仁大學歷史學系，專任教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "輔仁大學"
+        ]
+      }
+    ],
+    "蔡怡佳（輔仁大學宗教學系教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：輔仁大學宗教學系，專任副教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "輔仁大學"
+        ]
+      }
+    ],
+    "錢鴻鈞（真理大學臺灣文學系教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：真理大學台灣文學系，專任副教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "真理大學"
+        ]
+      }
+    ],
+    "呂忠津（國立清華大學電機工程系退休教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立清華大學電機工程學系，專任教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立清華大學"
+        ]
+      }
+    ],
+    "簡端良（雲林科技大學通識教育中心助理教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立雲林科技大學通識教育中心，專任講師。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立雲林科技大學"
+        ]
+      }
+    ],
+    "廖東亮（逢甲大學財務金融學系教授(退休）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：逢甲大學財務金融學系，專任教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "逢甲大學"
+        ]
+      }
+    ],
+    "鄭明憲（國立台灣師範大學美術系退休教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立臺灣師範大學美術學系，兼任副教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "邱維辰（國立交通大學資訊工程學系教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立交通大學資訊工程學系，專任助理教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立交通大學"
+        ]
+      }
+    ],
+    "沈錳坤（政治大學資訊科學系退休教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立政治大學資訊科學系，專任教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立政治大學"
+        ]
+      }
+    ],
+    "何彩滿（中原大學通識教育中心副教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：中原大學通識教育中心，專任副教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "中原大學"
+        ]
+      }
+    ],
+    "李玉璽（國立虎尾科技大學通識教育中心教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立虎尾科技大學通識教育中心，專任副教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立虎尾科技大學"
+        ]
+      }
+    ],
+    "陳慧勻（淡江大學通識與核心課程中心/雞屎藤舞蹈劇場專任副教授/副藝術總監）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：淡江大學通識與核心課程中心，專任助理教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "淡江大學"
+        ]
+      }
+    ],
+    "王郁中（國立虎尾科技大學通識教育中心助理教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立虎尾科技大學通識教育中心，兼任講師。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立虎尾科技大學"
+        ]
+      }
+    ],
+    "陳秋瑩（中國醫藥大學公共衛生系教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：中國醫藥大學公共衛生學系，專任副教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "中國醫藥大學"
+        ]
+      }
+    ],
+    "王慶裕（國立中興大學農藝系退休教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立中興大學農藝學系，專任教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立中興大學"
+        ]
+      }
+    ],
+    "周宣辰（崑山科技大學幼兒保育系退休教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：崑山科技大學幼兒保育系，專任副教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "崑山科技大學"
+        ]
+      }
+    ],
+    "陳巍仁（元智大學通識教學部助理教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：元智大學通識教學部，專任助理教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "元智大學"
+        ]
+      }
+    ],
+    "陳碧祺（高雄師範大學教育學系教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立高雄師範大學教育學系，專任副教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立高雄師範大學"
+        ]
+      }
+    ],
+    "林素貞（國立高雄師範大學特殊教育學系退休教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立高雄師範大學特殊教育學系，專任教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立高雄師範大學"
+        ]
+      }
+    ],
+    "陳正達（國立臺灣師範大學地球科學系教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立臺灣師範大學地球科學系，專任教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "翁正忞（僑光科技大學國際貿易系副教授退休）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：僑光科技大學國際貿易系，專任副教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "僑光科技大學"
+        ]
+      }
+    ],
+    "林怡安（國立臺北商業大學通識教育中心助理教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立臺北商業大學通識教育中心，專任助理教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立臺北商業大學"
+        ]
+      }
+    ],
+    "江智民（東海大學生命科學系教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：東海大學生命科學系，專任教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "東海大學"
+        ]
+      }
+    ],
+    "陳建樺（淡江大學體育事務處專任教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：淡江大學體育事務處，專任助理教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "淡江大學"
+        ]
+      }
+    ],
+    "陳世芳（淡江大學歷史學系兼任助理教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：淡江大學歷史學系，兼任講師。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "淡江大學"
+        ]
+      }
+    ],
+    "李禮孟（輔仁大學企業管理學系副教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：輔仁大學企業管理學系，專任副教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "輔仁大學"
+        ]
+      }
+    ],
+    "江宗翰（世新大學英語系兼任講師）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：世新大學英語學系，兼任講師。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "世新大學"
+        ]
+      }
+    ],
+    "趙培文（長榮大學 神學系助理教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：長榮大學神學系，專任助理教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "長榮大學"
+        ]
+      }
+    ],
+    "林世凌（國立高雄科技大學 博雅教育中心教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立高雄科技大學博雅教育中心，專任副教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立高雄科技大學"
+        ]
+      }
+    ],
+    "潘世姬（國立台北藝術大學音樂系兼任教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立臺北藝術大學音樂學系，專任教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立臺北藝術大學"
+        ]
+      }
+    ],
+    "藍挹丰（淡江大學教育心理與諮商研究所兼任助理教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：淡江大學教育心理與諮商研究所，兼任助理教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "淡江大學"
+        ]
+      }
+    ],
+    "鄭羽軒（靜宜大學法律系兼任助理教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：靜宜大學法律學系，兼任助理教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "靜宜大學"
+        ]
+      }
+    ],
+    "王奕盛（國立臺北藝術大學劇場設計系兼任助理教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立臺北藝術大學劇場設計學系，兼任講師。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立臺北藝術大學"
+        ]
+      }
+    ],
+    "黃緯中（中國文化大學史學系退休教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：中國文化大學史學系，專任副教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "中國文化大學"
+        ]
+      }
+    ],
+    "洪介偉（逢甲大學風險管理與保險學系退休教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：逢甲大學風險管理與保險學系，專任教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "逢甲大學"
+        ]
+      }
+    ],
+    "鄭欽模（淡江大學外交與國際關係學系副教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：淡江大學外交與國際關係學系，專任副教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "淡江大學"
+        ]
+      }
+    ],
+    "劉智濬（中臺科技大學通識教育中心兼任教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：中臺科技大學通識教育中心，專任副教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "中臺科技大學"
+        ]
+      }
+    ],
+    "李美玲（亞洲大學社會工作學系退休教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：亞洲大學社會工作學系，專任教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "亞洲大學"
+        ]
+      }
+    ],
+    "林文澧（國立台灣大學醫學工程學系退休教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立臺灣大學醫學工程學系，專任教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "劉沁瑜（輔仁大學營養科學系/台灣營養學會教授/理事）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：輔仁大學營養科學系，專任副教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "輔仁大學"
+        ]
+      }
+    ],
+    "陳雲翔（輔仁大學生命科學系副教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：輔仁大學生命科學系，專任助理教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "輔仁大學"
+        ]
+      }
+    ],
+    "楊宗銘（台灣科技大學電機工程系退休教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：國立臺灣科技大學電機工程系，專任教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "國立臺灣科技大學"
+        ]
+      }
+    ],
+    "張貴傑（淡江大學教育心理與諮商研究所副教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：淡江大學教育心理與諮商研究所，專任副教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "淡江大學"
+        ]
+      }
+    ],
+    "柯純融（淡江大學建築學系副教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：淡江大學建築學系，專任助理教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "淡江大學"
+        ]
+      }
+    ],
+    "張林煌（台中教育大學資工系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺中教育大學資訊工程學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺中教育大學"
+        ]
+      }
+    ],
+    "張耀仁（中原大學電子系特聘教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：中原大學電子工程學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "中原大學"
+        ]
+      }
+    ],
+    "楊芳燕（台灣大學中文系兼任副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學中國文學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "楊佳嫻（國立清華大學中文系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立清華大學中國文學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立清華大學"
+        ]
+      }
+    ],
+    "薛念林（逢甲大學資工系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：逢甲大學資訊工程學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "逢甲大學"
+        ]
+      }
+    ],
+    "陳伯軒（臺北大學中文系兼任副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺北大學中國文學系，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺北大學"
+        ]
+      }
+    ],
+    "蘇賜麟（成功大學電機系退休教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立成功大學電機工程學系，兼任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立成功大學"
+        ]
+      }
+    ],
+    "林朝成（台南社區大學／國立成功大學中文系校長／兼任教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立成功大學中國文學系，兼任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立成功大學"
+        ]
+      }
+    ],
+    "林羨峯（逢甲大學外文系退休副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：逢甲大學外國語文學系，兼任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "逢甲大學"
+        ]
+      }
+    ],
+    "王嘉斌（國立台灣師範大學電機系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣師範大學電機工程學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣師範大學"
+        ]
+      }
+    ],
+    "林鉦棽（屏東科技大學企管系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立屏東科技大學企業管理系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立屏東科技大學"
+        ]
+      }
+    ],
+    "陳淑卿（國立中興大學外文系名譽教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立中興大學外國語文學系，兼任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立中興大學"
+        ]
+      }
+    ],
+    "陳耀銘（國立台灣大學電機系特聘教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學電機工程學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "施明祥（國立暨南國際大學土木系終身特聘教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立暨南國際大學土木工程學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立暨南國際大學"
+        ]
+      }
+    ],
+    "徐文信（國立屏東科技大學土木系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立屏東科技大學土木工程系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立屏東科技大學"
+        ]
+      }
+    ],
+    "劉奕汶（國立清華大學電機系特聘教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立清華大學電機工程學系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立清華大學"
+        ]
+      }
+    ],
+    "劉姿妤（台灣大學外文系助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立臺灣大學外國語文學系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣大學"
+        ]
+      }
+    ],
+    "蔡幸娟（清華大學中文系兼任助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立清華大學中國文學系，兼任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立清華大學"
+        ]
+      }
+    ],
+    "王崇昱（高雄科技大學企管系教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立高雄科技大學企業管理系，專任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立高雄科技大學"
+        ]
+      }
+    ],
+    "陳冠宇（龍華科技大學電機系助理教授、台北科技大學電子系兼任助理教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：龍華科技大學電機工程系，專任助理教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "龍華科技大學"
+        ]
+      }
+    ],
+    "蔡尚恩（長榮大學資工系副教授）": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：長榮大學資訊工程學系，專任副教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "長榮大學"
+        ]
+      }
+    ],
+    "李永山（銘傳大學資管系退休副教授）": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "教育部彙整表（2019–2020 學年度歷史資料）記載：銘傳大學資訊管理學系，專任副教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv",
+        "institutions": [
+          "銘傳大學"
+        ]
       }
     ]
   }

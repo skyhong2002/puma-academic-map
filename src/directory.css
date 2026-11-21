@@ -345,7 +345,7 @@
 }
 .pa-dir-entry + .pa-dir-entry { border-top: 1px solid var(--pa-dir-border); }
 .pa-dir-entry[data-result]:focus-visible { outline-offset: -3px; }
-.pa-dir-entry-head { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
+.pa-dir-entry-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
 .pa-dir-entry-name { font-weight: 600; font-size: 15px; }
 .pa-dir-section-tag {
   flex: none;
@@ -454,4 +454,17 @@
 .pa-dir-affiliation-sources ul {
   margin: 0;
   padding-inline-start: 1.25em;
+}
+.pa-dir-portrait {
+  flex: none;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.pa-dir-entry-places {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
 }

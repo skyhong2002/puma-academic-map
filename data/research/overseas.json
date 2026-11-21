@@ -1,0 +1,65 @@
+[
+  {
+    "section": "共同領銜",
+    "raw": "林明璋（中央研究院院士、陽明交通大學應用化學系講座教授、美國Emory大學榮譽Woodruff講座教授）",
+    "sources": [
+      {
+        "label": "校方名錄或公告",
+        "description": "Emory 校方公告列出 Ming-Chang Lin 在化學系任職的歷史紀錄。",
+        "url": "https://news.emory.edu/emory-report-archive/erarchive/2006/May/May%2030/Retire.htm"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "Emory University",
+        "country": "美國",
+        "city": "Atlanta, Georgia",
+        "lat": 33.7972678,
+        "lon": -84.3233022,
+        "source_url": "https://tigerweb.geo.census.gov/tigerwebmain/Files/bas26/tigerweb_bas26_colleges_us.html"
+      }
+    ]
+  },
+  {
+    "section": "共同領銜",
+    "raw": "陳幼馨（美國猶他州立大學世界語言與文化學系副教授）",
+    "sources": [
+      {
+        "label": "校方名錄或公告",
+        "description": "Utah State University 師資名錄列出 Yu-Hsing Chen 為世界語言與文化學系副教授。",
+        "url": "https://catalog.usu.edu/pages/TtIs5hufYgu8xKYw6A7u"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "Utah State University",
+        "country": "美國",
+        "city": "Logan, Utah",
+        "lat": 41.740748,
+        "lon": -111.81391,
+        "source_url": "https://topology-institutions.osg-htc.org/ui"
+      }
+    ]
+  },
+  {
+    "section": "共同領銜",
+    "raw": "葉耀元（美國聖湯瑪斯大學國際研究講座教授）",
+    "sources": [
+      {
+        "label": "校方個人頁",
+        "description": "休士頓聖湯瑪斯大學列出葉耀元的國際研究講座教授職稱。",
+        "url": "https://stthom.edu/faculty/yao-yuan-yeh/"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "University of St. Thomas",
+        "country": "美國",
+        "city": "Houston, Texas",
+        "lat": 29.736438,
+        "lon": -95.393102,
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip"
+      }
+    ]
+  }
+]

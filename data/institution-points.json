@@ -1,0 +1,464 @@
+{
+  "世新大學": {
+    "country": "臺灣",
+    "city": "臺北市",
+    "lat": 24.989051,
+    "lon": 121.544846,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.57/24.98/10000"
+  },
+  "中原大學": {
+    "country": "臺灣",
+    "city": "桃園市",
+    "lat": 24.957675,
+    "lon": 121.240734,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.24/24.96/10000"
+  },
+  "中國文化大學": {
+    "country": "臺灣",
+    "city": "臺北市",
+    "lat": 25.137008,
+    "lon": 121.540279,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.1/10000"
+  },
+  "中國科技大學": {
+    "country": "臺灣",
+    "city": "臺北市",
+    "lat": 24.999007,
+    "lon": 121.555006,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.57/24.98/10000"
+  },
+  "中山醫學大學": {
+    "country": "臺灣",
+    "city": "臺中市",
+    "lat": 24.122499,
+    "lon": 120.651459,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.68/24.14/10000"
+  },
+  "中臺科技大學": {
+    "country": "臺灣",
+    "city": "臺中市",
+    "lat": 24.174119,
+    "lon": 120.735283,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.72/24.155/10000"
+  },
+  "亞洲大學": {
+    "country": "臺灣",
+    "city": "臺中市",
+    "lat": 24.045945,
+    "lon": 120.687006,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.73/24.05/10000"
+  },
+  "佛光大學": {
+    "country": "臺灣",
+    "city": "宜蘭縣",
+    "lat": 24.81568,
+    "lon": 121.723778,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.74/24.81/10000"
+  },
+  "元智大學": {
+    "country": "臺灣",
+    "city": "桃園市",
+    "lat": 24.969897,
+    "lon": 121.263456,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.24/24.96/10000"
+  },
+  "南華大學": {
+    "country": "臺灣",
+    "city": "嘉義縣",
+    "lat": 23.569517,
+    "lon": 120.49439,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.47/23.56/10000"
+  },
+  "國立中央大學": {
+    "country": "臺灣",
+    "city": "桃園市",
+    "lat": 24.968426,
+    "lon": 121.195636,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.24/24.96/10000"
+  },
+  "國立中山大學": {
+    "country": "臺灣",
+    "city": "高雄市",
+    "lat": 22.625793,
+    "lon": 120.265808,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.27/22.63/10000"
+  },
+  "國立中正大學": {
+    "country": "臺灣",
+    "city": "嘉義縣",
+    "lat": 23.563389,
+    "lon": 120.470867,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.47/23.56/10000"
+  },
+  "國立中興大學": {
+    "country": "臺灣",
+    "city": "臺中市",
+    "lat": 24.122122,
+    "lon": 120.675551,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.68/24.14/10000"
+  },
+  "國立勤益科技大學": {
+    "country": "臺灣",
+    "city": "臺中市",
+    "lat": 24.143984,
+    "lon": 120.73193,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.72/24.155/10000"
+  },
+  "國立屏東大學": {
+    "country": "臺灣",
+    "city": "屏東縣",
+    "lat": 22.664396,
+    "lon": 120.503977,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.49/22.66/10000"
+  },
+  "國立屏東科技大學": {
+    "country": "臺灣",
+    "city": "屏東縣",
+    "lat": 22.643306,
+    "lon": 120.609986,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.61/22.64/10000"
+  },
+  "國立彰化師範大學": {
+    "country": "臺灣",
+    "city": "彰化縣",
+    "lat": 24.082728,
+    "lon": 120.558628,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.59/24.05/10000"
+  },
+  "國立成功大學": {
+    "country": "臺灣",
+    "city": "臺南市",
+    "lat": 22.995894,
+    "lon": 120.218433,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.22/23.02/10000"
+  },
+  "國立政治大學": {
+    "country": "臺灣",
+    "city": "臺北市",
+    "lat": 24.986835,
+    "lon": 121.57624,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.57/24.98/10000"
+  },
+  "國立暨南國際大學": {
+    "country": "臺灣",
+    "city": "南投縣",
+    "lat": 23.951191,
+    "lon": 120.930818,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.92/23.95/10000"
+  },
+  "國立東華大學": {
+    "country": "臺灣",
+    "city": "花蓮縣",
+    "lat": 23.892308,
+    "lon": 121.544414,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/23.9/10000"
+  },
+  "國立清華大學": {
+    "country": "臺灣",
+    "city": "新竹市",
+    "lat": 24.796398,
+    "lon": 120.996864,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.97/24.8/10000"
+  },
+  "國立澎湖科技大學": {
+    "country": "臺灣",
+    "city": "澎湖縣",
+    "lat": 23.575253,
+    "lon": 119.581914,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/119.58/23.57/10000"
+  },
+  "國立聯合大學": {
+    "country": "臺灣",
+    "city": "苗栗縣",
+    "lat": 24.545842,
+    "lon": 120.812434,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.78/24.56/10000"
+  },
+  "國立臺中教育大學": {
+    "country": "臺灣",
+    "city": "臺中市",
+    "lat": 24.142653,
+    "lon": 120.672154,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.68/24.14/10000"
+  },
+  "國立臺中科技大學": {
+    "country": "臺灣",
+    "city": "臺中市",
+    "lat": 24.15062,
+    "lon": 120.682909,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.68/24.14/10000"
+  },
+  "國立臺北商業大學": {
+    "country": "臺灣",
+    "city": "臺北市",
+    "lat": 25.041947,
+    "lon": 121.525532,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.51/25.03/10000"
+  },
+  "國立臺北大學": {
+    "country": "臺灣",
+    "city": "新北市",
+    "lat": 24.944342,
+    "lon": 121.372753,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.37/24.94/10000"
+  },
+  "國立臺北教育大學": {
+    "country": "臺灣",
+    "city": "臺北市",
+    "lat": 25.024158,
+    "lon": 121.544924,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.02/10000"
+  },
+  "國立臺北科技大學": {
+    "country": "臺灣",
+    "city": "臺北市",
+    "lat": 25.042636,
+    "lon": 121.535955,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.02/10000"
+  },
+  "國立臺北藝術大學": {
+    "country": "臺灣",
+    "city": "臺北市",
+    "lat": 25.132181,
+    "lon": 121.470133,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.47/25.13/10000"
+  },
+  "國立臺北護理健康大學": {
+    "country": "臺灣",
+    "city": "臺北市",
+    "lat": 25.117509,
+    "lon": 121.520649,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.1/10000"
+  },
+  "國立臺南大學": {
+    "country": "臺灣",
+    "city": "臺南市",
+    "lat": 22.984325,
+    "lon": 120.207929,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.22/23.02/10000"
+  },
+  "國立臺南藝術大學": {
+    "country": "臺灣",
+    "city": "臺南市",
+    "lat": 23.185892,
+    "lon": 120.374312,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.38/23.18/10000"
+  },
+  "國立臺東大學": {
+    "country": "臺灣",
+    "city": "臺東縣",
+    "lat": 22.737002,
+    "lon": 121.069877,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.07/22.74/10000"
+  },
+  "國立臺灣大學": {
+    "country": "臺灣",
+    "city": "臺北市",
+    "lat": 25.016832,
+    "lon": 121.534714,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.02/10000"
+  },
+  "國立臺灣師範大學": {
+    "country": "臺灣",
+    "city": "臺北市",
+    "lat": 25.025957,
+    "lon": 121.527535,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.02/10000"
+  },
+  "國立臺灣海洋大學": {
+    "country": "臺灣",
+    "city": "基隆市",
+    "lat": 25.150852,
+    "lon": 121.772607,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.78/25.15/10000"
+  },
+  "國立臺灣科技大學": {
+    "country": "臺灣",
+    "city": "臺北市",
+    "lat": 25.013237,
+    "lon": 121.541083,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.57/24.98/10000"
+  },
+  "國立臺灣藝術大學": {
+    "country": "臺灣",
+    "city": "新北市",
+    "lat": 25.006115,
+    "lon": 121.447924,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.44/25.01/10000"
+  },
+  "國立虎尾科技大學": {
+    "country": "臺灣",
+    "city": "雲林縣",
+    "lat": 23.703312,
+    "lon": 120.430091,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.43/23.72/10000"
+  },
+  "國立金門大學": {
+    "country": "臺灣",
+    "city": "金門縣",
+    "lat": 24.448296,
+    "lon": 118.322462,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/118.32/24.44/10000"
+  },
+  "國立陽明交通大學": {
+    "country": "臺灣",
+    "city": "新竹市",
+    "lat": 24.789234,
+    "lon": 120.999373,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.97/24.8/10000"
+  },
+  "國立雲林科技大學": {
+    "country": "臺灣",
+    "city": "雲林縣",
+    "lat": 23.694957,
+    "lon": 120.534859,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.54/23.71/10000"
+  },
+  "國立高雄大學": {
+    "country": "臺灣",
+    "city": "高雄市",
+    "lat": 22.734378,
+    "lon": 120.285089,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.28/22.73/10000"
+  },
+  "國立高雄師範大學": {
+    "country": "臺灣",
+    "city": "高雄市",
+    "lat": 22.625518,
+    "lon": 120.320032,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.3/22.65/10000"
+  },
+  "國立高雄科技大學": {
+    "country": "臺灣",
+    "city": "高雄市",
+    "lat": 22.651163,
+    "lon": 120.328524,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.3/22.65/10000"
+  },
+  "國立高雄餐旅大學": {
+    "country": "臺灣",
+    "city": "高雄市",
+    "lat": 22.564587,
+    "lon": 120.371956,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.39/22.6/10000"
+  },
+  "實踐大學": {
+    "country": "臺灣",
+    "city": "臺北市",
+    "lat": 25.083664,
+    "lon": 121.546105,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.1/10000"
+  },
+  "崑山科技大學": {
+    "country": "臺灣",
+    "city": "臺南市",
+    "lat": 22.997733,
+    "lon": 120.253131,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.22/23.02/10000"
+  },
+  "弘光科技大學": {
+    "country": "臺灣",
+    "city": "臺中市",
+    "lat": 24.217081,
+    "lon": 120.581233,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.6/24.18/10000"
+  },
+  "德明財經科技大學": {
+    "country": "臺灣",
+    "city": "臺北市",
+    "lat": 25.086609,
+    "lon": 121.565207,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.1/10000"
+  },
+  "東吳大學": {
+    "country": "臺灣",
+    "city": "臺北市",
+    "lat": 25.094459,
+    "lon": 121.545561,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.1/10000"
+  },
+  "東海大學": {
+    "country": "臺灣",
+    "city": "臺中市",
+    "lat": 24.179344,
+    "lon": 120.598961,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.6/24.18/10000"
+  },
+  "玄奘大學": {
+    "country": "臺灣",
+    "city": "新竹市",
+    "lat": 24.774391,
+    "lon": 120.943182,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.97/24.8/10000"
+  },
+  "真理大學": {
+    "country": "臺灣",
+    "city": "新北市",
+    "lat": 25.176823,
+    "lon": 121.435003,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.42/25.17/10000"
+  },
+  "臺北市立大學": {
+    "country": "臺灣",
+    "city": "臺北市",
+    "lat": 25.036076,
+    "lon": 121.513669,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.51/25.03/10000"
+  },
+  "臺北醫學大學": {
+    "country": "臺灣",
+    "city": "臺北市",
+    "lat": 25.025405,
+    "lon": 121.561982,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.02/10000"
+  },
+  "輔英科技大學": {
+    "country": "臺灣",
+    "city": "高雄市",
+    "lat": 22.602557,
+    "lon": 120.389882,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.39/22.6/10000"
+  },
+  "逢甲大學": {
+    "country": "臺灣",
+    "city": "臺中市",
+    "lat": 24.178697,
+    "lon": 120.648904,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.6/24.18/10000"
+  },
+  "銘傳大學": {
+    "country": "臺灣",
+    "city": "臺北市",
+    "lat": 25.086095,
+    "lon": 121.527579,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.1/10000"
+  },
+  "長庚大學": {
+    "country": "臺灣",
+    "city": "桃園市",
+    "lat": 25.034095,
+    "lon": 121.389274,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.39/25.03/10000"
+  },
+  "長榮大學": {
+    "country": "臺灣",
+    "city": "臺南市",
+    "lat": 22.905604,
+    "lon": 120.272835,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.26/22.9/10000"
+  },
+  "靜宜大學": {
+    "country": "臺灣",
+    "city": "臺中市",
+    "lat": 24.22584,
+    "lon": 120.577206,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.56/24.22/10000"
+  },
+  "高雄醫學大學": {
+    "country": "臺灣",
+    "city": "高雄市",
+    "lat": 22.64721,
+    "lon": 120.310343,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.3/22.65/10000"
+  }
+}

@@ -17,7 +17,7 @@
   --accent-wash: #f7e3d6;
   --focus: #1d5fd1;
 
-  /* 已建檔機構數色階（0 → 8+） */
+  /* 已定位署名者數色階（0 → 60+） */
   --bin-0: #f1ede3;
   --bin-1: #cfe0dc;
   --bin-2: #9ec4be;
@@ -896,4 +896,48 @@ path.bin-4 { fill: var(--bin-4); }
   *::after {
     transition-duration: 0.01ms !important;
   }
+}
+
+.map-switch {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  margin-block-end: .5rem;
+}
+.map-switch button {
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  padding: .6rem .9rem;
+  background: var(--paper-raised);
+  color: var(--ink);
+  cursor: pointer;
+}
+.map-switch button[aria-pressed='true'] {
+  background: var(--bin-4);
+  color: white;
+}
+.map-switch [role='status'] {
+  color: var(--ink-soft);
+  font-size: .875rem;
+}
+.person-pin, .person-cluster {
+  border: 2px solid white;
+  border-radius: 50%;
+  background: #a64115;
+  color: white;
+  box-shadow: 0 1px 5px #0005;
+}
+.person-cluster {
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+}
+.world-land {
+  fill: var(--bin-2);
+  fill-opacity: 1;
+  stroke: var(--bin-4);
+  stroke-width: 1;
+}
+.map-switch[hidden] {
+  display: none;
 }

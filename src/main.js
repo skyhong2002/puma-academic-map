@@ -2,8 +2,8 @@ import counties from './counties.json';
 import signatories from '../data/signatories.json';
 import { createCountyMap, normalizeCounty } from './map.js';
 import { mountDirectory } from './directory.js';
-
-const institutionFiles = import.meta.glob('../data/institutions/*.json', { eager: true, import: 'default' });
+import { createWorldMap, overseasPeople, taiwanPeople } from './person-map.js';
+import { isTaiwan, people } from './person-data.js';
 
 // 北 → 中 → 南 → 東 → 離島，清單照一般閱讀習慣排列。
 const COUNTY_ORDER = [
@@ -14,46 +14,30 @@ const COUNTY_ORDER = [
   '澎湖縣', '金門縣', '連江縣',
 ];
 
-// 色階：縣市內已建檔機構數，與名錄的縣市計數同一口徑。
+// 色階：縣市內可定位的署名者數。
 const BINS = [
   { min: 0, max: 0, label: '0' },
-  { min: 1, max: 1, label: '1' },
-  { min: 2, max: 3, label: '2–3' },
-  { min: 4, max: 7, label: '4–7' },
-  { min: 8, max: Infinity, label: '8+' },
+  { min: 1, max: 9, label: '1–9' },
+  { min: 10, max: 29, label: '10–29' },
+  { min: 30, max: 59, label: '30–59' },
+  { min: 60, max: Infinity, label: '60+' },
 ];
 
 const $ = (id) => document.getElementById(id);
 const number = new Intl.NumberFormat('zh-TW');
 
-/* ---------- 資料彙整：只算到縣市，不把署名者對應到校區 ---------- */
+/* ---------- 依機構位置計算各縣市的署名者 ---------- */
 
-const institutions = Object.values(institutionFiles).flat();
-const countyStats = new Map();
-const statOf = (county) => {
-  if (!countyStats.has(county)) countyStats.set(county, { campuses: 0, institutions: new Set() });
-  return countyStats.get(county);
-};
-for (const institution of institutions) {
-  for (const campus of institution.campuses ?? []) {
-    const county = normalizeCounty(campus.county);
-    if (!county) continue;
-    const stat = statOf(county);
-    stat.campuses += 1;
-    stat.institutions.add(institution.name);
-  }
+const countyCounts = new Map();
+for (const person of taiwanPeople) {
+  const countiesOfPerson = new Set(person.locations.filter(isTaiwan).map((place) =>
+    COUNTY_ORDER.find((county) => normalizeCounty(place.city).startsWith(county))).filter(Boolean));
+  for (const county of countiesOfPerson) countyCounts.set(county, (countyCounts.get(county) ?? 0) + 1);
 }
-const campusCount = (county) => countyStats.get(county)?.campuses ?? 0;
-const institutionCount = (county) => countyStats.get(county)?.institutions.size ?? 0;
-const binOf = (county) => BINS.findIndex((bin) => institutionCount(county) >= bin.min && institutionCount(county) <= bin.max);
-const describe = (county) =>
-  campusCount(county)
-    ? `${number.format(institutionCount(county))} 所機構 · ${number.format(campusCount(county))} 處校區`
-    : '尚無已建檔機構';
-
-const totalCampuses = [...countyStats.values()].reduce((sum, stat) => sum + stat.campuses, 0);
-const countiesWithData = [...countyStats.values()].filter((stat) => stat.campuses > 0).length;
-const NATIONAL_META = `${number.format(institutions.length)} 所機構 · ${number.format(totalCampuses)} 處校區 · ${countiesWithData} 縣市`;
+const personCount = (county) => countyCounts.get(county) ?? 0;
+const binOf = (county) => BINS.findIndex((bin) => personCount(county) >= bin.min && personCount(county) <= bin.max);
+const describe = (county) => `${number.format(personCount(county))} 筆已定位署名`;
+const NATIONAL_META = `${number.format(taiwanPeople.length)} 筆已定位署名 · ${countyCounts.size} 縣市`;
 
 /* ---------- 頁首概況與來源 ---------- */
 
@@ -62,8 +46,8 @@ const sectionCount = (name) => sections[name]?.entries?.length ?? 0;
 const stats = [
   [sectionCount('共同領銜'), '共同領銜'],
   [sectionCount('會員名單'), '會員署名'],
-  [institutions.length, '已建檔機構'],
-  [totalCampuses, '官方校區地址'],
+  [people.filter((person) => person.locations.length).length, '已定位署名者'],
+  [people.filter((person) => person.portrait).length, '已收錄頭像'],
 ];
 $('stats').replaceChildren(
   ...stats.map(([value, label]) => {
@@ -132,7 +116,7 @@ const makeListButton = (county) => {
   name.textContent = county ?? '全臺';
   button.append(name);
   if (county) {
-    const count = institutionCount(county);
+    const count = personCount(county);
     const badge = document.createElement('span');
     badge.className = `chip__count bin-${binOf(county)}`;
     badge.textContent = number.format(count);
@@ -209,7 +193,7 @@ function setCounty(value, { updateDirectory = true } = {}) {
   const button = listButtons.get(selected).getBoundingClientRect();
   const rail = list.getBoundingClientRect();
   list.scrollLeft += Math.min(0, button.left - rail.left - 16) + Math.max(0, button.right - rail.right + 16);
-  $('status').textContent = selected ? `已選取${selected}，${describe(selected).replace(' · ', '、')}。` : '已回到全臺視圖。';
+  $('status').textContent = selected ? `已選取${selected}，${describe(selected)}。` : '已回到全臺視圖。';
 }
 
 $('crumb-home').addEventListener('click', () => setCounty(null));
@@ -228,4 +212,31 @@ renderCrumbs();
 renderCue();
 renderList();
 
-directory = mountDirectory($('directory'), { onSelectCounty: (county) => setCounty(county, { updateDirectory: false }) }) ?? null;
+directory = mountDirectory($('directory'), {
+  onSelectCounty: (county) => setCounty(county, { updateDirectory: false }),
+  onLocate(person, point) {
+    const overseas = !isTaiwan(point);
+    showWorld(overseas);
+    $(overseas ? 'world-atlas' : 'atlas').scrollIntoView({ block: 'nearest' });
+    (overseas ? worldMap : map).locate(person, point);
+  },
+});
+
+let worldMap;
+function showWorld(show) {
+  directory?.setOverseas(show);
+  $('atlas').hidden = show;
+  $('world-atlas').hidden = !show;
+  list.closest('nav').hidden = show;
+  $('show-taiwan').setAttribute('aria-pressed', String(!show));
+  $('show-world').setAttribute('aria-pressed', String(show));
+  const count = show ? overseasPeople.length : taiwanPeople.length;
+  $('mapped-count').textContent = `已定位 ${number.format(count)} 筆署名`;
+  if (show) {
+    worldMap ??= createWorldMap($('world-map'));
+    worldMap.map.invalidateSize();
+  }
+}
+$('show-taiwan').addEventListener('click', () => showWorld(false));
+$('show-world').addEventListener('click', () => showWorld(true));
+showWorld(false);

@@ -20,7 +20,7 @@
         <p class="masthead__kicker">學術後援會公開名單</p>
         <h1 class="masthead__title">學術界公開署名地圖</h1>
         <p class="masthead__lede">
-          從縣市看支持沈伯洋的學術界署名機構分布。點選縣市，查閱當地機構的官方校區地址與原站公開署名。
+          查看支持沈伯洋的學術界公開署名。點選地圖上的人員標記，查閱署名、所屬機構與來源。
         </p>
       </div>
       <dl class="masthead__stats" id="stats" aria-label="資料概況"></dl>
@@ -28,10 +28,18 @@
 
     <main class="layout">
       <section class="atlas-column" aria-labelledby="atlas-heading">
-        <h2 class="visually-hidden" id="atlas-heading">縣市地圖</h2>
+        <h2 class="visually-hidden" id="atlas-heading">署名者地圖</h2>
 
+        <nav class="map-switch" aria-label="地圖範圍">
+          <button type="button" id="show-taiwan" aria-pressed="true">臺灣</button>
+          <button type="button" id="show-world" aria-pressed="false">世界</button>
+          <span id="mapped-count" role="status"></span>
+        </nav>
+        <div class="atlas" id="world-atlas" hidden>
+          <div class="atlas__map" id="world-map" aria-label="海外署名地圖"></div>
+        </div>
         <div class="atlas" id="atlas">
-          <div class="atlas__map" id="map" role="img" aria-label="臺灣縣市地圖，依已建檔機構數著色。可改用下方的縣市清單操作。"></div>
+          <div class="atlas__map" id="map" aria-label="臺灣縣市地圖，依已定位署名者人數著色。可改用下方的縣市清單操作。"></div>
 
           <div class="atlas__top">
             <nav class="crumbs" aria-label="地圖層級">
@@ -53,7 +61,7 @@
           <div class="insets" id="insets" aria-hidden="true"></div>
 
           <div class="legend" aria-hidden="true">
-            <p class="legend__title">已建檔機構數</p>
+            <p class="legend__title">已定位署名者</p>
             <ol class="legend__scale" id="legend"></ol>
           </div>
         </div>
@@ -71,7 +79,7 @@
 
     <footer class="colophon">
       <p>
-        地圖以縣市為單位，呈現已建檔機構的官方校區地址所在縣市；尚未標示校區座標，署名者也不對應到特定校區。
+        每個人員標記位於有來源的機構座標。點開群組可看個別署名。機構座標用於呈現學術關係，不表示個人的所在位置或已確認的任職校區。
       </p>
       <p>
         名單來源：<a id="source-link" href="https://sites.google.com/view/academic-kouenkai-for-puma/" target="_blank" rel="noopener">學術後援會公開名單</a><span id="source-date"></span>。縣市界線：內政部國土測繪中心（<a href="https://data.gov.tw/dataset/7442" target="_blank" rel="noopener">政府資料開放平臺</a>，依政府資料開放授權條款第 1 版使用），圖形經裁切與簡化，僅供導覽。
