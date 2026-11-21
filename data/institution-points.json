@@ -384,6 +384,13 @@
     "lon": 120.598961,
     "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.6/24.18/10000"
   },
+  "樹德科技大學": {
+    "country": "臺灣",
+    "city": "高雄市",
+    "lat": 22.764361,
+    "lon": 120.374811,
+    "source_url": "https://info.stu.edu.tw/attachfile/upload/IRS/file/104D1.pdf"
+  },
   "玄奘大學": {
     "country": "臺灣",
     "city": "新竹市",

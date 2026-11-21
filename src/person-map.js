@@ -67,13 +67,16 @@ function addPersonMarkers(map, entries, include) {
       marker.on('add', () => marker.getElement()?.setAttribute('aria-label', person.name));
       marker.bindPopup(() => popup(person, point), { maxWidth: 320 });
       markers.addLayer(marker);
-      byPerson.set(markerKey(person, point), marker);
+      byPerson.set(markerKey(person, point), person);
     }
   }
   map.addLayer(markers);
   return (person, point) => {
-    const marker = byPerson.get(markerKey(person, point));
-    if (marker) markers.zoomToShowLayer(marker, () => marker.openPopup());
+    const record = byPerson.get(markerKey(person, point));
+    if (!record) return;
+    const coordinates = L.latLng(point.lat, point.lon);
+    map.setView(coordinates, Math.min(10, map.getMaxZoom()), { animate: false });
+    L.popup({ maxWidth: 320 }).setLatLng(coordinates).setContent(popup(record, point)).openOn(map);
   };
 }
 

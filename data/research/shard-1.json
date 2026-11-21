@@ -456,6 +456,27 @@
   },
   {
     "section": "共同領銜",
+    "raw": "蔡榮芳（美國南卡州查爾斯頓學院歷史系名譽教授）",
+    "sources": [
+      {
+        "label": "出版社講者簡介",
+        "description": "玉山社所辦作者講座的簡介列蔡榮芳為 College of Charleston 歷史系名譽教授。",
+        "url": "https://www.tipi.com.tw/news/3"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "College of Charleston",
+        "country": "美國",
+        "city": "南卡羅來納州查爾斯頓",
+        "lat": 32.784225,
+        "lon": -79.939794,
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip"
+      }
+    ]
+  },
+  {
+    "section": "共同領銜",
     "raw": "陳時奮（加拿大西安大略大學榮譽教授/美國西華盛頓大學講座教授）",
     "sources": [
       {
@@ -596,6 +617,18 @@
         "institutions": [
           "國立臺北藝術大學"
         ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
+    "raw": "陳永豐（眼科診所院長）",
+    "sources": [
+      {
+        "label": "本人專業文章",
+        "description": "陳永豐醫師發表的文章在作者簡介列其為汐止晶華眼科院長。",
+        "url": "https://www.mbpr.com.tw/wp-content/uploads/2022/05/Reivew-vol28.pdf"
       }
     ],
     "locations": []
@@ -788,6 +821,21 @@
   },
   {
     "section": "共同領銜",
+    "raw": "方禎璋（東海大學餐飲管理學系兼任助理教授）",
+    "sources": [
+      {
+        "label": "大學課程資料",
+        "description": "東海大學課程資訊網列方禎璋共同教授餐旅管理學系飲食文化課程。",
+        "url": "https://national.service.thu.edu.tw/view/105/1/2544",
+        "institutions": [
+          "東海大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "共同領銜",
     "raw": "陳志豪（國立臺灣師範大學臺史所副教授）",
     "sources": [
       {
@@ -934,6 +982,21 @@
   },
   {
     "section": "會員名單",
+    "raw": "吳作樂（長榮大學資管系退修教授）",
+    "sources": [
+      {
+        "label": "文化部提名文件",
+        "description": "文化部公開的公視董事候選人資料列吳作樂為長榮大學資訊系教授，文件反映當時經歷。",
+        "url": "https://file.moc.gov.tw/Download.ashx?n=6ZmE5Lu2IC0g5YWs6KaW56ys5LqU5bGG6JGj55uj5LqL5YCZ6YG45Lq66YeN5o%2BQ5ZCN5ZCN5ZauLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvT2xkRmlsZXMvQWRtaW5VcGxvYWRzL21vY2hpc3RvcnkvY2NhSW1hZ2VzL2FydE5ld3MvMC8wODA3MDMwMS5wZGY%3D",
+        "institutions": [
+          "長榮大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
     "raw": "洪子偉（中研院歐美所研究員）",
     "sources": [
       {
@@ -966,6 +1029,21 @@
         "url": "https://lass.artsoc.scu.edu.tw/subabout/2/14",
         "institutions": [
           "東吳大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "張逸民（國立政治大學企業管理學系退休教授）",
+    "sources": [
+      {
+        "label": "大學課程統計",
+        "description": "政治大學的歷年課程統計列張逸民於企業管理學系教授企業政策。",
+        "url": "https://aca.nccu.edu.tw/db/upload/%E6%94%BF%E6%B2%BB%E5%A4%A7%E5%AD%B8%E8%BF%913%E5%B9%B4%28101-1~103-2%29%E9%96%8B%E8%A8%AD%E5%85%A8%E8%8B%B1%E8%AA%9E%E5%B0%88%E6%A5%AD%E8%AA%B2%E7%A8%8B%E4%B8%80%E8%A6%BD%E8%A1%A8%E6%9A%A8%E7%9B%B8%E9%97%9C%E7%B5%B1%E8%A8%88%E8%B3%87%E6%96%99.pdf",
+        "institutions": [
+          "國立政治大學"
         ]
       }
     ],
@@ -1064,6 +1142,33 @@
   },
   {
     "section": "會員名單",
+    "raw": "王筱蘭（淡江大學數學系退休教授）",
+    "sources": [
+      {
+        "label": "大學教師歷程",
+        "description": "淡江大學公開的王筱蘭教師歷程列出其數學系授課紀錄。",
+        "url": "https://teacher.tku.edu.tw/StfTchrSmy.aspx?tid=t738310"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "劉曦宸（文化大學勞動暨人力資源學系助理教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "中國文化大學勞動暨人力資源學系列劉曦宸為助理教授。",
+        "url": "https://labor.pccu.edu.tw/p/405-1147-92220%2Cc3828.php?Lang=zh-tw",
+        "institutions": [
+          "中國文化大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
     "raw": "賴慈芸（師大翻譯所教授）",
     "sources": [
       {
@@ -1085,6 +1190,21 @@
         "label": "研究所活動頁",
         "description": "中研院政治學研究所列出顏維婷為助研究員。",
         "url": "https://ipsas20.project.sinica.edu.tw/IPSASwithme_28.html"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "洪浦釗（臺北市立大學通識教育中心助理教授）",
+    "sources": [
+      {
+        "label": "大學通識師資名錄",
+        "description": "臺北市立大學通識教育中心列洪浦釗為專任助理教授。",
+        "url": "https://genedu.utaipei.edu.tw/p/412-1018-3375.php?Lang=zh-tw",
+        "institutions": [
+          "臺北市立大學"
+        ]
       }
     ],
     "locations": []
@@ -1136,6 +1256,18 @@
   },
   {
     "section": "會員名單",
+    "raw": "許俊傑（高雄長庚醫院教授）",
+    "sources": [
+      {
+        "label": "醫院個人頁",
+        "description": "長庚醫院列許俊傑為高雄長庚紀念醫院胸腔及心臟血管外科教授。",
+        "url": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/6990"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
     "raw": "黃武雄（台大數學系退休教授）",
     "sources": [
       {
@@ -1144,6 +1276,21 @@
         "url": "https://sec.ntu.edu.tw/epaper/article.asp?num=550&sn=570",
         "institutions": [
           "國立臺灣大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "吳昭良（國立成功大學醫學院名譽教授）",
+    "sources": [
+      {
+        "label": "大學名譽教授名冊",
+        "description": "成功大學名譽教授名冊列出醫學院生物化學暨分子生物學研究所吳昭良教授。",
+        "url": "https://adms-acad.ncku.edu.tw/var/file/44/1044/img/4389/718703236.pdf",
+        "institutions": [
+          "國立成功大學"
         ]
       }
     ],

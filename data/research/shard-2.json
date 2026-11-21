@@ -1,6 +1,18 @@
 [
   {
     "section": "會員名單",
+    "raw": "房彥輝（實踐大學兼任講師）",
+    "sources": [
+      {
+        "label": "本人專業簡歷",
+        "description": "房彥輝的專業簡歷列其為實踐大學兼任講師。",
+        "url": "https://www.minglun-law.com/paper/other_page.php?id=21005"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
     "raw": "黃青真（國立台灣大學名譽教授）",
     "sources": [
       {
@@ -248,6 +260,18 @@
         "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.02/12000"
       }
     ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "林奕彤（奧地利維也納音樂暨表演藝術大學博士生）",
+    "sources": [
+      {
+        "label": "大學研討會議程",
+        "description": "清華大學研討會議程列林奕彤所屬為維也納音樂暨表演藝術大學。",
+        "url": "https://apcs.site.nthu.edu.tw/p/406-1404-318784%2Cr2547.php?Lang=zh-tw"
+      }
+    ],
+    "locations": []
   },
   {
     "section": "會員名單",
@@ -590,6 +614,18 @@
   },
   {
     "section": "會員名單",
+    "raw": "陳淑純（致理科大應英系副教授退休副教授）",
+    "sources": [
+      {
+        "label": "校方課程頁",
+        "description": "致理科技大學課程平台曾列陳淑純為應用英語系翻譯課程教師。",
+        "url": "https://dlc.chihlee.edu.tw/info/10041785?lang=GB2312"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
     "raw": "薛富盛（國立中興大學終身特聘教授）",
     "sources": [
       {
@@ -719,6 +755,18 @@
         "source_url": "https://facilities.upenn.edu/maps/locations/richards-medical-research-laboratories"
       }
     ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳英亮（交通大學退休教授）",
+    "sources": [
+      {
+        "label": "系所歷屆主管",
+        "description": "陽明交通大學電機工程學系歷屆主管名錄列有陳英亮。",
+        "url": "https://dee.nycu.edu.tw/pages.php?locale=tw&pa=leaders"
+      }
+    ],
+    "locations": []
   },
   {
     "section": "會員名單",
@@ -987,6 +1035,27 @@
   },
   {
     "section": "會員名單",
+    "raw": "詹益鑑（美國加州大學柏克萊分校訪問學者暨公衛學院院長資深顧問）",
+    "sources": [
+      {
+        "label": "研究機構活動簡介",
+        "description": "國家生技研究園區講者簡介記載詹益鑑曾赴加州大學柏克萊分校訪問研究並擔任公衛學院院長資深顧問。",
+        "url": "https://nbrp.sinica.edu.tw/posts/184b3cc8-7290-49fc-94b2-7dc6b4551c85?page_id=8"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "加州大學柏克萊分校",
+        "country": "美國",
+        "city": "Berkeley, CA",
+        "lat": 37.87205,
+        "lon": -122.25928,
+        "source_url": "https://berkeleyca.gov/sites/default/files/2026-06/Ground%20Water%20Analysis%20Report%202025-02.pdf"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
     "raw": "楊佳嫻（國立清華大學中文系副教授）",
     "sources": [
       {
@@ -1026,6 +1095,47 @@
         "label": "研究所個人頁",
         "description": "中央研究院民族學研究所列李梅君為副研究員。",
         "url": "https://www.ioe.sinica.edu.tw/Researcher/Detail?SiteID=6d0e3b6b-4623-45b4-ba6e-395e3b79eae0&filter=AF0F4F36-5948-4D38-A3EB-7533EDF78E6C&id=2B825C73-8298-4165-9A8A-0D77A691AD35"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "黃界清（德州農工大學機械系榮譽傑出教授）",
+    "sources": [
+      {
+        "label": "大學個人頁",
+        "description": "德州農工大學列 Je-Chin Han 為機械工程領域傑出講座教授。",
+        "url": "https://turbolab.tamu.edu/han/"
+      },
+      {
+        "label": "政府交流報告",
+        "description": "政府進修報告以中文記載黃界清為德州農工大學機械系榮譽講座教授。",
+        "url": "https://report.ndc.gov.tw/ReportFront/PageSystem/reportFileDownload/C11000084/001"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "黃國源（陽明交通大學資工系退休教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "國立陽明交通大學資訊工程學系有黃國源的系所成員頁。",
+        "url": "https://www.cs.nycu.edu.tw/members/detail/kyhuang"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "魏君容（哈佛癌症中心行政執行主任）",
+    "sources": [
+      {
+        "label": "機構計畫公告",
+        "description": "哈佛癌症聯盟的研究計畫頁列 Jun-Rong Wei 為計畫聯絡人。",
+        "url": "https://www.dfhcc.harvard.edu/insider/for-researchers/funding/hcc-incubator-award-program/past-hcc-incubator-awards"
       }
     ],
     "locations": []
@@ -1101,6 +1211,47 @@
   },
   {
     "section": "會員名單",
+    "raw": "邱蕙君（崑山科大講師）",
+    "sources": [
+      {
+        "label": "校方課程大綱",
+        "description": "崑山科技大學課程大綱列邱蕙君為授課教師。",
+        "url": "https://syllabus.ahan.net/Course.aspx?cid=198599"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳志輝（國立政治大學法學院副教授）",
+    "sources": [
+      {
+        "label": "學院個人頁",
+        "description": "國立政治大學法學院副教授名錄有陳志輝的師資頁。",
+        "url": "https://mini3.law.nccu.edu.tw/zh_tw/Faculty/teachers/Associate_Professor/%E9%99%B3%E5%BF%97%E8%BC%9D-17339846"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "洪瑀韓（美國休士頓大學城中分校教育學系副教授）",
+    "sources": [
+      {
+        "label": "校方公開履歷",
+        "description": "休士頓大學城中分校公布 Yu-Han Hung 在教育領域的學術履歷。",
+        "url": "https://www.uhd.edu/documents/faculty/yu-han-hung-cv.pdf"
+      },
+      {
+        "label": "研習議程",
+        "description": "研習議程列講者洪瑀韓為休士頓大學城中分校副教授。",
+        "url": "https://www.yphs.tp.edu.tw/wp-content/uploads/doc/yp1905/%E6%88%B0%E7%88%AD%E8%88%87%E5%92%8C%E5%B9%B3%E3%80%81%E8%A8%98%E6%86%B6%E8%88%87%E5%86%8D%E7%8F%BE%EF%BC%8D%E8%87%BA%E7%81%A3%E3%80%81%E6%97%A5%E6%9C%AC%E3%80%81%E9%9F%93%E5%9C%8B%E4%BA%8C%E6%88%B0%E6%AD%B7%E5%8F%B2%E6%95%98%E4%BA%8B%E8%88%87%E5%8F%8D%E6%80%9D%E3%80%8D.pdf"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
     "raw": "黃嘉斌（美國馬里蘭大學學院市分校副教授）",
     "sources": [
       {
@@ -1119,6 +1270,155 @@
         "source_url": "https://tigerweb.geo.census.gov/tigerwebmain/Files/bas26/tigerweb_bas26_colleges_us.html"
       }
     ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "連正章（國立陽明交通大學神經科學研究所講座教授）",
+    "sources": [
+      {
+        "label": "研究所個人頁",
+        "description": "國立陽明交通大學神經科學研究所列連正章為講座教授。",
+        "url": "https://www.nycu.edu.tw/ins/ch/app/artwebsite/view?id=40308&module=artwebsite&serno=ddf20afe-52a6-42f0-99d0-390cc2db0dd7"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "蘇逸人（長庚大學行為科學研究所教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "長庚大學職能治療學系與行為科學碩士班網頁列有蘇逸人的專任師資資料。",
+        "url": "https://www.cgu.edu.tw/dot/FullTimeProfessorManagement/Detail/f0ff8fd6-5722-4d4b-9225-6e03ebcbd6ea?nodeId=8775"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳建賓（美國德州農工大學維多利亞分校教授）",
+    "sources": [
+      {
+        "label": "大學個人頁",
+        "description": "德州農工大學維多利亞分校列 Chien-Ping Chen 為經濟學教授。",
+        "url": "https://www.tamuv.edu/business/contact-us/our-faculty/office2/name-104134-en.aspx"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "楊筑鈞（國立屏東大學 教育學系助理教授）",
+    "sources": [
+      {
+        "label": "系所師資名錄",
+        "description": "國立屏東大學教育學系專任師資列楊筑鈞為助理教授。",
+        "url": "https://edu.nptu.edu.tw/p/412-1118-411.php?Lang=zh-tw"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "楊志偉（陽明交通大學管理學院兼任助理教授）",
+    "sources": [
+      {
+        "label": "研究所個人頁",
+        "description": "國立陽明交通大學經營管理研究所列楊志偉為兼任助理教授。",
+        "url": "https://ibm.nycu.edu.tw/%E5%B8%AB%E8%B3%87%E8%88%87%E5%AD%B8%E8%A1%93%E6%88%90%E6%9E%9C/%E5%B8%AB%E8%B3%87/%E6%A5%8A%E5%BF%97%E5%81%89/"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳怡臻（長庚大學職能治療學系助理教授）",
+    "sources": [
+      {
+        "label": "系所師資",
+        "description": "長庚大學職能治療學系專任教師名錄列陳怡臻為助理教授。",
+        "url": "https://www.cgu.edu.tw/dot/FullTimeProfessorManagement?nodeId=8775"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "郭正光（休士頓華美中醫學院退休教授）",
+    "sources": [
+      {
+        "label": "大學校友訪談",
+        "description": "臺大校友雙月刊記載郭正光曾在休士頓華美中醫學院擔任兼任教授。",
+        "url": "https://ntualumnibm.ntu.edu.tw/bm.bimonthly.article/detail/sn/4388"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳俊文（Georgian Court UniversityAssociate Professor）",
+    "sources": [
+      {
+        "label": "大學傑出校友頁",
+        "description": "高雄大學傑出校友資料列陳俊文為 Georgian Court University 運動科學系終身職副教授。",
+        "url": "https://www.nuk.edu.tw/p/404-1000-88387.php?Lang=zh-tw"
+      },
+      {
+        "label": "大學師資名錄",
+        "description": "Georgian Court University 列出 Chen 的運動科學副教授和榮譽學程主任職務。",
+        "url": "https://catalog.georgian.edu/directories/librarians-teaching-faculty/"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳慧蓉（文化大學新聞系副教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "中國文化大學新聞學系師資頁列陳慧蓉為副教授。",
+        "url": "https://jou.pccu.edu.tw/teacherDetail.php?id=6"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "林果葶（國立臺灣藝術大學廣電系助理教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "國立臺灣藝術大學廣播電視學系列林果葶為助理教授。",
+        "url": "https://rtv.ntua.edu.tw/portal_b1_page.php?button_num=b1&cnt_id=10927&owner_num=b1_63810"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "王瑞華（北美州台灣人敎授學會前理事）",
+    "sources": [
+      {
+        "label": "專業史料簡歷",
+        "description": "台美史料中心簡歷列王瑞華曾擔任北美洲台灣人教授協會理事。",
+        "url": "https://taiwaneseamericanhistory.org/person/dr-ray-wang/"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "翁書偉（國立臺灣大學公共衛生學院 健康行為與社區科學研究所助理教授）",
+    "sources": [
+      {
+        "label": "研究所師資",
+        "description": "臺灣大學公共衛生學院健康行為與社區科學研究所師資頁列有翁書偉。",
+        "url": "https://hbcs.ntu.edu.tw/web/about/faculty.jsp"
+      }
+    ],
+    "locations": []
   },
   {
     "section": "會員名單",
@@ -1149,6 +1449,80 @@
         "label": "學院個人頁",
         "description": "佛羅里達大學列 Yao-Chin Wang 為觀光餐旅暨活動管理系助理教授。",
         "url": "https://hhp.ufl.edu/directory/yao-chin-wang/"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "吳彥勳（南伊利諾大學人類科學院助理教授）",
+    "sources": [
+      {
+        "label": "校方新任師資",
+        "description": "南伊利諾大學卡本代爾分校校方的新任師資資料列 Yen-Hsun Wu 為人類科學學院助理教授。",
+        "url": "https://provost.siu.edu/about/new-faculty/tenure-faculty-2026.php"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "金立群（國立陽明交通大學音樂研究所退休副教授）",
+    "sources": [
+      {
+        "label": "退休師資個人頁",
+        "description": "國立陽明交通大學音樂研究所列金立群為退休教師。",
+        "url": "https://imu.nycu.edu.tw/member.php?id=9"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "顏仕宇（瑞典斯德哥爾摩大學社會人類學博士候選人）",
+    "sources": [
+      {
+        "label": "大學個人頁",
+        "description": "斯德哥爾摩大學列 Nga Shi Yeu 為社會人類學系博士生。",
+        "url": "https://www.su.se/english/profiles/s/shng2329"
+      },
+      {
+        "label": "政府研究中心講座紀錄",
+        "description": "國家圖書館漢學研究中心以中英文確認顏仕宇／Nga Shi Yeu 為斯德哥爾摩大學社會人類學博士候選人。",
+        "url": "https://ccs.ncl.edu.tw/act_detail.aspx?sn=512"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "薛智仁（國立台灣大學法律學院教授）",
+    "sources": [
+      {
+        "label": "學院個人頁",
+        "description": "國立臺灣大學法律學院列薛智仁為教授。",
+        "url": "https://www.law.ntu.edu.tw/index.php/%E8%AA%8D%E8%AD%98%E6%9C%AC%E9%99%A2/%E6%9C%AC%E9%99%A2%E5%B8%AB%E8%B3%87/item/206-%E8%96%9B%E6%99%BA%E4%BB%81-%E6%95%99%E6%8E%88"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "國立臺灣大學",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.016832,
+        "lon": 121.534714,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.02/12000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "劉美芳（輔英科技大學講師）",
+    "sources": [
+      {
+        "label": "系所師資",
+        "description": "輔英科技大學護理系臨床教師名錄列劉美芳為護理科專任講師。",
+        "url": "https://ens.fy.edu.tw/p/412-1103-9453.php?Lang=zh-tw"
       }
     ],
     "locations": []

@@ -48,6 +48,27 @@
   },
   {
     "section": "會員名單",
+    "raw": "吳家恆（世新大學通識中心兼任講師）",
+    "sources": [
+      {
+        "label": "校方課程大綱",
+        "description": "世新大學通識中心的音樂欣賞課程大綱記載吳家恆參與授課。",
+        "url": "https://ap4.shu.edu.tw/stu1/stu1/SE0202GRD01.aspx?course_key=184489&query_agrp=0&query_majr=00"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "世新大學",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 24.989051,
+        "lon": 121.544846,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.545/24.987/2500"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
     "raw": "江智民（東海大學生命科學系教授）",
     "sources": [
       {
@@ -90,6 +111,18 @@
   },
   {
     "section": "會員名單",
+    "raw": "王柏傑（國立空中大學講師）",
+    "sources": [
+      {
+        "label": "大學面授課表",
+        "description": "國立空中大學嘉義學習指導中心面授課表列王柏傑為授課教師。",
+        "url": "https://www2.nou.edu.tw/upload/cont_att/10793b72-4195-4576-91b7-ab94539e1cb4.pdf"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
     "raw": "劉淑音（國立臺灣藝術大學古蹟藝術修護學系退休教授）",
     "sources": [
       {
@@ -98,7 +131,16 @@
         "url": "https://www.ntua.edu.tw/upload/ART00011174302752436/A02320140714413/ITEM59/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E8%97%9D%E8%A1%93%E5%A4%A7%E5%AD%B8%20103%20%E5%AD%B8%E5%B9%B4%E5%BA%A6%E7%AC%AC1%E5%AD%B8%E6%9C%9F%E6%95%99%E5%B8%AB%E7%94%B3%E8%AB%8B%20%E6%95%99%E5%AD%B8%E5%8A%A9%E7%90%86.pdf"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "國立臺灣藝術大學",
+        "country": "臺灣",
+        "city": "新北市",
+        "lat": 25.006115,
+        "lon": 121.447924,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.447/25.007/2500"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -111,6 +153,27 @@
       }
     ],
     "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳紫樺（國立台北護理健康大學通識中心助理教授）",
+    "sources": [
+      {
+        "label": "大學專家資料",
+        "description": "國立臺北護理健康大學育成中心列有陳紫樺的校內專長資料。",
+        "url": "https://incubation.ntunhs.edu.tw/index.php?pageID=4&tid=545"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "國立臺北護理健康大學",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.117509,
+        "lon": 121.520649,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.52/25.117/2500"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -168,6 +231,27 @@
         "lat": 24.179344,
         "lon": 120.598961,
         "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.597/24.178/2500"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳鴻大（中原大學物理學及通識中心前兼任助理教授）",
+    "sources": [
+      {
+        "label": "系所兼任師資頁",
+        "description": "中原大學物理學系資料列陳鴻大為兼任助理教授。",
+        "url": "https://phys.cycu.edu.tw/portfolio_tags/%E5%85%BC%E4%BB%BB%E6%95%99%E5%B8%AB"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "中原大學",
+        "country": "臺灣",
+        "city": "桃園市",
+        "lat": 24.957675,
+        "lon": 121.240734,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.241/24.957/2500"
       }
     ]
   },
@@ -253,6 +337,27 @@
   },
   {
     "section": "會員名單",
+    "raw": "程珮玲（世新大學兼任助理教授）",
+    "sources": [
+      {
+        "label": "系所兼任師資頁",
+        "description": "世新大學中國文學系資料列程珮玲為兼任助理教授。",
+        "url": "https://chi.wp.shu.edu.tw/?page=2&page_id=196"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "世新大學",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 24.989051,
+        "lon": 121.544846,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.545/24.987/2500"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
     "raw": "遲正祥（國立台灣大學博士後研究員）",
     "sources": [
       {
@@ -301,6 +406,53 @@
         "label": "校方新聞",
         "description": "康寧大學校方新聞記載李如韻指導該校合唱團。",
         "url": "https://www.ukn.edu.tw/p/406-1000-38473%2Cr384.php?Lang=zh-tw"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "康寧大學",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.075398,
+        "lon": 121.60964,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.61/25.073/2500"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "盧毅（National Taiwan UniversityAssociate Professor）",
+    "sources": [
+      {
+        "label": "系所公告",
+        "description": "臺大農業化學系公告盧毅（Louis Grillet）為該系副教授。",
+        "url": "https://ac.ntu.edu.tw/News2_n_195028_sms_124005.html"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "國立臺灣大學",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.016832,
+        "lon": 121.534714,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.018/2500"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "劉威（Johns Hopkins Bloomberg School of Public HealthPhD Candidate）",
+    "sources": [
+      {
+        "label": "學院學生組織名錄",
+        "description": "約翰霍普金斯大學彭博公共衛生學院流行病學系列 Wei Liu 為博士生代表。",
+        "url": "https://publichealth.jhu.edu/departments/epidemiology/people/students-epidemiology-student-organization"
+      },
+      {
+        "label": "研究人員專訪",
+        "description": "具名專訪以中文姓名劉威說明其約翰霍普金斯大學公共衛生學術背景。",
+        "url": "https://wanchunghuang.com/podcast-wei-liu/"
       }
     ],
     "locations": []
@@ -364,6 +516,27 @@
   },
   {
     "section": "會員名單",
+    "raw": "邱鼎翔（國立成功大學電機工程學系博士後研究員）",
+    "sources": [
+      {
+        "label": "大學博士論文紀錄",
+        "description": "成功大學博碩士論文系統記載邱鼎翔的電機工程學系研究，未核實博士後職銜。",
+        "url": "https://thesis.lib.ncku.edu.tw/thesis/detail/34e0615085953d5269685f3f0c283120/"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "國立成功大學",
+        "country": "臺灣",
+        "city": "臺南市",
+        "lat": 22.995894,
+        "lon": 120.218433,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.219/22.998/2500"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
     "raw": "林志銘（明志科技大學退休副教授）",
     "sources": [
       {
@@ -372,7 +545,16 @@
         "url": "https://ee.mcut.edu.tw/p/412-1040-5353.php?Lang=zh-tw"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "明志科技大學",
+        "country": "臺灣",
+        "city": "新北市",
+        "lat": 25.041619,
+        "lon": 121.421304,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.422/25.041/2500"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -384,7 +566,16 @@
         "url": "https://www.glis.ntnu.edu.tw/index.php/faculty2/"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "國立臺灣師範大學",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.025957,
+        "lon": 121.527535,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.529/25.026/2500"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -394,6 +585,18 @@
         "label": "醫院醫師名錄",
         "description": "陽明交通大學附設醫院列有楊智廸的醫師資料。",
         "url": "https://www.hosp.nycu.edu.tw/reservation10.html?component=regist&docno=15069&view=schedule"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "洪英章（國立陽明交通大學資訊管理所博士）",
+    "sources": [
+      {
+        "label": "校方傑出校友名錄",
+        "description": "鳳山高中校方名錄記載洪英章曾於交通大學資訊管理研究所就讀，該名錄當時列博士候選人。",
+        "url": "https://www.fssh.khc.edu.tw/resource/openfid.php?id=1432"
       }
     ],
     "locations": []
@@ -450,7 +653,16 @@
         "url": "https://fscd.usc.edu.tw/p/412-1086-1332.php?Lang=zh-tw"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "實踐大學",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.083664,
+        "lon": 121.546105,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.546/25.086/2500"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -652,6 +864,18 @@
   },
   {
     "section": "會員名單",
+    "raw": "林韋廷（交通大學科技管理博士、交通大學教育博士候選人）",
+    "sources": [
+      {
+        "label": "國家圖書館博士論文紀錄",
+        "description": "國家圖書館館藏記錄載林韋廷於國立交通大學完成科技管理博士論文。",
+        "url": "https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id%3D%22106NCTU5230005%22.&searchmode=basic"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
     "raw": "賴建雄（長庚大學醫學院助理教授）",
     "sources": [
       {
@@ -673,6 +897,27 @@
       }
     ],
     "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "蔡靜輝（The University of Texas at Arlington退休教授）",
+    "sources": [
+      {
+        "label": "僑委會紀錄",
+        "description": "僑務委員會官網記載蔡靜輝退休前於德州大學阿靈頓分校任教。",
+        "url": "https://www.ocac.gov.tw/OCAC/Pages/Detail.aspx?nodeid=345&pid=77357217"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "The University of Texas at Arlington",
+        "country": "美國",
+        "city": "Arlington",
+        "lat": 32.729718,
+        "lon": -97.11296,
+        "source_url": "https://nces.ed.gov/collegenavigator/?id=228769"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -705,7 +950,16 @@
         "url": "https://childhood3.nhu.edu.tw/Web/UserDetail?id=103364&n=%E5%B0%88%E4%BB%BB%E6%95%99%E5%B8%AB&unitid=4101"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "南華大學",
+        "country": "臺灣",
+        "city": "嘉義縣",
+        "lat": 23.569517,
+        "lon": 120.49439,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.494/23.571/2500"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -748,6 +1002,18 @@
         "label": "醫院科別名錄",
         "description": "高雄醫學大學附設中和紀念醫院骨科部介紹列有鄭裕民。",
         "url": "https://www.kmuh.org.tw/web/kmuhdept/0700/DeptIntro.aspx"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "康世仁（西維吉尼亚機械材料及航空系教授）",
+    "sources": [
+      {
+        "label": "僑委會活動紀錄",
+        "description": "僑務委員會刊載的活動紀錄列康世仁為西維吉尼亞州大學教授；校方工程學院名錄可補核系所。",
+        "url": "https://www.ocac.gov.tw/OCAC/SubSites/Pages/Detail.aspx?nodeid=5965&pid=91871360&site=0a6cf14c-8b55-41fe-ae93-56b4ec2360a7"
       }
     ],
     "locations": []
@@ -883,6 +1149,27 @@
   },
   {
     "section": "會員名單",
+    "raw": "巫梓豪（美國喬治亞州立大學刑事司法與犯罪學系博士候選人）",
+    "sources": [
+      {
+        "label": "研究合作者公告",
+        "description": "法務部司法官學院犯罪防治研究中心記載其合作研究者巫梓豪為喬治亞州立大學刑事司法與犯罪學系博士候選人。",
+        "url": "https://www.cprc.moj.gov.tw/1563/36715/16811/43267/post"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "Georgia State University",
+        "country": "美國",
+        "city": "Atlanta",
+        "lat": 33.7527,
+        "lon": -84.38667,
+        "source_url": "https://nces.ed.gov/collegenavigator/?id=139940"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
     "raw": "陳介力（成功大學航太系教授）",
     "sources": [
       {
@@ -938,7 +1225,16 @@
         "url": "https://fps.npust.edu.tw/teacher/alexlin/"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "國立屏東科技大學",
+        "country": "臺灣",
+        "city": "屏東縣",
+        "lat": 22.643306,
+        "lon": 120.609986,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.603/22.645/2500"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -948,6 +1244,23 @@
         "label": "大學活動紀錄",
         "description": "中興大學校友中心報導劉益昌教授於惠蓀講座分享研究。",
         "url": "https://alumni.nchu.edu.tw/page-1.php?id=c701e2ce-3ff3-4eaa-b573-6cddd871b376"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "李閣桓（澳洲研究機構博士後研究員）",
+    "sources": [
+      {
+        "label": "研究機構研究員頁",
+        "description": "澳洲聯邦科學與工業研究組織 CSIRO 列 Ko-Huan Lee 為健康與生物安全部門博士後研究人員。",
+        "url": "https://people.csiro.au/l/k/ko-huan-lee"
+      },
+      {
+        "label": "研究人員個人網站",
+        "description": "個人網站並列中文姓名李閣桓與英文名 Ko-Huan Lee。",
+        "url": "https://kohuanlee.wordpress.com/"
       }
     ],
     "locations": []
@@ -987,6 +1300,27 @@
   },
   {
     "section": "會員名單",
+    "raw": "廖振博（美國賓州大學(UPenn)博士後研究員）",
+    "sources": [
+      {
+        "label": "醫學院人員公告",
+        "description": "賓州大學病理與檢驗醫學系電子報列 Chen-Po Liao 為 Li-San Wang 實驗室的博士後研究員。",
+        "url": "https://pathology.med.upenn.edu/department/newsletter/spring-2026/welcome-team"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "University of Pennsylvania",
+        "country": "美國",
+        "city": "Philadelphia",
+        "lat": 39.950929,
+        "lon": -75.19391,
+        "source_url": "https://nces.ed.gov/collegenavigator/?id=215062"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
     "raw": "李宛霖（輔仁大學臨床心理學系副教授）",
     "sources": [
       {
@@ -1008,6 +1342,39 @@
   },
   {
     "section": "會員名單",
+    "raw": "傅玉翠（輔仁大學退休副教授）",
+    "sources": [
+      {
+        "label": "大學人事名冊",
+        "description": "輔仁大學人事名冊記載傅玉翠任西班牙語文學系副教授。",
+        "url": "https://hrweb.fju.edu.tw/DownloadNewsFileServlet?file=510"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "輔仁大學",
+        "country": "臺灣",
+        "city": "新北市",
+        "lat": 25.033274,
+        "lon": 121.434694,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.432/25.036/2500"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "張武修（美國Tufts大學醫學院客座教授）",
+    "sources": [
+      {
+        "label": "大學活動公告",
+        "description": "中國醫藥大學公衛學院講座海報列張武修為 Tufts 大學醫學院兼任教授。",
+        "url": "https://cph.cmu.edu.tw/~coph/sites/default/files/201712201142571.12.25%E5%BC%B5%E6%AD%A6%E4%BF%AE%E9%86%AB%E5%B8%AB%E6%BC%94%E8%AC%9B%E6%B5%B7%E5%A0%B1.pdf"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
     "raw": "陳維鈞（台北科技大學創新前瞻科技研究學院兼任教授）",
     "sources": [
       {
@@ -1016,7 +1383,16 @@
         "url": "https://ifirst.ntut.edu.tw/var/file/130/1130/img/4037/484422483.pdf"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "國立臺北科技大學",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.042636,
+        "lon": 121.535955,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.532/25.043/2500"
+      }
+    ]
   },
   {
     "section": "會員名單",

@@ -872,5 +872,185 @@
       }
     ],
     "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "李長泰（台灣經濟研究院副研究員）",
+    "sources": [
+      {
+        "label": "研究院出版資料",
+        "description": "臺灣經濟研究院出版索引以副研究員列李長泰為作者。",
+        "url": "https://vos.tier.org.tw/SearchMore.aspx?Title=%E8%A3%BD%E9%80%A0%E6%A5%AD"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳錫平（中央警察大學犯罪防治學系助理教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "中央警察大學犯罪防治學系列陳錫平為助理教授。",
+        "url": "https://cp.cpu.edu.tw/p/405-1018-40870,c1154.php"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "沈裕昌（國立臺北教育大學助理教授）",
+    "sources": [
+      {
+        "label": "大學課程資料",
+        "description": "臺北教育大學文化創意產業經營學系課程表列沈裕昌為授課教師。",
+        "url": "https://ccim.ntue.edu.tw/var/file/30/1030/img/833/294043589.pdf"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "洪嘉駿（國立清華大學科管院創意長兼任助理教授）",
+    "sources": [
+      {
+        "label": "研究者個人網站",
+        "description": "洪嘉駿於個人教學網站記載自己在清華大學科技管理學院擔任創意長。",
+        "url": "https://www.katsunang.com/"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳盈婷（中國文化大學兼任助理教授）",
+    "sources": [
+      {
+        "label": "系所官方教務公告",
+        "description": "中國文化大學景觀學系公開教務公告把陳盈婷列為景觀設計課程授課教師。",
+        "url": "https://landscape.pccu.edu.tw/p/406-1239-148008,r3149.php?Lang=zh-tw"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "黃華駿（東海大學企管系兼任助理教授）",
+    "sources": [
+      {
+        "label": "大學課程資料",
+        "description": "東海大學課程資訊列黃華駿為企業管理學系商事法課程授課教師。",
+        "url": "https://coursedev.ithu.tw/view/112/2/1245"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "許文瀞（台北醫學大學醫學科學研究所博士後研究員）",
+    "sources": [
+      {
+        "label": "系所公告",
+        "description": "臺北醫學大學醫學科學研究所的 2024 年度優秀論文公告證實許文瀞曾就讀該所博士班。",
+        "url": "https://gims.tmu.edu.tw/Front/Template/News.aspx?Sn=324&id=s%2F%2FumQ4Ml78%3D"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "蘇春霖（南臺科技大學通識教育中心自然科學組教授 及 春霖診所 院長）",
+    "sources": [
+      {
+        "label": "教育部 108 學年度師資名錄",
+        "description": "2019 學年度的資料列蘇春霖為南臺科技大學通識教育中心兼任副教授，可核對其過往任職。",
+        "url": "https://data.gov.tw/dataset/27931"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "李家惠（國家衛生研究院副研究員）",
+    "sources": [
+      {
+        "label": "研究所個人頁",
+        "description": "國家衛生研究院癌症研究所列李家惠為副研究員。",
+        "url": "https://nicr.nhri.edu.tw/pi/leech_research/"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "羅程詠（國立中央大學客家學院博士後研究員）",
+    "sources": [
+      {
+        "label": "學院電子報",
+        "description": "中央大學客家學院電子報介紹羅程詠曾就讀客家系，當時已進入博士班。",
+        "url": "https://hakka.ncu.edu.tw/Hakka_ePaper/paper/paper356/356-7.html"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "吳宜臻（臺大醫學檢驗及生物技術學系博士後研究員）",
+    "sources": [
+      {
+        "label": "大學電子報",
+        "description": "臺大醫學院楓城新聞收錄吳宜臻以醫學檢驗暨生物技術學碩士生身分撰寫的參訪報告。",
+        "url": "https://epaper.ntu.edu.tw/view.php?id=28196&listid=59"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "林慧瑜（國立台北教育大學教育系副教授退休）",
+    "sources": [
+      {
+        "label": "大學行政會議紀錄",
+        "description": "臺北教育大學行政會議紀錄提及林慧瑜為該校退休教授。",
+        "url": "https://secretariatntue.ntue.edu.tw/var/file/43/1043/img/270/610171766.pdf"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "翁聖峰（國立台北教育大學台灣語言與文化學系教授）",
+    "sources": [
+      {
+        "label": "系所個人頁",
+        "description": "臺北教育大學語文與創作學系臺灣語言與文化相關師資頁收錄翁聖峰。",
+        "url": "https://taiwan.ntue.edu.tw/p/405-1029-14963,c828.php?Lang=zh-tw"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "蕭驩庭（國立台北科技大學兼任講師）",
+    "sources": [
+      {
+        "label": "大學課程資料",
+        "description": "臺北科技大學課程查詢系統列蕭驩庭為建築學系課程授課教師。",
+        "url": "https://aps.ntut.edu.tw/course/tw/ShowSyllabus.jsp?code=12455&snum=363065"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "蘇亮甄（國立中山大學教育所博士候選人）",
+    "sources": [
+      {
+        "label": "研究所公開名錄",
+        "description": "中山大學教育研究所 113 學年度公開名錄列蘇亮甄為博士班學生。",
+        "url": "https://education.nsysu.edu.tw/static/file/134/1134/img/1798/487640188.pdf"
+      }
+    ],
+    "locations": []
   }
 ]

@@ -106,6 +106,27 @@
   },
   {
     "section": "會員名單",
+    "raw": "李龍（美國懷俄明大學教授和系主任）",
+    "sources": [
+      {
+        "label": "機構人物頁",
+        "description": "懷俄明大學數學與統計學系個人頁列 Long Lee 為數學教授及系主任，並記載臺灣大學學士、中央大學碩士學歷。",
+        "url": "https://www.uwyo.edu/mathstats/people/faculty/lee.html"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "懷俄明大學",
+        "country": "美國",
+        "city": "拉勒米",
+        "lat": 41.313056,
+        "lon": -105.581389,
+        "source_url": "https://www.wikidata.org/wiki/Q1326975"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
     "raw": "陳玉海（聖約翰科大退休教授助理教授）",
     "sources": [
       {
@@ -361,6 +382,18 @@
         "label": "系所師資名錄",
         "description": "輔仁大學化學系師資名錄列何美霖為教授。",
         "url": "https://ch.fju.edu.tw/%E5%B8%AB%E8%B3%87%E9%99%A3%E5%AE%B9/"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "楊仁敘（政治大學社會工作研究所博士候選人）",
+    "sources": [
+      {
+        "label": "校方活動議程",
+        "description": "政治大學民族學系公開的發表會議程列楊仁敘為該校社會工作研究所博士生。",
+        "url": "https://ethnos.nccu.edu.tw/PageDoc/Detail?fid=9604&id=33578"
       }
     ],
     "locations": []
@@ -667,6 +700,18 @@
   },
   {
     "section": "會員名單",
+    "raw": "林青穀（林青穀家庭醫學·身心科·心臟科診所院長 ·前台北市立師範學院部定講師）",
+    "sources": [
+      {
+        "label": "機構人物頁",
+        "description": "診所官方人物頁列林青穀為家醫科院長，並記載其醫療經歷。",
+        "url": "https://drlinchingku.com/%E9%86%AB%E8%AD%B7%E5%9C%98%E9%9A%8A/%E6%9E%97%E9%9D%92%E7%A9%80-%E9%86%AB%E5%B8%AB/"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
     "raw": "張育銓（台東大學公事系教授）",
     "sources": [
       {
@@ -778,6 +823,18 @@
         "label": "任職團體人物簡介",
         "description": "看守台灣的理監事資料列張國龍為臺灣大學物理系退休教授。",
         "url": "https://www.taiwanwatch.org.tw/node/586"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "葉晉玉（國立台中科技大學兼任講師）",
+    "sources": [
+      {
+        "label": "校方校友資料",
+        "description": "國立臺灣海洋大學傑出校友名單記載葉晉玉曾任國立臺中科技大學兼任講師。",
+        "url": "https://alumni.ntou.edu.tw/var/file/101/1101/img/1398/814964909.pdf"
       }
     ],
     "locations": []
@@ -914,7 +971,16 @@
         "url": "https://arts.vcu.edu/directory/ying-fang-shen/"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "維吉尼亞聯邦大學藝術學院 Franklin Terrace",
+        "country": "美國",
+        "city": "里奇蒙",
+        "lat": 37.54894,
+        "lon": -77.4512,
+        "source_url": "https://arts.vcu.edu/community-campus/our-facilities/#franklin-terrace"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -938,7 +1004,13 @@
         "url": "https://www.mh.sinica.edu.tw/UserDetail.aspx?lang=zhTW&mid=40&tmid=2&userID=85"
       }
     ],
-    "locations": []
+    "locations": [],
+    "portrait": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/%E9%99%B3%E5%84%80%E6%B7%B1.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%E9%99%B3%E5%84%80%E6%B7%B1.jpg",
+      "credit": "中華民國總統府",
+      "license": "CC BY 2.0 Generic (https://creativecommons.org/licenses/by/2.0/)"
+    }
   },
   {
     "section": "會員名單",

@@ -39,7 +39,16 @@
         "url": "https://www.genomics.sinica.edu.tw/images/stories/docs/113%E5%AD%B8%E5%B9%B4%E5%BA%A6%E4%B8%AD%E5%A4%AE%E7%A0%94%E7%A9%B6%E9%99%A2%E5%9F%BA%E5%9B%A0%E9%AB%94%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83%E6%8B%9B%E7%94%9F%E7%B0%A1%E4%BB%8B.pdf"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "中央研究院南港院區",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.0420743,
+        "lon": 121.614046,
+        "source_url": "https://www.openstreetmap.org/way/155772172"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -177,7 +186,16 @@
         "url": "https://www.genomics.sinica.edu.tw/images/stories/news/honors/108%E5%B9%B4%E5%BA%A6%E7%A7%91%E6%8A%80%E9%83%A8%E5%82%91%E5%87%BA%E7%A0%94%E7%A9%B6%E7%8D%8E%E7%8D%B2%E7%8D%8E%E4%BA%BA%E5%90%8D%E5%96%AE_AS.PDF"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "中央研究院南港院區",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.0420743,
+        "lon": 121.614046,
+        "source_url": "https://www.openstreetmap.org/way/155772172"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -367,7 +385,16 @@
         "url": "https://comic.tut.edu.tw/p/403-1093-1270.php?Lang=zh-tw"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "台南應用科技大學",
+        "country": "臺灣",
+        "city": "臺南市",
+        "lat": 23.0377359,
+        "lon": 120.2389624,
+        "source_url": "https://www.openstreetmap.org/relation/11659116"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -394,7 +421,16 @@
         "url": "https://affairs-genera.tut.edu.tw/var/file/47/1047/img/644/675695512.pdf"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "台南應用科技大學",
+        "country": "臺灣",
+        "city": "臺南市",
+        "lat": 23.0377359,
+        "lon": 120.2389624,
+        "source_url": "https://www.openstreetmap.org/relation/11659116"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -442,7 +478,16 @@
         "url": "https://mes.stust.edu.tw/tc/node/jaychen"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "南臺科技大學",
+        "country": "臺灣",
+        "city": "臺南市",
+        "lat": 23.0232216,
+        "lon": 120.2251713,
+        "source_url": "https://www.openstreetmap.org/relation/6322938"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -475,7 +520,16 @@
         "url": "https://cpd.stust.edu.tw/tc/node/teacher_wwc"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "南臺科技大學",
+        "country": "臺灣",
+        "city": "臺南市",
+        "lat": 23.0232216,
+        "lon": 120.2251713,
+        "source_url": "https://www.openstreetmap.org/relation/6322938"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -502,7 +556,37 @@
         "url": "https://comic.tut.edu.tw/p/403-1093-1270.php?Lang=zh-tw"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "台南應用科技大學",
+        "country": "臺灣",
+        "city": "臺南市",
+        "lat": 23.0377359,
+        "lon": 120.2389624,
+        "source_url": "https://www.openstreetmap.org/relation/11659116"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "林楷翔（英國倫敦大學亞非學院佛教研究中心博士後研究員）",
+    "sources": [
+      {
+        "label": "倫敦大學亞非學院個人頁",
+        "description": "校方列出同名 Kai-Hsiang Lin 的藏傳佛教研究及 SOAS 博士候選人身分。原站所列博士後身分仍待確認。",
+        "url": "https://www.soas.ac.uk/about/kai-hsiang-lin"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "SOAS University of London",
+        "country": "英國",
+        "city": "倫敦",
+        "lat": 51.5218979,
+        "lon": -0.1288676,
+        "source_url": "https://www.openstreetmap.org/relation/11919358"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -641,7 +725,16 @@
         "url": "https://art.tut.edu.tw/p/406-1073-23402%2Cr1174.php?Lang=zh-tw"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "台南應用科技大學",
+        "country": "臺灣",
+        "city": "臺南市",
+        "lat": 23.0377359,
+        "lon": 120.2389624,
+        "source_url": "https://www.openstreetmap.org/relation/11659116"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -657,6 +750,27 @@
       }
     ],
     "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "趙錫彥（泰國朱拉隆功大學研究員）",
+    "sources": [
+      {
+        "label": "陽明交通大學講座活動講者資訊",
+        "description": "主辦系所於 2024 年列出趙錫彥為朱拉隆功大學比較文學系博士後研究員。",
+        "url": "https://iccs.chss.nycu.edu.tw/zh/activity.php?USN=1465&project_id=13"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "朱拉隆功大學",
+        "country": "泰國",
+        "city": "曼谷",
+        "lat": 13.7430893,
+        "lon": 100.5328725,
+        "source_url": "https://www.openstreetmap.org/relation/90337"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -702,6 +816,26 @@
   },
   {
     "section": "會員名單",
+    "raw": "邱賜程（台中科大國貿系副教授（退休））",
+    "sources": [
+      {
+        "label": "國家教育研究院教改會議名冊",
+        "description": "1999 年會議名冊列為國立臺中商專副教授，為原署名所列臺中科技大學的前身。",
+        "url": "https://teric.naer.edu.tw/wSite/PDFReader?fileName=1534829647917&format=pdf&xmlId=1800038",
+        "institutions": [
+          "國立臺中科技大學"
+        ]
+      },
+      {
+        "label": "中興大學企業管理學系歷史師資表",
+        "description": "系方將邱賜程列為國際貿易實務課程兼任副教授。",
+        "url": "https://ba.nchu.edu.tw/files/archive/932_950d706d.pdf"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
     "raw": "蔡偉博（台灣大學化工系教授）",
     "sources": [
       {
@@ -740,7 +874,16 @@
         "url": "https://www.imb.sinica.edu.tw/ch/faculty/profile/chienling.html"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "中央研究院南港院區",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.0420743,
+        "lon": 121.614046,
+        "source_url": "https://www.openstreetmap.org/way/155772172"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -752,7 +895,16 @@
         "url": "https://www.seattlechildrens.org/research/centers-programs/integrative-brain-research/our-labs/page-lab/"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "University of Washington",
+        "country": "美國",
+        "city": "西雅圖",
+        "lat": 47.6554303,
+        "lon": -122.3001692,
+        "source_url": "https://www.openstreetmap.org/relation/5268488"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -864,7 +1016,16 @@
         "url": "https://www.ios.sinica.edu.tw/postdocs.php"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "中央研究院南港院區",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.0420743,
+        "lon": 121.614046,
+        "source_url": "https://www.openstreetmap.org/way/155772172"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -943,6 +1104,21 @@
   },
   {
     "section": "會員名單",
+    "raw": "董峯政（國立高雄餐旅大學（退休）前圖書館主任）",
+    "sources": [
+      {
+        "label": "高雄市立小港國中臺語師資研習成果",
+        "description": "主辦學校文件將董峯政列為講師，並列高雄餐旅學院及文藻外語學院的學術經歷。",
+        "url": "https://w3.hkjh.kh.edu.tw/holo_old/%E6%88%90%E6%9E%9C%E5%BD%99%E7%B7%A8/96%E9%96%A9%E5%8D%97%E8%AA%9E%E6%8E%88%E8%AA%B2%E5%B8%AB%E8%B3%87%E5%9F%B9%E8%A8%93%E5%88%9D%E9%9A%8E%E7%A0%94%E7%BF%92%E6%88%90%E6%9E%9C%E5%BD%99%E7%B6%BF.pdf",
+        "institutions": [
+          "國立高雄餐旅大學"
+        ]
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
     "raw": "蔡蕙頻（國立台北教育大學台灣語言與文化學系兼任助理教授）",
     "sources": [
       {
@@ -973,6 +1149,23 @@
   },
   {
     "section": "會員名單",
+    "raw": "鄭睦群（輔仁大學兼任助理教授）",
+    "sources": [
+      {
+        "label": "教育部 108 學年度教師學術專長彙整表",
+        "description": "教育部彙整表列為輔仁大學醫學系兼任助理教授。",
+        "url": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+      },
+      {
+        "label": "輔仁大學醫學院醫學教育中心活動報告",
+        "description": "校方活動紀錄列鄭睦群為醫學系教師。",
+        "url": "https://cme.fju.edu.tw/DownloadSubLabelFileServlet?fileID=1&labelID=11&menuID=2&subLabelID=872"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
     "raw": "周素卿（中央研究院環境變遷研究中心研究員）",
     "sources": [
       {
@@ -981,7 +1174,16 @@
         "url": "https://www.css.sinica.edu.tw/zh-TW/InternationalCooperation/TeamMember?GroupId=G202412020011"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "中央研究院南港院區",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.0420743,
+        "lon": 121.614046,
+        "source_url": "https://www.openstreetmap.org/way/155772172"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -1023,7 +1225,16 @@
         "url": "https://www.imb.sinica.edu.tw/ch/faculty/profile/lychen.html"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "中央研究院南港院區",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.0420743,
+        "lon": 121.614046,
+        "source_url": "https://www.openstreetmap.org/way/155772172"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -1035,7 +1246,16 @@
         "url": "https://www.cgmh.org.tw/drclub/Services/DoctorInfo/7213"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "林口長庚紀念醫院",
+        "country": "臺灣",
+        "city": "桃園市",
+        "lat": 25.0607943,
+        "lon": 121.3671521,
+        "source_url": "https://www.openstreetmap.org/way/182680760"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -1052,7 +1272,16 @@
         "url": "https://www.sinica.edu.tw/news_content/56/3249"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "中央研究院南港院區",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.0420743,
+        "lon": 121.614046,
+        "source_url": "https://www.openstreetmap.org/way/155772172"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -1064,7 +1293,16 @@
         "url": "https://www.cgmh.org.tw/TW/Services/DoctorInfo/1323"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "林口長庚紀念醫院",
+        "country": "臺灣",
+        "city": "桃園市",
+        "lat": 25.0607943,
+        "lon": 121.3671521,
+        "source_url": "https://www.openstreetmap.org/way/182680760"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -1076,7 +1314,16 @@
         "url": "https://www.sinica.edu.tw/news_content/558/2958"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "中央研究院南港院區",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.0420743,
+        "lon": 121.614046,
+        "source_url": "https://www.openstreetmap.org/way/155772172"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -1100,7 +1347,16 @@
         "url": "https://www.imb.sinica.edu.tw/ch/faculty/profile/rhchen.html"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "中央研究院南港院區",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.0420743,
+        "lon": 121.614046,
+        "source_url": "https://www.openstreetmap.org/way/155772172"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -1112,7 +1368,16 @@
         "url": "https://www.cgmh.org.tw/drclub/Services/DoctorInfo/5305"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "林口長庚紀念醫院",
+        "country": "臺灣",
+        "city": "桃園市",
+        "lat": 25.0607943,
+        "lon": 121.3671521,
+        "source_url": "https://www.openstreetmap.org/way/182680760"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -1229,7 +1494,16 @@
         "url": "https://www.sinica.edu.tw/news_content/558/2603"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "中央研究院南港院區",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.0420743,
+        "lon": 121.614046,
+        "source_url": "https://www.openstreetmap.org/way/155772172"
+      }
+    ]
   },
   {
     "section": "會員名單",
