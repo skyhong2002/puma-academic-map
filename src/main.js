@@ -226,7 +226,19 @@ function showPerson(person, point, campus = null) {
   campusListReturn = undefined;
   directoryPersonReturn = undefined;
   activeCampus = campus;
-  details.replaceChildren(personDetails(person, point, { heading: true }));
+  const profile = personDetails(person, point, { heading: true });
+  const board = personComments(person);
+  const jump = document.createElement('button');
+  jump.type = 'button';
+  jump.className = 'person-comments-jump';
+  jump.textContent = '跳到匿名留言板';
+  jump.addEventListener('click', () => {
+    const heading = board.querySelector('h3');
+    heading.focus({ preventScroll: true });
+    heading.scrollIntoView({ block: 'start' });
+  });
+  profile.querySelector('.map-detail__claim').after(jump);
+  details.replaceChildren(profile);
   if (roster.source_url) {
     const link = document.createElement('a');
     link.href = roster.source_url;
@@ -236,7 +248,7 @@ function showPerson(person, point, campus = null) {
     link.rel = 'noopener';
     details.append(link);
   }
-  details.append(personComments(person));
+  details.append(board);
   showPanel('detail');
   if (point) revealAfterPanelResize(point);
 }

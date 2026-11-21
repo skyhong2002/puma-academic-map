@@ -21,7 +21,7 @@
   font-size: max(16px, 1em);
 }
 .person-comments textarea:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
-.person-comments button {
+.person-comments button, .person-comments-jump {
   min-height: 44px;
   padding: 6px 12px;
   margin: 8px 8px 0 0;
@@ -32,6 +32,7 @@
   font: inherit;
   cursor: pointer;
 }
+.person-comments-jump { margin: 0 0 12px; }
 .person-comments button[type="submit"] {
   background: var(--accent-ink);
   color: var(--paper);

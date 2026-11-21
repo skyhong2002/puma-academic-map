@@ -72,6 +72,7 @@ export function personComments(person) {
   section.className = 'person-comments';
   section.setAttribute('aria-label', `${person.name}的匿名留言板`);
   const heading = element('h3', '匿名留言板');
+  heading.tabIndex = -1;
   const guidance = element('p', '留言會公開。請針對希望對方採取的行動提出建議，避免人身攻擊、個資或網址。');
   const form = element('form');
   const { label, input } = editor('你的建議（最多 500 字）');
@@ -91,6 +92,7 @@ export function personComments(person) {
   listStatus.setAttribute('role', 'status');
   const list = element('ol');
   list.setAttribute('aria-label', '公開留言');
+  list.setAttribute('role', 'list');
   const more = button('載入較早的留言', () => load());
   more.hidden = true;
   const retry = button('重新載入留言', () => load());
