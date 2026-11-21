@@ -1,10 +1,12 @@
 import L from 'leaflet';
 import 'leaflet.markercluster';
+import { departmentFor } from './person-map.js';
 
 const catalog = Object.values(import.meta.glob('../data/institutions/*.json', { eager: true, import: 'default' })).flat();
 
 const START = [[21.87, 119.65], [25.35, 122.12]];
 const CAMPUS_ZOOM = 14;
+const UNIT_ZOOM = 17;
 const PREVIEW_LIMIT = 4;
 
 function button(label, className, activate) {
@@ -53,6 +55,18 @@ function campusGroups(people) {
     point,
     people: [...people.values()].sort((a, b) => Number(Boolean(b.portrait)) - Number(Boolean(a.portrait))),
   }));
+}
+
+function unitsFor(group) {
+  const units = new Map();
+  for (const person of group.people) {
+    const label = departmentFor(person, group.point.institution);
+    if (label === '系所未標明') continue;
+    const key = label.replaceAll('學系', '系');
+    if (!units.has(key)) units.set(key, { point: group.point, unit: label, people: [] });
+    units.get(key).people.push(person);
+  }
+  return [...units.values()];
 }
 
 function campusTitle(point) {
@@ -110,7 +124,8 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
   }
 
   const cards = L.layerGroup().addTo(map);
-  const positions = [[0, -10], [0, 128], [210, 0], [-210, 0], [210, 128], [-210, 128], [0, 250], [210, 250], [-210, 250]];
+  const positions = [0, 1, -1, 2, -2, 3, -3].flatMap((row) =>
+    [0, 1, -1, 2, -2, 3, -3].map((column) => [column * 210, row * 125 - 10]));
   function showCampuses() {
     if (map.getZoom() < CAMPUS_ZOOM) {
       cards.clearLayers();
@@ -123,42 +138,53 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
     const placed = [];
     const visible = groups.filter(({ point }) => bounds.contains([point.lat, point.lon]))
       .sort((a, b) => b.people.length - a.people.length);
-    for (const group of visible) {
+    const units = map.getZoom() >= UNIT_ZOOM
+      ? visible.flatMap(unitsFor).sort((a, b) => b.people.length - a.people.length)
+      : [];
+    const size = map.getSize();
+    for (const group of [visible[0], ...units, ...visible.slice(1)].filter(Boolean)) {
       const { point, people } = group;
       const anchor = L.latLng(point.lat, point.lon);
       const screen = map.latLngToContainerPoint(anchor);
-      const groupTitle = campusTitle(point);
-      const width = people.length === 1 ? 172 : 196;
-      const height = people.length <= 1 ? 48 : people.length > PREVIEW_LIMIT ? 114 : 94;
-      const position = positions.find(([x, y]) => placed.every((box) =>
-        Math.abs(screen.x + x - box.x) >= (box.width + width) / 2 + 8
-        || screen.y + y <= box.y - box.height - 8 || screen.y + y - height >= box.y + 8));
-      const pin = L.circleMarker(anchor, { radius: 5, color: '#fff', weight: 1, fillColor: '#ac491e', fillOpacity: 1 });
-      pin.on('click', () => people.length === 1 ? onPerson(people[0], point) : onCampus(group));
-      cards.addLayer(pin);
+      const groupTitle = group.unit ?? campusTitle(point);
+      const directPerson = !group.unit && people.length === 1;
+      const width = directPerson ? 172 : 196;
+      const height = !people.length || directPerson ? 48 : people.length > PREVIEW_LIMIT ? 114 : 94;
+      const position = positions.find(([x, y]) => {
+        const left = screen.x + x - width / 2;
+        const top = screen.y + y - height;
+        return left >= 4 && left + width <= size.x - 4 && top >= 4 && top + height <= size.y - 4
+          && placed.every((box) => Math.abs(screen.x + x - box.x) >= (box.width + width) / 2 + 8
+            || screen.y + y <= box.y - box.height - 8 || top >= box.y + 8);
+      });
+      if (!group.unit) {
+        const pin = L.circleMarker(anchor, { radius: 5, color: '#fff', weight: 1, fillColor: '#ac491e', fillOpacity: 1 });
+        pin.on('click', () => directPerson ? onPerson(people[0], point) : onCampus(group));
+        cards.addLayer(pin);
+      }
       if (!position) continue;
       const [x, y] = position;
       placed.push({ x: screen.x + x, y: screen.y + y, width, height });
       const at = map.containerPointToLatLng([screen.x + x, screen.y + y]);
       if (x || y !== -10) cards.addLayer(L.polyline([anchor, at], {
-        color: '#9b471e', weight: 1, opacity: 0.75, interactive: false,
+        color: '#9b471e', weight: 1, opacity: group.unit ? 0.42 : 0.75, interactive: false,
       }));
       const card = document.createElement('div');
-      card.className = 'atlas-campus';
+      card.className = group.unit ? 'atlas-campus atlas-campus--unit' : 'atlas-campus';
       L.DomEvent.disableClickPropagation(card);
-      const title = button(people.length === 1 ? people[0].name : groupTitle, 'atlas-campus__title', () => {
-        if (people.length === 1) onPerson(people[0], point);
+      const title = button(directPerson ? people[0].name : groupTitle, 'atlas-campus__title', () => {
+        if (directPerson) onPerson(people[0], point);
         else onCampus(group);
       });
-      title.title = groupTitle;
-      if (people.length === 1 && people[0].portrait) {
+      title.title = group.unit ? `${campusTitle(point)}・${group.unit}（依校區座標示意）` : groupTitle;
+      if (directPerson && people[0].portrait) {
         const img = document.createElement('img');
         img.src = people[0].portrait.image;
         img.alt = '';
         title.prepend(img);
-      } else addEmblem(title, point.institution);
+      } else if (!group.unit) addEmblem(title, point.institution);
       card.append(title);
-      if (people.length > 1) {
+      if (!directPerson && people.length) {
         const previews = document.createElement('div');
         previews.className = 'atlas-campus__people';
         for (const person of people.slice(0, PREVIEW_LIMIT)) {

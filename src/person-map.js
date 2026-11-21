@@ -55,7 +55,7 @@ const aliasesByInstitution = new Map(Object.values(institutionFiles).flat()
 
 const normalizeUnit = (text) => text.replace(/\s+/g, '').replaceAll('台', '臺');
 
-function departmentFor(person, institution) {
+export function departmentFor(person, institution) {
   const aliases = [institution, institution.replace(/^國立/, ''), ...aliasesByInstitution.get(institution) ?? []]
     .map(normalizeUnit).sort((a, b) => b.length - a.length);
   for (const ref of person.refs) {

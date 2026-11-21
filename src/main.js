@@ -46,10 +46,11 @@ function detailTitle(text) {
 
 function showCampus(campus) {
   activeCampus = campus;
-  const { point, people } = campus;
-  const title = detailTitle(point.campus ? `${point.institution}・${point.campus}` : point.institution);
+  const { point, people, unit } = campus;
+  const school = [point.institution, point.campus].filter(Boolean).join('・');
+  const title = detailTitle(unit ?? school);
   const sub = document.createElement('p');
-  sub.textContent = [point.city, point.country, `${number.format(people.length)} 筆署名`].filter(Boolean).join('・');
+  sub.textContent = [unit ? school : null, point.city, point.country, `${number.format(people.length)} 筆署名`].filter(Boolean).join('・');
   const members = document.createElement('ul');
   members.className = 'map-campus-people';
   for (const person of people) {
@@ -73,6 +74,11 @@ function showCampus(campus) {
     members.append(item);
   }
   details.replaceChildren(title, sub);
+  if (unit) {
+    const hint = document.createElement('p');
+    hint.textContent = '系所標記依校區座標示意排列。';
+    details.append(hint);
+  }
   if (!people.length) {
     const empty = document.createElement('p');
     empty.textContent = '目前沒有署名資料可確認到這個校區。';
@@ -119,7 +125,7 @@ const directory = mountDirectory(directoryElement, {
     const person = people.find((person) => person.section === entry.section && person.raw === entry.raw);
     if (!person) return;
     showPerson(person, point);
-    const offset = panel.getBoundingClientRect().right / 2;
+    const offset = matchMedia('(min-width: 600px)').matches ? panel.getBoundingClientRect().right / 2 : 0;
     atlas.locate(point, offset);
   },
 });

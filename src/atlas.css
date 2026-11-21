@@ -128,3 +128,6 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
   --pa-dir-muted: var(--ink-soft);
   --pa-dir-accent: var(--accent);
 }
+
+.atlas-campus--unit { border-color: var(--bin-3); }
+.atlas-campus--unit .atlas-campus__title { color: var(--ink); background: var(--paper-raised); }
