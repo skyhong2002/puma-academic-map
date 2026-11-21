@@ -134,12 +134,12 @@ function draw(canvas, name, body, format, logo, symbol) {
   ctx.fillStyle = palette.ink;
   layout.lines.forEach((line, index) => ctx.fillText(line, inset + 43, textTop + index * layout.lineHeight));
 
-  const qrLeft = drawQr(ctx, symbol, right, footerBottom, wide ? 194 : 178);
+  const qrLeft = drawQr(ctx, symbol, right, footerBottom, wide ? 248 : 190);
   const footerTextRight = qrLeft - 24;
   ctx.textAlign = 'right';
   ctx.fillStyle = palette.deep;
   ctx.font = `700 29px ${font}`;
-  ctx.fillText('掃碼前往人物留言板', footerTextRight, footerBottom - 152);
+  ctx.fillText('掃碼前往人物留言板', footerTextRight, footerBottom - (wide ? 195 : 152));
   ctx.font = `600 22px ${font}`;
   ctx.fillText('原始聯署網站', footerTextRight, footerBottom - 96);
   ctx.font = '500 19px sans-serif';
