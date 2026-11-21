@@ -140,13 +140,16 @@ export function personComments(person) {
     time.dateTime = new Date(comment.createdAt).toISOString();
     const meta = element('p');
     meta.className = 'person-comments__meta';
+    if (!comment.authorWebsite || !comment.authorName) {
+      meta.append(element('strong', comment.authorName || '匿名'), '・');
+    }
     if (comment.authorWebsite) {
       const link = element('a', comment.authorName || '個人網站');
       link.href = comment.authorWebsite;
       link.target = '_blank';
       link.rel = 'ugc nofollow noopener noreferrer';
       meta.append(link, '・');
-    } else if (comment.authorName) meta.append(element('strong', comment.authorName), '・');
+    }
     meta.append(time);
     if (comment.updatedAt !== null) meta.append('・已編輯');
     const body = element('p', comment.body);

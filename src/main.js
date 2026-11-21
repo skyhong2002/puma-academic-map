@@ -138,7 +138,7 @@ function showCampus(campus, { restoring = false } = {}) {
     const item = document.createElement('li');
     const button = document.createElement('button');
     button.type = 'button';
-    button.addEventListener('click', () => showPerson(person, locatedUnit(person, point) ?? point));
+    button.addEventListener('click', () => showPerson(person, point));
     if (person.portrait) {
       const image = document.createElement('img');
       image.src = person.portrait.image;
@@ -223,8 +223,11 @@ function primaryPersonPoint(person) {
   return person.locations.map((point) => locatedUnit(person, point)).find(Boolean) ?? person.locations[0];
 }
 
-function showPerson(person, point = primaryPersonPoint(person), { restoring = false } = {}) {
-  if (!restoring) rememberPanel();
+function showPerson(person, point, { restoring = false, tall = false } = {}) {
+  if (!restoring) {
+    rememberPanel();
+    point = point ? locatedUnit(person, point) ?? point : primaryPersonPoint(person);
+  }
   panelDetail = { type: 'person', point: point && pointKey(point), person: personRef(person) };
   atlas.select(point, person);
   const body = personDetails(person, point, {
@@ -252,6 +255,7 @@ function showPerson(person, point = primaryPersonPoint(person), { restoring = fa
   details.replaceChildren(body, personComments(person));
   if (references.childElementCount > 1) details.append(references);
   showPanel('detail', { focus: !restoring });
+  if (tall) setSheetTall(true);
   if (!restoring && point) revealAfterPanelResize(point, person);
 }
 
@@ -298,7 +302,7 @@ const directory = mountDirectory(directoryElement, {
   onLocate(entry, point) {
     const person = findPerson(entry);
     if (!person) return;
-    showPerson(person, locatedUnit(person, point) ?? point);
+    showPerson(person, point);
   },
 });
 directoryElement.querySelector('h2').tabIndex = -1;
@@ -505,11 +509,14 @@ async function loadPublicComments() {
       const row = document.createElement('li');
       const button = document.createElement('button');
       button.type = 'button';
-      const title = document.createElement('strong');
-      title.textContent = `${person.name}的留言板`;
+      const author = document.createElement('strong');
+      author.textContent = comment.authorName?.trim() || '匿名';
+      const board = document.createElement('span');
+      board.className = 'map-public-comments__board';
+      board.textContent = `${person.name}的留言板`;
       const body = document.createElement('span');
       body.textContent = comment.body;
-      button.append(title, body);
+      button.append(author, board, body);
       button.addEventListener('click', () => openPersonBoard(person));
       row.append(button);
       rows.append(row);
@@ -570,7 +577,7 @@ function rememberPanel(options) {
 
 function saveView() {
   try {
-    sessionStorage.setItem(SESSION_KEY, JSON.stringify({ ...panelSnapshot(), history: panelHistory }));
+    sessionStorage.setItem(SESSION_KEY, JSON.stringify({ ...panelSnapshot(), history: panelHistory, linkedPerson }));
   } catch {
     // The atlas still works when browser storage is unavailable.
   }
@@ -625,14 +632,14 @@ panelBack.addEventListener('click', () => {
   if (previous) restorePanel(previous, { back: true });
 });
 
-function restoreView() {
+function restoreView(expectedLinkedPerson) {
   let state;
   try {
     state = JSON.parse(sessionStorage.getItem(SESSION_KEY));
   } catch {
-    return;
+    return false;
   }
-  if (!state?.camera || !state.panel) return;
+  if (!state?.camera || !state.panel || (expectedLinkedPerson && state.linkedPerson !== expectedLinkedPerson)) return false;
   panelHistory = Array.isArray(state.history) ? state.history.slice(-20) : [];
   if (!panelHistory.length && state.panel.view !== 'directory') {
     const parent = state.panel.detail?.parent;
@@ -644,6 +651,7 @@ function restoreView() {
   }
   updatePanelBack();
   restorePanel(state);
+  return true;
 }
 
 async function openLinkedBoard(id) {
@@ -653,16 +661,17 @@ async function openLinkedBoard(id) {
 }
 
 function openPersonBoard(person) {
-  if (narrowLayout.matches) setSheetTall(true);
-  showPerson(person);
+  showPerson(person, undefined, { tall: narrowLayout.matches });
   const heading = details.querySelector('.person-comments h3');
   heading.focus({ preventScroll: true });
   heading.scrollIntoView({ block: 'start' });
 }
 
 const linkedPerson = new URLSearchParams(location.search).get('person');
-if (/^[a-f0-9]{32}$/.test(linkedPerson ?? '')) openLinkedBoard(linkedPerson).catch(restoreView);
-else restoreView();
+if (/^[a-f0-9]{32}$/.test(linkedPerson ?? '')) {
+  const reloading = performance.getEntriesByType('navigation')[0]?.type === 'reload';
+  if (!reloading || !restoreView(linkedPerson)) openLinkedBoard(linkedPerson).catch(() => restoreView());
+} else restoreView();
 window.addEventListener('pagehide', saveView);
 document.addEventListener('visibilitychange', () => {
   if (document.hidden) saveView();

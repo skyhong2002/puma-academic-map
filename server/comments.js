@@ -58,7 +58,7 @@ if (!columns.has('author_name')) db.exec('ALTER TABLE comments ADD COLUMN author
 if (!columns.has('author_website')) db.exec('ALTER TABLE comments ADD COLUMN author_website TEXT');
 const select = `SELECT id, body, created_at AS createdAt, updated_at AS updatedAt,
   author_name AS authorName, author_website AS authorWebsite FROM comments`;
-const publicComments = `SELECT id, person, body, created_at AS createdAt FROM comments
+const publicComments = `SELECT id, person, body, created_at AS createdAt, author_name AS authorName FROM comments
   WHERE person IN (${[...people].map(() => '?').join(',')})`;
 const publicLatest = db.prepare(`${publicComments} ORDER BY created_at DESC, id DESC LIMIT ?`);
 const publicOlder = db.prepare(`${publicComments} AND (created_at, id) < (?, ?) ORDER BY created_at DESC, id DESC LIMIT ?`);

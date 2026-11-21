@@ -383,7 +383,8 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
   cursor: pointer;
 }
 .map-public-comments button:hover { background: var(--panel-orange-card); }
-.map-public-comments strong { display: block; color: var(--accent-ink); }
+.map-public-comments strong { display: block; color: var(--accent-ink); overflow-wrap: anywhere; }
+.map-public-comments__board { color: var(--ink-soft); font-size: 0.8125em; }
 .map-public-comments span { display: block; white-space: pre-wrap; overflow-wrap: anywhere; }
 .map-panel .pa-dir-filters .map-switch { margin-block-end: 0; }
 .map-panel .pa-dir-filters :is(.map-switch button, .pa-dir-chip)[aria-pressed="true"] {
