@@ -220,7 +220,18 @@ function showPerson(person, point, campus = null) {
 
 const atlas = createAtlas($('map'), people, { onCampus: showCampus, onPerson: showPerson });
 const findPerson = (entry) => people.find((person) => person.section === entry.section && person.raw === entry.raw);
+let searchTracked = false;
 const directory = mountDirectory(directoryElement, {
+  onSearchChange(query) {
+    if (!searchTracked && query.trim()) {
+      searchTracked = true;
+      track('use_directory_search');
+    }
+    showPanel('directory', { focus: false });
+  },
+  onSearchOpen() {
+    showPanel('directory', { focus: false });
+  },
   onSearchPerson(entry) {
     const person = findPerson(entry);
     if (!person?.locations.length) return;
@@ -242,18 +253,6 @@ const directory = mountDirectory(directoryElement, {
 directoryElement.querySelector('h2').tabIndex = -1;
 directory.geoList.closest('nav').hidden = true;
 $('map-search').append(directory.searchForm);
-directory.searchForm.addEventListener('submit', () => showPanel('directory', { focus: false }), { capture: true });
-let searchTracked = false;
-directory.searchInput.addEventListener('input', () => {
-  if (!searchTracked && directory.searchInput.value.trim()) {
-    searchTracked = true;
-    track('use_directory_search');
-  }
-  showPanel('directory', { focus: false });
-});
-directory.searchInput.addEventListener('keydown', (event) => {
-  if (event.key === 'ArrowDown') showPanel('directory', { focus: false });
-}, { capture: true });
 $('panel-close').addEventListener('click', closePanel);
 panelToggle.addEventListener('click', (event) => {
   if (event.detail && suppressHandleClick) return;
@@ -339,7 +338,7 @@ aboutButton.addEventListener('click', () => {
   else showPanel('about');
 });
 document.addEventListener('keydown', (event) => {
-  if (event.key === 'Escape' && !event.defaultPrevented) closePanel();
+  if (event.key === 'Escape' && !event.defaultPrevented && !directory.isComposingSearch(event)) closePanel();
 });
 
 if (roster.source_url) $('source-link').href = roster.source_url;

@@ -204,7 +204,9 @@ function countBadge(count, unit) {
 
 // ---------- 主元件 ----------
 
-export function mountDirectory(element, { onSelectCounty, onLocate, onLocateUnit, onSearchPerson } = {}) {
+export function mountDirectory(element, {
+  onSelectCounty, onLocate, onLocateUnit, onSearchPerson, onSearchChange, onSearchOpen,
+} = {}) {
   if (!element) throw new Error('mountDirectory 需要容器元素');
   const uid = `pa-dir-${Math.random().toString(36).slice(2, 8)}`;
   const state = {
@@ -278,25 +280,48 @@ export function mountDirectory(element, { onSelectCounty, onLocate, onLocateUnit
 
   // ---- 事件 ----
   let searchTimer = 0;
-  searchInput.addEventListener('input', () => {
+  let compositionTimer;
+  let composing = false;
+  const isComposingSearch = (event) => composing || event.isComposing || event.keyCode === 229;
+
+  function scheduleSearch() {
+    onSearchChange?.(searchInput.value);
     clearTimeout(searchTimer);
     searchTimer = setTimeout(() => {
       state.query = searchInput.value;
       state.searchLimit = SEARCH_LIMIT;
       render({ focus: null });
     }, 120);
+  }
+
+  searchInput.addEventListener('compositionstart', () => {
+    clearTimeout(compositionTimer);
+    clearTimeout(searchTimer);
+    composing = true;
+  });
+  searchInput.addEventListener('compositionend', () => {
+    // Some browsers dispatch the key that confirmed the candidate after compositionend.
+    compositionTimer = setTimeout(() => { composing = false; }, 0);
+    scheduleSearch();
+  });
+  searchInput.addEventListener('input', (event) => {
+    if (!isComposingSearch(event)) scheduleSearch();
   });
   searchForm.addEventListener('submit', (event) => {
     event.preventDefault();
+    if (isComposingSearch(event)) return;
+    onSearchOpen?.();
     clearTimeout(searchTimer);
     state.query = searchInput.value;
     render({ focus: 'first-result' });
   });
   searchInput.addEventListener('keydown', (event) => {
+    if (isComposingSearch(event)) return;
     if (event.key === 'Escape' && searchInput.value) {
       event.preventDefault();
       clearSearch();
     } else if (event.key === 'ArrowDown') {
+      onSearchOpen?.();
       const first = main.querySelector('[data-result]');
       if (first) { event.preventDefault(); first.focus(); }
     }
@@ -732,6 +757,7 @@ export function mountDirectory(element, { onSelectCounty, onLocate, onLocateUnit
     geoList,
     searchForm,
     searchInput,
+    isComposingSearch,
     setMapInstitution(institution, members) {
       state.mapInstitution = institution;
       state.mapInstitutionMembers = members
