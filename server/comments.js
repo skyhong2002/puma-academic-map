@@ -49,6 +49,7 @@ db.exec(`
   CREATE INDEX IF NOT EXISTS rate_expiry ON rate_limits (expires_at);
 `);
 const select = 'SELECT id, body, created_at AS createdAt, updated_at AS updatedAt FROM comments';
+const boardTotals = db.prepare('SELECT person, COUNT(*) AS total FROM comments GROUP BY person');
 const latest = db.prepare(`${select} WHERE person = ? ORDER BY created_at DESC, id DESC LIMIT ?`);
 const older = db.prepare(`${select} WHERE person = ? AND (created_at, id) < (?, ?) ORDER BY created_at DESC, id DESC LIMIT ?`);
 const find = db.prepare(`${select} WHERE id = ? AND person = ? AND owner = ?`);
@@ -152,6 +153,11 @@ const server = createServer({ requestTimeout: 10_000, headersTimeout: 5_000 }, a
     if (request.method === 'GET' && url.pathname === '/healthz') {
       latest.all('', 1);
       send(response, 200, { ok: true });
+      return;
+    }
+    if (request.method === 'GET' && url.pathname === '/api/people/comment-count') {
+      const total = boardTotals.all().reduce((sum, board) => sum + (people.has(board.person) ? board.total : 0), 0);
+      send(response, 200, { total });
       return;
     }
     const route = url.pathname.match(routePattern);

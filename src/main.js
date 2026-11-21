@@ -13,6 +13,7 @@ const $ = (id) => document.getElementById(id);
 const panel = $('map-panel');
 const details = $('place-details');
 const directoryElement = $('directory');
+const overview = $('map-overview');
 const about = $('about-map');
 const panelToggle = $('panel-toggle');
 const aboutButton = $('map-about');
@@ -53,6 +54,7 @@ function showPanel(view, { focus = true, restoreScroll = false } = {}) {
   if (panel.hidden && document.activeElement instanceof HTMLElement) returnFocus = document.activeElement;
   panelView = view;
   directoryElement.hidden = view !== 'directory';
+  overview.hidden = directoryElement.hidden;
   details.hidden = view !== 'detail';
   about.hidden = view !== 'about';
   if (panel.hidden) setPanelExpanded(true);
@@ -447,11 +449,23 @@ if (roster.source_url) $('source-link').href = roster.source_url;
 for (const link of document.querySelectorAll('#about-map a[href^="https://forms.gle/"]')) {
   link.addEventListener('click', () => track('click_signup_link'));
 }
-$('map-totals').textContent = [
-  `${number.format(people.filter((person) => person.locations.length).length)} 位已定位署名者`,
-  `${number.format(people.filter((person) => person.portrait).length)} 張頭像`,
-].join('・');
-
+const locatedCount = people.filter((person) => person.locations.length).length;
+$('map-totals').textContent = `${number.format(locatedCount)} 位已定位署名者`;
+$('overview-leads').textContent = number.format(roster.sections['共同領銜'].source_rows);
+$('overview-members').textContent = number.format(roster.sections['會員名單'].source_rows);
+$('overview-located').textContent = number.format(locatedCount);
+const commentTotal = $('overview-comments');
+fetch('/api/people/comment-count', { signal: AbortSignal.timeout(5000) })
+  .then((response) => {
+    if (!response.ok) throw new Error('Comment count unavailable');
+    return response.json();
+  })
+  .then(({ total }) => {
+    if (!Number.isSafeInteger(total) || total < 0) throw new Error('Invalid comment count');
+    commentTotal.textContent = number.format(total);
+    commentTotal.removeAttribute('aria-label');
+  })
+  .catch(() => { commentTotal.setAttribute('aria-label', '暫時無法讀取留言數'); });
 
 const SESSION_KEY = 'puma-atlas-view-v1';
 

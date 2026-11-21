@@ -317,6 +317,25 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
   --pa-dir-accent-soft: var(--panel-orange-hover);
 }
 .map-panel .pa-directory, .map-detail { padding: 16px; }
+.map-overview:not([hidden]) {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin: 0 16px;
+  padding: 10px 0;
+  border-block-end: 1px solid var(--rule);
+  text-align: center;
+}
+.map-overview > div { display: flex; flex-direction: column; justify-content: start; }
+.map-overview > div + div { border-inline-start: 1px solid var(--rule); }
+.map-overview dt { color: var(--accent-ink); font-size: 11px; line-height: 1.4; }
+.map-overview dd {
+  order: -1;
+  margin: 0 0 2px;
+  font-size: 18px;
+  font-weight: 750;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.25;
+}
 .map-panel .pa-dir-filters .map-switch { margin-block-end: 0; }
 .map-panel .pa-dir-filters :is(.map-switch button, .pa-dir-chip)[aria-pressed="true"] {
   border-color: var(--map-orange);

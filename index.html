@@ -25,6 +25,12 @@
       </header>
       <aside class="map-panel" id="map-panel" aria-label="名錄與詳細資料" hidden inert>
         <div id="panel-content">
+          <dl class="map-overview" id="map-overview" aria-label="資料概況">
+            <div><dt>共同領銜</dt><dd id="overview-leads"></dd></div>
+            <div><dt>會員署名</dt><dd id="overview-members"></dd></div>
+            <div><dt>已定位署名者</dt><dd id="overview-located"></dd></div>
+            <div><dt>公開留言</dt><dd id="overview-comments" aria-label="留言數載入中">—</dd></div>
+          </dl>
           <section id="directory" aria-label="機構與署名名錄"></section>
           <section id="place-details" class="map-detail" hidden></section>
           <section id="about-map" class="map-detail" hidden>
