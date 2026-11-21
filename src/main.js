@@ -252,7 +252,7 @@ function showPerson(person, point, { restoring = false, tall = false, fromParent
     link.rel = 'noopener';
     references.append(link);
   }
-  details.replaceChildren(body, personComments(person));
+  details.replaceChildren(body, personComments(person, point));
   if (references.childElementCount > 1) details.append(references);
   showPanel('detail', { focus: !restoring });
   if (tall) setSheetTall(true);

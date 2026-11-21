@@ -85,7 +85,7 @@ function authorInputs({ authorName = '', authorWebsite = '' } = {}) {
 const errorText = (error) => error instanceof Error && error.constructor === Error
   ? error.message : '暫時無法連線到留言服務，請稍後再試。';
 
-export function personComments(person) {
+export function personComments(person, point) {
   const section = element('section');
   section.className = 'person-comments';
   section.setAttribute('aria-label', `${person.name}的留言板`);
@@ -200,7 +200,7 @@ export function personComments(person) {
         }
       });
     });
-    const share = button('分享字卡', () => openCommentShareCard(section, person.name, comment.body, boardId, share));
+    const share = button('分享字卡', () => openCommentShareCard(section, person, point, comment.body, boardId, share));
     actions.append(change, share);
     item.append(actions, feedback);
     return item;
@@ -270,7 +270,7 @@ export function personComments(person) {
       const hasFocus = form.contains(document.activeElement) || document.activeElement === document.body;
       if (hasFocus && section.getClientRects().length) {
         status.textContent = '';
-        openCommentShareCard(section, person.name, comment.body, boardId, input);
+        openCommentShareCard(section, person, point, comment.body, boardId, input);
       } else status.textContent = '留言已公開。';
     } catch (error) {
       status.textContent = errorText(error);

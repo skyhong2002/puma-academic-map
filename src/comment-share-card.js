@@ -1,15 +1,18 @@
 import qrCode from 'qrcode-generator';
 import campaignLogo from '../assets/puma-signature.webp';
 import roster from '../data/signatories.json';
+import { isTaiwan } from './person-data.js';
 
 const formats = [
-  { label: '貼文', ratio: '1:1', width: 1080, height: 1080, top: 0, bottom: 0 },
-  { label: '貼文', ratio: '16:9', width: 1920, height: 1080, top: 0, bottom: 0 },
+  { label: '貼文', ratio: '4:3', width: 1440, height: 1080, top: 0, bottom: 0 },
   { label: '限時動態', ratio: '9:16', width: 1080, height: 1920, top: 210, bottom: 240 },
 ];
 const source = new URL(roster.source_url);
 const sourcePath = source.hostname + source.pathname;
-const palette = { paper: '#fff7ed', accent: '#df7e2c', soft: '#ffdfc4', ink: '#3d2114', deep: '#72340f' };
+const palette = {
+  paper: '#fff7ed', card: '#fffdf9', accent: '#df7e2c', soft: '#ffdfc4', ring: '#de935b3d',
+  ink: '#3d2114', deep: '#72340f', muted: '#7d4a28', speak: '#c9602c',
+};
 
 const font = '"PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif';
 const words = Intl.Segmenter && new Intl.Segmenter('zh-TW', { granularity: 'word' });
@@ -17,139 +20,420 @@ const graphemes = Intl.Segmenter && new Intl.Segmenter('zh-TW', { granularity: '
 const segments = (segmenter, text) => segmenter
   ? Array.from(segmenter.segment(text), ({ segment }) => segment)
   : Array.from(text);
+// Closing punctuation stays with the line it ends instead of opening the next one.
+const closing = /^[，。、；：！？）」』】〉》…,.!?;:)\]]+$/u;
+const opening = /^[（「『【〈《(\[]+$/u;
+const byWord = (text) => segments(words, text);
+// Names break only between their parts: at spaces and where romanised and Han names meet.
+// The closing 「說」 stays with the last part.
+function byNamePart(text) {
+  const parts = text.slice(0, -1).split(/(?<=\s)|(?<=[\p{Script=Latin}.])(?=\p{Script=Han})|(?<=\p{Script=Han})(?=\p{Script=Latin})/u);
+  parts.push(parts.pop() + text.slice(-1));
+  return parts;
+}
 
-function wrap(ctx, text, textWidth) {
+function wrap(ctx, text, textWidth, split = byWord) {
   return text.split('\n').flatMap((paragraph) => {
     const lines = [];
     let line = '';
-    for (const word of segments(words, paragraph)) {
+    let held = '';
+    for (const word of split(paragraph)) {
       const parts = ctx.measureText(word).width > textWidth ? segments(graphemes, word) : [word];
-      for (const part of parts) {
-        if (line && ctx.measureText(line + part).width > textWidth) {
+      for (let part of parts) {
+        // An opening bracket moves to the next line together with what it opens.
+        if (opening.test(part)) {
+          held += part;
+          continue;
+        }
+        part = held + part;
+        held = '';
+        if (line && !closing.test(part) && ctx.measureText(line + part).width > textWidth) {
           lines.push(line.trimEnd());
           line = '';
         }
         if (line || part.trim()) line += part;
       }
     }
-    return [...lines, line.trimEnd()];
+    return [...lines, (line + held).trimEnd()];
   });
 }
 
 function fit(ctx, text, textWidth, availableHeight, maxSize) {
   const paragraphs = text.replace(/\n{3,}/g, '\n\n');
   const flattened = paragraphs.replace(/\s+/g, ' ');
-  for (let size = maxSize; size >= 16; size -= 2) {
+  const at = (size) => {
     ctx.font = `500 ${size}px ${font}`;
     const lineHeight = Math.round(size * 1.36);
     for (const value of size < 36 ? [paragraphs, flattened] : [paragraphs]) {
       const lines = wrap(ctx, value, textWidth);
-      if (lines.length * lineHeight <= availableHeight) return { lines, lineHeight };
+      if (lines.length * lineHeight <= availableHeight) return { lines, lineHeight, size };
+    }
+  };
+  // Larger type never needs less room, so the largest size that fits is found by bisection.
+  let best = at(maxSize);
+  if (best) return best;
+  let low = 8;
+  let high = maxSize / 2 - 1;
+  while (low <= high) {
+    const middle = Math.floor((low + high) / 2);
+    const layout = at(middle * 2);
+    if (layout) {
+      best = layout;
+      low = middle + 1;
+    } else high = middle - 1;
+  }
+  return best;
+}
+
+// Picks the largest size that keeps a label within its line budget; each attempt is
+// [maxLines, ...sizes]. A custom split marks parts that should shrink before they break.
+// Text that still overflows is cut with an ellipsis.
+function block(ctx, text, textWidth, weight, leading, attempts, split) {
+  let lines;
+  let size;
+  let maxLines;
+  search: for (const [limit, ...sizes] of attempts) {
+    maxLines = limit;
+    for (size of sizes) {
+      ctx.font = `${weight} ${size}px ${font}`;
+      lines = wrap(ctx, text, textWidth, split);
+      const whole = !split || split(text).every((part) => ctx.measureText(part.trimEnd()).width <= textWidth);
+      if (lines.length <= maxLines && whole) break search;
     }
   }
-}
-
-let logoPromise;
-function loadLogo() {
-  if (!logoPromise) {
-    const image = new Image();
-    image.src = campaignLogo;
-    logoPromise = image.decode().then(() => image, () => null);
+  if (lines.length > maxLines) {
+    lines = lines.slice(0, maxLines);
+    const tail = segments(graphemes, lines.pop());
+    while (tail.length && ctx.measureText(`${tail.join('')}…`).width > textWidth) tail.pop();
+    lines.push(`${tail.join('').trimEnd()}…`);
   }
-  return logoPromise;
+  const lineHeight = Math.round(size * leading);
+  return { lines, size, lineHeight, height: lines.length * lineHeight, font: ctx.font };
 }
 
-function drawQr(ctx, symbol, right, bottom, maxSize) {
+function fillBlock(ctx, { lines, lineHeight, font: blockFont }, x, y, color) {
+  ctx.font = blockFont;
+  ctx.fillStyle = color;
+  lines.forEach((line, index) => ctx.fillText(line, x, y + index * lineHeight));
+}
+
+function rounded(ctx, x, y, width, height, radius) {
+  ctx.beginPath();
+  ctx.moveTo(x + radius, y);
+  ctx.arcTo(x + width, y, x + width, y + height, radius);
+  ctx.arcTo(x + width, y + height, x, y + height, radius);
+  ctx.arcTo(x, y + height, x, y, radius);
+  ctx.arcTo(x, y, x + width, y, radius);
+  ctx.closePath();
+}
+
+const images = new Map();
+function loadImage(url) {
+  if (!images.has(url)) {
+    const image = new Image();
+    // A portrait that cannot be read back is left out instead of tainting the canvas.
+    image.crossOrigin = 'anonymous';
+    image.src = url;
+    images.set(url, image.decode().then(() => image, () => null));
+  }
+  return images.get(url);
+}
+
+function placeText(person, point) {
+  if (!point?.institution) return [];
+  const unit = point.unit && !person.affiliation_text.includes(point.unit) ? point.unit : null;
+  return [
+    [point.institution, point.campus].filter(Boolean).join('・'),
+    [unit, point.building, point.city, isTaiwan(point) ? null : point.country].filter(Boolean).join('・'),
+  ].filter(Boolean);
+}
+
+// Whole-pixel modules with a four-module quiet zone keep the code crisp for scanners.
+function qrSide(symbol, maxSize) {
+  const cells = symbol.getModuleCount() + 8;
+  return Math.floor(maxSize / cells) * cells;
+}
+
+function drawQr(ctx, symbol, x, y, size) {
   const count = symbol.getModuleCount();
-  const module = Math.floor(maxSize / (count + 8));
-  const size = (count + 8) * module;
-  const x = right - size;
-  const y = bottom - size;
+  const module = size / (count + 8);
   ctx.fillStyle = '#fff';
-  ctx.fillRect(x, y, size, size);
+  rounded(ctx, x, y, size, size, module * 2);
+  ctx.fill();
   ctx.fillStyle = '#211b16';
   for (let row = 0; row < count; row++) {
     for (let col = 0; col < count; col++) {
       if (symbol.isDark(row, col)) ctx.fillRect(x + (col + 4) * module, y + (row + 4) * module, module, module);
     }
   }
-  return x;
 }
 
-function draw(canvas, name, body, format, logo, symbol) {
+function drawRings(ctx, x, y, clip) {
+  ctx.save();
+  ctx.beginPath();
+  ctx.rect(...clip);
+  ctx.clip();
+  ctx.strokeStyle = palette.ring;
+  ctx.lineWidth = 3;
+  for (let radius = 150; radius <= 690; radius += 60) {
+    ctx.beginPath();
+    ctx.arc(x, y, radius, 0, Math.PI * 2);
+    ctx.stroke();
+  }
+  ctx.restore();
+}
+
+function drawBrand(ctx, logo, x, y) {
+  if (logo) {
+    const logoWidth = Math.min(84, 68 * logo.naturalWidth / logo.naturalHeight);
+    ctx.drawImage(logo, x, y + 5, logoWidth, logoWidth * logo.naturalHeight / logo.naturalWidth);
+  }
+  const text = x + (logo ? 104 : 0);
+  ctx.fillStyle = palette.deep;
+  ctx.font = `600 29px ${font}`;
+  ctx.fillText('臺北市市長候選人沈伯洋先生', text, y);
+  ctx.font = `700 33px ${font}`;
+  ctx.fillText('學界後援會・署名地圖', text, y + 35);
+}
+
+function drawPortrait(ctx, image, x, y, size) {
+  const radius = Math.round(size * 0.14);
+  ctx.save();
+  ctx.shadowColor = '#72340f38';
+  ctx.shadowBlur = 28;
+  ctx.shadowOffsetY = 10;
+  ctx.fillStyle = '#fff';
+  rounded(ctx, x - 7, y - 7, size + 14, size + 14, radius + 7);
+  ctx.fill();
+  ctx.restore();
+  ctx.save();
+  rounded(ctx, x, y, size, size, radius);
+  ctx.clip();
+  const side = Math.min(image.naturalWidth, image.naturalHeight);
+  ctx.imageSmoothingQuality = 'high';
+  ctx.drawImage(image, (image.naturalWidth - side) / 2, (image.naturalHeight - side) / 2, side, side, x, y, size, size);
+  ctx.restore();
+}
+
+function drawPin(ctx, x, y, size) {
+  const radius = size * 0.36;
+  ctx.fillStyle = palette.accent;
+  ctx.beginPath();
+  ctx.arc(x + radius, y + radius, radius, Math.PI * 5 / 6, Math.PI / 6);
+  ctx.lineTo(x + radius, y + size);
+  ctx.closePath();
+  ctx.fill();
+  ctx.fillStyle = palette.soft;
+  ctx.beginPath();
+  ctx.arc(x + radius, y + radius, radius * 0.4, 0, Math.PI * 2);
+  ctx.fill();
+}
+
+// Name, signed affiliation and selected location, measured before they are placed so
+// the portrait can give way to longer text.
+function personText(ctx, person, place, textWidth, compact = false) {
+  const items = [];
+  const lead = person.section === '共同領銜';
+  const name = block(ctx, `${person.name}說`, textWidth, 700, 1.16,
+    compact ? [[1, 64, 56], [2, 48, 40], [3, 40, 34]] : [[1, 88, 80, 72, 64], [2, 64, 56, 48, 40], [3, 48, 40, 34]], byNamePart);
+  const role = block(ctx, person.affiliation_text, textWidth, 600, 1.38,
+    [[1, 30, 28, 26], [2, 30, 28, 26], [3, 26, 24], [4, 24, 22], [7, 22, 20]]);
+  // The place reads as one line when it fits; otherwise the school and the spot within it split.
+  let where = place.length ? block(ctx, place.join('・'), textWidth - 36, 500, 1.36, [[1, 25, 23]]) : null;
+  if (where?.lines.at(-1).endsWith('…')) {
+    where = block(ctx, place.join('\n'), textWidth - 36, 500, 1.36, [[2, 25, 23], [3, 23, 21], [4, 21]]);
+  }
+  items.push({ height: compact ? 38 : 44, draw(x, y) {
+    ctx.font = `600 ${compact ? 28 : 32}px ${font}`;
+    ctx.fillStyle = palette.deep;
+    ctx.fillText('我想對', x, y);
+  } });
+  items.push({ height: name.height + 14, draw(x, y) {
+    fillBlock(ctx, name, x, y, palette.ink);
+    const last = name.lines.at(-1);
+    if (!last.endsWith('說')) return;
+    // 「說」 hands over to the message, so it takes the accent colour.
+    const lastTop = y + (name.lines.length - 1) * name.lineHeight;
+    const nameWidth = ctx.measureText(last.slice(0, -1)).width;
+    ctx.fillStyle = palette.speak;
+    ctx.fillText('說', x + nameWidth, lastTop);
+  } });
+  if (lead) items.push({ height: 54, draw(x, y) {
+    ctx.font = `700 22px ${font}`;
+    const width = ctx.measureText(person.section).width + 32;
+    ctx.fillStyle = palette.deep;
+    rounded(ctx, x, y, width, 40, 20);
+    ctx.fill();
+    ctx.fillStyle = '#fff';
+    ctx.fillText(person.section, x + 16, y + 8);
+  } });
+  items.push({ height: role.height + (where ? 16 : 0), draw: (x, y) => fillBlock(ctx, role, x, y, palette.ink) });
+  if (where) items.push({ height: where.height, draw(x, y) {
+    drawPin(ctx, x, y + Math.round(where.size * 0.12), Math.round(where.size * 1.08));
+    fillBlock(ctx, where, x + 36, y, palette.deep);
+  } });
+  return {
+    height: items.reduce((sum, item) => sum + item.height, 0),
+    draw(x, y) {
+      for (const item of items) {
+        item.draw(x, y);
+        y += item.height;
+      }
+    },
+  };
+}
+
+// Long messages trade the roomy margin for a larger type size.
+function messageLayout(ctx, body, width, height, maxSize) {
+  let result;
+  for (const [padX, padY] of [[78, 70], [58, 62]]) {
+    const layout = fit(ctx, body, width - padX * 2, height - padY * 2, maxSize);
+    if (!layout) continue;
+    result = { ...layout, padX, padY };
+    if (layout.size >= 40) break;
+  }
+  if (!result) throw new Error('Share card text does not fit');
+  return result;
+}
+
+function drawMessage(ctx, body, x, y, width, height, maxSize, layout = messageLayout(ctx, body, width, height, maxSize)) {
+  ctx.fillStyle = palette.card;
+  rounded(ctx, x, y, width, height, 36);
+  ctx.fill();
+  const mark = 46;
+  ctx.strokeStyle = palette.accent;
+  ctx.lineWidth = 9;
+  ctx.lineJoin = 'miter';
+  ctx.beginPath();
+  ctx.moveTo(x + 36, y + 36 + mark);
+  ctx.lineTo(x + 36, y + 36);
+  ctx.lineTo(x + 36 + mark, y + 36);
+  ctx.moveTo(x + width - 36, y + height - 36 - mark);
+  ctx.lineTo(x + width - 36, y + height - 36);
+  ctx.lineTo(x + width - 36 - mark, y + height - 36);
+  ctx.stroke();
+  const { padX, padY, lines, lineHeight, size } = layout;
+  ctx.font = `500 ${size}px ${font}`;
+  const available = height - padY * 2;
+  const textTop = y + padY + Math.round((available - lines.length * lineHeight) / 2 + (lineHeight - size) / 2);
+  // Short messages sit in the middle of the card; full lines still start at the left margin.
+  const widest = Math.max(...lines.map((line) => ctx.measureText(line).width));
+  const textLeft = x + padX + Math.max(0, Math.round((width - padX * 2 - widest) / 2));
+  ctx.fillStyle = palette.ink;
+  lines.forEach((line, index) => ctx.fillText(line, textLeft, textTop + index * lineHeight));
+}
+
+function drawSource(ctx, right, bottom) {
+  const lineBreak = sourcePath.lastIndexOf('/', sourcePath.length - 2) + 1;
+  const lines = [sourcePath.slice(0, lineBreak), sourcePath.slice(lineBreak)];
+  ctx.textAlign = 'right';
+  ctx.fillStyle = palette.deep;
+  ctx.font = '500 19px sans-serif';
+  lines.forEach((line, index) => ctx.fillText(line, right, bottom - 24 - (lines.length - 1 - index) * 26));
+  ctx.font = `600 22px ${font}`;
+  ctx.fillText('原始聯署網站', right, bottom - 31 - lines.length * 26);
+  ctx.textAlign = 'left';
+  ctx.font = '500 19px sans-serif';
+  return Math.max(...lines.map((line) => ctx.measureText(line).width));
+}
+
+function drawCredit(ctx, credit, x, bottom, textWidth) {
+  if (!credit) return 0;
+  const text = block(ctx, `照片：${credit}`, textWidth, 500, 1.4, [[3, 16], [4, 15], [6, 14], [9, 14], [11, 13]]);
+  fillBlock(ctx, text, x, bottom - text.height, palette.muted);
+  return text.height;
+}
+
+function draw(canvas, person, place, body, format, { logo, portrait, symbol }) {
   const ctx = canvas.getContext('2d');
   if (!ctx) throw new Error('Canvas unavailable');
   const { width, height, top, bottom } = format;
-  const wide = width > height;
-  const inset = wide ? 86 : 66;
-  const right = width - inset;
-  const footerBottom = height - bottom - inset;
-  const footerTop = footerBottom - 180;
-  const quoteRight = wide ? 1218 : right;
-  const quoteTop = top + (wide ? 350 : 336);
-  const quoteBottom = wide ? footerBottom : footerTop - 38;
-
+  ctx.textBaseline = 'top';
+  ctx.textAlign = 'left';
   ctx.fillStyle = palette.paper;
   ctx.fillRect(0, 0, width, height);
   ctx.fillStyle = palette.soft;
-  if (wide) ctx.fillRect(1270, 0, width - 1270, height);
-  else ctx.fillRect(0, footerTop, width, height - footerTop);
-  ctx.strokeStyle = '#de935b42';
-  ctx.lineWidth = 3;
-  for (let i = 0; i < 8; i++) {
-    ctx.beginPath();
-    ctx.ellipse(width - 40, top + 40, 160 + i * 54, 86 + i * 32, Math.PI / 7, 0, Math.PI * 2);
-    ctx.stroke();
+
+  if (width > height) {
+    const pane = 468;
+    const left = 64;
+    const textWidth = pane - left - 40;
+    const edge = height - 56;
+    ctx.fillRect(0, 0, pane, height);
+    drawRings(ctx, pane, 0, [0, 0, pane, height]);
+
+    const qrSize = qrSide(symbol, 248);
+    const qrTop = edge - qrSize;
+    const text = personText(ctx, person, place, textWidth);
+    const room = qrTop - 40 - 56;
+    // The portrait gives way to long names and titles, and steps aside if they need the whole pane.
+    const size = portrait ? Math.min(288, room - text.height - 30) : 0;
+    if (size >= 140) {
+      drawPortrait(ctx, portrait, left, 63, size);
+      text.draw(left, 63 + size + 30);
+    } else {
+      text.draw(left, 172);
+    }
+
+    const content = pane + 48;
+    const right = width - 64;
+    drawBrand(ctx, logo, content, 56);
+    drawQr(ctx, symbol, right - qrSize, qrTop, qrSize);
+    const captionRight = right - qrSize - 24;
+    ctx.textAlign = 'right';
+    ctx.fillStyle = palette.deep;
+    ctx.font = `700 29px ${font}`;
+    ctx.fillText('掃碼前往人物留言板', captionRight, qrTop + 6);
+    drawSource(ctx, captionRight, edge);
+    if (size >= 140) drawCredit(ctx, person.portrait.credit, left, edge, textWidth);
+    const cardTop = 168;
+    drawMessage(ctx, body, content, cardTop, right - content, qrTop - 30 - cardTop, 88);
+    return;
   }
-  ctx.fillStyle = palette.accent;
-  ctx.fillRect(inset, top + 47, 46, 7);
-  ctx.textBaseline = 'top';
-  if (logo) {
-    const logoWidth = Math.min(84, 68 * logo.naturalWidth / logo.naturalHeight);
-    ctx.drawImage(logo, inset, top + 75, logoWidth, logoWidth * logo.naturalHeight / logo.naturalWidth);
+
+  const left = 64;
+  const right = width - left;
+  const edge = height - bottom - 40;
+  const qrSize = qrSide(symbol, 248);
+  const qrTop = edge - qrSize;
+  const rowTop = top + 150;
+  // A long message gets the room back from the portrait row before its type shrinks.
+  let size;
+  let text;
+  let rowHeight;
+  let paneBottom;
+  let message;
+  for (const [option, compact] of portrait ? [[264], [208], [168, true]] : [[0], [0, true]]) {
+    size = option;
+    text = personText(ctx, person, place, right - left - (size ? size + 40 : 0), compact);
+    rowHeight = Math.max(size, text.height);
+    paneBottom = rowTop + rowHeight + (compact ? 44 : 56);
+    message = messageLayout(ctx, body, right - left, qrTop - 32 - 36 - paneBottom - 36, 80);
+    if (message.size >= 36) break;
   }
-  const brandText = inset + (logo ? 104 : 0);
-  ctx.fillStyle = palette.deep;
-  ctx.font = `600 29px ${font}`;
-  ctx.fillText('臺北市市長候選人沈伯洋先生', brandText, top + 70);
-  ctx.font = `700 33px ${font}`;
-  ctx.fillText('學界後援會・署名地圖', brandText, top + 105);
+  ctx.fillStyle = palette.soft;
+  ctx.fillRect(0, 0, width, paneBottom);
+  drawRings(ctx, width, top, [0, 0, width, paneBottom]);
+  drawBrand(ctx, logo, left, top + 36);
+  if (size) drawPortrait(ctx, portrait, left, rowTop + Math.round((rowHeight - size) / 2), size);
+  text.draw(size ? left + size + 40 : left, rowTop + Math.round((rowHeight - text.height) / 2));
 
-  ctx.fillStyle = palette.deep;
-  ctx.font = `650 35px ${font}`;
-  ctx.fillText('我想對', inset, top + 183);
-  ctx.fillStyle = palette.ink;
-  ctx.font = `750 ${wide ? 100 : 88}px ${font}`;
-  ctx.fillText(`${name}說`, inset, top + 232, quoteRight - inset);
-
-  ctx.fillStyle = '#fffefa';
-  ctx.fillRect(inset, quoteTop, quoteRight - inset, quoteBottom - quoteTop);
-  ctx.fillStyle = palette.accent;
-  ctx.fillRect(inset, quoteTop, 7, quoteBottom - quoteTop);
-  const contentTop = quoteTop + 35;
-  const available = quoteBottom - contentTop - 36;
-  const layout = fit(ctx, body, quoteRight - inset - 86, available, wide ? 76 : 66);
-  if (!layout) throw new Error('Share card text does not fit');
-  const textTop = contentTop + Math.round((available - layout.lines.length * layout.lineHeight) / 2);
-  ctx.fillStyle = palette.ink;
-  layout.lines.forEach((line, index) => ctx.fillText(line, inset + 43, textTop + index * layout.lineHeight));
-
-  const qrLeft = drawQr(ctx, symbol, right, footerBottom, wide ? 248 : 190);
-  const footerTextRight = qrLeft - 24;
+  ctx.fillStyle = palette.soft;
+  ctx.fillRect(0, qrTop - 32, width, height - qrTop + 32);
+  drawQr(ctx, symbol, right - qrSize, qrTop, qrSize);
+  const captionRight = right - qrSize - 24;
   ctx.textAlign = 'right';
   ctx.fillStyle = palette.deep;
   ctx.font = `700 29px ${font}`;
-  ctx.fillText('掃碼前往人物留言板', footerTextRight, footerBottom - (wide ? 195 : 152));
-  ctx.font = `600 22px ${font}`;
-  ctx.fillText('原始聯署網站', footerTextRight, footerBottom - 96);
-  ctx.font = '500 19px sans-serif';
-  const sourceWidth = wide ? Math.max(200, footerTextRight - 1294) : 370;
-  const lineBreak = sourcePath.lastIndexOf('/', sourcePath.length - 2) + 1;
-  ctx.fillText(sourcePath.slice(0, lineBreak), footerTextRight, footerBottom - 63, sourceWidth);
-  ctx.fillText(sourcePath.slice(lineBreak), footerTextRight, footerBottom - 37, sourceWidth);
+  ctx.fillText('掃碼前往人物留言板', captionRight, qrTop + 6);
+  const sourceWidth = drawSource(ctx, captionRight, edge);
+  drawCredit(ctx, size && person.portrait.credit, left, edge, captionRight - sourceWidth - 40 - left);
+  drawMessage(ctx, body, left, paneBottom + 36, right - left, qrTop - 32 - 36 - paneBottom - 36, 80, message);
 }
 
-export function openCommentShareCard(parent, name, body, boardId, focusTarget) {
+export function openCommentShareCard(parent, person, point, body, boardId, focusTarget) {
+  const { name } = person;
+  const place = placeText(person, point);
   const dialog = document.createElement('dialog');
   dialog.className = 'comment-share';
   dialog.setAttribute('aria-labelledby', 'comment-share-title');
@@ -174,7 +458,7 @@ export function openCommentShareCard(parent, name, body, boardId, focusTarget) {
   hint.textContent = `分享你對${name}說的話。`;
   const canvas = document.createElement('canvas');
   canvas.setAttribute('role', 'img');
-  canvas.setAttribute('aria-label', `我想對${name}說：${body}`);
+  canvas.setAttribute('aria-label', `我想對${name}（${[person.affiliation_text, ...place].join('，')}）說：${body}`);
   const preview = document.createElement('div');
   preview.className = 'comment-share__preview';
   preview.append(canvas);
@@ -203,20 +487,29 @@ export function openCommentShareCard(parent, name, body, boardId, focusTarget) {
   const sourceLink = document.createElement('a');
   sourceLink.textContent = '原始聯署網站';
   sourceLink.href = source.href;
-  for (const link of [boardLink, sourceLink]) {
+  const shownLinks = [boardLink, sourceLink];
+  if (person.portrait && /^https?:\/\//i.test(person.portrait.source_url)) {
+    const photoLink = document.createElement('a');
+    photoLink.textContent = '照片來源';
+    photoLink.href = person.portrait.source_url;
+    photoLink.title = person.portrait.credit;
+    shownLinks.push(photoLink);
+  }
+  for (const link of shownLinks) {
     link.target = '_blank';
     link.rel = 'noopener noreferrer';
     links.append(link);
   }
   controls.append(formatButtons, actions, status, links);
-  const artwork = Promise.all([boardId, loadLogo()]).then(([id, logo]) => {
+  const portraitImage = person.portrait ? loadImage(person.portrait.image) : null;
+  const artwork = Promise.all([boardId, loadImage(campaignLogo), portraitImage]).then(([id, logo, portrait]) => {
     const url = new URL('https://puma-academic.observe.tw/');
     url.searchParams.set('person', id);
     boardLink.href = url.href;
     const symbol = qrCode(0, 'M');
     symbol.addData(url.href);
     symbol.make();
-    return { logo, symbol };
+    return { logo, portrait, symbol };
   });
   const header = document.createElement('header');
   header.append(title, hint, close);
@@ -270,11 +563,11 @@ export function openCommentShareCard(parent, name, body, boardId, focusTarget) {
       download.textContent = '重新製作字卡';
     };
     try {
-      const { logo, symbol } = await artwork;
+      const art = await artwork;
       if (version !== requested || !dialog.open) return;
       canvas.width = format.width;
       canvas.height = format.height;
-      draw(canvas, name, body, format, logo, symbol);
+      draw(canvas, person, place, body, format, art);
       canvas.toBlob((blob) => {
         if (version !== requested || !dialog.open) return;
         if (!blob) {
