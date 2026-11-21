@@ -1,4 +1,4 @@
-# 台北市市長候選人沈伯洋先生 學界後援會署名地圖
+# 台北市市長候選人沈伯洋先生學界後援會署名地圖
 
 [<img src="assets/puma-signature.webp" alt="學界後援會署名地圖 Logo" width="112" height="112">](https://puma-academic.observe.tw/)
 

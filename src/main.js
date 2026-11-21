@@ -252,6 +252,7 @@ const directory = mountDirectory(directoryElement, {
 });
 directoryElement.querySelector('h2').tabIndex = -1;
 directory.geoList.closest('nav').hidden = true;
+directory.searchInput.placeholder = '搜尋姓名、機構或系所';
 $('map-search').append(directory.searchForm);
 $('panel-close').addEventListener('click', closePanel);
 panelToggle.addEventListener('click', (event) => {
