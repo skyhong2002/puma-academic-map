@@ -544,6 +544,8 @@ function publicCommentRow(comment, person) {
   board.setAttribute('aria-label', `開啟${person.name}的留言板`);
   board.addEventListener('click', () => openPersonBoard(person, { fromParent: true }));
   meta.append(author, arrow, board);
+  const affiliation = person.affiliation_text?.trim();
+  if (affiliation) meta.append(`（${affiliation}）`);
 
   const content = document.createElement('div');
   content.className = 'map-public-comments__content';
