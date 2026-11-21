@@ -604,7 +604,7 @@ export function mountDirectory(element, {
         h('div', { class: 'pa-dir-entry-body' },
           h('p', { class: 'pa-dir-entry-raw' }, highlight(entry.affiliation || entry.raw, query)),
           onOpenPerson ? h('button', { type: 'button', class: 'pa-dir-cand',
-            onClick: () => onOpenPerson(entry), text: '開啟人物與留言板',
+            onClick: (event) => onOpenPerson(entry, event.currentTarget), text: '開啟人物與留言板',
             'aria-label': `開啟 ${name} 的人物資料與留言板`,
           }) : null,
           places.length ? h('ul', { class: 'pa-dir-entry-places' }, places.map((place) => h('li', {},

@@ -265,10 +265,9 @@ const directory = mountDirectory(directoryElement, {
     const unit = person.locations.map((point) => locatedUnit(person, point)).find(Boolean);
     locateOnMap(unit ?? person.locations[0]);
   },
-  onOpenPerson(entry) {
+  onOpenPerson(entry, target) {
     const person = findPerson(entry);
     if (!person) return;
-    const target = document.activeElement;
     const scrollTop = panelContent.scrollTop;
     showPerson(person, person.locations[0]);
     directoryPersonReturn = { target, scrollTop };
