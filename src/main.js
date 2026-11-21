@@ -252,15 +252,21 @@ function showPerson(person, point, { restoring = false, tall = false, fromParent
   const summary = document.createElement('summary');
   summary.textContent = '參考資料';
   references.append(summary);
-  const sources = body.querySelector('.map-detail__sources');
-  if (sources) references.append(sources);
+  const sources = body.querySelector('.map-detail__sources') ?? document.createElement('ul');
+  sources.className = 'map-detail__sources';
+  const sourceUrls = new Set();
+  for (const link of sources.querySelectorAll('a[href]')) {
+    if (sourceUrls.has(link.href)) link.closest('li').remove();
+    else sourceUrls.add(link.href);
+  }
+  if (sources.childElementCount) references.append(sources);
   if (roster.source_url) {
     const link = document.createElement('a');
     link.href = roster.source_url;
     link.textContent = '原站署名名單';
     link.target = '_blank';
     link.rel = 'noopener';
-    references.append(link);
+    if (!sourceUrls.has(link.href)) references.append(link);
   }
   details.replaceChildren(body, personComments(person, point));
   if (references.childElementCount > 1) details.append(references);
@@ -269,10 +275,15 @@ function showPerson(person, point, { restoring = false, tall = false, fromParent
     const research = personResearch(person, {
       avatarFor: personAvatar,
       onOpenPerson: (other) => showPerson(other, undefined, { fromParent: true }),
+      referenceLinks: references.querySelectorAll('a[href]'),
     });
     if (research?.keywords) body.append(research.keywords);
+    if (research?.sources.length) {
+      sources.append(...research.sources);
+      if (!sources.isConnected) summary.after(sources);
+      if (!references.isConnected) details.append(references);
+    }
     if (research?.related) details.append(research.related);
-    if (research?.sources) details.append(research.sources);
   }, () => {});
   showPanel('detail', { focus: !restoring });
   if (tall) setSheetTall(true);

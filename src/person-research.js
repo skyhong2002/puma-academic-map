@@ -21,17 +21,24 @@ function heading(text) {
   return title;
 }
 
-function researchSources(record) {
+function sourceAddress(url) {
+  const scholar = /^scholar\.google\.com(?:\.[a-z]{2})?$/.test(url.hostname);
+  const profileId = scholar && url.pathname === '/citations' && !url.searchParams.has('view_op')
+    && !url.searchParams.has('citation_for_view') && url.searchParams.get('user');
+  return profileId
+    ? `https://scholar.google.com/citations?user=${encodeURIComponent(profileId)}`
+    : url.href;
+}
+
+function researchSources(record, referenceLinks) {
+  const existing = new Set(Array.from(referenceLinks, (link) => sourceAddress(new URL(link.href))));
   const sources = new Map();
   function addSource(value, keyword) {
     const url = value && URL.parse(value);
     if (!url || !['http:', 'https:'].includes(url.protocol)) return;
+    const address = sourceAddress(url);
+    if (existing.has(address)) return;
     const scholar = /^scholar\.google\.com(?:\.[a-z]{2})?$/.test(url.hostname);
-    const profileId = scholar && url.pathname === '/citations' && !url.searchParams.has('view_op')
-      && !url.searchParams.has('citation_for_view') && url.searchParams.get('user');
-    const address = profileId
-      ? `https://scholar.google.com/citations?user=${encodeURIComponent(profileId)}`
-      : url.href;
     if (!sources.has(address)) {
       sources.set(address, { label: scholar ? 'Google Scholar' : url.hostname.replace(/^www\./, ''), keywords: new Set() });
     }
@@ -39,24 +46,12 @@ function researchSources(record) {
   }
   for (const { label, source } of record.keywords) addSource(source, label);
   addSource(record.scholar);
-  if (!sources.size) return null;
-
-  const section = document.createElement('section');
-  section.className = 'map-person-research map-person-research--sources';
-  const list = document.createElement('ul');
-  list.className = 'map-person-research__sources';
-  for (const [address, { label, keywords }] of sources) {
+  return Array.from(sources, ([address, { label, keywords }]) => {
     const item = document.createElement('li');
     item.append(sourceLink(label, address));
-    if (keywords.size) {
-      const terms = document.createElement('span');
-      terms.textContent = [...keywords].join('、');
-      item.append(terms);
-    }
-    list.append(item);
-  }
-  section.append(heading('研究來源'), list);
-  return section;
+    if (keywords.size) item.append(`，${[...keywords].join('、')}`);
+    return item;
+  });
 }
 
 function academicTitle(affiliation) {
@@ -64,7 +59,7 @@ function academicTitle(affiliation) {
     ?? affiliation.match(/\b(?:(?:Visiting|Adjunct|Emeritus|Assistant|Associate)\s+)*(?:Professor|Postdoctoral Researcher|Research Fellow|Lecturer)(?:\s+Emeritus)?\b/i)?.[0];
 }
 
-export function personResearch(person, { avatarFor, onOpenPerson }) {
+export function personResearch(person, { avatarFor, onOpenPerson, referenceLinks }) {
   const record = recordsByPerson.get(personKey(person));
   if (!record) return null;
 
@@ -119,6 +114,6 @@ export function personResearch(person, { avatarFor, onOpenPerson }) {
   return {
     keywords: keywordsSection.childElementCount ? keywordsSection : null,
     related: relatedSection,
-    sources: researchSources(record),
+    sources: researchSources(record, referenceLinks),
   };
 }
