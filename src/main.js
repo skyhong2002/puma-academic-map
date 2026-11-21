@@ -5,6 +5,7 @@ import { createAtlas } from './atlas.js';
 import { mountDirectory } from './directory.js';
 import { people } from './person-data.js';
 import { personDetails } from './person-map.js';
+import { track } from './analytics.js';
 
 const $ = (id) => document.getElementById(id);
 const panel = $('map-panel');
@@ -47,6 +48,7 @@ function detailTitle(text) {
 }
 
 function showCampus(campus) {
+  track('view_academic_location');
   activeCampus = campus;
   const { point, people, unit, campusOnly } = campus;
   const school = [point.institution, point.campus].filter(Boolean).join('・');
@@ -181,7 +183,14 @@ const directory = mountDirectory(directoryElement, {
 directory.geoList.closest('nav').hidden = true;
 $('map-search').append(directory.searchForm);
 directory.searchForm.addEventListener('submit', () => showPanel('directory', { focus: false }), { capture: true });
-directory.searchInput.addEventListener('input', () => showPanel('directory', { focus: false }));
+let searchTracked = false;
+directory.searchInput.addEventListener('input', () => {
+  if (!searchTracked && directory.searchInput.value.trim()) {
+    searchTracked = true;
+    track('use_directory_search');
+  }
+  showPanel('directory', { focus: false });
+});
 directory.searchInput.addEventListener('keydown', (event) => {
   if (event.key === 'ArrowDown') showPanel('directory', { focus: false });
 }, { capture: true });
@@ -201,6 +210,9 @@ document.addEventListener('keydown', (event) => {
 });
 
 if (roster.source_url) $('source-link').href = roster.source_url;
+for (const link of document.querySelectorAll('.map-toolbar__signup, #about-map a[href^="https://forms.gle/"]')) {
+  link.addEventListener('click', () => track('click_signup_link'));
+}
 $('map-totals').textContent = [
   `${number.format(people.filter((person) => person.locations.length).length)} 位已定位署名者`,
   `${number.format(people.filter((person) => person.portrait).length)} 張頭像`,

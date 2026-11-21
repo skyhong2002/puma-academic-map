@@ -21,6 +21,17 @@
 
 部署時在 `main` 執行 `npm ci` 和 `npm run build`，並將 `dist/` 發布到主機。部署後確認首頁、靜態資源、搜尋與離島瀏覽。
 
+### GA4 網站分析
+
+在 GA4 為 `https://puma-academic.observe.tw/` 建立專用的網站資料串流，關閉該串流的「加強型評估」，並在建置環境設定 `VITE_GA_MEASUREMENT_ID`（`G-` 開頭）。本機建置可寫在 `.env.production.local`。重新執行 `npm run build` 並發布後，只有正式網域會載入 Google tag。
+
+- `page_view`：瀏覽頁面，保留 `utm_*` 推廣參數及來源網站的網域。
+- `view_academic_location`：開啟校區或系所資訊。
+- `use_directory_search`：每次載入頁面，第一次輸入搜尋內容時計一次。
+- `click_signup_link`：點選登記表連結。
+
+自訂事件只傳事件名稱。發布後，在 GA4「即時」報表確認頁面瀏覽與自訂事件。
+
 ## 交付順序
 
 1. 完成擷取器、原站筆數核對與資料更新差異。
