@@ -225,28 +225,23 @@ function showPerson(person, point, returnToList, returnLabel = '回到校區名�
     body.classList.add('has-return');
     body.querySelector('.map-detail__identity').append(close);
   }
-  const board = personComments(person);
-  const jump = document.createElement('button');
-  jump.type = 'button';
-  jump.className = 'person-comments-jump';
-  jump.textContent = '跳到匿名留言板';
-  jump.addEventListener('click', () => {
-    const heading = board.querySelector('h3');
-    heading.focus({ preventScroll: true });
-    heading.scrollIntoView({ block: 'start' });
-  });
-  body.querySelector('.map-detail__claim').after(jump);
-  details.replaceChildren(body);
+  const references = document.createElement('details');
+  references.className = 'map-detail__references';
+  const summary = document.createElement('summary');
+  summary.textContent = '參考資料';
+  references.append(summary);
+  const sources = body.querySelector('.map-detail__sources');
+  if (sources) references.append(sources);
   if (roster.source_url) {
     const link = document.createElement('a');
     link.href = roster.source_url;
     link.textContent = '原站署名名單';
-    link.className = 'map-detail__source-link';
     link.target = '_blank';
     link.rel = 'noopener';
-    details.append(link);
+    references.append(link);
   }
-  details.append(board);
+  details.replaceChildren(body, personComments(person));
+  if (references.childElementCount > 1) details.append(references);
   showPanel('detail');
   if (point) revealAfterPanelResize(point);
 }

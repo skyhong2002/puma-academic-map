@@ -337,13 +337,15 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
 .map-detail .map-detail__claim { margin: 0 0 14px; }
 .map-detail .map-detail__sources { margin: 0; padding: 0; list-style: none; }
 .map-detail .map-detail__sources li { padding-block: 8px; border-top: 1px solid var(--rule); }
-.map-detail__source-link {
-  display: inline-flex;
-  margin-block-start: 10px;
-  padding: 5px 12px;
-  border: 1px solid var(--rule);
-  border-radius: 999px;
+.map-detail__references {
+  margin-block-start: 24px;
+  border-block-start: 1px solid var(--rule);
+  color: var(--ink-soft);
+  font-size: .875rem;
 }
+.map-detail__references summary { padding-block: 12px; cursor: pointer; }
+.map-detail__references summary:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.map-detail .map-detail__references a { color: inherit; }
 .map-detail ul { padding-inline-start: 22px; }
 .map-detail img { max-width: 100%; border-radius: 10px; }
 .map-detail a { color: var(--accent-ink); overflow-wrap: anywhere; }

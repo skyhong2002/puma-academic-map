@@ -21,7 +21,7 @@
   font-size: max(16px, 1em);
 }
 .person-comments textarea:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
-.person-comments button, .person-comments-jump {
+.person-comments button {
   min-height: 44px;
   padding: 6px 12px;
   margin: 8px 8px 0 0;
@@ -32,7 +32,6 @@
   font: inherit;
   cursor: pointer;
 }
-.person-comments-jump { margin: 0 0 12px; }
 .person-comments button[type="submit"] {
   background: var(--accent-ink);
   color: var(--paper);
@@ -45,3 +44,16 @@
 .person-comments__meta { color: var(--ink-soft); font-size: .875rem; }
 .person-comments__body { white-space: pre-wrap; }
 .person-comments__trap { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+
+.person-comments textarea::placeholder { color: var(--ink-soft); opacity: 1; }
+.person-comments .person-comments__guidance { margin-block: 6px 0; color: var(--ink-soft); font-size: .875rem; }
+.comment-share {
+  margin-block: 16px;
+  padding: 12px;
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  background: var(--paper);
+}
+.comment-share h4 { margin: 0 0 6px; }
+.comment-share canvas { width: 100%; max-width: 320px; height: auto; border-radius: 6px; }
+.comment-share__actions { display: flex; flex-wrap: wrap; }

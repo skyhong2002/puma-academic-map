@@ -1,3 +1,4 @@
+import { commentShareCard } from './comment-share-card.js';
 import { commentBoardId } from './comment-board-id.js';
 import './person-comments.css';
 
@@ -70,12 +71,15 @@ const errorText = (error) => error instanceof Error && error.constructor === Err
 export function personComments(person) {
   const section = element('section');
   section.className = 'person-comments';
-  section.setAttribute('aria-label', `${person.name}的匿名留言板`);
-  const heading = element('h3', '匿名留言板');
-  heading.tabIndex = -1;
-  const guidance = element('p', '留言會公開。請針對希望對方採取的行動提出建議，避免人身攻擊、個資或網址。');
+  section.setAttribute('aria-label', `${person.name}的留言板`);
+  const heading = element('h3', '留言板');
+  const guidance = element('p', '留言會公開，請勿填寫個資。');
+  guidance.className = 'person-comments__guidance';
+  guidance.id = 'person-comment-guidance';
   const form = element('form');
-  const { label, input } = editor('你的建議（最多 500 字）');
+  const { label, input } = editor(`對${person.name}說`);
+  input.placeholder = '我想說……';
+  input.setAttribute('aria-describedby', guidance.id);
   const trap = element('label', '網站（請留空）');
   trap.className = 'person-comments__trap';
   trap.setAttribute('aria-hidden', 'true');
@@ -84,7 +88,7 @@ export function personComments(person) {
   website.tabIndex = -1;
   website.autocomplete = 'off';
   trap.append(website);
-  const submit = element('button', '送出匿名留言');
+  const submit = element('button', '送出留言');
   submit.type = 'submit';
   const status = element('p');
   status.setAttribute('role', 'status');
@@ -97,15 +101,24 @@ export function personComments(person) {
   more.hidden = true;
   const retry = button('重新載入留言', () => load());
   retry.hidden = true;
-  form.append(label, trap, submit, status);
-  section.append(heading, guidance, form, listStatus, list, more, retry);
+  const receipt = element('div');
+  form.append(label, guidance, trap, submit, status);
+  section.append(heading, form, receipt, listStatus, list, more, retry);
 
   const endpoint = commentBoardId(person).then((id) => `/api/people/${id}/comments`);
   let next = null;
   let loaded = false;
   let loading = false;
   let pendingToken;
+  let sharedCommentId;
   const shown = new Map();
+
+  function showReceipt(comment) {
+    sharedCommentId = comment.id;
+    const { panel, title } = commentShareCard(person.name, comment.body);
+    receipt.replaceChildren(panel);
+    return title;
+  }
 
   function updateListStatus() {
     listStatus.textContent = shown.size ? '' : '目前還沒有留言。';
@@ -115,7 +128,7 @@ export function personComments(person) {
     const item = element('li');
     const time = element('time', dateFormat.format(comment.createdAt));
     time.dateTime = new Date(comment.createdAt).toISOString();
-    const meta = element('p', '匿名訪客・');
+    const meta = element('p');
     meta.className = 'person-comments__meta';
     meta.append(time);
     if (comment.updatedAt !== null) meta.append('・已編輯');
@@ -155,6 +168,7 @@ export function personComments(person) {
           const replacement = renderComment(updated);
           shown.set(updated.id, replacement);
           item.replaceWith(replacement);
+          if (sharedCommentId === updated.id) showReceipt(updated);
           replacement.querySelector('button').focus();
           status.textContent = '留言已更新。';
         } catch (error) {
@@ -165,7 +179,7 @@ export function personComments(person) {
       });
     });
     const remove = button('刪除', async () => {
-      if (!window.confirm('確定刪除這則匿名留言？')) return;
+      if (!window.confirm('確定刪除這則留言？')) return;
       change.disabled = remove.disabled = true;
       feedback.textContent = '';
       try {
@@ -173,6 +187,10 @@ export function personComments(person) {
         saveToken(comment.id, null);
         shown.delete(comment.id);
         item.remove();
+        if (sharedCommentId === comment.id) {
+          sharedCommentId = undefined;
+          receipt.replaceChildren();
+        }
         if (loaded) updateListStatus();
         input.focus();
         status.textContent = '留言已刪除。';
@@ -241,7 +259,11 @@ export function personComments(person) {
       shown.set(comment.id, item);
       list.prepend(item);
       if (loaded) updateListStatus();
-      status.textContent = '留言已公開。編輯或刪除請使用這個瀏覽器。';
+      status.textContent = '';
+      const title = showReceipt(comment);
+      if (section.getClientRects().length && (form.contains(document.activeElement) || document.activeElement === document.body)) {
+        title.focus();
+      }
     } catch (error) {
       status.textContent = errorText(error);
     } finally {
