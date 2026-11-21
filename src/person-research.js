@@ -7,7 +7,6 @@ const peopleByKey = new Map(people.map((person) => [personKey(person), person]))
 const peopleById = new Map(records.map((record) => [record.id, peopleByKey.get(personKey(record))]));
 
 function sourceLink(label, url) {
-  if (!/^https?:\/\//i.test(url)) return null;
   const anchor = document.createElement('a');
   anchor.textContent = label;
   anchor.href = url;
@@ -20,6 +19,44 @@ function heading(text) {
   const title = document.createElement('h3');
   title.textContent = text;
   return title;
+}
+
+function researchSources(record) {
+  const sources = new Map();
+  function addSource(value, keyword) {
+    const url = value && URL.parse(value);
+    if (!url || !['http:', 'https:'].includes(url.protocol)) return;
+    const scholar = /^scholar\.google\.com(?:\.[a-z]{2})?$/.test(url.hostname);
+    const profileId = scholar && url.pathname === '/citations' && !url.searchParams.has('view_op')
+      && !url.searchParams.has('citation_for_view') && url.searchParams.get('user');
+    const address = profileId
+      ? `https://scholar.google.com/citations?user=${encodeURIComponent(profileId)}`
+      : url.href;
+    if (!sources.has(address)) {
+      sources.set(address, { label: scholar ? 'Google Scholar' : url.hostname.replace(/^www\./, ''), keywords: new Set() });
+    }
+    if (keyword) sources.get(address).keywords.add(keyword);
+  }
+  for (const { label, source } of record.keywords) addSource(source, label);
+  addSource(record.scholar);
+  if (!sources.size) return null;
+
+  const section = document.createElement('section');
+  section.className = 'map-person-research map-person-research--sources';
+  const list = document.createElement('ul');
+  list.className = 'map-person-research__sources';
+  for (const [address, { label, keywords }] of sources) {
+    const item = document.createElement('li');
+    item.append(sourceLink(label, address));
+    if (keywords.size) {
+      const terms = document.createElement('span');
+      terms.textContent = [...keywords].join('、');
+      item.append(terms);
+    }
+    list.append(item);
+  }
+  section.append(heading('研究來源'), list);
+  return section;
 }
 
 function academicTitle(affiliation) {
@@ -36,20 +73,12 @@ export function personResearch(person, { avatarFor, onOpenPerson }) {
   keywordsSection.setAttribute('aria-label', '研究資料');
   const keywords = document.createElement('ul');
   keywords.className = 'map-person-research__keywords';
-  for (const { label, source } of record.keywords) {
-    const link = sourceLink(label, source);
-    if (!link) continue;
-    link.setAttribute('aria-label', `${label}，開啟來源`);
+  for (const label of new Set(record.keywords.map((keyword) => keyword.label))) {
     const item = document.createElement('li');
-    item.append(link);
+    item.textContent = label;
     keywords.append(item);
   }
   if (keywords.childElementCount) keywordsSection.append(heading('研究關鍵字'), keywords);
-  const scholar = record.scholar && sourceLink('Google Scholar', record.scholar);
-  if (scholar) {
-    scholar.className = 'map-person-research__scholar';
-    keywordsSection.append(scholar);
-  }
 
   const related = document.createElement('ul');
   related.className = 'map-person-research__related';
@@ -90,5 +119,6 @@ export function personResearch(person, { avatarFor, onOpenPerson }) {
   return {
     keywords: keywordsSection.childElementCount ? keywordsSection : null,
     related: relatedSection,
+    sources: researchSources(record),
   };
 }

@@ -549,17 +549,24 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
 .map-person-research--related { margin-block-start: 4px; }
 .map-detail .map-person-research ul { margin: 0; padding: 0; list-style: none; }
 .map-person-research__keywords { display: flex; flex-wrap: wrap; gap: 5px 6px; }
-.map-person-research__keywords li { min-width: 0; max-width: 100%; }
-.map-person-research__keywords a {
-  display: inline-block;
+.map-person-research__keywords li {
+  min-width: 0;
+  max-width: 100%;
   padding: 4px 8px;
   border-radius: 6px;
   background: var(--panel-orange-card);
+  color: var(--ink);
   font-size: 0.8125rem;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 2px;
+  overflow-wrap: anywhere;
 }
-.map-person-research__scholar { display: inline-block; margin-block-start: 8px; font-size: 0.8125rem; }
+.map-person-research__sources li { padding-block: 6px; }
+.map-person-research__sources li + li { border-block-start: 1px solid var(--rule); }
+.map-person-research__sources span {
+  display: block;
+  color: var(--ink-soft);
+  font-size: 0.8125rem;
+  overflow-wrap: anywhere;
+}
 .map-person-research__related li + li { border-block-start: 1px solid var(--rule); }
 .map-person-research__person {
   display: grid;

@@ -272,6 +272,7 @@ function showPerson(person, point, { restoring = false, tall = false, fromParent
     });
     if (research?.keywords) body.append(research.keywords);
     if (research?.related) details.append(research.related);
+    if (research?.sources) details.append(research.sources);
   }, () => {});
   showPanel('detail', { focus: !restoring });
   if (tall) setSheetTall(true);
