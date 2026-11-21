@@ -975,3 +975,23 @@ path.bin-4 { fill: var(--bin-4); }
   height: 100%;
   object-fit: cover;
 }
+
+.person-name-pin span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  display: block;
+  width: max-content;
+  max-width: 136px;
+  padding: 7px 8px;
+  border: 2px solid white;
+  border-radius: 16px;
+  background: #a64115;
+  color: white;
+  box-shadow: 0 1px 5px #0007;
+  font: 700 12px/1.2 var(--sans);
+  overflow-wrap: anywhere;
+  text-align: center;
+}

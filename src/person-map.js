@@ -53,13 +53,10 @@ function avatarIcon(person) {
     face.alt = '';
     face.decoding = 'async';
   } else {
-    const name = person.name.trim();
-    const words = name.split(/\s+/);
-    face.textContent = /\p{Script=Han}/u.test(name[0] ?? '')
-      ? [...name].slice(-2).join('')
-      : words.slice(0, 2).map((word) => word[0]).join('').toUpperCase();
+    face.textContent = person.name;
   }
-  return L.divIcon({ className: 'person-avatar', html: face, iconSize: [36, 36] });
+  const className = person.portrait ? 'person-avatar' : 'person-name-pin';
+  return L.divIcon({ className, html: face, iconSize: [36, 36] });
 }
 
 function addPersonMarkers(map, entries, include, avatarZoom) {
@@ -70,6 +67,7 @@ function addPersonMarkers(map, entries, include, avatarZoom) {
     removeOutsideVisibleBounds: false,
     showCoverageOnHover: false,
     spiderfyOnMaxZoom: true,
+    spiderfyDistanceMultiplier: 1.5,
     iconCreateFunction(cluster) {
       return L.divIcon({
         className: 'person-cluster',
