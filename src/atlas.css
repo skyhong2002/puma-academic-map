@@ -299,6 +299,9 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
     display: flex;
   }
   .map-stage .leaflet-bottom { bottom: 8px; }
+  .map-app:not(.is-panel-open) .map-stage .leaflet-bottom { bottom: 0; }
+  .map-app:not(.is-panel-open) .leaflet-bottom .leaflet-control-scale { margin-bottom: 0; }
+  .map-app:not(.is-panel-open) .leaflet-bottom.leaflet-right .leaflet-control-zoom { margin-bottom: 20px; }
   .map-app.is-panel-open:not(.is-sheet-dragging) .map-stage {
     margin-block-end: calc(-1 * var(--sheet-corner-radius));
   }
