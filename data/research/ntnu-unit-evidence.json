@@ -4,13 +4,13 @@
     "raw": "林福來（台灣師大名譽教授）",
     "sources": [
       {
-        "label": "大學個人頁",
-        "url": "https://www.ime.ntnu.edu.tw/index.php/linfl/",
-        "description": "臺師大數學教育中心個人頁列林福來為計畫諮詢顧問，並提供公館校區科教大樓的聯絡地址。",
+        "label": "數學系師資名錄",
+        "url": "https://cantor.math.ntnu.edu.tw/index.php/faculty/?member=retired",
+        "description": "臺師大數學系退休師資名錄列林福來為名譽教授。",
         "institutions": [
           "國立臺灣師範大學"
         ],
-        "department": "數學教育中心"
+        "department": "數學系"
       }
     ]
   },
@@ -34,9 +34,9 @@
     "raw": "鍾繼儀（國立臺灣師範大學博士候選人）",
     "sources": [
       {
-        "label": "博士候選人獎勵獲獎名冊",
-        "url": "https://bp.ntu.edu.tw/001/Upload/1352/ckfile/857c6b94-70fb-4d5f-940a-478a21c7d789.pdf",
-        "description": "114 年度博士候選人論文獎勵獲獎人名冊列鍾繼儀就讀國立臺灣師範大學音樂學系。",
+        "label": "學術個人網站",
+        "url": "https://chungchiyi.com/",
+        "description": "鍾繼儀在個人網站列出就讀國立臺灣師範大學音樂學系音樂學博士班的經歷。",
         "institutions": [
           "國立臺灣師範大學"
         ],

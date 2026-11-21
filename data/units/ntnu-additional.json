@@ -112,13 +112,6 @@
         "原住民族教育文化學程"
       ]
     },
-    "數學教育中心": {
-      "lat": 25.007338,
-      "lon": 121.536514,
-      "building": "科教大樓",
-      "source_url": "https://ap.itc.ntnu.edu.tw/NtnuMap/map.do?SchType=G&DeviceE=E&DeviceR=R&DeviceT=T",
-      "address_source_url": "https://pms.itc.ntnu.edu.tw/HireApp/AdminServletCtrl?action=job_detail&s=6444"
-    },
     "科學教育中心": {
       "lat": 25.007338,
       "lon": 121.536514,
