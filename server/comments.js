@@ -8,7 +8,10 @@ import { commentBoardId } from '../src/comment-board-id.js';
 
 const port = Number(process.env.COMMENTS_PORT ?? 4174);
 const directory = process.env.COMMENTS_DATA_DIR ?? '.comments-data';
-const publicOrigin = process.env.COMMENTS_ORIGIN ?? 'http://localhost:5173';
+const allowedOrigins = new Set([
+  process.env.COMMENTS_ORIGIN ?? 'http://localhost:5173',
+  process.env.COMMENTS_PREVIEW_ORIGIN,
+].filter(Boolean));
 const behindProxy = process.env.COMMENTS_BEHIND_PROXY === '1';
 const minute = 60_000;
 const pageSize = 20;
@@ -169,7 +172,7 @@ const server = createServer({ requestTimeout: 10_000, headersTimeout: 5_000 }, a
       response.setHeader('Allow', id ? 'PATCH, DELETE' : 'GET, POST');
       fail(405, '不支援這個留言操作。');
     }
-    if (request.headers.origin && request.headers.origin !== publicOrigin) fail(403, '請從本站操作留言。');
+    if (request.headers.origin && !allowedOrigins.has(request.headers.origin)) fail(403, '請從本站操作留言。');
     const now = Date.now();
     const source = sourceKey(request, now);
     limit(now, [`attempt:${source}`, 15, minute]);

@@ -32,7 +32,7 @@ docker compose -p puma-comments-candidate -f deploy/compose.yml \
   -f ~/Projects/puma-academic-map/comments-production.yml up -d --build --wait
 ```
 
-正式站沿用原留言服務的 Compose project 與資料卷。主機上的 `comments-production.yml` 額外保留 `127.0.0.1:19133` 給既有的 Tailscale 預覽網址。
+正式站沿用原留言服務的 Compose project 與資料卷。主機上的 `comments-production.yml` 額外保留 `127.0.0.1:19133` 給既有的 Tailscale 預覽網址，並以 `COMMENTS_PREVIEW_ORIGIN` 明確允許該 HTTPS 網址送出留言。設定值須含完整主機名稱與連接埠。
 
 本機開發可在兩個終端分別執行 `npm run comments`（Node.js 24）和 `npm run dev`。Vite 會代理留言 API 到 `4174`。正式環境的反向代理須維持在 Cloudflare Tunnel 後方，因為 API 使用 Cloudflare 提供的來源 IP 做限速。
 

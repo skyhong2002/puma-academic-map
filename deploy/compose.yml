@@ -17,6 +17,7 @@ services:
     restart: unless-stopped
     environment:
       COMMENTS_ORIGIN: ${COMMENTS_ORIGIN:-https://puma-academic.observe.tw}
+      COMMENTS_PREVIEW_ORIGIN: ${COMMENTS_PREVIEW_ORIGIN:-}
       COMMENTS_BEHIND_PROXY: "1"
     volumes:
       - comments:/data
