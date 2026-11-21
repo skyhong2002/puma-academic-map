@@ -216,9 +216,9 @@ function primaryPersonPoint(person, county, institution) {
   return locations.map((point) => locatedUnit(person, point)).find(Boolean) ?? locations[0];
 }
 
-function showPerson(person, point, { restoring = false, tall = false, fromParent = false } = {}) {
+function showPerson(person, point, { restoring = false, tall = false, fromParent = false, replace = false } = {}) {
   if (!restoring) {
-    rememberParent({ fromRoot: !fromParent });
+    if (!replace) rememberParent({ fromRoot: !fromParent });
     point = point ? locatedUnit(person, point) ?? point : primaryPersonPoint(person);
   }
   panelDetail = { type: 'person', point: point && pointKey(point), person: personRef(person) };
@@ -230,6 +230,30 @@ function showPerson(person, point, { restoring = false, tall = false, fromParent
       locateAfterPanelResize(point, person);
     }),
   });
+  const verifiedLocations = new Map(person.locations.map((location) => {
+    const precise = locatedUnit(person, location) ?? location;
+    return [pointKey(precise), precise];
+  }));
+  if (point) verifiedLocations.set(pointKey(point), point);
+  if (verifiedLocations.size > 1) {
+    const select = document.createElement('select');
+    select.className = 'map-campus-select';
+    select.setAttribute('aria-label', '切換定位地點');
+    for (const [key, location] of verifiedLocations) {
+      const option = document.createElement('option');
+      option.value = key;
+      option.textContent = [location.institution, location.campus, location.building, location.city].filter(Boolean).join('・');
+      option.selected = Boolean(point && key === pointKey(point));
+      select.append(option);
+    }
+    select.addEventListener('change', () => {
+      const selected = verifiedLocations.get(select.value);
+      if (!selected) return;
+      showPerson(person, selected, { replace: true });
+      details.querySelector('.map-campus-select')?.focus({ preventScroll: true });
+    });
+    body.querySelector('.map-detail__place')?.after(select);
+  }
   const references = document.createElement('details');
   references.className = 'map-detail__references';
   const summary = document.createElement('summary');
@@ -294,13 +318,6 @@ const directory = mountDirectory(directoryElement, {
     showCampus(campus, { fromParent: true });
     return true;
   },
-  onLocatePerson(entry, county, institution) {
-    const person = findPerson(entry);
-    const point = person && primaryPersonPoint(person, county, institution);
-    if (!point) return;
-    if (narrowLayout.matches) setSheetTall(false);
-    locateAfterPanelResize(point, person);
-  },
   onOpenPerson(entry, county, institution) {
     const person = findPerson(entry);
     if (!person) return;
@@ -308,11 +325,6 @@ const directory = mountDirectory(directoryElement, {
   },
   onLocateUnit(point) {
     showCampus({ point, unit: point.unit, people: atlas.peopleAt(point) }, { fromParent: true });
-  },
-  onLocate(entry, point) {
-    const person = findPerson(entry);
-    if (!person) return;
-    showPerson(person, point, { fromParent: true });
   },
 });
 const homeDirectory = directory.snapshot();

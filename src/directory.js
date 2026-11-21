@@ -214,7 +214,7 @@ function countBadge(count, unit) {
 // ---------- 主元件 ----------
 
 export function mountDirectory(element, {
-  onSelectCounty, onLocate, onLocateUnit, onLocatePerson, onOpenInstitution, onSearchChange, onSearchOpen, onSearchClear, onOpenPerson, onBeforeNavigate,
+  onSelectCounty, onLocateUnit, onOpenInstitution, onSearchChange, onSearchOpen, onSearchClear, onOpenPerson, onBeforeNavigate,
 } = {}) {
   if (!element) throw new Error('mountDirectory 需要容器元素');
   const uid = `pa-dir-${Math.random().toString(36).slice(2, 8)}`;
@@ -586,62 +586,21 @@ export function mountDirectory(element, {
   }
 
   function entryItem(entry, { exclude, query = '', result = false } = {}) {
-    const candidates = entry.candidates.filter((inst) => inst.id !== exclude);
-    const sources = sourcesFor(entry);
-    const support = affiliationSources(entry.section, entry.raw).filter((source) => source.kind === 'support');
     const portrait = portraitFor(entry.section, entry.raw);
-    const places = pointsBySection.get(entry.section)?.get(entry.raw) ?? [];
-    const name = entry.name || '（未解析條目）';
+    const canOpen = !entry.unparsed && Boolean(onOpenPerson);
+    const name = entry.name || entry.raw;
+    const institution = institutionById.get(exclude)?.name ?? state.mapInstitution;
     return h('li', { class: 'pa-dir-entry' },
-      h('details', { dataset: { entry: JSON.stringify([entry.section, entry.raw]) } },
-        h('summary', {
-          class: 'pa-dir-entry-head',
-          dataset: result ? { result: '' } : {},
-          onClick: places.length ? (event) => {
-            if (!event.currentTarget.parentElement.open) onLocatePerson?.(entry, state.county, institutionById.get(exclude)?.name);
-          } : null,
-        },
-          portrait ? h('img', { class: 'pa-dir-portrait', src: portrait.image, alt: '', loading: 'lazy', width: '28', height: '28' }) : null,
-          h('span', { class: 'pa-dir-entry-name', title: name }, highlight(name, query)),
-          entry.affiliation ? h('span', { class: 'pa-dir-entry-affiliation' }, highlight(entry.affiliation, query)) : null,
-          h('span', { class: `pa-dir-section-tag${entry.section === '共同領銜' ? ' is-lead' : ''}`, text: entry.section })),
-        h('div', { class: 'pa-dir-entry-body' },
-          h('p', { class: 'pa-dir-entry-raw' }, highlight(entry.affiliation || entry.raw, query)),
-          onOpenPerson ? h('button', { type: 'button', class: 'pa-dir-cand',
-            onClick: () => onOpenPerson(entry, state.county, institutionById.get(exclude)?.name), text: '開啟人物與留言板',
-            'aria-label': `開啟 ${name} 的人物資料與留言板`,
-          }) : null,
-          places.length ? h('ul', { class: 'pa-dir-entry-places' }, places.map((place) => h('li', {},
-            h('button', { type: 'button', class: 'pa-dir-cand',
-              onClick: () => onLocate?.(entry, place),
-              text: [place.institution, place.campus, place.city, place.country].filter(Boolean).join(' · '),
-              'aria-label': `在地圖定位 ${entry.name}，${[place.institution, place.campus, place.city].filter(Boolean).join(' · ')}`,
-            })))) : null,
-          !places.length ? h('p', { class: 'pa-dir-entry-note', text: '尚未取得可對應的機構座標。' }) : null,
-          candidates.length
-            ? h('div', { class: 'pa-dir-entry-cands' },
-              h('span', { class: 'pa-dir-muted', text: exclude ? '其他機構候選：' : '機構候選（未查核）：' }),
-              candidates.map((inst) => h('button', {
-                type: 'button',
-                class: 'pa-dir-cand',
-                onClick: () => selectInstitution(inst),
-                text: inst.name,
-              })))
-            : null,
-          h('div', { class: 'pa-dir-affiliation-sources' },
-            h('strong', { text: `學術單位查核來源${sources.length ? `（${sources.length}）` : ''}` }),
-            sources.length
-              ? h('ul', {}, sources.map((source) => h('li', {},
-                extLink(source.url, source.label), '，', source.description)))
-              : h('p', { class: 'pa-dir-muted', text: '待補可核對此人的公開來源。' })),
-          support.length ? h('div', { class: 'pa-dir-affiliation-sources' },
-            h('strong', { text: '相關公開活動' }),
-            h('ul', {}, support.map((source) => h('li', {},
-              extLink(source.url, source.label), '，', source.description)))) : null,
-          portrait ? h('p', { class: 'pa-dir-entry-source' },
-            extLink(portrait.source_url, '照片來源'), '，', portrait.credit,
-            portrait.license_url ? [' · ', extLink(portrait.license_url, '授權條款')] : null) : null,
-          SOURCE_URL ? h('p', { class: 'pa-dir-entry-source' }, extLink(SOURCE_URL, '原站名單')) : null)));
+      h(canOpen ? 'button' : 'div', {
+        type: canOpen ? 'button' : null,
+        class: 'pa-dir-entry-head',
+        dataset: result && canOpen ? { result: '' } : {},
+        onClick: canOpen ? () => onOpenPerson(entry, state.county, institution) : null,
+      },
+      portrait ? h('img', { class: 'pa-dir-portrait', src: portrait.image, alt: '', loading: 'lazy', width: '28', height: '28' }) : null,
+      h('span', { class: 'pa-dir-entry-name', title: name }, highlight(name, query)),
+      entry.affiliation ? h('span', { class: 'pa-dir-entry-affiliation' }, highlight(entry.affiliation, query)) : null,
+      h('span', { class: `pa-dir-section-tag${entry.section === '共同領銜' ? ' is-lead' : ''}`, text: entry.section })));
   }
 
   function renderSearch(query) {
@@ -782,7 +741,6 @@ export function mountDirectory(element, {
         query: composing || committedQuery ? state.query : searchInput.value,
         entryLimit: state.entryLimit,
         searchLimit: state.searchLimit,
-        expanded: [...main.querySelectorAll('details[data-entry][open]')].map((entry) => entry.dataset.entry),
       };
     },
     restore(saved) {
@@ -798,9 +756,6 @@ export function mountDirectory(element, {
       if (Number.isInteger(saved.entryLimit) && saved.entryLimit > 0) state.entryLimit = saved.entryLimit;
       if (Number.isInteger(saved.searchLimit) && saved.searchLimit > 0) state.searchLimit = saved.searchLimit;
       render();
-      if (!Array.isArray(saved.expanded)) return;
-      const expanded = new Set(saved.expanded);
-      for (const entry of main.querySelectorAll('details[data-entry]')) entry.open = expanded.has(entry.dataset.entry);
     },
     setMapInstitution(institution, members) {
       state.mapInstitution = institution;
