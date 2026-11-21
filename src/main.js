@@ -12,17 +12,13 @@ const panel = $('map-panel');
 const details = $('place-details');
 const directoryElement = $('directory');
 const about = $('about-map');
-const back = $('panel-back');
 const panelToggle = $('panel-toggle');
-const panelSize = $('panel-size');
 const aboutButton = $('map-about');
 const panelContent = $('panel-content');
 const mapApp = panel.closest('.map-app');
 const narrowLayout = matchMedia('(width < 720px)');
 const toolbar = mapApp.querySelector('.map-toolbar');
 const number = new Intl.NumberFormat('zh-TW');
-let activeCampus;
-let campusListReturn;
 let returnFocus;
 let panelView = 'directory';
 let collapsedScrollTop = 0;
@@ -56,7 +52,6 @@ function showPanel(view, { focus = true, restoreScroll = false } = {}) {
   directoryElement.hidden = view !== 'directory';
   details.hidden = view !== 'detail';
   about.hidden = view !== 'about';
-  back.hidden = view !== 'detail';
   if (panel.hidden) setPanelExpanded(true);
   else updateViewExpanded(true);
   if (restoreScroll) panelContent.scrollTop = collapsedScrollTop;
@@ -68,8 +63,6 @@ function showPanel(view, { focus = true, restoreScroll = false } = {}) {
 
 function setSheetTall(tall) {
   mapApp.classList.toggle('is-sheet-tall', tall);
-  panelSize.textContent = tall ? '縮小' : '展開';
-  panelSize.setAttribute('aria-label', tall ? '縮小資訊面板' : '放大資訊面板');
 }
 
 function closePanel({ focusTarget = returnFocus } = {}) {
@@ -113,9 +106,7 @@ function detailTitle(text) {
 
 function showCampus(campus, restore) {
   let returnButton;
-  campusListReturn = undefined;
   track('view_academic_location');
-  activeCampus = campus;
   const { point, people, unit, campusOnly } = campus;
   const school = [point.institution, point.campus].filter(Boolean).join('・');
   const title = detailTitle(unit ?? school);
@@ -131,8 +122,8 @@ function showCampus(campus, restore) {
     if (restore?.person === person) returnButton = button;
     button.addEventListener('click', () => {
       const scrollTop = panelContent.scrollTop;
-      showPerson(person, unit ? locatedUnit(person, point) ?? point : point, campus);
-      campusListReturn = { person, scrollTop };
+      const location = unit ? locatedUnit(person, point) ?? point : point;
+      showPerson(person, location, () => showCampus(campus, { person, scrollTop }));
     });
     if (person.portrait) {
       const image = document.createElement('img');
@@ -219,10 +210,19 @@ function showCampus(campus, restore) {
   revealAfterPanelResize(point);
 }
 
-function showPerson(person, point, campus = null) {
-  campusListReturn = undefined;
-  activeCampus = campus;
-  details.replaceChildren(personDetails(person, point, { heading: true }));
+function showPerson(person, point, returnToList) {
+  const body = personDetails(person, point, { heading: true });
+  if (returnToList) {
+    const close = document.createElement('button');
+    close.type = 'button';
+    close.className = 'map-detail__close-person';
+    close.textContent = '×';
+    close.setAttribute('aria-label', '回到校區名單');
+    close.addEventListener('click', returnToList);
+    body.classList.add('has-return');
+    body.querySelector('.map-detail__identity').append(close);
+  }
+  details.replaceChildren(body);
   if (roster.source_url) {
     const link = document.createElement('a');
     link.href = roster.source_url;
@@ -276,13 +276,21 @@ directoryElement.querySelector('h2').tabIndex = -1;
 directory.geoList.closest('nav').hidden = true;
 directory.searchInput.placeholder = '搜尋姓名、機構或系所';
 $('map-search').append(directory.searchForm);
-$('panel-close').addEventListener('click', closePanel);
 panelToggle.addEventListener('click', (event) => {
   if (event.detail && suppressHandleClick) return;
-  if (panel.hidden) showPanel(panelView, { focus: narrowLayout.matches, restoreScroll: true });
+  if (panel.hidden) showPanel(panelView, { focus: narrowLayout.matches || event.detail === 0, restoreScroll: true });
   else closePanel({ focusTarget: panelToggle });
 });
-panelSize.addEventListener('click', () => setSheetTall(!mapApp.classList.contains('is-sheet-tall')));
+panelToggle.addEventListener('keydown', (event) => {
+  if (!narrowLayout.matches || !['ArrowUp', 'ArrowDown'].includes(event.key)) return;
+  event.preventDefault();
+  if (event.key === 'ArrowUp') {
+    if (panel.hidden) showPanel(panelView, { focus: false, restoreScroll: true });
+    else setSheetTall(true);
+  } else if (mapApp.classList.contains('is-sheet-tall')) {
+    setSheetTall(false);
+  } else closePanel({ focusTarget: panelToggle });
+});
 panelToggle.addEventListener('pointerdown', (event) => {
   if (!event.isPrimary || event.button !== 0) return;
   suppressHandleClick = false;
@@ -367,7 +375,13 @@ function endSheetDrag(event) {
 for (const type of ['pointerup', 'pointercancel', 'lostpointercapture']) {
   panelToggle.addEventListener(type, endSheetDrag);
 }
+function updateHandleShortcuts() {
+  if (narrowLayout.matches) panelToggle.setAttribute('aria-keyshortcuts', 'ArrowUp ArrowDown');
+  else panelToggle.removeAttribute('aria-keyshortcuts');
+}
+updateHandleShortcuts();
 narrowLayout.addEventListener('change', () => {
+  updateHandleShortcuts();
   if (!sheetDrag) return;
   if (sheetDrag.closed) closePanel({ focusTarget: panelToggle });
   else clearSheetDrag();
@@ -375,10 +389,6 @@ narrowLayout.addEventListener('change', () => {
 new ResizeObserver(() => {
   mapApp.style.setProperty('--sheet-toolbar-height', `${toolbar.offsetHeight}px`);
 }).observe(toolbar);
-back.addEventListener('click', () => {
-  if (activeCampus && details.querySelector('.map-campus-people') === null) showCampus(activeCampus, campusListReturn);
-  else showPanel('directory');
-});
 $('reset-map').addEventListener('click', () => {
   pendingReveal = undefined;
   atlas.reset();
