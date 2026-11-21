@@ -31,3 +31,16 @@
 4. 建立 Pages 專案並綁定子網域，完成正式站驗證。
 
 目前為專案規劃階段。
+
+## 更新資料
+
+```sh
+python3 scripts/import_signatories.py
+python3 scripts/check_institutions.py
+python3 scripts/check_institutions.py 臺灣大學
+python3 scripts/check_institutions.py --unmatched
+```
+
+- `data/signatories.json` 是公開名單快照，按原站段落保存。重新匯入會列出新增與移除的原文，修正會以一筆移除和一筆新增呈現。
+- `data/institutions/` 保存可手動維護的機構清單。每筆列出機構正名、原站使用的別名、機構網址、官方校區地址與查核日期。新增別名前，先確認它指向同一機構。
+- 別名比對只提供機構候選，供後續查核。遇到多個單位或多校區，需要根據署名原文與官方資料確認地圖點位。

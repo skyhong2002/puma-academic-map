@@ -1,0 +1,246 @@
+[
+  {
+    "name": "國立臺灣大學",
+    "aliases": [
+      "國立台灣大學",
+      "臺灣大學",
+      "台灣大學",
+      "臺大",
+      "台大"
+    ],
+    "official_url": "https://www.ntu.edu.tw/",
+    "campuses": [
+      {
+        "name": "校總區",
+        "county": "臺北市",
+        "address": "臺北市羅斯福路四段1號",
+        "source_url": "https://www.ntu.edu.tw/contact.html"
+      }
+    ],
+    "checked_on": "2026-11-21"
+  },
+  {
+    "name": "國立政治大學",
+    "aliases": [
+      "政治大學",
+      "政大"
+    ],
+    "official_url": "https://www.nccu.edu.tw/",
+    "campuses": [
+      {
+        "name": "校本部",
+        "county": "臺北市",
+        "address": "臺北市文山區指南路二段64號",
+        "source_url": "https://www.nccu.edu.tw/"
+      }
+    ],
+    "checked_on": "2026-11-21"
+  },
+  {
+    "name": "國立臺灣師範大學",
+    "aliases": [
+      "國立台灣師範大學",
+      "臺灣師範大學",
+      "台灣師範大學",
+      "台灣師大",
+      "台師大"
+    ],
+    "official_url": "https://www.ntnu.edu.tw/",
+    "campuses": [
+      {
+        "name": "和平校區",
+        "county": "臺北市",
+        "address": "臺北市大安區和平東路一段162號",
+        "source_url": "https://www.sa.ntnu.edu.tw/ntnumapinfo/"
+      },
+      {
+        "name": "公館校區",
+        "county": "臺北市",
+        "address": "臺北市文山區汀州路四段88號",
+        "source_url": "https://www.sa.ntnu.edu.tw/ntnumapinfo/"
+      },
+      {
+        "name": "林口校區",
+        "county": "新北市",
+        "address": "新北市林口區仁愛路一段2號",
+        "source_url": "https://www.sa.ntnu.edu.tw/ntnumapinfo/"
+      }
+    ],
+    "checked_on": "2026-11-21"
+  },
+  {
+    "name": "國立陽明交通大學",
+    "aliases": [
+      "陽明交通大學",
+      "陽明交大"
+    ],
+    "official_url": "https://www.nycu.edu.tw/",
+    "campuses": [
+      {
+        "name": "新竹光復校區",
+        "county": "新竹市",
+        "address": "新竹市東區大學路1001號",
+        "source_url": "https://www.nycu.edu.tw/nycu/ch/app/artwebsite/view?id=3981&module=artwebsite&serno=c7e74691-8e3b-4ce5-bc4c-bf801f78b1fe"
+      },
+      {
+        "name": "臺北陽明校區",
+        "county": "臺北市",
+        "address": "臺北市北投區立農街二段155號",
+        "source_url": "https://www.nycu.edu.tw/nycu/ch/app/artwebsite/view?id=3981&module=artwebsite&serno=c7e74691-8e3b-4ce5-bc4c-bf801f78b1fe"
+      },
+      {
+        "name": "臺北北門校區",
+        "county": "臺北市",
+        "address": "臺北市中正區忠孝西路一段118號",
+        "source_url": "https://www.nycu.edu.tw/nycu/ch/app/artwebsite/view?id=3981&module=artwebsite&serno=c7e74691-8e3b-4ce5-bc4c-bf801f78b1fe"
+      },
+      {
+        "name": "高雄校區",
+        "county": "高雄市",
+        "address": "高雄市左營區崇德路801號",
+        "source_url": "https://www.nycu.edu.tw/nycu/ch/app/artwebsite/view?id=3981&module=artwebsite&serno=c7e74691-8e3b-4ce5-bc4c-bf801f78b1fe"
+      }
+    ],
+    "checked_on": "2026-11-21"
+  },
+  {
+    "name": "國立清華大學",
+    "aliases": [
+      "清華大學",
+      "清大"
+    ],
+    "official_url": "https://www.nthu.edu.tw/",
+    "campuses": [
+      {
+        "name": "校本部",
+        "county": "新竹市",
+        "address": "新竹市光復路二段101號",
+        "source_url": "https://www.nthu.edu.tw/campusmap"
+      },
+      {
+        "name": "南大校區",
+        "county": "新竹市",
+        "address": "新竹市南大路521號",
+        "source_url": "https://www.nthu.edu.tw/campusmap"
+      }
+    ],
+    "checked_on": "2026-11-21"
+  },
+  {
+    "name": "國立成功大學",
+    "aliases": [
+      "成功大學",
+      "成大"
+    ],
+    "official_url": "https://web.ncku.edu.tw/",
+    "campuses": [
+      {
+        "name": "校本部",
+        "county": "臺南市",
+        "address": "臺南市東區大學路1號",
+        "source_url": "https://web.ncku.edu.tw/p/412-1000-29376.php?Lang=zh-tw"
+      }
+    ],
+    "checked_on": "2026-11-21"
+  },
+  {
+    "name": "輔仁大學",
+    "aliases": [
+      "輔仁大",
+      "輔大"
+    ],
+    "official_url": "https://www.fju.edu.tw/",
+    "campuses": [
+      {
+        "name": "校本部",
+        "county": "新北市",
+        "address": "新北市新莊區中正路510號",
+        "source_url": "https://www.fju.edu.tw/file/upload/DM_CH.pdf"
+      }
+    ],
+    "checked_on": "2026-11-21"
+  },
+  {
+    "name": "國立中山大學",
+    "aliases": [
+      "中山大學"
+    ],
+    "official_url": "https://www.nsysu.edu.tw/",
+    "campuses": [
+      {
+        "name": "西子灣校區",
+        "county": "高雄市",
+        "address": "高雄市鼓山區蓮海路70號",
+        "source_url": "https://oga.nsysu.edu.tw/p/404-1005-330051.php?Lang=zh-tw"
+      }
+    ],
+    "checked_on": "2026-11-21"
+  },
+  {
+    "name": "國立中興大學",
+    "aliases": [
+      "中興大學",
+      "興大"
+    ],
+    "official_url": "https://www.nchu.edu.tw/",
+    "campuses": [
+      {
+        "name": "校本部",
+        "county": "臺中市",
+        "address": "臺中市南區興大路145號",
+        "source_url": "https://www.ginppa.nchu.edu.tw/upload/doc/202310301856570.pdf"
+      },
+      {
+        "name": "南投校區（循環經濟研究學院）",
+        "county": "南投縣",
+        "address": "南投縣南投市光明路15號",
+        "source_url": "https://www.nchu.edu.tw/about/mid/961"
+      }
+    ],
+    "checked_on": "2026-11-21"
+  },
+  {
+    "name": "國立中正大學",
+    "aliases": [
+      "中正大學"
+    ],
+    "official_url": "https://www.ccu.edu.tw/",
+    "campuses": [
+      {
+        "name": "校本部",
+        "county": "嘉義縣",
+        "address": "嘉義縣民雄鄉大學路一段168號",
+        "source_url": "https://exams.ccu.edu.tw/var/file/32/1032/img/1138/114regulation_U.pdf"
+      }
+    ],
+    "checked_on": "2026-11-21"
+  },
+  {
+    "name": "淡江大學",
+    "aliases": [
+      "淡江"
+    ],
+    "official_url": "https://www.tku.edu.tw/",
+    "campuses": [
+      {
+        "name": "淡水校園",
+        "county": "新北市",
+        "address": "新北市淡水區英專路151號",
+        "source_url": "https://classic.tku.edu.tw/address.asp"
+      },
+      {
+        "name": "臺北校園",
+        "county": "臺北市",
+        "address": "臺北市大安區金華街199巷5號",
+        "source_url": "https://about.tku.edu.tw/campus.html"
+      },
+      {
+        "name": "蘭陽校園",
+        "county": "宜蘭縣",
+        "address": "宜蘭縣礁溪鄉林美村林尾路180號",
+        "source_url": "https://classic.tku.edu.tw/address.asp"
+      }
+    ],
+    "checked_on": "2026-11-21"
+  }
+]

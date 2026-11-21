@@ -1,0 +1,249 @@
+[
+  {
+    "name": "中央研究院",
+    "aliases": [
+      "中研院"
+    ],
+    "official_url": "https://www.sinica.edu.tw/",
+    "campuses": [
+      {
+        "name": "南港院區",
+        "county": "臺北市",
+        "address": "臺北市南港區研究院路二段128號",
+        "source_url": "https://web.iis.sinica.edu.tw/zh/page/AboutUs/Directions.html"
+      },
+      {
+        "name": "國家生技研究園區",
+        "county": "臺北市",
+        "address": "臺北市南港區研究院路一段130巷99號",
+        "source_url": "https://nbrp.sinica.edu.tw/pages/83"
+      },
+      {
+        "name": "南部院區",
+        "county": "臺南市",
+        "address": "臺南市歸仁區歸仁十三路一段100號",
+        "source_url": "https://dscs.sinica.edu.tw/"
+      }
+    ],
+    "checked_on": "2026-11-21"
+  },
+  {
+    "name": "中央研究院民族學研究所",
+    "aliases": [
+      "中研院民族所"
+    ],
+    "official_url": "https://www.ioe.sinica.edu.tw/",
+    "campuses": [
+      {
+        "name": "南港院區",
+        "county": "臺北市",
+        "address": "臺北市南港區研究院路二段128號",
+        "source_url": "https://www.ioe.sinica.edu.tw/Common/SinglePage?SiteID=416763f8-a1f7-48fd-bfbf-9327913efad7&filter=F3BDAEEA-740A-40A7-9DEA-FC7DBD07FF5D"
+      }
+    ],
+    "checked_on": "2026-11-21"
+  },
+  {
+    "name": "中央研究院分子生物研究所",
+    "aliases": [
+      "中研院分生所",
+      "中央研究院分子生物學研究所"
+    ],
+    "official_url": "https://www.imb.sinica.edu.tw/",
+    "campuses": [
+      {
+        "name": "南港院區",
+        "county": "臺北市",
+        "address": "臺北市南港區研究院路二段128號",
+        "source_url": "https://www.imb.sinica.edu.tw/ch/about/maps.html"
+      }
+    ],
+    "checked_on": "2026-11-21"
+  },
+  {
+    "name": "中央研究院資訊科學研究所",
+    "aliases": [
+      "中央研究院資訊所"
+    ],
+    "official_url": "https://web.iis.sinica.edu.tw/",
+    "campuses": [
+      {
+        "name": "南港院區",
+        "county": "臺北市",
+        "address": "臺北市南港區研究院路二段128號",
+        "source_url": "https://web.iis.sinica.edu.tw/zh/page/AboutUs/Directions.html"
+      }
+    ],
+    "checked_on": "2026-11-21"
+  },
+  {
+    "name": "中央研究院生醫轉譯研究中心",
+    "aliases": [],
+    "official_url": "https://biotrec.sinica.edu.tw/",
+    "campuses": [
+      {
+        "name": "國家生技研究園區",
+        "county": "臺北市",
+        "address": "臺北市南港區研究院路一段130巷99號",
+        "source_url": "https://biotrec.sinica.edu.tw/pages/4191"
+      }
+    ],
+    "checked_on": "2026-11-21"
+  },
+  {
+    "name": "國家衛生研究院",
+    "aliases": [],
+    "official_url": "https://www.nhri.edu.tw/",
+    "campuses": [
+      {
+        "name": "竹南院區",
+        "county": "苗栗縣",
+        "address": "苗栗縣竹南鎮科研路35號",
+        "source_url": "https://www.nhri.edu.tw/Webservices/contact"
+      },
+      {
+        "name": "台北辦事處",
+        "county": "臺北市",
+        "address": "臺北市南港區園區街3號10樓",
+        "source_url": "https://www.nhri.edu.tw/Webservices/contact"
+      },
+      {
+        "name": "台南院區",
+        "county": "臺南市",
+        "address": "臺南市北區勝利路367號",
+        "source_url": "https://www.nhri.edu.tw/Webservices/contact"
+      },
+      {
+        "name": "雲林院區",
+        "county": "雲林縣",
+        "address": "雲林縣虎尾鎮學府路95號之1",
+        "source_url": "https://www.nhri.edu.tw/Webservices/contact"
+      }
+    ],
+    "checked_on": "2026-11-21"
+  },
+  {
+    "name": "國家同步輻射研究中心",
+    "aliases": [
+      "同步輻射研究中心"
+    ],
+    "official_url": "https://www.nsrrc.org.tw/",
+    "campuses": [
+      {
+        "name": "新竹科學園區",
+        "county": "新竹市",
+        "address": "新竹市新安路101號",
+        "source_url": "https://www.nsrrc.org.tw/chinese/newplice.aspx"
+      }
+    ],
+    "checked_on": "2026-11-21"
+  },
+  {
+    "name": "台灣經濟研究院",
+    "aliases": [],
+    "official_url": "https://www.tier.org.tw/",
+    "campuses": [
+      {
+        "name": "本院",
+        "county": "臺北市",
+        "address": "臺北市中山區德惠街16-8號",
+        "source_url": "https://www.tier.org.tw/intro/address.aspx"
+      }
+    ],
+    "checked_on": "2026-11-21"
+  },
+  {
+    "name": "農業部林業試驗所",
+    "aliases": [
+      "林業試驗所"
+    ],
+    "official_url": "https://www.tfri.gov.tw/",
+    "campuses": [
+      {
+        "name": "本所",
+        "county": "臺北市",
+        "address": "臺北市中正區南海路53號",
+        "source_url": "https://www.tfri.gov.tw/cp.aspx?n=7464"
+      }
+    ],
+    "checked_on": "2026-11-21"
+  },
+  {
+    "name": "財團法人食品工業發展研究所",
+    "aliases": [],
+    "official_url": "https://www.firdi.org.tw/",
+    "campuses": [
+      {
+        "name": "本所",
+        "county": "新竹市",
+        "address": "新竹市東區食品路331號",
+        "source_url": "https://www.firdi.org.tw/Firdi_ContactInfo.aspx"
+      }
+    ],
+    "checked_on": "2026-11-21"
+  },
+  {
+    "name": "國家太空中心",
+    "aliases": [],
+    "official_url": "https://www.tasa.org.tw/",
+    "campuses": [
+      {
+        "name": "展業一路據點",
+        "county": "新竹市",
+        "address": "新竹市展業一路9號8樓",
+        "source_url": "https://www.tasa.org.tw/zh-TW/contact-us"
+      },
+      {
+        "name": "公道五路據點",
+        "county": "新竹市",
+        "address": "新竹市公道五路二段250號",
+        "source_url": "https://www.tasa.org.tw/zh-TW/contact-us"
+      },
+      {
+        "name": "臺北據點",
+        "county": "臺北市",
+        "address": "臺北市大安區忠孝東路三段46號8樓",
+        "source_url": "https://www.tasa.org.tw/zh-TW/contact-us"
+      },
+      {
+        "name": "臺南據點",
+        "county": "臺南市",
+        "address": "臺南市歸仁區高發三路二段301號7樓",
+        "source_url": "https://www.tasa.org.tw/zh-TW/contact-us"
+      }
+    ],
+    "checked_on": "2026-11-21"
+  },
+  {
+    "name": "台灣金融研訓院",
+    "aliases": [],
+    "official_url": "https://www.tabf.org.tw/",
+    "campuses": [
+      {
+        "name": "院本部",
+        "county": "臺北市",
+        "address": "臺北市中正區羅斯福路三段62號",
+        "source_url": "https://www.tabf.org.tw/AboutServiceBase.aspx"
+      },
+      {
+        "name": "研究所辦公室",
+        "county": "臺北市",
+        "address": "臺北市中正區南海路3號4樓",
+        "source_url": "https://www.tabf.org.tw/AboutServiceBase.aspx"
+      },
+      {
+        "name": "中部服務中心",
+        "county": "臺中市",
+        "address": "臺中市中區民權路174號3樓",
+        "source_url": "https://www.tabf.org.tw/AboutServiceBase.aspx"
+      },
+      {
+        "name": "南部服務中心",
+        "county": "高雄市",
+        "address": "高雄市前金區中正四路230號3、5樓",
+        "source_url": "https://www.tabf.org.tw/AboutServiceBase.aspx"
+      }
+    ],
+    "checked_on": "2026-11-21"
+  }
+]
