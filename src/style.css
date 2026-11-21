@@ -962,12 +962,27 @@ path.bin-4 { fill: var(--bin-4); }
   place-items: center;
   font-weight: 700;
 }
-.world-land {
+.world-country {
   fill: var(--bin-2);
   fill-opacity: 1;
   stroke: var(--bin-4);
-  stroke-width: 1;
+  stroke-width: 0.8;
 }
+
+#world-atlas {
+  flex: none;
+  height: clamp(260px, 48svh, 540px);
+}
+
+.world-rail__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .map-switch[hidden] {
   display: none;
 }
@@ -1094,4 +1109,16 @@ path.bin-4 { fill: var(--bin-4); }
 @media (min-width: 1040px) {
   .masthead { grid-template-columns: minmax(0, 1fr) auto auto; }
   .masthead__stats { grid-column: auto; }
+}
+
+@media (max-width: 719px) {
+  #world-atlas { height: clamp(250px, 34svh, 340px); }
+}
+
+@media (min-width: 1040px) {
+  .atlas-column.atlas-column--world {
+    position: static;
+    height: auto;
+    min-height: 0;
+  }
 }

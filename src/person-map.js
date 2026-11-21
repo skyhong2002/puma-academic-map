@@ -1,7 +1,7 @@
 import L from 'leaflet';
 import 'leaflet.markercluster';
 import 'leaflet.markercluster/dist/MarkerCluster.css';
-import worldLand from './world-land.json';
+import worldCountries from './world-countries.json';
 import { isTaiwan, people } from './person-data.js';
 
 export const taiwanPeople = people.filter((person) => person.locations.some(isTaiwan));
@@ -264,11 +264,20 @@ export function addTaiwanPeople(map) {
 }
 
 export function createWorldMap(container) {
+  const overview = [[-57, -178], [82, 179]];
   const map = L.map(container, {
     minZoom: 0, maxZoom: 12, zoomSnap: 0, zoomDelta: 0.75, worldCopyJump: true, scrollWheelZoom: false,
-  }).fitBounds([[-57, -178], [82, 179]], { padding: [10, 10] });
-  L.geoJSON(worldLand, { interactive: false, className: 'world-land' }).addTo(map);
-  map.attributionControl.addAttribution('Natural Earth');
+  }).fitBounds(overview, { padding: [10, 10] });
+  L.geoJSON(worldCountries, { interactive: false, className: 'world-country' }).addTo(map);
+  map.attributionControl.addAttribution('<a href="https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/">Natural Earth</a>');
   const locate = addPersonMarkers(map, overseasPeople, (point) => !isTaiwan(point), 4);
-  return { map, locate };
+  return {
+    map,
+    locate,
+    fitCountry(points) {
+      map.closePopup();
+      map.fitBounds(points?.map(({ lat, lon }) => [lat, lon]) ?? overview,
+        { padding: [24, 24], maxZoom: 6 });
+    },
+  };
 }

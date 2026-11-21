@@ -223,10 +223,46 @@ directory = mountDirectory($('directory'), {
 });
 
 let worldMap;
+const overseasCountries = new Map();
+for (const person of overseasPeople) {
+  for (const point of person.locations.filter((location) => !isTaiwan(location))) {
+    if (!overseasCountries.has(point.country)) overseasCountries.set(point.country, { people: new Set(), points: [] });
+    const country = overseasCountries.get(point.country);
+    country.people.add(person);
+    country.points.push(point);
+  }
+}
+
+const countryButtons = new Map();
+for (const [name, country] of [[null, { people: new Set(overseasPeople) }],
+  ...[...overseasCountries].sort(([a, x], [b, y]) => y.people.size - x.people.size || a.localeCompare(b, 'zh-TW'))]) {
+  const li = document.createElement('li');
+  const button = document.createElement('button');
+  const count = document.createElement('span');
+  button.className = 'chip';
+  button.type = 'button';
+  button.setAttribute('aria-pressed', String(name === null));
+  button.setAttribute('aria-label', `${name ?? '全部地區'}，${country.people.size} 筆署名`);
+  count.className = 'chip__count bin-2';
+  count.textContent = number.format(country.people.size);
+  button.append(name ?? '全部地區', count);
+  button.addEventListener('click', () => {
+    for (const [key, item] of countryButtons) item.setAttribute('aria-pressed', String(key === name));
+    directory.setOverseasCountry(name);
+    worldMap.fitCountry(country.points);
+  });
+  countryButtons.set(name, button);
+  li.append(button);
+  $('world-country-list').append(li);
+}
+
 function showWorld(show) {
+  const wasVisible = !$('world-atlas').hidden;
   directory?.setOverseas(show);
   $('atlas').hidden = show;
   $('world-atlas').hidden = !show;
+  $('world-rail').hidden = !show;
+  $('atlas').parentElement.classList.toggle('atlas-column--world', show);
   list.closest('nav').hidden = show;
   $('show-taiwan').setAttribute('aria-pressed', String(!show));
   $('show-world').setAttribute('aria-pressed', String(show));
@@ -235,6 +271,9 @@ function showWorld(show) {
   if (show) {
     worldMap ??= createWorldMap($('world-map'));
     worldMap.map.invalidateSize();
+    if (!wasVisible) worldMap.fitCountry();
+  } else {
+    for (const [key, item] of countryButtons) item.setAttribute('aria-pressed', String(key === null));
   }
 }
 $('show-taiwan').addEventListener('click', () => showWorld(false));

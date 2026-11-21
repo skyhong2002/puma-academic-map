@@ -71,6 +71,6 @@ python3 scripts/check_institutions.py --unmatched
 
 ### 署名者地圖
 
-地圖使用具有學術關係證據的機構座標。臺灣機構座標使用內政部國土測繪中心的[文教設施資料](https://data.gov.tw/dataset/139251)與[醫療設施資料](https://data.gov.tw/dataset/139250)，海外據點的地點來源與個別學術單位來源收錄在 `data/research/`，部分機構座標來自 [© OpenStreetMap contributors](https://www.openstreetmap.org/copyright)。世界底圖使用 [Natural Earth](https://www.naturalearthdata.com/about/terms-of-use/) 1:110m land 資料。
+地圖使用具有學術關係證據的機構座標。臺灣機構座標使用內政部國土測繪中心的[文教設施資料](https://data.gov.tw/dataset/139251)與[醫療設施資料](https://data.gov.tw/dataset/139250)，海外據點的地點來源與個別學術單位來源收錄在 `data/research/`，部分機構座標來自 [© OpenStreetMap contributors](https://www.openstreetmap.org/copyright)。世界底圖使用 [Natural Earth 1:110m Admin 0 國界](https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/) v5.1.2，範圍略去南極洲。
 
 每個點屬於一筆署名與一個有證據的機構。同一署名可以對應多個機構，地圖上的「已定位」計數排除同一段落內完全相同的重複原文。地圖放大後可逐人查看，重疊的點會在同一位置展開。點位代表機構所在位置；多校區機構的點可能位於代表校區。

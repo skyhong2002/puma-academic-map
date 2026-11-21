@@ -209,6 +209,7 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
   const state = {
     county: null,
     overseas: false,
+    overseasCountry: null,
     groupBy: 'people',
     institution: null,
     view: 'browse', // browse | unlocated
@@ -427,9 +428,9 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
   }
 
   function renderPeople() {
-    const title = state.overseas ? '海外署名者' : state.county ? `${state.county}署名者` : '全部署名者';
+    const title = state.overseas ? (state.overseasCountry ? `${state.overseasCountry}署名者` : '海外署名者') : state.county ? `${state.county}署名者` : '全部署名者';
     const list = entries.filter((entry) => {
-      if (state.overseas) return locationsFor(entry).length > 0;
+      if (state.overseas) return locationsFor(entry).some((place) => !state.overseasCountry || place.country === state.overseasCountry);
       if (state.county) return locationsFor(entry).some((place) => normalizeCounty(place.city)?.startsWith(state.county));
       return true;
     });
@@ -696,9 +697,16 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
   render();
 
   return {
+    setOverseasCountry(country) {
+      state.overseasCountry = country;
+      state.entryLimit = PAGE;
+      resetSearch();
+      render();
+    },
     setOverseas(value) {
       if (value === state.overseas) return;
       state.overseas = value;
+      state.overseasCountry = null;
       state.institution = null;
       state.view = 'browse';
       state.entryLimit = PAGE;
