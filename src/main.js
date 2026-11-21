@@ -123,7 +123,7 @@ function showCampus(campus, restore) {
     if (restore?.person === person) returnButton = button;
     button.addEventListener('click', () => {
       const scrollTop = panelContent.scrollTop;
-      const location = unit ? locatedUnit(person, point) ?? point : point;
+      const location = locatedUnit(person, point) ?? point;
       showPerson(person, location, () => showCampus(campus, { person, scrollTop }));
     });
     if (person.portrait) {

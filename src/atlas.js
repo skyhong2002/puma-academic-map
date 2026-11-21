@@ -642,7 +642,11 @@ export function createAtlas(container, people, { onCampus, onCampusZoom, onPerso
       map.setView([point.lat, point.lon], CAMPUS_PEOPLE_ZOOM, { animate: false });
     },
     reveal(point) {
-      map.panInside([point.lat, point.lon], { padding: [48, 48], animate: false });
+      const { x, y } = map.getSize();
+      map.panInside([point.lat, point.lon], {
+        padding: [Math.min(48, x / 4), Math.min(48, y / 4)],
+        animate: false,
+      });
     },
     peopleAt(point) { return [...(peopleByUnit.get(point) ?? [])]; },
     canExpandUnit,
