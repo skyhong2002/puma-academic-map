@@ -1,6 +1,10 @@
-# 支持沈伯洋的學術界公開署名地圖
+# 台北市市長候選人沈伯洋先生 學界後援會署名地圖
 
-規劃以互動地圖呈現[學術後援會公開名單](https://sites.google.com/view/academic-kouenkai-for-puma/)所列的機構分布。全臺視圖包含離島，放大後可查看當地機構與原站公開署名。地圖座標代表公開的機構或校區位置，署名和職稱均附來源與資料日期。
+[<img src="assets/puma-signature.webp" alt="學界後援會署名地圖 Logo" width="112" height="112">](https://puma-academic.observe.tw/)
+
+[開啟署名地圖](https://puma-academic.observe.tw/)
+
+規劃以互動地圖呈現[學界後援會原始名錄](https://sites.google.com/view/academic-kouenkai-for-puma/)所列的機構分布。全臺視圖包含離島，放大後可查看當地機構與原站公開署名。地圖座標代表公開的機構或校區位置，署名和職稱均附來源與資料日期。
 
 ## 名單匯入與校區定位
 
@@ -81,6 +85,8 @@ python3 scripts/check_institutions.py --unmatched
 114 學年度資料以外，也可用[教育部 108 學年度資料集](https://data.gov.tw/dataset/27931)補歷史任職資料。執行同一支匯入器時，在 CSV 檔名後加 `108`。
 
 ### 署名者地圖
+
+互動地圖使用 OpenStreetMap 圖磚。底圖資料由 [© OpenStreetMap 貢獻者](https://www.openstreetmap.org/copyright) 提供，資料採用 ODbL 授權。
 
 地圖使用具有學術關係證據的機構座標。臺灣機構座標使用內政部國土測繪中心的[文教設施資料](https://data.gov.tw/dataset/139251)與[醫療設施資料](https://data.gov.tw/dataset/139250)，海外據點的地點來源與個別學術單位來源收錄在 `data/research/`，部分機構座標來自 [© OpenStreetMap contributors](https://www.openstreetmap.org/copyright)。世界底圖使用 [Natural Earth 1:110m Admin 0 國界](https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/) v5.1.2，範圍略去南極洲。
 

@@ -13,7 +13,6 @@ const details = $('place-details');
 const directoryElement = $('directory');
 const about = $('about-map');
 const back = $('panel-back');
-const open = $('open-directory');
 const panelToggle = $('panel-toggle');
 const panelSize = $('panel-size');
 const aboutButton = $('map-about');
@@ -32,7 +31,6 @@ let sheetFrame;
 let suppressHandleClick = false;
 
 function updateViewExpanded(expanded) {
-  open.setAttribute('aria-expanded', String(expanded && panelView === 'directory'));
   aboutButton.setAttribute('aria-expanded', String(expanded && panelView === 'about'));
 }
 
@@ -78,7 +76,7 @@ function closePanel({ focusTarget = returnFocus } = {}) {
   collapsedScrollTop = panelContent.scrollTop;
   setPanelExpanded(false);
   setSheetTall(false);
-  (focusTarget?.isConnected && focusTarget.getClientRects().length ? focusTarget : open).focus({ preventScroll: true });
+  (focusTarget?.isConnected && focusTarget.getClientRects().length ? focusTarget : panelToggle).focus({ preventScroll: true });
 }
 
 function revealAfterPanelResize(point) {
@@ -175,7 +173,7 @@ function showCampus(campus) {
     expand.className = 'map-campus-zoom';
     expand.textContent = `在地圖展開 ${number.format(people.length)} 人`;
     expand.addEventListener('click', () => {
-      closePanel({ focusTarget: open });
+      closePanel({ focusTarget: panelToggle });
       atlas.expandCampus(point);
     });
     details.append(expand);
@@ -256,10 +254,6 @@ directory.searchInput.addEventListener('input', () => {
 directory.searchInput.addEventListener('keydown', (event) => {
   if (event.key === 'ArrowDown') showPanel('directory', { focus: false });
 }, { capture: true });
-open.addEventListener('click', () => {
-  if (!panel.hidden && !directoryElement.hidden) closePanel();
-  else showPanel('directory');
-});
 $('panel-close').addEventListener('click', closePanel);
 panelToggle.addEventListener('click', (event) => {
   if (event.detail && suppressHandleClick) return;
@@ -349,7 +343,7 @@ document.addEventListener('keydown', (event) => {
 });
 
 if (roster.source_url) $('source-link').href = roster.source_url;
-for (const link of document.querySelectorAll('.map-toolbar__signup, #about-map a[href^="https://forms.gle/"]')) {
+for (const link of document.querySelectorAll('#about-map a[href^="https://forms.gle/"]')) {
   link.addEventListener('click', () => track('click_signup_link'));
 }
 $('map-totals').textContent = [
