@@ -18,12 +18,6 @@
       "source_url": "https://kmweb.moa.gov.tw/theme_data.php?id=93537&sub_theme=attention&theme=news",
       "license_url": "https://kmweb.moa.gov.tw/ws.php?id=260"
     },
-    "林鉦棽（屏東科技大學企管系教授）": {
-      "file": "completion-3-lin-cheng-shen.webp",
-      "credit": "國立屏東科技大學，依政府網站資料開放宣告使用（須註明出處）；依企業管理系教師頁具名照片裁切、縮圖及轉為 WebP",
-      "source_url": "https://ba.npust.edu.tw/teacher/%E6%9E%97%E9%89%A6%E6%A3%BD/",
-      "license_url": "https://wp.npust.edu.tw/%E6%94%BF%E5%BA%9C%E7%B6%B2%E7%AB%99%E8%B3%87%E6%96%99%E9%96%8B%E6%94%BE%E5%AE%A3%E5%91%8A/"
-    },
     "劉明豪（國立成功大學物理系教授）": {
       "file": "completion-3-liu-ming-hao.webp",
       "credit": "國立成功大學物理學系，依網頁使用條款之網站資料開放宣告使用（須註明出處）；依系所成員頁具名照片裁切、縮圖及轉為 WebP",
@@ -35,6 +29,12 @@
       "credit": "Wang Yu Ching／中華民國總統府，CC BY 2.0；經 Wikimedia Commons，依具名活動照片裁切、縮圖及轉為 WebP",
       "source_url": "https://commons.wikimedia.org/wiki/File:Wu_Shu-min_at_the_FAPA_40th_Anniversary_Banquet_In_Taipei_2023-05-01.jpg",
       "license_url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "鄭政秉（國立雲林科技大學教授）": {
+      "file": "completion-3-cheng-cheng-ping.webp",
+      "credit": "思與言學社〈《思與言》專訪何景賢照片〉（2020-03-20），思與言人文社會學社建檔，國家文化記憶庫，影像 CC BY-NC 3.0 TW；依說明（總編輯鄭政秉教授訪問何景賢）與雲科大財金系教師頁照片比對，裁切合照中鄭政秉頭肩方形、縮放與 WebP 轉檔，供非商業使用",
+      "source_url": "https://tcmb.culture.tw/zh-tw/detail?indexCode=Culture_Object&id=623165",
+      "license_url": "https://creativecommons.org/licenses/by-nc/3.0/tw/"
     }
   }
 }
