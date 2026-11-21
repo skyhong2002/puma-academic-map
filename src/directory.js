@@ -110,7 +110,7 @@ for (const [section, data] of Object.entries(roster.sections || {})) {
   });
 }
 function sourcesFor(entry) {
-  return affiliationSources(entry.section, entry.raw);
+  return affiliationSources(entry.section, entry.raw).filter((source) => source.kind !== 'support');
 }
 
 const pointsBySection = new Map();
@@ -560,6 +560,7 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
   function entryItem(entry, { exclude, query = '', result = false } = {}) {
     const candidates = entry.candidates.filter((inst) => inst.id !== exclude);
     const sources = sourcesFor(entry);
+    const support = affiliationSources(entry.section, entry.raw).filter((source) => source.kind === 'support');
     const portrait = portraitFor(entry.section, entry.raw);
     const places = pointsBySection.get(entry.section)?.get(entry.raw) ?? [];
     const name = entry.name || '（未解析條目）';
@@ -595,6 +596,10 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
               ? h('ul', {}, sources.map((source) => h('li', {},
                 extLink(source.url, source.label), '，', source.description)))
               : h('p', { class: 'pa-dir-muted', text: '待補可核對此人的公開來源。' })),
+          support.length ? h('div', { class: 'pa-dir-affiliation-sources' },
+            h('strong', { text: '相關公開活動' }),
+            h('ul', {}, support.map((source) => h('li', {},
+              extLink(source.url, source.label), '，', source.description)))) : null,
           portrait ? h('p', { class: 'pa-dir-entry-source' },
             extLink(portrait.source_url, '照片來源'), '，', portrait.credit,
             portrait.license_url ? [' · ', extLink(portrait.license_url, '授權條款')] : null) : null,
@@ -709,6 +714,8 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
   return {
     geoTitle,
     geoList,
+    searchForm,
+    searchInput,
     setMapInstitution(institution, members) {
       state.mapInstitution = institution;
       state.mapInstitutionMembers = members

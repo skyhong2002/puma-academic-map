@@ -10,19 +10,28 @@
         "name": "壽豐校區",
         "county": "花蓮縣",
         "address": "花蓮縣壽豐鄉大學路二段1號",
-        "source_url": "https://www.ndhu.edu.tw/p/412-1000-8813.php?Lang=zh-tw"
+        "source_url": "https://www.ndhu.edu.tw/p/412-1000-8813.php?Lang=zh-tw",
+        "lat": 23.892308,
+        "lon": 121.544414,
+        "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/23.901/6000"
       },
       {
         "name": "美崙校區",
         "county": "花蓮縣",
         "address": "花蓮縣花蓮市華西路123號",
-        "source_url": "https://www.ndhu.edu.tw/p/412-1000-8813.php?Lang=zh-tw"
+        "source_url": "https://www.ndhu.edu.tw/p/412-1000-8813.php?Lang=zh-tw",
+        "lat": 24.009952,
+        "lon": 121.618155,
+        "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.59/23.983/6500"
       },
       {
         "name": "屏東校區",
         "county": "屏東縣",
         "address": "屏東縣車城鄉後灣路2號",
-        "source_url": "https://www.ndhu.edu.tw/p/412-1000-8813.php?Lang=zh-tw"
+        "source_url": "https://www.ndhu.edu.tw/p/412-1000-8813.php?Lang=zh-tw",
+        "lat": 22.050343,
+        "lon": 120.698365,
+        "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.72/22.063/6000"
       }
     ],
     "checked_on": "2026-11-21"
@@ -36,7 +45,10 @@
         "name": "中央校區",
         "county": "花蓮縣",
         "address": "花蓮縣花蓮市中央路三段701號",
-        "source_url": "https://admissions.tcu.edu.tw/?page_id=1510"
+        "source_url": "https://admissions.tcu.edu.tw/?page_id=1510",
+        "lat": 23.99301,
+        "lon": 121.590234,
+        "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.59/23.983/6500"
       },
       {
         "name": "介仁校區",
@@ -48,7 +60,10 @@
         "name": "建國校區",
         "county": "花蓮縣",
         "address": "花蓮縣花蓮市建國路二段880號",
-        "source_url": "https://admissions.tcu.edu.tw/?page_id=1510"
+        "source_url": "https://admissions.tcu.edu.tw/?page_id=1510",
+        "lat": 23.997338,
+        "lon": 121.564924,
+        "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.59/23.983/6500"
       }
     ],
     "checked_on": "2026-11-21"
@@ -66,13 +81,19 @@
         "name": "知本校區",
         "county": "臺東縣",
         "address": "臺東縣臺東市大學路二段369號",
-        "source_url": "https://dga.nttu.edu.tw/p/412-1008-9291.php?Lang=zh-tw"
+        "source_url": "https://dga.nttu.edu.tw/p/412-1008-9291.php?Lang=zh-tw",
+        "lat": 22.736944,
+        "lon": 121.068729,
+        "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.088/22.737/7000"
       },
       {
         "name": "臺東校區",
         "county": "臺東縣",
         "address": "臺東縣臺東市中華路一段684號",
-        "source_url": "https://coce.nttu.edu.tw/p/412-1005-9955.php"
+        "source_url": "https://coce.nttu.edu.tw/p/412-1005-9955.php",
+        "lat": 22.749127,
+        "lon": 121.146959,
+        "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.147/22.758/5500"
       }
     ],
     "checked_on": "2026-11-21"
@@ -88,19 +109,28 @@
         "name": "民生校區",
         "county": "屏東縣",
         "address": "屏東縣屏東市民生路4-18號",
-        "source_url": "https://www.nptu.edu.tw/p/412-1000-3320.php"
+        "source_url": "https://www.nptu.edu.tw/p/412-1000-3320.php",
+        "lat": 22.665823,
+        "lon": 120.504755,
+        "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.489/22.669/6000"
       },
       {
         "name": "屏師校區",
         "county": "屏東縣",
         "address": "屏東縣屏東市林森路1號",
-        "source_url": "https://www.nptu.edu.tw/p/412-1000-3320.php"
+        "source_url": "https://www.nptu.edu.tw/p/412-1000-3320.php",
+        "lat": 22.669204,
+        "lon": 120.501693,
+        "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.489/22.669/6000"
       },
       {
         "name": "屏商校區",
         "county": "屏東縣",
         "address": "屏東縣屏東市民生東路51號",
-        "source_url": "https://www.nptu.edu.tw/p/412-1000-3320.php"
+        "source_url": "https://www.nptu.edu.tw/p/412-1000-3320.php",
+        "lat": 22.658432,
+        "lon": 120.512074,
+        "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.489/22.669/6000"
       }
     ],
     "checked_on": "2026-11-21"
@@ -116,7 +146,10 @@
         "name": "校本部",
         "county": "屏東縣",
         "address": "屏東縣內埔鄉學府路1號",
-        "source_url": "https://sustainability.npust.edu.tw/wp-content/uploads/2025/08/NPUST2024Sustainability-Report.pdf"
+        "source_url": "https://sustainability.npust.edu.tw/wp-content/uploads/2025/08/NPUST2024Sustainability-Report.pdf",
+        "lat": 22.643306,
+        "lon": 120.609986,
+        "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.594/22.643/5000"
       }
     ],
     "checked_on": "2026-11-21"
@@ -130,7 +163,10 @@
         "name": "校本部",
         "county": "澎湖縣",
         "address": "澎湖縣馬公市六合路300號",
-        "source_url": "https://www.npu.edu.tw/content/index.aspx?Parser=1%2C4%2C38"
+        "source_url": "https://www.npu.edu.tw/content/index.aspx?Parser=1%2C4%2C38",
+        "lat": 23.575253,
+        "lon": 119.581914,
+        "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/119.574/23.568/6000"
       }
     ],
     "checked_on": "2026-11-21"
@@ -144,7 +180,10 @@
         "name": "校本部",
         "county": "金門縣",
         "address": "金門縣金寧鄉大學路1號",
-        "source_url": "https://ga.nqu.edu.tw/p/405-1015-13287%2Cc1087.php?Lang=zh-tw"
+        "source_url": "https://ga.nqu.edu.tw/p/405-1015-13287%2Cc1087.php?Lang=zh-tw",
+        "lat": 24.448296,
+        "lon": 118.322462,
+        "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/118.324/24.444/7500"
       }
     ],
     "checked_on": "2026-11-21"

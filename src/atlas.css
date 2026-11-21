@@ -1,0 +1,130 @@
+html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
+.map-app { position: relative; isolation: isolate; }
+.map-app__map { position: absolute; inset: 0; background: var(--sea); }
+.map-app :is(button, input, a):focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.map-toolbar, .map-panel, .map-tools { position: absolute; z-index: 800; }
+.map-toolbar {
+  top: 14px;
+  left: 14px;
+  width: min(370px, calc(100% - 28px));
+  padding: 10px;
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  color: var(--ink);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+}
+.map-toolbar__brand { display: flex; align-items: center; gap: 9px; margin-bottom: 7px; }
+.map-toolbar__brand img { border-radius: 5px; }
+.map-toolbar h1 { font-size: clamp(13px, 3.7vw, 16px); margin: 0; flex: 1; }
+.map-app :is(.map-toolbar, .map-panel__actions, .map-tools) button,
+.map-toolbar__signup {
+  border: 1px solid var(--rule);
+  border-radius: 7px;
+  background: var(--paper-raised);
+  color: var(--ink);
+  min-height: 34px;
+  padding: 3px 9px;
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+.map-toolbar__signup { display: inline-flex; align-items: center; color: var(--accent-ink); text-decoration: none; white-space: nowrap; }
+.map-toolbar .pa-dir-search-field { position: relative; }
+.map-toolbar input { background: var(--paper-raised); color: var(--ink); border-color: var(--rule); }
+.map-toolbar input::placeholder { color: var(--ink-soft); }
+.map-toolbar .pa-dir-search-clear { background: var(--paper); color: var(--ink); }
+.map-panel {
+  top: 132px;
+  bottom: 22px;
+  left: 14px;
+  width: min(392px, calc(100% - 74px));
+  display: flex;
+  flex-direction: column;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.map-panel__actions { display: flex; gap: 8px; justify-content: space-between; padding: 8px 12px; border-bottom: 1px solid var(--rule); }
+#panel-close { margin-left: auto; }
+#panel-content { overflow: auto; overscroll-behavior: contain; }
+.map-panel .pa-directory, .map-detail { padding: 12px; }
+.map-detail h2 { margin: 0 0 12px; font-size: 20px; overflow-wrap: anywhere; }
+.map-detail ul { padding-inline-start: 22px; }
+.map-detail img { max-width: 100%; border-radius: 10px; }
+.map-detail a { color: var(--accent-ink); overflow-wrap: anywhere; }
+.map-campus-people { list-style: none; padding: 0 !important; }
+.map-campus-people button {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+  border: 0;
+  border-bottom: 1px solid var(--rule);
+  background: transparent;
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+}
+.map-campus-people img { width: 36px; height: 36px; border-radius: 50%; object-fit: cover; }
+.map-tools { right: 12px; bottom: 104px; display: grid; gap: 6px; justify-items: end; }
+.map-app .leaflet-bottom.leaflet-right .leaflet-control-zoom { margin-bottom: 12px; }
+.atlas-cluster, .atlas-single {
+  display: grid;
+  place-items: center;
+  background: #96451f;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 999px;
+  box-shadow: 0 2px 7px #1b1b1b55;
+  font-size: 13px;
+  font-weight: 750;
+}
+.atlas-single { width: max-content !important; margin-top: -13px; padding: 3px 7px; }
+.atlas-campus {
+  display: grid;
+  pointer-events: auto;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--accent);
+  border-radius: 10px;
+  box-shadow: 0 2px 6px #2225;
+  padding: 4px;
+}
+.atlas-campus :is(button) {
+  min-width: 0;
+  border: 0;
+  color: inherit;
+  background: transparent;
+  border-radius: 4px;
+  font: inherit;
+  cursor: pointer;
+}
+.atlas-campus button:hover { background: var(--accent-wash); }
+.atlas-campus__title { display: flex; align-items: center; gap: 5px; min-height: 33px; font-weight: 750 !important; text-align: left; }
+.atlas-campus__title img, .atlas-emblem {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: var(--accent-wash);
+  color: var(--accent-ink);
+}
+.atlas-campus__people { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 2px; }
+.atlas-campus__person { display: grid; place-items: center; align-content: center; min-height: 43px; font-size: 10px !important; overflow-wrap: anywhere; padding: 1px; }
+.atlas-campus__person img { width: 26px; height: 26px; border-radius: 50%; object-fit: cover; }
+.atlas-campus__more { min-height: 22px; color: var(--accent-ink) !important; }
+
+.map-toolbar {
+  --pa-dir-border: var(--rule);
+  --pa-dir-radius: 8px;
+  --pa-dir-muted: var(--ink-soft);
+  --pa-dir-accent: var(--accent);
+}

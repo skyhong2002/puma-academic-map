@@ -90,6 +90,13 @@
     "lon": 120.643176,
     "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.645/24.188/5000"
   },
+  "仁德醫護管理專科學校": {
+    "country": "臺灣",
+    "city": "苗栗縣",
+    "lat": 24.623723,
+    "lon": 120.781644,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.793/24.610/10000"
+  },
   "元智大學": {
     "country": "臺灣",
     "city": "桃園市",

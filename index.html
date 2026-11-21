@@ -11,89 +11,43 @@
     <meta name="theme-color" content="#f5f1e8" />
     <link rel="icon" href="/assets/puma-favicon.ico" sizes="16x16 32x32" />
     <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="/src/atlas.css" />
   </head>
   <body>
-    <a class="skip-link" href="#directory">跳到機構名錄</a>
-
-    <header class="masthead">
-      <div class="masthead__brand">
-        <img class="masthead__logo" src="/assets/puma-signature.webp" width="320" height="249" alt="PUMA 署名" />
-        <div class="masthead__text">
-          <p class="masthead__kicker">學術後援會公開名單</p>
-          <h1 class="masthead__title">學術界公開署名地圖</h1>
-          <p class="masthead__lede">
-            查看支持沈伯洋的學術界公開署名與機構。
-          </p>
+    <main class="map-app">
+      <div id="map" class="map-app__map" aria-label="全球署名地圖"></div>
+      <header class="map-toolbar">
+        <div class="map-toolbar__brand">
+          <img src="/assets/puma-signature.webp" width="44" height="34" alt="" />
+          <h1>學術界公開署名地圖</h1>
+          <a class="map-toolbar__signup" href="https://forms.gle/joAmvcST4U4jUX137" aria-label="填寫學術後援會登記表">登記</a>
+          <button type="button" id="open-directory" aria-controls="map-panel" aria-expanded="false">名錄</button>
         </div>
-      </div>
-      <a class="masthead__signup" href="https://forms.gle/joAmvcST4U4jUX137">填寫學術後援會登記表</a>
-      <dl class="masthead__stats" id="stats" aria-label="資料概況"></dl>
-    </header>
-
-    <main class="layout">
-      <section class="atlas-column" aria-labelledby="atlas-heading">
-        <h2 class="visually-hidden" id="atlas-heading">署名者地圖</h2>
-
-        <nav class="map-switch" aria-label="地圖範圍">
-          <button type="button" id="show-taiwan" aria-pressed="true">臺灣</button>
-          <button type="button" id="show-world" aria-pressed="false">世界</button>
-          <span id="mapped-count" role="status"></span>
-        </nav>
-        <div class="atlas" id="world-atlas" hidden>
-          <div class="atlas__map" id="world-map" aria-label="海外署名地圖"></div>
+        <div id="map-search"></div>
+      </header>
+      <aside class="map-panel" id="map-panel" aria-label="名錄與詳細資料" hidden>
+        <div class="map-panel__actions">
+          <button type="button" id="panel-back" hidden>← 返回</button>
+          <button type="button" id="panel-close" aria-label="關閉資訊面板">關閉</button>
         </div>
-        <nav class="world-rail" id="world-rail" aria-label="海外國家與地區" hidden>
-          <h3 class="rail__heading" id="world-rail-heading">國家與地區・依署名人數排序</h3>
-          <ul class="world-rail__list" id="world-country-list"></ul>
-        </nav>
-        <div class="atlas" id="atlas">
-          <div class="atlas__map" id="map" aria-label="臺灣縣市地圖，依已定位署名者人數著色。可改用下方的縣市清單操作。"></div>
-
-          <div class="atlas__top">
-            <nav class="crumbs" aria-label="地圖層級">
-              <button type="button" class="crumbs__home" id="crumb-home" aria-current="true">全臺</button>
-              <span class="crumbs__sep" id="crumb-sep" aria-hidden="true" hidden>›</span>
-              <span class="crumbs__county" id="crumb-county" hidden></span>
-            </nav>
-            <div class="cue" id="cue">
-              <p class="cue__name" id="cue-name">全臺灣</p>
-              <p class="cue__meta" id="cue-meta"></p>
-              <a class="cue__jump" id="cue-jump" href="#directory" hidden>看名錄 ↓</a>
-            </div>
-          </div>
-
-          <button type="button" class="atlas__reset" id="reset" hidden>
-            <span aria-hidden="true">←</span> 回全臺
-          </button>
-
-          <div class="insets" id="insets" aria-hidden="true"></div>
-
-          <div class="legend" aria-hidden="true">
-            <p class="legend__title">已定位署名者</p>
-            <ol class="legend__scale" id="legend"></ol>
-          </div>
+        <div id="panel-content">
+          <section id="directory" aria-label="機構與署名名錄"></section>
+          <section id="place-details" class="map-detail" hidden></section>
+          <section id="about-map" class="map-detail" hidden>
+            <h2 tabindex="-1">關於署名地圖</h2>
+            <p>查看支持沈伯洋的學術界公開署名與機構。</p>
+            <p id="map-totals"></p>
+            <p>標記依已查核的機構或校區座標顯示。同一校區的教授資訊排在座標附近。</p>
+            <p><a id="source-link" href="https://sites.google.com/view/academic-kouenkai-for-puma/" target="_blank" rel="noopener">學術後援會公開名單</a></p>
+            <p><a href="https://forms.gle/joAmvcST4U4jUX137">填寫學術後援會登記表</a></p>
+          </section>
         </div>
-
-        <nav class="rail" aria-labelledby="rail-heading">
-          <h3 class="rail__heading" id="rail-heading">縣市清單</h3>
-          <ul class="rail__list" id="county-list"></ul>
-          <ul class="rail__list" id="county-institution-list" hidden></ul>
-        </nav>
-
-        <p class="visually-hidden" id="status" role="status" aria-live="polite"></p>
-      </section>
-
-      <section class="directory-column" id="directory" aria-label="機構與署名名錄" tabindex="-1"></section>
+      </aside>
+      <nav class="map-tools" aria-label="地圖工具">
+        <button type="button" id="reset-map" aria-label="回到臺灣附近">回起點</button>
+        <button type="button" id="map-about" aria-controls="map-panel" aria-label="關於署名地圖">ⓘ</button>
+      </nav>
     </main>
-
-    <footer class="colophon">
-      <p>
-        每個人員標記位於有來源的機構座標。點開群組可看個別署名。機構座標用於呈現學術關係，不表示個人的所在位置或已確認的任職校區。
-      </p>
-      <p>
-        名單來源：<a id="source-link" href="https://sites.google.com/view/academic-kouenkai-for-puma/" target="_blank" rel="noopener">學術後援會公開名單</a><span id="source-date"></span>。縣市界線：內政部國土測繪中心（<a href="https://data.gov.tw/dataset/7442" target="_blank" rel="noopener">政府資料開放平臺</a>，依政府資料開放授權條款第 1 版使用），圖形經裁切與簡化，僅供導覽。部分機構座標：<a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap contributors</a>。
-      </p>
-    </footer>
 
     <script type="module" src="/src/main.js"></script>
   </body>

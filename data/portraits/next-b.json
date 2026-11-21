@@ -1,0 +1,40 @@
+{
+  "會員名單": {
+    "林芳玫（台師大教授）": {
+      "file": "next-b-lin.webp",
+      "credit": "國立臺灣師範大學校訊，合影右側具名，CC BY 4.0；頭肩方形裁切與 WebP 轉檔",
+      "source_url": "https://pr.ntnu.edu.tw/news/index.php?id=12981&mode=data",
+      "license_url": "https://www.ntnu.edu.tw/static.php?id=privacy"
+    },
+    "陳正達（國立臺灣師範大學地球科學系教授）": {
+      "file": "next-b-chengda.webp",
+      "credit": "國立臺灣師範大學校訊，合影右側具名，CC BY 4.0；頭肩方形裁切與 WebP 轉檔",
+      "source_url": "https://pr.ntnu.edu.tw/news/index.php?id=21270&mode=data",
+      "license_url": "https://www.ntnu.edu.tw/static.php?id=privacy"
+    },
+    "許馨文（國立臺灣師範大學民族音樂研究所副教授）": {
+      "file": "next-b-hsu.webp",
+      "credit": "國立臺灣師範大學校訊，合影左側具名，CC BY 4.0；頭肩方形裁切與 WebP 轉檔",
+      "source_url": "https://pr.ntnu.edu.tw/news/index.php?id=23109&mode=data",
+      "license_url": "https://www.ntnu.edu.tw/static.php?id=privacy"
+    },
+    "張典顯（中央研究院基因體中心訪問教授）": {
+      "file": "next-b-chang.webp",
+      "credit": "科技部 2020 年學術研究獎項，政府資料開放授權條款第 1 版；頭肩方形裁切與 WebP 轉檔",
+      "source_url": "https://web.nstc.gov.tw/cen/oaa/award_109/48301694564.html",
+      "license_url": "https://www.nstc.gov.tw/division/detail/a22a29a9-03d7-4d55-850a-f4f6ca1a04e9?l=ch"
+    },
+    "陳鴻圖（東華大學歷史學系教授）": {
+      "file": "next-b-chen.webp",
+      "credit": "國立東華大學，具名活動照片，政府資料開放授權條款第 1 版；頭肩方形裁切與 WebP 轉檔",
+      "source_url": "https://www.ndhu.edu.tw/p/404-1000-247047.php?Lang=zh-tw",
+      "license_url": "https://www.ndhu.edu.tw/p/404-1000-173131.php?Lang=zh-tw"
+    },
+    "沈俊嚴（台大數學系教授）": {
+      "file": "next-b-shen.webp",
+      "credit": "科技部 2020 年學術研究獎項，政府資料開放授權條款第 1 版；頭肩方形裁切與 WebP 轉檔",
+      "source_url": "https://web.nstc.gov.tw/cen/oaa/award_109/48302694655.html",
+      "license_url": "https://www.nstc.gov.tw/division/detail/a22a29a9-03d7-4d55-850a-f4f6ca1a04e9?l=ch"
+    }
+  }
+}

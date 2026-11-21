@@ -8,7 +8,7 @@ import { isTaiwan, people } from './person-data.js';
 export const taiwanPeople = people.filter((person) => person.locations.some(isTaiwan));
 export const overseasPeople = people.filter((person) => person.locations.some((point) => !isTaiwan(point)));
 
-function popup(person, point) {
+export function personDetails(person, point, { showName = true } = {}) {
   const content = document.createElement('div');
   const title = document.createElement('strong');
   title.textContent = person.name;
@@ -16,7 +16,8 @@ function popup(person, point) {
   place.textContent = [point.institution, point.city, point.country].filter(Boolean).join(' · ');
   const claim = document.createElement('p');
   claim.textContent = person.affiliation_text;
-  content.append(title, place, claim);
+  if (showName) content.append(title);
+  content.append(place, claim);
   if (person.portrait) {
     const image = document.createElement('img');
     image.src = person.portrait.image;
@@ -24,21 +25,22 @@ function popup(person, point) {
     image.width = 64;
     content.prepend(image);
   }
-  const refs = [...person.refs, { label: '機構座標來源', url: point.source_url }];
+  const activities = person.refs.filter((ref) => ref.kind === 'support');
+  const refs = [...person.refs.filter((ref) => ref.kind !== 'support'), { label: '機構座標來源', url: point.source_url }];
   if (point.address_source_url) refs.push({ label: '機構地址來源', url: point.address_source_url });
   if (person.portrait) {
     refs.push({ label: '照片來源', url: person.portrait.source_url, description: person.portrait.credit });
     if (person.portrait.license_url) refs.push({ label: '照片授權', url: person.portrait.license_url });
   }
   const list = document.createElement('ul');
-  for (const ref of refs) {
+  for (const ref of [...refs, ...activities]) {
     if (!/^https?:\/\//i.test(ref.url)) continue;
     const item = document.createElement('li');
     const link = document.createElement('a');
     link.href = ref.url;
     link.target = '_blank';
     link.rel = 'noopener noreferrer';
-    link.textContent = ref.label;
+    link.textContent = ref.kind === 'support' ? `相關公開活動・${ref.label}` : ref.label;
     item.append(link);
     if (ref.description) item.append(`，${ref.description}`);
     list.append(item);
@@ -130,7 +132,7 @@ function rosterPopup(entries, selected) {
             panel.replaceChildren(overview);
             name.focus();
           });
-          panel.replaceChildren(back, popup(item.person, item.point));
+          panel.replaceChildren(back, personDetails(item.person, item.point));
           if (focus) back.focus();
         }
         name.addEventListener('click', () => showPerson(true));
@@ -233,7 +235,7 @@ function addPersonMarkers(map, entries, include, avatarZoom, onGroup) {
     if (shared) marker.on('click', () => onGroup(members));
     else {
       marker.on('click', () => rosterPanel?.remove());
-      marker.bindPopup(() => popup(person, point), { maxWidth: 330 });
+      marker.bindPopup(() => personDetails(person, point), { maxWidth: 330 });
     }
     membersByMarker.set(marker, members);
     markers.addLayer(marker);
@@ -266,7 +268,7 @@ function addPersonMarkers(map, entries, include, avatarZoom, onGroup) {
     if (members.length > 1) showRoster(members, { person: record, point });
     else {
       rosterPanel?.remove();
-      L.popup({ maxWidth: 330 }).setLatLng(coordinates).setContent(popup(record, point)).openOn(map);
+      L.popup({ maxWidth: 330 }).setLatLng(coordinates).setContent(personDetails(record, point)).openOn(map);
     }
   };
 }
@@ -276,7 +278,7 @@ export function addTaiwanPeople(map, onGroup) {
 }
 
 export function campusFor(map) {
-  return createCampusView(map, departmentFor, popup);
+  return createCampusView(map, departmentFor, personDetails);
 }
 
 export function createWorldMap(container, onGroup) {
