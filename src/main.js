@@ -28,6 +28,7 @@ let collapsedScrollTop = 0;
 let pendingReveal;
 let sheetDrag;
 let sheetFrame;
+let sheetSnap;
 let suppressHandleClick = false;
 
 function updateViewExpanded(expanded) {
@@ -71,7 +72,7 @@ function setSheetTall(tall) {
 }
 
 function closePanel({ focusTarget = returnFocus } = {}) {
-  clearSheetDrag();
+  clearSheetDrag(narrowLayout.matches);
   if (panel.hidden) return;
   collapsedScrollTop = panelContent.scrollTop;
   setPanelExpanded(false);
@@ -218,7 +219,11 @@ function showPerson(person, point, campus = null) {
   revealAfterPanelResize(point);
 }
 
-const atlas = createAtlas($('map'), people, { onCampus: showCampus, onPerson: showPerson });
+const atlas = createAtlas($('map'), people, {
+  onCampus: showCampus,
+  onPerson: showPerson,
+  preserveResizeOrigin: () => Boolean(sheetSnap),
+});
 const findPerson = (entry) => people.find((person) => person.section === entry.section && person.raw === entry.raw);
 let searchTracked = false;
 const directory = mountDirectory(directoryElement, {
@@ -277,32 +282,59 @@ panelToggle.addEventListener('pointermove', (event) => {
   if (!suppressHandleClick && Math.abs(sheetDrag.delta) < 8) return;
   suppressHandleClick = true;
   if (sheetDrag.closed && panel.hidden && sheetDrag.delta <= 0) return;
-  if (panel.hidden) showPanel(panelView, { focus: false, restoreScroll: true });
-  mapApp.classList.add('is-sheet-dragging');
-  if (sheetFrame !== undefined) return;
-  sheetFrame = requestAnimationFrame(() => {
-    sheetFrame = undefined;
-    mapApp.style.setProperty('--sheet-drag-height',
-      `clamp(0px, ${sheetDrag.height + sheetDrag.delta}px, var(--sheet-max-height))`);
-  });
+  if (!mapApp.classList.contains('is-sheet-dragging')) {
+    mapApp.style.setProperty('--sheet-fixed-height', '0px');
+    mapApp.classList.add('is-sheet-dragging');
+    // Keep the full map behind the sheet and preserve its visible origin.
+    atlas.resize({ pan: false, debounceMoveend: true });
+    if (panel.hidden) showPanel(panelView, { focus: false, restoreScroll: true });
+  }
+  if (sheetFrame === undefined) sheetFrame = requestAnimationFrame(updateSheetDrag);
 });
-function clearSheetDrag() {
+
+function updateSheetDrag() {
+  sheetFrame = undefined;
+  const height = `clamp(0px, ${sheetDrag.height + sheetDrag.delta}px, var(--sheet-max-height))`;
+  panel.style.setProperty('--sheet-drag-height', height);
+  panelToggle.style.setProperty('--sheet-drag-height', height);
+}
+
+function clearSheetDrag(settle = false) {
   if (!sheetDrag) return;
   const { id } = sheetDrag;
-  sheetDrag = undefined;
   cancelAnimationFrame(sheetFrame);
   sheetFrame = undefined;
+  const settling = settle && mapApp.classList.contains('is-sheet-dragging');
+  if (settling) {
+    updateSheetDrag();
+    // Match the real grid row to the overlay before animating to a snap point.
+    mapApp.style.setProperty('--sheet-fixed-height', `${panel.offsetHeight}px`);
+    mapApp.classList.add('is-sheet-settling');
+  }
+  sheetDrag = undefined;
   mapApp.classList.remove('is-sheet-dragging');
-  mapApp.style.removeProperty('--sheet-drag-height');
+  panel.style.removeProperty('--sheet-drag-height');
+  panelToggle.style.removeProperty('--sheet-drag-height');
+  if (settling) {
+    const snap = {};
+    sheetSnap = snap;
+    atlas.resize({ debounceMoveend: true });
+    mapApp.classList.remove('is-sheet-settling');
+    requestAnimationFrame(async () => {
+      const transition = mapApp.getAnimations().find((animation) => animation.transitionProperty === 'grid-template-rows');
+      if (transition) await transition.finished.catch(() => {});
+      if (sheetSnap === snap) sheetSnap = undefined;
+    });
+  }
+  mapApp.style.removeProperty('--sheet-fixed-height');
   if (panelToggle.hasPointerCapture(id)) panelToggle.releasePointerCapture(id);
 }
 function endSheetDrag(event) {
   if (sheetDrag?.id !== event.pointerId) return;
   const { closed, delta, height } = sheetDrag;
-  clearSheetDrag();
-  if (!suppressHandleClick) return;
-  if (panel.hidden) return;
   const dropped = event.type === 'pointerup' && narrowLayout.matches;
+  clearSheetDrag(narrowLayout.matches);
+  if (!suppressHandleClick || panel.hidden) return;
   if (closed) {
     if (!dropped || delta < 32) closePanel({ focusTarget: panelToggle });
     else if (delta > mapApp.clientHeight * 0.55) setSheetTall(true);

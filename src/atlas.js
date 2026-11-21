@@ -126,7 +126,7 @@ function addEmblem(item, institution) {
   item.prepend(glyph);
 }
 
-export function createAtlas(container, people, { onCampus, onPerson }) {
+export function createAtlas(container, people, { onCampus, onPerson, preserveResizeOrigin }) {
   const map = L.map(container, { minZoom: 2, maxZoom: CAMPUS_PEOPLE_ZOOM, zoomControl: false, worldCopyJump: true });
   map.attributionControl.setPrefix('<a href="https://github.com/skyhong2002/puma-academic-map">GitHub 原始碼</a>');
   L.control.zoom({ position: 'bottomright', zoomInTitle: '放大', zoomOutTitle: '縮小' }).addTo(map);
@@ -582,8 +582,8 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
   };
   map.on('moveend', showCampuses);
   reset();
-  const resize = () => map.invalidateSize();
-  new ResizeObserver(() => map.invalidateSize({ debounceMoveend: true })).observe(container);
+  const resize = (options) => map.invalidateSize({ pan: !preserveResizeOrigin?.(), ...options });
+  new ResizeObserver(() => resize({ debounceMoveend: true })).observe(container);
   return {
     reset,
     resize,
