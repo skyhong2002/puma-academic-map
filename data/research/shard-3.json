@@ -86,6 +86,27 @@
   },
   {
     "section": "會員名單",
+    "raw": "簡士傑（美國沃特伯格學院生物學系助理教授）",
+    "sources": [
+      {
+        "label": "沃特伯格學院生物學系個人頁",
+        "description": "校方列 Shih-Chieh Chien 為生物學助理教授，並記錄其臺灣生態學相關教育經歷。",
+        "url": "https://www.wartburg.edu/people/shih-chieh-chien/"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "沃特伯格學院",
+        "country": "美國",
+        "city": "愛荷華州韋弗利",
+        "lat": 42.7311431,
+        "lon": -92.4856838,
+        "source_url": "https://www.openstreetmap.org/way/82865218"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
     "raw": "王耀德（交通大學退休教授）",
     "sources": [
       {
@@ -233,6 +254,18 @@
   },
   {
     "section": "會員名單",
+    "raw": "周郁齡（台南應用科技大學美術系助理教授）",
+    "sources": [
+      {
+        "label": "臺南應用科技大學美術系活動公告",
+        "description": "系上活動公告稱周郁齡為美術系老師。",
+        "url": "https://art.tut.edu.tw/p/406-1073-59062%2Cr887.php?Lang=zh-tw"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
     "raw": "蔡榮捷（前大葉大學公關處長助理教授）",
     "sources": [
       {
@@ -263,6 +296,18 @@
         "source_url": "https://www.openstreetmap.org/relation/8556620"
       }
     ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "黃清江（前明道大學生物科技學系退休教授）",
+    "sources": [
+      {
+        "label": "勤益科技大學研討會論文",
+        "description": "論文作者欄記載黃清江為明道大學生物科技學系教授。",
+        "url": "https://ir-lib.ncut.edu.tw/bitstream/987654321/4149/3/C19.pdf"
+      }
+    ],
+    "locations": []
   },
   {
     "section": "會員名單",
@@ -396,6 +441,18 @@
   },
   {
     "section": "會員名單",
+    "raw": "巫麗雪（輔仁大學社會學系副教授）",
+    "sources": [
+      {
+        "label": "輔仁大學學術統計資料網",
+        "description": "輔仁官方資料將巫麗雪列於社會科學院社會學系。",
+        "url": "https://researchinfo.fju.edu.tw/professors/3774"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
     "raw": "林庭安（美國康乃迪克大學University of Connecticut哲學系合作研究員）",
     "sources": [
       {
@@ -422,6 +479,27 @@
   },
   {
     "section": "會員名單",
+    "raw": "楊孟蓉（California State University, Long BeachAssistant professor）",
+    "sources": [
+      {
+        "label": "加州州立大學長堤分校個人師資頁",
+        "description": "藝術學院列 Meng-Jung (MJ) Yang 為藝術教育助理教授，並記載在臺師大取得藝術碩士。",
+        "url": "https://www.csulb.edu/school-of-art/page/mj-yang"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "加州州立大學長堤分校",
+        "country": "美國",
+        "city": "加州長堤",
+        "lat": 33.7817709,
+        "lon": -118.1152001,
+        "source_url": "https://www.openstreetmap.org/way/207858609"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
     "raw": "鄭瑞明（長榮大學名譽教授、台師大歷史系退休教授教授長榮大學名譽教授、台師大歷史系退休教授）",
     "sources": [
       {
@@ -440,6 +518,47 @@
         "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.27/22.9/7000"
       }
     ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "高潔如（台體大研發處兼任講師）",
+    "sources": [
+      {
+        "label": "臺灣高等教育產業工會公開聯署",
+        "description": "工會公布的參與者資料列高潔如為國立臺灣體育運動大學通識中心兼任講師。",
+        "url": "https://www.theunion.org.tw/2026/03/%E3%80%90%E5%A4%A7%E5%AD%B8%E5%BF%AB%E5%A0%B1455%E6%9C%9F%E3%80%91%E7%A7%81%E7%AB%8B%E5%A4%A7%E5%AD%B8%E4%BB%BB%E6%95%99%E4%BA%8C%E5%8D%81%E5%A4%9A%E5%B9%B4%EF%BC%8C%E9%80%80%E4%BC%91%E4%BF%9D/"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "王寶萱（國立臺北藝術大學助研究員）",
+    "sources": [
+      {
+        "label": "臺北藝術大學藝術跨域研究所師資",
+        "description": "研究所公開師資頁列王寶萱。",
+        "url": "https://transdisciplinaryart.wixsite.com/master/staff"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "TIŌ SūnBûn（台湾大学日本語文学系退休教授）",
+    "sources": [
+      {
+        "label": "成功大學台語文學期刊",
+        "description": "期刊以中英文記錄 TIŌ SūnBûn（趙順文）教授於王育德紀念研討會的演講。",
+        "url": "https://ctlt.twl.ncku.edu.tw/jotv/TGGK_v17n1_2025web.pdf"
+      },
+      {
+        "label": "成功大學研討會議程",
+        "description": "成功大學議程以趙順文列名臺大日文系退休教授。",
+        "url": "https://ctlt.twl.ncku.edu.tw/chuliau/files/20240821141520-20240908Ong_conf0821.pdf"
+      }
+    ],
+    "locations": []
   },
   {
     "section": "會員名單",
@@ -479,6 +598,51 @@
   },
   {
     "section": "會員名單",
+    "raw": "紀東昀(諸葛風雲)（逢甲大學通識中心兼任助理教授）",
+    "sources": [
+      {
+        "label": "逢甲大學開課一覽表",
+        "description": "113 學年度第二學期校方公開開課表列紀東昀為授課教師。",
+        "url": "https://s3.ap-southeast-1.amazonaws.com/web-content.fcu.edu.tw/wp-content/uploads/sites/118/2024/12/19105835/113-2%E9%96%8B%E8%AA%B2%E4%B8%80%E8%A6%BD%E8%A1%A820241219%E8%BD%89%E5%87%BA.pdf"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳治維（國立陽明交通大學數據金融創新）",
+    "sources": [
+      {
+        "label": "國家永續發展委員會公開名冊",
+        "description": "行政院委員會專輯列陳治維為國立陽明交通大學數據金融創新校級研究中心副主任。",
+        "url": "https://ncsd.ndc.gov.tw/_ofu/FileDatabase/5e5aa8d2-4aee-4c9f-a2b8-a1f0b1383f80/114%E5%B9%B4%E5%9C%8B%E5%AE%B6%E6%B0%B8%E7%BA%8C%E7%99%BC%E5%B1%95%E7%8D%8E%20%E5%BE%97%E7%8D%8E%E5%B0%88%E8%BC%AF_%E5%AE%9A%E7%A8%BF.pdf"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "應鳳凰（台北教育大學台文系退休教授）",
+    "sources": [
+      {
+        "label": "臺北教育大學臺灣文化研究所個人頁",
+        "description": "系所收錄應鳳凰教師資料，該頁所列職稱為副教授。",
+        "url": "https://taiwan.ntue.edu.tw/p/406-1029-14977%2Cr579.php?Lang=zh-tw"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "國立臺北教育大學",
+        "country": "臺灣",
+        "city": "臺北市大安區",
+        "lat": 25.024158,
+        "lon": 121.544924,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.02/12000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
     "raw": "楊聰賢（國立臺北藝術大學音樂系退休教授）",
     "sources": [
       {
@@ -497,6 +661,18 @@
         "label": "長庚院方醫師資料",
         "description": "機構個人資料確認李振宏為林口長庚心臟內科主治醫師。",
         "url": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/5265"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "李泳泉（世新大學退休講師）",
+    "sources": [
+      {
+        "label": "世新大學校方校友專題",
+        "description": "校方專題記載李泳泉曾在該校教學，於 2019 年退休。",
+        "url": "https://www.shu.edu.tw/Spotlight.aspx?from=06&sID=29081"
       }
     ],
     "locations": []
@@ -586,6 +762,66 @@
   },
   {
     "section": "會員名單",
+    "raw": "郭志文（國立中山大學特聘教授）",
+    "sources": [
+      {
+        "label": "中山大學電機系教師資料",
+        "description": "校方將郭志文列為通訊工程研究所合聘教授。",
+        "url": "https://web.ee.nsysu.edu.tw/p/412-1203-25856.php?Lang=zh-tw"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳維斌（牙醫學博士/金曲獎最佳作詞音樂公司代表人）",
+    "sources": [
+      {
+        "label": "創作人所屬表演團隊簡介",
+        "description": "台北室內合唱團介紹陳維斌為牙醫師、分子生物學博士及詞曲創作者。",
+        "url": "https://tcschoir.org.tw/artists/%E9%99%B3%E7%B6%AD%E6%96%8C/"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "江耀宗（台灣高鐵公司、台科大前董事長、前兼任教授）",
+    "sources": [
+      {
+        "label": "政治大學校方活動紀錄",
+        "description": "政大公開校務新聞記載江耀宗曾任臺灣科技大學兼任教授。",
+        "url": "https://www.nccu.edu.tw/p/406-1000-19667%2Cr17.php?Lang=zh-tw"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "盧孳艷（國立陽明交通大學護理學院退休教授）",
+    "sources": [
+      {
+        "label": "陽明交大科技與社會研究所活動紀錄",
+        "description": "校方 2018 年演講公告列盧孳艷為國立陽明大學社區健康照護研究所教授。",
+        "url": "https://sts.nycu.edu.tw/%E3%80%90%E5%AD%B8%E8%A1%93%E6%BC%94%E8%AC%9B%E3%80%91107-12-07%E4%BA%94%E4%B8%8B%E5%8D%88100-%E5%8F%B0%E7%81%A3%E5%85%AC%E5%85%B1%E8%A1%9B%E7%94%9F%E8%AD%B7%E7%90%86%E5%8F%B2%EF%BC%9A%E5%9C%A8/"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "盧沛文（國立彰化師範大學教授）",
+    "sources": [
+      {
+        "label": "彰化師範大學地理學系師資",
+        "description": "地理學系專任師資頁列盧沛文為教授。",
+        "url": "https://geo.ncue.edu.tw/faculty/m/5/"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
     "raw": "陳貴賢（中央研究院特聘研究員）",
     "sources": [
       {
@@ -609,6 +845,18 @@
         "label": "教育部教保評鑑資訊",
         "description": "教育部公開名錄列簡馨瑩為臺東大學幼兒教育學系退休教授。",
         "url": "https://proj.moe.edu.tw/tece.heeact/News.aspx?PageSize=20&n=2244&page=8&sms=12664"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "馮文陽（中原大學兼任助理教授）",
+    "sources": [
+      {
+        "label": "國立中央大學論文典藏",
+        "description": "論文引註列馮文陽的中原大學工業工程研究所碩士論文，可核對其在中原的學歷。簽名所列兼任助理教授職稱仍待查。",
+        "url": "https://etd.lib.ncu.edu.tw/detail/97dc572dd557c017ccaf9cb1ccf90829/"
       }
     ],
     "locations": []
@@ -661,6 +909,18 @@
         "label": "政府出國報告資訊網",
         "description": "國立臺北大學出國報告記載張勝彥為文學院院長與教授。",
         "url": "https://report.ndc.gov.tw/ReportFront/PageSystem/reportFileDownload/C10100234/001"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳延輝（台師大政研所退休教授）",
+    "sources": [
+      {
+        "label": "原著出版者作者介紹",
+        "description": "秀威出版作者簡介記載陳延輝曾任國立臺灣師範大學政治學研究所教授。",
+        "url": "https://store.showwe.tw/books.aspx?b=256"
       }
     ],
     "locations": []
@@ -782,6 +1042,30 @@
   },
   {
     "section": "會員名單",
+    "raw": "薛榮祥（龍華科技大學退休副教授）",
+    "sources": [
+      {
+        "label": "龍華科技大學導師名冊",
+        "description": "校方 106 學年度名冊列薛榮祥為導師。",
+        "url": "https://ccdc.lhu.edu.tw/var/file/53/1053/attach/3/pta_14650_9624549_52062.pdf"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "潘威佑（社團法人台灣教師聯盟理事長）",
+    "sources": [
+      {
+        "label": "臺灣教師聯盟會訊",
+        "description": "臺灣教師聯盟官方會訊列潘威佑為理事長。",
+        "url": "https://taiwanutt.wixsite.com/website/post/%E5%8F%B0%E7%81%A3%E6%95%99%E5%B8%AB%E8%81%AF%E7%9B%9F2025%E5%B9%B44%E6%9C%88%E4%BB%BD%E6%9C%83%E8%A8%8A"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
     "raw": "施信民（台灣大學化工系退休教授）",
     "sources": [
       {
@@ -848,6 +1132,23 @@
         "label": "臺灣神學院院訊",
         "description": "臺灣神學院院訊記載鄭仰恩教授及校方為其舉辦的退休感恩禮拜。",
         "url": "https://ir.taitheo.org.tw/bitstream/987654321/7430/2/176.pdf"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "王旭（元智大學應用外語系退休教授）",
+    "sources": [
+      {
+        "label": "國立清華大學院刊",
+        "description": "清華院刊記載王旭離開清華後至元智大學任教，現已退休。",
+        "url": "https://hss.site.nthu.edu.tw/var/file/74/1074/img/1854/570974046.pdf"
+      },
+      {
+        "label": "臺灣語言學學會名錄",
+        "description": "學會 2017 年名錄將王旭列為元智大學應用外語系退休教授。",
+        "url": "https://linguist.tw/media/files/LST%E5%80%8B%E4%BA%BA%E6%9C%83%E5%93%A1%E5%90%8D%E5%96%AE20170726.pdf"
       }
     ],
     "locations": []
@@ -923,6 +1224,18 @@
   },
   {
     "section": "會員名單",
+    "raw": "吳依屛（臺灣藝術大學跨域表演藝術研究所助理教授）",
+    "sources": [
+      {
+        "label": "臺灣藝術大學跨域表演藝術研究所個人頁",
+        "description": "研究所列吳依屏為助理教授。",
+        "url": "https://tpa.ntua.edu.tw/?awsm_team_member=%E5%90%B3%E4%BE%9D%E5%B1%8F"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
     "raw": "蕭皓文（東京大學醫科學研究所博士後研究員）",
     "sources": [
       {
@@ -946,6 +1259,44 @@
         "source_url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%AF%E5%8C%BA%E7%99%BD%E9%87%91%E5%8F%B04%E4%B8%81%E7%9B%AE6-1"
       }
     ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "I-Yun Cheng（The University of SydneyPh.D candidate）",
+    "sources": [
+      {
+        "label": "雪梨大學校方研討會議程",
+        "description": "雪梨大學公開的 2024 年研討會議程列 I-Yun Cheng 的所屬機構為雪梨大學。",
+        "url": "https://www.sydney.edu.au/content/dam/corporate/documents/faculty-of-arts-and-social-sciences/schools/slc/lcnau2024-program-schedule.pdf"
+      },
+      {
+        "label": "雪梨大學校區位置",
+        "description": "校方公開位置資料列 Camperdown/Darlington 為雪梨大學主校區。",
+        "url": "https://www.sydney.edu.au/about-us/campuses/campus-locations.html"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "雪梨大學（Camperdown 主校區）",
+        "country": "澳洲",
+        "city": "雪梨",
+        "lat": -33.8889072,
+        "lon": 151.1894111,
+        "source_url": "https://www.openstreetmap.org/way/1036678179"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "許維智（中科大／行政院政務顧問助理教授／政務顧問）",
+    "sources": [
+      {
+        "label": "國立臺中科技大學系所師資",
+        "description": "校方兼任教師頁列許維智為休閒事業經營系助理教授。",
+        "url": "https://lrm.nutc.edu.tw/p/412-1054-12481.php"
+      }
+    ],
+    "locations": []
   },
   {
     "section": "會員名單",
@@ -994,6 +1345,18 @@
   },
   {
     "section": "會員名單",
+    "raw": "林靜慧（中山大學師培中心副教授）",
+    "sources": [
+      {
+        "label": "中山大學師資培育中心個人頁",
+        "description": "校方個人頁收錄林靜慧在師培中心的任職與研究資料。",
+        "url": "https://ctep.nsysu.edu.tw/p/405-1136-252381%2Cc16243.php?Lang=zh-tw"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
     "raw": "陳煒仁（美國芝加哥神學院博士候選人）",
     "sources": [
       {
@@ -1017,6 +1380,18 @@
         "source_url": "https://www.openstreetmap.org/way/144636084"
       }
     ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "莊克士（國立清華大學退休教授）",
+    "sources": [
+      {
+        "label": "清華大學系所個人頁",
+        "description": "清華系所資料記錄莊克士教授，並附退休活動資訊。",
+        "url": "https://ess.site.nthu.edu.tw/p/404-1351-141251.php"
+      }
+    ],
+    "locations": []
   },
   {
     "section": "會員名單",
@@ -1077,6 +1452,30 @@
   },
   {
     "section": "會員名單",
+    "raw": "彭筱芳（台灣大學醫學檢驗暨生物技術學系博士後研究員）",
+    "sources": [
+      {
+        "label": "臺大醫學檢驗暨生物技術學系系所年報",
+        "description": "系所年報列彭筱芳為當時該系博士班學生並記載獲獎資訊，可核對既有系所關係。",
+        "url": "https://www.mc.ntu.edu.tw/clsmb/files/%E5%B9%B4%E5%A0%B1/2023%E5%B9%B4%E5%A0%B1%28%E9%86%AB%E6%8A%80%E7%B3%BB%29.pdf"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "Tsu Tsír-hông （母語ê/gǎi醫學迷頁主／前國防醫學院醫學系臨床教師）",
+    "sources": [
+      {
+        "label": "中國醫藥大學新竹附設醫院醫師頁",
+        "description": "官方醫師個人頁以同名羅馬字對照朱子宏（Tsír-hông Tsu），並記載臺灣大學醫學系醫學士及該院任職。",
+        "url": "https://www.cmu-hch.cmu.edu.tw/Doctor/DoctorInfo/313"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
     "raw": "林子賢（中國醫藥大學公衛系教授）",
     "sources": [
       {
@@ -1117,6 +1516,27 @@
         "label": "留學分享活動主辦人公開議程",
         "description": "主辦方公告以中英文並列 Chia-chen Yang（楊佳蓁）為 Oklahoma State University 副教授。",
         "url": "https://www.linkedin.com/posts/ming-hsiu-hsieh_%E4%BB%8A%E5%B9%B4-mentor-mentee-program-mmp%E7%AC%AC%E5%9B%9B%E5%A0%B4%E7%95%99%E5%AD%B8%E5%B0%88%E9%A1%8C%E8%AC%9B%E5%BA%A7-activity-7094535364064727041-ej_Z"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "奧克拉荷馬州立大學（Stillwater 校區）",
+        "country": "美國",
+        "city": "奧克拉荷馬州斯蒂爾沃特",
+        "lat": 36.1313523,
+        "lon": -97.0890651,
+        "source_url": "https://www.openstreetmap.org/relation/7214944"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "葉俊雄（開南大學退休教授）",
+    "sources": [
+      {
+        "label": "聖約翰科技大學活動名錄",
+        "description": "校方公開活動記錄將葉俊雄列為開南大學資訊管理系教授。",
+        "url": "https://www.csie.sju.edu.tw/user_active/zsublist.asp?start=401"
       }
     ],
     "locations": []

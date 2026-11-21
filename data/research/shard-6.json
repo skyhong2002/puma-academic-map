@@ -69,6 +69,18 @@
   },
   {
     "section": "會員名單",
+    "raw": "林明芳（元培醫事科技大學醫放系前兼任助理教授）",
+    "sources": [
+      {
+        "label": "系所歷年課表",
+        "description": "元培醫事科技大學醫學影像暨放射技術系歷年課表記載林明芳授課。",
+        "url": "https://rad.ypu.edu.tw/var/file/30/1030/img/745365808.pdf"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
     "raw": "江智民（東海大學生命科學系教授）",
     "sources": [
       {
@@ -455,7 +467,16 @@
         "url": "https://wanchunghuang.com/podcast-wei-liu/"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "Johns Hopkins Bloomberg School of Public Health",
+        "country": "美國",
+        "city": "Baltimore",
+        "lat": 39.2979735,
+        "lon": -76.5899174,
+        "source_url": "https://www.openstreetmap.org/relation/4780383"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -666,6 +687,18 @@
   },
   {
     "section": "會員名單",
+    "raw": "Simon Chiu（Edinburgh Napier UniversityFormer Lecturer）",
+    "sources": [
+      {
+        "label": "校方會議論文典藏",
+        "description": "奧克蘭理工大學典藏的會議節目列 Simon Chiu 所屬為 Edinburgh Napier University。",
+        "url": "https://openrepository.aut.ac.nz/server/api/core/bitstreams/9719e571-f515-4a5c-b368-a3deae0dc333/content"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
     "raw": "施景中（台大醫院婦產部產科主任 部定副教授）",
     "sources": [
       {
@@ -783,6 +816,18 @@
         "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.219/22.998/2500"
       }
     ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "李兆然（李兆然家醫科診所院長，台大醫院家庭醫學科兼任教學主治醫師院長主治醫師）",
+    "sources": [
+      {
+        "label": "醫學會專業名錄",
+        "description": "臺灣家庭醫學醫學會名錄將李兆然列於李兆然家庭醫學科診所。",
+        "url": "https://www.tafm.org.tw/ehc-tafm/s/w/search_dir/search_dir/mapSearch1/31"
+      }
+    ],
+    "locations": []
   },
   {
     "section": "會員名單",
@@ -990,6 +1035,11 @@
         "label": "診所官方醫師名錄",
         "description": "殷建智精神科診所列有陳信昭的醫師資料。",
         "url": "https://www.doctoryin.com.tw/doctors.html"
+      },
+      {
+        "label": "教學醫院講座公告",
+        "description": "成大醫院精神部講座公告並列陳信昭與殷建智精神科診所及台南市立醫院精神科。",
+        "url": "https://psy-med.ncku.edu.tw/p/404-1128-297191.php?Lang=zh-tw"
       }
     ],
     "locations": []
@@ -1005,6 +1055,27 @@
       }
     ],
     "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "劉峻豪（加拿大多倫多大學博士候選人）",
+    "sources": [
+      {
+        "label": "研究論文作者機構",
+        "description": "論文作者資料列 Chun-Hao Liu 隸屬加拿大多倫多大學 Temerty 醫學院醫學科學研究所；論文未列博士候選人職銜。",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41689079/"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "University of Toronto, Temerty Faculty of Medicine",
+        "country": "加拿大",
+        "city": "Toronto",
+        "lat": 43.660806,
+        "lon": -79.393694,
+        "source_url": "https://www.wikidata.org/wiki/Q7896486"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -1116,6 +1187,18 @@
   },
   {
     "section": "會員名單",
+    "raw": "林士哲（中研院生醫所博士後研究員）",
+    "sources": [
+      {
+        "label": "研究所公告",
+        "description": "中央研究院生物醫學科學研究所項目公告列林士哲（Shih-Che Lin）及其研究指導關係，所附公告未列博士後職銜。",
+        "url": "https://www.ibms.sinica.edu.tw/ch/news/2022-451.html"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
     "raw": "林秉澤（Duke University (杜克大學）博士後研究員）",
     "sources": [
       {
@@ -1167,6 +1250,18 @@
         "source_url": "https://nces.ed.gov/collegenavigator/?id=139940"
       }
     ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "彭美蓁（前遠東科技大學／長榮大學兼任講師）",
+    "sources": [
+      {
+        "label": "專業機構公開履歷",
+        "description": "彭美蓁在心理師公開履歷列有長榮大學英文講師經歷。",
+        "url": "https://www.farhugs.com/providers/764/about"
+      }
+    ],
+    "locations": []
   },
   {
     "section": "會員名單",
@@ -1244,9 +1339,23 @@
         "label": "大學活動紀錄",
         "description": "中興大學校友中心報導劉益昌教授於惠蓀講座分享研究。",
         "url": "https://alumni.nchu.edu.tw/page-1.php?id=c701e2ce-3ff3-4eaa-b573-6cddd871b376"
+      },
+      {
+        "label": "研究所師資頁",
+        "description": "成功大學考古學研究所刊載劉益昌的師資簡歷。",
+        "url": "https://archaeology.ncku.edu.tw/p/405-1208-284489%2Cc31340.php?Lang=zh-tw"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "國立成功大學",
+        "country": "臺灣",
+        "city": "臺南市",
+        "lat": 22.995894,
+        "lon": 120.218433,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.219/22.998/2500"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -1263,7 +1372,16 @@
         "url": "https://kohuanlee.wordpress.com/"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "CSIRO Black Mountain",
+        "country": "澳洲",
+        "city": "Canberra",
+        "lat": -35.2729083,
+        "lon": 149.1126362,
+        "source_url": "https://www.openstreetmap.org/way/763602398"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -1371,7 +1489,16 @@
         "url": "https://cph.cmu.edu.tw/~coph/sites/default/files/201712201142571.12.25%E5%BC%B5%E6%AD%A6%E4%BF%AE%E9%86%AB%E5%B8%AB%E6%BC%94%E8%AC%9B%E6%B5%B7%E5%A0%B1.pdf"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "Tufts University School of Medicine",
+        "country": "美國",
+        "city": "Boston",
+        "lat": 42.3499675,
+        "lon": -71.0621085,
+        "source_url": "https://www.openstreetmap.org/node/6144131365"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -1381,6 +1508,11 @@
         "label": "大學研究學院年度報告",
         "description": "北科大創新前瞻科技研究學院績效報告收錄陳維鈞的學術資料。",
         "url": "https://ifirst.ntut.edu.tw/var/file/130/1130/img/4037/484422483.pdf"
+      },
+      {
+        "label": "學位學程師資頁",
+        "description": "臺北科大創新前瞻科技研究學院半導體科技學位學程列有陳維鈞。",
+        "url": "https://ifirst.ntut.edu.tw/p/405-1130-135806%2Cc16921.php?Lang=zh-tw"
       }
     ],
     "locations": [

@@ -1,0 +1,44 @@
+[
+  {
+    "section": "會員名單",
+    "raw": "高潔如（台體大研發處兼任講師）",
+    "sources": [
+      {
+        "label": "教育部師資名錄",
+        "description": "教育部 114 學年度名錄記載高潔如為國立臺灣體育運動大學通識教育中心兼任講師。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立臺灣體育運動大學"
+        ]
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "王旭（元智大學應用外語系退休教授）",
+    "sources": [
+      {
+        "label": "校方歷年招生簡章",
+        "description": "元智大學 98 學年度簡章列王旭為應用外語學系教授兼系主任。",
+        "url": "https://www.yzu.edu.tw/admissions/files/Doctor%20Entrance%20Examination/dept/15.pdf",
+        "institutions": [
+          "元智大學"
+        ]
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "許維智（中科大／行政院政務顧問助理教授／政務顧問）",
+    "sources": [
+      {
+        "label": "系所教師名錄",
+        "description": "國立臺中科技大學休閒事業經營系將許維智列為兼任助理教授。",
+        "url": "https://lrm.nutc.edu.tw/p/412-1054-12481.php",
+        "institutions": [
+          "國立臺中科技大學"
+        ]
+      }
+    ]
+  }
+]

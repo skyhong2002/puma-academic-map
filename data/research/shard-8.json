@@ -1052,5 +1052,154 @@
       }
     ],
     "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "彭建維（林口長庚醫院助理教授）",
+    "sources": [
+      {
+        "label": "醫學系臨床教學公告",
+        "description": "長庚大學臨床病理討論會列彭建維為林口長庚胃腸肝膽科指導醫師。",
+        "url": "https://www.cgu.edu.tw/med/Subject/Detail/54749?nodeId=15048"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "林秀玲（國立台灣師範大學博士後研究員）",
+    "sources": [
+      {
+        "label": "中心人員名錄",
+        "description": "臺灣師範大學科學教育中心名錄收錄林秀玲為博士後研究員。",
+        "url": "https://course.sa.ntnu.edu.tw/zh_tw/Faculty2/faculty"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "黃建勳（財團法人食品工業發展研究所資深研究員）",
+    "sources": [
+      {
+        "label": "研究所公告",
+        "description": "食品工業發展研究所公告列黃建勳為食品所生物資源保存及研究中心研究員。",
+        "url": "https://www.firdi.org.tw/Bulletins_Detail.aspx?BulletinID=30006253"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "呂紹瑋（國立陽明交通大學生物醫學研究所博士候選人）",
+    "sources": [
+      {
+        "label": "公開專業簡介",
+        "description": "KidPro 團隊簡介記載呂紹瑋為陽明交通大學生物醫學工程學系博士候選人。",
+        "url": "https://tw.kid-pro.com/about-shawnlu"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "郭明芳（東吳大學中國文學博士中國文學博士）",
+    "sources": [
+      {
+        "label": "學術文章作者簡介",
+        "description": "東海大學圖書館館刊的作者資料記載郭明芳取得東吳大學中文博士。",
+        "url": "https://dcollection.lib.thu.edu.tw/wp-content/uploads/2024/12/%E7%AC%AC39%E6%9C%9F%E9%A4%A8%E5%88%8A49-54.pdf"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "李恩齊（國立陽明交通大學助理研究員）",
+    "sources": [
+      {
+        "label": "大學機構典藏",
+        "description": "陽明交通大學典藏的校方專欄將作者李恩齊列為博雅書苑助理研究員。",
+        "url": "https://ir.lib.nycu.edu.tw/bitstream/11536/163161/1/Issue079-06.pdf"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "黃璇華（中醫大病理部講師（退休））",
+    "sources": [
+      {
+        "label": "論文作者機構",
+        "description": "論文作者資料將 Hsuan-Hua Huang 列於中國醫藥大學附設醫院病理科，核對其過往學術機構。",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1140720/"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "許州億（嘉南藥理大學藥學系退休助理教授）",
+    "sources": [
+      {
+        "label": "大學官方公告",
+        "description": "嘉南藥理大學藥粧生技產業系公告邀請許州億於 110 學年度起授課。",
+        "url": "https://mcbio.cnu.edu.tw/?.__id=P20210816124244214&.p=HjYo"
+      },
+      {
+        "label": "系所開課公告",
+        "description": "嘉南藥理大學藥學系的 111 學年度專業選修公告列許州億為生物技術概論教師。",
+        "url": "https://pharm.cnu.edu.tw/?.__id=P20221114092038068&.p=HjYo"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "吳宗儒（中央研究院前博士後研究員）",
+    "sources": [
+      {
+        "label": "學會正式議程",
+        "description": "臺灣醫事檢驗學會研討會議程把吳宗儒列為中研院博士及研究人員。",
+        "url": "https://www.labmed.org.tw/UpFiles/file/20190715/20190715104138583858.pdf"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "林治萱（吉紅本屋有限公司/新生醫護管理專科學校幼兒保育科執行長 /兼任部定講師）",
+    "sources": [
+      {
+        "label": "系所兼任師資名錄",
+        "description": "新生醫護管理專科學校幼兒保育科列林治萱為兼任講師。",
+        "url": "https://child.hsc.edu.tw/p/412-1009-1956.php?Lang=zh-tw"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "葉昱緯（國立臺灣大學博士後研究員）",
+    "sources": [
+      {
+        "label": "大學研討會官方議程",
+        "description": "臺大森林環境暨資源學系聯合研討會將葉昱緯列為該系博士生，可核對其過往學術隸屬。",
+        "url": "https://homepage.ntu.edu.tw/~forestry/UT_NTU/2022/UTokyo-NTU%20Joint%20Conference%202022.htm"
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "曾博泓（淡江大學講師）",
+    "sources": [
+      {
+        "label": "公立學校師資研習簡介",
+        "description": "臺北市輔導教師研習簡介列曾博泓為淡江大學教師第二專長輔導學分班講師。",
+        "url": "https://www.ccjhs.tp.edu.tw/wp-content/uploads/doc/e001/%E8%97%9D%E8%A1%93%E6%9A%96%E5%BF%83%E5%B7%A5%E4%BD%9C%E5%9D%8A%E2%94%80%E9%81%8B%E7%94%A8%E6%8A%95%E5%B0%84%E5%9E%8B%E5%85%B7%E5%9C%A8%E5%9C%98%E9%AB%94%E5%B8%B6%E9%A0%98.pdf"
+      }
+    ],
+    "locations": []
   }
 ]

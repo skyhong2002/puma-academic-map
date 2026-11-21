@@ -64,7 +64,8 @@ def main(csv_path, year):
             if not all((school, unit, name)):
                 continue
             school_key = normalize(school)
-            schools[school_key].update((school_key, re.sub(r"^(國立|市立)", "", school_key)))
+            public_name = school_key.split("財團法人")[-1]
+            schools[school_key].update((school_key, public_name, re.sub(r"^(國立|市立)", "", public_name)))
             records[normalize(name)].add((school, unit, employment, title))
     for path in (DATA / "institutions").glob("*.json"):
         for institution in json.loads(path.read_text()):
@@ -81,7 +82,7 @@ def main(csv_path, year):
         for entry in group["entries"]:
             raw = entry["raw"]
             claims = normalize(entry["affiliation_text"])
-            fragments = re.split(r"[、，,；;／/]", claims)
+            fragments = [re.sub(r"^(?:曾任|前)", "", fragment) for fragment in re.split(r"[、，,；;／/]", claims)]
             person_records = sorted(records[normalize(entry["name"])])
             matches = []
             institutions = set()
@@ -104,7 +105,7 @@ def main(csv_path, year):
                 if not (exact_unit or (year == "114" and school_and_rank)):
                     continue
                 matches.append(f"{school}{unit}，{employment}{title}")
-                institutions.add(normalize(school))
+                institutions.add(normalize(school).split("財團法人")[-1])
             existing = [ref for ref in result.get(raw, []) if ref["label"] != label]
             if matches and (year == "114" or not existing):
                 existing.append({

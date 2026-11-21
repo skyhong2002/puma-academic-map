@@ -134,7 +134,16 @@
         "url": "https://epub.oeaw.ac.at/0xc1aa5572_0x00404bd6.pdf"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "奧地利考古研究院",
+        "country": "奧地利",
+        "city": "Wien",
+        "lat": 48.2099779,
+        "lon": 16.3806477,
+        "source_url": "https://www.openstreetmap.org/relation/2324980"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -271,7 +280,16 @@
         "url": "https://apcs.site.nthu.edu.tw/p/406-1404-318784%2Cr2547.php?Lang=zh-tw"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "維也納音樂暨表演藝術大學",
+        "country": "奧地利",
+        "city": "Wien",
+        "lat": 48.2020489,
+        "lon": 16.3856527,
+        "source_url": "https://www.openstreetmap.org/way/33151166"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -306,12 +324,12 @@
     ],
     "locations": [
       {
-        "institution": "紐約州立大學下州醫學中心",
+        "institution": "紐約州立大學下州健康科學大學",
         "country": "美國",
         "city": "Brooklyn, NY",
-        "lat": 40.656105,
-        "lon": -73.948408,
-        "source_url": "https://esd.ny.gov/sites/default/files/contact-card-pdfs/SUNY_Downstate_Medical_Center_Plan.pdf"
+        "lat": 40.653855,
+        "lon": -73.945535,
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip"
       }
     ]
   },
@@ -492,9 +510,9 @@
         "institution": "瑪麗華盛頓大學",
         "country": "美國",
         "city": "Fredericksburg, VA",
-        "lat": 38.3035044,
-        "lon": -77.4752826,
-        "source_url": "https://tigerweb.geo.census.gov/tigerwebmain/Files/bas26/tigerweb_bas26_colleges_us.html"
+        "lat": 38.302492,
+        "lon": -77.476055,
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip"
       }
     ]
   },
@@ -610,7 +628,16 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/8187250/"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "貝勒醫學院",
+        "country": "美國",
+        "city": "Houston, TX",
+        "lat": 29.7106,
+        "lon": -95.395743,
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -652,7 +679,16 @@
         "url": "https://math.columbian.gwu.edu/lien-yung-nyima-kao"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "喬治華盛頓大學",
+        "country": "美國",
+        "city": "Washington, DC",
+        "lat": 38.89923,
+        "lon": -77.048363,
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -856,7 +892,16 @@
         "url": "https://hsph.harvard.edu/profile/tun-hou-lee/"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "哈佛大學公共衛生學院 Longwood 校區",
+        "country": "美國",
+        "city": "Boston, MA",
+        "lat": 42.335313,
+        "lon": -71.1027231,
+        "source_url": "https://www.openstreetmap.org/way/29937883"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -897,7 +942,16 @@
         "url": "https://www.ciss.ntnu.edu.tw/wp-content/uploads/2025-Booklet-of-Global-Studies_20250505.pdf"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "英屬哥倫比亞大學溫哥華校區",
+        "country": "加拿大",
+        "city": "Vancouver, BC",
+        "lat": 49.2656267,
+        "lon": -123.2502921,
+        "source_url": "https://www.openstreetmap.org/relation/11678160"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -922,6 +976,14 @@
         "lat": 37.87205,
         "lon": -122.25928,
         "source_url": "https://berkeleyca.gov/sites/default/files/2026-06/Ground%20Water%20Analysis%20Report%202025-02.pdf"
+      },
+      {
+        "institution": "聖塔克拉拉大學",
+        "country": "美國",
+        "city": "Santa Clara, CA",
+        "lat": 37.348362,
+        "lon": -121.93784,
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip"
       }
     ]
   },
@@ -1114,7 +1176,16 @@
         "url": "https://report.ndc.gov.tw/ReportFront/PageSystem/reportFileDownload/C11000084/001"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "德州農工大學 College Station 校區",
+        "country": "美國",
+        "city": "College Station, TX",
+        "lat": 30.618726,
+        "lon": -96.336475,
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -1191,9 +1262,9 @@
         "institution": "懷俄明大學",
         "country": "美國",
         "city": "Laramie, WY",
-        "lat": 41.31398,
-        "lon": -105.58079,
-        "source_url": "https://www.uwyo.edu/wygisc/contact_us/index.html"
+        "lat": 41.311773,
+        "lon": -105.57931,
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip"
       }
     ]
   },
@@ -1248,7 +1319,16 @@
         "url": "https://www.yphs.tp.edu.tw/wp-content/uploads/doc/yp1905/%E6%88%B0%E7%88%AD%E8%88%87%E5%92%8C%E5%B9%B3%E3%80%81%E8%A8%98%E6%86%B6%E8%88%87%E5%86%8D%E7%8F%BE%EF%BC%8D%E8%87%BA%E7%81%A3%E3%80%81%E6%97%A5%E6%9C%AC%E3%80%81%E9%9F%93%E5%9C%8B%E4%BA%8C%E6%88%B0%E6%AD%B7%E5%8F%B2%E6%95%98%E4%BA%8B%E8%88%87%E5%8F%8D%E6%80%9D%E3%80%8D.pdf"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "休士頓大學城中分校",
+        "country": "美國",
+        "city": "Houston, TX",
+        "lat": 29.7661,
+        "lon": -95.359338,
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -1265,9 +1345,9 @@
         "institution": "馬里蘭大學學院市分校",
         "country": "美國",
         "city": "College Park, MD",
-        "lat": 38.9888082,
-        "lon": -76.9429222,
-        "source_url": "https://tigerweb.geo.census.gov/tigerwebmain/Files/bas26/tigerweb_bas26_colleges_us.html"
+        "lat": 38.988178,
+        "lon": -76.944721,
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip"
       }
     ]
   },
@@ -1305,7 +1385,16 @@
         "url": "https://www.tamuv.edu/business/contact-us/our-faculty/office2/name-104134-en.aspx"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "德州農工大學維多利亞分校",
+        "country": "美國",
+        "city": "Victoria, TX",
+        "lat": 28.816248,
+        "lon": -96.976334,
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -1353,7 +1442,16 @@
         "url": "https://ntualumnibm.ntu.edu.tw/bm.bimonthly.article/detail/sn/4388"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "休士頓華美中醫學院",
+        "country": "美國",
+        "city": "Houston, TX",
+        "lat": 29.735747,
+        "lon": -95.524765,
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -1370,7 +1468,16 @@
         "url": "https://catalog.georgian.edu/directories/librarians-teaching-faculty/"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "喬治亞法院大學",
+        "country": "美國",
+        "city": "Lakewood, NJ",
+        "lat": 40.099617,
+        "lon": -74.228186,
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -1451,7 +1558,16 @@
         "url": "https://hhp.ufl.edu/directory/yao-chin-wang/"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "佛羅里達大學",
+        "country": "美國",
+        "city": "Gainesville, FL",
+        "lat": 29.64629,
+        "lon": -82.347911,
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -1463,7 +1579,16 @@
         "url": "https://provost.siu.edu/about/new-faculty/tenure-faculty-2026.php"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "南伊利諾大學卡本代爾分校",
+        "country": "美國",
+        "city": "Carbondale, IL",
+        "lat": 37.714193,
+        "lon": -89.217273,
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip"
+      }
+    ]
   },
   {
     "section": "會員名單",
@@ -1492,7 +1617,16 @@
         "url": "https://ccs.ncl.edu.tw/act_detail.aspx?sn=512"
       }
     ],
-    "locations": []
+    "locations": [
+      {
+        "institution": "斯德哥爾摩大學 Frescati 校區",
+        "country": "瑞典",
+        "city": "Stockholm",
+        "lat": 59.366141,
+        "lon": 18.059593,
+        "source_url": "https://www.openstreetmap.org/way/63082892"
+      }
+    ]
   },
   {
     "section": "會員名單",
