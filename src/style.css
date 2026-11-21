@@ -195,6 +195,25 @@ a {
   font-size: 0.9375rem;
 }
 
+.masthead__signup {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin-top: 12px;
+  padding: 0 14px;
+  border-radius: 999px;
+  border: 1px solid var(--accent);
+  background: var(--accent-wash);
+  color: var(--accent-ink);
+  font-size: .875rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.masthead__signup:hover {
+  text-decoration: underline;
+}
+
 .masthead__stats {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
