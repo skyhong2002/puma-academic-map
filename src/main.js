@@ -90,11 +90,11 @@ function closePanel({ focusTarget = returnFocus } = {}) {
   (focusTarget?.isConnected && focusTarget.getClientRects().length ? focusTarget : panelToggle).focus({ preventScroll: true });
 }
 
-function revealAfterPanelResize(point, person) {
-  const reveal = () => person ? atlas.locate(point, person) : atlas.reveal(point);
+function locateAfterPanelResize(point, person) {
+  const locate = () => atlas.locate(point, person);
   const request = {};
   pendingReveal = request;
-  reveal();
+  locate();
   const transitions = mapApp.getAnimations().filter(({ transitionProperty }) =>
     transitionProperty === 'grid-template-columns' || transitionProperty === 'grid-template-rows');
   if (!transitions.length) {
@@ -105,13 +105,8 @@ function revealAfterPanelResize(point, person) {
     if (pendingReveal !== request || panel.hidden) return;
     pendingReveal = undefined;
     atlas.resize();
-    reveal();
+    locate();
   });
-}
-
-function locateOnMap(point, person) {
-  pendingReveal = undefined;
-  atlas.locate(point, person);
 }
 
 function detailTitle(text) {
@@ -122,6 +117,7 @@ function detailTitle(text) {
 }
 
 function showCampus(campus, { restoring = false, fromParent = false } = {}) {
+  if (campus.campusOnly && !campus.point.unit) campus = atlas.resolveCampus(campus.point) ?? campus;
   if (!restoring) rememberParent({ fromRoot: !fromParent });
   if (!restoring) track('view_academic_location');
   const { point, people, unit, campusOnly } = campus;
@@ -163,6 +159,26 @@ function showCampus(campus, { restoring = false, fromParent = false } = {}) {
     title.classList.add('map-detail__institution');
     title.prepend(emblemImage(emblem));
   }
+  if (!unit) {
+    const campuses = atlas.campusesFor(point.institution);
+    if (campuses.length > 1) {
+      const select = document.createElement('select');
+      select.className = 'map-campus-select';
+      select.setAttribute('aria-label', '切換校區');
+      for (const campus of campuses) {
+        const option = document.createElement('option');
+        option.value = pointKey(campus.point);
+        option.textContent = campus.point.campus || campus.point.city || campus.point.institution;
+        option.selected = option.value === pointKey(point);
+        select.append(option);
+      }
+      select.addEventListener('change', () => {
+        const next = campuses.find((campus) => pointKey(campus.point) === select.value);
+        if (next) showCampus(next, { fromParent: true });
+      });
+      details.append(select);
+    }
+  }
   if (unit || (campusOnly && people.length)) {
     const hint = document.createElement('p');
     hint.textContent = unit
@@ -188,11 +204,17 @@ function showCampus(campus, { restoring = false, fromParent = false } = {}) {
   }
   details.append(members);
   showPanel('detail', { focus: !restoring });
-  if (!restoring) revealAfterPanelResize(point);
+  if (!restoring) {
+    if (narrowLayout.matches) setSheetTall(false);
+    locateAfterPanelResize(point);
+  }
 }
 
-function primaryPersonPoint(person) {
-  return person.locations.map((point) => locatedUnit(person, point)).find(Boolean) ?? person.locations[0];
+function primaryPersonPoint(person, county, institution) {
+  const available = person.locations;
+  const matching = available.filter((point) => (!county || point.city === county) && (!institution || point.institution === institution));
+  const locations = matching.length ? matching : available;
+  return locations.map((point) => locatedUnit(person, point)).find(Boolean) ?? locations[0];
 }
 
 function showPerson(person, point, { restoring = false, tall = false, fromParent = false } = {}) {
@@ -206,7 +228,7 @@ function showPerson(person, point, { restoring = false, tall = false, fromParent
     heading: true,
     onLocate: point && (() => {
       if (narrowLayout.matches) setSheetTall(false);
-      revealAfterPanelResize(point, person);
+      locateAfterPanelResize(point, person);
     }),
   });
   const references = document.createElement('details');
@@ -228,7 +250,7 @@ function showPerson(person, point, { restoring = false, tall = false, fromParent
   if (references.childElementCount > 1) details.append(references);
   showPanel('detail', { focus: !restoring });
   if (tall) setSheetTall(true);
-  if (!restoring && point) revealAfterPanelResize(point, person);
+  if (!restoring && point) locateAfterPanelResize(point, person);
 }
 
 const atlas = createAtlas($('map'), people, {
@@ -262,19 +284,31 @@ const directory = mountDirectory(directoryElement, {
       showHomePanel({ focus: false });
     }
   },
-  onSearchPerson(entry) {
-    const person = findPerson(entry);
-    if (!person?.locations.length) return;
-    locateOnMap(primaryPersonPoint(person), person);
+  onOpenInstitution(institution, county) {
+    const campuses = atlas.campusesFor(institution);
+    const campus = (county && campuses.find(({ point }) => point.city === county)) || campuses[0];
+    if (!campus) return false;
+    if (!campuses.some(({ people }) => people.length)) {
+      locateAfterPanelResize(campus.point);
+      return false;
+    }
+    showCampus(campus, { fromParent: true });
+    return true;
   },
-  onOpenPerson(entry) {
+  onLocatePerson(entry, county, institution) {
+    const person = findPerson(entry);
+    const point = person && primaryPersonPoint(person, county, institution);
+    if (!point) return;
+    if (narrowLayout.matches) setSheetTall(false);
+    locateAfterPanelResize(point, person);
+  },
+  onOpenPerson(entry, county, institution) {
     const person = findPerson(entry);
     if (!person) return;
-    showPerson(person, undefined, { fromParent: true });
+    showPerson(person, primaryPersonPoint(person, county, institution), { fromParent: true });
   },
   onLocateUnit(point) {
     showCampus({ point, unit: point.unit, people: atlas.peopleAt(point) }, { fromParent: true });
-    locateOnMap(point);
   },
   onLocate(entry, point) {
     const person = findPerson(entry);

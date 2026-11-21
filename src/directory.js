@@ -214,7 +214,7 @@ function countBadge(count, unit) {
 // ---------- 主元件 ----------
 
 export function mountDirectory(element, {
-  onSelectCounty, onLocate, onLocateUnit, onSearchPerson, onSearchChange, onSearchOpen, onSearchClear, onOpenPerson, onBeforeNavigate,
+  onSelectCounty, onLocate, onLocateUnit, onLocatePerson, onOpenInstitution, onSearchChange, onSearchOpen, onSearchClear, onOpenPerson, onBeforeNavigate,
 } = {}) {
   if (!element) throw new Error('mountDirectory 需要容器元素');
   const uid = `pa-dir-${Math.random().toString(36).slice(2, 8)}`;
@@ -401,8 +401,9 @@ export function mountDirectory(element, {
   }
 
   function selectInstitution(inst, { fromCounty } = {}) {
-    onBeforeNavigate?.({ replace: Boolean(state.institution) && !searchInput.value.trim() });
     const keepCounty = fromCounty ?? (state.county && inst.counties.includes(state.county) ? state.county : null);
+    if (onOpenInstitution?.(inst.name, keepCounty)) return;
+    onBeforeNavigate?.({ replace: Boolean(state.institution) && !searchInput.value.trim() });
     const countyChanged = keepCounty !== state.county;
     state.county = keepCounty;
     state.institution = inst.id;
@@ -596,7 +597,9 @@ export function mountDirectory(element, {
         h('summary', {
           class: 'pa-dir-entry-head',
           dataset: result ? { result: '' } : {},
-          onClick: result && places.length ? () => onSearchPerson?.(entry) : null,
+          onClick: places.length ? (event) => {
+            if (!event.currentTarget.parentElement.open) onLocatePerson?.(entry, state.county, institutionById.get(exclude)?.name);
+          } : null,
         },
           portrait ? h('img', { class: 'pa-dir-portrait', src: portrait.image, alt: '', loading: 'lazy', width: '28', height: '28' }) : null,
           h('span', { class: 'pa-dir-entry-name', title: name }, highlight(name, query)),
@@ -605,7 +608,7 @@ export function mountDirectory(element, {
         h('div', { class: 'pa-dir-entry-body' },
           h('p', { class: 'pa-dir-entry-raw' }, highlight(entry.affiliation || entry.raw, query)),
           onOpenPerson ? h('button', { type: 'button', class: 'pa-dir-cand',
-            onClick: (event) => onOpenPerson(entry, event.currentTarget), text: '開啟人物與留言板',
+            onClick: () => onOpenPerson(entry, state.county, institutionById.get(exclude)?.name), text: '開啟人物與留言板',
             'aria-label': `開啟 ${name} 的人物資料與留言板`,
           }) : null,
           places.length ? h('ul', { class: 'pa-dir-entry-places' }, places.map((place) => h('li', {},

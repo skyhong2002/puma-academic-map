@@ -476,6 +476,19 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
 .map-detail img { max-width: 100%; border-radius: 10px; }
 .map-detail a { color: var(--accent-ink); overflow-wrap: anywhere; }
 .map-campus-zoom { color: var(--accent-ink); }
+.map-campus-select {
+  max-width: 100%;
+  min-height: 44px;
+  margin-block: 4px 8px;
+  padding-inline: 8px;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: var(--paper-raised);
+  color: var(--ink);
+  font: inherit;
+}
+.map-campus-select:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
 .map-campus-people { list-style: none; padding: 0 !important; }
 .map-campus-people button {
   display: flex;

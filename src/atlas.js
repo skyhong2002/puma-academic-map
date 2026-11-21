@@ -103,6 +103,7 @@ function campusGroups(people) {
       const key = campusKey(point);
       const existing = groups.get(key);
       if (existing) existing.point = { ...existing.point, ...point };
+      else if (campus.coordinate_source_url) groups.set(key, { point, people: new Map() });
     }
   }
   return [...groups.values()].map(({ point, people }) => ({
@@ -133,7 +134,8 @@ export function createAtlas(container, people, { onCampus, onCampusZoom, onPerso
   current.classList.add('atlas-current');
   current.setAttribute('aria-hidden', 'true');
   const orange = getComputedStyle(container).getPropertyValue('--map-orange').trim();
-  const groups = campusGroups(people);
+  const registeredCampuses = campusGroups(people);
+  const groups = registeredCampuses.filter((group) => group.people.length);
   const clusters = L.markerClusterGroup({
     maxClusterRadius: 52,
     showCoverageOnHover: false,
@@ -568,7 +570,7 @@ export function createAtlas(container, people, { onCampus, onCampusZoom, onPerso
         appendCount(marker, individualPeople.length);
         const emblem = emblemFor(point.institution);
         if (emblem) marker.prepend(emblemImage(emblem));
-        marker.title = `${groupTitle}・查看 ${individualPeople.length} 位署名者`;
+        marker.title = `${groupTitle}・查看 ${people.length} 位署名者`;
         marker.setAttribute('aria-label', marker.title);
         cards.addLayer(L.marker(anchor, {
           icon: L.divIcon({ html: marker, className: 'atlas-fallback-marker', iconSize: [0, 0] }),
@@ -673,11 +675,11 @@ export function createAtlas(container, people, { onCampus, onCampusZoom, onPerso
     },
     resolvePoint(key) {
       return unitLocations.find((point) => pointKey(point) === key) ??
-        groups.find(({ point }) => pointKey(point) === key)?.point;
+        registeredCampuses.find(({ point }) => pointKey(point) === key)?.point;
     },
     resolveCampus(point, campusOnly) {
       if (point.unit) return { point, unit: point.unit, people: [...(peopleByUnit.get(point) ?? [])] };
-      const group = groups.find(({ point: candidate }) => campusKey(candidate) === campusKey(point));
+      const group = registeredCampuses.find(({ point: candidate }) => campusKey(candidate) === campusKey(point));
       if (!group || !campusOnly) return group;
       return { ...group, campusOnly: true, people: group.people.filter((person) => !locatedUnit(person, point)) };
     },
@@ -686,12 +688,16 @@ export function createAtlas(container, people, { onCampus, onCampusZoom, onPerso
       focusedUnit = point.unit ? point : undefined;
       map.setView([point.lat, point.lon], CAMPUS_PEOPLE_ZOOM, { animate: false });
     },
-    reveal(point) {
-      const { x, y } = map.getSize();
-      map.panInside([point.lat, point.lon], {
-        padding: [Math.min(48, x / 4), Math.min(48, y / 4)],
-        animate: false,
-      });
+    campusesFor(institution) {
+      const campuses = registeredCampuses.filter(({ point }) => point.institution === institution)
+        .sort((a, b) => b.people.length - a.people.length);
+      const distinct = new Map();
+      for (const campus of campuses) {
+        const { point } = campus;
+        const key = JSON.stringify([point.campus, point.city, point.country]);
+        if (!distinct.has(key)) distinct.set(key, campus);
+      }
+      return [...distinct.values()];
     },
     peopleAt(point) { return [...(peopleByUnit.get(point) ?? [])]; },
     canExpandUnit,
@@ -700,7 +706,7 @@ export function createAtlas(container, people, { onCampus, onCampusZoom, onPerso
       focusedUnit = point.unit ? point : undefined;
       const targetZoom = canExpandUnit(point) ? CAMPUS_PEOPLE_ZOOM :
         point.unit ? UNIT_ZOOM + 1 : CAMPUS_ZOOM + 1;
-      const zoom = Math.max(targetZoom, map.getZoom());
+      const zoom = person || point.unit ? Math.max(targetZoom, map.getZoom()) : targetZoom;
       map.setView([point.lat, point.lon], zoom, { animate: false });
     },
   };
