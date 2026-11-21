@@ -92,6 +92,10 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
     maxZoom: CAMPUS_PEOPLE_ZOOM,
     attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
   }).addTo(map);
+  const current = map.createPane('current');
+  current.classList.add('atlas-current');
+  current.setAttribute('aria-hidden', 'true');
+  const orange = getComputedStyle(container).getPropertyValue('--map-orange').trim();
   const groups = campusGroups(people);
   const clusters = L.markerClusterGroup({
     maxClusterRadius: 52,
@@ -288,6 +292,8 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
   }
 
   function showCampuses() {
+    current.hidden = map.getZoom() >= CAMPUS_ZOOM;
+    L.DomUtil.setPosition(current, map.containerPointToLayerPoint([0, 0]));
     if (map.getZoom() < CAMPUS_ZOOM) {
       cards.clearLayers();
       if (!map.hasLayer(clusters)) clusters.addTo(map);
@@ -358,7 +364,7 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
         } else onCampus(group);
       };
       {
-        const pin = L.circleMarker(anchor, { radius: 5, color: '#fff', weight: 1, fillColor: '#ac491e', fillOpacity: 1 });
+        const pin = L.circleMarker(anchor, { radius: 5, color: '#fff', weight: 1, fillColor: orange, fillOpacity: 1 });
         pin.on('click', openCampus);
         cards.addLayer(pin);
       }
@@ -367,7 +373,7 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
       placed.push({ x: screen.x + x, y: screen.y + y, width, height });
       const at = map.containerPointToLatLng([screen.x + x, screen.y + y]);
       if (x || y !== -10) cards.addLayer(L.polyline([anchor, at], {
-        color: '#9b471e', weight: 1, opacity: 0.75, interactive: false,
+        color: orange, weight: 1, opacity: 0.85, interactive: false,
       }));
       const card = document.createElement('div');
       card.className = 'atlas-campus';
