@@ -10,12 +10,21 @@ import { isTaiwan, people } from './person-data.js';
 export const taiwanPeople = people.filter((person) => person.locations.some(isTaiwan));
 export const overseasPeople = people.filter((person) => person.locations.some((point) => !isTaiwan(point)));
 
-export function personDetails(person, point, { heading = false } = {}) {
+export function personDetails(person, point, { heading = false, onLocate } = {}) {
   const content = document.createElement('div');
   content.className = 'person-details';
   const title = document.createElement(heading ? 'h2' : 'strong');
   if (heading) title.tabIndex = -1;
-  title.textContent = person.name;
+  if (onLocate) {
+    const locate = document.createElement('button');
+    locate.type = 'button';
+    locate.className = 'map-detail__locate-person';
+    locate.textContent = person.name;
+    locate.setAttribute('aria-label', `${person.name}，在地圖定位`);
+    locate.title = '在地圖定位';
+    locate.addEventListener('click', onLocate);
+    title.append(locate);
+  } else title.textContent = person.name;
   const emblem = point ? emblemFor(point.institution) : null;
   const claim = document.createElement('p');
   claim.className = 'map-detail__claim';

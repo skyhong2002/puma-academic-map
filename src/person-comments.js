@@ -28,11 +28,9 @@ function tokenFor(id) {
 }
 
 function saveToken(id, token) {
-  if (token) memoryTokens.set(id, token);
-  else memoryTokens.delete(id);
+  memoryTokens.set(id, token);
   try {
-    if (token) localStorage.setItem(`puma-comment:${id}`, token);
-    else localStorage.removeItem(`puma-comment:${id}`);
+    localStorage.setItem(`puma-comment:${id}`, token);
   } catch {
     // Editing remains available in the current tab when storage is unavailable.
   }
@@ -51,7 +49,6 @@ async function request(url, { method = 'GET', data, token, signal } = {}) {
     method, headers, body: data ? JSON.stringify(data) : undefined,
     signal: signal ? AbortSignal.any([signal, timeout]) : timeout,
   });
-  if (response.status === 204) return;
   const result = await response.json();
   if (!response.ok) throw Object.assign(new Error(result.error), { status: response.status });
   return result;
@@ -200,26 +197,8 @@ export function personComments(person) {
         }
       });
     });
-    const remove = button('刪除', async () => {
-      if (!window.confirm('確定刪除這則留言？')) return;
-      change.disabled = remove.disabled = true;
-      feedback.textContent = '';
-      try {
-        await request(`${await endpoint}/${comment.id}`, { method: 'DELETE', token });
-        saveToken(comment.id, null);
-        shown.delete(comment.id);
-        item.remove();
-        if (loaded) updateListStatus();
-        input.focus();
-        status.textContent = '留言已刪除。';
-      } catch (error) {
-        feedback.textContent = errorText(error);
-      } finally {
-        change.disabled = remove.disabled = false;
-      }
-    });
     const share = button('分享字卡', () => openCommentShareCard(section, person.name, comment.body, boardId, share));
-    actions.append(change, remove, share);
+    actions.append(change, share);
     item.append(actions, feedback);
     return item;
   }

@@ -69,7 +69,6 @@ const find = db.prepare(`${select} WHERE id = ? AND person = ? AND owner = ?`);
 const duplicate = db.prepare('SELECT 1 FROM comments WHERE person = ? AND fingerprint = ? AND created_at >= ? AND id != ? LIMIT 1');
 const insert = db.prepare('INSERT INTO comments (id, person, body, fingerprint, owner, created_at, author_name, author_website) VALUES (?, ?, ?, ?, ?, ?, ?, ?)');
 const edit = db.prepare('UPDATE comments SET body = ?, fingerprint = ?, updated_at = ?, author_name = ?, author_website = ? WHERE id = ?');
-const remove = db.prepare('DELETE FROM comments WHERE id = ?');
 const rateCount = db.prepare('SELECT hits FROM rate_limits WHERE key = ? AND expires_at = ?');
 const rateHit = db.prepare(`INSERT INTO rate_limits (key, expires_at, hits) VALUES (?, ?, 1)
   ON CONFLICT (key, expires_at) DO UPDATE SET hits = hits + 1`);
@@ -250,15 +249,15 @@ const server = createServer({ requestTimeout: 10_000, headersTimeout: 5_000 }, a
       return;
     }
     const posting = method === 'POST' && !id;
-    if (!posting && !(id && (method === 'PATCH' || method === 'DELETE'))) {
-      response.setHeader('Allow', id ? 'PATCH, DELETE' : 'GET, POST');
+    if (!posting && !(id && method === 'PATCH')) {
+      response.setHeader('Allow', id ? 'PATCH' : 'GET, POST');
       fail(405, '不支援這個留言操作。');
     }
     if (request.headers.origin && !allowedOrigins.has(request.headers.origin)) fail(403, '請從本站操作留言。');
     const now = Date.now();
     const source = sourceKey(request, now);
     limit(now, [`attempt:${source}`, 15, minute]);
-    const input = method === 'DELETE' ? null : await jsonBody(request);
+    const input = await jsonBody(request);
     const token = posting ? input.token : request.headers.authorization?.match(/^Bearer (.+)$/)?.[1];
     if (typeof token !== 'string' || !tokenValid.test(token)) fail(403, '找不到這則留言的編輯權限。');
     const owner = hash(`owner:${token}`);
@@ -269,11 +268,6 @@ const server = createServer({ requestTimeout: 10_000, headersTimeout: 5_000 }, a
       return;
     }
     if (!posting && !existing) fail(404, '找不到你可以操作的留言。');
-    if (method === 'DELETE') {
-      remove.run(commentId);
-      send(response, 204);
-      return;
-    }
     if (posting && input.website !== '') fail(422, '無法送出這則留言，請重新整理後再試。');
     const { body, fingerprint } = commentText(input.body);
     if (duplicate.get(person, fingerprint, now - 60 * minute, commentId)) fail(409, '這個留言板近期已有相同內容。');

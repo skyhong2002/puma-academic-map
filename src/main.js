@@ -90,10 +90,11 @@ function closePanel({ focusTarget = returnFocus } = {}) {
   (focusTarget?.isConnected && focusTarget.getClientRects().length ? focusTarget : panelToggle).focus({ preventScroll: true });
 }
 
-function revealAfterPanelResize(point) {
+function revealAfterPanelResize(point, person) {
+  const reveal = () => person ? atlas.locate(point, person) : atlas.reveal(point);
   const request = {};
   pendingReveal = request;
-  atlas.reveal(point);
+  reveal();
   const transitions = mapApp.getAnimations().filter(({ transitionProperty }) =>
     transitionProperty === 'grid-template-columns' || transitionProperty === 'grid-template-rows');
   if (!transitions.length) {
@@ -104,7 +105,7 @@ function revealAfterPanelResize(point) {
     if (pendingReveal !== request || panel.hidden) return;
     pendingReveal = undefined;
     atlas.resize();
-    atlas.reveal(point);
+    reveal();
   });
 }
 
@@ -218,11 +219,21 @@ function showCampus(campus, { restoring = false } = {}) {
   if (!restoring) revealAfterPanelResize(point);
 }
 
-function showPerson(person, point, { restoring = false } = {}) {
+function primaryPersonPoint(person) {
+  return person.locations.map((point) => locatedUnit(person, point)).find(Boolean) ?? person.locations[0];
+}
+
+function showPerson(person, point = primaryPersonPoint(person), { restoring = false } = {}) {
   if (!restoring) rememberPanel();
   panelDetail = { type: 'person', point: point && pointKey(point), person: personRef(person) };
   atlas.select(point, person);
-  const body = personDetails(person, point, { heading: true });
+  const body = personDetails(person, point, {
+    heading: true,
+    onLocate: point && (() => {
+      if (narrowLayout.matches) setSheetTall(false);
+      revealAfterPanelResize(point, person);
+    }),
+  });
   const references = document.createElement('details');
   references.className = 'map-detail__references';
   const summary = document.createElement('summary');
@@ -241,7 +252,7 @@ function showPerson(person, point, { restoring = false } = {}) {
   details.replaceChildren(body, personComments(person));
   if (references.childElementCount > 1) details.append(references);
   showPanel('detail', { focus: !restoring });
-  if (!restoring && point) revealAfterPanelResize(point);
+  if (!restoring && point) revealAfterPanelResize(point, person);
 }
 
 const atlas = createAtlas($('map'), people, {
@@ -273,13 +284,12 @@ const directory = mountDirectory(directoryElement, {
   onSearchPerson(entry) {
     const person = findPerson(entry);
     if (!person?.locations.length) return;
-    const unit = person.locations.map((point) => locatedUnit(person, point)).find(Boolean);
-    locateOnMap(unit ?? person.locations[0], person);
+    locateOnMap(primaryPersonPoint(person), person);
   },
   onOpenPerson(entry) {
     const person = findPerson(entry);
     if (!person) return;
-    showPerson(person, person.locations[0]);
+    showPerson(person);
   },
   onLocateUnit(point) {
     showCampus({ point, unit: point.unit, people: atlas.peopleAt(point) });
@@ -288,9 +298,7 @@ const directory = mountDirectory(directoryElement, {
   onLocate(entry, point) {
     const person = findPerson(entry);
     if (!person) return;
-    const location = locatedUnit(person, point) ?? point;
-    showPerson(person, location);
-    locateOnMap(location, person);
+    showPerson(person, locatedUnit(person, point) ?? point);
   },
 });
 directoryElement.querySelector('h2').tabIndex = -1;
@@ -645,8 +653,8 @@ async function openLinkedBoard(id) {
 }
 
 function openPersonBoard(person) {
-  showPerson(person, person.locations[0]);
   if (narrowLayout.matches) setSheetTall(true);
+  showPerson(person);
   const heading = details.querySelector('.person-comments h3');
   heading.focus({ preventScroll: true });
   heading.scrollIntoView({ block: 'start' });
