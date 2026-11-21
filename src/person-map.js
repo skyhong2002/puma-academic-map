@@ -46,10 +46,28 @@ function markerKey(person, point) {
   return JSON.stringify([person.section, person.raw, point.country, point.institution]);
 }
 
-function addPersonMarkers(map, entries, include) {
+function avatarIcon(person) {
+  const face = document.createElement(person.portrait ? 'img' : 'span');
+  if (person.portrait) {
+    face.src = person.portrait.image;
+    face.alt = '';
+    face.decoding = 'async';
+  } else {
+    const name = person.name.trim();
+    const words = name.split(/\s+/);
+    face.textContent = /\p{Script=Han}/u.test(name[0] ?? '')
+      ? [...name].slice(-2).join('')
+      : words.slice(0, 2).map((word) => word[0]).join('').toUpperCase();
+  }
+  return L.divIcon({ className: 'person-avatar', html: face, iconSize: [36, 36] });
+}
+
+function addPersonMarkers(map, entries, include, avatarZoom) {
+  const pins = [];
   const byPerson = new Map();
   const markers = L.markerClusterGroup({
     maxClusterRadius: 34,
+    removeOutsideVisibleBounds: false,
     showCoverageOnHover: false,
     spiderfyOnMaxZoom: true,
     iconCreateFunction(cluster) {
@@ -60,36 +78,49 @@ function addPersonMarkers(map, entries, include) {
       });
     },
   });
-  const icon = L.divIcon({ className: 'person-pin', iconSize: [16, 16] });
+  const dot = L.divIcon({ className: 'person-pin', iconSize: [16, 16] });
+  let showAvatars = map.getZoom() >= avatarZoom;
   for (const person of entries) {
     for (const point of person.locations.filter(include)) {
-      const marker = L.marker([point.lat, point.lon], { icon, title: person.name, alt: person.name });
+      const avatar = avatarIcon(person);
+      const marker = L.marker([point.lat, point.lon], { icon: showAvatars ? avatar : dot, title: person.name, alt: person.name });
       marker.on('add', () => marker.getElement()?.setAttribute('aria-label', person.name));
       marker.bindPopup(() => popup(person, point), { maxWidth: 320 });
       markers.addLayer(marker);
+      pins.push({ marker, avatar });
       byPerson.set(markerKey(person, point), person);
     }
   }
   map.addLayer(markers);
+  map.on('zoomend', () => {
+    const next = map.getZoom() >= avatarZoom;
+    if (next === showAvatars) return;
+    showAvatars = next;
+    for (const { marker, avatar } of pins) {
+      marker.setIcon(next ? avatar : dot);
+      marker.getElement()?.setAttribute('aria-label', marker.options.title);
+    }
+  });
   return (person, point) => {
     const record = byPerson.get(markerKey(person, point));
     if (!record) return;
     const coordinates = L.latLng(point.lat, point.lon);
-    map.setView(coordinates, Math.min(10, map.getMaxZoom()), { animate: false });
+    map.closePopup();
+    map.setView(coordinates, Math.min(10, map.getMaxZoom()), { reset: true });
     L.popup({ maxWidth: 320 }).setLatLng(coordinates).setContent(popup(record, point)).openOn(map);
   };
 }
 
 export function addTaiwanPeople(map) {
-  return addPersonMarkers(map, taiwanPeople, isTaiwan);
+  return addPersonMarkers(map, taiwanPeople, isTaiwan, 9);
 }
 
 export function createWorldMap(container) {
   const map = L.map(container, {
-    minZoom: 0.5, maxZoom: 12, zoomSnap: 0.5, worldCopyJump: true, scrollWheelZoom: false,
-  }).setView([22, 0], Math.max(0.5, Math.floor(Math.log2(container.clientWidth / 256) * 2) / 2));
+    minZoom: 0, maxZoom: 12, zoomSnap: 0, zoomDelta: 0.75, worldCopyJump: true, scrollWheelZoom: false,
+  }).fitBounds([[-57, -178], [82, 179]], { padding: [10, 10] });
   L.geoJSON(worldLand, { interactive: false, className: 'world-land' }).addTo(map);
   map.attributionControl.addAttribution('Natural Earth');
-  const locate = addPersonMarkers(map, overseasPeople, (point) => !isTaiwan(point));
+  const locate = addPersonMarkers(map, overseasPeople, (point) => !isTaiwan(point), 4);
   return { map, locate };
 }
