@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>學術界公開署名地圖｜支持沈伯洋的學術後援會</title>
+    <meta
+      name="description"
+      content="以縣市地圖瀏覽學術後援會公開名單所列機構的分布，並查閱各機構官方校區地址與原站公開署名。"
+    />
+    <meta name="theme-color" content="#f5f1e8" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#directory">跳到機構名錄</a>
+
+    <header class="masthead">
+      <div class="masthead__text">
+        <p class="masthead__kicker">學術後援會公開名單</p>
+        <h1 class="masthead__title">學術界公開署名地圖</h1>
+        <p class="masthead__lede">
+          從縣市看支持沈伯洋的學術界署名機構分布。點選縣市，查閱當地機構的官方校區地址與原站公開署名。
+        </p>
+      </div>
+      <dl class="masthead__stats" id="stats" aria-label="資料概況"></dl>
+    </header>
+
+    <main class="layout">
+      <section class="atlas-column" aria-labelledby="atlas-heading">
+        <h2 class="visually-hidden" id="atlas-heading">縣市地圖</h2>
+
+        <div class="atlas" id="atlas">
+          <div class="atlas__map" id="map" role="img" aria-label="臺灣縣市地圖，依已建檔校區數著色。可改用下方的縣市清單操作。"></div>
+
+          <div class="atlas__top">
+            <nav class="crumbs" aria-label="地圖層級">
+              <button type="button" class="crumbs__home" id="crumb-home" aria-current="true">全臺</button>
+              <span class="crumbs__sep" id="crumb-sep" aria-hidden="true" hidden>›</span>
+              <span class="crumbs__county" id="crumb-county" hidden></span>
+            </nav>
+            <div class="cue" id="cue">
+              <p class="cue__name" id="cue-name">全臺灣</p>
+              <p class="cue__meta" id="cue-meta"></p>
+              <a class="cue__jump" id="cue-jump" href="#directory" hidden>看名錄 ↓</a>
+            </div>
+          </div>
+
+          <button type="button" class="atlas__reset" id="reset" hidden>
+            <span aria-hidden="true">←</span> 回全臺
+          </button>
+
+          <div class="insets" id="insets" aria-hidden="true"></div>
+
+          <div class="legend" aria-hidden="true">
+            <p class="legend__title">已建檔校區數</p>
+            <ol class="legend__scale" id="legend"></ol>
+          </div>
+        </div>
+
+        <nav class="rail" aria-labelledby="rail-heading">
+          <h3 class="rail__heading" id="rail-heading">縣市清單</h3>
+          <ul class="rail__list" id="county-list"></ul>
+        </nav>
+
+        <p class="visually-hidden" id="status" role="status" aria-live="polite"></p>
+      </section>
+
+      <section class="directory-column" id="directory" aria-label="機構與署名名錄" tabindex="-1"></section>
+    </main>
+
+    <footer class="colophon">
+      <p>
+        地圖以縣市為單位，呈現已建檔機構的官方校區地址所在縣市；尚未標示校區座標，署名者也不對應到特定校區。
+      </p>
+      <p>
+        名單來源：<a id="source-link" href="https://sites.google.com/view/academic-kouenkai-for-puma/" target="_blank" rel="noopener">學術後援會公開名單</a><span id="source-date"></span>。縣市界線：內政部國土測繪中心（<a href="https://data.gov.tw/dataset/7442" target="_blank" rel="noopener">政府資料開放平臺</a>，依政府資料開放授權條款第 1 版使用），圖形經裁切與簡化，僅供導覽。
+      </p>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

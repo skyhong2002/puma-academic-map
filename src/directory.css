@@ -1,0 +1,446 @@
+/* 機構與署名目錄。所有顏色都可由外層以 --pa-dir-* 或共用的 --accent / --bg 等變數覆寫。 */
+.pa-directory {
+  --pa-dir-accent: var(--accent, #3c7a73);
+  --pa-dir-accent-strong: var(--accent-strong, #2c5e58);
+  --pa-dir-accent-soft: var(--accent-soft, #e3efed);
+  --pa-dir-bg: var(--surface, #fbfcfb);
+  --pa-dir-card: var(--surface-raised, #ffffff);
+  --pa-dir-text: var(--text, #1f2a28);
+  --pa-dir-muted: var(--text-muted, #5d6b68);
+  --pa-dir-border: var(--border, #d7e1df);
+  --pa-dir-mark: var(--highlight, #f4e3a6);
+  --pa-dir-warn-bg: var(--notice-bg, #f6f1e4);
+  --pa-dir-warn-border: var(--notice-border, #d9c79a);
+  --pa-dir-focus: var(--focus-ring, #1f6f68);
+  --pa-dir-radius: var(--radius, 12px);
+  --pa-dir-gap: 16px;
+
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: var(--pa-dir-gap);
+  min-width: 0;
+  padding: 20px 16px 28px;
+  background: var(--pa-dir-bg);
+  color: var(--pa-dir-text);
+  font-size: 15px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .pa-directory {
+    --pa-dir-accent: var(--accent, #7fbdb4);
+    --pa-dir-accent-strong: var(--accent-strong, #a3d3cb);
+    --pa-dir-accent-soft: var(--accent-soft, #20332f);
+    --pa-dir-bg: var(--surface, #141a19);
+    --pa-dir-card: var(--surface-raised, #1b2321);
+    --pa-dir-text: var(--text, #e5ecea);
+    --pa-dir-muted: var(--text-muted, #9fb0ac);
+    --pa-dir-border: var(--border, #2e3a38);
+    --pa-dir-mark: var(--highlight, #5b4e1f);
+    --pa-dir-warn-bg: var(--notice-bg, #2a2618);
+    --pa-dir-warn-border: var(--notice-border, #5a4f2c);
+    --pa-dir-focus: var(--focus-ring, #9fd6cd);
+  }
+}
+:root[data-theme="dark"] .pa-directory {
+  --pa-dir-accent: var(--accent, #7fbdb4);
+  --pa-dir-accent-strong: var(--accent-strong, #a3d3cb);
+  --pa-dir-accent-soft: var(--accent-soft, #20332f);
+  --pa-dir-bg: var(--surface, #141a19);
+  --pa-dir-card: var(--surface-raised, #1b2321);
+  --pa-dir-text: var(--text, #e5ecea);
+  --pa-dir-muted: var(--text-muted, #9fb0ac);
+  --pa-dir-border: var(--border, #2e3a38);
+  --pa-dir-mark: var(--highlight, #5b4e1f);
+  --pa-dir-warn-bg: var(--notice-bg, #2a2618);
+  --pa-dir-warn-border: var(--notice-border, #5a4f2c);
+  --pa-dir-focus: var(--focus-ring, #9fd6cd);
+}
+
+.pa-directory *,
+.pa-directory *::before,
+.pa-directory *::after { box-sizing: border-box; }
+
+.pa-directory :is(h2, h3, h4, p, ul, ol, dl, dd) { margin: 0; }
+.pa-directory :is(ul, ol) { padding: 0; list-style: none; }
+.pa-directory button { font: inherit; color: inherit; }
+
+.pa-directory :is(button, a, input, [tabindex]):focus-visible {
+  outline: 3px solid var(--pa-dir-focus);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+.pa-directory .pa-dir-view-title:focus { outline: none; }
+.pa-directory .pa-dir-view-title:focus-visible { outline: 3px solid var(--pa-dir-focus); }
+
+.pa-dir-sr {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.pa-dir-muted { color: var(--pa-dir-muted); }
+.pa-dir-small { font-size: 13px; }
+
+/* 標頭 */
+.pa-dir-header { display: grid; gap: 8px; }
+.pa-dir-title { font-size: 20px; line-height: 1.3; letter-spacing: .02em; }
+.pa-dir-lede { color: var(--pa-dir-muted); font-size: 14px; }
+.pa-dir-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 4px;
+}
+.pa-dir-stat {
+  padding: 10px 12px;
+  border: 1px solid var(--pa-dir-border);
+  border-radius: var(--pa-dir-radius);
+  background: var(--pa-dir-card);
+}
+.pa-dir-stat dt { font-size: 12px; color: var(--pa-dir-muted); }
+.pa-dir-stat dd { font-size: 13px; color: var(--pa-dir-muted); }
+.pa-dir-stat strong {
+  margin-right: 2px;
+  font-size: 20px;
+  color: var(--pa-dir-text);
+  font-variant-numeric: tabular-nums;
+}
+
+/* 搜尋 */
+.pa-dir-search { display: grid; gap: 6px; }
+.pa-dir-search-label { font-size: 13px; font-weight: 600; }
+.pa-dir-search-field { position: relative; display: flex; align-items: center; }
+.pa-dir-search-icon {
+  position: absolute;
+  left: 12px;
+  width: 18px; height: 18px;
+  color: var(--pa-dir-muted);
+  pointer-events: none;
+}
+.pa-dir-search-input {
+  width: 100%;
+  min-height: 46px;
+  padding: 10px 72px 10px 40px;
+  border: 1px solid var(--pa-dir-border);
+  border-radius: var(--pa-dir-radius);
+  background: var(--pa-dir-card);
+  color: var(--pa-dir-text);
+  font: inherit;
+  font-size: 16px; /* 避免 iOS 聚焦時放大 */
+  -webkit-appearance: none;
+  appearance: none;
+}
+.pa-dir-search-input::-webkit-search-cancel-button { display: none; }
+.pa-dir-search-input:focus { border-color: var(--pa-dir-accent); }
+.pa-dir-search-input::placeholder { color: var(--pa-dir-muted); opacity: .85; }
+.pa-dir-search-clear {
+  position: absolute;
+  right: 6px;
+  min-height: 36px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--pa-dir-accent-soft);
+  color: var(--pa-dir-accent-strong);
+  font-size: 13px;
+  cursor: pointer;
+}
+.pa-dir-search-clear[hidden] { display: none; }
+.pa-dir-hint { font-size: 12px; color: var(--pa-dir-muted); }
+@media (hover: none) { .pa-dir-hint { display: none; } }
+
+/* 縣市選單 */
+.pa-dir-counties { margin: 0 -16px; }
+.pa-dir-chip-list {
+  display: flex;
+  gap: 8px;
+  padding: 2px 16px 8px;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+}
+.pa-dir-chip-list > li { flex: none; scroll-snap-align: start; }
+.pa-dir-chip {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 40px;
+  padding: 6px 14px;
+  border: 1px solid var(--pa-dir-border);
+  border-radius: 999px;
+  background: var(--pa-dir-card);
+  white-space: nowrap;
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: background-color .15s, border-color .15s, color .15s;
+}
+.pa-dir-chip:hover { border-color: var(--pa-dir-accent); }
+.pa-dir-chip[aria-pressed="true"] {
+  border-color: var(--pa-dir-accent);
+  background: var(--pa-dir-accent);
+  color: var(--pa-dir-bg);
+}
+.pa-dir-chip-alt { border-style: dashed; }
+.pa-dir-chip-count {
+  min-width: 1.6em;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: var(--pa-dir-accent-soft);
+  color: var(--pa-dir-accent-strong);
+  font-size: 12px;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+.pa-dir-chip[aria-pressed="true"] .pa-dir-chip-count {
+  background: color-mix(in srgb, var(--pa-dir-bg) 22%, transparent);
+  color: inherit;
+}
+
+@media (min-width: 900px) {
+  .pa-dir-counties { margin: 0; }
+  .pa-dir-chip-list { flex-wrap: wrap; padding: 0; overflow: visible; }
+}
+
+/* 主要區塊 */
+.pa-dir-main { display: grid; gap: var(--pa-dir-gap); min-width: 0; }
+.pa-dir-crumbs ol { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 4px; font-size: 13px; }
+.pa-dir-crumbs li { display: inline-flex; align-items: center; }
+.pa-dir-crumbs li + li::before { content: "›"; margin-right: 4px; color: var(--pa-dir-muted); }
+.pa-dir-crumbs [aria-current] { color: var(--pa-dir-muted); }
+.pa-dir-crumb {
+  min-height: 32px;
+  padding: 4px 6px;
+  border: 0;
+  background: none;
+  color: var(--pa-dir-accent-strong);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+.pa-dir-view-head { display: grid; gap: 4px; }
+.pa-dir-view-title { font-size: 19px; line-height: 1.35; scroll-margin-top: 16px; }
+.pa-dir-view-sub { color: var(--pa-dir-muted); font-size: 14px; }
+
+.pa-dir-section { display: grid; gap: 10px; }
+.pa-dir-section > h4,
+.pa-dir-aliases > h4,
+.pa-dir-coverage > h4 { font-size: 15px; }
+
+/* 機構卡片 */
+.pa-dir-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+  gap: 10px;
+}
+.pa-dir-card-button {
+  position: relative;
+  display: grid;
+  gap: 2px;
+  width: 100%;
+  min-height: 44px;
+  padding: 12px 36px 12px 14px;
+  border: 1px solid var(--pa-dir-border);
+  border-radius: var(--pa-dir-radius);
+  background: var(--pa-dir-card);
+  text-align: left;
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: border-color .15s, box-shadow .15s;
+}
+.pa-dir-card-button:hover {
+  border-color: var(--pa-dir-accent);
+  box-shadow: 0 2px 10px color-mix(in srgb, var(--pa-dir-accent) 14%, transparent);
+}
+.pa-dir-card-type { font-size: 12px; color: var(--pa-dir-accent-strong); letter-spacing: .04em; }
+.pa-dir-card-name { font-size: 16px; font-weight: 600; line-height: 1.4; }
+.pa-dir-card-meta { font-size: 13px; color: var(--pa-dir-muted); }
+.pa-dir-card-count { font-size: 13px; color: var(--pa-dir-muted); }
+.pa-dir-card-count strong { color: var(--pa-dir-text); font-variant-numeric: tabular-nums; }
+.pa-dir-card-arrow {
+  position: absolute;
+  top: 50%; right: 14px;
+  transform: translateY(-50%);
+  font-size: 22px;
+  color: var(--pa-dir-muted);
+}
+
+/* 機構詳情 */
+.pa-dir-links { font-size: 14px; }
+.pa-dir-link {
+  color: var(--pa-dir-accent-strong);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.pa-dir-link::after { content: " ↗"; font-size: .85em; }
+.pa-dir-campuses {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
+  gap: 8px;
+}
+.pa-dir-campus {
+  display: grid;
+  gap: 4px;
+  padding: 12px 14px;
+  border: 1px solid var(--pa-dir-border);
+  border-left: 4px solid var(--pa-dir-accent);
+  border-radius: var(--pa-dir-radius);
+  background: var(--pa-dir-card);
+}
+.pa-dir-campus.is-elsewhere { border-left-color: var(--pa-dir-border); }
+.pa-dir-campus-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px; }
+.pa-dir-campus-name { font-weight: 600; }
+.pa-dir-address { font-size: 14px; }
+.pa-dir-campus-source { font-size: 13px; }
+.pa-dir-tag {
+  min-height: 32px;
+  padding: 2px 10px;
+  border: 1px solid var(--pa-dir-border);
+  border-radius: 999px;
+  background: var(--pa-dir-accent-soft);
+  color: var(--pa-dir-accent-strong);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.pa-dir-aliases { display: grid; gap: 6px; font-size: 13px; }
+.pa-dir-alias-list { display: flex; flex-wrap: wrap; gap: 6px; }
+.pa-dir-alias-list li {
+  padding: 2px 10px;
+  border: 1px dashed var(--pa-dir-border);
+  border-radius: 999px;
+  color: var(--pa-dir-muted);
+}
+
+.pa-dir-notice {
+  padding: 10px 12px;
+  border: 1px solid var(--pa-dir-warn-border);
+  border-radius: var(--pa-dir-radius);
+  background: var(--pa-dir-warn-bg);
+  font-size: 13px;
+}
+.pa-dir-notice strong { margin-right: 4px; }
+
+/* 署名條目 */
+.pa-dir-entries-wrap { display: grid; gap: 10px; }
+.pa-dir-entries {
+  display: grid;
+  border: 1px solid var(--pa-dir-border);
+  border-radius: var(--pa-dir-radius);
+  background: var(--pa-dir-card);
+  overflow: hidden;
+}
+.pa-dir-entry {
+  display: grid;
+  gap: 4px;
+  padding: 12px 14px;
+  scroll-margin: 16px;
+}
+.pa-dir-entry + .pa-dir-entry { border-top: 1px solid var(--pa-dir-border); }
+.pa-dir-entry[data-result]:focus-visible { outline-offset: -3px; }
+.pa-dir-entry-head { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
+.pa-dir-entry-name { font-weight: 600; font-size: 15px; }
+.pa-dir-section-tag {
+  flex: none;
+  padding: 0 8px;
+  border-radius: 999px;
+  background: var(--pa-dir-accent-soft);
+  color: var(--pa-dir-muted);
+  font-size: 12px;
+}
+.pa-dir-section-tag.is-lead { color: var(--pa-dir-accent-strong); }
+.pa-dir-entry-raw { font-size: 14px; }
+.pa-dir-entry-note { font-size: 12px; color: var(--pa-dir-muted); }
+.pa-dir-entry-source { font-size: 12px; }
+.pa-dir-entry-cands { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; font-size: 12px; }
+.pa-dir-cand {
+  min-height: 32px;
+  padding: 2px 10px;
+  border: 1px dashed var(--pa-dir-accent);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--pa-dir-accent-strong);
+  font-size: 12px;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+.pa-dir-cand:hover { background: var(--pa-dir-accent-soft); }
+.pa-directory mark {
+  padding: 0 1px;
+  border-radius: 3px;
+  background: var(--pa-dir-mark);
+  color: inherit;
+}
+
+.pa-dir-more {
+  justify-self: center;
+  min-height: 44px;
+  padding: 8px 18px;
+  border: 1px solid var(--pa-dir-accent);
+  border-radius: 999px;
+  background: var(--pa-dir-card);
+  color: var(--pa-dir-accent-strong);
+  cursor: pointer;
+}
+.pa-dir-more:hover { background: var(--pa-dir-accent-soft); }
+
+/* 搜尋結果 */
+.pa-dir-result-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.pa-dir-results { display: grid; gap: 8px; }
+.pa-dir-result {
+  display: grid;
+  gap: 2px;
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 14px;
+  border: 1px solid var(--pa-dir-border);
+  border-radius: var(--pa-dir-radius);
+  background: var(--pa-dir-card);
+  text-align: left;
+  cursor: pointer;
+}
+.pa-dir-result:hover { border-color: var(--pa-dir-accent); }
+.pa-dir-result-name { font-weight: 600; }
+.pa-dir-result-meta { font-size: 13px; color: var(--pa-dir-muted); }
+
+.pa-dir-empty {
+  display: grid;
+  gap: 4px;
+  padding: 20px 16px;
+  border: 1px dashed var(--pa-dir-border);
+  border-radius: var(--pa-dir-radius);
+  text-align: center;
+}
+
+.pa-dir-coverage {
+  display: grid;
+  gap: 6px;
+  padding: 12px 14px;
+  border-radius: var(--pa-dir-radius);
+  background: var(--pa-dir-accent-soft);
+  font-size: 13px;
+}
+.pa-dir-coverage ul { display: grid; gap: 2px; padding-left: 1.2em; list-style: disc; }
+
+.pa-dir-footer {
+  display: grid;
+  gap: 4px;
+  padding-top: 12px;
+  border-top: 1px solid var(--pa-dir-border);
+  font-size: 12px;
+}
+
+@media (min-width: 900px) {
+  .pa-directory { padding: 24px 24px 32px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pa-directory * { transition: none !important; scroll-behavior: auto !important; }
+}

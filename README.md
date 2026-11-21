@@ -30,7 +30,13 @@
 3. 完成全臺地圖、搜尋與名單，驗證聚合數量、放大與校區詳情。
 4. 建立 Pages 專案並綁定子網域，完成正式站驗證。
 
-目前為專案規劃階段。
+目前已有靜態網站首版。地圖支援縣市下鑽與離島小地圖，名錄可搜尋姓名、機構及校區。
+
+```sh
+npm ci
+npm run dev
+npm run build
+```
 
 ## 更新資料
 
@@ -44,3 +50,9 @@ python3 scripts/check_institutions.py --unmatched
 - `data/signatories.json` 是公開名單快照，按原站段落保存。重新匯入會列出新增與移除的原文，修正會以一筆移除和一筆新增呈現。
 - `data/institutions/` 保存可手動維護的機構清單。每筆列出機構正名、原站使用的別名、機構網址、官方校區地址與查核日期。新增別名前，先確認它指向同一機構。
 - 別名比對只提供機構候選，供後續查核。遇到多個單位或多校區，需要根據署名原文與官方資料確認地圖點位。
+
+## 地圖圖資
+
+縣市界線由內政部國土測繪中心提供，依[政府資料開放授權條款第 1 版](https://data.gov.tw/license)使用。本站以 22 縣市為瀏覽入口，將圖形裁切到臺澎金馬周邊並簡化，供網頁互動顯示。圖形僅供導覽使用。[官方資料集](https://data.gov.tw/dataset/7442) · [GeoJSON 轉製來源](https://geo.maderaojen.me/datasets/tw-counties/releases/v1/2026-08-07.1/data.geojson)
+
+互動流程參考 [taiwan-election-map](https://github.com/twoheart1222/taiwan-election-map) 的全臺視圖、點選縣市下鑽及區域詳情面板。本站以縣市連到機構和校區目錄，依官方資料列出校區地址。

@@ -1,0 +1,876 @@
+@import 'leaflet/dist/leaflet.css';
+
+/* ---------- Tokens ---------- */
+
+:root {
+  color-scheme: light;
+  --paper: #f5f1e8;
+  --paper-raised: #fbf9f4;
+  --sea: #e6ecec;
+  --sea-dot: #cfd9da;
+  --ink: #1b2530;
+  --ink-soft: #4d5a66;
+  --ink-faint: #7b8792;
+  --rule: #d9d3c5;
+  --accent: #c2541d;
+  --accent-ink: #9a3f12;
+  --accent-wash: #f7e3d6;
+  --focus: #1d5fd1;
+
+  /* 已建檔校區數色階（0 → 8+） */
+  --bin-0: #f1ede3;
+  --bin-1: #cfe0dc;
+  --bin-2: #9ec4be;
+  --bin-3: #5b9c97;
+  --bin-4: #22686a;
+  --county-line: #ffffff;
+  --label: #26323d;
+  --label-halo: rgba(255, 255, 255, 0.85);
+  --label-strong: #ffffff;
+  --label-strong-halo: rgba(16, 58, 60, 0.9);
+
+  --highlight: #f6dfa4;
+  --notice-bg: #f3ecd9;
+  --notice-border: #d8c796;
+
+  --radius: 14px;
+  --shadow: 0 1px 2px rgba(27, 37, 48, 0.06), 0 8px 24px -12px rgba(27, 37, 48, 0.18);
+
+  /* 名錄（directory.css）讀取的主題介面，對應到本頁的色票 */
+  --accent-strong: var(--accent-ink);
+  --accent-soft: var(--accent-wash);
+  --surface: var(--paper);
+  --surface-raised: var(--paper-raised);
+  --text: var(--ink);
+  --text-muted: var(--ink-soft);
+  --border: var(--rule);
+  --focus-ring: var(--focus);
+  --gutter: 16px;
+  --sans: 'PingFang TC', 'Noto Sans TC', 'Microsoft JhengHei', system-ui, -apple-system, sans-serif;
+  --serif: 'Noto Serif TC', 'Songti TC', 'PMingLiU', 'Source Han Serif TC', serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --paper: #12171c;
+    --paper-raised: #1a2128;
+    --sea: #161d23;
+    --sea-dot: #232d35;
+    --ink: #edeae2;
+    --ink-soft: #b3bcc4;
+    --ink-faint: #85909a;
+    --rule: #2c363f;
+    --accent: #f08a4b;
+    --accent-ink: #f6a877;
+    --accent-wash: #3a2416;
+    --focus: #8ab4ff;
+    --bin-0: #27313a;
+    --bin-1: #2f5153;
+    --bin-2: #3a7673;
+    --bin-3: #55a39c;
+    --bin-4: #9bd8cd;
+    --county-line: #12171c;
+    --label: #f2efe8;
+    --label-halo: rgba(18, 23, 28, 0.8);
+    --highlight: #5e4d17;
+    --notice-bg: #29251a;
+    --notice-border: #574c2c;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px -12px rgba(0, 0, 0, 0.6);
+  }
+}
+
+/* ---------- Base ---------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+a {
+  color: var(--accent-ink);
+  text-underline-offset: 0.18em;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: absolute;
+  left: var(--gutter);
+  top: -60px;
+  z-index: 2000;
+  padding: 8px 14px;
+  border-radius: 8px;
+  background: var(--ink);
+  color: var(--paper);
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 10px;
+}
+
+/* ---------- Masthead ---------- */
+
+.masthead {
+  display: grid;
+  gap: 14px;
+  max-width: 1560px;
+  margin: 0 auto;
+  padding: 20px var(--gutter) 14px;
+}
+
+.masthead__kicker {
+  margin: 0 0 4px;
+  color: var(--accent-ink);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+}
+
+.masthead__title {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(1.625rem, 1.2rem + 2vw, 2.5rem);
+  font-weight: 900;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+
+.masthead__lede {
+  max-width: 38em;
+  margin: 8px 0 0;
+  color: var(--ink-soft);
+  font-size: 0.9375rem;
+}
+
+.masthead__stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0;
+  margin: 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0 8px 10px;
+  border-left: 1px solid var(--rule);
+}
+
+.stat:first-child {
+  padding-left: 0;
+  border-left: 0;
+}
+
+.stat dd {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(1.25rem, 1rem + 1.2vw, 1.75rem);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.2;
+}
+
+.stat dt {
+  color: var(--ink-faint);
+  font-size: 0.75rem;
+  line-height: 1.35;
+}
+
+/* ---------- Layout ---------- */
+
+.layout {
+  display: grid;
+  gap: 18px;
+  max-width: 1560px;
+  margin: 0 auto;
+  padding: 0 var(--gutter) 28px;
+  /* 名錄橫向捲動列裡的報讀用隱藏文字是絕對定位，會撐出整頁橫向捲軸；在這裡截掉。 */
+  overflow-x: clip;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+.atlas-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 0;
+}
+
+.directory-column {
+  position: relative;
+  min-width: 0;
+  scroll-margin-top: 12px;
+}
+
+.directory-column:focus {
+  outline: none;
+}
+
+/* ---------- Atlas ---------- */
+
+.atlas {
+  position: relative;
+  height: clamp(340px, 60svh, 560px);
+  overflow: hidden;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  background-color: var(--sea);
+  background-image: radial-gradient(var(--sea-dot) 1px, transparent 1.4px);
+  background-size: 18px 18px;
+  box-shadow: var(--shadow);
+  isolation: isolate;
+}
+
+.atlas__map {
+  position: absolute;
+  inset: 0;
+}
+
+.atlas .leaflet-container {
+  background: transparent;
+  font-family: var(--sans);
+  outline-offset: -2px;
+}
+
+.atlas .leaflet-interactive {
+  cursor: pointer;
+}
+
+/* 縣市面：顏色都走 CSS 變數，深淺色主題與狀態切換不必重繪圖層 */
+.county {
+  fill-opacity: 1;
+  stroke: var(--county-line);
+  stroke-width: 1;
+  stroke-opacity: 1;
+  stroke-linejoin: round;
+  transition: fill-opacity 0.25s ease, stroke 0.15s ease, stroke-width 0.15s ease;
+}
+
+path.bin-0 { fill: var(--bin-0); }
+path.bin-1 { fill: var(--bin-1); }
+path.bin-2 { fill: var(--bin-2); }
+path.bin-3 { fill: var(--bin-3); }
+path.bin-4 { fill: var(--bin-4); }
+
+.county.bin-0 {
+  stroke: var(--rule);
+}
+
+.county.is-dimmed {
+  fill-opacity: 0.38;
+}
+
+.county.is-hover {
+  stroke: var(--ink);
+  stroke-width: 1.75;
+  fill-opacity: 1;
+}
+
+.county.is-selected {
+  stroke: var(--accent);
+  stroke-width: 2.75;
+}
+
+.county-label {
+  transition: opacity 0.2s ease;
+}
+
+.county-label span {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: var(--label);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  text-shadow: 0 0 3px var(--label-halo), 0 0 3px var(--label-halo), 0 0 6px var(--label-halo);
+}
+
+/* 深色階上的標籤反白，避免深字壓深底 */
+.county-label--on-dark span {
+  color: var(--label-strong);
+  text-shadow: 0 0 3px var(--label-strong-halo), 0 0 3px var(--label-strong-halo), 0 0 6px var(--label-strong-halo);
+}
+
+.county-label--small {
+  opacity: 0;
+}
+
+.is-close .county-label--small,
+.county-label--small.is-selected,
+.county-label--small.is-hover {
+  opacity: 1;
+}
+
+.county-label.is-dimmed {
+  opacity: 0.45;
+}
+
+.county-label.is-selected span {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.atlas .leaflet-bar {
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.atlas .leaflet-bar a {
+  width: 34px;
+  height: 34px;
+  border-bottom-color: var(--rule);
+  background: var(--paper-raised);
+  color: var(--ink);
+  line-height: 34px;
+}
+
+.atlas .leaflet-bar a:hover {
+  background: var(--accent-wash);
+  color: var(--accent-ink);
+}
+
+.atlas .leaflet-bar a.leaflet-disabled {
+  background: var(--paper-raised);
+  color: var(--ink-faint);
+  opacity: 0.6;
+}
+
+.atlas .leaflet-top.leaflet-right .leaflet-control {
+  margin: 12px 12px 0 0;
+}
+
+/* 地圖上的浮層 */
+.atlas__top {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  z-index: 1100;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  max-width: min(62%, 280px);
+  pointer-events: none;
+}
+
+.atlas__top > * {
+  pointer-events: auto;
+}
+
+.crumbs {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px 3px 3px;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: var(--paper-raised);
+  box-shadow: var(--shadow);
+  font-size: 0.8125rem;
+  line-height: 1.4;
+}
+
+.crumbs__home {
+  padding: 4px 10px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--accent-ink);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.crumbs__home:hover:not(:disabled) {
+  background: var(--accent-wash);
+}
+
+.crumbs__home:disabled {
+  color: var(--ink);
+  cursor: default;
+}
+
+.crumbs__sep {
+  color: var(--ink-faint);
+}
+
+.crumbs__county {
+  font-weight: 700;
+}
+
+.cue {
+  padding: 8px 12px 9px;
+  border-left: 3px solid var(--ink);
+  border-radius: 4px 10px 10px 4px;
+  background: color-mix(in srgb, var(--paper-raised) 92%, transparent);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(4px);
+  transition: border-color 0.15s ease;
+}
+
+.is-drilled .cue {
+  border-left-color: var(--accent);
+}
+
+.cue.is-preview {
+  border-left-color: var(--ink-faint);
+}
+
+.cue__name {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  font-weight: 900;
+  line-height: 1.25;
+}
+
+.cue__meta {
+  margin: 2px 0 0;
+  color: var(--ink-soft);
+  font-size: 0.8125rem;
+  line-height: 1.45;
+  font-variant-numeric: tabular-nums;
+}
+
+.cue__jump {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 0.8125rem;
+  font-weight: 700;
+}
+
+.atlas__reset {
+  position: absolute;
+  right: 12px;
+  top: 94px;
+  z-index: 1100;
+  padding: 6px 12px;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: var(--paper-raised);
+  box-shadow: var(--shadow);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.atlas__reset:hover {
+  border-color: var(--accent);
+  background: var(--accent-wash);
+  color: var(--accent-ink);
+}
+
+.insets {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  z-index: 1100;
+  display: flex;
+  gap: 8px;
+}
+
+.inset {
+  display: flex;
+  flex-direction: column;
+  width: 76px;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: var(--paper-raised);
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  transition: border-color 0.15s ease, opacity 0.2s ease;
+}
+
+.inset__map {
+  display: block;
+  width: 100%;
+  height: 58px;
+  background: var(--sea);
+  pointer-events: none;
+}
+
+.inset__name {
+  padding: 3px 0 4px;
+  border-top: 1px solid var(--rule);
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.inset.is-hover {
+  border-color: var(--ink);
+}
+
+.inset.is-selected {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px var(--accent), var(--shadow);
+}
+
+.inset.is-selected .inset__name {
+  color: var(--accent-ink);
+}
+
+.inset.is-dimmed {
+  opacity: 0.72;
+}
+
+.legend {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  z-index: 1100;
+  padding: 7px 10px 8px;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--paper-raised) 92%, transparent);
+  box-shadow: var(--shadow);
+  pointer-events: none;
+}
+
+.legend__title {
+  margin: 0 0 5px;
+  color: var(--ink-soft);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.legend__scale {
+  display: flex;
+  gap: 2px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.legend__step {
+  position: relative;
+  width: 30px;
+  padding-top: 13px;
+  color: var(--ink-soft);
+  font-size: 0.6875rem;
+  line-height: 1.2;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.legend__step::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto;
+  height: 9px;
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--ink) 14%, transparent);
+}
+
+.legend__step.bin-0::before { background: var(--bin-0); }
+.legend__step.bin-1::before { background: var(--bin-1); }
+.legend__step.bin-2::before { background: var(--bin-2); }
+.legend__step.bin-3::before { background: var(--bin-3); }
+.legend__step.bin-4::before { background: var(--bin-4); }
+
+/* ---------- 縣市清單 ---------- */
+
+.rail {
+  min-width: 0;
+}
+
+.rail__heading {
+  margin: 0 0 6px;
+  color: var(--ink-faint);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+/* 手機：橫向滑動一列，滿版到螢幕邊緣 */
+.rail__list {
+  display: flex;
+  gap: 6px;
+  margin: 0 calc(var(--gutter) * -1);
+  padding: 3px var(--gutter) 8px;
+  overflow-x: auto;
+  list-style: none;
+  scroll-snap-type: x proximity;
+  scroll-padding-inline: var(--gutter);
+  scrollbar-width: none;
+}
+
+.rail__list::-webkit-scrollbar {
+  display: none;
+}
+
+.rail__list li {
+  flex: none;
+  scroll-snap-align: start;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 40px;
+  padding: 5px 7px 5px 13px;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: var(--paper-raised);
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.2;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background-color 0.15s ease, color 0.15s ease;
+}
+
+.chip--home {
+  padding-right: 13px;
+}
+
+.chip--empty .chip__name {
+  color: var(--ink-soft);
+  font-weight: 500;
+}
+
+.chip__count {
+  min-width: 26px;
+  padding: 3px 7px;
+  border-radius: 999px;
+  color: var(--ink);
+  font-size: 0.75rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+}
+
+.chip__count.bin-0 { background: var(--bin-0); color: var(--ink-faint); }
+.chip__count.bin-1 { background: var(--bin-1); }
+.chip__count.bin-2 { background: var(--bin-2); }
+.chip__count.bin-3 { background: var(--bin-3); color: #fff; }
+.chip__count.bin-4 { background: var(--bin-4); color: #fff; }
+
+.chip:hover,
+.chip.is-hover {
+  border-color: var(--ink);
+}
+
+.chip[aria-pressed='true'] {
+  border-color: var(--accent);
+  background: var(--accent-wash);
+  color: var(--accent-ink);
+  box-shadow: inset 0 0 0 1px var(--accent);
+}
+
+.chip[aria-pressed='true'] .chip__name {
+  color: inherit;
+  font-weight: 700;
+}
+
+/* ---------- Colophon ---------- */
+
+.colophon {
+  max-width: 1560px;
+  margin: 0 auto;
+  padding: 16px var(--gutter) max(28px, env(safe-area-inset-bottom));
+  border-top: 1px solid var(--rule);
+  color: var(--ink-faint);
+  font-size: 0.8125rem;
+  line-height: 1.7;
+}
+
+.colophon p {
+  max-width: 62em;
+  margin: 0 0 6px;
+}
+
+/* ---------- 手機窄版微調 ---------- */
+
+@media (max-width: 419px) {
+  .legend__title {
+    margin-bottom: 4px;
+  }
+
+  .legend__step {
+    width: 24px;
+  }
+
+  .inset {
+    width: 64px;
+  }
+
+  .inset__map {
+    height: 48px;
+  }
+}
+
+/* ---------- 平板以上 ---------- */
+
+@media (min-width: 720px) {
+  :root {
+    --gutter: 28px;
+  }
+
+  .masthead {
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: end;
+    gap: 32px;
+    padding-top: 28px;
+    padding-bottom: 18px;
+  }
+
+  .masthead__stats {
+    grid-template-columns: repeat(4, auto);
+  }
+
+  .stat {
+    padding: 10px 22px 10px 18px;
+  }
+
+  .stat:last-child {
+    padding-right: 0;
+  }
+
+  .stat dt {
+    font-size: 0.8125rem;
+    white-space: nowrap;
+  }
+
+  .atlas {
+    height: clamp(460px, 66svh, 720px);
+  }
+
+  .county-label span {
+    font-size: 12px;
+  }
+
+  .cue__name {
+    font-size: 1.5rem;
+  }
+
+  .cue__meta {
+    font-size: 0.875rem;
+  }
+
+  .inset {
+    width: 92px;
+  }
+
+  .inset__map {
+    height: 70px;
+  }
+
+  .legend__step {
+    width: 36px;
+  }
+
+  /* 空間夠就全部攤開，不必橫滑 */
+  .rail__list {
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 2px 0 0;
+    overflow: visible;
+  }
+
+  .chip {
+    min-height: 36px;
+  }
+}
+
+/* ---------- 桌面：地圖固定在左，名錄在右捲動 ---------- */
+
+@media (min-width: 1040px) {
+  .layout {
+    grid-template-columns: minmax(0, 11fr) minmax(0, 12fr);
+    align-items: start;
+    gap: 28px;
+  }
+
+  .atlas-column {
+    position: sticky;
+    top: 16px;
+    height: calc(100svh - 32px);
+    min-height: 560px;
+  }
+
+  .atlas {
+    flex: 1 1 auto;
+    height: auto;
+    min-height: 0;
+  }
+
+  .rail {
+    flex: none;
+  }
+
+  .cue__jump {
+    display: none;
+  }
+
+  .county-label span {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1700px) {
+  .county-label span {
+    font-size: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+  }
+}
