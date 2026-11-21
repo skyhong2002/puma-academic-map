@@ -1204,3 +1204,5 @@ path.bin-4 { fill: var(--bin-4); }
 .campus-person-popup img { border-radius: 50%; }
 .campus-person-popup .leaflet-popup-content { max-width: min(300px, 68vw); }
 .is-campus :is(path.county, .world-country) { display: none; }
+
+.campus-page-number { min-width: 5ch; text-align: center; }

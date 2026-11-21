@@ -211,6 +211,7 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
     overseas: false,
     overseasCountry: null,
     mapInstitution: null,
+    mapInstitutionMembers: null,
     mapDepartment: null,
     groupBy: 'people',
     institution: null,
@@ -431,6 +432,7 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
     const title = `${scope}${state.mapDepartment ? `・${state.mapDepartment.label}` : ''}署名者`;
     const list = entries.filter((entry) => {
       if (state.mapDepartment) return state.mapDepartment.keys.has(`${entry.section}\0${entry.raw}`);
+      if (state.mapInstitution && state.mapInstitutionMembers) return state.mapInstitutionMembers.has(`${entry.section}\0${entry.raw}`);
       if (state.mapInstitution) return locationsFor(entry).some((place) =>
         place.institution === state.mapInstitution && (state.overseas
           ? place.country === state.overseasCountry
@@ -707,8 +709,10 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
   return {
     geoTitle,
     geoList,
-    setMapInstitution(institution) {
+    setMapInstitution(institution, members) {
       state.mapInstitution = institution;
+      state.mapInstitutionMembers = members
+        ? new Set(members.map(({ person }) => `${person.section}\0${person.raw}`)) : null;
       state.mapDepartment = null;
       state.groupBy = 'people';
       state.institution = null;

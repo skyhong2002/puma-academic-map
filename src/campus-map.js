@@ -35,24 +35,12 @@ export function createCampusView(map, departmentFor, personDetails) {
   function draw() {
     if (!school) return;
     pins.replaceChildren();
-    const entries = department?.entries ?? school.departments;
+    const entries = department?.entries ?? school.institutions ?? school.departments;
     const size = map.getSize();
-    const cellWidth = department ? 86 : 112;
+    const cellWidth = department ? 86 : school.institutions ? 148 : 112;
     const cellHeight = department ? 77 : 64;
-    const cols = Math.max(1, Math.floor((size.x - 20) / cellWidth));
-    const rows = Math.max(1, Math.floor((size.y - 120) / cellHeight));
-    const capacity = cols * rows;
-    const pageCount = Math.max(1, Math.ceil(entries.length / capacity));
-    page = Math.min(page, pageCount - 1);
-    const visible = entries.slice(page * capacity, (page + 1) * capacity);
-    const totalRows = Math.ceil(visible.length / cols);
-    const anchor = map.latLngToContainerPoint(school.anchor);
-    const centerX = Math.max(Math.min(cols, visible.length) * cellWidth / 2,
-      Math.min(size.x - Math.min(cols, visible.length) * cellWidth / 2, anchor.x));
-    const centerY = Math.max(70 + totalRows * cellHeight / 2,
-      Math.min(size.y - 25 - totalRows * cellHeight / 2, anchor.y));
-
-    const back = button(department ? '← 返回學系' : '← 返回機構', 'campus-control', () => {
+    const backLabel = department ? '← 返回學系' : school.backLabel ?? '← 返回機構';
+    const back = button(backLabel, 'campus-control', () => {
       if (!department) { school.onBack(); return; }
       const previous = department;
       map.closePopup();
@@ -66,13 +54,33 @@ export function createCampusView(map, departmentFor, personDetails) {
       ? `${school.name}・${department.label}`
       : school.name;
     controls.replaceChildren(back, summary, hint);
-    if (pageCount > 1) {
+    const cols = Math.max(1, Math.floor((size.x - 20) / cellWidth));
+    const pinTop = () => controls.offsetTop + controls.offsetHeight + 12;
+    const rows = () => Math.max(1, Math.floor((size.y - pinTop() - 25) / cellHeight));
+    const pagination = entries.length > cols * rows();
+    if (pagination) {
       const prev = button('上一頁', 'campus-control campus-prev', () => changePage(-1));
       const next = button('下一頁', 'campus-control campus-next', () => changePage(1));
-      prev.disabled = page === 0;
-      next.disabled = page === pageCount - 1;
-      controls.append(prev, document.createTextNode(`${page + 1} / ${pageCount}`), next);
+      const position = document.createElement('span');
+      position.className = 'campus-page-number';
+      controls.append(prev, position, next);
     }
+
+    const capacity = cols * rows();
+    const pageCount = Math.max(1, Math.ceil(entries.length / capacity));
+    page = Math.min(page, pageCount - 1);
+    if (pagination) {
+      controls.querySelector('.campus-prev').disabled = page === 0;
+      controls.querySelector('.campus-next').disabled = page === pageCount - 1;
+      controls.querySelector('.campus-page-number').textContent = `${page + 1} / ${pageCount}`;
+    }
+    const visible = entries.slice(page * capacity, (page + 1) * capacity);
+    const totalRows = Math.ceil(visible.length / cols);
+    const anchor = map.latLngToContainerPoint(school.anchor);
+    const halfWidth = Math.min(cols, visible.length) * cellWidth / 2;
+    const halfHeight = totalRows * cellHeight / 2;
+    const centerX = Math.max(halfWidth, Math.min(size.x - halfWidth, anchor.x));
+    const centerY = Math.max(pinTop() + halfHeight, Math.min(size.y - 25 - halfHeight, anchor.y));
 
     visible.forEach((item, index) => {
       const row = Math.floor(index / cols);
@@ -86,6 +94,8 @@ export function createCampusView(map, departmentFor, personDetails) {
           L.popup({ className: 'campus-person-popup', maxWidth: 320,
             maxHeight: Math.max(100, size.y - 130), autoPanPadding: [24, 52] })
             .setLatLng(latLng).setContent(personDetails(item.person, item.point)).openOn(map);
+        } else if (school.institutions) {
+          school.onInstitution(item);
         } else {
           school.departmentPage = page;
           department = item;
@@ -136,34 +146,80 @@ export function createCampusView(map, departmentFor, personDetails) {
     map.fire('campusview', { active: false });
   }
 
-  return {
-    clear,
-    show(name, members, onBack, onDepartment) {
+  function activate(bounds) {
+    page = 0;
+    container.classList.add('is-campus');
+    container.append(pins, controls);
+    map.fire('campusview', { active: true });
+    map.setMaxZoom(18);
+    map.stop();
+    map.invalidateSize({ animate: false });
+    map.fitBounds(bounds, { padding: [32, 48], maxZoom: 16, animate: false });
+    attribution?.addTo(map);
+    tiles.addTo(map);
+    draw();
+  }
+
+  function showGroup(members, onClose, onInstitution, onDepartment) {
+    const viewport = { center: map.getCenter(), zoom: map.getZoom() };
+    const groups = new Map();
+    for (const member of members) {
+      const label = member.point.institution;
+      if (!groups.has(label)) groups.set(label, { label, entries: [] });
+      const { entries } = groups.get(label);
+      if (!entries.some(({ person }) => person === member.person)) entries.push(member);
+    }
+    const institutions = [...groups.values()].sort((a, b) =>
+      b.entries.length - a.entries.length || a.label.localeCompare(b.label, 'zh-TW'));
+    function leave() {
       clear();
-      const groups = new Map();
-      for (const member of members) {
-        const label = departmentFor(member.person, name);
-        const key = label.replaceAll('學系', '系');
-        if (!groups.has(key)) groups.set(key, { label, entries: [] });
-        const { entries } = groups.get(key);
-        if (!entries.some(({ person }) => person === member.person)) entries.push(member);
-      }
-      const departments = [...groups.values()].sort((a, b) =>
-        Number(a.label === '系所未標明') - Number(b.label === '系所未標明')
-        || b.entries.length - a.entries.length || a.label.localeCompare(b.label, 'zh-TW'));
-      const bounds = L.latLngBounds(members.map(({ point }) => [point.lat, point.lon]));
-      school = { name, departments, anchor: bounds.getCenter(), onBack, onDepartment, departmentPage: 0 };
-      page = 0;
-      container.classList.add('is-campus');
-      container.append(pins, controls);
-      map.fire('campusview', { active: true });
-      map.setMaxZoom(18);
-      map.stop();
+      onClose();
       map.invalidateSize({ animate: false });
-      map.fitBounds(bounds, { padding: [32, 48], maxZoom: 16, animate: false });
-      attribution?.addTo(map);
-      tiles.addTo(map);
-      draw();
-    },
-  };
+      map.setView(viewport.center, viewport.zoom, { animate: false });
+      map.getContainer().focus({ preventScroll: true });
+    }
+
+    function openInstitution(item, onBack, backLabel) {
+      onInstitution(item);
+      show(item.label, item.entries, onBack, onDepartment, backLabel);
+      controls.querySelector('button')?.focus({ preventScroll: true });
+    }
+
+    if (institutions.length === 1) {
+      openInstitution(institutions[0], leave, '← 返回地圖');
+      return;
+    }
+
+    function overview() {
+      clear();
+      onInstitution(null);
+      const bounds = L.latLngBounds(members.map(({ point }) => [point.lat, point.lon]));
+      school = { name: '鄰近機構', institutions, anchor: bounds.getCenter(), onBack: leave,
+        backLabel: '← 返回地圖',
+        onInstitution: (item) => openInstitution(item, overview, '← 返回鄰近機構') };
+      activate(bounds);
+      controls.querySelector('button')?.focus({ preventScroll: true });
+    }
+    overview();
+  }
+
+  function show(name, members, onBack, onDepartment, backLabel) {
+    clear();
+    const groups = new Map();
+    for (const member of members) {
+      const label = departmentFor(member.person, name);
+      const key = label.replaceAll('學系', '系');
+      if (!groups.has(key)) groups.set(key, { label, entries: [] });
+      const { entries } = groups.get(key);
+      if (!entries.some(({ person }) => person === member.person)) entries.push(member);
+    }
+    const departments = [...groups.values()].sort((a, b) =>
+      Number(a.label === '系所未標明') - Number(b.label === '系所未標明')
+      || b.entries.length - a.entries.length || a.label.localeCompare(b.label, 'zh-TW'));
+    const bounds = L.latLngBounds(members.map(({ point }) => [point.lat, point.lon]));
+    school = { name, departments, anchor: bounds.getCenter(), onBack, onDepartment, backLabel, departmentPage: 0 };
+    activate(bounds);
+  }
+
+  return { clear, show, showGroup };
 }

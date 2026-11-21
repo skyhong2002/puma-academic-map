@@ -82,7 +82,7 @@ function coreBounds(feature) {
  * @param {(county: string) => void} options.onSelect
  * @returns {{ counties: string[], select: (county: string|null) => void, highlight: (county: string|null) => void }}
  */
-export function createCountyMap({ container, insetContainer, geojson, binOf, onHover, onSelect }) {
+export function createCountyMap({ container, insetContainer, geojson, binOf, onHover, onSelect, onGroup }) {
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   const coarsePointer = window.matchMedia('(pointer: coarse)');
 
@@ -251,7 +251,7 @@ export function createCountyMap({ container, insetContainer, geojson, binOf, onH
   };
 
   fitBase();
-  const locate = addTaiwanPeople(map);
+  const locate = addTaiwanPeople(map, onGroup);
   paint();
   map.on('zoomend', syncInteraction);
 

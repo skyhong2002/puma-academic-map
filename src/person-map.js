@@ -165,7 +165,7 @@ function avatarIcon(person) {
   return L.divIcon({ className, html: face, iconSize: [36, 36] });
 }
 
-function addPersonMarkers(map, entries, include, avatarZoom) {
+function addPersonMarkers(map, entries, include, avatarZoom, onGroup) {
   const pins = [];
   const byPerson = new Map();
   const byCoordinate = new Map();
@@ -217,7 +217,7 @@ function addPersonMarkers(map, entries, include, avatarZoom) {
       return;
     }
     const members = layer.getAllChildMarkers().flatMap((marker) => membersByMarker.get(marker));
-    showRoster(members);
+    onGroup(members);
   });
 
   const dot = L.divIcon({ className: 'person-pin', iconSize: [16, 16] });
@@ -230,7 +230,7 @@ function addPersonMarkers(map, entries, include, avatarZoom) {
     const title = shared ? `${point.institution}等據點，${members.length} 筆署名` : person.name;
     const marker = L.marker([point.lat, point.lon], { icon, title, alt: title });
     marker.on('add', () => marker.getElement()?.setAttribute('aria-label', title));
-    if (shared) marker.on('click', () => showRoster(members));
+    if (shared) marker.on('click', () => onGroup(members));
     else {
       marker.on('click', () => rosterPanel?.remove());
       marker.bindPopup(() => popup(person, point), { maxWidth: 330 });
@@ -271,15 +271,15 @@ function addPersonMarkers(map, entries, include, avatarZoom) {
   };
 }
 
-export function addTaiwanPeople(map) {
-  return addPersonMarkers(map, taiwanPeople, isTaiwan, 9);
+export function addTaiwanPeople(map, onGroup) {
+  return addPersonMarkers(map, taiwanPeople, isTaiwan, 9, onGroup);
 }
 
 export function campusFor(map) {
   return createCampusView(map, departmentFor, popup);
 }
 
-export function createWorldMap(container) {
+export function createWorldMap(container, onGroup) {
   const overview = [[-57, -178], [82, 179]];
   const map = L.map(container, {
     minZoom: 0, maxZoom: 12, zoomSnap: 0, zoomDelta: 0.75, worldCopyJump: true, scrollWheelZoom: false,
@@ -287,7 +287,7 @@ export function createWorldMap(container) {
   L.geoJSON(worldCountries, { interactive: false, className: 'world-country' }).addTo(map);
   map.attributionControl.addAttribution('<a href="https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/">Natural Earth</a>');
   const campus = campusFor(map);
-  const locate = addPersonMarkers(map, overseasPeople, (point) => !isTaiwan(point), 4);
+  const locate = addPersonMarkers(map, overseasPeople, (point) => !isTaiwan(point), 4, onGroup);
   return {
     map,
     locate,

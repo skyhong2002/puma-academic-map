@@ -169,6 +169,7 @@ const map = createCountyMap({
     renderList();
   },
   onSelect: (county) => setCounty(county),
+  onGroup: (members) => openMarkerGroup(map.campus, $('county-list').closest('nav'), members),
 });
 
 const known = new Set(map.counties);
@@ -391,6 +392,16 @@ function renderWorldRail(country = null, focusRail = null, previousCountry = nul
   }
 }
 
+function openMarkerGroup(campus, rail, members) {
+  rail.hidden = true;
+  campus.showGroup(members, () => {
+    directory.setMapInstitution(null);
+    rail.hidden = false;
+  }, (institution) => {
+    directory.setMapInstitution(institution?.label ?? null, institution?.entries);
+  }, directory.setMapDepartment);
+}
+
 function showWorld(show) {
   const wasVisible = !$('world-atlas').hidden;
   if (show === wasVisible && $('mapped-count').textContent) return;
@@ -409,7 +420,8 @@ function showWorld(show) {
   const count = show ? overseasPeople.length : taiwanPeople.length;
   $('mapped-count').textContent = `已定位 ${number.format(count)} 筆署名`;
   if (show) {
-    worldMap ??= createWorldMap($('world-map'));
+    worldMap ??= createWorldMap($('world-map'),
+      (members) => openMarkerGroup(worldMap.campus, $('world-rail'), members));
     worldMap.map.invalidateSize();
     if (!wasVisible) {
       worldMap.fitCountry();
