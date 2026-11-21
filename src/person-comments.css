@@ -46,14 +46,65 @@
 .person-comments__trap { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
 
 .person-comments textarea::placeholder { color: var(--ink-soft); opacity: 1; }
-.person-comments .person-comments__guidance { margin-block: 6px 0; color: var(--ink-soft); font-size: .875rem; }
+
 .comment-share {
-  margin-block: 16px;
-  padding: 12px;
+  box-sizing: border-box;
+  width: min(720px, calc(100% - 24px));
+  max-height: calc(100dvh - 24px);
+  padding: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
   border: 1px solid var(--rule);
-  border-radius: 8px;
+  border-radius: 18px;
   background: var(--paper);
+  color: var(--ink);
+  box-shadow: 0 20px 80px #24180e55;
 }
-.comment-share h4 { margin: 0 0 6px; }
-.comment-share canvas { width: 100%; max-width: 320px; height: auto; border-radius: 6px; }
-.comment-share__actions { display: flex; flex-wrap: wrap; }
+.comment-share::backdrop { background: #1e1714b8; }
+.comment-share header { position: relative; padding: 18px 64px 16px 20px; }
+.comment-share header p { color: var(--ink-soft); }
+.comment-share .comment-share__close {
+  position: absolute;
+  inset: 12px 12px auto auto;
+  width: 44px;
+  margin: 0;
+  border-color: var(--rule);
+  border-radius: 50%;
+  font-size: 24px;
+  line-height: 1;
+}
+.comment-share__preview {
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  background: #f3e5d8;
+}
+.comment-share canvas {
+  display: block;
+  max-width: 100%;
+  max-height: min(49dvh, 440px);
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 4px 18px #49240729;
+}
+.comment-share__controls { padding: 16px 20px 20px; }
+.comment-share__formats, .comment-share__actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.comment-share__actions { margin-top: 12px; }
+.comment-share .comment-share__formats button, .comment-share .comment-share__actions button { margin: 0; }
+.comment-share .comment-share__formats button { border-color: var(--rule); }
+.comment-share .comment-share__formats button[aria-pressed="true"] {
+  border-color: var(--map-orange-edge);
+  background: #fff0e3;
+}
+.comment-share .comment-share__primary {
+  background: var(--accent-ink);
+  color: var(--paper);
+}
+.comment-share .comment-share__status { color: var(--ink-soft); font-size: .875rem; }
+@media (width >= 620px) {
+  .comment-share[open] { display: grid; grid-template-columns: 1fr minmax(245px, .85fr); }
+  .comment-share header { grid-column: 1 / -1; }
+  .comment-share__controls { align-self: center; }
+}

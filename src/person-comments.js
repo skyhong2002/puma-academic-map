@@ -1,4 +1,4 @@
-import { commentShareCard } from './comment-share-card.js';
+import { openCommentShareCard } from './comment-share-card.js';
 import { commentBoardId } from './comment-board-id.js';
 import './person-comments.css';
 
@@ -54,15 +54,13 @@ async function request(url, { method = 'GET', data, token } = {}) {
   return result;
 }
 
-function editor(labelText, value = '') {
-  const label = element('label', labelText);
+function commentInput(value = '') {
   const input = element('textarea');
   input.required = true;
   input.maxLength = 500;
   input.rows = 3;
   input.value = value;
-  label.append(input);
-  return { label, input };
+  return input;
 }
 
 const errorText = (error) => error instanceof Error && error.constructor === Error
@@ -73,13 +71,10 @@ export function personComments(person) {
   section.className = 'person-comments';
   section.setAttribute('aria-label', `${person.name}的留言板`);
   const heading = element('h3', '留言板');
-  const guidance = element('p', '留言會公開，請勿填寫個資。');
-  guidance.className = 'person-comments__guidance';
-  guidance.id = 'person-comment-guidance';
   const form = element('form');
-  const { label, input } = editor(`對${person.name}說`);
-  input.placeholder = '我想說……';
-  input.setAttribute('aria-describedby', guidance.id);
+  const input = commentInput();
+  input.placeholder = `我想對${person.name}說……`;
+  input.setAttribute('aria-label', input.placeholder);
   const trap = element('label', '網站（請留空）');
   trap.className = 'person-comments__trap';
   trap.setAttribute('aria-hidden', 'true');
@@ -101,24 +96,15 @@ export function personComments(person) {
   more.hidden = true;
   const retry = button('重新載入留言', () => load());
   retry.hidden = true;
-  const receipt = element('div');
-  form.append(label, guidance, trap, submit, status);
-  section.append(heading, form, receipt, listStatus, list, more, retry);
+  form.append(input, trap, submit, status);
+  section.append(heading, form, listStatus, list, more, retry);
 
   const endpoint = commentBoardId(person).then((id) => `/api/people/${id}/comments`);
   let next = null;
   let loaded = false;
   let loading = false;
   let pendingToken;
-  let sharedCommentId;
   const shown = new Map();
-
-  function showReceipt(comment) {
-    sharedCommentId = comment.id;
-    const { panel, title } = commentShareCard(person.name, comment.body);
-    receipt.replaceChildren(panel);
-    return title;
-  }
 
   function updateListStatus() {
     listStatus.textContent = shown.size ? '' : '目前還沒有留言。';
@@ -144,7 +130,9 @@ export function personComments(person) {
     feedback.setAttribute('role', 'status');
     const change = button('編輯', () => {
       const editForm = element('form');
-      const { label: editLabel, input: editInput } = editor('編輯你的留言（最多 500 字）', comment.body);
+      const editLabel = element('label', '編輯你的留言（最多 500 字）');
+      const editInput = commentInput(comment.body);
+      editLabel.append(editInput);
       const save = element('button', '儲存');
       save.type = 'submit';
       const cancel = button('取消', () => {
@@ -168,7 +156,6 @@ export function personComments(person) {
           const replacement = renderComment(updated);
           shown.set(updated.id, replacement);
           item.replaceWith(replacement);
-          if (sharedCommentId === updated.id) showReceipt(updated);
           replacement.querySelector('button').focus();
           status.textContent = '留言已更新。';
         } catch (error) {
@@ -187,10 +174,6 @@ export function personComments(person) {
         saveToken(comment.id, null);
         shown.delete(comment.id);
         item.remove();
-        if (sharedCommentId === comment.id) {
-          sharedCommentId = undefined;
-          receipt.replaceChildren();
-        }
         if (loaded) updateListStatus();
         input.focus();
         status.textContent = '留言已刪除。';
@@ -200,7 +183,8 @@ export function personComments(person) {
         change.disabled = remove.disabled = false;
       }
     });
-    actions.append(change, remove);
+    const share = button('分享字卡', () => openCommentShareCard(section, person.name, comment.body, share));
+    actions.append(change, remove, share);
     item.append(actions, feedback);
     return item;
   }
@@ -259,11 +243,11 @@ export function personComments(person) {
       shown.set(comment.id, item);
       list.prepend(item);
       if (loaded) updateListStatus();
-      status.textContent = '';
-      const title = showReceipt(comment);
-      if (section.getClientRects().length && (form.contains(document.activeElement) || document.activeElement === document.body)) {
-        title.focus();
-      }
+      const hasFocus = form.contains(document.activeElement) || document.activeElement === document.body;
+      if (hasFocus && section.getClientRects().length) {
+        status.textContent = '';
+        openCommentShareCard(section, person.name, comment.body, input);
+      } else status.textContent = '留言已公開。';
     } catch (error) {
       status.textContent = errorText(error);
     } finally {
