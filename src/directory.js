@@ -568,6 +568,7 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
         h('summary', { class: 'pa-dir-entry-head', dataset: result ? { result: '' } : {} },
           portrait ? h('img', { class: 'pa-dir-portrait', src: portrait.image, alt: '', loading: 'lazy', width: '28', height: '28' }) : null,
           h('span', { class: 'pa-dir-entry-name', title: name }, highlight(name, query)),
+          entry.affiliation ? h('span', { class: 'pa-dir-entry-affiliation' }, highlight(entry.affiliation, query)) : null,
           h('span', { class: `pa-dir-section-tag${entry.section === '共同領銜' ? ' is-lead' : ''}`, text: entry.section })),
         h('div', { class: 'pa-dir-entry-body' },
           h('p', { class: 'pa-dir-entry-raw' }, highlight(entry.affiliation || entry.raw, query)),

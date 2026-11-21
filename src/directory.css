@@ -335,10 +335,21 @@
 .pa-dir-entry > details[open] > summary::after { transform: rotate(225deg); }
 .pa-dir-entry-name { min-width: 0; font-weight: 600; font-size: 15px; }
 .pa-dir-entry > details:not([open]) .pa-dir-entry-name {
+  max-width: 55%;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+.pa-dir-entry-affiliation {
+  flex: 1 1 0;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--pa-dir-muted);
+  font-size: 0.875rem;
+}
+.pa-dir-entry > details[open] .pa-dir-entry-affiliation { display: none; }
 .pa-dir-entry-body {
   display: grid;
   gap: 6px;
