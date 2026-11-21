@@ -666,4 +666,3 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
   height: 17px;
 }
 .map-detail .atlas-emblem--official { width: 32px; height: 32px; border-radius: 4px; }
-.map-detail__emblem-credit { font-size: 12px; }

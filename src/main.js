@@ -162,21 +162,6 @@ function showCampus(campus, { restoring = false, fromParent = false } = {}) {
   if (emblem) {
     title.classList.add('map-detail__institution');
     title.prepend(emblemImage(emblem));
-    const credit = document.createElement('p');
-    credit.className = 'map-detail__emblem-credit';
-    const sources = [[emblem.credit, emblem.source_url], ['使用條件', emblem.license_url]];
-    if (emblem.usage_url) sources.push(['校方識別規範', emblem.usage_url]);
-    for (const [label, url] of sources) {
-      if (!/^https?:\/\//i.test(url)) continue;
-      const link = document.createElement('a');
-      link.href = url;
-      link.textContent = label;
-      link.target = '_blank';
-      link.rel = 'noopener';
-      if (credit.childNodes.length) credit.append(' · ');
-      credit.append(link);
-    }
-    details.append(credit);
   }
   if (unit || (campusOnly && people.length)) {
     const hint = document.createElement('p');
@@ -200,19 +185,6 @@ function showCampus(campus, { restoring = false, fromParent = false } = {}) {
     const empty = document.createElement('p');
     empty.textContent = '目前沒有署名資料可確認到這個校區。';
     details.append(empty);
-  }
-  if (point.address) {
-    const address = document.createElement('p');
-    address.textContent = point.address;
-    details.append(address);
-  }
-  if (point.address_source_url) {
-    const link = document.createElement('a');
-    link.href = point.address_source_url;
-    link.textContent = unit ? '系所位置來源' : '校方校區資料';
-    link.target = '_blank';
-    link.rel = 'noopener';
-    details.append(link);
   }
   details.append(members);
   showPanel('detail', { focus: !restoring });
