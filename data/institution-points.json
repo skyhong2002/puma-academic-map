@@ -1,4 +1,11 @@
 {
+  "三軍總醫院": {
+    "country": "臺灣",
+    "city": "臺北市",
+    "lat": 25.071749,
+    "lon": 121.592534,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/121.591/25.071/5000"
+  },
   "世新大學": {
     "country": "臺灣",
     "city": "臺北市",
@@ -26,6 +33,20 @@
     "lat": 24.999007,
     "lon": 121.555006,
     "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.57/24.98/10000"
+  },
+  "中國醫藥大學": {
+    "country": "臺灣",
+    "city": "臺中市",
+    "lat": 24.178379,
+    "lon": 120.660826,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.663/24.19/5000"
+  },
+  "中國醫藥大學附設醫院": {
+    "country": "臺灣",
+    "city": "臺中市",
+    "lat": 24.157637,
+    "lon": 120.680563,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/120.68/24.16/5000"
   },
   "中山醫學大學": {
     "country": "臺灣",
@@ -55,6 +76,20 @@
     "lon": 121.723778,
     "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.74/24.81/10000"
   },
+  "健行科技大學": {
+    "country": "臺灣",
+    "city": "桃園市",
+    "lat": 24.947646,
+    "lon": 121.229178,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.231/24.95/5000"
+  },
+  "僑光科技大學": {
+    "country": "臺灣",
+    "city": "臺中市",
+    "lat": 24.189279,
+    "lon": 120.643176,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.645/24.188/5000"
+  },
   "元智大學": {
     "country": "臺灣",
     "city": "桃園市",
@@ -62,12 +97,33 @@
     "lon": 121.263456,
     "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.24/24.96/10000"
   },
+  "南臺科技大學": {
+    "country": "臺灣",
+    "city": "臺南市",
+    "lat": 23.021905,
+    "lon": 120.224505,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.226/23.026/5000"
+  },
   "南華大學": {
     "country": "臺灣",
     "city": "嘉義縣",
     "lat": 23.569517,
     "lon": 120.49439,
     "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.47/23.56/10000"
+  },
+  "嘉南藥理大學": {
+    "country": "臺灣",
+    "city": "臺南市",
+    "lat": 22.920673,
+    "lon": 120.225789,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.226/22.923/5000"
+  },
+  "嘉義長庚紀念醫院": {
+    "country": "臺灣",
+    "city": "嘉義縣",
+    "lat": 23.462444,
+    "lon": 120.285974,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/120.284/23.464/5000"
   },
   "國立中央大學": {
     "country": "臺灣",
@@ -97,12 +153,33 @@
     "lon": 120.675551,
     "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.68/24.14/10000"
   },
+  "國立交通大學": {
+    "country": "臺灣",
+    "city": "新竹市",
+    "lat": 24.789203,
+    "lon": 120.999412,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.996/24.79/5000"
+  },
   "國立勤益科技大學": {
     "country": "臺灣",
     "city": "臺中市",
     "lat": 24.143984,
     "lon": 120.73193,
     "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.72/24.155/10000"
+  },
+  "國立嘉義大學": {
+    "country": "臺灣",
+    "city": "嘉義市",
+    "lat": 23.463797,
+    "lon": 120.483514,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.483/23.466/5000"
+  },
+  "國立宜蘭大學": {
+    "country": "臺灣",
+    "city": "宜蘭縣",
+    "lat": 24.746213,
+    "lon": 121.747592,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.748/24.747/5000"
   },
   "國立屏東大學": {
     "country": "臺灣",
@@ -258,12 +335,26 @@
     "lon": 121.534714,
     "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.02/10000"
   },
+  "國立臺灣大學醫學院附設醫院": {
+    "country": "臺灣",
+    "city": "臺北市",
+    "lat": 25.040784,
+    "lon": 121.519354,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/121.52/25.041/5000"
+  },
   "國立臺灣師範大學": {
     "country": "臺灣",
     "city": "臺北市",
     "lat": 25.025957,
     "lon": 121.527535,
     "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.02/10000"
+  },
+  "國立臺灣戲曲學院": {
+    "country": "臺灣",
+    "city": "臺北市",
+    "lat": 25.082259,
+    "lon": 121.586872,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.576/25.086/5000"
   },
   "國立臺灣海洋大學": {
     "country": "臺灣",
@@ -286,6 +377,13 @@
     "lon": 121.447924,
     "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.44/25.01/10000"
   },
+  "國立臺灣體育運動大學": {
+    "country": "臺灣",
+    "city": "臺中市",
+    "lat": 24.14869,
+    "lon": 120.687618,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.69/24.15/5000"
+  },
   "國立虎尾科技大學": {
     "country": "臺灣",
     "city": "雲林縣",
@@ -307,12 +405,27 @@
     "lon": 120.999373,
     "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.97/24.8/10000"
   },
+  "國立陽明交通大學附設醫院": {
+    "country": "臺灣",
+    "city": "宜蘭縣",
+    "lat": 24.748976,
+    "lon": 121.758638,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/121.75/24.75/5000"
+  },
   "國立雲林科技大學": {
     "country": "臺灣",
     "city": "雲林縣",
     "lat": 23.694957,
     "lon": 120.534859,
     "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.54/23.71/10000"
+  },
+  "國立體育大學": {
+    "country": "臺灣",
+    "city": "桃園市",
+    "lat": 25.034456,
+    "lon": 121.383537,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.385/25.032/5000",
+    "address_source_url": "https://aca.ntsu.edu.tw/"
   },
   "國立高雄大學": {
     "country": "臺灣",
@@ -342,6 +455,20 @@
     "lon": 120.371956,
     "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.39/22.6/10000"
   },
+  "基隆長庚紀念醫院": {
+    "country": "臺灣",
+    "city": "基隆市",
+    "lat": 25.120833,
+    "lon": 121.722412,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/121.72/25.12/5000"
+  },
+  "奇美醫院": {
+    "country": "臺灣",
+    "city": "臺南市",
+    "lat": 23.020758,
+    "lon": 120.22206,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/120.22/23.02/5000"
+  },
   "實踐大學": {
     "country": "臺灣",
     "city": "臺北市",
@@ -370,6 +497,41 @@
     "lon": 121.565207,
     "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.1/10000"
   },
+  "德育護理健康學院": {
+    "country": "臺灣",
+    "city": "基隆市",
+    "lat": 25.150462,
+    "lon": 121.72915,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.737/25.153/5000"
+  },
+  "恩主公醫院": {
+    "country": "臺灣",
+    "city": "新北市",
+    "lat": 24.938353,
+    "lon": 121.363018,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/121.376/24.944/5000"
+  },
+  "慈濟大學": {
+    "country": "臺灣",
+    "city": "花蓮縣",
+    "lat": 23.99301,
+    "lon": 121.590234,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.59/23.995/5000"
+  },
+  "成功大學醫學院附設醫院": {
+    "country": "臺灣",
+    "city": "臺南市",
+    "lat": 23.001616,
+    "lon": 120.217794,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/120.221/23/5000"
+  },
+  "新竹馬偕紀念醫院": {
+    "country": "臺灣",
+    "city": "新竹市",
+    "lat": 24.800109,
+    "lon": 120.990728,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/120.994/24.8/5000"
+  },
   "東吳大學": {
     "country": "臺灣",
     "city": "臺北市",
@@ -384,12 +546,33 @@
     "lon": 120.598961,
     "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.6/24.18/10000"
   },
+  "林口長庚紀念醫院": {
+    "country": "臺灣",
+    "city": "桃園市",
+    "lat": 25.06146,
+    "lon": 121.367795,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/121.367/25.06/5000"
+  },
   "樹德科技大學": {
     "country": "臺灣",
     "city": "高雄市",
     "lat": 22.764361,
     "lon": 120.374811,
     "source_url": "https://info.stu.edu.tw/attachfile/upload/IRS/file/104D1.pdf"
+  },
+  "正修科技大學": {
+    "country": "臺灣",
+    "city": "高雄市",
+    "lat": 22.650842,
+    "lon": 120.349763,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.35/22.65/5000"
+  },
+  "淡江大學": {
+    "country": "臺灣",
+    "city": "新北市",
+    "lat": 25.173841,
+    "lon": 121.447112,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.45/25.175/5000"
   },
   "玄奘大學": {
     "country": "臺灣",
@@ -405,6 +588,20 @@
     "lon": 121.435003,
     "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.42/25.17/10000"
   },
+  "致理科技大學": {
+    "country": "臺灣",
+    "city": "新北市",
+    "lat": 25.020898,
+    "lon": 121.464405,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.466/25.025/5000"
+  },
+  "臺中榮民總醫院": {
+    "country": "臺灣",
+    "city": "臺中市",
+    "lat": 24.183661,
+    "lon": 120.604183,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/120.605/24.183/5000"
+  },
   "臺北市立大學": {
     "country": "臺灣",
     "city": "臺北市",
@@ -412,12 +609,61 @@
     "lon": 121.513669,
     "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.51/25.03/10000"
   },
+  "臺北榮民總醫院": {
+    "country": "臺灣",
+    "city": "臺北市",
+    "lat": 25.120264,
+    "lon": 121.520059,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/121.521/25.119/5000"
+  },
+  "臺北海洋科技大學": {
+    "country": "臺灣",
+    "city": "新北市",
+    "lat": 25.192394,
+    "lon": 121.425865,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.433/25.186/5000"
+  },
   "臺北醫學大學": {
     "country": "臺灣",
     "city": "臺北市",
     "lat": 25.025405,
     "lon": 121.561982,
     "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.02/10000"
+  },
+  "臺北醫學大學附設醫院": {
+    "country": "臺灣",
+    "city": "臺北市",
+    "lat": 25.026705,
+    "lon": 121.56337,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/121.563/25.027/5000"
+  },
+  "臺北長庚紀念醫院": {
+    "country": "臺灣",
+    "city": "臺北市",
+    "lat": 25.055508,
+    "lon": 121.549618,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/121.551/25.056/5000"
+  },
+  "臺南應用科技大學": {
+    "country": "臺灣",
+    "city": "臺南市",
+    "lat": 23.038404,
+    "lon": 120.238351,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.25/23.043/5000"
+  },
+  "花蓮慈濟醫院": {
+    "country": "臺灣",
+    "city": "花蓮縣",
+    "lat": 23.995168,
+    "lon": 121.592641,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/121.59/23.99/5000"
+  },
+  "輔仁大學": {
+    "country": "臺灣",
+    "city": "新北市",
+    "lat": 25.033274,
+    "lon": 121.434694,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.43/25.04/5000"
   },
   "輔英科技大學": {
     "country": "臺灣",
@@ -447,12 +693,33 @@
     "lon": 121.389274,
     "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.39/25.03/10000"
   },
+  "長庚科技大學": {
+    "country": "臺灣",
+    "city": "桃園市",
+    "lat": 25.029592,
+    "lon": 121.389879,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.388/25.037/5000"
+  },
   "長榮大學": {
     "country": "臺灣",
     "city": "臺南市",
     "lat": 22.905604,
     "lon": 120.272835,
     "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.26/22.9/10000"
+  },
+  "開南大學": {
+    "country": "臺灣",
+    "city": "桃園市",
+    "lat": 25.010781,
+    "lon": 121.271561,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.263/25.028/5000"
+  },
+  "雙和醫院": {
+    "country": "臺灣",
+    "city": "新北市",
+    "lat": 24.992616,
+    "lon": 121.493321,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/121.494/24.993/5000"
   },
   "靜宜大學": {
     "country": "臺灣",
@@ -461,11 +728,48 @@
     "lon": 120.577206,
     "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.56/24.22/10000"
   },
+  "馬偕醫學大學": {
+    "country": "臺灣",
+    "city": "新北市",
+    "lat": 25.252917,
+    "lon": 121.496695,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.49/25.257/5000",
+    "address_source_url": "https://www.mmu.edu.tw/xmdoc/cont?xsmsid=0O268618820486526285"
+  },
+  "馬偕醫護管理專科學校": {
+    "country": "臺灣",
+    "city": "臺北市",
+    "lat": 25.121895,
+    "lon": 121.464558,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.46/25.14/5000",
+    "address_source_url": "https://web.mkc.edu.tw/Site/ga?Sn=HgpyWgQEKLB2rQdNCr8xpB5bCFKVM8au"
+  },
+  "高雄榮民總醫院": {
+    "country": "臺灣",
+    "city": "高雄市",
+    "lat": 22.678389,
+    "lon": 120.322833,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/120.32/22.679/5000"
+  },
   "高雄醫學大學": {
     "country": "臺灣",
     "city": "高雄市",
     "lat": 22.64721,
     "lon": 120.310343,
     "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.3/22.65/10000"
+  },
+  "高雄長庚紀念醫院": {
+    "country": "臺灣",
+    "city": "高雄市",
+    "lat": 22.648957,
+    "lon": 120.355541,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/120.357/22.65/5000"
+  },
+  "龍華科技大學": {
+    "country": "臺灣",
+    "city": "桃園市",
+    "lat": 25.018991,
+    "lon": 121.401617,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.404/25.016/5000"
   }
 }

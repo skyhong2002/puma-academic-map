@@ -120,8 +120,8 @@ for (const person of people) {
 }
 
 const sourcedCount = entries.filter((entry) => sourcesFor(entry).length).length;
-const uncatalogued = entries.filter((entry) => entry.candidates.length === 0);
-const matchedCount = entries.length - uncatalogued.length;
+const unlocated = entries.filter((entry) => !pointsBySection.get(entry.section)?.get(entry.raw)?.length);
+const matchedCount = entries.filter((entry) => entry.candidates.length > 0).length;
 
 const countyStats = new Map();
 for (const inst of institutions) {
@@ -212,7 +212,7 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
     overseas: false,
     groupBy: 'people',
     institution: null,
-    view: 'browse', // browse | uncatalogued
+    view: 'browse', // browse | unlocated
     query: '',
     entryLimit: PAGE,
     searchLimit: SEARCH_LIMIT,
@@ -355,8 +355,8 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
     if (countyChanged && typeof onSelectCounty === 'function') onSelectCounty(state.county);
   }
 
-  function showUncatalogued() {
-    state.view = 'uncatalogued';
+  function showUnlocated() {
+    state.view = 'unlocated';
     state.institution = null;
     state.entryLimit = PAGE;
     resetSearch();
@@ -373,7 +373,7 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
     if (!state.overseas) renderCounties();
     const query = state.query.trim();
     if (query.length >= MIN_QUERY) renderSearch(query);
-    else if (state.view === 'uncatalogued') renderUncatalogued();
+    else if (state.view === 'unlocated') renderUnlocated();
     else if (state.institution) renderInstitution(institutionById.get(state.institution));
     else if (state.overseas || state.groupBy === 'people') renderPeople();
     else if (state.county) renderCounty(state.county);
@@ -392,9 +392,9 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
       h('li', {}, h('button', {
         type: 'button',
         class: 'pa-dir-chip pa-dir-chip-alt',
-        'aria-pressed': String(state.view === 'uncatalogued'),
-        onClick: showUncatalogued,
-      }, '尚無機構候選', countBadge(uncatalogued.length, '筆署名'))),
+        'aria-pressed': String(state.view === 'unlocated'),
+        onClick: showUnlocated,
+      }, '尚未定位', countBadge(unlocated.length, '筆署名'))),
     );
     countyNav.replaceChildren(list);
   }
@@ -542,13 +542,13 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
     live.textContent = `${inst.name}：${inst.campuses.length} 處校區、${inst.entries.length} 筆署名提及`;
   }
 
-  function renderUncatalogued() {
+  function renderUnlocated() {
     main.replaceChildren(
-      breadcrumb([{ label: '全部縣市', action: () => selectCounty(null) }, { label: '尚無機構候選' }]),
-      viewTitle('尚無機構候選的署名', `${uncatalogued.length} 筆署名的原文尚未對應到已收錄機構，可能是海外、退休、未收錄機構或寫法不同。這些署名仍完整保留並可搜尋。`),
-      entryList(uncatalogued),
+      breadcrumb([{ label: '全部縣市', action: () => selectCounty(null) }, { label: '尚未定位' }]),
+      viewTitle('尚未定位的署名', `${unlocated.length} 筆署名目前尚無可用的機構座標。條目仍可搜尋，已有的學術關係來源也可查閱。`),
+      entryList(unlocated),
     );
-    live.textContent = `${uncatalogued.length} 筆尚無機構候選的署名`;
+    live.textContent = `${unlocated.length} 筆尚未定位的署名`;
   }
 
   function entryList(list, { exclude, query = '' } = {}) {
@@ -589,9 +589,8 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
           text: [place.institution, place.city, place.country].filter(Boolean).join(' · '),
           'aria-label': `在地圖定位 ${entry.name}，${place.institution}`,
         })))) : null,
-      entry.candidates.length === 0
-        ? h('p', { class: 'pa-dir-entry-note', text: '尚無機構候選：原文未對應到已收錄機構。' })
-        : candidates.length
+      !places.length ? h('p', { class: 'pa-dir-entry-note', text: '尚未取得可對應的機構座標。' }) : null,
+      candidates.length
           ? h('div', { class: 'pa-dir-entry-cands' },
             h('span', { class: 'pa-dir-muted', text: exclude ? '其他機構候選：' : '機構候選（未查核）：' }),
             candidates.map((inst) => h('button', {
@@ -710,7 +709,7 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
       h('ul', {},
         h('li', { text: `原站共 ${entries.length} 筆署名，其中 ${matchedCount} 筆的原文含已收錄機構名稱或別名。` }),
         h('li', { text: '同一筆署名可能同時提及多個機構，因此各機構的提及數相加會超過署名總數。' }),
-        h('li', { text: `其餘 ${uncatalogued.length} 筆尚無機構候選，保留在名單並可搜尋。` }),
+        h('li', { text: `${unlocated.length} 筆尚未加入地圖，可在「尚未定位」查看。` }),
         h('li', { text: `已有 ${sourcedCount} / ${entries.length} 筆附學術單位查核來源。每則來源的查核範圍見連結說明。` }),
         h('li', { text: '同名署名者分開列出，不合併。' })));
   }

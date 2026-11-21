@@ -20,8 +20,14 @@ export function affiliationSources(section, raw) {
     ...(sources[section]?.[raw] ?? []),
     ...(bySection.get(section)?.get(raw) ?? []).flatMap((record) => record.sources ?? []),
   ];
-  return [...new Map(refs.filter((ref) => /^https?:\/\//i.test(ref.url))
-    .map((ref) => [ref.url, ref])).values()];
+  const byUrl = new Map();
+  for (const ref of refs) {
+    if (!/^https?:\/\//i.test(ref.url)) continue;
+    const previous = byUrl.get(ref.url);
+    const units = new Set([...(previous?.institutions ?? []), ...(ref.institutions ?? [])]);
+    byUrl.set(ref.url, { ...ref, institutions: [...units] });
+  }
+  return [...byUrl.values()];
 }
 
 export function portraitFor(section, raw) {
