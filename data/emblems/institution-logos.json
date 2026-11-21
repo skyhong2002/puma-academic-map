@@ -232,6 +232,11 @@
     "credit": "世新大學標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
     "license_url": "https://zh.wikipedia.org/wiki/File:Shih_Hsin_University_logo.png"
   },
+  "中原大學": {
+    "file": "institution-040db7811927.webp",
+    "source_url": "https://www.cycu.edu.tw/",
+    "credit": "中原大學公開使用的標誌，等比轉為 WebP。"
+  },
   "中國文化大學": {
     "file": "institution-273596303db7.webp",
     "source_url": "https://zh.wikipedia.org/wiki/File:PCCU_LOGO.svg",
@@ -388,6 +393,11 @@
     "credit": "中華科技大學校徽，取自秘書室下載專區「中華科技大學 LOGO」（Slogo.jpg）。本站版本等比縮圖並轉為 WebP。",
     "license_url": "https://www.cust.edu.tw/sec/download.html"
   },
+  "亞洲大學": {
+    "file": "institution-54e25f37e3aa.webp",
+    "source_url": "https://www.asia.edu.tw/",
+    "credit": "亞洲大學公開使用的標誌，等比轉為 WebP。"
+  },
   "健行科技大學": {
     "file": "institution-5501bea2972d.webp",
     "source_url": "https://zh.wikipedia.org/wiki/File:Chien_Hsin_University_of_Science_and_Technology_logo.svg",
@@ -453,10 +463,21 @@
     "credit": "南加州大學健康科學校區標誌，以來源圖檔等比縮放並轉為 WebP。",
     "license_url": "https://commons.wikimedia.org/wiki/File:University_of_Southern_California_logo.svg"
   },
+  "南華大學": {
+    "file": "institution-eae9ffbbcb39.webp",
+    "source_url": "https://www.nhu.edu.tw/",
+    "credit": "南華大學公開使用的標誌，等比轉為 WebP。"
+  },
   "台灣金融研訓院": {
     "file": "institution-a0d5a15b42f0.webp",
     "source_url": "https://www.tabf.org.tw/",
     "credit": "台灣金融研訓院在官網使用的識別圖樣。"
+  },
+  "喬治華盛頓大學": {
+    "file": "institution-5c05750ab73d.webp",
+    "source_url": "https://github.com/gw-ospo/gw-presentation/blob/main/skills/gw-presentation/assets/logos/gw/gw-monogram-2c.png",
+    "credit": "喬治華盛頓大學公開使用的標誌，等比轉為 WebP。",
+    "license_url": "https://communications.gwu.edu/brand-guidelines/"
   },
   "國家中山科學研究院": {
     "file": "institution-68fa8dc5c202.webp",
@@ -475,6 +496,11 @@
     "source_url": "https://www.nhri.edu.tw/",
     "credit": "國家衛生研究院在官網使用的識別圖樣。",
     "license_url": "https://www.nhri.edu.tw/Webservices/opendata"
+  },
+  "國立中央大學": {
+    "file": "institution-5d93de5972e6.webp",
+    "source_url": "https://www.ncu.edu.tw/",
+    "credit": "國立中央大學公開使用的標誌，等比轉為 WebP。"
   },
   "國立中山大學": {
     "file": "institution-1a372dd91ee8.webp",
@@ -592,6 +618,11 @@
     "source_url": "https://zh.wikipedia.org/wiki/File:National_Taiwan_Normal_University_logo.svg",
     "credit": "國立臺灣師範大學標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
     "license_url": "https://zh.wikipedia.org/wiki/File:National_Taiwan_Normal_University_logo.svg"
+  },
+  "國立臺灣海洋大學": {
+    "file": "institution-6af5c6f9ba31.webp",
+    "source_url": "https://www.ntou.edu.tw/",
+    "credit": "國立臺灣海洋大學公開使用的標誌，等比轉為 WebP。"
   },
   "國立臺灣科技大學": {
     "file": "institution-2c25108a6c23.webp",
@@ -740,6 +771,11 @@
     "source_url": "https://www.tyh.com.tw/",
     "credit": "東元綜合醫院在官方網站或檔案頁公開的識別圖樣。"
   },
+  "東吳大學": {
+    "file": "institution-eb5ca49b9471.webp",
+    "source_url": "https://www-ch.scu.edu.tw/",
+    "credit": "東吳大學公開使用的標誌，等比轉為 WebP。"
+  },
   "淡江大學": {
     "file": "institution-915a2c085d7d.webp",
     "source_url": "https://www.tku.edu.tw/",
@@ -780,6 +816,11 @@
     "credit": "臺北市立大學校徽，取自秘書室下載專區「臺北市立大學校徽與校旗圖檔」。本站版本等比縮圖並轉為 WebP。",
     "license_url": "https://sec.utaipei.edu.tw/p/404-1009-33313.php"
   },
+  "臺北市立聯合醫院": {
+    "file": "institution-7a8e635ab75b.webp",
+    "source_url": "https://tpech.gov.taipei/",
+    "credit": "臺北市立聯合醫院公開使用的標誌，等比轉為 WebP。"
+  },
   "臺北醫學大學": {
     "file": "institution-7af569a68b18.webp",
     "source_url": "https://zh.wikipedia.org/wiki/File:Emblem_of_Taipei_Medical_University.svg",
@@ -808,6 +849,12 @@
     "source_url": "https://zh.wikipedia.org/wiki/File:Huafan_University_logo.svg",
     "credit": "華梵大學標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
     "license_url": "https://zh.wikipedia.org/wiki/File:Huafan_University_logo.svg"
+  },
+  "華盛頓州立大學": {
+    "file": "institution-f8b74fa1eceb.webp",
+    "source_url": "https://wsu.edu/",
+    "credit": "華盛頓州立大學公開使用的標誌，等比轉為 WebP。",
+    "license_url": "https://trademarks.wsu.edu/"
   },
   "萊頓大學": {
     "file": "institution-df638c56b57f.webp",
@@ -865,6 +912,11 @@
     "source_url": "https://en.wikipedia.org/wiki/File:University_of_Sydney_coat_of_arms.png",
     "credit": "雪梨大學（Camperdown 主校區）標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
     "license_url": "https://en.wikipedia.org/wiki/File:University_of_Sydney_coat_of_arms.png"
+  },
+  "靜宜大學": {
+    "file": "institution-41cbea4b65bb.webp",
+    "source_url": "https://secretary.pu.edu.tw/p/404-1045-10422.php?Lang=zh-tw",
+    "credit": "靜宜大學公開使用的標誌，等比轉為 WebP。"
   },
   "馬偕醫學大學": {
     "file": "institution-de12bde56e9d.webp",
