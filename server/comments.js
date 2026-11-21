@@ -1,4 +1,4 @@
-import { createHash, createHmac, randomBytes } from 'node:crypto';
+import { createHash, createHmac, randomBytes, timingSafeEqual } from 'node:crypto';
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { createServer } from 'node:http';
 import { isIP } from 'node:net';
@@ -15,8 +15,9 @@ const allowedOrigins = new Set([
 const behindProxy = process.env.COMMENTS_BEHIND_PROXY === '1';
 const minute = 60_000;
 const pageSize = 20;
+const proofLifetime = 10 * minute;
 const idPattern = '[a-f0-9]{32}';
-const routePattern = new RegExp(`^/api/people/(${idPattern})/comments(?:/(${idPattern}))?$`);
+const routePattern = new RegExp(`^/api/people/(${idPattern})/comments(?:/(${idPattern}|challenge))?$`);
 const idValid = new RegExp(`^${idPattern}$`);
 const tokenValid = /^[a-f0-9]{64}$/;
 const roster = JSON.parse(readFileSync(new URL('../data/signatories.json', import.meta.url)));
@@ -47,22 +48,37 @@ db.exec(`
     PRIMARY KEY (key, expires_at)
   ) WITHOUT ROWID;
   CREATE INDEX IF NOT EXISTS rate_expiry ON rate_limits (expires_at);
+  CREATE TABLE IF NOT EXISTS comment_proofs (
+    nonce TEXT PRIMARY KEY, expires_at INTEGER NOT NULL
+  ) WITHOUT ROWID;
+  CREATE INDEX IF NOT EXISTS proof_expiry ON comment_proofs (expires_at);
 `);
-const select = 'SELECT id, body, created_at AS createdAt, updated_at AS updatedAt FROM comments';
+const columns = new Set(db.prepare('PRAGMA table_info(comments)').all().map(({ name }) => name));
+if (!columns.has('author_name')) db.exec('ALTER TABLE comments ADD COLUMN author_name TEXT');
+if (!columns.has('author_website')) db.exec('ALTER TABLE comments ADD COLUMN author_website TEXT');
+const select = `SELECT id, body, created_at AS createdAt, updated_at AS updatedAt,
+  author_name AS authorName, author_website AS authorWebsite FROM comments`;
 const boardTotals = db.prepare('SELECT person, COUNT(*) AS total FROM comments GROUP BY person');
 const latest = db.prepare(`${select} WHERE person = ? ORDER BY created_at DESC, id DESC LIMIT ?`);
 const older = db.prepare(`${select} WHERE person = ? AND (created_at, id) < (?, ?) ORDER BY created_at DESC, id DESC LIMIT ?`);
 const find = db.prepare(`${select} WHERE id = ? AND person = ? AND owner = ?`);
 const duplicate = db.prepare('SELECT 1 FROM comments WHERE person = ? AND fingerprint = ? AND created_at >= ? AND id != ? LIMIT 1');
-const insert = db.prepare('INSERT INTO comments (id, person, body, fingerprint, owner, created_at) VALUES (?, ?, ?, ?, ?, ?)');
-const edit = db.prepare('UPDATE comments SET body = ?, fingerprint = ?, updated_at = ? WHERE id = ?');
+const insert = db.prepare('INSERT INTO comments (id, person, body, fingerprint, owner, created_at, author_name, author_website) VALUES (?, ?, ?, ?, ?, ?, ?, ?)');
+const edit = db.prepare('UPDATE comments SET body = ?, fingerprint = ?, updated_at = ?, author_name = ?, author_website = ? WHERE id = ?');
 const remove = db.prepare('DELETE FROM comments WHERE id = ?');
 const rateCount = db.prepare('SELECT hits FROM rate_limits WHERE key = ? AND expires_at = ?');
 const rateHit = db.prepare(`INSERT INTO rate_limits (key, expires_at, hits) VALUES (?, ?, 1)
   ON CONFLICT (key, expires_at) DO UPDATE SET hits = hits + 1`);
 const pruneRates = db.prepare('DELETE FROM rate_limits WHERE expires_at <= ?');
-pruneRates.run(Date.now());
-setInterval(() => pruneRates.run(Date.now()), minute).unref();
+const pruneProofs = db.prepare('DELETE FROM comment_proofs WHERE expires_at <= ?');
+const useProof = db.prepare('INSERT OR IGNORE INTO comment_proofs (nonce, expires_at) VALUES (?, ?)');
+function pruneExpired() {
+  const now = Date.now();
+  pruneRates.run(now);
+  pruneProofs.run(now);
+}
+pruneExpired();
+setInterval(pruneExpired, minute).unref();
 
 function fail(status, message, retryAfter) {
   throw Object.assign(new Error(message), { status, retryAfter });
@@ -131,6 +147,42 @@ function commentText(value) {
   return { body, fingerprint: hash(normalized.replace(/[\s\p{Default_Ignorable_Code_Point}]/gu, '')) };
 }
 
+function authorFields(input, existing) {
+  const { authorName = existing?.authorName ?? '', authorWebsite = existing?.authorWebsite ?? '' } = input;
+  if (typeof authorName !== 'string' || authorName.length > 50 || /[\p{Cc}\p{Bidi_Control}]/u.test(authorName)) {
+    fail(400, '名字或暱稱最多 50 字。');
+  }
+  if (typeof authorWebsite !== 'string' || authorWebsite.length > 300) fail(400, '請輸入有效的個人網站網址。');
+  const value = authorWebsite.trim();
+  const url = value ? URL.parse(value) : null;
+  if (value && (!url || !['http:', 'https:'].includes(url.protocol) || url.username || url.password || url.href.length > 300)) {
+    fail(400, '請輸入以 https:// 或 http:// 開頭的個人網站網址。');
+  }
+  return [authorName.trim() || null, url?.href ?? null];
+}
+
+function signChallenge(person, challenge) {
+  return createHmac('sha256', rateSecret).update(`comment-proof:${person}:${challenge}`).digest();
+}
+
+function issueChallenge(person, now) {
+  const challenge = `${randomBytes(16).toString('hex')}.${now + proofLifetime}`;
+  return { challenge: `${challenge}.${signChallenge(person, challenge).toString('hex')}` };
+}
+
+function verifyChallenge(person, input, now) {
+  const { challenge, answer } = input;
+  if (challenge === undefined) fail(428, '請重新整理頁面，勾選「我不是機器人」後再送出。');
+  const parts = typeof challenge === 'string' && /^([a-f0-9]{32})\.(\d{13})\.([a-f0-9]{64})$/.exec(challenge);
+  if (parts && typeof answer === 'string' && /^[0-9a-f]{1,8}$/.test(answer)) {
+    const [, nonce, expiry, signature] = parts;
+    const expires = Number(expiry);
+    if (expires > now && timingSafeEqual(Buffer.from(signature, 'hex'), signChallenge(person, `${nonce}.${expiry}`))
+      && hash(`${challenge}:${answer}`).startsWith('0000')) return [nonce, expires];
+  }
+  fail(428, '請勾選「我不是機器人」完成驗證後再送出。');
+}
+
 function cursor(params) {
   if (!params.has('before')) return null;
   const [time, id, extra] = params.get('before').split('.');
@@ -164,6 +216,16 @@ const server = createServer({ requestTimeout: 10_000, headersTimeout: 5_000 }, a
     if (!route || !people.has(route[1])) fail(404, '找不到留言板。');
     const [, person, id] = route;
     const method = request.method;
+    if (id === 'challenge') {
+      if (method !== 'GET') {
+        response.setHeader('Allow', 'GET');
+        fail(405, '不支援這個留言操作。');
+      }
+      const now = Date.now();
+      limit(now, [`challenge:${sourceKey(request, now)}`, 15, minute]);
+      send(response, 200, issueChallenge(person, now));
+      return;
+    }
     if (method === 'GET' && !id) {
       const before = cursor(url.searchParams);
       const comments = before ? older.all(person, ...before, pageSize + 1) : latest.all(person, pageSize + 1);
@@ -201,19 +263,22 @@ const server = createServer({ requestTimeout: 10_000, headersTimeout: 5_000 }, a
     if (posting && input.website !== '') fail(422, '無法送出這則留言，請重新整理後再試。');
     const { body, fingerprint } = commentText(input.body);
     if (duplicate.get(person, fingerprint, now - 60 * minute, commentId)) fail(409, '這個留言板近期已有相同內容。');
+    const [authorName, authorWebsite] = authorFields(input, existing);
     if (posting) {
+      const proof = verifyChallenge(person, input, now);
       db.exec('BEGIN IMMEDIATE');
       try {
         limit(now, [`post:${source}`, 5, 10 * minute], [`person:${person}:${source}`, 2, 10 * minute],
           [`board:${person}`, 80, minute], ['site', 300, minute]);
-        insert.run(commentId, person, body, fingerprint, owner, now);
+        if (!useProof.run(...proof).changes) fail(428, '驗證已使用，請重新勾選「我不是機器人」。');
+        insert.run(commentId, person, body, fingerprint, owner, now, authorName, authorWebsite);
         db.exec('COMMIT');
       } catch (error) {
         db.exec('ROLLBACK');
         throw error;
       }
     } else {
-      edit.run(body, fingerprint, now, commentId);
+      edit.run(body, fingerprint, now, authorName, authorWebsite, commentId);
     }
     send(response, posting ? 201 : 200, find.get(commentId, person, owner));
   } catch (error) {

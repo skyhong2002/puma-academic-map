@@ -1,3 +1,4 @@
+import { commentVerification } from './comment-verification.js';
 import { openCommentShareCard } from './comment-share-card.js';
 import { commentBoardId } from './comment-board-id.js';
 import './person-comments.css';
@@ -41,16 +42,18 @@ function newToken() {
   return Array.from(crypto.getRandomValues(new Uint8Array(32)), (byte) => byte.toString(16).padStart(2, '0')).join('');
 }
 
-async function request(url, { method = 'GET', data, token } = {}) {
+async function request(url, { method = 'GET', data, token, signal } = {}) {
   const headers = {};
   if (data) headers['Content-Type'] = 'application/json';
   if (token) headers.Authorization = `Bearer ${token}`;
+  const timeout = AbortSignal.timeout(10_000);
   const response = await fetch(url, {
-    method, headers, body: data ? JSON.stringify(data) : undefined, signal: AbortSignal.timeout(10_000),
+    method, headers, body: data ? JSON.stringify(data) : undefined,
+    signal: signal ? AbortSignal.any([signal, timeout]) : timeout,
   });
   if (response.status === 204) return;
   const result = await response.json();
-  if (!response.ok) throw new Error(result.error);
+  if (!response.ok) throw Object.assign(new Error(result.error), { status: response.status });
   return result;
 }
 
@@ -61,6 +64,25 @@ function commentInput(value = '') {
   input.rows = 3;
   input.value = value;
   return input;
+}
+
+function authorInputs({ authorName = '', authorWebsite = '' } = {}) {
+  const row = element('div');
+  row.className = 'person-comments__authors';
+  const name = element('input');
+  name.type = 'text';
+  name.maxLength = 50;
+  name.value = authorName ?? '';
+  name.placeholder = '名字／暱稱（選填）';
+  name.setAttribute('aria-label', name.placeholder);
+  const website = element('input');
+  website.type = 'url';
+  website.maxLength = 300;
+  website.value = authorWebsite ?? '';
+  website.placeholder = '個人網站（選填）';
+  website.setAttribute('aria-label', website.placeholder);
+  row.append(name, website);
+  return { row, fields: () => ({ authorName: name.value, authorWebsite: website.value }) };
 }
 
 const errorText = (error) => error instanceof Error && error.constructor === Error
@@ -97,11 +119,14 @@ export function personComments(person) {
   more.hidden = true;
   const retry = button('重新載入留言', () => load());
   retry.hidden = true;
-  form.append(input, trap, submit, status);
-  section.append(heading, form, listStatus, list, more, retry);
-
+  const authors = authorInputs();
   const boardId = commentBoardId(person);
   const endpoint = boardId.then((id) => `/api/people/${id}/comments`);
+  const verification = commentVerification(async (signal) => request(`${await endpoint}/challenge`, { signal }));
+  verification.checkbox.addEventListener('change', () => { status.textContent = ''; });
+  form.append(authors.row, input, trap, verification.row, submit, status);
+  section.append(heading, form, listStatus, list, more, retry);
+
   let next = null;
   let loaded = false;
   let loading = false;
@@ -118,6 +143,13 @@ export function personComments(person) {
     time.dateTime = new Date(comment.createdAt).toISOString();
     const meta = element('p');
     meta.className = 'person-comments__meta';
+    if (comment.authorWebsite) {
+      const link = element('a', comment.authorName || '個人網站');
+      link.href = comment.authorWebsite;
+      link.target = '_blank';
+      link.rel = 'ugc nofollow noopener noreferrer';
+      meta.append(link, '・');
+    } else if (comment.authorName) meta.append(element('strong', comment.authorName), '・');
     meta.append(time);
     if (comment.updatedAt !== null) meta.append('・已編輯');
     const body = element('p', comment.body);
@@ -142,7 +174,8 @@ export function personComments(person) {
         body.hidden = actions.hidden = false;
         change.focus();
       });
-      editForm.append(editLabel, save, cancel);
+      const authors = authorInputs(comment);
+      editForm.append(authors.row, editLabel, save, cancel);
       actions.hidden = body.hidden = true;
       item.insertBefore(editForm, feedback);
       editInput.focus();
@@ -153,7 +186,7 @@ export function personComments(person) {
         feedback.textContent = '';
         try {
           const updated = await request(`${await endpoint}/${comment.id}`, {
-            method: 'PATCH', token, data: { body: editInput.value },
+            method: 'PATCH', token, data: { body: editInput.value, ...authors.fields() },
           });
           const replacement = renderComment(updated);
           shown.set(updated.id, replacement);
@@ -230,16 +263,23 @@ export function personComments(person) {
   form.addEventListener('submit', async (event) => {
     event.preventDefault();
     if (submit.disabled || !input.reportValidity()) return;
-    submit.disabled = input.readOnly = true;
+    const proof = verification.getProof();
+    if (!proof) {
+      status.textContent = '請先勾選「我不是機器人」，等驗證完成後再送出。';
+      verification.checkbox.focus();
+      return;
+    }
+    submit.disabled = input.readOnly = verification.checkbox.disabled = true;
     status.textContent = '送出中…';
     try {
       pendingToken ??= newToken();
       const comment = await request(await endpoint, {
-        method: 'POST', data: { body: input.value, website: website.value, token: pendingToken },
+        method: 'POST', data: { body: input.value, website: website.value, token: pendingToken, ...authors.fields(), ...proof },
       });
       saveToken(comment.id, pendingToken);
       pendingToken = undefined;
-      input.value = '';
+      form.reset();
+      verification.reset();
       const item = renderComment(comment);
       shown.get(comment.id)?.remove();
       shown.set(comment.id, item);
@@ -252,8 +292,9 @@ export function personComments(person) {
       } else status.textContent = '留言已公開。';
     } catch (error) {
       status.textContent = errorText(error);
+      if (error.status === 428) verification.reset();
     } finally {
-      submit.disabled = input.readOnly = false;
+      submit.disabled = input.readOnly = verification.checkbox.disabled = false;
     }
   });
   load();
