@@ -98,7 +98,7 @@
   border-color: var(--map-orange-edge);
   background: #fff0e3;
 }
-.comment-share .comment-share__primary {
+.comment-share .comment-share__primary, .comment-share__primary[hidden] + button {
   background: var(--accent-ink);
   color: var(--paper);
 }

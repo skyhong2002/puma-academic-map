@@ -215,7 +215,7 @@ function showCampus(campus, restore, restoring = false) {
 }
 
 function showPerson(person, point, returnToList, restoring = false) {
-  panelDetail = { type: 'person', point: pointKey(point), person: personRef(person) };
+  panelDetail = { type: 'person', point: point && pointKey(point), person: personRef(person) };
   if (returnToList?.campus) {
     const { campus, scrollTop } = returnToList;
     panelDetail.parent = { point: pointKey(campus.point), campusOnly: campus.campusOnly, scrollTop };
