@@ -196,21 +196,22 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
 #panel-back-title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 #panel-back-title::before { content: '· '; }
 #panel-content { min-height: 0; overflow: auto; overscroll-behavior: contain; }
-.map-panel-toggle__label { display: none; }
 @media (width < 720px) {
   .map-app {
-    --sheet-max-height: clamp(0px, calc(100dvh - var(--sheet-toolbar-height, 158px) - 144px), 75dvh);
-    --sheet-height: min(var(--sheet-max-height), 45dvh, 420px);
-    --sheet-row: var(--sheet-fixed-height, 0px);
-    --sheet-handle-gap: calc(26px + env(safe-area-inset-bottom));
+    --sheet-handle-height: 32px;
+    --sheet-closed-height: calc(var(--sheet-handle-height) + env(safe-area-inset-bottom));
+    --sheet-max-height: clamp(var(--sheet-closed-height), calc(100dvh - var(--sheet-toolbar-height, 158px) - 144px), 75dvh);
+    --sheet-height: max(var(--sheet-closed-height), min(var(--sheet-max-height), 45dvh, 420px));
+    --sheet-row: var(--sheet-fixed-height, var(--sheet-closed-height));
+    --sheet-visible-height: var(--sheet-row);
     grid-template-rows: auto minmax(0, 1fr) var(--sheet-row);
     transition: grid-template-rows var(--panel-duration) var(--panel-ease);
   }
   .map-app.is-panel-open { --sheet-row: var(--sheet-fixed-height, var(--sheet-height)); }
   .map-app.is-sheet-tall { --sheet-height: var(--sheet-max-height); }
   .map-app:is(.is-sheet-dragging, .is-sheet-settling) { transition: none; }
+  .map-app.is-sheet-dragging { --sheet-visible-height: var(--sheet-drag-height, var(--sheet-closed-height)); }
   .map-panel-toggle__arrow { display: none; }
-  .map-panel-toggle__label { display: inline; }
   .map-toolbar { padding-block-end: 7px; }
   .map-toolbar__brand img { width: 30px; height: 30px; }
   .map-toolbar h1 { font-size: clamp(10px, 4cqi - .6px, 15px); }
@@ -220,49 +221,52 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
     z-index: 850;
     border-radius: 16px 16px 0 0;
     box-shadow: 0 -4px 18px #211d1d22;
+    box-sizing: border-box;
     height: auto;
+    padding-block-start: calc(var(--sheet-handle-height) - 1px);
     padding-inline: env(safe-area-inset-left) env(safe-area-inset-right);
   }
+  .map-panel[hidden] { visibility: visible; }
+  .map-panel[hidden] > * { visibility: hidden; }
   .is-sheet-dragging .map-panel {
     position: absolute;
     inset: auto 0 0;
-    height: var(--sheet-drag-height, var(--sheet-row));
+    height: var(--sheet-visible-height);
+    transition: none;
   }
-  .map-panel-toggle {
-    bottom: calc(var(--sheet-row) + var(--sheet-handle-gap));
+  .map-app .map-panel-toggle {
+    z-index: 851;
+    inset-inline: 0;
+    bottom: calc(var(--sheet-visible-height) - var(--sheet-handle-height));
+    display: grid;
+    place-items: center;
+    min-height: var(--sheet-handle-height);
+    padding: 0;
+    border: 0;
+    border-radius: 16px 16px 0 0;
+    background: transparent;
     touch-action: none;
+    -webkit-tap-highlight-color: transparent;
     user-select: none;
     transition: bottom var(--panel-duration) var(--panel-ease);
-    left: 50%;
-    transform: translateX(-50%);
-    min-height: 44px;
-    padding: 12px 16px 3px;
-    border-radius: 12px 12px 0 0;
   }
+  .map-app .map-panel-toggle:focus-visible { outline-offset: -3px; }
   .map-panel-toggle::before {
     content: "";
-    position: absolute;
-    top: 5px;
-    left: 50%;
-    width: 24px;
-    height: 3px;
-    transform: translateX(-50%);
-    border-radius: 3px;
+    width: 28px;
+    height: 4px;
+    border-radius: 999px;
     background: var(--ink-soft);
   }
   :is(.is-sheet-dragging, .is-sheet-settling) .map-panel-toggle { transition: none; }
-  .is-sheet-dragging .map-panel-toggle {
-    bottom: calc(var(--sheet-drag-height, var(--sheet-row)) + var(--sheet-handle-gap));
-    cursor: grabbing;
-  }
+  .is-sheet-dragging .map-panel-toggle { cursor: grabbing; }
   .map-stage .map-tools {
     bottom: auto;
     top: 10px;
     right: calc(12px + env(safe-area-inset-right));
     display: flex;
   }
-  .map-app:not(.is-panel-open) .leaflet-bottom { bottom: env(safe-area-inset-bottom); }
-  .is-panel-open .leaflet-bottom { bottom: 8px; }
+  .map-stage .leaflet-bottom { bottom: 8px; }
 }
 @media (width < 720px) and (height < 520px) {
   .map-toolbar__brand img { width: 28px; height: 28px; }

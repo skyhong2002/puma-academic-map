@@ -53,7 +53,6 @@ function setPanelExpanded(expanded) {
   updateViewExpanded(expanded);
   panelToggle.setAttribute('aria-expanded', String(expanded));
   panelToggle.querySelector('.map-panel-toggle__arrow').textContent = expanded ? '‹' : '›';
-  panelToggle.querySelector('.map-panel-toggle__label').textContent = expanded ? '收合資訊' : '展開資訊';
   panelToggle.title = expanded ? '收合資訊面板' : '展開資訊面板';
   panelToggle.setAttribute('aria-label', panelToggle.title);
   atlas.resize();
@@ -342,7 +341,7 @@ panelToggle.addEventListener('pointerdown', (event) => {
   if (!narrowLayout.matches) return;
   sheetDrag = {
     id: event.pointerId, start: event.clientY, closed: panel.hidden,
-    height: panel.hidden ? 0 : panel.offsetHeight, delta: 0,
+    height: panel.offsetHeight, delta: 0,
   };
   panelToggle.setPointerCapture(event.pointerId);
 });
@@ -354,19 +353,20 @@ panelToggle.addEventListener('pointermove', (event) => {
   if (sheetDrag.closed && panel.hidden && sheetDrag.delta <= 0) return;
   if (!mapApp.classList.contains('is-sheet-dragging')) {
     mapApp.style.setProperty('--sheet-fixed-height', '0px');
+    updateSheetDrag();
     mapApp.classList.add('is-sheet-dragging');
     // Keep the full map behind the sheet and preserve its visible origin.
     atlas.resize({ pan: false, debounceMoveend: true });
     if (panel.hidden) showPanel(panelView, { focus: false, restoreScroll: true });
+    return;
   }
   if (sheetFrame === undefined) sheetFrame = requestAnimationFrame(updateSheetDrag);
 });
 
 function updateSheetDrag() {
   sheetFrame = undefined;
-  const height = `clamp(0px, ${sheetDrag.height + sheetDrag.delta}px, var(--sheet-max-height))`;
-  panel.style.setProperty('--sheet-drag-height', height);
-  panelToggle.style.setProperty('--sheet-drag-height', height);
+  const height = `clamp(var(--sheet-closed-height), ${sheetDrag.height + sheetDrag.delta}px, var(--sheet-max-height))`;
+  mapApp.style.setProperty('--sheet-drag-height', height);
 }
 
 function clearSheetDrag(settle = false) {
@@ -383,8 +383,7 @@ function clearSheetDrag(settle = false) {
   }
   sheetDrag = undefined;
   mapApp.classList.remove('is-sheet-dragging');
-  panel.style.removeProperty('--sheet-drag-height');
-  panelToggle.style.removeProperty('--sheet-drag-height');
+  mapApp.style.removeProperty('--sheet-drag-height');
   if (settling) {
     const snap = {};
     sheetSnap = snap;
