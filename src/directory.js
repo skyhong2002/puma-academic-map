@@ -264,7 +264,7 @@ export function mountDirectory(element, { onSelectCounty, onLocate, onLocateUnit
   const main = h('div', { class: 'pa-dir-main', id: `${uid}-main` });
   const footer = h('footer', { class: 'pa-dir-footer' },
     h('p', {},
-      '名單來源：', extLink(roster.source_url, '學術後援會公開名單'), `，擷取於 ${FETCHED_AT}。`),
+      '名單來源：', extLink(roster.source_url, '原始名錄'), `，擷取於 ${FETCHED_AT}。`),
     h('p', { class: 'pa-dir-muted', text: '地點為機構公開的校區地址，不代表署名者任職於該校區，也不代表機構本身表態。' }),
   );
 

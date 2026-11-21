@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <title>學術界公開署名地圖｜支持沈伯洋的學術後援會</title>
+    <title>台北市市長候選人沈伯洋先生 學界後援會署名地圖</title>
     <meta
       name="description"
-      content="以縣市地圖瀏覽學術後援會公開名單所列機構的分布，並查閱各機構官方校區地址與原站公開署名。"
+      content="以縣市地圖瀏覽學界後援會公開名單所列機構的分布，並查閱各機構官方校區地址與原站公開署名。"
     />
     <meta name="theme-color" content="#f5f1e8" />
     <link rel="icon" href="/assets/puma-favicon.ico" sizes="16x16 32x32" />
@@ -15,17 +15,19 @@
   </head>
   <body>
     <main class="map-app">
-      <div id="map" class="map-app__map" aria-label="全球署名地圖"></div>
       <header class="map-toolbar">
+        <div id="map-search"></div>
         <div class="map-toolbar__brand">
           <img src="/assets/puma-signature.webp" width="44" height="34" alt="" />
-          <h1>學術界公開署名地圖</h1>
-          <a class="map-toolbar__signup" href="https://forms.gle/joAmvcST4U4jUX137" aria-label="填寫學術後援會登記表">登記</a>
-          <button type="button" id="open-directory" aria-controls="map-panel" aria-expanded="false">名錄</button>
+          <h1>台北市市長候選人沈伯洋先生<br />學界後援會署名地圖</h1>
         </div>
-        <div id="map-search"></div>
+        <div class="map-toolbar__actions">
+          <a href="https://sites.google.com/view/academic-kouenkai-for-puma/" target="_blank" rel="noopener">原始名錄</a>
+          <a class="map-toolbar__signup" href="https://forms.gle/joAmvcST4U4jUX137" aria-label="填寫學界後援會登記表">登記</a>
+          <button type="button" id="open-directory" aria-controls="map-panel" aria-expanded="false">地圖名錄</button>
+        </div>
       </header>
-      <aside class="map-panel" id="map-panel" aria-label="名錄與詳細資料" hidden>
+      <aside class="map-panel" id="map-panel" aria-label="名錄與詳細資料" hidden inert>
         <div class="map-panel__actions">
           <button type="button" id="panel-back" hidden>← 返回</button>
           <button type="button" id="panel-close" aria-label="關閉資訊面板">關閉</button>
@@ -37,16 +39,21 @@
             <h2 tabindex="-1">關於署名地圖</h2>
             <p>查看支持沈伯洋的學術界公開署名與機構。</p>
             <p id="map-totals"></p>
-            <p>放大可看到已查核的系館，點選頭像或姓名縮字可查看全名。多人對應同一系館時，標記會錯開，方便點選。僅有校區座標的署名會收在校區標記。校徽用於辨識地點，署名代表個人意見。</p>
-            <p><a id="source-link" href="https://sites.google.com/view/academic-kouenkai-for-puma/" target="_blank" rel="noopener">學術後援會公開名單</a></p>
-            <p><a href="https://forms.gle/joAmvcST4U4jUX137">填寫學術後援會登記表</a></p>
+            <p>放大可看到已查核的系館，點選姓名可查看署名詳情。人數較多的單位會先顯示人數，放大後可查看個別署名。僅有校區座標的署名會收在校區標記。校徽用於辨識地點，署名代表個人意見。</p>
+            <p><a id="source-link" href="https://sites.google.com/view/academic-kouenkai-for-puma/" target="_blank" rel="noopener">原始名錄</a></p>
+            <p><a href="https://forms.gle/joAmvcST4U4jUX137">填寫學界後援會登記表</a></p>
           </section>
         </div>
       </aside>
-      <nav class="map-tools" aria-label="地圖工具">
-        <button type="button" id="reset-map" aria-label="回到臺灣附近">回起點</button>
-        <button type="button" id="map-about" aria-controls="map-panel" aria-label="關於署名地圖">ⓘ</button>
-      </nav>
+      <div class="map-stage">
+        <button type="button" id="panel-toggle" class="map-panel-toggle"
+          aria-controls="map-panel" aria-expanded="false" aria-label="展開資訊面板" title="展開資訊面板"><span class="map-panel-toggle__arrow" aria-hidden="true">›</span><span class="map-panel-toggle__label">展開資訊</span></button>
+        <nav class="map-tools" aria-label="地圖工具">
+          <button type="button" id="reset-map" aria-label="回到臺灣附近">回起點</button>
+          <button type="button" id="map-about" aria-controls="map-panel" aria-expanded="false" aria-label="關於署名地圖">ⓘ</button>
+        </nav>
+        <div id="map" class="map-app__map" aria-label="全球署名地圖"></div>
+      </div>
     </main>
 
     <script type="module" src="/src/main.js"></script>

@@ -14,30 +14,81 @@ const directoryElement = $('directory');
 const about = $('about-map');
 const back = $('panel-back');
 const open = $('open-directory');
+const panelToggle = $('panel-toggle');
+const aboutButton = $('map-about');
+const panelContent = $('panel-content');
+const mapApp = panel.closest('.map-app');
+const narrowLayout = matchMedia('(width < 720px)');
 const number = new Intl.NumberFormat('zh-TW');
 let activeCampus;
 let returnFocus;
+let panelView = 'directory';
+let collapsedScrollTop = 0;
+let pendingReveal;
 
-function showPanel(view, { focus = true } = {}) {
+function updateViewExpanded(expanded) {
+  open.setAttribute('aria-expanded', String(expanded && panelView === 'directory'));
+  aboutButton.setAttribute('aria-expanded', String(expanded && panelView === 'about'));
+}
+
+function setPanelExpanded(expanded) {
+  panel.hidden = !expanded;
+  panel.inert = !expanded;
+  mapApp.classList.toggle('is-panel-open', expanded);
+  if (!expanded) pendingReveal = undefined;
+  updateViewExpanded(expanded);
+  panelToggle.setAttribute('aria-expanded', String(expanded));
+  panelToggle.querySelector('.map-panel-toggle__arrow').textContent = expanded ? '‹' : '›';
+  panelToggle.querySelector('.map-panel-toggle__label').textContent = expanded ? '收合資訊' : '展開資訊';
+  panelToggle.title = expanded ? '收合資訊面板' : '展開資訊面板';
+  panelToggle.setAttribute('aria-label', panelToggle.title);
+  atlas.resize();
+}
+
+function showPanel(view, { focus = true, restoreScroll = false } = {}) {
   if (panel.hidden && document.activeElement instanceof HTMLElement) returnFocus = document.activeElement;
-  panel.hidden = false;
-  open.setAttribute('aria-expanded', 'true');
+  panelView = view;
   directoryElement.hidden = view !== 'directory';
   details.hidden = view !== 'detail';
   about.hidden = view !== 'about';
   back.hidden = view !== 'detail';
+  if (panel.hidden) setPanelExpanded(true);
+  else updateViewExpanded(true);
+  if (restoreScroll) panelContent.scrollTop = collapsedScrollTop;
   if (focus) {
-    $('panel-content').scrollTop = 0;
+    if (!restoreScroll) panelContent.scrollTop = 0;
     panel.querySelector('#panel-content > section:not([hidden]) h2')?.focus({ preventScroll: true });
   }
 }
 
 function closePanel({ focusTarget = returnFocus } = {}) {
   if (panel.hidden) return;
-  panel.hidden = true;
-  open.setAttribute('aria-expanded', 'false');
-  activeCampus = null;
-  (focusTarget?.isConnected ? focusTarget : open).focus({ preventScroll: true });
+  collapsedScrollTop = panelContent.scrollTop;
+  setPanelExpanded(false);
+  (focusTarget?.isConnected && focusTarget.getClientRects().length ? focusTarget : open).focus({ preventScroll: true });
+}
+
+function revealAfterPanelResize(point) {
+  const request = {};
+  pendingReveal = request;
+  atlas.reveal(point);
+  const transitions = mapApp.getAnimations().filter(({ transitionProperty }) =>
+    transitionProperty === 'grid-template-columns' || transitionProperty === 'grid-template-rows');
+  if (!transitions.length) {
+    pendingReveal = undefined;
+    return;
+  }
+  Promise.allSettled(transitions.map((transition) => transition.finished)).then(() => {
+    if (pendingReveal !== request || panel.hidden) return;
+    pendingReveal = undefined;
+    atlas.resize();
+    atlas.reveal(point);
+  });
+}
+
+function locateOnMap(point) {
+  pendingReveal = undefined;
+  atlas.locate(point);
 }
 
 function detailTitle(text) {
@@ -105,7 +156,7 @@ function showCampus(campus) {
       : '這些署名目前只對應到校區，系館位置仍待查核。';
     details.append(hint);
   }
-  if (campusOnly && people.length) {
+  if ((campusOnly || (unit && atlas.canExpandUnit(point))) && people.length) {
     const expand = document.createElement('button');
     expand.type = 'button';
     expand.className = 'map-campus-zoom';
@@ -136,7 +187,7 @@ function showCampus(campus) {
   }
   details.append(members);
   showPanel('detail');
-  atlas.reveal(point, panel.getBoundingClientRect().right);
+  revealAfterPanelResize(point);
 }
 
 function showPerson(person, point, campus = null) {
@@ -153,33 +204,31 @@ function showPerson(person, point, campus = null) {
     details.append(link);
   }
   showPanel('detail');
-  atlas.reveal(point, panel.getBoundingClientRect().right);
+  revealAfterPanelResize(point);
 }
 
 const atlas = createAtlas($('map'), people, { onCampus: showCampus, onPerson: showPerson });
-const wideMap = matchMedia('(min-width: 600px)');
-const mapInset = () => wideMap.matches ? panel.getBoundingClientRect().right / 2 : 0;
 const findPerson = (entry) => people.find((person) => person.section === entry.section && person.raw === entry.raw);
 const directory = mountDirectory(directoryElement, {
   onSearchPerson(entry) {
     const person = findPerson(entry);
     if (!person?.locations.length) return;
     const unit = person.locations.map((point) => locatedUnit(person, point)).find(Boolean);
-    if (!wideMap.matches) closePanel({ focusTarget: open });
-    atlas.locate(unit ?? person.locations[0], mapInset());
+    locateOnMap(unit ?? person.locations[0]);
   },
   onLocateUnit(point) {
     showCampus({ point, unit: point.unit, people: atlas.peopleAt(point) });
-    atlas.locate(point, mapInset());
+    locateOnMap(point);
   },
   onLocate(entry, point) {
     const person = findPerson(entry);
     if (!person) return;
     const location = locatedUnit(person, point) ?? point;
     showPerson(person, location);
-    atlas.locate(location, mapInset());
+    locateOnMap(location);
   },
 });
+directoryElement.querySelector('h2').tabIndex = -1;
 directory.geoList.closest('nav').hidden = true;
 $('map-search').append(directory.searchForm);
 directory.searchForm.addEventListener('submit', () => showPanel('directory', { focus: false }), { capture: true });
@@ -199,12 +248,22 @@ open.addEventListener('click', () => {
   else showPanel('directory');
 });
 $('panel-close').addEventListener('click', closePanel);
+panelToggle.addEventListener('click', () => {
+  if (panel.hidden) showPanel(panelView, { focus: narrowLayout.matches, restoreScroll: true });
+  else closePanel({ focusTarget: panelToggle });
+});
 back.addEventListener('click', () => {
   if (activeCampus && details.querySelector('.map-campus-people') === null) showCampus(activeCampus);
   else showPanel('directory');
 });
-$('reset-map').addEventListener('click', atlas.reset);
-$('map-about').addEventListener('click', () => showPanel('about'));
+$('reset-map').addEventListener('click', () => {
+  pendingReveal = undefined;
+  atlas.reset();
+});
+aboutButton.addEventListener('click', () => {
+  if (!panel.hidden && !about.hidden) closePanel({ focusTarget: aboutButton });
+  else showPanel('about');
+});
 document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape' && !event.defaultPrevented) closePanel();
 });
