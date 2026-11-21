@@ -13,14 +13,14 @@
   --pa-dir-warn-border: var(--notice-border, #d9c79a);
   --pa-dir-focus: var(--focus-ring, #1f6f68);
   --pa-dir-radius: var(--radius, 12px);
-  --pa-dir-gap: 16px;
+  --pa-dir-gap: 10px;
 
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   gap: var(--pa-dir-gap);
   min-width: 0;
-  padding: 20px 16px 28px;
+  padding: 0 0 24px;
   background: var(--pa-dir-bg);
   color: var(--pa-dir-text);
   font-size: 15px;
@@ -67,7 +67,7 @@
 .pa-directory :is(ul, ol) { padding: 0; list-style: none; }
 .pa-directory button { font: inherit; color: inherit; }
 
-.pa-directory :is(button, a, input, [tabindex]):focus-visible {
+.pa-directory :is(button, a, input, select, summary, [tabindex]):focus-visible {
   outline: 3px solid var(--pa-dir-focus);
   outline-offset: 2px;
   border-radius: 6px;
@@ -88,33 +88,10 @@
 .pa-dir-small { font-size: 13px; }
 
 /* 標頭 */
-.pa-dir-header { display: grid; gap: 8px; }
-.pa-dir-title { font-size: 20px; line-height: 1.3; letter-spacing: .02em; }
-.pa-dir-lede { color: var(--pa-dir-muted); font-size: 14px; }
-.pa-dir-stats {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 8px;
-  margin-top: 4px;
-}
-.pa-dir-stat {
-  padding: 10px 12px;
-  border: 1px solid var(--pa-dir-border);
-  border-radius: var(--pa-dir-radius);
-  background: var(--pa-dir-card);
-}
-.pa-dir-stat dt { font-size: 12px; color: var(--pa-dir-muted); }
-.pa-dir-stat dd { font-size: 13px; color: var(--pa-dir-muted); }
-.pa-dir-stat strong {
-  margin-right: 2px;
-  font-size: 20px;
-  color: var(--pa-dir-text);
-  font-variant-numeric: tabular-nums;
-}
+.pa-dir-title { font-size: 18px; line-height: 1.3; }
 
 /* 搜尋 */
 .pa-dir-search { display: grid; gap: 6px; }
-.pa-dir-search-label { font-size: 13px; font-weight: 600; }
 .pa-dir-search-field { position: relative; display: flex; align-items: center; }
 .pa-dir-search-icon {
   position: absolute;
@@ -152,21 +129,18 @@
   cursor: pointer;
 }
 .pa-dir-search-clear[hidden] { display: none; }
-.pa-dir-hint { font-size: 12px; color: var(--pa-dir-muted); }
-@media (hover: none) { .pa-dir-hint { display: none; } }
-
-/* 縣市選單 */
-.pa-dir-counties { margin: 0 -16px; }
-.pa-dir-chip-list {
-  display: flex;
-  gap: 8px;
-  padding: 2px 16px 8px;
-  overflow-x: auto;
-  scroll-snap-type: x proximity;
-  scrollbar-width: thin;
-  -webkit-overflow-scrolling: touch;
+/* 名錄篩選 */
+.pa-dir-filters { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.pa-dir-county-select {
+  min-height: 44px;
+  padding: 0 8px;
+  border: 1px solid var(--pa-dir-border);
+  border-radius: 8px;
+  background: var(--pa-dir-card);
+  color: var(--pa-dir-text);
+  font: inherit;
+  font-size: 16px;
 }
-.pa-dir-chip-list > li { flex: none; scroll-snap-align: start; }
 .pa-dir-chip {
   position: relative;
   display: inline-flex;
@@ -202,11 +176,6 @@
 .pa-dir-chip[aria-pressed="true"] .pa-dir-chip-count {
   background: color-mix(in srgb, var(--pa-dir-bg) 22%, transparent);
   color: inherit;
-}
-
-@media (min-width: 900px) {
-  .pa-dir-counties { margin: 0; }
-  .pa-dir-chip-list { flex-wrap: wrap; padding: 0; overflow: visible; }
 }
 
 /* 主要區塊 */
@@ -340,15 +309,16 @@
 .pa-dir-entry {
   display: grid;
   gap: 4px;
-  padding: 12px 14px;
+  padding: 8px 12px;
   scroll-margin: 16px;
 }
 .pa-dir-entry + .pa-dir-entry { border-top: 1px solid var(--pa-dir-border); }
 .pa-dir-entry[data-result]:focus-visible { outline-offset: -3px; }
-.pa-dir-entry-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.pa-dir-entry-head { display: flex; align-items: center; gap: 8px; }
 .pa-dir-entry-name { font-weight: 600; font-size: 15px; }
 .pa-dir-section-tag {
   flex: none;
+  margin-inline-start: auto;
   padding: 0 8px;
   border-radius: 999px;
   background: var(--pa-dir-accent-soft);
@@ -468,3 +438,12 @@
   flex-wrap: wrap;
   gap: .35rem;
 }
+
+.pa-dir-entry-details { font-size: 13px; }
+.pa-dir-entry-details summary {
+  width: fit-content;
+  padding: 3px 0;
+  color: var(--pa-dir-accent-strong);
+  cursor: pointer;
+}
+.pa-dir-entry-details[open] > :not(summary) { margin-top: 6px; }

@@ -132,7 +132,6 @@ for (const inst of institutions) {
   }
   for (const campus of inst.campuses) countyStats.get(campus.county).campuses += 1;
 }
-const listedCounties = COUNTY_ORDER.filter((county) => countyStats.has(county));
 
 // ---------- DOM 小工具 ----------
 
@@ -221,18 +220,7 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
   element.classList.add('pa-directory');
   element.replaceChildren();
 
-  // 標頭與統計
-  const statsList = h('dl', { class: 'pa-dir-stats' },
-    stat('公開署名', entries.length, '筆'),
-    stat('有學術查核來源', sourcedCount, '筆'),
-    stat('已收錄機構', institutions.length, '所'),
-  );
-  const header = h('header', { class: 'pa-dir-header' },
-    h('h2', { class: 'pa-dir-title', id: `${uid}-title`, text: '署名者名錄' }),
-    h('p', { class: 'pa-dir-lede' },
-      '依姓名查閱公開署名、學術單位與查核來源，也可切換至已建檔機構。'),
-    statsList,
-  );
+  const header = h('h2', { class: 'pa-dir-title', id: `${uid}-title`, text: '署名者名錄' });
 
   // 搜尋
   const searchInput = h('input', {
@@ -250,14 +238,27 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
     type: 'button', class: 'pa-dir-search-clear', hidden: true, 'aria-label': '清除搜尋', text: '清除',
   });
   const searchForm = h('form', { class: 'pa-dir-search', role: 'search', 'aria-label': '搜尋目錄' },
-    h('label', { class: 'pa-dir-search-label', for: searchInput.id, text: '搜尋' }),
+    h('label', { class: 'pa-dir-sr', for: searchInput.id, text: '搜尋' }),
     h('div', { class: 'pa-dir-search-field' },
       searchIcon(), searchInput, clearButton),
-    h('p', { class: 'pa-dir-hint', id: `${uid}-search-hint`, text: '可搜尋原站署名原文；按 ↓ 移到第一筆結果，Esc 清除。' }),
+    h('p', { class: 'pa-dir-sr', id: `${uid}-search-hint`, text: '可搜尋原站署名原文；按 ↓ 移到第一筆結果，Esc 清除。' }),
   );
 
   // 縣市選單
-  const countyNav = h('nav', { class: 'pa-dir-counties', 'aria-label': '依縣市瀏覽' });
+  const countySelect = h('select', {
+    class: 'pa-dir-county-select',
+    'aria-label': '依縣市篩選',
+    onChange: () => selectCounty(countySelect.value || null),
+  }, h('option', { value: '', text: '全部縣市' }),
+  COUNTY_ORDER.map((county) => h('option', { value: county, text: county })));
+  const unlocatedButton = h('button', {
+    type: 'button',
+    class: 'pa-dir-chip pa-dir-chip-alt',
+    onClick: () => {
+      if (state.view === 'unlocated') selectCounty(null);
+      else showUnlocated();
+    },
+  }, '尚未定位', countBadge(unlocated.length, '筆署名'));
   const live = h('p', { class: 'pa-dir-sr', role: 'status', 'aria-live': 'polite' });
   const main = h('div', { class: 'pa-dir-main', id: `${uid}-main` });
   const footer = h('footer', { class: 'pa-dir-footer' },
@@ -271,7 +272,8 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
   const institutionMode = h('button', { type: 'button', class: 'pa-dir-chip', text: '機構',
     onClick: () => selectMode('institutions') });
   const modes = h('div', { class: 'map-switch', role: 'group', 'aria-label': '名錄分類' }, peopleMode, institutionMode);
-  element.append(header, searchForm, modes, countyNav, live, main, footer);
+  const filters = h('div', { class: 'pa-dir-filters' }, modes, countySelect, unlocatedButton);
+  element.append(header, searchForm, filters, live, main, footer);
 
   // ---- 事件 ----
   let searchTimer = 0;
@@ -366,11 +368,11 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
   // ---- 繪製 ----
   function render({ focus } = {}) {
     clearButton.hidden = !searchInput.value;
-    modes.hidden = state.overseas;
-    countyNav.hidden = state.overseas;
+    filters.hidden = state.overseas;
+    countySelect.value = state.view === 'unlocated' ? '' : state.county ?? '';
+    unlocatedButton.setAttribute('aria-pressed', String(state.view === 'unlocated'));
     peopleMode.setAttribute('aria-pressed', String(state.groupBy === 'people'));
     institutionMode.setAttribute('aria-pressed', String(state.groupBy === 'institutions'));
-    if (!state.overseas) renderCounties();
     const query = state.query.trim();
     if (query.length >= MIN_QUERY) renderSearch(query);
     else if (state.view === 'unlocated') renderUnlocated();
@@ -381,31 +383,6 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
 
     if (focus === 'heading') main.querySelector('.pa-dir-view-title')?.focus({ preventScroll: false });
     else if (focus === 'first-result') (main.querySelector('[data-result]') || searchInput).focus();
-  }
-
-  function renderCounties() {
-    const active = state.county;
-    const list = h('ul', { class: 'pa-dir-chip-list', role: 'list' },
-      h('li', {}, chip('全部縣市', null, active === null && state.view === 'browse')),
-      listedCounties.map((county) => h('li', {}, chip(county, county, active === county && state.view === 'browse',
-        countyStats.get(county).institutions.size))),
-      h('li', {}, h('button', {
-        type: 'button',
-        class: 'pa-dir-chip pa-dir-chip-alt',
-        'aria-pressed': String(state.view === 'unlocated'),
-        onClick: showUnlocated,
-      }, '尚未定位', countBadge(unlocated.length, '筆署名'))),
-    );
-    countyNav.replaceChildren(list);
-  }
-
-  function chip(label, county, pressed, count) {
-    return h('button', {
-      type: 'button',
-      class: 'pa-dir-chip',
-      'aria-pressed': String(pressed),
-      onClick: () => selectCounty(county),
-    }, label, count != null ? countBadge(count, '所機構') : null);
   }
 
   function breadcrumb(items) {
@@ -590,7 +567,9 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
           'aria-label': `在地圖定位 ${entry.name}，${place.institution}`,
         })))) : null,
       !places.length ? h('p', { class: 'pa-dir-entry-note', text: '尚未取得可對應的機構座標。' }) : null,
-      candidates.length
+      h('details', { class: 'pa-dir-entry-details' },
+        h('summary', { text: sources.length ? `查核來源（${sources.length}）` : '署名來源' }),
+        candidates.length
           ? h('div', { class: 'pa-dir-entry-cands' },
             h('span', { class: 'pa-dir-muted', text: exclude ? '其他機構候選：' : '機構候選（未查核）：' }),
             candidates.map((inst) => h('button', {
@@ -600,15 +579,15 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
               text: inst.name,
             })))
           : null,
-      h('div', { class: 'pa-dir-affiliation-sources' },
-        h('strong', { text: '學術單位查核來源' }),
-        sources.length
-          ? h('ul', {}, sources.map((source) => h('li', {},
-            extLink(source.url, source.label), '，', source.description)))
-          : h('p', { class: 'pa-dir-muted', text: '待補可核對此人的公開來源。' })),
-      portrait ? h('p', { class: 'pa-dir-entry-source' },
-        extLink(portrait.source_url, '照片來源'), '，', portrait.credit) : null,
-      SOURCE_URL ? h('p', { class: 'pa-dir-entry-source' }, extLink(SOURCE_URL, '原站名單')) : null);
+        h('div', { class: 'pa-dir-affiliation-sources' },
+          h('strong', { text: '學術單位查核來源' }),
+          sources.length
+            ? h('ul', {}, sources.map((source) => h('li', {},
+              extLink(source.url, source.label), '，', source.description)))
+            : h('p', { class: 'pa-dir-muted', text: '待補可核對此人的公開來源。' })),
+        portrait ? h('p', { class: 'pa-dir-entry-source' },
+          extLink(portrait.source_url, '照片來源'), '，', portrait.credit) : null,
+        SOURCE_URL ? h('p', { class: 'pa-dir-entry-source' }, extLink(SOURCE_URL, '原站名單')) : null));
   }
 
   function renderSearch(query) {
@@ -712,12 +691,6 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
         h('li', { text: `${unlocated.length} 筆尚未加入地圖，可在「尚未定位」查看。` }),
         h('li', { text: `已有 ${sourcedCount} / ${entries.length} 筆附學術單位查核來源。每則來源的查核範圍見連結說明。` }),
         h('li', { text: '同名署名者分開列出，不合併。' })));
-  }
-
-  function stat(label, value, unit) {
-    return h('div', { class: 'pa-dir-stat' },
-      h('dt', { text: label }),
-      h('dd', {}, h('strong', { text: value.toLocaleString('zh-TW') }), unit));
   }
 
   render();

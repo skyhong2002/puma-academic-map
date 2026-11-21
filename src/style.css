@@ -151,10 +151,12 @@ a {
 
 .masthead {
   display: grid;
-  gap: 14px;
-  max-width: 1560px;
+  align-items: center;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px 12px;
+  max-width: 1760px;
   margin: 0 auto;
-  padding: 20px var(--gutter) 14px;
+  padding: 12px var(--gutter);
 }
 
 .masthead__brand {
@@ -166,7 +168,7 @@ a {
 
 .masthead__logo {
   display: block;
-  width: clamp(56px, 8vw, 116px);
+  width: clamp(48px, 5vw, 76px);
   height: auto;
   border-radius: 8px;
 }
@@ -182,7 +184,7 @@ a {
 .masthead__title {
   margin: 0;
   font-family: var(--serif);
-  font-size: clamp(1.625rem, 1.2rem + 2vw, 2.5rem);
+  font-size: clamp(1.25rem, 1rem + 1.6vw, 2.125rem);
   font-weight: 900;
   line-height: 1.2;
   letter-spacing: 0.01em;
@@ -190,7 +192,7 @@ a {
 
 .masthead__lede {
   max-width: 38em;
-  margin: 8px 0 0;
+  margin: 3px 0 0;
   color: var(--ink-soft);
   font-size: 0.9375rem;
 }
@@ -199,8 +201,8 @@ a {
   display: inline-flex;
   align-items: center;
   min-height: 44px;
-  margin-top: 12px;
-  padding: 0 14px;
+  justify-self: start;
+  padding: 0 12px;
   border-radius: 999px;
   border: 1px solid var(--accent);
   background: var(--accent-wash);
@@ -215,6 +217,7 @@ a {
 }
 
 .masthead__stats {
+  grid-column: 1 / -1;
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 0;
@@ -226,7 +229,7 @@ a {
 .stat {
   display: flex;
   flex-direction: column;
-  padding: 8px 0 8px 10px;
+  padding: 5px 0 5px 10px;
   border-left: 1px solid var(--rule);
 }
 
@@ -255,10 +258,9 @@ a {
 .layout {
   display: grid;
   gap: 18px;
-  max-width: 1560px;
+  max-width: 1760px;
   margin: 0 auto;
   padding: 0 var(--gutter) 28px;
-  /* 名錄橫向捲動列裡的報讀用隱藏文字是絕對定位，會撐出整頁橫向捲軸；在這裡截掉。 */
   overflow-x: clip;
 }
 
@@ -752,7 +754,7 @@ path.bin-4 { fill: var(--bin-4); }
 /* ---------- Colophon ---------- */
 
 .colophon {
-  max-width: 1560px;
+  max-width: 1760px;
   margin: 0 auto;
   padding: 16px var(--gutter) max(28px, env(safe-area-inset-bottom));
   border-top: 1px solid var(--rule);
@@ -814,10 +816,7 @@ path.bin-4 { fill: var(--bin-4); }
 
   .masthead {
     grid-template-columns: minmax(0, 1fr) auto;
-    align-items: end;
-    gap: 32px;
-    padding-top: 28px;
-    padding-bottom: 18px;
+    gap: 10px 20px;
   }
 
   .masthead__stats {
@@ -825,7 +824,7 @@ path.bin-4 { fill: var(--bin-4); }
   }
 
   .stat {
-    padding: 10px 22px 10px 18px;
+    padding: 6px 14px;
   }
 
   .stat:last-child {
@@ -865,14 +864,6 @@ path.bin-4 { fill: var(--bin-4); }
     width: 36px;
   }
 
-  /* 空間夠就全部攤開，不必橫滑 */
-  .rail__list {
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 2px 0 0;
-    overflow: visible;
-  }
-
   .chip {
     min-height: 36px;
   }
@@ -882,16 +873,16 @@ path.bin-4 { fill: var(--bin-4); }
 
 @media (min-width: 1040px) {
   .layout {
-    grid-template-columns: minmax(0, 11fr) minmax(0, 12fr);
+    grid-template-columns: minmax(0, 11fr) minmax(0, 9fr);
     align-items: start;
-    gap: 28px;
+    gap: 18px;
   }
 
   .atlas-column {
     position: sticky;
     top: 16px;
-    height: calc(100svh - 32px);
-    min-height: 560px;
+    height: calc(100svh - 112px);
+    min-height: 490px;
   }
 
   .atlas {
@@ -902,6 +893,12 @@ path.bin-4 { fill: var(--bin-4); }
 
   .rail {
     flex: none;
+  }
+
+  .rail__list {
+    margin: 0;
+    padding-inline: 2px;
+    scrollbar-width: thin;
   }
 
   .cue__jump {
@@ -1088,4 +1085,13 @@ path.bin-4 { fill: var(--bin-4); }
   height: 26px;
   border-radius: 50%;
   object-fit: cover;
+}
+
+@media (max-width: 719px) {
+  .masthead__brand { grid-column: 1 / -1; }
+}
+
+@media (min-width: 1040px) {
+  .masthead { grid-template-columns: minmax(0, 1fr) auto auto; }
+  .masthead__stats { grid-column: auto; }
 }
