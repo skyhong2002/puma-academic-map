@@ -8,10 +8,10 @@ const formats = [
   { label: '限時動態', ratio: '9:16', width: 1080, height: 1920, top: 210, bottom: 240 },
 ];
 const source = new URL(roster.source_url);
-const sourcePath = source.hostname + source.pathname;
+const dateFormat = new Intl.DateTimeFormat('zh-TW', { dateStyle: 'medium', timeZone: 'Asia/Taipei' });
 const palette = {
   paper: '#fff7ed', card: '#fffdf9', accent: '#df7e2c', soft: '#ffdfc4', ring: '#de935b3d',
-  ink: '#3d2114', deep: '#72340f', muted: '#7d4a28', speak: '#c9602c',
+  ink: '#3d2114', deep: '#72340f', speak: '#c9602c',
 };
 
 const font = '"PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif';
@@ -323,28 +323,23 @@ function drawMessage(ctx, body, x, y, width, height, maxSize, layout = messageLa
   lines.forEach((line, index) => ctx.fillText(line, textLeft, textTop + index * lineHeight));
 }
 
-function drawSource(ctx, right, bottom) {
-  const lineBreak = sourcePath.lastIndexOf('/', sourcePath.length - 2) + 1;
-  const lines = [sourcePath.slice(0, lineBreak), sourcePath.slice(lineBreak)];
+function drawFooter(ctx, symbol, right, qrTop, qrSize, date) {
+  const qrLeft = right - qrSize;
+  drawQr(ctx, symbol, qrLeft, qrTop, qrSize);
+  const labelRight = qrLeft - 24;
+  const center = qrTop + qrSize / 2;
   ctx.textAlign = 'right';
   ctx.fillStyle = palette.deep;
-  ctx.font = '500 19px sans-serif';
-  lines.forEach((line, index) => ctx.fillText(line, right, bottom - 24 - (lines.length - 1 - index) * 26));
-  ctx.font = `600 22px ${font}`;
-  ctx.fillText('原始聯署網站', right, bottom - 31 - lines.length * 26);
+  ctx.font = `700 29px ${font}`;
+  ctx.fillText('掃碼前往人物留言板', labelRight, center - (date ? 40 : 16));
+  if (date) {
+    ctx.font = `500 22px ${font}`;
+    ctx.fillText(`留言於 ${date}`, labelRight, center + 8);
+  }
   ctx.textAlign = 'left';
-  ctx.font = '500 19px sans-serif';
-  return Math.max(...lines.map((line) => ctx.measureText(line).width));
 }
 
-function drawCredit(ctx, credit, x, bottom, textWidth) {
-  if (!credit) return 0;
-  const text = block(ctx, `照片：${credit}`, textWidth, 500, 1.4, [[3, 16], [4, 15], [6, 14], [9, 14], [11, 13]]);
-  fillBlock(ctx, text, x, bottom - text.height, palette.muted);
-  return text.height;
-}
-
-function draw(canvas, person, place, body, format, { logo, portrait, symbol }) {
+function draw(canvas, person, place, body, date, format, { logo, portrait, symbol }) {
   const ctx = canvas.getContext('2d');
   if (!ctx) throw new Error('Canvas unavailable');
   const { width, height, top, bottom } = format;
@@ -378,14 +373,7 @@ function draw(canvas, person, place, body, format, { logo, portrait, symbol }) {
     const content = pane + 48;
     const right = width - 64;
     drawBrand(ctx, logo, content, 56);
-    drawQr(ctx, symbol, right - qrSize, qrTop, qrSize);
-    const captionRight = right - qrSize - 24;
-    ctx.textAlign = 'right';
-    ctx.fillStyle = palette.deep;
-    ctx.font = `700 29px ${font}`;
-    ctx.fillText('掃碼前往人物留言板', captionRight, qrTop + 6);
-    drawSource(ctx, captionRight, edge);
-    if (size >= 140) drawCredit(ctx, person.portrait.credit, left, edge, textWidth);
+    drawFooter(ctx, symbol, right, qrTop, qrSize, date);
     const cardTop = 168;
     drawMessage(ctx, body, content, cardTop, right - content, qrTop - 30 - cardTop, 88);
     return;
@@ -420,19 +408,14 @@ function draw(canvas, person, place, body, format, { logo, portrait, symbol }) {
 
   ctx.fillStyle = palette.soft;
   ctx.fillRect(0, qrTop - 32, width, height - qrTop + 32);
-  drawQr(ctx, symbol, right - qrSize, qrTop, qrSize);
-  const captionRight = right - qrSize - 24;
-  ctx.textAlign = 'right';
-  ctx.fillStyle = palette.deep;
-  ctx.font = `700 29px ${font}`;
-  ctx.fillText('掃碼前往人物留言板', captionRight, qrTop + 6);
-  const sourceWidth = drawSource(ctx, captionRight, edge);
-  drawCredit(ctx, size && person.portrait.credit, left, edge, captionRight - sourceWidth - 40 - left);
+  drawFooter(ctx, symbol, right, qrTop, qrSize, date);
   drawMessage(ctx, body, left, paneBottom + 36, right - left, qrTop - 32 - 36 - paneBottom - 36, 80, message);
 }
 
-export function openCommentShareCard(parent, person, point, body, boardId, focusTarget) {
+export function openCommentShareCard(parent, person, point, comment, boardId, focusTarget) {
   const { name } = person;
+  const { body, createdAt } = comment;
+  const date = Number.isFinite(createdAt) ? dateFormat.format(createdAt) : '';
   const place = placeText(person, point);
   const dialog = document.createElement('dialog');
   dialog.className = 'comment-share';
@@ -458,7 +441,7 @@ export function openCommentShareCard(parent, person, point, body, boardId, focus
   hint.textContent = `分享你對${name}說的話。`;
   const canvas = document.createElement('canvas');
   canvas.setAttribute('role', 'img');
-  canvas.setAttribute('aria-label', `我想對${name}（${[person.affiliation_text, ...place].join('，')}）說：${body}`);
+  canvas.setAttribute('aria-label', `我想對${name}（${[person.affiliation_text, ...place, date].filter(Boolean).join('，')}）說：${body}`);
   const preview = document.createElement('div');
   preview.className = 'comment-share__preview';
   preview.append(canvas);
@@ -567,7 +550,7 @@ export function openCommentShareCard(parent, person, point, body, boardId, focus
       if (version !== requested || !dialog.open) return;
       canvas.width = format.width;
       canvas.height = format.height;
-      draw(canvas, person, place, body, format, art);
+      draw(canvas, person, place, body, date, format, art);
       canvas.toBlob((blob) => {
         if (version !== requested || !dialog.open) return;
         if (!blob) {

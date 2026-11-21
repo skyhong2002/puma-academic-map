@@ -200,7 +200,7 @@ export function personComments(person, point) {
         }
       });
     });
-    const share = button('分享字卡', () => openCommentShareCard(section, person, point, comment.body, boardId, share));
+    const share = button('分享字卡', () => openCommentShareCard(section, person, point, comment, boardId, share));
     actions.append(change, share);
     item.append(actions, feedback);
     return item;
@@ -270,7 +270,7 @@ export function personComments(person, point) {
       const hasFocus = form.contains(document.activeElement) || document.activeElement === document.body;
       if (hasFocus && section.getClientRects().length) {
         status.textContent = '';
-        openCommentShareCard(section, person, point, comment.body, boardId, input);
+        openCommentShareCard(section, person, point, comment, boardId, input);
       } else status.textContent = '留言已公開。';
     } catch (error) {
       status.textContent = errorText(error);
