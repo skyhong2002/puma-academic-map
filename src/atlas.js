@@ -8,6 +8,7 @@ const catalog = Object.values(import.meta.glob('../data/institutions/*.json', { 
 const START = [[21.87, 119.65], [25.35, 122.12]];
 const CAMPUS_ZOOM = 14;
 const UNIT_ZOOM = 17;
+const CAMPUS_PEOPLE_ZOOM = 20;
 const PREVIEW_LIMIT = 4;
 const PERSON_HEIGHT = 34;
 const PERSON_GAP = 4;
@@ -83,11 +84,12 @@ function addEmblem(item, institution) {
 }
 
 export function createAtlas(container, people, { onCampus, onPerson }) {
-  const map = L.map(container, { minZoom: 2, maxZoom: 19, zoomControl: false, worldCopyJump: true });
+  const map = L.map(container, { minZoom: 2, maxZoom: CAMPUS_PEOPLE_ZOOM, zoomControl: false, worldCopyJump: true });
   L.control.zoom({ position: 'bottomright', zoomInTitle: '放大', zoomOutTitle: '縮小' }).addTo(map);
   L.control.scale({ position: 'bottomleft', imperial: false }).addTo(map);
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
+    maxNativeZoom: 19,
+    maxZoom: CAMPUS_PEOPLE_ZOOM,
     attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
   }).addTo(map);
   const groups = campusGroups(people);
@@ -182,14 +184,14 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
     const columns = size.x < 540 ? 3 : 4;
     const step = map.getZoom() < UNIT_ZOOM ? 82 : map.getZoom() === UNIT_ZOOM ? 54 : 90;
     const groups = [];
-    for (const { anchor, members, campus = false } of buildings) {
+    for (const { anchor, members, campus = false, offsetY = campus ? 0 : 35 } of buildings) {
       const center = map.latLngToContainerPoint(anchor);
       const pins = [];
       members.forEach(({ person, point }, index) => {
         const row = Math.floor(index / columns);
         const rowSize = Math.min(columns, members.length - row * columns);
         const x = center.x + (index % columns - (rowSize - 1) / 2) * step;
-        const y = center.y + (campus ? 0 : 35) + row * (PERSON_HEIGHT + PERSON_GAP);
+        const y = center.y + offsetY + row * (PERSON_HEIGHT + PERSON_GAP);
         const box = { left: x - PERSON_HEIGHT / 2, right: x + PERSON_HEIGHT / 2,
           top: y - PERSON_HEIGHT / 2, bottom: y + PERSON_HEIGHT / 2 };
         for (let offset = 1; !hasRoom(box, occupied); offset += 1) {
@@ -215,30 +217,71 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
         fullName.setAttribute('aria-hidden', 'true');
         fullName.textContent = person.name;
         pin.append(fullName);
-        cards.addLayer(L.marker(position, {
+        const marker = L.marker(position, {
           icon: L.divIcon({ html: pin, className: 'atlas-person-marker', iconSize: [0, 0] }),
           interactive: false, keyboard: false, zIndexOffset: 300,
-        }));
-        pins.push({ pin, fullName, box, x, portrait: Boolean(person.portrait) });
+        });
+        cards.addLayer(marker);
+        pins.push({ pin, marker, fullName, box, x, portrait: Boolean(person.portrait) });
       });
-      groups.push(pins);
+      groups.push({ pins, center, offsetY });
     }
-    const layouts = groups.map((pins) => ({
-      pins,
-      expanded: pins.map(({ fullName, x, box, portrait }) => {
+    const layouts = groups.map((group) => ({
+      ...group,
+      expanded: group.pins.map(({ fullName, x, box, portrait }) => {
         const extraWidth = portrait ? 43 : 16;
         const half = Math.max(PERSON_HEIGHT, Math.ceil(fullName.getBoundingClientRect().width) + extraWidth) / 2;
         return { ...box, left: x - half, right: x + half };
       }),
     }));
     // People sharing an anchor switch display modes together.
-    for (const { pins, expanded } of layouts) {
+    for (const { pins, center, offsetY, expanded } of layouts) {
       const compact = new Set(pins.map(({ box }) => box));
       const neighbours = occupied.filter((box) => !compact.has(box));
-      if (!expanded.every((box) => box.left >= 0 && box.right <= size.x &&
-          hasRoom(box, neighbours) && hasRoom(box, expanded, box))) continue;
-      pins.forEach(({ pin, box }, index) => {
-        occupied[occupied.indexOf(box)] = expanded[index];
+      const fits = (boxes) => boxes.every((box) => box.left >= 0 && box.right <= size.x &&
+        hasRoom(box, neighbours) && hasRoom(box, boxes, box));
+      let named = expanded;
+      if (!fits(named) && map.getZoom() > UNIT_ZOOM) {
+        const maxWidth = Math.min(size.x - 16, columns * step);
+        const rows = [];
+        for (const box of expanded) {
+          const width = box.right - box.left;
+          const last = rows.at(-1);
+          if (last && last.widths.length < columns && last.total + PERSON_GAP + width <= maxWidth) {
+            last.widths.push(width);
+            last.total += PERSON_GAP + width;
+          } else rows.push({ widths: [width], total: width });
+        }
+        const rowStep = PERSON_HEIGHT + PERSON_GAP;
+        let top = center.y + offsetY - PERSON_HEIGHT / 2;
+        let skips = 4;
+        named = [];
+        for (const { widths, total } of rows) {
+          let left = Math.max(8, Math.min(center.x - total / 2, size.x - total - 8));
+          const row = widths.map((width) => {
+            const box = { left, right: left + width, top, bottom: top + PERSON_HEIGHT };
+            left = box.right + PERSON_GAP;
+            return box;
+          });
+          while (skips > 0 && row.some((box) => !hasRoom(box, neighbours))) {
+            skips -= 1;
+            top += rowStep;
+            row.forEach((box) => {
+              box.top = top;
+              box.bottom = top + PERSON_HEIGHT;
+            });
+          }
+          named.push(...row);
+          top += rowStep;
+        }
+      }
+      if (!fits(named)) continue;
+      pins.forEach(({ pin, marker, box }, index) => {
+        const target = named[index];
+        occupied[occupied.indexOf(box)] = target;
+        if (named !== expanded) marker.setLatLng(map.containerPointToLatLng([
+          (target.left + target.right) / 2, target.top + PERSON_HEIGHT / 2,
+        ]));
         pin.classList.add('atlas-person-dot--named');
       });
     }
@@ -276,15 +319,26 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
       if (detailed) {
         if (!individualPeople.length) continue;
         const open = () => onCampus({ ...group, people: individualPeople, campusOnly: true });
-        const label = `${groupTitle} · ${individualPeople.length}`;
-        const marker = mapPill(label, 'atlas-campus-fallback', open);
+        const marker = mapPill(groupTitle, 'atlas-campus-fallback', open);
+        const count = document.createElement('span');
+        count.className = 'atlas-campus-fallback__count';
+        count.textContent = `${individualPeople.length} 人`;
+        marker.append(count);
         const emblem = emblemFor(point.institution);
         if (emblem) marker.prepend(emblemImage(emblem));
-        marker.title = `${label}・校區定位`;
+        marker.title = `${groupTitle}・查看 ${individualPeople.length} 位署名者`;
+        marker.setAttribute('aria-label', marker.title);
         cards.addLayer(L.marker(anchor, {
           icon: L.divIcon({ html: marker, className: 'atlas-fallback-marker', iconSize: [0, 0] }),
           interactive: false, keyboard: false,
         }));
+        if (map.getZoom() === CAMPUS_PEOPLE_ZOOM) {
+          individualGroups.push({
+            anchor,
+            offsetY: 59,
+            members: individualPeople.map((person) => ({ person, point })),
+          });
+        }
         continue;
       }
       const width = 196;
@@ -355,6 +409,9 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
   reset();
   return {
     reset,
+    expandCampus(point) {
+      map.setView([point.lat, point.lon], CAMPUS_PEOPLE_ZOOM, { animate: false });
+    },
     reveal(point, leftInset) {
       const at = map.latLngToContainerPoint([point.lat, point.lon]);
       const minimumX = leftInset + Math.min(105, (map.getSize().x - leftInset) / 2);

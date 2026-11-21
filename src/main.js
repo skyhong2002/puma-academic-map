@@ -103,6 +103,17 @@ function showCampus(campus) {
       : '這些署名目前只對應到校區，系館位置仍待查核。';
     details.append(hint);
   }
+  if (campusOnly && people.length) {
+    const expand = document.createElement('button');
+    expand.type = 'button';
+    expand.className = 'map-campus-zoom';
+    expand.textContent = `在地圖展開 ${number.format(people.length)} 人`;
+    expand.addEventListener('click', () => {
+      closePanel({ focusTarget: open });
+      atlas.expandCampus(point);
+    });
+    details.append(expand);
+  }
   if (!people.length) {
     const empty = document.createElement('p');
     empty.textContent = '目前沒有署名資料可確認到這個校區。';
