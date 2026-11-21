@@ -16,14 +16,17 @@
   <body>
     <main class="map-app">
       <header class="map-toolbar">
-        <div id="map-search"></div>
-        <a class="map-toolbar__source" href="https://sites.google.com/view/academic-kouenkai-for-puma/" target="_blank" rel="noopener">連署網站</a>
         <div class="map-toolbar__brand">
           <button type="button" id="atlas-home" aria-label="回到全部署名者頂端">
             <img src="/assets/puma-signature.webp" width="40" height="40" alt="" />
           </button>
           <h1>台北市市長候選人沈伯洋先生學界後援會署名地圖</h1>
         </div>
+        <div id="map-search"></div>
+        <a class="map-toolbar__source" href="https://sites.google.com/view/academic-kouenkai-for-puma/" target="_blank" rel="noopener" aria-label="連署網站">
+          <span class="map-toolbar__source-full">連署網站</span>
+          <span class="map-toolbar__source-short">連署</span>
+        </a>
       </header>
       <aside class="map-panel" id="map-panel" aria-label="名錄與詳細資料" hidden inert>
         <button type="button" id="panel-back" class="map-panel-back" hidden>
@@ -45,7 +48,7 @@
             <button type="button" id="public-comments-more" class="map-campus-zoom" hidden>載入更多留言</button>
           </section>
           <section id="about-map" class="map-detail" hidden>
-            <h2 tabindex="-1">關於署名地圖</h2>
+            <h2 tabindex="-1">台北市市長候選人沈伯洋先生學界後援會署名地圖</h2>
             <p>查看支持沈伯洋的學術界公開署名與機構。</p>
             <p id="map-totals"></p>
             <p>放大可看到已查核的系館，點選姓名可查看署名詳情。進入校區細節後會顯示署名者，空間較窄時以頭貼或姓名第一字顯示。僅有校區座標的署名會收在校區標記。校徽用於辨識地點，署名代表個人意見。</p>

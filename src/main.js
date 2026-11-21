@@ -330,7 +330,12 @@ const directory = mountDirectory(directoryElement, {
 const homeDirectory = directory.snapshot();
 directoryElement.querySelector('h2').tabIndex = -1;
 directory.geoList.closest('nav').hidden = true;
-directory.searchInput.placeholder = '搜尋姓名、機構或系所';
+const compactSearch = matchMedia('(width < 360px)');
+function updateSearchPlaceholder() {
+  directory.searchInput.placeholder = compactSearch.matches ? '找人、機構或系所' : '搜尋姓名、機構或系所';
+}
+compactSearch.addEventListener('change', updateSearchPlaceholder);
+updateSearchPlaceholder();
 $('map-search').append(directory.searchForm);
 panelToggle.addEventListener('click', (event) => {
   if (event.detail && suppressHandleClick) return;
