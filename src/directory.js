@@ -1,6 +1,7 @@
 // 縣市 → 機構 → 校區目錄，以及公開署名搜尋。
 // 只讀 data/*.json；所有文字以 textContent 寫入，不使用 innerHTML。
 import './directory.css';
+import { findUnits } from './unit-locations.js';
 import roster from '../data/signatories.json';
 import { affiliationSources, isTaiwan, people, portraitFor } from './person-data.js';
 const institutionFiles = import.meta.glob('../data/institutions/*.json', { eager: true, import: 'default' });
@@ -203,7 +204,7 @@ function countBadge(count, unit) {
 
 // ---------- 主元件 ----------
 
-export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
+export function mountDirectory(element, { onSelectCounty, onLocate, onLocateUnit } = {}) {
   if (!element) throw new Error('mountDirectory 需要容器元素');
   const uid = `pa-dir-${Math.random().toString(36).slice(2, 8)}`;
   const state = {
@@ -630,13 +631,24 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
     const people = [...nameHits, ...textHits];
     const shownPeople = people.slice(0, state.searchLimit);
 
-    const total = instHits.length + countyHits.length + people.length;
-    const nodes = [viewTitle(`「${query}」的搜尋結果`, total ? `${countyHits.length} 個縣市、${instHits.length} 所機構、${people.length} 筆署名` : null)];
+    const unitHits = findUnits(query);
+    const total = unitHits.length + instHits.length + countyHits.length + people.length;
+    const nodes = [viewTitle(`「${query}」的搜尋結果`, total ? `${unitHits.length} 個系所、${countyHits.length} 個縣市、${instHits.length} 所機構、${people.length} 筆署名` : null)];
 
     if (!total) {
       nodes.push(h('div', { class: 'pa-dir-empty' },
-        h('p', { text: '找不到符合的縣市、機構或署名。' }),
+        h('p', { text: '找不到符合的縣市、機構、系所或署名。' }),
         h('p', { class: 'pa-dir-muted', text: '可試著只輸入姓名的一部分，或改用機構簡稱（例如「臺大」「中研院」）。' })));
+    }
+
+    if (unitHits.length) {
+      nodes.push(h('section', { class: 'pa-dir-section', 'aria-label': '已查核位置的系所' },
+        h('h4', { text: '已查核位置的系所' }),
+        h('ul', { class: 'pa-dir-results', role: 'list' }, unitHits.map((point) => h('li', {},
+          h('button', { type: 'button', class: 'pa-dir-result', dataset: { result: '' },
+            onClick: () => onLocateUnit?.(point) },
+            h('span', { class: 'pa-dir-result-name', text: point.unit }),
+            h('span', { class: 'pa-dir-muted', text: `${point.institution}・${point.building}` })))))));
     }
 
     if (countyHits.length) {
@@ -695,7 +707,7 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
     }
 
     main.replaceChildren(...nodes);
-    live.textContent = total ? `找到 ${countyHits.length} 個縣市、${instHits.length} 所機構、${people.length} 筆署名` : '沒有符合的結果';
+    live.textContent = total ? `找到 ${unitHits.length} 個系所、${countyHits.length} 個縣市、${instHits.length} 所機構、${people.length} 筆署名` : '沒有符合的結果';
   }
 
   function coverageNote() {

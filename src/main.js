@@ -1,3 +1,4 @@
+import { locatedUnit } from './unit-locations.js';
 import roster from '../data/signatories.json';
 import { createAtlas } from './atlas.js';
 import { mountDirectory } from './directory.js';
@@ -46,7 +47,7 @@ function detailTitle(text) {
 
 function showCampus(campus) {
   activeCampus = campus;
-  const { point, people, unit } = campus;
+  const { point, people, unit, campusOnly } = campus;
   const school = [point.institution, point.campus].filter(Boolean).join('・');
   const title = detailTitle(unit ?? school);
   const sub = document.createElement('p');
@@ -57,7 +58,7 @@ function showCampus(campus) {
     const item = document.createElement('li');
     const button = document.createElement('button');
     button.type = 'button';
-    button.addEventListener('click', () => showPerson(person, point, campus));
+    button.addEventListener('click', () => showPerson(person, unit ? locatedUnit(person, point) ?? point : point, campus));
     if (person.portrait) {
       const image = document.createElement('img');
       image.src = person.portrait.image;
@@ -74,9 +75,11 @@ function showCampus(campus) {
     members.append(item);
   }
   details.replaceChildren(title, sub);
-  if (unit) {
+  if (unit || (campusOnly && people.length)) {
     const hint = document.createElement('p');
-    hint.textContent = '系所標記依校區座標示意排列。';
+    hint.textContent = unit
+      ? `${point.building}。人員標記以系館為依據，並在圖上錯開，方便點選。`
+      : '這些署名目前只對應到校區，系館位置仍待查核。';
     details.append(hint);
   }
   if (!people.length) {
@@ -92,7 +95,7 @@ function showCampus(campus) {
   if (point.address_source_url) {
     const link = document.createElement('a');
     link.href = point.address_source_url;
-    link.textContent = '校方校區資料';
+    link.textContent = unit ? '系所位置來源' : '校方校區資料';
     link.target = '_blank';
     link.rel = 'noopener';
     details.append(link);
@@ -121,12 +124,18 @@ function showPerson(person, point, campus = null) {
 
 const atlas = createAtlas($('map'), people, { onCampus: showCampus, onPerson: showPerson });
 const directory = mountDirectory(directoryElement, {
+  onLocateUnit(point) {
+    showCampus({ point, unit: point.unit, people: atlas.peopleAt(point) });
+    const inset = matchMedia('(min-width: 600px)').matches ? panel.getBoundingClientRect().right / 2 : 0;
+    atlas.locate(point, inset);
+  },
   onLocate(entry, point) {
     const person = people.find((person) => person.section === entry.section && person.raw === entry.raw);
     if (!person) return;
-    showPerson(person, point);
+    const location = locatedUnit(person, point) ?? point;
+    showPerson(person, location);
     const offset = matchMedia('(min-width: 600px)').matches ? panel.getBoundingClientRect().right / 2 : 0;
-    atlas.locate(point, offset);
+    atlas.locate(location, offset);
   },
 });
 directory.geoList.closest('nav').hidden = true;

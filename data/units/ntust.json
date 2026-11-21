@@ -1,0 +1,208 @@
+{
+  "institution": "國立臺灣科技大學",
+  "units": {
+    "化學工程系": {
+      "lat": 25.01253,
+      "lon": 121.540717,
+      "building": "工程二館",
+      "source_url": "https://www.openstreetmap.org/way/646382066",
+      "address_source_url": "https://ch-r.ntust.edu.tw/"
+    },
+    "化工系": {
+      "lat": 25.01253,
+      "lon": 121.540717,
+      "building": "工程二館",
+      "source_url": "https://www.openstreetmap.org/way/646382066",
+      "address_source_url": "https://ch-r.ntust.edu.tw/"
+    },
+    "營建工程系": {
+      "lat": 25.01253,
+      "lon": 121.540717,
+      "building": "工程二館",
+      "source_url": "https://www.openstreetmap.org/way/646382066",
+      "address_source_url": "https://www.ntust.edu.tw/p/404-1000-88778.php?Lang=zh-tw"
+    },
+    "電機工程系": {
+      "lat": 25.011894,
+      "lon": 121.541375,
+      "building": "電資館",
+      "source_url": "https://www.openstreetmap.org/way/646382060",
+      "address_source_url": "https://www.ee.ntust.edu.tw/p/412-1027-3232.php?Lang=zh-tw"
+    },
+    "電機系": {
+      "lat": 25.011894,
+      "lon": 121.541375,
+      "building": "電資館",
+      "source_url": "https://www.openstreetmap.org/way/646382060",
+      "address_source_url": "https://www.ee.ntust.edu.tw/p/412-1027-3232.php?Lang=zh-tw"
+    },
+    "電子工程系": {
+      "lat": 25.011894,
+      "lon": 121.541375,
+      "building": "電資館",
+      "source_url": "https://www.openstreetmap.org/way/646382060",
+      "address_source_url": "https://ece.ntust.edu.tw/"
+    },
+    "電子系": {
+      "lat": 25.011894,
+      "lon": 121.541375,
+      "building": "電資館",
+      "source_url": "https://www.openstreetmap.org/way/646382060",
+      "address_source_url": "https://ece.ntust.edu.tw/"
+    },
+    "光電工程研究所": {
+      "lat": 25.011894,
+      "lon": 121.541375,
+      "building": "電資館",
+      "source_url": "https://www.openstreetmap.org/way/646382060",
+      "address_source_url": "https://www.ntust.edu.tw/p/404-1000-88778.php?Lang=zh-tw"
+    },
+    "全球發展工程學士學位學程": {
+      "lat": 25.01435,
+      "lon": 121.541776,
+      "building": "第一教學大樓",
+      "source_url": "https://www.openstreetmap.org/way/323467348",
+      "address_source_url": "https://gdep.ntust.edu.tw/"
+    },
+    "自動化及控制研究所": {
+      "lat": 25.01435,
+      "lon": 121.541776,
+      "building": "第一教學大樓",
+      "source_url": "https://www.openstreetmap.org/way/323467348",
+      "address_source_url": "https://www.ntust.edu.tw/p/404-1000-88778.php?Lang=zh-tw"
+    },
+    "跨域創新暨國際華語中心": {
+      "lat": 25.013876,
+      "lon": 121.541773,
+      "building": "第四教學大樓",
+      "source_url": "https://www.openstreetmap.org/way/323467350",
+      "address_source_url": "https://www.doh.ntust.edu.tw/"
+    },
+    "應用外語系": {
+      "lat": 25.013876,
+      "lon": 121.541773,
+      "building": "第四教學大樓",
+      "source_url": "https://www.openstreetmap.org/way/323467350",
+      "address_source_url": "https://www.ntust.edu.tw/p/404-1000-88778.php?Lang=zh-tw"
+    },
+    "數位學習與教育研究所": {
+      "lat": 25.013876,
+      "lon": 121.541773,
+      "building": "第四教學大樓",
+      "source_url": "https://www.openstreetmap.org/way/323467350",
+      "address_source_url": "https://www.ntust.edu.tw/p/404-1000-88778.php?Lang=zh-tw"
+    },
+    "人文社會學科": {
+      "lat": 25.013876,
+      "lon": 121.541773,
+      "building": "第四教學大樓",
+      "source_url": "https://www.openstreetmap.org/way/323467350",
+      "address_source_url": "https://www.ntust.edu.tw/p/404-1000-88778.php?Lang=zh-tw"
+    },
+    "師資培育中心": {
+      "lat": 25.013876,
+      "lon": 121.541773,
+      "building": "第四教學大樓",
+      "source_url": "https://www.openstreetmap.org/way/323467350",
+      "address_source_url": "https://www.ntust.edu.tw/p/404-1000-88778.php?Lang=zh-tw"
+    },
+    "機械工程系": {
+      "lat": 25.013362,
+      "lon": 121.542138,
+      "building": "工程一館",
+      "source_url": "https://www.openstreetmap.org/way/323467344",
+      "address_source_url": "https://www.ntust.edu.tw/p/404-1000-88778.php?Lang=zh-tw"
+    },
+    "機械系": {
+      "lat": 25.013362,
+      "lon": 121.542138,
+      "building": "工程一館",
+      "source_url": "https://www.openstreetmap.org/way/323467344",
+      "address_source_url": "https://www.ntust.edu.tw/p/404-1000-88778.php?Lang=zh-tw"
+    },
+    "材料科學與工程系": {
+      "lat": 25.013362,
+      "lon": 121.542138,
+      "building": "工程一館",
+      "source_url": "https://www.openstreetmap.org/way/323467344",
+      "address_source_url": "https://www.ntust.edu.tw/p/404-1000-88778.php?Lang=zh-tw"
+    },
+    "材料系": {
+      "lat": 25.013362,
+      "lon": 121.542138,
+      "building": "工程一館",
+      "source_url": "https://www.openstreetmap.org/way/323467344",
+      "address_source_url": "https://www.ntust.edu.tw/p/404-1000-88778.php?Lang=zh-tw"
+    },
+    "工業管理系": {
+      "lat": 25.012392,
+      "lon": 121.541258,
+      "building": "管理大樓",
+      "source_url": "https://www.openstreetmap.org/way/646382062",
+      "address_source_url": "https://www.ntust.edu.tw/p/404-1000-88778.php?Lang=zh-tw"
+    },
+    "企業管理系": {
+      "lat": 25.012392,
+      "lon": 121.541258,
+      "building": "管理大樓",
+      "source_url": "https://www.openstreetmap.org/way/646382062",
+      "address_source_url": "https://www.ntust.edu.tw/p/404-1000-88778.php?Lang=zh-tw"
+    },
+    "資訊管理系": {
+      "lat": 25.012392,
+      "lon": 121.541258,
+      "building": "管理大樓",
+      "source_url": "https://www.openstreetmap.org/way/646382062",
+      "address_source_url": "https://www.ntust.edu.tw/p/404-1000-88778.php?Lang=zh-tw"
+    },
+    "管理研究所": {
+      "lat": 25.012392,
+      "lon": 121.541258,
+      "building": "管理大樓",
+      "source_url": "https://www.openstreetmap.org/way/646382062",
+      "address_source_url": "https://www.ntust.edu.tw/p/404-1000-88778.php?Lang=zh-tw"
+    },
+    "建築系": {
+      "lat": 25.014228,
+      "lon": 121.541396,
+      "building": "綜合研究大樓",
+      "source_url": "https://www.openstreetmap.org/way/646301762",
+      "address_source_url": "https://www.ntust.edu.tw/p/404-1000-88778.php?Lang=zh-tw"
+    },
+    "設計系": {
+      "lat": 25.014228,
+      "lon": 121.541396,
+      "building": "綜合研究大樓",
+      "source_url": "https://www.openstreetmap.org/way/646301762",
+      "address_source_url": "https://www.ntust.edu.tw/p/404-1000-88778.php?Lang=zh-tw"
+    },
+    "電資學院": {
+      "lat": 25.01208,
+      "lon": 121.540897,
+      "building": "第二教學大樓",
+      "source_url": "https://www.openstreetmap.org/way/646382069",
+      "address_source_url": "https://www.ceecs.ntust.edu.tw/"
+    },
+    "應用科技研究所": {
+      "lat": 25.015046,
+      "lon": 121.542797,
+      "building": "研揚大樓",
+      "source_url": "https://www.openstreetmap.org/way/646293060",
+      "address_source_url": "https://www.ntust.edu.tw/p/404-1000-88778.php?Lang=zh-tw"
+    },
+    "醫學工程研究所": {
+      "lat": 25.015046,
+      "lon": 121.542797,
+      "building": "研揚大樓",
+      "source_url": "https://www.openstreetmap.org/way/646293060",
+      "address_source_url": "https://www.ntust.edu.tw/p/404-1000-88778.php?Lang=zh-tw"
+    },
+    "色彩與照明科技研究所": {
+      "lat": 25.01304,
+      "lon": 121.540246,
+      "building": "國際大樓",
+      "source_url": "https://www.openstreetmap.org/way/249701078",
+      "address_source_url": "https://color.ntust.edu.tw/p/412-1011-8.php?Lang=zh-tw"
+    }
+  }
+}

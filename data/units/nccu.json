@@ -1,0 +1,369 @@
+{
+  "institution": "國立政治大學",
+  "units": {
+    "臺灣史研究所": {
+      "lat": 24.9812422,
+      "lon": 121.5731201,
+      "building": "季陶樓",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://taiwan.nccu.edu.tw/PageDoc/Detail?fid=2529&id=579",
+      "aliases": [
+        "台灣史研究所",
+        "台史所",
+        "臺史所"
+      ]
+    },
+    "臺灣文學研究所": {
+      "lat": 24.9816309,
+      "lon": 121.5737908,
+      "building": "百年樓",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://tailit.nccu.edu.tw/PageDoc/Detail?fid=1961&id=650",
+      "aliases": [
+        "台灣文學研究所",
+        "台文所",
+        "臺文所"
+      ]
+    },
+    "歷史學系": {
+      "lat": 24.9812422,
+      "lon": 121.5731201,
+      "building": "季陶樓",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://archive.lib.nccu.edu.tw/p/405-1003-3685%2Cc231.php?Lang=zh-tw",
+      "aliases": [
+        "歷史系",
+        "歴史系"
+      ]
+    },
+    "英國語文學系": {
+      "lat": 24.9812422,
+      "lon": 121.5731201,
+      "building": "季陶樓",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "aliases": [
+        "英語文學系",
+        "英文系",
+        "英文學系"
+      ]
+    },
+    "日本語文學系": {
+      "lat": 24.9812422,
+      "lon": 121.5731201,
+      "building": "季陶樓",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "aliases": [
+        "日文系"
+      ]
+    },
+    "宗教研究所": {
+      "lat": 24.9816309,
+      "lon": 121.5737908,
+      "building": "百年樓",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/"
+    },
+    "中國文學系": {
+      "lat": 24.9816309,
+      "lon": 121.5737908,
+      "building": "百年樓",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "aliases": [
+        "中文系"
+      ]
+    },
+    "哲學系": {
+      "lat": 24.9816309,
+      "lon": 121.5737908,
+      "building": "百年樓",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "aliases": [
+        "哲學學系"
+      ]
+    },
+    "圖書資訊與檔案學研究所": {
+      "lat": 24.9816309,
+      "lon": 121.5737908,
+      "building": "百年樓",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "aliases": [
+        "圖書資訊與檔案研究所"
+      ]
+    },
+    "資訊科學系": {
+      "lat": 24.9871535,
+      "lon": 121.5735101,
+      "building": "大仁樓",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "aliases": [
+        "資科系"
+      ]
+    },
+    "心理學系": {
+      "lat": 24.9869371,
+      "lon": 121.575664,
+      "building": "果夫樓",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://psy.nccu.edu.tw/PageDoc/Detail?fid=2888&id=774",
+      "aliases": [
+        "心理系"
+      ]
+    },
+    "應用數學系": {
+      "lat": 24.9869371,
+      "lon": 121.575664,
+      "building": "果夫樓",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "aliases": [
+        "應數系"
+      ]
+    },
+    "應用物理研究所": {
+      "lat": 24.9868447,
+      "lon": 121.5761703,
+      "building": "志希樓",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "aliases": [
+        "應物所"
+      ]
+    },
+    "教育學院": {
+      "lat": 24.9856343,
+      "lon": 121.5784048,
+      "building": "井塘樓",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/"
+    },
+    "幼兒教育研究所": {
+      "lat": 24.9856343,
+      "lon": 121.5784048,
+      "building": "井塘樓",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "aliases": [
+        "幼教所"
+      ]
+    },
+    "教育學程中心": {
+      "lat": 24.9856343,
+      "lon": 121.5784048,
+      "building": "井塘樓",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/"
+    },
+    "創新國際學院": {
+      "lat": 24.9810014,
+      "lon": 121.5723515,
+      "building": "國際大樓",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "aliases": [
+        "國際創新學院"
+      ]
+    },
+    "傳播學院": {
+      "lat": 24.98301,
+      "lon": 121.5743578,
+      "building": "傳播學院",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/"
+    },
+    "新聞學系": {
+      "lat": 24.9869942,
+      "lon": 121.5742495,
+      "building": "新聞館",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "aliases": [
+        "新聞系"
+      ]
+    },
+    "廣播電視學系": {
+      "lat": 24.9869942,
+      "lon": 121.5742495,
+      "building": "新聞館",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "aliases": [
+        "廣電系",
+        "傳播學院廣電系"
+      ]
+    },
+    "廣告學系": {
+      "lat": 24.9869942,
+      "lon": 121.5742495,
+      "building": "新聞館",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "aliases": [
+        "廣告系"
+      ]
+    },
+    "傳播學士學位學程": {
+      "lat": 24.9869942,
+      "lon": 121.5742495,
+      "building": "新聞館",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/"
+    },
+    "社會科學學院": {
+      "lat": 24.9861654,
+      "lon": 121.5735802,
+      "building": "綜合院館",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://css.nccu.edu.tw/%E9%97%9C%E6%96%BC%E6%9C%AC%E9%99%A2/%E5%9C%B0%E7%90%86%E4%BD%8D%E7%BD%AE/",
+      "aliases": [
+        "社會科學院",
+        "社科院"
+      ]
+    },
+    "國際事務學院": {
+      "lat": 24.9861654,
+      "lon": 121.5735802,
+      "building": "綜合院館",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://ocia.nccu.edu.tw/PageDoc/Detail?fid=4775&id=1957",
+      "aliases": [
+        "國務學院"
+      ]
+    },
+    "東亞研究所": {
+      "lat": 24.9861654,
+      "lon": 121.5735802,
+      "building": "綜合院館",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://eastasia.nccu.edu.tw/",
+      "aliases": [
+        "東亞所"
+      ]
+    },
+    "社會工作研究所": {
+      "lat": 24.9861654,
+      "lon": 121.5735802,
+      "building": "綜合院館",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://socialwork.nccu.edu.tw/PageDoc/Detail?fid=1643&id=747",
+      "aliases": [
+        "社工所"
+      ]
+    },
+    "公共行政學系": {
+      "lat": 24.9861654,
+      "lon": 121.5735802,
+      "building": "綜合院館",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://pa.nccu.edu.tw/PageDoc/Detail?fid=160&id=285",
+      "aliases": [
+        "公共行政系",
+        "公行系"
+      ]
+    },
+    "商學院": {
+      "lat": 24.9867473,
+      "lon": 121.5766418,
+      "building": "商學院",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/"
+    },
+    "法學院": {
+      "lat": 24.9861184,
+      "lon": 121.5773428,
+      "building": "法學院館",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://www.nccu.edu.tw/p/405-1000-18983%2Cc87.php?Lang=zh-tw",
+      "aliases": [
+        "法律學院",
+        "法律學系",
+        "法律系"
+      ]
+    },
+    "社會學系": {
+      "lat": 24.9861654,
+      "lon": 121.5735802,
+      "building": "綜合院館",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://sociology.nccu.edu.tw/",
+      "aliases": [
+        "社會系"
+      ]
+    },
+    "民族學系": {
+      "lat": 24.9861654,
+      "lon": 121.5735802,
+      "building": "綜合院館",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://ethnos.nccu.edu.tw/PageDoc?fid=9607",
+      "aliases": [
+        "民族系"
+      ]
+    },
+    "國家發展研究所": {
+      "lat": 24.9861654,
+      "lon": 121.5735802,
+      "building": "綜合院館",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://gids.nccu.edu.tw/PageDoc/Detail?fid=3529&id=1116",
+      "aliases": [
+        "國發所"
+      ]
+    },
+    "企業管理學系": {
+      "lat": 24.9867473,
+      "lon": 121.5766418,
+      "building": "商學院",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://ba.nccu.edu.tw/zh_tw/introduction/Contacts",
+      "aliases": [
+        "企管系"
+      ]
+    },
+    "財務管理學系": {
+      "lat": 24.9867473,
+      "lon": 121.5766418,
+      "building": "商學院",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://finance.nccu.edu.tw/xhr/announcements/file/69a8fcf46c08db67bae4a28d/115%E7%A2%A9%E5%A3%AB%E7%8F%AD%E5%85%A5%E5%AD%B8%E9%9D%A2%E8%A9%A6%E9%80%9A%E7%9F%A5%E5%96%AE_%E6%94%BF%E5%A4%A7%E8%B2%A1%E7%AE%A1_.pdf",
+      "aliases": [
+        "財管系"
+      ]
+    },
+    "神經科學研究所": {
+      "lat": 24.9875177,
+      "lon": 121.573624,
+      "building": "大智樓",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://in.nccu.edu.tw/PageDoc/Detail?fid=3323&id=989",
+      "aliases": [
+        "神科所"
+      ]
+    },
+    "教育學系": {
+      "lat": 24.9856343,
+      "lon": 121.5784048,
+      "building": "井塘樓",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://edu.nccu.edu.tw/PageDoc/Detail?fid=9756&id=13612",
+      "aliases": [
+        "教育系"
+      ]
+    },
+    "數位內容碩士學位學程": {
+      "lat": 24.98301,
+      "lon": 121.5743578,
+      "building": "傳播學院",
+      "source_url": "https://sgnweb.nccu.edu.tw/mnccuqa/NCCU_MAP-gh-pages/NCCU_MAP-gh-pages/",
+      "address_source_url": "https://dct.nccu.edu.tw/PageDoc/Detail?fid=12798&id=25098",
+      "aliases": [
+        "傳播學院數位內容碩"
+      ]
+    }
+  }
+}

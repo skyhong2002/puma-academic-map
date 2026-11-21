@@ -1,0 +1,586 @@
+{
+  "institution": "國立臺灣大學",
+  "units": {
+    "歷史學系": {
+      "lat": 25.017893092886094,
+      "lon": 121.536792323138,
+      "building": "文學院",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2006&proj=EPSG%3A4326",
+      "address_source_url": "https://history.ntu.edu.tw/web/about/about.jsp?lang=tw"
+    },
+    "數學系": {
+      "lat": 25.021287096421528,
+      "lon": 121.53812914158219,
+      "building": "天文數學館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT1043&proj=EPSG%3A4326",
+      "address_source_url": "https://www.math.ntu.edu.tw/aboutus/contact-us"
+    },
+    "外國語文學系": {
+      "lat": 25.017756363708507,
+      "lon": 121.53418241674854,
+      "building": "人文館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2050&proj=EPSG%3A4326",
+      "address_source_url": "https://www.forex.ntu.edu.tw/1455/"
+    },
+    "社會學系": {
+      "lat": 25.020186665721962,
+      "lon": 121.54165480138106,
+      "building": "社會及社工館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT3038&proj=EPSG%3A4326",
+      "address_source_url": "https://sociology.ntu.edu.tw/info-on-home-page/%E3%80%90116%E5%AD%B8%E5%B9%B4%E5%BA%A6%E7%A2%A9%E5%A3%AB%E7%8F%AD%E7%94%84%E8%A9%A6%E5%8F%A3%E8%A9%A6%E5%90%8D%E5%96%AE%E6%9A%A8%E5%8F%A3%E8%A9%A6%E6%99%82%E9%96%93%E5%9C%B0%E9%BB%9E%E3%80%91/"
+    },
+    "物理學系": {
+      "lat": 25.021796097501237,
+      "lon": 121.53662500389527,
+      "building": "物理學系/ 凝態科學研究中心",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT1038&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/B_02.pdf"
+    },
+    "資訊工程學系": {
+      "lat": 25.019273951486955,
+      "lon": 121.54168546200579,
+      "building": "德田館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT3001-1&proj=EPSG%3A4326",
+      "address_source_url": "https://train.csie.ntu.edu.tw/school/news/?id=976"
+    },
+    "經濟學系": {
+      "lat": 25.02062042278137,
+      "lon": 121.54232221069624,
+      "building": "社會科學院大樓",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT3046&proj=EPSG%3A4326",
+      "address_source_url": "https://econ.ntu.edu.tw/wp-content/uploads/2023/10/112%E5%8F%A3%E8%A9%A6%E5%85%AC%E5%91%8A.doc.pdf"
+    },
+    "機械工程學系": {
+      "lat": 25.018941642641778,
+      "lon": 121.5395982881653,
+      "building": "機械系館/宗倬章館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT1047&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/B_02.pdf"
+    },
+    "工程科學及海洋工程學系": {
+      "lat": 25.01707906846591,
+      "lon": 121.54252205991496,
+      "building": "工程科學及海洋工程學系",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT4003&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/B_02.pdf"
+    },
+    "農藝學系": {
+      "lat": 25.018271346737897,
+      "lon": 121.54075201344943,
+      "building": "農藝館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2012&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "農業化學系": {
+      "lat": 25.016196866021268,
+      "lon": 121.53593467174012,
+      "building": "農化新館/敬賢樓",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2029&proj=EPSG%3A4326",
+      "address_source_url": "https://ga.ntu.edu.tw/upload/cont_att/80304c9d-ac55-4b1c-8e0a-b0040868b887.pdf"
+    },
+    "漁業科學研究所": {
+      "lat": 25.020529349862997,
+      "lon": 121.5394277563061,
+      "building": "漁業科學館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT1026&proj=EPSG%3A4326",
+      "address_source_url": "https://homepage.ntu.edu.tw/~fishing/general/contact.htm"
+    },
+    "地理環境資源學系": {
+      "lat": 25.015021283814313,
+      "lon": 121.53833292714847,
+      "building": "地理系館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT4018&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "大氣科學系": {
+      "lat": 25.01482309990497,
+      "lon": 121.53892223575504,
+      "building": "大氣科學館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT4019&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "化學工程學系": {
+      "lat": 25.018172681772057,
+      "lon": 121.53830115979528,
+      "building": "化學工程館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2007&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "化學系": {
+      "lat": 25.019389365176053,
+      "lon": 121.53811046027795,
+      "building": "化學館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT1040&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "海洋研究所": {
+      "lat": 25.021291863444194,
+      "lon": 121.53718659771232,
+      "building": "海洋研究所",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT1011&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "應用力學研究所": {
+      "lat": 25.019823906442134,
+      "lon": 121.540830265017,
+      "building": "應用力學館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT1036&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "中國文學系": {
+      "lat": 25.017893092886094,
+      "lon": 121.536792323138,
+      "building": "文學院",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2006&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "人類學系": {
+      "lat": 25.017756363708507,
+      "lon": 121.53418241674854,
+      "building": "人文館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2050&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "圖書資訊學系": {
+      "lat": 25.017873257706018,
+      "lon": 121.5393888440497,
+      "building": "圖書資訊館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2010&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "語言學研究所": {
+      "lat": 25.017756363708507,
+      "lon": 121.53418241674854,
+      "building": "人文館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2050&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "音樂學研究所": {
+      "lat": 25.018069211469825,
+      "lon": 121.53529509578642,
+      "building": "樂學館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2005-1&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "臺灣文學研究所": {
+      "lat": 25.017756363708507,
+      "lon": 121.53418241674854,
+      "building": "人文館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2050&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "戲劇學系": {
+      "lat": 25.016807618833752,
+      "lon": 121.53473277325969,
+      "building": "一號館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2015&proj=EPSG%3A4326",
+      "address_source_url": "https://theatre.ntu.edu.tw/about"
+    },
+    "心理學系": {
+      "lat": 25.020046516033936,
+      "lon": 121.54024861126959,
+      "building": "心理系北館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT1033&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "統計與數據科學研究所": {
+      "lat": 25.021788293854907,
+      "lon": 121.53741301163197,
+      "building": "次震宇宙館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT1046&proj=EPSG%3A4326",
+      "address_source_url": "https://stat-ds.ntu.edu.tw/cp_n_75684.html"
+    },
+    "森林環境暨資源學系": {
+      "lat": 25.016882370511325,
+      "lon": 121.53899784075739,
+      "building": "森林館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2042&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "農業經濟學系": {
+      "lat": 25.01619140367789,
+      "lon": 121.5376264579784,
+      "building": "農業綜合大樓",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2037&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "電機工程學系": {
+      "lat": 25.018763581756993,
+      "lon": 121.54224743654609,
+      "building": "電機二館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT3003&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "生命科學系": {
+      "lat": 25.01543053805387,
+      "lon": 121.53874039979148,
+      "building": "生命科學館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT4031&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "生化科技學系": {
+      "lat": 25.01649568643102,
+      "lon": 121.53590916963593,
+      "building": "三號館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2028&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "生態學與演化生物學研究所": {
+      "lat": 25.01543053805387,
+      "lon": 121.53874039979148,
+      "building": "生命科學館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT4031&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "生化科學研究所": {
+      "lat": 25.019351596257362,
+      "lon": 121.5386222171456,
+      "building": "生化所",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AN1022&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "法律學院": {
+      "lat": 25.020598378119043,
+      "lon": 121.54374710480826,
+      "building": "霖澤館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT3044&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "工商管理學系暨商學研究所": {
+      "lat": 25.0139198363478,
+      "lon": 121.53802296369776,
+      "building": "管理學院一號館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT4025&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "創新設計學院": {
+      "lat": 25.014633164392695,
+      "lon": 121.52831291943919,
+      "building": "卓越研究大樓",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=KT0045&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "建築與城鄉研究所": {
+      "lat": 25.012185169705937,
+      "lon": 121.53743261113542,
+      "building": "建築與城鄉研究所",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT4026-4&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "分子醫學研究所": {
+      "lat": 25.040562433361597,
+      "lon": 121.51958245588477,
+      "building": "臺大醫院東址",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=CN1002&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "生物化學暨分子生物學研究所": {
+      "lat": 25.039534534826796,
+      "lon": 121.51965205380036,
+      "building": "基礎醫學大樓",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=CN1004&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "腦與心智科學研究所": {
+      "lat": 25.039534534826796,
+      "lon": 121.51965205380036,
+      "building": "基礎醫學大樓",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=CN1004&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "醫學院微生物學研究所": {
+      "lat": 25.039534534826796,
+      "lon": 121.51965205380036,
+      "building": "基礎醫學大樓",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=CN1004&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "公共衛生學院": {
+      "lat": 25.041269101937555,
+      "lon": 121.52306001571345,
+      "building": "公衛大樓",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=BT1015&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "健康政策與管理研究所": {
+      "lat": 25.041269101937555,
+      "lon": 121.52306001571345,
+      "building": "公衛大樓",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=BT1015&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "共同教育中心": {
+      "lat": 25.018890019146916,
+      "lon": 121.53669691471904,
+      "building": "博雅教學館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT1044&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "健康數據拓析統計研究所": {
+      "lat": 25.041269101937555,
+      "lon": 121.52306001571345,
+      "building": "公衛大樓",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=BT1015&proj=EPSG%3A4326",
+      "address_source_url": "https://hdas.ntu.edu.tw/"
+    },
+    "健康行為與社區科學研究所": {
+      "lat": 25.041269101937555,
+      "lon": 121.52306001571345,
+      "building": "公衛大樓",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=BT1015&proj=EPSG%3A4326",
+      "address_source_url": "https://hbcs.ntu.edu.tw/web/student/student.jsp?cp_no=CP1694057914185&lang=tw"
+    },
+    "環境與職業健康科學研究所": {
+      "lat": 25.041269101937555,
+      "lon": 121.52306001571345,
+      "building": "公衛大樓",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=BT1015&proj=EPSG%3A4326",
+      "address_source_url": "https://eohs.ntu.edu.tw/web/news/news_in.jsp?lang=tw&np_no=NP1564652451767"
+    },
+    "雙語教育中心": {
+      "lat": 25.016196866021268,
+      "lon": 121.53593467174012,
+      "building": "農化新館/敬賢樓",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2029&proj=EPSG%3A4326",
+      "address_source_url": "https://cbe.ntu.edu.tw/files/0a07a3fbfeaf625f"
+    },
+    "創新領域學士學位學程": {
+      "lat": 25.014633164392695,
+      "lon": 121.52831291943919,
+      "building": "卓越研究大樓",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=KT0045&proj=EPSG%3A4326",
+      "address_source_url": "https://tbd.ntu.edu.tw/?page_id=88"
+    },
+    "氣候變遷與永續發展國際學位學程": {
+      "lat": 25.02131091015883,
+      "lon": 121.53664767671403,
+      "building": "全球變遷中心",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT1004&proj=EPSG%3A4326",
+      "address_source_url": "https://www.ipcs.ntu.edu.tw/"
+    },
+    "重點科技研究學院": {
+      "lat": 25.019051563592814,
+      "lon": 121.54374647863007,
+      "building": "學新館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT3049&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "機械系": {
+      "lat": 25.018941642641778,
+      "lon": 121.5395982881653,
+      "building": "機械系館/宗倬章館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT1047&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/B_02.pdf"
+    },
+    "歷史系": {
+      "lat": 25.017893092886094,
+      "lon": 121.536792323138,
+      "building": "文學院",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2006&proj=EPSG%3A4326",
+      "address_source_url": "https://history.ntu.edu.tw/web/about/about.jsp?lang=tw"
+    },
+    "外文系": {
+      "lat": 25.017756363708507,
+      "lon": 121.53418241674854,
+      "building": "人文館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2050&proj=EPSG%3A4326",
+      "address_source_url": "https://www.forex.ntu.edu.tw/1455/"
+    },
+    "社會系": {
+      "lat": 25.020186665721962,
+      "lon": 121.54165480138106,
+      "building": "社會及社工館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT3038&proj=EPSG%3A4326",
+      "address_source_url": "https://sociology.ntu.edu.tw/info-on-home-page/%E3%80%90116%E5%AD%B8%E5%B9%B4%E5%BA%A6%E7%A2%A9%E5%A3%AB%E7%8F%AD%E7%94%84%E8%A9%A6%E5%8F%A3%E8%A9%A6%E5%90%8D%E5%96%AE%E6%9A%A8%E5%8F%A3%E8%A9%A6%E6%99%82%E9%96%93%E5%9C%B0%E9%BB%9E%E3%80%91/"
+    },
+    "物理系": {
+      "lat": 25.021796097501237,
+      "lon": 121.53662500389527,
+      "building": "物理學系/ 凝態科學研究中心",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT1038&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/B_02.pdf"
+    },
+    "資工系": {
+      "lat": 25.019273951486955,
+      "lon": 121.54168546200579,
+      "building": "德田館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT3001-1&proj=EPSG%3A4326",
+      "address_source_url": "https://train.csie.ntu.edu.tw/school/news/?id=976"
+    },
+    "經濟系": {
+      "lat": 25.02062042278137,
+      "lon": 121.54232221069624,
+      "building": "社會科學院大樓",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT3046&proj=EPSG%3A4326",
+      "address_source_url": "https://econ.ntu.edu.tw/wp-content/uploads/2023/10/112%E5%8F%A3%E8%A9%A6%E5%85%AC%E5%91%8A.doc.pdf"
+    },
+    "農藝系": {
+      "lat": 25.018271346737897,
+      "lon": 121.54075201344943,
+      "building": "農藝館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2012&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "農化系": {
+      "lat": 25.016196866021268,
+      "lon": 121.53593467174012,
+      "building": "農化新館/敬賢樓",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2029&proj=EPSG%3A4326",
+      "address_source_url": "https://ga.ntu.edu.tw/upload/cont_att/80304c9d-ac55-4b1c-8e0a-b0040868b887.pdf"
+    },
+    "地理系": {
+      "lat": 25.015021283814313,
+      "lon": 121.53833292714847,
+      "building": "地理系館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT4018&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "大氣系": {
+      "lat": 25.01482309990497,
+      "lon": 121.53892223575504,
+      "building": "大氣科學館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT4019&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "化工系": {
+      "lat": 25.018172681772057,
+      "lon": 121.53830115979528,
+      "building": "化學工程館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2007&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "化學工程系": {
+      "lat": 25.018172681772057,
+      "lon": 121.53830115979528,
+      "building": "化學工程館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2007&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "中文系": {
+      "lat": 25.017893092886094,
+      "lon": 121.536792323138,
+      "building": "文學院",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2006&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "生命科學學系": {
+      "lat": 25.01543053805387,
+      "lon": 121.53874039979148,
+      "building": "生命科學館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT4031&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "生科系": {
+      "lat": 25.01543053805387,
+      "lon": 121.53874039979148,
+      "building": "生命科學館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT4031&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "農業經濟系": {
+      "lat": 25.01619140367789,
+      "lon": 121.5376264579784,
+      "building": "農業綜合大樓",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2037&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "森林環資系": {
+      "lat": 25.016882370511325,
+      "lon": 121.53899784075739,
+      "building": "森林館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2042&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "森林環境資源學系": {
+      "lat": 25.016882370511325,
+      "lon": 121.53899784075739,
+      "building": "森林館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2042&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "電機系": {
+      "lat": 25.018763581756993,
+      "lon": 121.54224743654609,
+      "building": "電機二館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT3003&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "心理系": {
+      "lat": 25.020046516033936,
+      "lon": 121.54024861126959,
+      "building": "心理系北館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT1033&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "戲劇系": {
+      "lat": 25.016807618833752,
+      "lon": 121.53473277325969,
+      "building": "一號館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2015&proj=EPSG%3A4326",
+      "address_source_url": "https://theatre.ntu.edu.tw/about"
+    },
+    "臺文所": {
+      "lat": 25.017756363708507,
+      "lon": 121.53418241674854,
+      "building": "人文館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2050&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "法學院": {
+      "lat": 25.020598378119043,
+      "lon": 121.54374710480826,
+      "building": "霖澤館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT3044&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "生化所": {
+      "lat": 25.019351596257362,
+      "lon": 121.5386222171456,
+      "building": "生化所",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AN1022&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "醫學院生化分生所": {
+      "lat": 25.039534534826796,
+      "lon": 121.51965205380036,
+      "building": "基礎醫學大樓",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=CN1004&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "微生物學研究所": {
+      "lat": 25.039534534826796,
+      "lon": 121.51965205380036,
+      "building": "基礎醫學大樓",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=CN1004&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "農經系": {
+      "lat": 25.01619140367789,
+      "lon": 121.5376264579784,
+      "building": "農業綜合大樓",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2037&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    },
+    "公共衛生學院健康行為與社區科學研究所": {
+      "lat": 25.041269101937555,
+      "lon": 121.52306001571345,
+      "building": "公衛大樓",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=BT1015&proj=EPSG%3A4326",
+      "address_source_url": "https://hbcs.ntu.edu.tw/web/student/student.jsp?cp_no=CP1694057914185&lang=tw"
+    },
+    "公共衛生學院環境與職業健康科學研究所": {
+      "lat": 25.041269101937555,
+      "lon": 121.52306001571345,
+      "building": "公衛大樓",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=BT1015&proj=EPSG%3A4326",
+      "address_source_url": "https://eohs.ntu.edu.tw/web/news/news_in.jsp?lang=tw&np_no=NP1564652451767"
+    },
+    "重點學院": {
+      "lat": 25.019051563592814,
+      "lon": 121.54374647863007,
+      "building": "學新館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT3049&proj=EPSG%3A4326",
+      "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
+    }
+  }
+}

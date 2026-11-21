@@ -13,7 +13,7 @@ export function personDetails(person, point, { showName = true } = {}) {
   const title = document.createElement('strong');
   title.textContent = person.name;
   const place = document.createElement('p');
-  place.textContent = [point.institution, point.city, point.country].filter(Boolean).join(' · ');
+  place.textContent = [point.institution, point.unit, point.building, point.city, point.country].filter(Boolean).join(' · ');
   const claim = document.createElement('p');
   claim.textContent = person.affiliation_text;
   if (showName) content.append(title);
@@ -26,8 +26,8 @@ export function personDetails(person, point, { showName = true } = {}) {
     content.prepend(image);
   }
   const activities = person.refs.filter((ref) => ref.kind === 'support');
-  const refs = [...person.refs.filter((ref) => ref.kind !== 'support'), { label: '機構座標來源', url: point.source_url }];
-  if (point.address_source_url) refs.push({ label: '機構地址來源', url: point.address_source_url });
+  const refs = [...person.refs.filter((ref) => ref.kind !== 'support'), { label: point.unit ? '系館座標來源' : '機構座標來源', url: point.source_url }];
+  if (point.address_source_url) refs.push({ label: point.unit ? '系所位置來源' : '機構地址來源', url: point.address_source_url });
   if (person.portrait) {
     refs.push({ label: '照片來源', url: person.portrait.source_url, description: person.portrait.credit });
     if (person.portrait.license_url) refs.push({ label: '照片授權', url: person.portrait.license_url });

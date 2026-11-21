@@ -1,0 +1,78 @@
+{
+  "institution": "國立中山大學",
+  "units": {
+    "社會學系": {
+      "lat": 22.626461,
+      "lon": 120.265347,
+      "building": "社管大樓（社會科學院）",
+      "source_url": "https://www.openstreetmap.org/way/204056224",
+      "address_source_url": "https://moiss.nsysu.edu.tw/p/406-1370-359747%2Cr5981.php?Lang=zh-tw"
+    },
+    "教育研究所": {
+      "lat": 22.626461,
+      "lon": 120.265347,
+      "building": "社管大樓（社會科學院）",
+      "source_url": "https://www.openstreetmap.org/way/204056224",
+      "address_source_url": "https://education.nsysu.edu.tw/p/406-1134-345432%2Cr11.php?Lang=zh-tw"
+    },
+    "政治學研究所": {
+      "lat": 22.626461,
+      "lon": 120.265347,
+      "building": "社管大樓（社會科學院）",
+      "source_url": "https://www.openstreetmap.org/way/204056224",
+      "address_source_url": "https://ips.nsysu.edu.tw/about/contact"
+    },
+    "公共事務管理研究所": {
+      "lat": 22.626461,
+      "lon": 120.265347,
+      "building": "社管大樓（管理學院）",
+      "source_url": "https://www.openstreetmap.org/way/204056224",
+      "address_source_url": "https://pam.nsysu.edu.tw/p/406-1234-353965%2Cr2528.php?Lang=zh-tw"
+    },
+    "資訊工程學系": {
+      "lat": 22.627324,
+      "lon": 120.267486,
+      "building": "電資大樓",
+      "source_url": "https://www.openstreetmap.org/way/251498563",
+      "address_source_url": "https://cse.nsysu.edu.tw/p/412-1205-3732.php?Lang=zh-tw"
+    },
+    "通訊工程研究所": {
+      "lat": 22.627324,
+      "lon": 120.267486,
+      "building": "電資大樓",
+      "source_url": "https://www.openstreetmap.org/way/251498563",
+      "address_source_url": "https://ice.nsysu.edu.tw/p/404-1209-343768.php?Lang=en"
+    },
+    "電機工程學系": {
+      "lat": 22.627324,
+      "lon": 120.267486,
+      "building": "電資大樓",
+      "source_url": "https://www.openstreetmap.org/way/251498563",
+      "address_source_url": "https://web.ee.nsysu.edu.tw/p/412-1203-10601.php?Lang=zh-tw"
+    },
+    "光電工程學系": {
+      "lat": 22.62382,
+      "lon": 120.266084,
+      "building": "國際研究大樓",
+      "source_url": "https://www.openstreetmap.org/way/269874279",
+      "address_source_url": "https://exam-acad.nsysu.edu.tw/file_space/aca_apply/1152351340.pdf"
+    },
+    "師資培育中心": {
+      "lat": 22.626461,
+      "lon": 120.265347,
+      "building": "社管大樓（社會科學院）",
+      "source_url": "https://www.openstreetmap.org/way/204056224",
+      "address_source_url": "https://ctep.nsysu.edu.tw/p/406-1136-378414%2Cr11.php?Lang=zh-tw"
+    },
+    "海洋事務研究所": {
+      "lat": 22.631181,
+      "lon": 120.2619,
+      "building": "海洋科學學院大樓",
+      "source_url": "https://www.openstreetmap.org/way/269874274",
+      "address_source_url": "https://gima.nsysu.edu.tw/p/16-1265-301674.php?Lang=zh-tw",
+      "aliases": [
+        "海洋永續發展與海洋政策研究所"
+      ]
+    }
+  }
+}
