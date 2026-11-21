@@ -181,18 +181,17 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
   function showPeople(buildings, occupied) {
     const size = map.getSize();
     const columns = size.x < 540 ? 3 : 4;
-    const step = map.getZoom() < UNIT_ZOOM ? 82 : 54 + (map.getZoom() - UNIT_ZOOM) * 20;
-    const pins = [];
-    const labelCount = occupied.length;
+    const step = map.getZoom() < UNIT_ZOOM ? 82 : map.getZoom() === UNIT_ZOOM ? 54 : 90;
+    const groups = [];
     for (const { anchor, members, campus = false } of buildings) {
       const center = map.latLngToContainerPoint(anchor);
+      const pins = [];
       members.forEach(({ person, point }, index) => {
         const row = Math.floor(index / columns);
         const rowSize = Math.min(columns, members.length - row * columns);
         const x = center.x + (index % columns - (rowSize - 1) / 2) * step;
         const y = center.y + (campus ? 0 : 35) + row * (PERSON_HEIGHT + PERSON_GAP);
-        const width = person.portrait ? 50 : PERSON_HEIGHT;
-        const box = { left: x - width / 2, right: x + width / 2,
+        const box = { left: x - PERSON_HEIGHT / 2, right: x + PERSON_HEIGHT / 2,
           top: y - PERSON_HEIGHT / 2, bottom: y + PERSON_HEIGHT / 2 };
         for (let offset = 1; !hasRoom(box, occupied); offset += 1) {
           const distance = campus ? Math.ceil(offset / 2) * (offset % 2 ? 1 : -1) : offset;
@@ -221,22 +220,29 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
           icon: L.divIcon({ html: pin, className: 'atlas-person-marker', iconSize: [0, 0] }),
           interactive: false, keyboard: false, zIndexOffset: 300,
         }));
-        pins.push({ pin, fullName, box, x, width, portrait: Boolean(person.portrait) });
+        pins.push({ pin, fullName, box, x, portrait: Boolean(person.portrait) });
+      });
+      groups.push(pins);
+    }
+    const layouts = groups.map((pins) => ({
+      pins,
+      expanded: pins.map(({ fullName, x, box, portrait }) => {
+        const extraWidth = portrait ? 43 : 16;
+        const half = Math.max(PERSON_HEIGHT, Math.ceil(fullName.getBoundingClientRect().width) + extraWidth) / 2;
+        return { ...box, left: x - half, right: x + half };
+      }),
+    }));
+    // People sharing an anchor switch display modes together.
+    for (const { pins, expanded } of layouts) {
+      const compact = new Set(pins.map(({ box }) => box));
+      const neighbours = occupied.filter((box) => !compact.has(box));
+      if (!expanded.every((box) => box.left >= 0 && box.right <= size.x &&
+          hasRoom(box, neighbours) && hasRoom(box, expanded, box))) continue;
+      pins.forEach(({ pin, box }, index) => {
+        occupied[occupied.indexOf(box)] = expanded[index];
+        pin.classList.add('atlas-person-dot--named');
       });
     }
-    // Reserve the compact hit areas first so a full name never covers a neighbour.
-    const expanded = pins.map(({ fullName, width, x, box, portrait }) => {
-      const chrome = portrait ? 43 : 16;
-      const half = Math.max(width, Math.min(180, Math.ceil(fullName.getBoundingClientRect().width) + chrome)) / 2;
-      return { ...box, left: x - half, right: x + half };
-    });
-    pins.forEach(({ pin, box }, index) => {
-      const candidate = expanded[index];
-      if (candidate.left < 0 || candidate.right > size.x ||
-          !hasRoom(candidate, occupied, box)) return;
-      occupied[index + labelCount] = candidate;
-      pin.classList.add('atlas-person-dot--named');
-    });
   }
 
   function showCampuses() {
