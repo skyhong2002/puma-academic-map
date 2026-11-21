@@ -615,10 +615,13 @@ export function createAtlas(container, people, { onCampus, onCampusZoom, onPerso
       const card = document.createElement('div');
       card.className = 'atlas-campus';
       L.DomEvent.disableClickPropagation(card);
-      const title = button(groupTitle, 'atlas-campus__title', openCampus);
+      const title = button('', 'atlas-campus__title', openCampus);
       title.title = groupTitle;
       registerSelection(title, point);
-      title.prepend(institutionMark(point.institution));
+      const titleText = document.createElement('span');
+      titleText.className = 'atlas-campus__title-text';
+      titleText.textContent = groupTitle;
+      title.append(institutionMark(point.institution), titleText);
       card.append(title);
       const previews = document.createElement('div');
       previews.className = 'atlas-campus__people';

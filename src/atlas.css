@@ -531,7 +531,24 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
   cursor: pointer;
 }
 .atlas-campus button:hover { background: var(--map-orange-light); }
-.atlas-campus__title { display: flex; align-items: center; gap: 5px; min-height: 33px; font-weight: 750 !important; text-align: left; }
+.atlas-campus__title {
+  --campus-mark-width: 36px;
+  display: grid;
+  grid-template-columns: var(--campus-mark-width) minmax(0, 1fr);
+  align-items: center;
+  gap: 6px;
+  min-height: 33px;
+  font-weight: 750 !important;
+  text-align: left;
+}
+.atlas-campus__title-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+  line-height: 1.2;
+}
 .atlas-emblem {
   display: grid;
   place-items: center;
@@ -632,6 +649,16 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
   align-items: center;
   gap: 6px;
 }
-.atlas-campus-fallback .atlas-emblem--official { width: 17px; height: 17px; }
+/* Leaflet gives marker-pane images width: auto. Keep marks inside their layout slots. */
+.leaflet-container .leaflet-marker-pane .atlas-campus__title > .atlas-emblem {
+  box-sizing: border-box;
+  width: var(--campus-mark-width);
+  height: 24px;
+  padding-inline: 0;
+}
+.leaflet-container .leaflet-marker-pane .atlas-campus-fallback > .atlas-emblem--official {
+  width: 17px;
+  height: 17px;
+}
 .map-detail .atlas-emblem--official { width: 32px; height: 32px; border-radius: 4px; }
 .map-detail__emblem-credit { font-size: 12px; }
