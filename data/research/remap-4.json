@@ -1,0 +1,382 @@
+[
+  {
+    "section": "共同領銜",
+    "raw": "許文堂（台灣教授協會秘書長）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "台灣教授協會",
+        "city": "臺北市",
+        "country": "臺灣",
+        "lat": 25.0414864,
+        "lon": 121.5313494,
+        "source_url": "https://english.taup.net/contact-us/"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "盧俊瑋（林口長庚醫院皮膚科副教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "林口長庚紀念醫院",
+        "country": "臺灣",
+        "city": "桃園市",
+        "lat": 25.06146,
+        "lon": 121.367795,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/121.367/25.06/5000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "林彥鋒（國家衛生研究院副研究員級主治醫師）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國家衛生研究院神經及精神醫學研究中心（竹南院區）",
+        "city": "苗栗縣",
+        "country": "臺灣",
+        "lat": 24.7049997,
+        "lon": 120.9139645,
+        "source_url": "https://ttic-new.nhri.edu.tw/location/",
+        "address_source_url": "https://np.nhri.edu.tw/introduction/contact-person/"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "李泳泉（世新大學退休講師）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "世新大學",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 24.989051,
+        "lon": 121.544846,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.57/24.98/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "盧孳艷（國立陽明交通大學護理學院退休教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國立陽明交通大學臺北陽明校區",
+        "city": "臺北市",
+        "country": "臺灣",
+        "lat": 25.120461,
+        "lon": 121.513537,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.515/25.12/3000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "蔡宏政（中山大學海洋永續發展與海洋政策研究所教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國立中山大學",
+        "country": "臺灣",
+        "city": "高雄市",
+        "lat": 22.625793,
+        "lon": 120.265808,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.27/22.63/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "施信民（台灣大學化工系退休教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國立臺灣大學",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.016832,
+        "lon": 121.534714,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.02/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "鄭泰安（中研院生醫所特聘研究員）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "中央研究院生物醫學科學研究所（南港院區）",
+        "city": "臺北市",
+        "country": "臺灣",
+        "lat": 25.0421852,
+        "lon": 121.6145477,
+        "source_url": "https://intro.sec.sinica.edu.tw/c/"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "賴虹霖（國立臺北商業大學會計資訊系教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國立臺北商業大學",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.041947,
+        "lon": 121.525532,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.51/25.03/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳玉海（聖約翰科大退休教授助理教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "聖約翰科技大學",
+        "city": "新北市",
+        "country": "臺灣",
+        "lat": 25.227351,
+        "lon": 121.45101,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.452/25.227/3000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "林玉琪（文化大學師資培育中心副教授兼主任）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "中國文化大學",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.137008,
+        "lon": 121.540279,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.1/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "曾令毅（國立臺灣師範大學臺灣史研究所兼任副教授）",
+    "sources": [
+      {
+        "label": "校方教學資料",
+        "description": "臺灣師範大學臺灣史研究所 114 學年度實習課程簡報列曾令毅為該所兼任副教授。",
+        "url": "https://www.taih.ntnu.edu.tw/wp-content/uploads/2025/11/114%E5%B8%AB%E5%A4%A7%E9%90%B5%E5%8D%9A%E8%AA%AA%E6%98%8E%E6%9C%83%E7%B0%A1%E5%A0%B11117.pdf"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "國立臺灣師範大學",
+        "city": "臺北市",
+        "country": "臺灣",
+        "lat": 25.025957,
+        "lon": 121.527535,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.02/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳建霖（義守大學機械系教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "義守大學",
+        "city": "高雄市",
+        "country": "臺灣",
+        "lat": 22.724285,
+        "lon": 120.406123,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.411/22.725/3000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "何美鄉（中研院生醫所退休研究員）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "中央研究院生物醫學科學研究所（南港院區）",
+        "city": "臺北市",
+        "country": "臺灣",
+        "lat": 25.0421852,
+        "lon": 121.6145477,
+        "source_url": "https://intro.sec.sinica.edu.tw/c/"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "聶良育（中研院PhD candidate）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "中央研究院生物化學研究所（南港院區）",
+        "city": "臺北市",
+        "country": "臺灣",
+        "lat": 25.0421852,
+        "lon": 121.6145477,
+        "source_url": "https://intro.sec.sinica.edu.tw/c/"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳景彥（基隆長庚醫院精神科教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "基隆長庚紀念醫院",
+        "country": "臺灣",
+        "city": "基隆市",
+        "lat": 25.120833,
+        "lon": 121.722412,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/121.72/25.12/5000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "黃群偉（林口長庚紀念醫院副研究員）",
+    "sources": [
+      {
+        "label": "醫院醫研部電子報",
+        "description": "林口長庚醫研部 2020 年電子報列黃群偉為分子轉譯影像中心助理研究員。衍生點位代表該機構；原署名的副研究員職級未由此頁核實。",
+        "url": "https://www1.cgmh.org.tw/intr/intr2/C01S31/newsletter/202010/files/basic-html/page69.html"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "林口長庚紀念醫院",
+        "country": "臺灣",
+        "city": "桃園市",
+        "lat": 25.06146,
+        "lon": 121.367795,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/121.367/25.06/5000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "芙厄阿布達爾（臺灣本土神學研究中心研究員）",
+    "sources": [
+      {
+        "label": "研究中心活動紀錄",
+        "description": "台灣本土神學研究中心神學沙龍紀錄證實芙厄阿•布達爾擔任導讀人；此頁未列研究員聘任。",
+        "url": "https://www.actt.org.tw/salon/"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "台灣本土神學研究中心",
+        "city": "臺南市",
+        "country": "臺灣",
+        "lat": 22.9994291,
+        "lon": 120.1907118,
+        "source_url": "https://maps.google.com/maps?q=22.9994291,120.1907118",
+        "address_source_url": "https://www.actt.org.tw/contect/"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "曾宗盛（台灣神學研究學院舊約學副教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "臺灣神學研究學院",
+        "city": "臺北市",
+        "country": "臺灣",
+        "lat": 25.10105,
+        "lon": 121.5414,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.547/25.114/3000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "黃建勳（市立聯合醫院忠孝院區泌尿科主治醫師，陽明大學泌尿學科兼任助理教授，教育部部定助理教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "臺北市立聯合醫院忠孝院區",
+        "city": "臺北市",
+        "country": "臺灣",
+        "lat": 25.046628,
+        "lon": 121.586198,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/121.585/25.048/3000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "歐良修（林口長庚副教授級主治醫師，台灣兒科醫學會副理事長）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "林口長庚紀念醫院",
+        "country": "臺灣",
+        "city": "桃園市",
+        "lat": 25.06146,
+        "lon": 121.367795,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/121.367/25.06/5000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳錫平（中央警察大學犯罪防治學系助理教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "中央警察大學",
+        "city": "桃園市",
+        "country": "臺灣",
+        "lat": 25.045944,
+        "lon": 121.351071,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.377/25.052/3000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "廖紫均（國立自然科學博物館副研究員）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國立自然科學博物館",
+        "city": "臺中市",
+        "country": "臺灣",
+        "lat": 24.156616,
+        "lon": 120.666511,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.667/24.157/3000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "許文瀞（台北醫學大學醫學科學研究所博士後研究員）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "臺北醫學大學",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.025405,
+        "lon": 121.561982,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.02/10000"
+      }
+    ]
+  }
+]

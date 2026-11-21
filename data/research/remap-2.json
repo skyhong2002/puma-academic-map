@@ -1,0 +1,475 @@
+[
+  {
+    "section": "共同領銜",
+    "raw": "吳茂昆（中央研究院院士、前東華大學校長、美國國家科學學院外籍院士）",
+    "sources": [
+      {
+        "label": "研究室個人簡歷",
+        "description": "中研院超導實驗室簡歷記載吳茂昆曾於 2012 至 2016 年擔任國立東華大學校長。",
+        "url": "https://www.phys.sinica.edu.tw/~mkwu/members-mkwu.htm"
+      }
+    ],
+    "locations": [
+      {
+        "country": "臺灣",
+        "city": "花蓮縣",
+        "lat": 23.892308,
+        "lon": 121.544414,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/23.9/10000",
+        "institution": "國立東華大學"
+      }
+    ]
+  },
+  {
+    "section": "共同領銜",
+    "raw": "曾旭正（台灣心靈生態村協進會理事長）",
+    "sources": [
+      {
+        "label": "校方課程紀錄",
+        "description": "國立臺南藝術大學記載曾旭正為建築藝術研究所退休教授及臺灣心靈生態村協進會理事長。地圖點位為其曾任教的校區。",
+        "url": "https://epaper2.tnnua.edu.tw/%E7%AC%AC99%E6%9C%9F2025-01-15/%E5%9C%9F%E5%9C%B0%E4%B8%8A%E7%9A%84%E8%A8%98%E6%86%B6-%E5%BE%8C%E5%A3%81%E7%9A%84%E6%AD%B7%E5%8F%B2%E8%88%87%E7%A9%BA%E9%96%93%E5%86%8D%E7%94%9F%E4%B9%8B%E6%97%85/"
+      }
+    ],
+    "locations": [
+      {
+        "country": "臺灣",
+        "city": "臺南市",
+        "lat": 23.185892,
+        "lon": 120.374312,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.38/23.18/10000",
+        "institution": "國立臺南藝術大學"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "黃月桂（弘光科大卸任校長）",
+    "sources": [],
+    "locations": [
+      {
+        "country": "臺灣",
+        "city": "臺中市",
+        "lat": 24.217081,
+        "lon": 120.581233,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.6/24.18/10000",
+        "institution": "弘光科技大學"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳慧蓉（文化大學新聞系副教授）",
+    "sources": [],
+    "locations": [
+      {
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.137008,
+        "lon": 121.540279,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.1/10000",
+        "institution": "中國文化大學"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "蔡榮捷（前大葉大學公關處長助理教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "大葉大學",
+        "country": "臺灣",
+        "city": "彰化縣",
+        "lat": 24.000147,
+        "lon": 120.596219,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.592/23.991/4000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "蔡晏霖（陽明交通大學人社系副教授）",
+    "sources": [
+      {
+        "label": "系所介紹",
+        "description": "陽明交通大學人文社會學系位於竹北六家校區。",
+        "url": "https://hs.nycu.edu.tw/about"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "國立陽明交通大學六家校區",
+        "country": "臺灣",
+        "city": "新竹縣",
+        "lat": 24.812305,
+        "lon": 121.023443,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121/24.81/5000",
+        "address_source_url": "https://hs.nycu.edu.tw/about"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳維斌（牙醫學博士/金曲獎最佳作詞音樂公司代表人）",
+    "sources": [
+      {
+        "label": "作者簡介",
+        "description": "作者簡介記載陳維斌畢業於臺北醫學大學牙醫學系，點位呈現歷史學歷關係。",
+        "url": "https://www.kingstone.com.tw/basic/2014160056010/?lid=StoreStorage"
+      }
+    ],
+    "locations": [
+      {
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.025405,
+        "lon": 121.561982,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.02/10000",
+        "institution": "臺北醫學大學"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "薛榮祥（龍華科技大學退休副教授）",
+    "sources": [],
+    "locations": [
+      {
+        "country": "臺灣",
+        "city": "桃園市",
+        "lat": 25.018991,
+        "lon": 121.401617,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.404/25.016/5000",
+        "institution": "龍華科技大學"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "鄭仰恩（台灣神學院退休教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "臺灣神學院（陽明山嶺頭校區）",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.10105,
+        "lon": 121.5414,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.56/25.105/5000",
+        "address_source_url": "https://www.tgst.edu.tw/"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "莊克士（國立清華大學退休教授）",
+    "sources": [],
+    "locations": [
+      {
+        "country": "臺灣",
+        "city": "新竹市",
+        "lat": 24.796398,
+        "lon": 120.996864,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.97/24.8/10000",
+        "institution": "國立清華大學"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "汪家慶（Department of Human Development and Family Science, Virginia Polytechnic Institute and State UniversityPhD student，諮商心理師，社會工作師）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "Virginia Tech（Blacksburg 校區）",
+        "country": "美國",
+        "city": "Blacksburg, Virginia",
+        "lat": 37.229012,
+        "lon": -80.423675,
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip",
+        "address_source_url": "https://liberalarts.vt.edu/departments-and-schools/department-of-human-development-and-family-science/contact.html"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "張耀中（澳洲迪肯大學資訊學院教授）",
+    "sources": [
+      {
+        "label": "校方博士計畫",
+        "description": "迪肯大學資訊科技學院博士計畫列 Lennon Chang 為 Melbourne Burwood 校區的指導教師。",
+        "url": "https://www.deakin.edu.au/__data/assets/pdf_file/0011/2786618/Research-projects-2024-School-of-Information-Technology.pdf"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "Deakin University（Melbourne Burwood 校區）",
+        "country": "澳洲",
+        "city": "Melbourne, Victoria",
+        "lat": -37.84469,
+        "lon": 145.1125,
+        "source_url": "https://www.openstreetmap.org/way/34094453",
+        "address_source_url": "https://www.deakin.edu.au/about-deakin/locations/campuses/melbourne-burwood"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "鄭信男（大葉大學系主任）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "大葉大學",
+        "country": "臺灣",
+        "city": "彰化縣",
+        "lat": 24.000147,
+        "lon": 120.596219,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.592/23.991/4000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "林育誼（輔仁大學音樂系兼任講師）",
+    "sources": [],
+    "locations": [
+      {
+        "country": "臺灣",
+        "city": "新北市",
+        "lat": 25.033274,
+        "lon": 121.434694,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.43/25.04/5000",
+        "institution": "輔仁大學"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "楊松穎（國立嘉義大學水生系助理教授）",
+    "sources": [],
+    "locations": [
+      {
+        "country": "臺灣",
+        "city": "嘉義市",
+        "lat": 23.463797,
+        "lon": 120.483514,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.483/23.466/5000",
+        "institution": "國立嘉義大學蘭潭校區",
+        "address_source_url": "https://website.ncyu.edu.tw/aquabio/Contents?nodeId=21516"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "何春松（淡江大學化學工程與材料工程學系兼任副教授）",
+    "sources": [],
+    "locations": [
+      {
+        "country": "臺灣",
+        "city": "新北市",
+        "lat": 25.173841,
+        "lon": 121.447112,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.45/25.175/5000",
+        "institution": "淡江大學"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "黃俊凱（田納西大學健康科學中心副教授）",
+    "sources": [
+      {
+        "label": "校方教師名錄",
+        "description": "田納西大學健康科學中心列 Chun-Kai Huang 為物理治療系副教授。",
+        "url": "https://www.uthsc.edu/faculty/profile/search.php?college=health-professions&dept-id=701904"
+      },
+      {
+        "label": "研究室名錄",
+        "description": "長庚大學物理治療學系研究室名錄列黃俊凱；堪薩斯大學的 Chun-Kai Huang 簡介也記載其長庚大學物理治療及復健科學背景。",
+        "url": "https://pt2.cgu.edu.tw/p/404-1075-58159.php?Lang=zh-tw"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "University of Tennessee Health Science Center",
+        "country": "美國",
+        "city": "Memphis, Tennessee",
+        "lat": 35.138847,
+        "lon": -90.033196,
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "吳文晉（中央研究院生物化學研究所研究副技師）",
+    "sources": [
+      {
+        "label": "研究所活動公告",
+        "description": "生物化學研究所南港院區公告列吳文晉博士為該所研究副技師。",
+        "url": "https://www.ibc.sinica.edu.tw/seminarV.php?DatetimeStr=20261116111809&lang="
+      }
+    ],
+    "locations": [
+      {
+        "institution": "中央研究院生物化學研究所（南港院區）",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.0430401,
+        "lon": 121.6130746,
+        "source_url": "https://www.ibc.sinica.edu.tw/location.php?lang=En"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "康世仁（西維吉尼亚機械材料及航空系教授）",
+    "sources": [
+      {
+        "label": "校方教師名錄",
+        "description": "West Virginia University 史塔特勒工程學院將 Bruce Kang 列為機械、材料暨航空工程系教授。",
+        "url": "https://directory.statler.wvu.edu/faculty-staff-directory/bruce-kang"
+      },
+      {
+        "label": "學術協會中英名錄",
+        "description": "北美洲台灣人教授協會理事名錄以中文康世仁與英文 Bruce S. Kang 並列。",
+        "url": "https://natpa.org/officers.html"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "West Virginia University（Morgantown 校區）",
+        "country": "美國",
+        "city": "Morgantown, West Virginia",
+        "lat": 39.634371,
+        "lon": -79.954391,
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip",
+        "address_source_url": "https://catalog.wvu.edu/graduate/collegeofengineeringandmineralresources/departmentofmechanicalandaerospace/"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "王怡惠（前東方設計大學觀光與休閒事業管理系（退休）助理教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "原東方設計大學校區",
+        "country": "臺灣",
+        "city": "高雄市",
+        "lat": 22.8799,
+        "lon": 120.247,
+        "source_url": "https://www.wikidata.org/wiki/Wikidata:WikiProject_Taiwan/Schools/University_Report",
+        "address_source_url": "https://orgws.kcg.gov.tw/001/KcgOrgUploadFiles/284/relfile/68401/172561/0a914f2f-6b4d-4b90-875a-3df70e95ac1d.pdf"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "郭立威（國家衛生研究院研究員）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國家衛生研究院竹南院區",
+        "country": "臺灣",
+        "city": "苗栗縣",
+        "lat": 24.706242,
+        "lon": 120.91212,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/bus/120.915/24.708/4000",
+        "address_source_url": "https://iben.nhri.edu.tw/tw_us/tw_us_map/"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "劉振霖（同步輻射研究中心副研究員）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國家同步輻射研究中心",
+        "country": "臺灣",
+        "city": "新竹市",
+        "lat": 24.7822,
+        "lon": 120.99388,
+        "source_url": "https://www.openstreetmap.org/way/188022072",
+        "address_source_url": "https://www.nsrrc.org.tw/chinese/location.aspx"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "黃維富（前華夏科技大學專任副教授/進修推廣部主任）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "原華夏科技大學校區",
+        "country": "臺灣",
+        "city": "新北市",
+        "lat": 24.980905,
+        "lon": 121.507678,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.513/24.981/4000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "張揚沛（高雄市立大同醫院主治醫師）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "高雄市立大同醫院",
+        "country": "臺灣",
+        "city": "高雄市",
+        "lat": 22.627011,
+        "lon": 120.29723,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/120.297/22.629/4000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "高之晨（嘉義長庚心臟外科主治醫師；樹人醫專兼任講師主治醫師；講師）",
+    "sources": [],
+    "locations": [
+      {
+        "country": "臺灣",
+        "city": "嘉義縣",
+        "lat": 23.462444,
+        "lon": 120.285974,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/120.284/23.464/5000",
+        "institution": "嘉義長庚紀念醫院"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "王定中（嘉義長庚神經外科助理教授級主治醫師）",
+    "sources": [],
+    "locations": [
+      {
+        "country": "臺灣",
+        "city": "嘉義縣",
+        "lat": 23.462444,
+        "lon": 120.285974,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/120.284/23.464/5000",
+        "institution": "嘉義長庚紀念醫院"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "李家惠（國家衛生研究院副研究員）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國家衛生研究院竹南院區",
+        "country": "臺灣",
+        "city": "苗栗縣",
+        "lat": 24.706242,
+        "lon": 120.91212,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/bus/120.915/24.708/4000",
+        "address_source_url": "https://nicr.nhri.edu.tw/introduction/contact/"
+      }
+    ]
+  }
+]

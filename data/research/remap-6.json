@@ -1,0 +1,545 @@
+[
+  {
+    "section": "共同領銜",
+    "raw": "陳永豐（眼科診所院長）",
+    "sources": [
+      {
+        "label": "健保特約院所資料",
+        "description": "健保署的院所名冊列出汐止晶華眼科診所公開院址。",
+        "url": "https://www.nhi.gov.tw/ch/dl-10747-3a1e3e69a7414d49a905659775437248-1.pdf"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "汐止晶華眼科診所",
+        "country": "臺灣",
+        "city": "新北市",
+        "lat": 25.06743,
+        "lon": 121.6627856,
+        "source_url": "https://maps.google.com/maps?q=%E6%99%B6%E8%8F%AF%E7%9C%BC%E7%A7%91%E8%A8%BA%E6%89%80+%E6%96%B0%E5%8C%97%E5%B8%82%E6%B1%90%E6%AD%A2%E5%8D%80%E5%BF%A0%E5%AD%9D%E6%9D%B1%E8%B7%AF241%E8%99%9F&output=embed"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "楊麗珍（台北長庚醫院皮膚科台北長庚醫院皮膚科副教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "臺北長庚紀念醫院",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.055508,
+        "lon": 121.549618,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/121.551/25.056/5000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "曾道雄（台北歌劇劇場藝術總監）",
+    "sources": [
+      {
+        "label": "臺師大校方紀錄",
+        "description": "臺師大列曾道雄為音樂系退休教授，地圖呈現可核對的過往任教機構。",
+        "url": "https://pr.ntnu.edu.tw/news/index.php?id=10225&mode=data"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "國立臺灣師範大學（曾任教）",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.025957,
+        "lon": 121.527535,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.02/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "羅尹悅（世新大學傳播管理學系副教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "世新大學",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 24.989051,
+        "lon": 121.544846,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.57/24.98/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "王寶萱（國立臺北藝術大學助研究員）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國立臺北藝術大學",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.132181,
+        "lon": 121.470133,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.47/25.13/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "劉麗雲（美國賓州天普大學醫學院神經科學系教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "天普大學路易斯・卡茲醫學院（北費城校區）",
+        "country": "美國",
+        "city": "費城",
+        "lat": 40.006838,
+        "lon": -75.1522643,
+        "source_url": "https://medicine.temple.edu/maps-and-directions"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳貴賢（中央研究院特聘研究員）",
+    "sources": [
+      {
+        "label": "院方院區說明",
+        "description": "中央研究院交通資訊確認原子與分子科學研究所位於臺大校總區，點位精度為校區。",
+        "url": "https://www.sinica.edu.tw/en/paragraph/10"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "中央研究院原子與分子科學研究所（臺大校總區）",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.016832,
+        "lon": 121.534714,
+        "source_url": "https://www.sinica.edu.tw/en/paragraph/10"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "許晃雄（中央研究院環境變遷研究中心退休特聘研究員）",
+    "sources": [
+      {
+        "label": "中研院南港院區座標依據",
+        "description": "以官方交通資訊所連結的南港院區標記為定位依據，精度為院區。",
+        "url": "https://www.ios.sinica.edu.tw/singlepage.php?id=1"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "中央研究院環境變遷研究中心（南港院區）",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.0421852,
+        "lon": 121.6145477,
+        "source_url": "https://intro.sec.sinica.edu.tw/c/"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "李天健（清華大學人社院學士班助理教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國立清華大學",
+        "country": "臺灣",
+        "city": "新竹市",
+        "lat": 24.796398,
+        "lon": 120.996864,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.97/24.8/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "曾士榮（政大台文所副教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國立政治大學",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 24.986835,
+        "lon": 121.57624,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.57/24.98/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "Tsu Tsír-hông （母語ê/gǎi醫學迷頁主／前國防醫學院醫學系臨床教師）",
+    "sources": [
+      {
+        "label": "院方醫師名錄",
+        "description": "中國醫藥大學新竹附設醫院以中英文姓名對照朱子宏（Tsír-hông Tsu）並列為兼任醫師。地圖點是此校院可確認的公開機構。",
+        "url": "https://www.cmu-hch.cmu.edu.tw/Doctor/DoctorInfo/313"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "中國醫藥大學新竹附設醫院",
+        "country": "臺灣",
+        "city": "新竹縣",
+        "lat": 24.8242007,
+        "lon": 121.0014812,
+        "source_url": "https://maps.google.com/maps?q=%E4%B8%AD%E5%9C%8B%E9%86%AB%E8%97%A5%E5%A4%A7%E5%AD%B8%E6%96%B0%E7%AB%B9%E9%99%84%E8%A8%AD%E9%86%AB%E9%99%A2+%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AB%B9%E5%8C%97%E5%B8%82%E8%88%88%E9%9A%86%E8%B7%AF%E4%B8%80%E6%AE%B5199%E8%99%9F&output=embed"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "林慶彰（中央研究院中國文哲研究所退休研究員）",
+    "sources": [
+      {
+        "label": "中研院南港院區座標依據",
+        "description": "以官方交通資訊所連結的南港院區標記為定位依據，精度為院區。",
+        "url": "https://www.ios.sinica.edu.tw/singlepage.php?id=1"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "中央研究院中國文哲研究所（南港院區）",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.0421852,
+        "lon": 121.6145477,
+        "source_url": "https://www.litphil.sinica.edu.tw/main/posts/2800"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "林青穀（林青穀家庭醫學·身心科·心臟科診所院長 ·前台北市立師範學院部定講師）",
+    "sources": [
+      {
+        "label": "診所官方聯絡頁",
+        "description": "診所官方頁與 OpenStreetMap 院所標記的公開地址相符。",
+        "url": "https://drlinchingku.com/contact/"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "林青穀家庭醫學科診所",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.0448141,
+        "lon": 121.5461047,
+        "source_url": "https://www.openstreetmap.org/node/4946524121"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳昭瑩（臺大醫學院物理治療學系暨研究所兼任講師）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國立臺灣大學醫學院附設醫院",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.040784,
+        "lon": 121.519354,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/121.52/25.041/5000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "林金祥（明志科技大學數位行銷設計學程助理教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "明志科技大學",
+        "country": "臺灣",
+        "city": "新北市",
+        "lat": 25.041619,
+        "lon": 121.421304,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.423/25.04/2500"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "鄭麗伶（北美洲台灣人教授協會前會長）",
+    "sources": [
+      {
+        "label": "台美史料中心職歷",
+        "description": "台美史料中心刊載鄭麗伶（Li-Lin Cheng）曾在威斯康辛大學麥迪遜分校任研究人員。",
+        "url": "https://taiwaneseamericanhistory.org/whos-li-lin-cheng/"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "威斯康辛大學麥迪遜分校（曾任職）",
+        "country": "美國",
+        "city": "麥迪遜",
+        "lat": 43.075409,
+        "lon": -89.404098,
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "王柏傑（國立空中大學講師）",
+    "sources": [
+      {
+        "label": "國立空中大學交通資訊",
+        "description": "校方定位嘉義學習指導中心於國立嘉義大學林森校區。",
+        "url": "https://www2.nou.edu.tw/chiayi/Document/Detail?docid=12681&pid=3511&uid=3685"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "國立空中大學嘉義學習指導中心（嘉義大學林森校區）",
+        "country": "臺灣",
+        "city": "嘉義市",
+        "lat": 23.487629,
+        "lon": 120.459504,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.46/23.488/2500"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "洪英章（國立陽明交通大學資訊管理所博士）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國立交通大學",
+        "country": "臺灣",
+        "city": "新竹市",
+        "lat": 24.789203,
+        "lon": 120.999412,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.996/24.79/5000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "李兆然（李兆然家醫科診所院長，台大醫院家庭醫學科兼任教學主治醫師院長主治醫師）",
+    "sources": [
+      {
+        "label": "家庭醫學醫學會院所名錄",
+        "description": "醫學會個人名錄以院所名稱及公開院址對應李兆然。",
+        "url": "https://www.tafm.org.tw/ehc-tafm/s/w/search_dir/search_dir/dir/8245"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "李兆然家醫科診所",
+        "country": "臺灣",
+        "city": "新北市",
+        "lat": 25.1680175,
+        "lon": 121.4475731,
+        "source_url": "https://maps.google.com/maps?q=%E6%9D%8E%E5%85%86%E7%84%B6%E5%AE%B6%E9%86%AB%E7%A7%91%E8%A8%BA%E6%89%80+%E6%96%B0%E5%8C%97%E5%B8%82%E6%B7%A1%E6%B0%B4%E5%8D%80%E5%AD%B8%E5%BA%9C%E8%B7%AF18%E8%99%9F&output=embed"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳信昭（殷建智精神科診所、台南市立醫院主治醫師）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "殷建智精神科診所",
+        "country": "臺灣",
+        "city": "臺南市",
+        "lat": 23.0052854,
+        "lon": 120.2081716,
+        "source_url": "https://www.doctoryin.com.tw/doctors.html"
+      },
+      {
+        "institution": "臺南市立醫院",
+        "country": "臺灣",
+        "city": "臺南市",
+        "lat": 22.9687059,
+        "lon": 120.2268128,
+        "source_url": "https://maps.google.com/maps?q=%E8%87%BA%E5%8D%97%E5%B8%82%E7%AB%8B%E9%86%AB%E9%99%A2+%E5%8F%B0%E5%8D%97%E5%B8%82%E6%9D%B1%E5%8D%80%E5%B4%87%E5%BE%B7%E8%B7%AF670%E8%99%9F&output=embed"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "王怡然（紐約大學物理系助理教授）",
+    "sources": [
+      {
+        "label": "中研院雙語講者資料",
+        "description": "中研院物理所講座將王怡然的中文名與 Joel Î-jiân Wang 對照。",
+        "url": "https://www.phys.sinica.edu.tw/lecture_detail.php?eng=T&id=3091"
+      },
+      {
+        "label": "紐約大學量子研究所師資名錄",
+        "description": "紐約大學列 Joel Wang 為文理學院物理系助理教授；點位為紐約校區的 NCES 代表座標。",
+        "url": "https://wp.nyu.edu/quantum_institute/faculty/"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "紐約大學物理系（紐約校區）",
+        "country": "美國",
+        "city": "紐約",
+        "lat": 40.729452,
+        "lon": -73.997264,
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "李銘順（國家住都中心董事）",
+    "sources": [
+      {
+        "label": "機構交通資訊",
+        "description": "國家住都中心的辦公地址與 OpenStreetMap 之機構標記相符。",
+        "url": "https://www.hurc.org.tw/hurc/docDetail?doc_id=25&pid=9&uid=35"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "國家住宅及都市更新中心",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.0585674,
+        "lon": 121.5240834,
+        "source_url": "https://www.openstreetmap.org/node/5872901313"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "黃汀華（陽明交通大學通訊所博士）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國立交通大學",
+        "country": "臺灣",
+        "city": "新竹市",
+        "lat": 24.789203,
+        "lon": 120.999412,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.996/24.79/5000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "何恭之（長庚醫院副教授級主治醫師）",
+    "sources": [
+      {
+        "label": "院方專科名錄",
+        "description": "長庚紀念醫院列何恭之為林口院區核子醫學部主治醫師。",
+        "url": "https://www1.cgmh.org.tw/lhcc/01.about/01.3.7.nuclear.html"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "林口長庚紀念醫院",
+        "country": "臺灣",
+        "city": "桃園市",
+        "lat": 25.06146,
+        "lon": 121.367795,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/121.367/25.06/5000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "Hsiao-Rong Chen (陳曉蓉）（Eli Lilly (禮來藥廠）Computational Biology & AI Lead （數據科學家)）",
+    "sources": [
+      {
+        "label": "期刊作者隸屬",
+        "description": "期刊列 Hsiao-Rong Chen 的作者隸屬為 Eli Lilly and Company, Indianapolis, Indiana。點位是企業總部代表位置。",
+        "url": "https://aacrjournals.org/clincancerres/article/doi/10.1158/1078-0432.CCR-25-0174/767070/p/Final-Results-from-a-First-in-Human-Phase-I-Study"
+      },
+      {
+        "label": "企業官方總部資訊",
+        "description": "Eli Lilly 以 Lilly Corporate Center 為印第安納波利斯企業總部。",
+        "url": "https://www.lilly.com/about/contact"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "Eli Lilly and Company（印第安納波利斯企業總部）",
+        "country": "美國",
+        "city": "印第安納波利斯",
+        "lat": 39.756164,
+        "lon": -86.154608,
+        "source_url": "https://commons.wikimedia.org/wiki/File:Eli_Lilly_Corporate_Center,_Indianapolis,_Indiana,_USA.jpg"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "李長泰（台灣經濟研究院副研究員）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "臺灣經濟研究院",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.0666226,
+        "lon": 121.5249111,
+        "source_url": "https://www.tier.org.tw/intro/address.aspx"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "黃璇華（中醫大病理部講師（退休））",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "中國醫藥大學附設醫院",
+        "country": "臺灣",
+        "city": "臺中市",
+        "lat": 24.157637,
+        "lon": 120.680563,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/120.68/24.16/5000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "汪淑媛（國立暨南大學社會政策與社會工作學系教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國立暨南國際大學",
+        "country": "臺灣",
+        "city": "南投縣",
+        "lat": 23.951191,
+        "lon": 120.930818,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.92/23.95/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "邱繼輝（中央研究院生化所特聘研究員）",
+    "sources": [
+      {
+        "label": "中研院南港院區座標依據",
+        "description": "以官方交通資訊所連結的南港院區標記為定位依據，精度為院區。",
+        "url": "https://www.ios.sinica.edu.tw/singlepage.php?id=1"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "中央研究院生物化學研究所（南港院區）",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.0421852,
+        "lon": 121.6145477,
+        "source_url": "https://www.ibc.sinica.edu.tw/intro.php?lang=&type=Organization"
+      }
+    ]
+  }
+]

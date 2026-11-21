@@ -1,0 +1,414 @@
+[
+  {
+    "section": "共同領銜",
+    "raw": "廖運範（中央研究院院士、長庚大學特聘講座教授）",
+    "sources": [
+      {
+        "label": "校方研究人員名錄",
+        "description": "長庚大學研究人員名錄列廖運範為醫學系客座教授。",
+        "url": "https://pure.lib.cgu.edu.tw/zh/persons/yun-fan-liaw/"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "長庚大學",
+        "country": "臺灣",
+        "city": "桃園市",
+        "lat": 25.034095,
+        "lon": 121.389274,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.39/25.03/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "張國財（新竹教育大學退休副教授）",
+    "sources": [
+      {
+        "label": "院校沿革",
+        "description": "國立清華大學校方記載，國立新竹教育大學併入後原校址改稱清華大學南大校區。",
+        "url": "https://damc.site.nthu.edu.tw/p/412-1102-83.php?Lang=zh-tw"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "國立新竹教育大學（現清華大學南大校區）",
+        "country": "臺灣",
+        "city": "新竹市",
+        "lat": 24.793725,
+        "lon": 120.965175,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.967/24.794/7500"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "黃清江（前明道大學生物科技學系退休教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "明道大學（原埤頭校址）",
+        "country": "臺灣",
+        "city": "彰化縣",
+        "lat": 23.869444444444444,
+        "lon": 120.49555555555555,
+        "source_url": "https://ccsc.chc.edu.tw/scout/uploads/tadnews/file/nsn_658_1.pdf"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "紀東昀(諸葛風雲)（逢甲大學通識中心兼任助理教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "逢甲大學",
+        "country": "臺灣",
+        "city": "臺中市",
+        "lat": 24.178697,
+        "lon": 120.648904,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.6/24.18/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "江耀宗（台灣高鐵公司、台科大前董事長、前兼任教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國立臺灣科技大學",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.013237,
+        "lon": 121.541083,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.57/24.98/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "郭集慶（光田醫療社團法人光田綜合醫院癌症中心助理教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "光田綜合醫院（向上院區）",
+        "country": "臺灣",
+        "city": "臺中市",
+        "lat": 24.206301,
+        "lon": 120.563307,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/120.559/24.209/7500"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "潘威佑（社團法人台灣教師聯盟理事長）",
+    "sources": [
+      {
+        "label": "聯盟官方聯絡資訊",
+        "description": "台灣教師聯盟官網公布聯絡處地址，與司法院公開的法人主事務所一致。",
+        "url": "https://taiwanutt.wixsite.com/website"
+      },
+      {
+        "label": "司法院法人設立公告",
+        "description": "設立登記列台灣教師聯盟法人主事務所。",
+        "url": "https://www.judicial.gov.tw/tw/cp-144-865760-df993-1.html"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "社團法人台灣教師聯盟（公開聯絡處）",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.0438783,
+        "lon": 121.5229514,
+        "source_url": "https://data.gov.tw/dataset/155472"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "李育杰（中央研究院資訊科技創新研究中心研究員）",
+    "sources": [
+      {
+        "label": "研究中心交通資訊",
+        "description": "資訊科技創新研究中心標示研究中心座落於中央研究院南港院區。",
+        "url": "https://www.citi.sinica.edu.tw/main/posts/5"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "中央研究院資訊科技創新研究中心（南港院區）",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.0421852,
+        "lon": 121.6145477,
+        "source_url": "https://intro.sec.sinica.edu.tw/c/"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "詹立煒（淡江大學公共行政暨法律學系助理教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "淡江大學",
+        "country": "臺灣",
+        "city": "新北市",
+        "lat": 25.173841,
+        "lon": 121.447112,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.45/25.175/5000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "吳密察（退休台灣史學者）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國立臺灣大學",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.016832,
+        "lon": 121.534714,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.02/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳儀深（中央研究院近代史研究所退休兼任研究員；國史館前館長）",
+    "sources": [
+      {
+        "label": "研究所交通資訊",
+        "description": "近代史研究所圖書館校方交通資訊標示中央研究院南港院區。",
+        "url": "https://lib.mh.sinica.edu.tw/lib/Fpage?nid=71"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "中央研究院近代史研究所（南港院區）",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.0421852,
+        "lon": 121.6145477,
+        "source_url": "https://intro.sec.sinica.edu.tw/c/"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "林坤熒（南開科技大學退休助理教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "南開科技大學",
+        "country": "臺灣",
+        "city": "南投縣",
+        "lat": 23.980508,
+        "lon": 120.697195,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.7/23.981/7500"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "葉憲清（國立體育大學榮譽教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國立體育大學",
+        "country": "臺灣",
+        "city": "桃園市",
+        "lat": 25.034456,
+        "lon": 121.383537,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.385/25.032/5000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "林明芳（元培醫事科技大學醫放系前兼任助理教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "元培醫事科技大學",
+        "country": "臺灣",
+        "city": "新竹市",
+        "lat": 24.777831,
+        "lon": 120.940391,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.945/24.76/7500"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "Simon Chiu（Edinburgh Napier UniversityFormer Lecturer）",
+    "sources": [
+      {
+        "label": "學生會教學獎入圍名單",
+        "description": "學生會公開名單將 Simon Chiu 列為商學院教學獎候選人。",
+        "url": "https://www.napierstudents.com/news/article/6013/Excellence-Awards-Shortlisted-Nominees/"
+      },
+      {
+        "label": "大學校區介紹",
+        "description": "校方說明商學院位於 Craiglockhart 校區。",
+        "url": "https://www.napier.ac.uk/about-us/our-location/our-campuses/craiglockhart"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "Edinburgh Napier University（Craiglockhart Campus）",
+        "country": "英國",
+        "city": "愛丁堡",
+        "lat": 55.91833,
+        "lon": -3.23903,
+        "source_url": "https://www.openstreetmap.org/way/26431450"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "趙淑員（〔弘光科大〕退休教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "弘光科技大學",
+        "country": "臺灣",
+        "city": "臺中市",
+        "lat": 24.217081,
+        "lon": 120.581233,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.6/24.18/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "吳逸如（林口長庚神經內科部部主任）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "林口長庚紀念醫院",
+        "country": "臺灣",
+        "city": "桃園市",
+        "lat": 25.06146,
+        "lon": 121.367795,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/121.367/25.06/5000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "蔡秉修（華梵大學兼任講師）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "華梵大學",
+        "country": "臺灣",
+        "city": "新北市",
+        "lat": 24.98002,
+        "lon": 121.692106,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.692/24.982/7500"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "周文一（宏國德霖科技大學退休副教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "宏國德霖科技大學",
+        "country": "臺灣",
+        "city": "新北市",
+        "lat": 24.973439,
+        "lon": 121.45695,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.456/24.976/7500"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "鄧欣潔（國立故宮博物院助理研究員）",
+    "sources": [
+      {
+        "label": "院方學術出版",
+        "description": "院方刊載鄧欣潔的北部院區教育推廣研究。",
+        "url": "https://www.npm.gov.tw/ChineseArt-Content.aspx?a=10251&idstr=03012531&l=1&sno=04012587&type=2024"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "國立故宮博物院（北部院區）",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.102284,
+        "lon": 121.548379,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.55/25.102/7500"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "王裕宏（國立科學工藝博物館退休研究員）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國立科學工藝博物館",
+        "country": "臺灣",
+        "city": "高雄市",
+        "lat": 22.641638,
+        "lon": 120.322726,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.321/22.641/7500"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "游量凱（輔大博物館學研究所助理教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "輔仁大學",
+        "country": "臺灣",
+        "city": "新北市",
+        "lat": 25.033274,
+        "lon": 121.434694,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.43/25.04/5000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "林治萱（吉紅本屋有限公司/新生醫護管理專科學校幼兒保育科執行長 /兼任部定講師）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "新生醫護管理專科學校",
+        "country": "臺灣",
+        "city": "桃園市",
+        "lat": 24.832292,
+        "lon": 121.208659,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.2/24.85/7500"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "沈宗憲（國立臺灣師範大學僑先部教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國立臺灣師範大學僑生先修部（林口校區）",
+        "country": "臺灣",
+        "city": "新北市",
+        "lat": 25.06736,
+        "lon": 121.401045,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.391/25.076/7500"
+      }
+    ]
+  }
+]

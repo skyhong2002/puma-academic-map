@@ -1,0 +1,347 @@
+[
+  {
+    "section": "會員名單",
+    "raw": "黃烱焜（羅東博愛醫院醫師）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "羅東博愛醫院",
+        "country": "臺灣",
+        "city": "宜蘭縣",
+        "lat": 24.671578,
+        "lon": 121.773019,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/121.77/24.673/1800"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "魏君容（哈佛癌症中心行政執行主任）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "Harvard Cancer Consortium（中央行政辦公室）",
+        "country": "美國",
+        "city": "麻州波士頓",
+        "lat": 42.33762,
+        "lon": -71.10764,
+        "source_url": "https://www.openstreetmap.org/way/228321180",
+        "address_source_url": "https://www.dfhcc.harvard.edu/about-hcc/contact-us"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "王巧萍（林業試驗所育林組副研究員）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "農業部林業試驗所（總所）",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.03133035,
+        "lon": 121.51014525,
+        "source_url": "https://www.openstreetmap.org/way/252994061",
+        "address_source_url": "https://www.tfri.gov.tw/cp.aspx?n=7464"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "周理悧（台南私立應用科技大學）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "臺南應用科技大學",
+        "country": "臺灣",
+        "city": "臺南市",
+        "lat": 23.038404,
+        "lon": 120.238351,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.25/23.043/5000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "盧沛文（國立彰化師範大學教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國立彰化師範大學",
+        "country": "臺灣",
+        "city": "彰化縣",
+        "lat": 24.082728,
+        "lon": 120.558628,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.59/24.05/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "王冠傑（嘉南藥理大學藥學系助理教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "嘉南藥理大學",
+        "country": "臺灣",
+        "city": "臺南市",
+        "lat": 22.920673,
+        "lon": 120.225789,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.226/22.923/5000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "杜坤峰（國防醫學大學通識中心助理教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國防醫學大學",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.071379,
+        "lon": 121.595434,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.595/25.07/1500"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "吳依屛（臺灣藝術大學跨域表演藝術研究所助理教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國立臺灣藝術大學",
+        "country": "臺灣",
+        "city": "新北市",
+        "lat": 25.006115,
+        "lon": 121.447924,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.44/25.01/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "彭筱芳（台灣大學醫學檢驗暨生物技術學系博士後研究員）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國立臺灣大學醫學院",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.040784,
+        "lon": 121.519354,
+        "source_url": "https://www.mc.ntu.edu.tw/",
+        "address_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/121.52/25.041/5000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "尤釋賢（中央研究院特聘研究員）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "中央研究院數學研究所（臺大校區）",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.016832,
+        "lon": 121.534714,
+        "source_url": "https://www.sinica.edu.tw/en/paragraph/10",
+        "address_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.02/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳韻文（藝術美感教育領域獨立學者）",
+    "sources": [
+      {
+        "label": "校方兼任師資簡歷",
+        "description": "臺灣師範大學表演藝術研究所公開簡歷列陳韻文為兼任副教授；點位呈現該校公開的教學關係。",
+        "url": "https://www.gipa.ntnu.edu.tw/wp-content/uploads/2020/02/%E9%99%B3%E9%9F%BB%E6%96%87.pdf"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "國立臺灣師範大學（公開的兼任教學紀錄）",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.025957,
+        "lon": 121.527535,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.02/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "吳昆峯（中研院生化所副研究員）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "中央研究院生物化學研究所（南港院區）",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.0421852,
+        "lon": 121.6145477,
+        "source_url": "https://intro.sec.sinica.edu.tw/c/",
+        "address_source_url": "https://w3.ibc.sinica.edu.tw/SummerInternship/introduction.html"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "黃繁光（淡江大學歷史系退休教授退休教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "淡江大學",
+        "country": "臺灣",
+        "city": "新北市",
+        "lat": 25.173841,
+        "lon": 121.447112,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.45/25.175/5000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "劉怡敏（台灣精準健康促進協會理事）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "台灣精準健康促進協會（法人登記主事務所）",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.0421852,
+        "lon": 121.6145477,
+        "source_url": "https://intro.sec.sinica.edu.tw/c/",
+        "address_source_url": "https://www.judicial.gov.tw/tw/cp-144-267428-7558d-1.html"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "吳順安（新竹市南門醫院主治醫師）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "南門綜合醫院",
+        "country": "臺灣",
+        "city": "新竹市",
+        "lat": 24.802344,
+        "lon": 120.969663,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/120.97/24.802/1600"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "林士哲（中研院生醫所博士後研究員）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "中央研究院生物醫學科學研究所（南港院區）",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.0421852,
+        "lon": 121.6145477,
+        "source_url": "https://intro.sec.sinica.edu.tw/c/",
+        "address_source_url": "https://www.nmr.sinica.edu.tw/Conference/THH/?id=venue"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "謝順峰（台灣金融研訓院副研究員）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "台灣金融研訓院研究所辦公室",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.032664,
+        "lon": 121.516779,
+        "source_url": "https://www.tabf.org.tw/AboutServiceBase.aspx"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "張書豪（輔大醫學系/輔大醫院臨床助理教授/主治醫師）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "輔仁大學附設醫院",
+        "country": "臺灣",
+        "city": "新北市",
+        "lat": 25.03982,
+        "lon": 121.43102,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/121.43/25.04/1500"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "鍾繼儀（國立臺灣師範大學博士候選人）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國立臺灣師範大學",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.025957,
+        "lon": 121.527535,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.02/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "饒智昇（國家中山科學研究院助理研究員）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國家中山科學研究院（公開院址）",
+        "country": "臺灣",
+        "city": "桃園市",
+        "lat": 24.847933,
+        "lon": 121.246388,
+        "source_url": "https://safemap.tw/site/H50C1791/",
+        "address_source_url": "https://duc.ncsist.org.tw/aboutus.aspx?id=2014"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "蔡政江（中央研究院數學研究所副研究員）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "中央研究院數學研究所（臺大校區）",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.016832,
+        "lon": 121.534714,
+        "source_url": "https://www.sinica.edu.tw/en/paragraph/10",
+        "address_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.02/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "李根芳（師大翻譯所教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國立臺灣師範大學",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.025957,
+        "lon": 121.527535,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.02/10000"
+      }
+    ]
+  }
+]

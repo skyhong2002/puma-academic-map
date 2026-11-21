@@ -1,0 +1,441 @@
+[
+  {
+    "section": "共同領銜",
+    "raw": "李德財（中央研究院院士、前中興大學校長）",
+    "sources": [
+      {
+        "label": "中研院院士簡歷",
+        "description": "院士簡歷列李德財曾於 2011 至 2015 年擔任國立中興大學校長。",
+        "url": "https://academicians.sinica.edu.tw/index.php?id=241&r=academician-n%2Fshow"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "國立中興大學",
+        "country": "臺灣",
+        "city": "臺中市",
+        "lat": 24.122122,
+        "lon": 120.675551,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.68/24.14/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳淑純（致理科大應英系副教授退休副教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "致理科技大學",
+        "country": "臺灣",
+        "city": "新北市",
+        "lat": 25.020898,
+        "lon": 121.464405,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.466/25.025/5000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "邱蕙君（崑山科大講師）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "崑山科技大學",
+        "country": "臺灣",
+        "city": "臺南市",
+        "lat": 22.997733,
+        "lon": 120.253131,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.22/23.02/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "夏傳位（屏東大學社發系副教授）",
+    "sources": [
+      {
+        "label": "系所公開紀錄",
+        "description": "屏東大學社會發展學系列系務會議地點為民生校區。",
+        "url": "https://social.nptu.edu.tw/p/151-1128-25110.php?Lang=zh-tw"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "國立屏東大學民生校區",
+        "country": "臺灣",
+        "city": "屏東縣",
+        "lat": 22.665823,
+        "lon": 120.504755,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.503977/22.664396/2000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "TIŌ SūnBûn（台湾大学日本語文学系退休教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國立臺灣大學",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.016832,
+        "lon": 121.534714,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.02/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "郭志文（國立中山大學特聘教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國立中山大學",
+        "country": "臺灣",
+        "city": "高雄市",
+        "lat": 22.625793,
+        "lon": 120.265808,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.27/22.63/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "徐慧霞（中華科大副教授）",
+    "sources": [
+      {
+        "label": "校方校區簡介",
+        "description": "中華科技大學將企業資訊與管理系列於臺北校區。",
+        "url": "https://www.hc.cust.edu.tw/www/school.html"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "中華科技大學臺北校區",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.033414,
+        "lon": 121.609982,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.610/25.033/4500"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "劉宏裕（明新科技大學休閒管理系副教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "明新科技大學",
+        "country": "臺灣",
+        "city": "新竹縣",
+        "lat": 24.863533,
+        "lon": 120.989928,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.992/24.865/4000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "葉弘德（陽明交通大學環境工程研究所榮譽退休教授）",
+    "sources": [
+      {
+        "label": "系所位置",
+        "description": "陽明交大環境工程研究所位於光復校區，研究所沿革列葉弘德為創所所長。",
+        "url": "https://ev.nycu.edu.tw/zh_tw/about"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "國立陽明交通大學光復校區",
+        "country": "臺灣",
+        "city": "新竹市",
+        "lat": 24.789234,
+        "lon": 120.999373,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.97/24.8/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "林靜慧（中山大學師培中心副教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國立中山大學",
+        "country": "臺灣",
+        "city": "高雄市",
+        "lat": 22.625793,
+        "lon": 120.265808,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.27/22.63/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "林子賢（中國醫藥大學公衛系教授）",
+    "sources": [
+      {
+        "label": "系所公告",
+        "description": "中國醫藥大學公共衛生學系公開徵才資訊列工作地點為水湳校區。",
+        "url": "https://news.cmu.edu.tw/ann_detail.php?sn=115577"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "中國醫藥大學水湳校本部",
+        "country": "臺灣",
+        "city": "臺中市",
+        "lat": 24.178379,
+        "lon": 120.660826,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.663/24.19/5000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "柯凱婷（馬偕醫院精神部馬偕醫學院兼任臨床講師）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "馬偕醫學大學",
+        "country": "臺灣",
+        "city": "新北市",
+        "lat": 25.252917,
+        "lon": 121.496695,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.49/25.257/5000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳世雄（明道大學前校長）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "明道大學（原埤頭校址）",
+        "country": "臺灣",
+        "city": "彰化縣",
+        "lat": 23.8694444444,
+        "lon": 120.4955555556,
+        "source_url": "https://ccsc.chc.edu.tw/scout/uploads/tadnews/file/nsn_658_1.pdf"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "柯錦彥（南開科技大學退休教師）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "南開科技大學",
+        "country": "臺灣",
+        "city": "南投縣",
+        "lat": 23.980508,
+        "lon": 120.697195,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.696/23.981/5500"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "郭慶祥（明志科技大學退休副教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "明志科技大學",
+        "country": "臺灣",
+        "city": "新北市",
+        "lat": 25.041619,
+        "lon": 121.421304,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.421/25.037/4000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "曾文碧（中央研究院原分所退休研究員）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "中央研究院原子與分子科學研究所",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.0185861,
+        "lon": 121.5382669,
+        "source_url": "https://www.iams.sinica.edu.tw/about/location-env/"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳彥升（福和會理事長、國家太空中心（退休）資深研究員）",
+    "sources": [
+      {
+        "label": "機構經歷",
+        "description": "福和會官方人物簡介記載陳彥升曾參與國家太空中心探空火箭計畫。",
+        "url": "https://fratwn.org/About.html"
+      },
+      {
+        "label": "機構辦公地址",
+        "description": "國家太空中心列新竹市展業一路九號為本部。",
+        "url": "https://www.tasa.org.tw/zh-TW/contact-us"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "國家太空中心新竹本部",
+        "country": "臺灣",
+        "city": "新竹市",
+        "lat": 24.7846818,
+        "lon": 121.0020084,
+        "source_url": "https://www.openstreetmap.org/node/7452953945"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "鄭裕民（高雄醫學大學骨科教授）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "高雄醫學大學附設中和紀念醫院",
+        "country": "臺灣",
+        "city": "高雄市",
+        "lat": 22.645698,
+        "lon": 120.309349,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/120.309/22.646/4500"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "楊小賢（陽明交通大學百川學程助理教授）",
+    "sources": [
+      {
+        "label": "研究者公開學術頁",
+        "description": "楊小賢（Jessica Siu-yin Yeung）在個人學術頁自述為陽明交大百川學士學位學程助理教授。",
+        "url": "https://nycu.academia.edu/JessicaSiuyinYeung/Conference%20Papers"
+      },
+      {
+        "label": "校方學程活動",
+        "description": "陽明交大校慶公告列百川學士學位學程活動位於光復校區綜合一館。",
+        "url": "https://anniv2026.web.nycu.edu.tw/%E6%A0%A1%E5%8F%8B%E5%9B%9E%E5%A8%98%E5%AE%B6/%E4%BA%A4%E5%A4%A7%E6%97%A5%E6%A0%A1%E5%8F%8B%E5%9B%9E%E5%A8%98%E5%AE%B6/"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "國立陽明交通大學光復校區",
+        "country": "臺灣",
+        "city": "新竹市",
+        "lat": 24.789234,
+        "lon": 120.999373,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.97/24.8/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "吳宇中（國家同步輻射研究中心研究員）",
+    "sources": [
+      {
+        "label": "中心交通資訊",
+        "description": "國家同步輻射研究中心公布新竹科學園區院區位置。",
+        "url": "https://www.nsrrc.org.tw/chinese/location.aspx"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "國家同步輻射研究中心",
+        "country": "臺灣",
+        "city": "新竹市",
+        "lat": 24.78413,
+        "lon": 120.993125,
+        "source_url": "https://www.nusc.gov.tw/webpage2024/UploadFiles/trmc/radsafe/2026980913433271_1.pdf"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "柯惠敏（台灣經濟研究院副研究員）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "臺灣經濟研究院臺北本院",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.0666226,
+        "lon": 121.5249111,
+        "source_url": "https://www.tier.org.tw/intro/address.aspx"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "楊曜旭（嘉義長庚 中醫科主任）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "嘉義長庚紀念醫院",
+        "country": "臺灣",
+        "city": "嘉義縣",
+        "lat": 23.462444,
+        "lon": 120.285974,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/120.284/23.464/5000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "羅程詠（國立中央大學客家學院博士後研究員）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "國立中央大學",
+        "country": "臺灣",
+        "city": "桃園市",
+        "lat": 24.968426,
+        "lon": 121.195636,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.24/24.96/10000"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "黃建勳（財團法人食品工業發展研究所資深研究員）",
+    "sources": [],
+    "locations": [
+      {
+        "institution": "食品工業發展研究所新竹本部",
+        "country": "臺灣",
+        "city": "新竹市",
+        "lat": 24.7933172,
+        "lon": 120.9707613,
+        "source_url": "https://www.firdi.org.tw/Firdi_ContactInfo.aspx"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "魏道駿（仁德醫護管理專科學校 餐旅管理科 助理教授兼科主任）",
+    "sources": [
+      {
+        "label": "教育部大專校院一覽表",
+        "description": "教育部將魏道駿列為仁德醫護管理專科學校餐旅管理科主任。",
+        "url": "https://udb.moe.edu.tw/ulist/Institution?id=000021FC0018"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "仁德醫護管理專科學校",
+        "country": "臺灣",
+        "city": "苗栗縣",
+        "lat": 24.623723,
+        "lon": 120.781644,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.793/24.610/10000"
+      }
+    ]
+  }
+]
