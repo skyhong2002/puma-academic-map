@@ -32,7 +32,7 @@ let panelDetail;
 let nextPublicCursor;
 let loadingPublicComments = false;
 let peopleByBoard;
-let panelHistory = [];
+let panelAncestors = [];
 let panelView = 'directory';
 let collapsedScrollTop = 0;
 let pendingReveal;
@@ -121,8 +121,8 @@ function detailTitle(text) {
   return title;
 }
 
-function showCampus(campus, { restoring = false } = {}) {
-  if (!restoring) rememberPanel();
+function showCampus(campus, { restoring = false, fromParent = false } = {}) {
+  if (!restoring) rememberParent({ fromRoot: !fromParent });
   if (!restoring) track('view_academic_location');
   const { point, people, unit, campusOnly } = campus;
   panelDetail = { type: 'campus', point: pointKey(point), campusOnly };
@@ -138,7 +138,7 @@ function showCampus(campus, { restoring = false } = {}) {
     const item = document.createElement('li');
     const button = document.createElement('button');
     button.type = 'button';
-    button.addEventListener('click', () => showPerson(person, point));
+    button.addEventListener('click', () => showPerson(person, point, { fromParent: true }));
     if (person.portrait) {
       const image = document.createElement('img');
       image.src = person.portrait.image;
@@ -223,9 +223,9 @@ function primaryPersonPoint(person) {
   return person.locations.map((point) => locatedUnit(person, point)).find(Boolean) ?? person.locations[0];
 }
 
-function showPerson(person, point, { restoring = false, tall = false } = {}) {
+function showPerson(person, point, { restoring = false, tall = false, fromParent = false } = {}) {
   if (!restoring) {
-    rememberPanel();
+    rememberParent({ fromRoot: !fromParent });
     point = point ? locatedUnit(person, point) ?? point : primaryPersonPoint(person);
   }
   panelDetail = { type: 'person', point: point && pointKey(point), person: personRef(person) };
@@ -268,12 +268,12 @@ const atlas = createAtlas($('map'), people, {
 const findPerson = (entry) => people.find((person) => person.section === entry.section && person.raw === entry.raw);
 let searchTracked = false;
 const directory = mountDirectory(directoryElement, {
-  onBeforeNavigate(options) {
-    if (panelView === 'directory') rememberPanel(options);
+  onBeforeNavigate({ fromRoot, home, replace } = {}) {
+    if (home) clearAncestors();
+    else if (!replace) rememberParent({ fromRoot });
   },
-  onSearchClear: () => atlas.select(),
+  onSearchClear: () => showHomePanel({ focus: false }),
   onSearchChange(query) {
-    if (panelView !== 'directory') rememberPanel();
     atlas.select();
     if (!searchTracked && query.trim()) {
       searchTracked = true;
@@ -282,8 +282,13 @@ const directory = mountDirectory(directoryElement, {
     showPanel('directory', { focus: false });
   },
   onSearchOpen() {
-    if (panelView !== 'directory') rememberPanel();
-    showPanel('directory', { focus: false });
+    if (panelView === 'directory') return;
+    if (directory.searchInput.value.trim()) {
+      rememberParent({ fromRoot: true });
+      showPanel('directory', { focus: false });
+    } else {
+      showHomePanel({ focus: false });
+    }
   },
   onSearchPerson(entry) {
     const person = findPerson(entry);
@@ -293,18 +298,19 @@ const directory = mountDirectory(directoryElement, {
   onOpenPerson(entry) {
     const person = findPerson(entry);
     if (!person) return;
-    showPerson(person);
+    showPerson(person, undefined, { fromParent: true });
   },
   onLocateUnit(point) {
-    showCampus({ point, unit: point.unit, people: atlas.peopleAt(point) });
+    showCampus({ point, unit: point.unit, people: atlas.peopleAt(point) }, { fromParent: true });
     locateOnMap(point);
   },
   onLocate(entry, point) {
     const person = findPerson(entry);
     if (!person) return;
-    showPerson(person, point);
+    showPerson(person, point, { fromParent: true });
   },
 });
+const homeDirectory = directory.snapshot();
 directoryElement.querySelector('h2').tabIndex = -1;
 directory.geoList.closest('nav').hidden = true;
 directory.searchInput.placeholder = '搜尋姓名、機構或系所';
@@ -426,8 +432,8 @@ function dismissDetails() {
   if (panelView !== 'detail') return;
   closePanel({ focusTarget: panelToggle });
   panelView = 'directory';
-  panelHistory = [];
-  updatePanelBack();
+  directory.restore(homeDirectory);
+  clearAncestors();
   collapsedScrollTop = 0;
 }
 $('reset-map').addEventListener('click', () => {
@@ -438,7 +444,7 @@ $('reset-map').addEventListener('click', () => {
 aboutButton.addEventListener('click', () => {
   if (!panel.hidden && !about.hidden) closePanel({ focusTarget: aboutButton });
   else {
-    rememberPanel();
+    rememberParent({ fromRoot: true });
     showPanel('about');
   }
 });
@@ -473,10 +479,10 @@ overview.addEventListener('click', (event) => {
   if (!button) return;
   const view = button.dataset.overview;
   if (view === 'comments') {
-    rememberPanel();
+    rememberParent({ fromRoot: true });
     showPanel('comments');
   } else if (directory.snapshot().view !== view || directory.searchInput.value) {
-    rememberPanel();
+    rememberParent({ fromRoot: true });
     directory.showOverviewList(view);
     panelContent.scrollTop = 0;
   }
@@ -487,6 +493,70 @@ function boardPeople() {
   peopleByBoard ??= Promise.all(people.map(async (person) => [await commentBoardId(person), person]))
     .then((entries) => new Map(entries));
   return peopleByBoard;
+}
+
+function publicCommentAvatar(person) {
+  const avatar = document.createElement('span');
+  avatar.className = 'map-public-comments__avatar';
+  avatar.setAttribute('aria-hidden', 'true');
+  const emblem = !person.portrait && person.locations.map(({ institution }) => emblemFor(institution)).find(Boolean);
+  if (person.portrait) {
+    const image = document.createElement('img');
+    image.className = 'map-public-comments__portrait';
+    image.src = person.portrait.image;
+    image.alt = '';
+    image.loading = 'lazy';
+    avatar.append(image);
+  } else if (emblem) {
+    avatar.append(emblemImage(emblem));
+  } else {
+    avatar.textContent = [...person.name].at(0);
+  }
+  return avatar;
+}
+
+function publicCommentRow(comment, person) {
+  const row = document.createElement('li');
+  const meta = document.createElement('div');
+  meta.className = 'map-public-comments__meta';
+  const name = comment.authorName?.trim();
+  const url = typeof comment.authorWebsite === 'string' && URL.parse(comment.authorWebsite);
+  const link = url && ['http:', 'https:'].includes(url.protocol) && !url.username && !url.password;
+  const author = document.createElement('strong');
+  if (link) {
+    const website = document.createElement('a');
+    website.href = url.href;
+    website.target = '_blank';
+    website.rel = 'ugc nofollow noopener noreferrer';
+    website.textContent = name || '個人網站';
+    if (!name) author.append('匿名 ');
+    author.append(website);
+  } else {
+    author.textContent = name || '匿名';
+  }
+  const arrow = document.createElement('span');
+  arrow.setAttribute('aria-hidden', 'true');
+  arrow.textContent = ' → ';
+  const board = document.createElement('button');
+  board.type = 'button';
+  board.className = 'map-public-comments__board';
+  board.textContent = person.name;
+  board.setAttribute('aria-label', `開啟${person.name}的留言板`);
+  board.addEventListener('click', () => openPersonBoard(person, { fromParent: true }));
+  meta.append(author, arrow, board);
+
+  const content = document.createElement('div');
+  content.className = 'map-public-comments__content';
+  const body = document.createElement('div');
+  body.className = 'map-public-comments__body';
+  body.textContent = comment.body;
+  content.append(meta, body);
+  const chevron = document.createElement('span');
+  chevron.className = 'map-public-comments__chevron';
+  chevron.setAttribute('aria-hidden', 'true');
+  chevron.textContent = '›';
+  row.append(publicCommentAvatar(person), content, chevron);
+  return row;
 }
 
 async function loadPublicComments() {
@@ -506,20 +576,7 @@ async function loadPublicComments() {
     for (const comment of comments) {
       const person = boards.get(comment.person);
       if (!person) continue;
-      const row = document.createElement('li');
-      const button = document.createElement('button');
-      button.type = 'button';
-      const author = document.createElement('strong');
-      author.textContent = comment.authorName?.trim() || '匿名';
-      const board = document.createElement('span');
-      board.className = 'map-public-comments__board';
-      board.textContent = `${person.name}的留言板`;
-      const body = document.createElement('span');
-      body.textContent = comment.body;
-      button.append(author, board, body);
-      button.addEventListener('click', () => openPersonBoard(person));
-      row.append(button);
-      rows.append(row);
+      rows.append(publicCommentRow(comment, person));
     }
     publicList.append(rows);
     nextPublicCursor = next;
@@ -542,7 +599,7 @@ function personRef(person) {
   return person && { section: person.section, raw: person.raw };
 }
 
-function panelSnapshot(options) {
+function panelSnapshot() {
   const { selection, focusedUnit, ...camera } = atlas.snapshot();
   return {
     camera,
@@ -555,29 +612,73 @@ function panelSnapshot(options) {
       tall: mapApp.classList.contains('is-sheet-tall'),
       scrollTop: panel.hidden ? collapsedScrollTop : panelContent.scrollTop,
     },
-    directory: directory.snapshot(options),
+    directory: directory.snapshot(),
   };
 }
 
 function updatePanelBack() {
-  const previous = panelHistory.at(-1);
+  const previous = panelAncestors.at(-1);
   panelBack.hidden = !previous;
   $('panel-back-title').textContent = previous?.title ?? '';
-  panelBack.setAttribute('aria-label', previous ? `返回${previous.title}` : '返回上一頁');
+  panelBack.setAttribute('aria-label', previous ? `上一層：${previous.title}` : '上一層');
 }
 
-function rememberPanel(options) {
-  const title = panelView === 'directory'
-    ? directoryElement.querySelector('.pa-dir-view-title')?.textContent
-    : panelContent.querySelector('section:not([hidden]) h2')?.textContent;
-  panelHistory.push({ ...panelSnapshot(options), title: title || '署名者名錄' });
-  if (panelHistory.length > 20) panelHistory.shift();
+function homeSnapshot() {
+  const { lat, lng, zoom } = atlas.snapshot();
+  return {
+    camera: { lat, lng, zoom },
+    directory: homeDirectory,
+    panel: { view: 'directory', open: true, scrollTop: 0 },
+    title: '全部署名者',
+  };
+}
+
+function clearAncestors() {
+  panelAncestors = [];
   updatePanelBack();
 }
 
+function isHomeDirectory(saved) {
+  return saved?.view === 'browse' && saved.groupBy === 'people' &&
+    !saved.institution && !saved.county && !saved.query?.trim();
+}
+
+function rememberParent({ fromRoot = false } = {}) {
+  const state = fromRoot ? null : panelSnapshot();
+  if (!state || (panelView === 'directory' && isHomeDirectory(state.directory))) {
+    panelAncestors = [homeSnapshot()];
+  } else {
+    const title = panelView === 'directory'
+      ? directoryElement.querySelector('.pa-dir-view-title')?.textContent
+      : panelContent.querySelector('section:not([hidden]) h2')?.textContent;
+    panelAncestors.push({ ...state, title: title || '署名者名錄' });
+  }
+  updatePanelBack();
+}
+
+function showHomePanel({ focus = true } = {}) {
+  clearAncestors();
+  pendingReveal = undefined;
+  directory.restore(homeDirectory);
+  atlas.select();
+  collapsedScrollTop = 0;
+  showPanel('directory', { focus });
+  panelContent.scrollTop = 0;
+}
+
+$('atlas-home').addEventListener('click', () => {
+  if (linkedPerson) {
+    const url = new URL(location.href);
+    url.searchParams.delete('person');
+    history.replaceState(history.state, '', url);
+    linkedPerson = null;
+  }
+  showHomePanel();
+});
+
 function saveView() {
   try {
-    sessionStorage.setItem(SESSION_KEY, JSON.stringify({ ...panelSnapshot(), history: panelHistory, linkedPerson }));
+    sessionStorage.setItem(SESSION_KEY, JSON.stringify({ ...panelSnapshot(), ancestors: panelAncestors, linkedPerson }));
   } catch {
     // The atlas still works when browser storage is unavailable.
   }
@@ -627,7 +728,7 @@ function restorePanel(state, { back = false } = {}) {
 }
 
 panelBack.addEventListener('click', () => {
-  const previous = panelHistory.pop();
+  const previous = panelAncestors.pop();
   updatePanelBack();
   if (previous) restorePanel(previous, { back: true });
 });
@@ -640,14 +741,10 @@ function restoreView(expectedLinkedPerson) {
     return false;
   }
   if (!state?.camera || !state.panel || (expectedLinkedPerson && state.linkedPerson !== expectedLinkedPerson)) return false;
-  panelHistory = Array.isArray(state.history) ? state.history.slice(-20) : [];
-  if (!panelHistory.length && state.panel.view !== 'directory') {
-    const parent = state.panel.detail?.parent;
-    panelHistory.push({
-      ...state,
-      title: parent ? (atlas.resolvePoint(parent.point)?.unit || atlas.resolvePoint(parent.point)?.institution || '校區名單') : '署名者名錄',
-      panel: parent ? { view: 'detail', detail: { ...parent, type: 'campus' }, scrollTop: parent.scrollTop } : { view: 'directory' },
-    });
+  panelAncestors = Array.isArray(state.ancestors) ? state.ancestors.slice(-20) : [];
+  const saved = state.directory;
+  if (!panelAncestors.length && (state.panel.view !== 'directory' || (saved && !isHomeDirectory(saved)))) {
+    panelAncestors = [{ ...homeSnapshot(), camera: state.camera }];
   }
   updatePanelBack();
   restorePanel(state);
@@ -656,18 +753,19 @@ function restoreView(expectedLinkedPerson) {
 
 async function openLinkedBoard(id) {
   const person = (await boardPeople()).get(id);
+  if (id !== linkedPerson) return;
   if (person) openPersonBoard(person);
   else restoreView();
 }
 
-function openPersonBoard(person) {
-  showPerson(person, undefined, { tall: narrowLayout.matches });
+function openPersonBoard(person, { fromParent = false } = {}) {
+  showPerson(person, undefined, { tall: narrowLayout.matches, fromParent });
   const heading = details.querySelector('.person-comments h3');
   heading.focus({ preventScroll: true });
   heading.scrollIntoView({ block: 'start' });
 }
 
-const linkedPerson = new URLSearchParams(location.search).get('person');
+let linkedPerson = new URLSearchParams(location.search).get('person');
 if (/^[a-f0-9]{32}$/.test(linkedPerson ?? '')) {
   const reloading = performance.getEntriesByType('navigation')[0]?.type === 'reload';
   if (!reloading || !restoreView(linkedPerson)) openLinkedBoard(linkedPerson).catch(() => restoreView());

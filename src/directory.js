@@ -297,10 +297,14 @@ export function mountDirectory(element, {
   function rememberSearchStart() {
     if (searchStarted || !searchInput.value.trim()) return;
     searchStarted = true;
-    onBeforeNavigate?.({ committedQuery: true });
+    onBeforeNavigate?.({ fromRoot: true });
   }
 
   function scheduleSearch() {
+    if (searchStarted && !searchInput.value.trim()) {
+      clearSearch();
+      return;
+    }
     rememberSearchStart();
     onSearchChange?.(searchInput.value);
     clearTimeout(searchTimer);
@@ -374,7 +378,7 @@ export function mountDirectory(element, {
   // ---- 導覽動作 ----
   function selectMode(groupBy) {
     if (groupBy === state.groupBy && !state.institution && state.view === 'browse' && !searchInput.value) return;
-    onBeforeNavigate?.();
+    onBeforeNavigate?.({ fromRoot: true, home: groupBy === 'people' && !state.county });
     state.groupBy = groupBy;
     state.institution = null;
     state.view = 'browse';
@@ -397,7 +401,7 @@ export function mountDirectory(element, {
   }
 
   function selectInstitution(inst, { fromCounty } = {}) {
-    onBeforeNavigate?.();
+    onBeforeNavigate?.({ replace: Boolean(state.institution) && !searchInput.value.trim() });
     const keepCounty = fromCounty ?? (state.county && inst.counties.includes(state.county) ? state.county : null);
     const countyChanged = keepCounty !== state.county;
     state.county = keepCounty;
@@ -410,7 +414,7 @@ export function mountDirectory(element, {
   }
 
   function showUnlocated() {
-    onBeforeNavigate?.();
+    onBeforeNavigate?.({ fromRoot: true });
     state.view = 'unlocated';
     state.institution = null;
     state.entryLimit = PAGE;
