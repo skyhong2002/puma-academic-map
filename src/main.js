@@ -267,7 +267,8 @@ function showPerson(person, point, { restoring = false, tall = false, fromParent
   import('./person-research.js').then(({ personResearch }) => {
     if (!body.isConnected) return;
     const research = personResearch(person, (other) => showPerson(other, undefined, { fromParent: true }));
-    if (research) body.append(research);
+    if (research?.keywords) body.append(research.keywords);
+    if (research?.related) details.append(research.related);
   }, () => {});
   showPanel('detail', { focus: !restoring });
   if (tall) setSheetTall(true);

@@ -26,9 +26,9 @@ export function personResearch(person, onOpenPerson) {
   const record = recordsByPerson.get(personKey(person));
   if (!record) return null;
 
-  const section = document.createElement('section');
-  section.className = 'map-person-research';
-  section.setAttribute('aria-label', '研究資料');
+  const keywordsSection = document.createElement('section');
+  keywordsSection.className = 'map-person-research';
+  keywordsSection.setAttribute('aria-label', '研究資料');
   const keywords = document.createElement('ul');
   keywords.className = 'map-person-research__keywords';
   for (const { label, source } of record.keywords) {
@@ -39,11 +39,11 @@ export function personResearch(person, onOpenPerson) {
     item.append(link);
     keywords.append(item);
   }
-  if (keywords.childElementCount) section.append(heading('研究關鍵字'), keywords);
+  if (keywords.childElementCount) keywordsSection.append(heading('研究關鍵字'), keywords);
   const scholar = record.scholar && sourceLink('Google Scholar', record.scholar);
   if (scholar) {
     scholar.className = 'map-person-research__scholar';
-    section.append(scholar);
+    keywordsSection.append(scholar);
   }
 
   const related = document.createElement('ul');
@@ -64,6 +64,18 @@ export function personResearch(person, onOpenPerson) {
     item.append(button);
     related.append(item);
   }
-  if (related.childElementCount) section.append(heading('相關研究者'), related);
-  return section.childElementCount ? section : null;
+  let relatedSection;
+  if (related.childElementCount) {
+    relatedSection = document.createElement('section');
+    relatedSection.className = 'map-person-research map-person-research--related';
+    relatedSection.setAttribute('aria-label', '相關研究者');
+    const description = document.createElement('p');
+    description.className = 'map-person-research__description';
+    description.textContent = `以下推薦的研究者與${person.name}有相近的研究領域，各人下方列出共同主題。`;
+    relatedSection.append(heading('相關研究者'), description, related);
+  }
+  return {
+    keywords: keywordsSection.childElementCount ? keywordsSection : null,
+    related: relatedSection,
+  };
 }
