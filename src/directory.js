@@ -549,7 +549,7 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
           state.entryLimit += PAGE;
           const fresh = entryList(list, { exclude, query });
           event.currentTarget.closest('.pa-dir-entries-wrap').replaceWith(fresh);
-          fresh.querySelectorAll('.pa-dir-entry')[nextIndex]?.focus();
+          fresh.querySelectorAll('.pa-dir-entry-head')[nextIndex]?.focus();
         },
         text: `再顯示 ${Math.min(PAGE, list.length - shown.length)} 筆（共 ${list.length} 筆）`,
       }));
@@ -562,40 +562,41 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
     const sources = sourcesFor(entry);
     const portrait = portraitFor(entry.section, entry.raw);
     const places = pointsBySection.get(entry.section)?.get(entry.raw) ?? [];
-    return h('li', { class: 'pa-dir-entry', tabindex: result ? '0' : '-1', dataset: result ? { result: '' } : {} },
-      h('div', { class: 'pa-dir-entry-head' },
-        portrait ? h('img', { class: 'pa-dir-portrait', src: portrait.image, alt: `${entry.name}的公開照片`, loading: 'lazy', width: '44', height: '44' }) : null,
-        h('span', { class: 'pa-dir-entry-name' }, entry.name ? highlight(entry.name, query) : '（未解析條目）'),
-        h('span', { class: `pa-dir-section-tag${entry.section === '共同領銜' ? ' is-lead' : ''}`, text: entry.section })),
-      h('p', { class: 'pa-dir-entry-raw' }, highlight(entry.affiliation || entry.raw, query)),
-      places.length ? h('ul', { class: 'pa-dir-entry-places' }, places.map((place) => h('li', {},
-        h('button', { type: 'button', class: 'pa-dir-cand',
-          onClick: () => onLocate?.(entry, place),
-          text: [place.institution, place.city, place.country].filter(Boolean).join(' · '),
-          'aria-label': `在地圖定位 ${entry.name}，${place.institution}`,
-        })))) : null,
-      !places.length ? h('p', { class: 'pa-dir-entry-note', text: '尚未取得可對應的機構座標。' }) : null,
-      h('details', { class: 'pa-dir-entry-details' },
-        h('summary', { text: sources.length ? `查核來源（${sources.length}）` : '署名來源' }),
-        candidates.length
-          ? h('div', { class: 'pa-dir-entry-cands' },
-            h('span', { class: 'pa-dir-muted', text: exclude ? '其他機構候選：' : '機構候選（未查核）：' }),
-            candidates.map((inst) => h('button', {
-              type: 'button',
-              class: 'pa-dir-cand',
-              onClick: () => selectInstitution(inst),
-              text: inst.name,
-            })))
-          : null,
-        h('div', { class: 'pa-dir-affiliation-sources' },
-          h('strong', { text: '學術單位查核來源' }),
-          sources.length
-            ? h('ul', {}, sources.map((source) => h('li', {},
-              extLink(source.url, source.label), '，', source.description)))
-            : h('p', { class: 'pa-dir-muted', text: '待補可核對此人的公開來源。' })),
-        portrait ? h('p', { class: 'pa-dir-entry-source' },
-          extLink(portrait.source_url, '照片來源'), '，', portrait.credit) : null,
-        SOURCE_URL ? h('p', { class: 'pa-dir-entry-source' }, extLink(SOURCE_URL, '原站名單')) : null));
+    const name = entry.name || '（未解析條目）';
+    return h('li', { class: 'pa-dir-entry' },
+      h('details', {},
+        h('summary', { class: 'pa-dir-entry-head', dataset: result ? { result: '' } : {} },
+          portrait ? h('img', { class: 'pa-dir-portrait', src: portrait.image, alt: '', loading: 'lazy', width: '28', height: '28' }) : null,
+          h('span', { class: 'pa-dir-entry-name', title: name }, highlight(name, query)),
+          h('span', { class: `pa-dir-section-tag${entry.section === '共同領銜' ? ' is-lead' : ''}`, text: entry.section })),
+        h('div', { class: 'pa-dir-entry-body' },
+          h('p', { class: 'pa-dir-entry-raw' }, highlight(entry.affiliation || entry.raw, query)),
+          places.length ? h('ul', { class: 'pa-dir-entry-places' }, places.map((place) => h('li', {},
+            h('button', { type: 'button', class: 'pa-dir-cand',
+              onClick: () => onLocate?.(entry, place),
+              text: [place.institution, place.city, place.country].filter(Boolean).join(' · '),
+              'aria-label': `在地圖定位 ${entry.name}，${place.institution}`,
+            })))) : null,
+          !places.length ? h('p', { class: 'pa-dir-entry-note', text: '尚未取得可對應的機構座標。' }) : null,
+          candidates.length
+            ? h('div', { class: 'pa-dir-entry-cands' },
+              h('span', { class: 'pa-dir-muted', text: exclude ? '其他機構候選：' : '機構候選（未查核）：' }),
+              candidates.map((inst) => h('button', {
+                type: 'button',
+                class: 'pa-dir-cand',
+                onClick: () => selectInstitution(inst),
+                text: inst.name,
+              })))
+            : null,
+          h('div', { class: 'pa-dir-affiliation-sources' },
+            h('strong', { text: `學術單位查核來源${sources.length ? `（${sources.length}）` : ''}` }),
+            sources.length
+              ? h('ul', {}, sources.map((source) => h('li', {},
+                extLink(source.url, source.label), '，', source.description)))
+              : h('p', { class: 'pa-dir-muted', text: '待補可核對此人的公開來源。' })),
+          portrait ? h('p', { class: 'pa-dir-entry-source' },
+            extLink(portrait.source_url, '照片來源'), '，', portrait.credit) : null,
+          SOURCE_URL ? h('p', { class: 'pa-dir-entry-source' }, extLink(SOURCE_URL, '原站名單')) : null)));
   }
 
   function renderSearch(query) {
@@ -678,7 +679,7 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
             const nextIndex = shownPeople.length;
             state.searchLimit += SEARCH_LIMIT;
             render();
-            main.querySelectorAll('.pa-dir-entry')[nextIndex]?.focus();
+            main.querySelectorAll('.pa-dir-entry-head')[nextIndex]?.focus();
           },
           text: `再顯示 ${Math.min(SEARCH_LIMIT, people.length - shownPeople.length)} 筆`,
         }));
