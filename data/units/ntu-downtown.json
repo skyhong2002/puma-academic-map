@@ -1,0 +1,95 @@
+{
+  "institution": "國立臺灣大學",
+  "campus": "城中校區",
+  "units": {
+    "醫學院": {
+      "lat": 25.039534534826796,
+      "lon": 121.51965205380036,
+      "building": "基礎醫學大樓",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=CN1004&proj=EPSG%3A4326",
+      "address_source_url": "https://www.mc.ntu.edu.tw/"
+    },
+    "醫學系": {
+      "lat": 25.039534534826796,
+      "lon": 121.51965205380036,
+      "building": "基礎醫學大樓",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=CN1004&proj=EPSG%3A4326",
+      "address_source_url": "https://www.mc.ntu.edu.tw/",
+      "aliases": [
+        "醫學院醫學系"
+      ]
+    },
+    "醫學檢驗暨生物技術學系": {
+      "lat": 25.041649926226064,
+      "lon": 121.5172496516474,
+      "building": "臺大醫院",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=CN000X&proj=EPSG%3A4326",
+      "address_source_url": "https://www.mc.ntu.edu.tw/medtech/",
+      "aliases": [
+        "醫學檢驗及生物技術學系",
+        "醫技系"
+      ]
+    },
+    "臨床醫學研究所": {
+      "lat": 25.041649926226064,
+      "lon": 121.5172496516474,
+      "building": "臺大醫院",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=CN000X&proj=EPSG%3A4326",
+      "address_source_url": "https://www.mc.ntu.edu.tw/clinicmed/"
+    },
+    "牙醫學系": {
+      "lat": 25.041649926226064,
+      "lon": 121.5172496516474,
+      "building": "臺大醫院",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=CN000X&proj=EPSG%3A4326",
+      "address_source_url": "https://www.mc.ntu.edu.tw/dent/",
+      "aliases": [
+        "牙醫系"
+      ]
+    },
+    "醫學工程學系": {
+      "lat": 25.039736302868643,
+      "lon": 121.52015801820747,
+      "building": "聯合教學館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=CT1007&proj=EPSG%3A4326",
+      "address_source_url": "https://bme.ntu.edu.tw/LiAnChu.html",
+      "aliases": [
+        "醫工系",
+        "醫學工程學研究所"
+      ]
+    },
+    "耳鼻喉科": {
+      "lat": 25.041649926226064,
+      "lon": 121.5172496516474,
+      "building": "臺大醫院",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=CN000X&proj=EPSG%3A4326",
+      "address_source_url": "https://www.ntuh.gov.tw/ENT/Index.action",
+      "aliases": [
+        "耳鼻喉部",
+        "醫學系耳鼻喉科"
+      ]
+    },
+    "婦產科": {
+      "lat": 25.041649926226064,
+      "lon": 121.5172496516474,
+      "building": "臺大醫院",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=CN000X&proj=EPSG%3A4326",
+      "address_source_url": "https://www.ntuh.gov.tw/obgy/Index.action",
+      "aliases": [
+        "醫學系婦產科",
+        "婦產部"
+      ]
+    },
+    "精神醫學部": {
+      "lat": 25.041649926226064,
+      "lon": 121.5172496516474,
+      "building": "臺大醫院",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=CN000X&proj=EPSG%3A4326",
+      "address_source_url": "https://www.ntuh.gov.tw/psych/Index.action",
+      "aliases": [
+        "精神科",
+        "醫學院精神科"
+      ]
+    }
+  }
+}

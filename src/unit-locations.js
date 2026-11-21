@@ -45,7 +45,9 @@ export function refineCampus(person, point) {
   if (!locations) return campus;
   const genericGuangfu = point.institution === '國立陽明交通大學' &&
     campus.campus === '新竹光復校區' && !/光復校區/.test(person.affiliation_text);
-  if (campus.campus && !genericGuangfu) return campus;
+  const genericNtuMain = campus.institution === '國立臺灣大學' &&
+    campus.campus === '校總區' && !person.affiliation_text.includes('校總區');
+  if (campus.campus && !genericGuangfu && !genericNtuMain) return campus;
   const unitName = departmentFor(person, campus.institution);
   const unit = locations.get(normalize(unitName));
   return (unit?.campus && officialCampus(unit.institution, unit.campus)) ||

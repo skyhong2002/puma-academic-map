@@ -1,0 +1,881 @@
+{
+  "Boston University": {
+    "file": "institution-c76e1fcbf4b8.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Boston_University_seal.svg",
+    "credit": "Boston University標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Boston_University_seal.svg"
+  },
+  "CUNY Brooklyn College": {
+    "file": "institution-873cd8e53bab.webp",
+    "source_url": "https://en.wikipedia.org/wiki/File:Brooklyn_College_Seal.svg",
+    "credit": "CUNY Brooklyn College標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://en.wikipedia.org/wiki/File:Brooklyn_College_Seal.svg"
+  },
+  "College of Charleston": {
+    "file": "institution-97a22d705408.webp",
+    "source_url": "https://en.wikipedia.org/wiki/File:College_of_Charleston_%28Cofc%29_Seal.png",
+    "credit": "College of Charleston標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://en.wikipedia.org/wiki/File:College_of_Charleston_%28Cofc%29_Seal.png"
+  },
+  "Deakin University（Melbourne Burwood 校區）": {
+    "file": "institution-0cefdd1d1df5.webp",
+    "source_url": "https://en.wikipedia.org/wiki/File:Deakin_University_Logo_2017.svg",
+    "credit": "Deakin University（Melbourne Burwood 校區）標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://en.wikipedia.org/wiki/File:Deakin_University_Logo_2017.svg"
+  },
+  "Duke University": {
+    "file": "institution-e7c278777cd6.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Duke_University_logo.svg",
+    "credit": "Duke University標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Duke_University_logo.svg"
+  },
+  "Eli Lilly and Company（印第安納波利斯企業總部）": {
+    "file": "institution-7b298ce4c2d8.webp",
+    "source_url": "https://www.lilly.com/",
+    "credit": "Eli Lilly and Company 企業字標。Wikimedia Commons 版本取自公司網站，標為公有領域並保留商標註記；本站等比轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Eli_Lilly_and_Company.svg"
+  },
+  "Emory University": {
+    "file": "institution-4eb43127a7e6.webp",
+    "source_url": "https://en.wikipedia.org/wiki/File:Emory_University_Seal.svg",
+    "credit": "Emory University標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://en.wikipedia.org/wiki/File:Emory_University_Seal.svg"
+  },
+  "Georgia State University": {
+    "file": "institution-d69444ed2176.webp",
+    "source_url": "https://en.wikipedia.org/wiki/File:Georgia_State_University_Official_Seal.png",
+    "credit": "Georgia State University標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://en.wikipedia.org/wiki/File:Georgia_State_University_Official_Seal.png"
+  },
+  "Gonzaga University": {
+    "file": "institution-da6444689062.webp",
+    "source_url": "https://en.wikipedia.org/wiki/File:Gonzaga_University_coat_of_arms.svg",
+    "credit": "Gonzaga University標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://en.wikipedia.org/wiki/File:Gonzaga_University_coat_of_arms.svg"
+  },
+  "Harvard University": {
+    "file": "institution-513241526dd2.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Harvard_University_coat_of_arms.svg",
+    "credit": "Harvard University標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Harvard_University_coat_of_arms.svg"
+  },
+  "Humboldt-Universität zu Berlin": {
+    "file": "institution-72b018cd8368.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Huberlin-logo.svg",
+    "credit": "Humboldt-Universität zu Berlin標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Huberlin-logo.svg"
+  },
+  "Johns Hopkins Bloomberg School of Public Health": {
+    "file": "institution-2303e022c82e.webp",
+    "source_url": "https://en.wikipedia.org/wiki/File:Bloomberg.logo.small.horizontal.blue.png",
+    "credit": "Johns Hopkins Bloomberg School of Public Health標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://en.wikipedia.org/wiki/File:Bloomberg.logo.small.horizontal.blue.png"
+  },
+  "Ruhr-Universität Bochum": {
+    "file": "institution-d8d1c07e8770.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ruhr-Universit%C3%A4t_Bochum_logo.svg",
+    "credit": "Ruhr-Universität Bochum標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Ruhr-Universit%C3%A4t_Bochum_logo.svg"
+  },
+  "SOAS University of London": {
+    "file": "institution-c54871576542.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:SOAS_Crest.png",
+    "credit": "SOAS University of London標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:SOAS_Crest.png"
+  },
+  "SUNY Downstate Health Sciences University": {
+    "file": "institution-23bdf980e5ec.webp",
+    "source_url": "https://en.wikipedia.org/wiki/File:SUNY_Downstate_Health_Sciences_University_logo.svg",
+    "credit": "SUNY Downstate Health Sciences University標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://en.wikipedia.org/wiki/File:SUNY_Downstate_Health_Sciences_University_logo.svg"
+  },
+  "Stanford University": {
+    "file": "institution-27faf32e46fa.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Seal_of_Leland_Stanford_Junior_University.svg",
+    "credit": "Stanford University標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Seal_of_Leland_Stanford_Junior_University.svg"
+  },
+  "The University of Texas Health Science Center at Houston": {
+    "file": "institution-8bd45cee95b9.webp",
+    "source_url": "https://en.wikipedia.org/wiki/File:UTHealth_Houston_Seal.png",
+    "credit": "The University of Texas Health Science Center at Houston標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://en.wikipedia.org/wiki/File:UTHealth_Houston_Seal.png"
+  },
+  "The University of Texas at Arlington": {
+    "file": "institution-4f552ef72e94.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:University_of_Texas_at_Arlington_logo.svg",
+    "credit": "The University of Texas at Arlington標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:University_of_Texas_at_Arlington_logo.svg"
+  },
+  "UT MD Anderson Cancer Center": {
+    "file": "institution-8247a1251d5e.webp",
+    "source_url": "https://en.wikipedia.org/wiki/File:MD_Anderson_Cancer_Center_logo.svg",
+    "credit": "UT MD Anderson Cancer Center標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://en.wikipedia.org/wiki/File:MD_Anderson_Cancer_Center_logo.svg"
+  },
+  "University of British Columbia（Vancouver 校區）": {
+    "file": "institution-b51c8b56c868.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:British_columbia_ca_univ_logo.svg",
+    "credit": "University of British Columbia（Vancouver 校區）標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:British_columbia_ca_univ_logo.svg"
+  },
+  "University of California, San Diego": {
+    "file": "institution-bf4e5164614c.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Seal_of_the_University_of_California%2C_San_Diego.svg",
+    "credit": "University of California, San Diego標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Seal_of_the_University_of_California%2C_San_Diego.svg"
+  },
+  "University of California-Los Angeles": {
+    "file": "institution-ddddc357b5bb.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:University_of_California%2C_Los_Angeles_logo.svg",
+    "credit": "University of California-Los Angeles標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:University_of_California%2C_Los_Angeles_logo.svg"
+  },
+  "University of California-San Francisco": {
+    "file": "institution-68c70a2ff621.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:University_of_California%2C_San_Francisco_logo.svg",
+    "credit": "University of California-San Francisco標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:University_of_California%2C_San_Francisco_logo.svg"
+  },
+  "University of Florida": {
+    "file": "institution-34053956d1cf.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:University_of_Florida_logo.svg",
+    "credit": "University of Florida標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:University_of_Florida_logo.svg"
+  },
+  "University of Hawaii at Manoa": {
+    "file": "institution-2160f2974f9a.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:University_of_Hawaii_at_Manoa_logo.png",
+    "credit": "University of Hawaii at Manoa標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:University_of_Hawaii_at_Manoa_logo.png"
+  },
+  "University of Houston": {
+    "file": "institution-d3170e860be7.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:University_of_Houston_logo.svg",
+    "credit": "University of Houston標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:University_of_Houston_logo.svg"
+  },
+  "University of Nevada-Las Vegas": {
+    "file": "institution-c208525e1a41.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:University_of_Nevada%2C_Las_Vegas_logo.svg",
+    "credit": "University of Nevada-Las Vegas標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:University_of_Nevada%2C_Las_Vegas_logo.svg"
+  },
+  "University of Pennsylvania": {
+    "file": "institution-b058b3b9104d.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:University_of_Pennsylvania_wordmark.svg",
+    "credit": "University of Pennsylvania標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:University_of_Pennsylvania_wordmark.svg"
+  },
+  "University of St. Thomas": {
+    "file": "institution-929d72a8804a.webp",
+    "source_url": "https://stthom.edu/news/brand/",
+    "credit": "University of St. Thomas（休士頓）品牌頁提供的校徽。",
+    "license_url": "https://stthom.edu/terms-and-conditions/"
+  },
+  "University of Tsukuba": {
+    "file": "institution-48c2e31dc9ba.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Logo_of_University_of_Tsukuba.svg",
+    "credit": "University of Tsukuba標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Logo_of_University_of_Tsukuba.svg"
+  },
+  "University of Washington": {
+    "file": "institution-92c0979654c1.webp",
+    "source_url": "https://en.wikipedia.org/wiki/File:University_of_Washington_seal.svg",
+    "credit": "University of Washington標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://en.wikipedia.org/wiki/File:University_of_Washington_seal.svg"
+  },
+  "Universität zu Köln": {
+    "file": "institution-ba0e57651ae6.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Universitaet_zu_Koeln_Logo_ENG.jpg",
+    "credit": "Universität zu Köln標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Universitaet_zu_Koeln_Logo_ENG.jpg"
+  },
+  "Virginia Commonwealth University": {
+    "file": "institution-b005fa2f909a.webp",
+    "source_url": "https://en.wikipedia.org/wiki/File:VCU_Seal_sans_logotype.svg",
+    "credit": "Virginia Commonwealth University標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://en.wikipedia.org/wiki/File:VCU_Seal_sans_logotype.svg"
+  },
+  "West Virginia University": {
+    "file": "institution-6abfa1737c03.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:West_Virginia_University_logo.svg",
+    "credit": "West Virginia University標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:West_Virginia_University_logo.svg"
+  },
+  "Western University": {
+    "file": "institution-e7dcba87a456.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Western_ontario_univ_textlogo.svg",
+    "credit": "Western University標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Western_ontario_univ_textlogo.svg"
+  },
+  "Western Washington University": {
+    "file": "institution-3e3f29da2917.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:West_washington_univ_logo.svg",
+    "credit": "Western Washington University標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:West_washington_univ_logo.svg"
+  },
+  "Yale School of Medicine": {
+    "file": "institution-cf5d0df44aa5.webp",
+    "source_url": "https://medicine.yale.edu/",
+    "credit": "Yale School of Medicine在官方網站或檔案頁公開的識別圖樣。"
+  },
+  "Yale University": {
+    "file": "institution-3628a4875ffe.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Yale_University_logo.svg",
+    "credit": "Yale University標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Yale_University_logo.svg"
+  },
+  "世新大學": {
+    "file": "institution-55161a771d0e.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Shih_Hsin_University_logo.png",
+    "credit": "世新大學標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Shih_Hsin_University_logo.png"
+  },
+  "中國文化大學": {
+    "file": "institution-273596303db7.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:PCCU_LOGO.svg",
+    "credit": "中國文化大學標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:PCCU_LOGO.svg"
+  },
+  "中國醫藥大學": {
+    "file": "institution-e59620782d51.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:China_Medical_University_%28Taiwan%29_logo.svg",
+    "credit": "中國醫藥大學標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:China_Medical_University_%28Taiwan%29_logo.svg"
+  },
+  "中央研究院": {
+    "file": "institution-78a27a84c7fb.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Academia_Sinica_Emblem.svg",
+    "credit": "中央研究院標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Academia_Sinica_Emblem.svg"
+  },
+  "中央研究院分子生物研究所": {
+    "file": "institution-86204b4c5fb3.webp",
+    "source_url": "https://www.imb.sinica.edu.tw/ch/",
+    "credit": "中央研究院分子生物研究所在官方網站或檔案頁公開的識別圖樣。",
+    "license_url": "https://www.sinica.edu.tw/cp/398"
+  },
+  "中央研究院原子與分子科學研究所": {
+    "file": "institution-2aac818c57ac.webp",
+    "source_url": "https://www.iams.sinica.edu.tw/",
+    "credit": "中央研究院原子與分子科學研究所在官方網站使用的識別圖樣。",
+    "license_url": "https://www.sinica.edu.tw/cp/398"
+  },
+  "中央研究院基因體研究中心（南港院區）": {
+    "file": "institution-1edac223d69e.webp",
+    "source_url": "https://www.genomics.sinica.edu.tw/",
+    "credit": "中央研究院基因體研究中心（南港院區）在官方網站使用的識別圖樣。",
+    "license_url": "https://www.sinica.edu.tw/cp/398"
+  },
+  "中央研究院政治學研究所（南港院區）": {
+    "file": "institution-031065ae55ab.webp",
+    "source_url": "https://www.ipsas.sinica.edu.tw/",
+    "credit": "中央研究院政治學研究所（南港院區）在官方網站使用的識別圖樣。",
+    "license_url": "https://www.sinica.edu.tw/cp/398"
+  },
+  "中央研究院數學研究所（臺大校區）": {
+    "file": "institution-440406a86a82.webp",
+    "source_url": "https://www.math.sinica.edu.tw/f59addca-1da6-47fd-9bb8-18d087da6088",
+    "credit": "中央研究院數學研究所（臺大校區）在官方網站使用的識別圖樣。",
+    "license_url": "https://www.sinica.edu.tw/cp/398"
+  },
+  "中央研究院植物暨微生物學研究所（南港院區）": {
+    "file": "institution-b54c0968b982.webp",
+    "source_url": "https://ipmb.sinica.edu.tw/en",
+    "credit": "中央研究院植物暨微生物學研究所（南港院區）在官方網站使用的識別圖樣。",
+    "license_url": "https://www.sinica.edu.tw/cp/398"
+  },
+  "中央研究院歐美研究所（南港院區）": {
+    "file": "institution-fdbce0f030c4.webp",
+    "source_url": "https://www.ea.sinica.edu.tw/",
+    "credit": "中央研究院歐美研究所（南港院區）在官方網站使用的識別圖樣。",
+    "license_url": "https://www.sinica.edu.tw/cp/398"
+  },
+  "中央研究院歷史語言研究所（南港院區）": {
+    "file": "institution-27a5b86363f3.webp",
+    "source_url": "https://www1.ihp.sinica.edu.tw/",
+    "credit": "中央研究院歷史語言研究所（南港院區）在官方網站使用的識別圖樣。",
+    "license_url": "https://www.sinica.edu.tw/cp/398"
+  },
+  "中央研究院民族學研究所": {
+    "file": "institution-9c0d154e3a7b.webp",
+    "source_url": "https://www.ioe.sinica.edu.tw/",
+    "credit": "中央研究院民族學研究所在官方網站使用的識別圖樣。",
+    "license_url": "https://www.sinica.edu.tw/cp/398"
+  },
+  "中央研究院環境變遷研究中心（南港院區）": {
+    "file": "institution-31fcb9f599dc.webp",
+    "source_url": "https://rcec.sinica.edu.tw/",
+    "credit": "中央研究院環境變遷研究中心（南港院區）在官方網站使用的識別圖樣。",
+    "license_url": "https://www.sinica.edu.tw/cp/398"
+  },
+  "中央研究院生物化學研究所（南港院區）": {
+    "file": "institution-4365ea31679e.webp",
+    "source_url": "https://www.ibc.sinica.edu.tw/",
+    "credit": "中央研究院生物化學研究所（南港院區）在官方網站使用的識別圖樣。",
+    "license_url": "https://www.sinica.edu.tw/cp/398"
+  },
+  "中央研究院生物多樣性研究中心（南港院區）": {
+    "file": "institution-dfe2f1afaf2c.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Brcas_logo.png",
+    "credit": "中央研究院生物多樣性研究中心（南港院區）標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Brcas_logo.png"
+  },
+  "中央研究院生物醫學科學研究所（南港院區）": {
+    "file": "institution-3905fa689fa9.webp",
+    "source_url": "https://www.ibms.sinica.edu.tw/en/index.html",
+    "credit": "中央研究院生物醫學科學研究所（南港院區）在官方網站使用的識別圖樣。",
+    "license_url": "https://www.sinica.edu.tw/cp/398"
+  },
+  "中央研究院生醫轉譯研究中心": {
+    "file": "institution-1f91f469de25.webp",
+    "source_url": "https://biotrec.sinica.edu.tw/",
+    "credit": "中央研究院生醫轉譯研究中心在官方網站使用的識別圖樣。",
+    "license_url": "https://www.sinica.edu.tw/cp/398"
+  },
+  "中央研究院社會學研究所（南港院區）": {
+    "file": "institution-139c57f8758d.webp",
+    "source_url": "https://www.ios.sinica.edu.tw/",
+    "credit": "中央研究院社會學研究所（南港院區）在官方網站使用的識別圖樣。",
+    "license_url": "https://www.sinica.edu.tw/cp/398"
+  },
+  "中央研究院細胞與個體生物學研究所（南港院區）": {
+    "file": "institution-3f182021dd9e.webp",
+    "source_url": "https://icob.sinica.edu.tw/",
+    "credit": "中央研究院細胞與個體生物學研究所（南港院區）在官方網站使用的識別圖樣。",
+    "license_url": "https://www.sinica.edu.tw/cp/398"
+  },
+  "中央研究院統計科學研究所（南港院區）": {
+    "file": "institution-6aa7602b8c90.webp",
+    "source_url": "https://www.stat.sinica.edu.tw/cht/index.php",
+    "credit": "中央研究院統計科學研究所（南港院區）在官方網站使用的識別圖樣。",
+    "license_url": "https://www.sinica.edu.tw/cp/398"
+  },
+  "中央研究院資訊科學研究所": {
+    "file": "institution-e359bf29f419.webp",
+    "source_url": "https://web.iis.sinica.edu.tw/zh/index.html",
+    "credit": "中央研究院資訊科學研究所在官方網站或檔案頁公開的識別圖樣。",
+    "license_url": "https://www.sinica.edu.tw/cp/398"
+  },
+  "中央研究院資訊科技創新研究中心（南港院區）": {
+    "file": "institution-6ff11f0e8094.webp",
+    "source_url": "https://www.citi.sinica.edu.tw/main",
+    "credit": "中央研究院資訊科技創新研究中心（南港院區）在官方網站使用的識別圖樣。",
+    "license_url": "https://www.sinica.edu.tw/cp/398"
+  },
+  "中央研究院近代史研究所（南港院區）": {
+    "file": "institution-a18c18c8e72d.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:ROC_Institute_of_Modern_History_Academia_Sinica_Emblem.svg",
+    "credit": "中央研究院近代史研究所（南港院區）標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:ROC_Institute_of_Modern_History_Academia_Sinica_Emblem.svg"
+  },
+  "中央警察大學": {
+    "file": "institution-267e298d98d5.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:ROC_Central_Police_University_Emblem.svg",
+    "credit": "中央警察大學標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:ROC_Central_Police_University_Emblem.svg"
+  },
+  "中臺科技大學": {
+    "file": "institution-458dfa886c64.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Central_Taiwan_University_of_Science_and_Technology_logo.svg",
+    "credit": "中臺科技大學標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Central_Taiwan_University_of_Science_and_Technology_logo.svg"
+  },
+  "中華科技大學": {
+    "file": "institution-47dac127bdf6.webp",
+    "source_url": "https://www.cust.edu.tw/sec/download.html",
+    "credit": "中華科技大學校徽，取自秘書室下載專區「中華科技大學 LOGO」（Slogo.jpg）。本站版本等比縮圖並轉為 WebP。",
+    "license_url": "https://www.cust.edu.tw/sec/download.html"
+  },
+  "健行科技大學": {
+    "file": "institution-5501bea2972d.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Chien_Hsin_University_of_Science_and_Technology_logo.svg",
+    "credit": "健行科技大學標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Chien_Hsin_University_of_Science_and_Technology_logo.svg"
+  },
+  "僑光科技大學": {
+    "file": "institution-c5f953e27e7d.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Overseas_Chinese_University_logo.svg",
+    "credit": "僑光科技大學標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Overseas_Chinese_University_logo.svg"
+  },
+  "元培醫事科技大學": {
+    "file": "institution-5a3f1f227f63.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Yuanpei_University_logo_2016.jpg",
+    "credit": "元培醫事科技大學標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Yuanpei_University_logo_2016.jpg"
+  },
+  "元智大學": {
+    "file": "institution-70a523992274.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Yuan_Ze_University_Logo.png",
+    "credit": "元智大學標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Yuan_Ze_University_Logo.png"
+  },
+  "光田綜合醫院": {
+    "file": "institution-b638d899e643.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Kuang_Tien_General_Hospital_logo.svg",
+    "credit": "光田綜合醫院標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Kuang_Tien_General_Hospital_logo.svg"
+  },
+  "劍橋大學 Cavendish Laboratory": {
+    "file": "institution-28e046672375.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:University_of_Cambridge_logo.png",
+    "credit": "劍橋大學 Cavendish Laboratory標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:University_of_Cambridge_logo.png"
+  },
+  "加州大學柏克萊分校": {
+    "file": "institution-892820f24b53.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Seal_of_University_of_California%2C_Berkeley.svg",
+    "credit": "加州大學柏克萊分校標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Seal_of_University_of_California%2C_Berkeley.svg"
+  },
+  "加州大學聖塔克魯斯分校": {
+    "file": "institution-4e2d5f171788.webp",
+    "source_url": "https://communications.ucsc.edu/visual-design/logos-imagery/",
+    "credit": "UC Santa Cruz 官方字標。Wikimedia Commons 版本取自校方識別頁，標為公有領域並保留商標註記；本站等比轉為 WebP。",
+    "license_url": "https://communications.ucsc.edu/brand-overview/logos-imagery/"
+  },
+  "北美洲台灣人教授協會": {
+    "file": "institution-74d25e2a5ccf.webp",
+    "source_url": "https://www.natpa.org/",
+    "credit": "北美洲台灣人教授協會在官方網站使用的識別圖樣。"
+  },
+  "南伊利諾大學卡本代爾分校": {
+    "file": "institution-bd47a0d701b8.webp",
+    "source_url": "https://en.wikipedia.org/wiki/File:Southern_Illinois_University_seal.png",
+    "credit": "南伊利諾大學卡本代爾分校標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://en.wikipedia.org/wiki/File:Southern_Illinois_University_seal.png"
+  },
+  "南加州大學健康科學校區": {
+    "file": "institution-00a46f9cd6d2.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:University_of_Southern_California_logo.svg",
+    "credit": "南加州大學健康科學校區標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:University_of_Southern_California_logo.svg"
+  },
+  "台灣金融研訓院": {
+    "file": "institution-a0d5a15b42f0.webp",
+    "source_url": "https://www.tabf.org.tw/",
+    "credit": "台灣金融研訓院在官網使用的識別圖樣。"
+  },
+  "國家中山科學研究院": {
+    "file": "institution-68fa8dc5c202.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:National_Chung-Shan_Institute_of_Science_%26_Technology_logo.jpg",
+    "credit": "國家中山科學研究院標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:National_Chung-Shan_Institute_of_Science_%26_Technology_logo.jpg"
+  },
+  "國家同步輻射研究中心": {
+    "file": "institution-3bfd9c5b0779.webp",
+    "source_url": "https://www.nsrrc.org.tw/chinese/index.aspx",
+    "credit": "國家同步輻射研究中心在官方網站或檔案頁公開的識別圖樣。",
+    "license_url": "https://www.nsrrc.org.tw/english/copyright.aspx"
+  },
+  "國家衛生研究院": {
+    "file": "institution-3e16dfce4c27.webp",
+    "source_url": "https://www.nhri.edu.tw/",
+    "credit": "國家衛生研究院在官網使用的識別圖樣。",
+    "license_url": "https://www.nhri.edu.tw/Webservices/opendata"
+  },
+  "國立中山大學": {
+    "file": "institution-1a372dd91ee8.webp",
+    "source_url": "https://www.nsysu.edu.tw/",
+    "credit": "國立中山大學在官方網站使用的識別圖樣。"
+  },
+  "國立中正大學": {
+    "file": "institution-5021db92d967.webp",
+    "source_url": "https://oga.ccu.edu.tw/p/404-1006-58340.php?Lang=zh-tw",
+    "credit": "國立中正大學在官方網站或檔案頁公開的識別圖樣。",
+    "license_url": "https://oga.ccu.edu.tw/p/404-1006-58340.php?Lang=zh-tw"
+  },
+  "國立中興大學": {
+    "file": "institution-e29f2afe7cd8.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:National_Chung_Hsing_University_logo.svg",
+    "credit": "國立中興大學標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:National_Chung_Hsing_University_logo.svg"
+  },
+  "國立屏東大學": {
+    "file": "institution-d15bc5d76335.webp",
+    "source_url": "https://www.nptu.edu.tw/",
+    "credit": "國立屏東大學在官網使用的識別圖樣。"
+  },
+  "國立屏東科技大學": {
+    "file": "institution-b164a7141798.webp",
+    "source_url": "https://wp.npust.edu.tw/",
+    "credit": "國立屏東科技大學在官網使用的識別圖樣。"
+  },
+  "國立彰化師範大學": {
+    "file": "institution-681f6425ba35.webp",
+    "source_url": "https://secretary.ncue.edu.tw/p/412-1006-1281.php",
+    "credit": "國立彰化師範大學在官方網站或檔案頁公開的識別圖樣。"
+  },
+  "國立成功大學": {
+    "file": "institution-fd5e32e6aaca.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:National_Cheng_Kung_University_logo.svg",
+    "credit": "國立成功大學標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:National_Cheng_Kung_University_logo.svg"
+  },
+  "國立政治大學": {
+    "file": "institution-50b115309cb8.webp",
+    "source_url": "https://www.nccu.edu.tw/p/426-1000-78.php?Lang=zh-tw",
+    "credit": "國立政治大學官網公開的識別圖示。",
+    "license_url": "https://www.nccu.edu.tw/p/426-1000-78.php?Lang=zh-tw"
+  },
+  "國立新竹教育大學（現清華大學南大校區）": {
+    "file": "institution-59cb4074c435.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:NHCUE_logo.jpg",
+    "credit": "國立新竹教育大學（現清華大學南大校區）標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:NHCUE_logo.jpg"
+  },
+  "國立清華大學": {
+    "file": "institution-a4af35608fa2.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:NTHU_Round_Seal.svg",
+    "credit": "國立清華大學標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:NTHU_Round_Seal.svg"
+  },
+  "國立澎湖科技大學": {
+    "file": "institution-a98ea741a7df.webp",
+    "source_url": "https://www.npu.edu.tw/",
+    "credit": "國立澎湖科技大學在官方網站使用的識別圖樣。"
+  },
+  "國立聯合大學": {
+    "file": "institution-16068b214fba.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:National_United_University_emblem.svg",
+    "credit": "國立聯合大學標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:National_United_University_emblem.svg"
+  },
+  "國立臺中科技大學": {
+    "file": "institution-9c9f40324d50.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:NUTC_logo.gif",
+    "credit": "國立臺中科技大學標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:NUTC_logo.gif"
+  },
+  "國立臺北大學": {
+    "file": "institution-423500e27fd7.webp",
+    "source_url": "https://new.ntpu.edu.tw/",
+    "credit": "國立臺北大學在官方網站使用的識別圖樣。"
+  },
+  "國立臺北教育大學": {
+    "file": "institution-484f581f7915.webp",
+    "source_url": "https://alumnusntue.ntue.edu.tw/p/412-1020-4003.php?Lang=zh-tw",
+    "credit": "國立臺北教育大學標誌，以來源圖檔等比縮放並轉為 WebP。"
+  },
+  "國立臺北科技大學": {
+    "file": "institution-3c926540cf36.webp",
+    "source_url": "https://sec.ntut.edu.tw/p/412-1027-8560.php?Lang=zh-tw",
+    "credit": "國立臺北科技大學官網公開的識別圖示。",
+    "license_url": "https://sec.ntut.edu.tw/p/412-1027-8560.php?Lang=zh-tw"
+  },
+  "國立臺北藝術大學": {
+    "file": "institution-558c3bdc891f.webp",
+    "source_url": "https://w3.tnua.edu.tw/",
+    "credit": "國立臺北藝術大學在官方網站使用的識別圖樣。"
+  },
+  "國立臺南藝術大學": {
+    "file": "institution-d05983b4fdce.webp",
+    "source_url": "https://www.tnnua.edu.tw/p/412-1000-90.php?Lang=zh-tw",
+    "credit": "國立臺南藝術大學校徽「書卷」，取自校方「認識南藝／校徽」頁的 PNG 去背下載。校方註記已取得商標註冊證，限制範圍為未經授權的商業營利用途。本站版本等比縮圖並轉為 WebP。",
+    "license_url": "https://www.tnnua.edu.tw/p/412-1000-90.php?Lang=zh-tw"
+  },
+  "國立臺東大學": {
+    "file": "institution-28f80046597c.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:National_Taitung_University_logo.png",
+    "credit": "國立臺東大學標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:National_Taitung_University_logo.png"
+  },
+  "國立臺灣大學": {
+    "file": "institution-802d58d63f0f.webp",
+    "source_url": "https://www.ntu.edu.tw/about/emblem.html",
+    "credit": "國立臺灣大學標誌，以來源圖檔等比縮放並轉為 WebP。"
+  },
+  "國立臺灣師範大學": {
+    "file": "institution-ed987ab86573.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:National_Taiwan_Normal_University_logo.svg",
+    "credit": "國立臺灣師範大學標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:National_Taiwan_Normal_University_logo.svg"
+  },
+  "國立臺灣科技大學": {
+    "file": "institution-2c25108a6c23.webp",
+    "source_url": "https://www.ntust.edu.tw/p/412-1000-97.php?Lang=zh-tw",
+    "credit": "國立臺灣科技大學官網公開的識別圖示。",
+    "license_url": "https://www.ntust.edu.tw/p/412-1000-97.php?Lang=zh-tw"
+  },
+  "國立臺灣藝術大學": {
+    "file": "institution-d2b5e45e5bdb.webp",
+    "source_url": "https://www.ntua.edu.tw/en/aboutus1_3.aspx",
+    "credit": "國立臺灣藝術大學官網公開的識別圖示。",
+    "license_url": "https://www.ntua.edu.tw/en/aboutus1_3.aspx"
+  },
+  "國立臺灣體育運動大學": {
+    "file": "institution-1fb3a370481d.webp",
+    "source_url": "https://www.ntus.edu.tw/index.php?code=list&ids=19",
+    "credit": "國立臺灣體育運動大學校徽，取自官網校徽頁的 PNG 格式下載。本站版本等比縮圖並轉為 WebP。",
+    "license_url": "https://www.ntus.edu.tw/index.php?code=list&ids=19"
+  },
+  "國立金門大學": {
+    "file": "institution-308a57f21c96.webp",
+    "source_url": "https://www.nqu.edu.tw/",
+    "credit": "國立金門大學在官方網站使用的識別圖樣。"
+  },
+  "國立陽明交通大學": {
+    "file": "institution-2d407915cc51.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:NYCU_logo.svg",
+    "credit": "國立陽明交通大學標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:NYCU_logo.svg"
+  },
+  "國立陽明交通大學附設醫院": {
+    "file": "institution-3907f2ea8479.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:National_Yang_Ming_Chiao_Tung_University_Hospital_logo.png",
+    "credit": "國立陽明交通大學附設醫院標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:National_Yang_Ming_Chiao_Tung_University_Hospital_logo.png"
+  },
+  "國立高雄科技大學": {
+    "file": "institution-b97599f2f092.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:NKUST_Logo.svg",
+    "credit": "國立高雄科技大學標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:NKUST_Logo.svg"
+  },
+  "大葉大學": {
+    "file": "institution-5aee35b07b4e.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Dayeh_University_Seal.svg",
+    "credit": "大葉大學標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Dayeh_University_Seal.svg"
+  },
+  "天普大學路易斯・卡茲醫學院（北費城校區）": {
+    "file": "institution-3a564b33ea1a.webp",
+    "source_url": "https://en.wikipedia.org/wiki/File:Temple_University_seal.svg",
+    "credit": "天普大學路易斯・卡茲醫學院（北費城校區）標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://en.wikipedia.org/wiki/File:Temple_University_seal.svg"
+  },
+  "奧克拉荷馬州立大學（Stillwater 校區）": {
+    "file": "institution-06aae82150df.webp",
+    "source_url": "https://en.wikipedia.org/wiki/File:Oklahoma_State_University_seal.svg",
+    "credit": "奧克拉荷馬州立大學（Stillwater 校區）標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://en.wikipedia.org/wiki/File:Oklahoma_State_University_seal.svg"
+  },
+  "奧克蘭大學 City Campus": {
+    "file": "institution-2a17e7cae595.webp",
+    "source_url": "https://en.wikipedia.org/wiki/File:University_of_Auckland_Coat_of_Arms.png",
+    "credit": "奧克蘭大學 City Campus標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://en.wikipedia.org/wiki/File:University_of_Auckland_Coat_of_Arms.png"
+  },
+  "威斯康辛大學麥迪遜分校（曾任職）": {
+    "file": "institution-d1b2bab503a1.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Seal_of_the_University_of_Wisconsin.svg",
+    "credit": "威斯康辛大學麥迪遜分校（曾任職）標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Seal_of_the_University_of_Wisconsin.svg"
+  },
+  "宏國德霖科技大學": {
+    "file": "institution-91efaa3f8f88.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Hungkuo_Delin_University_of_Technology_logo.png",
+    "credit": "宏國德霖科技大學標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Hungkuo_Delin_University_of_Technology_logo.png"
+  },
+  "實踐大學": {
+    "file": "institution-e57831aacde4.webp",
+    "source_url": "https://www.usc.edu.tw/p/412-1000-89.php?Lang=zh-tw",
+    "credit": "實踐大學校徽，取自官網「校徽及校歌」頁「校徽下載（png 檔）」。本站版本等比縮圖並轉為 WebP。",
+    "license_url": "https://www.usc.edu.tw/p/412-1000-89.php?Lang=zh-tw"
+  },
+  "康乃狄克大學（Storrs 校區）": {
+    "file": "institution-be4def3a6ec9.webp",
+    "source_url": "https://en.wikipedia.org/wiki/File:University_of_Connecticut_seal.svg",
+    "credit": "康乃狄克大學（Storrs 校區）標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://en.wikipedia.org/wiki/File:University_of_Connecticut_seal.svg"
+  },
+  "康寧大學": {
+    "file": "institution-51b00624794f.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Ukn_logo.jpg",
+    "credit": "康寧大學標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Ukn_logo.jpg"
+  },
+  "弘光科技大學": {
+    "file": "institution-cb84961152a2.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Hungkuang_University_seal.svg",
+    "credit": "弘光科技大學標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Hungkuang_University_seal.svg"
+  },
+  "德堡大學": {
+    "file": "institution-fe3416758c4b.webp",
+    "source_url": "https://en.wikipedia.org/wiki/File:DePauw_University_seal.png",
+    "credit": "德堡大學標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://en.wikipedia.org/wiki/File:DePauw_University_seal.png"
+  },
+  "德州農工大學維多利亞分校": {
+    "file": "institution-79cddb25ec9e.webp",
+    "source_url": "https://en.wikipedia.org/wiki/File:Texas_A%26M_University-Victoria_Logo.svg",
+    "credit": "德州農工大學維多利亞分校標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://en.wikipedia.org/wiki/File:Texas_A%26M_University-Victoria_Logo.svg"
+  },
+  "德州農工大學（College Station 校區）": {
+    "file": "institution-ab07e54269d9.webp",
+    "source_url": "https://en.wikipedia.org/wiki/File:Texas_A%26M_University_seal.svg",
+    "credit": "德州農工大學（College Station 校區）標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://en.wikipedia.org/wiki/File:Texas_A%26M_University_seal.svg"
+  },
+  "慈濟大學": {
+    "file": "institution-642405a1d6f4.webp",
+    "source_url": "https://www.tcu.edu.tw/",
+    "credit": "慈濟大學在官方網站使用的識別圖樣。"
+  },
+  "新加坡國立大學（Kent Ridge 校區）": {
+    "file": "institution-122e88bb2126.webp",
+    "source_url": "https://en.wikipedia.org/wiki/File:NUS_coat_of_arms.svg",
+    "credit": "新加坡國立大學（Kent Ridge 校區）標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://en.wikipedia.org/wiki/File:NUS_coat_of_arms.svg"
+  },
+  "新生醫護管理專科學校": {
+    "file": "institution-fc34e247e424.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Hsin_Sheng_College_of_Medical_Care_and_Management_Logo.png",
+    "credit": "新生醫護管理專科學校標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Hsin_Sheng_College_of_Medical_Care_and_Management_Logo.png"
+  },
+  "朱拉隆功大學": {
+    "file": "institution-b9fa07a3589b.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Logo_of_Chulalongkorn_University_%281988%29.svg",
+    "credit": "朱拉隆功大學標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Logo_of_Chulalongkorn_University_%281988%29.svg"
+  },
+  "東元綜合醫院": {
+    "file": "institution-066f10c1bd3d.webp",
+    "source_url": "https://www.tyh.com.tw/",
+    "credit": "東元綜合醫院在官方網站或檔案頁公開的識別圖樣。"
+  },
+  "淡江大學": {
+    "file": "institution-915a2c085d7d.webp",
+    "source_url": "https://www.tku.edu.tw/",
+    "credit": "淡江大學在官方網站使用的識別圖樣。"
+  },
+  "立命館亞洲太平洋大學": {
+    "file": "institution-ded4e79496ba.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ritsumeikan_Asia_Pacific_University_logo.svg",
+    "credit": "立命館亞洲太平洋大學標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Ritsumeikan_Asia_Pacific_University_logo.svg"
+  },
+  "紐約大學物理系（紐約校區）": {
+    "file": "institution-79f34ed1c35a.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:New_York_University_Seal.svg",
+    "credit": "紐約大學物理系（紐約校區）標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:New_York_University_Seal.svg"
+  },
+  "羅東博愛醫院": {
+    "file": "institution-928124e18ea4.webp",
+    "source_url": "https://www.pohai.org.tw/",
+    "credit": "羅東博愛醫院在官方網站使用的識別圖樣。"
+  },
+  "羅耀拉大學 Evergreen 校區": {
+    "file": "institution-dd650f41a7cc.webp",
+    "source_url": "https://www.loyola.edu/about/brand/logo-visual-identity/",
+    "credit": "Loyola University Maryland 官方字標（不含盾徽）。Wikimedia Commons 版本取自校方品牌標誌頁，標為公有領域並保留商標註記；本站等比轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Loyola_University_Maryland_wordmark.svg"
+  },
+  "致理科技大學": {
+    "file": "institution-fc8c1283e672.webp",
+    "source_url": "https://www.chihlee.edu.tw/p/412-1000-40.php",
+    "credit": "致理科技大學現行圓形組合校徽（PNG 下載檔 clogoB.png）。本站版本等比縮圖並轉為 WebP。",
+    "license_url": "https://www.chihlee.edu.tw/p/412-1000-40.php"
+  },
+  "臺北市立大學": {
+    "file": "institution-21e37d406da3.webp",
+    "source_url": "https://sec.utaipei.edu.tw/p/404-1009-33313.php",
+    "credit": "臺北市立大學校徽，取自秘書室下載專區「臺北市立大學校徽與校旗圖檔」。本站版本等比縮圖並轉為 WebP。",
+    "license_url": "https://sec.utaipei.edu.tw/p/404-1009-33313.php"
+  },
+  "臺北醫學大學": {
+    "file": "institution-7af569a68b18.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Emblem_of_Taipei_Medical_University.svg",
+    "credit": "臺北醫學大學標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Emblem_of_Taipei_Medical_University.svg"
+  },
+  "臺灣經濟研究院": {
+    "file": "institution-86f66d079bcf.webp",
+    "source_url": "https://www.tier.org.tw/",
+    "credit": "臺灣經濟研究院在官方網站或檔案頁公開的識別圖樣。"
+  },
+  "芝加哥大學 Harris 公共政策學院": {
+    "file": "institution-eebf0d283199.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:University_of_Chicago_wordmark.svg",
+    "credit": "芝加哥大學 Harris 公共政策學院標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:University_of_Chicago_wordmark.svg"
+  },
+  "芝加哥大學（Hyde Park 校區）": {
+    "file": "institution-ba374561f3c7.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:University_of_Chicago_wordmark.svg",
+    "credit": "芝加哥大學（Hyde Park 校區）標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:University_of_Chicago_wordmark.svg"
+  },
+  "華梵大學": {
+    "file": "institution-cb305607a628.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Huafan_University_logo.svg",
+    "credit": "華梵大學標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Huafan_University_logo.svg"
+  },
+  "萊頓大學": {
+    "file": "institution-df638c56b57f.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Leiden_University_seal.svg",
+    "credit": "萊頓大學標誌，以來源圖檔等比縮放並轉為 WebP。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Leiden_University_seal.svg"
+  },
+  "財團法人食品工業發展研究所": {
+    "file": "institution-fcb8e2308a61.webp",
+    "source_url": "https://www.firdi.org.tw/",
+    "credit": "財團法人食品工業發展研究所在官方網站使用的識別圖樣。"
+  },
+  "赫爾辛基大學 Viikki 校區": {
+    "file": "institution-1499b89749a3.webp",
+    "source_url": "https://en.wikipedia.org/wiki/File:Coat_of_arms_of_the_University_of_Helsinki.png",
+    "credit": "赫爾辛基大學 Viikki 校區標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://en.wikipedia.org/wiki/File:Coat_of_arms_of_the_University_of_Helsinki.png"
+  },
+  "輔仁大學": {
+    "file": "institution-1b9965f9de34.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Fu_Jen_Catholic_University_Seal_%28Since_1971%29.svg",
+    "credit": "輔仁大學標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Fu_Jen_Catholic_University_Seal_%28Since_1971%29.svg"
+  },
+  "輔仁大學附設醫院": {
+    "file": "institution-7c656202b1e5.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Fu_Jen_Catholic_University_Hospital_logo.png",
+    "credit": "輔仁大學附設醫院標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Fu_Jen_Catholic_University_Hospital_logo.png"
+  },
+  "農業部林業試驗所": {
+    "file": "institution-83f5a863cfa9.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Taiwan_Forestry_Research_Institute_Emblem_2023.svg",
+    "credit": "農業部林業試驗所在官方網站或檔案頁公開的識別圖樣。",
+    "license_url": "https://www.tfri.gov.tw/cp.aspx?n=7602"
+  },
+  "逢甲大學": {
+    "file": "institution-66eb271f0673.webp",
+    "source_url": "https://www.fcu.edu.tw/",
+    "credit": "逢甲大學在官方網站使用的識別圖樣。"
+  },
+  "長庚紀念醫院": {
+    "file": "institution-51867dfe33c0.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Chang_Gung_Medical_Foundation_logo.svg",
+    "credit": "長庚紀念醫院標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Chang_Gung_Medical_Foundation_logo.svg"
+  },
+  "門諾醫院": {
+    "file": "institution-d7b6f256b6e3.webp",
+    "source_url": "https://www.mch.org.tw/",
+    "credit": "門諾醫院在官方網站或檔案頁公開的識別圖樣。"
+  },
+  "雪梨大學（Camperdown 主校區）": {
+    "file": "institution-d8e42453533e.webp",
+    "source_url": "https://en.wikipedia.org/wiki/File:University_of_Sydney_coat_of_arms.png",
+    "credit": "雪梨大學（Camperdown 主校區）標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://en.wikipedia.org/wiki/File:University_of_Sydney_coat_of_arms.png"
+  },
+  "馬偕醫學大學": {
+    "file": "institution-de12bde56e9d.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Mackay_Medical_College_Seal.svg",
+    "credit": "馬偕醫學大學標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Mackay_Medical_College_Seal.svg"
+  },
+  "馬里蘭大學學院市分校": {
+    "file": "institution-7fe1b7cb8c1a.webp",
+    "source_url": "https://en.wikipedia.org/wiki/File:University_of_Maryland_seal.svg",
+    "credit": "馬里蘭大學學院市分校標誌，來源為維基百科檔案頁。檔案頁的標示適用範圍依原頁說明。",
+    "license_url": "https://en.wikipedia.org/wiki/File:University_of_Maryland_seal.svg"
+  }
+}

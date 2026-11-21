@@ -1,0 +1,98 @@
+{
+  "institution": "國立臺灣大學",
+  "campus": "校總區",
+  "units": {
+    "生化科技學系": {
+      "lat": 25.01649568643102,
+      "lon": 121.53590916963593,
+      "building": "三號館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2028&proj=EPSG%3A4326",
+      "address_source_url": "https://homepage.ntu.edu.tw/~ntubst/",
+      "aliases": [
+        "生化科技系"
+      ]
+    },
+    "獸醫專業學院": {
+      "lat": 25.018253122226202,
+      "lon": 121.54183828553799,
+      "building": "獸醫館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT3005&proj=EPSG%3A4326",
+      "address_source_url": "https://www.vm.ntu.edu.tw/",
+      "aliases": [
+        "獸醫學系",
+        "獸醫系"
+      ]
+    },
+    "戲劇學系": {
+      "lat": 25.016807618833752,
+      "lon": 121.53473277325969,
+      "building": "一號館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2015&proj=EPSG%3A4326",
+      "address_source_url": "https://theatre.ntu.edu.tw/",
+      "aliases": [
+        "戲劇系"
+      ]
+    },
+    "日本語文學系": {
+      "lat": 25.017756363708507,
+      "lon": 121.53418241674854,
+      "building": "人文館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2050&proj=EPSG%3A4326",
+      "address_source_url": "https://japanese.ntu.edu.tw/",
+      "aliases": [
+        "日本語文学系",
+        "日文系"
+      ]
+    },
+    "農業經濟學系": {
+      "lat": 25.01619140367789,
+      "lon": 121.5376264579784,
+      "building": "農業綜合大樓",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2037&proj=EPSG%3A4326",
+      "address_source_url": "https://www.agec.ntu.edu.tw/zh_tw/",
+      "aliases": [
+        "農經系"
+      ]
+    },
+    "生物產業傳播暨發展學系": {
+      "lat": 25.01619140367789,
+      "lon": 121.5376264579784,
+      "building": "農業綜合大樓",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2037&proj=EPSG%3A4326",
+      "address_source_url": "https://www.bicd.ntu.edu.tw/",
+      "aliases": [
+        "生傳系"
+      ]
+    },
+    "藝術史研究所": {
+      "lat": 25.018069211469825,
+      "lon": 121.53529509578642,
+      "building": "樂學館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2005-1&proj=EPSG%3A4326",
+      "address_source_url": "https://arthistory.ntu.edu.tw/",
+      "aliases": [
+        "藝術史所"
+      ]
+    },
+    "防災減害與韌性碩士學位學程": {
+      "lat": 25.0182072168648,
+      "lon": 121.53950270367108,
+      "building": "綜合教學館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2049&proj=EPSG%3A4326",
+      "address_source_url": "https://mdr3.ntu.edu.tw/faculty",
+      "aliases": [
+        "防災減害與韌性學程"
+      ]
+    },
+    "森林環境暨資源學系": {
+      "lat": 25.016882370511325,
+      "lon": 121.53899784075739,
+      "building": "森林館",
+      "source_url": "https://map.ntu.edu.tw/ntuga/public/buildinfo.htm?action=getCentroidByBuildId&buildId=AT2042&proj=EPSG%3A4326",
+      "address_source_url": "https://www.fo.ntu.edu.tw/",
+      "aliases": [
+        "森林系"
+      ]
+    }
+  }
+}

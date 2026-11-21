@@ -1,7 +1,7 @@
 // 縣市 → 機構 → 校區目錄，以及公開署名搜尋。
 // 只讀 data/*.json；所有文字以 textContent 寫入，不使用 innerHTML。
 import './directory.css';
-import { emblemFor, institutionMark } from './emblems.js';
+import { institutionMark } from './emblems.js';
 import { findUnits } from './unit-locations.js';
 import roster from '../data/signatories.json';
 import { affiliationSources, isTaiwan, people, portraitFor } from './person-data.js';
@@ -460,22 +460,17 @@ export function mountDirectory(element, {
   }
 
   function institutionCard(inst, county) {
-    const campuses = county ? inst.campuses.filter((c) => c.county === county) : inst.campuses;
-    const others = inst.campuses.length - campuses.length;
     return h('li', { class: 'pa-dir-card' },
       h('button', {
         type: 'button',
         class: 'pa-dir-card-button pa-dir-institution-row',
         onClick: () => selectInstitution(inst, { fromCounty: county ?? null }),
-        'aria-label': `${inst.name}，${campuses.length} 個校區${county ? `位於${county}` : ''}，${inst.entries.length} 筆署名原文提及`,
+        'aria-label': `${inst.name}，${inst.entries.length} 筆署名原文提及`,
       },
       institutionMark(inst.name),
       h('span', { class: 'pa-dir-institution-copy' },
         h('span', { class: 'pa-dir-card-type', text: TYPE_LABEL[inst.type] }),
         h('span', { class: 'pa-dir-card-name', text: inst.name }),
-        h('span', { class: 'pa-dir-card-meta' },
-          h('span', { text: campuses.map((c) => c.name).join('、') }),
-          others > 0 ? h('span', { class: 'pa-dir-muted', text: ` ＋其他縣市 ${others} 處` }) : null),
         h('span', { class: 'pa-dir-card-count' },
           h('strong', { text: inst.entries.length }), ' 筆署名提及')),
       h('span', { class: 'pa-dir-card-arrow', 'aria-hidden': 'true', text: '›' })));
@@ -511,7 +506,7 @@ export function mountDirectory(element, {
   function renderOverview() {
     const sorted = [...institutions].sort((a, b) => b.entries.length - a.entries.length);
     main.replaceChildren(
-      viewTitle('全部機構', `已收錄 ${institutions.length} 所機構、${institutions.reduce((n, i) => n + i.campuses.length, 0)} 處校區。點選縣市或機構查看校區地址與署名原文。`),
+      viewTitle('全部機構', `已收錄 ${institutions.length} 所機構。選擇機構查看署名。`),
       h('ul', { class: 'pa-dir-cards', role: 'list' }, sorted.map((inst) => institutionCard(inst, null))),
       coverageNote(),
     );
@@ -533,7 +528,7 @@ export function mountDirectory(element, {
     }
     const campusCount = list.reduce((n, inst) => n + inst.campuses.filter((c) => c.county === county).length, 0);
     main.replaceChildren(crumbs,
-      viewTitle(county, `${list.length} 所機構、${campusCount} 處校區位於${county}。署名數為原文提及該機構的筆數，不分校區。`),
+      viewTitle(county, `${list.length} 所機構`),
       h('ul', { class: 'pa-dir-cards', role: 'list' }, list.map((inst) => institutionCard(inst, county))));
     live.textContent = `${county}：${list.length} 所機構`;
   }
@@ -545,48 +540,14 @@ export function mountDirectory(element, {
     if (county) crumbs.push({ label: county, action: () => selectCounty(county) });
     crumbs.push({ label: inst.name });
 
-    const campusList = h('ul', { class: 'pa-dir-campuses', role: 'list' },
-      [...inst.campuses]
-        .sort((a, b) => (b.county === county) - (a.county === county))
-        .map((campus) => h('li', { class: `pa-dir-campus${county && campus.county !== county ? ' is-elsewhere' : ''}` },
-          h('div', { class: 'pa-dir-campus-head' },
-            h('span', { class: 'pa-dir-campus-name', text: campus.name }),
-            h('button', {
-              type: 'button',
-              class: 'pa-dir-tag',
-              onClick: () => selectCounty(campus.county),
-              'aria-label': `查看${campus.county}的機構`,
-              text: campus.county,
-            })),
-          h('p', { class: 'pa-dir-address' }, h('span', { class: 'pa-dir-sr', text: '地址：' }), campus.address),
-          h('p', { class: 'pa-dir-campus-source' }, extLink(campus.source_url, '官方地址來源')))));
-
-    const aliasBlock = (inst.aliases || []).length
-      ? h('div', { class: 'pa-dir-aliases' },
-        h('h4', { text: '比對用別名' }),
-        h('p', { class: 'pa-dir-muted', text: '署名原文出現以下寫法時，會列為此機構的候選；別名不等於確認任職。' }),
-        h('ul', { class: 'pa-dir-alias-list', role: 'list' }, inst.aliases.map((alias) => h('li', { text: alias }))))
-      : null;
-
-    const emblem = emblemFor(inst.name);
     main.replaceChildren(
       breadcrumb(crumbs),
-      h('div', { class: 'pa-dir-institution-row' }, institutionMark(inst.name),
-        viewTitle(inst.name, `${TYPE_LABEL[inst.type]} · ${inst.campuses.length} 處校區 · 資料查核於 ${inst.checked_on}`)),
-      h('p', { class: 'pa-dir-links' }, extLink(inst.official_url, '機構官方網站'),
-        emblem ? [' · ', extLink(emblem.source_url, 'Logo 來源'), ' · ', extLink(emblem.license_url, '使用條件')] : null),
-      h('section', { class: 'pa-dir-section', 'aria-labelledby': `${uid}-campus-h` },
-        h('h4', { id: `${uid}-campus-h`, text: '校區與官方地址' }),
-        campusList),
-      aliasBlock,
+      h('div', { class: 'pa-dir-institution-row' }, institutionMark(inst.name), viewTitle(inst.name)),
       h('section', { class: 'pa-dir-section', 'aria-labelledby': `${uid}-entries-h` },
         h('h4', { id: `${uid}-entries-h`, text: `原文提及此機構的署名（${inst.entries.length} 筆）` }),
-        h('p', { class: 'pa-dir-notice' },
-          h('strong', { text: '機構候選，未經查核。' }),
-          '以下依名稱比對列出，原文可能是兼任、前任或其他單位；署名者沒有對應到特定校區，也不代表機構表態。'),
         entryList(inst.entries, { exclude: inst.id })),
     );
-    live.textContent = `${inst.name}：${inst.campuses.length} 處校區、${inst.entries.length} 筆署名提及`;
+    live.textContent = `${inst.name}：${inst.entries.length} 筆署名提及`;
   }
 
   function renderUnlocated() {
@@ -735,9 +696,7 @@ export function mountDirectory(element, {
     if (instHits.length) {
       nodes.push(h('section', { class: 'pa-dir-section', 'aria-label': '機構' },
         h('h4', { text: '機構' }),
-        h('ul', { class: 'pa-dir-results', role: 'list' }, instHits.map(({ inst, score }) => {
-          const matchedAlias = (inst.aliases || []).find((alias) => norm(alias).includes(q));
-          const matchedCampus = score === 1 ? inst.campuses.find((c) => norm([c.name, c.county, c.address].join('|')).includes(q)) : null;
+        h('ul', { class: 'pa-dir-results', role: 'list' }, instHits.map(({ inst }) => {
           return h('li', {}, h('button', {
             type: 'button',
             class: 'pa-dir-result pa-dir-institution-row',
@@ -748,10 +707,7 @@ export function mountDirectory(element, {
           h('span', { class: 'pa-dir-institution-copy' },
             h('span', { class: 'pa-dir-result-name' }, highlight(inst.name, query)),
             h('span', { class: 'pa-dir-result-meta' },
-              matchedAlias && !norm(inst.name).includes(q) ? h('span', {}, '別名：', highlight(matchedAlias, query), ' · ') : null,
-              matchedCampus
-                ? h('span', {}, highlight(`${matchedCampus.name}｜${matchedCampus.address}`, query))
-                : h('span', { text: inst.counties.join('、') }),
+              h('span', { text: inst.counties.join('、') }),
               h('span', { text: ` · ${inst.entries.length} 筆署名提及` })))));
         }))));
     }
