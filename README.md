@@ -23,7 +23,7 @@
 
 ### GA4 網站分析
 
-在 GA4 為 `https://puma-academic.observe.tw/` 建立專用的網站資料串流，關閉該串流的「加強型評估」，並在建置環境設定 `VITE_GA_MEASUREMENT_ID`（`G-` 開頭）。本機建置可寫在 `.env.production.local`。重新執行 `npm run build` 並發布後，只有正式網域會載入 Google tag。
+正式站使用專用的 GA4 網站資料串流，評估 ID 由 `.env.production` 提供。該串流已關閉「加強型評估」。執行 `npm run build` 並發布後，只有正式網域會載入 Google tag。
 
 - `page_view`：瀏覽頁面，保留 `utm_*` 推廣參數及來源網站的網域。
 - `view_academic_location`：開啟校區或系所資訊。
