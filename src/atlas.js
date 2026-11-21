@@ -1,6 +1,6 @@
 import L from 'leaflet';
 import 'leaflet.markercluster';
-import { locatedUnit } from './unit-locations.js';
+import { locatedUnit, unitLocations } from './unit-locations.js';
 import { emblemFor, emblemImage } from './emblems.js';
 
 const catalog = Object.values(import.meta.glob('../data/institutions/*.json', { eager: true, import: 'default' })).flat();
@@ -110,6 +110,10 @@ function campusGroups(people) {
   }));
 }
 
+export function pointKey(point) {
+  return JSON.stringify([campusKey(point), point.unit]);
+}
+
 function campusTitle(point) {
   return point.campus ? `${point.institution}・${point.campus}` : point.institution;
 }
@@ -214,6 +218,7 @@ export function createAtlas(container, people, { onCampus, onCampusZoom, onPerso
   });
   const selectionButtons = new Map();
   let selectedPlace;
+  let selection;
   const placeKey = (point, person) => JSON.stringify([
     campusKey(point), point.unit, person?.section, person?.raw,
   ]);
@@ -225,6 +230,7 @@ export function createAtlas(container, people, { onCampus, onCampusZoom, onPerso
   }
 
   function select(point, person) {
+    selection = point && { point, person };
     selectedPlace = point && placeKey(point, person);
     for (const [item, key] of selectionButtons) {
       if (selectedPlace === key) item.setAttribute('aria-current', 'location');
@@ -636,6 +642,25 @@ export function createAtlas(container, people, { onCampus, onCampusZoom, onPerso
     reset,
     resize,
     select,
+    snapshot() {
+      const { lat, lng } = map.getCenter();
+      return { lat, lng, zoom: map.getZoom(), selection, focusedUnit };
+    },
+    restoreView({ lat, lng, zoom }, unit) {
+      if (![lat, lng, zoom].every(Number.isFinite) || Math.abs(lat) > 90) return;
+      focusedUnit = unit;
+      map.setView([lat, lng], zoom, { reset: true });
+    },
+    resolvePoint(key) {
+      return unitLocations.find((point) => pointKey(point) === key) ??
+        groups.find(({ point }) => pointKey(point) === key)?.point;
+    },
+    resolveCampus(point, campusOnly) {
+      if (point.unit) return { point, unit: point.unit, people: [...(peopleByUnit.get(point) ?? [])] };
+      const group = groups.find(({ point: candidate }) => campusKey(candidate) === campusKey(point));
+      if (!group || !campusOnly) return group;
+      return { ...group, campusOnly: true, people: group.people.filter((person) => !locatedUnit(person, point)) };
+    },
     expandCampus(point) {
       select(point);
       focusedUnit = point.unit ? point : undefined;

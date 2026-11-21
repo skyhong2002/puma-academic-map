@@ -1,7 +1,7 @@
 import { emblemFor, emblemImage } from './emblems.js';
 import { locatedUnit } from './unit-locations.js';
 import roster from '../data/signatories.json';
-import { createAtlas } from './atlas.js';
+import { createAtlas, pointKey } from './atlas.js';
 import { mountDirectory } from './directory.js';
 import { people } from './person-data.js';
 import { personDetails } from './person-map.js';
@@ -20,6 +20,7 @@ const narrowLayout = matchMedia('(width < 720px)');
 const toolbar = mapApp.querySelector('.map-toolbar');
 const number = new Intl.NumberFormat('zh-TW');
 let returnFocus;
+let panelDetail;
 let panelView = 'directory';
 let collapsedScrollTop = 0;
 let pendingReveal;
@@ -104,10 +105,11 @@ function detailTitle(text) {
   return title;
 }
 
-function showCampus(campus, restore) {
+function showCampus(campus, restore, restoring = false) {
   let returnButton;
-  track('view_academic_location');
+  if (!restoring) track('view_academic_location');
   const { point, people, unit, campusOnly } = campus;
+  panelDetail = { type: 'campus', point: pointKey(point), campusOnly };
   atlas.select(point);
   const school = [point.institution, point.campus].filter(Boolean).join('・');
   const title = detailTitle(unit ?? school);
@@ -124,7 +126,7 @@ function showCampus(campus, restore) {
     button.addEventListener('click', () => {
       const scrollTop = panelContent.scrollTop;
       const location = locatedUnit(person, point) ?? point;
-      showPerson(person, location, () => showCampus(campus, { person, scrollTop }));
+      showPerson(person, location, { campus, person, scrollTop });
     });
     if (person.portrait) {
       const image = document.createElement('img');
@@ -202,16 +204,21 @@ function showCampus(campus, restore) {
     details.append(link);
   }
   details.append(members);
-  showPanel('detail', { focus: !returnButton });
+  showPanel('detail', { focus: !restoring && !returnButton });
   if (returnButton) {
     panelContent.scrollTop = restore.scrollTop;
     returnButton.scrollIntoView({ block: 'nearest' });
     returnButton.focus({ preventScroll: true });
   }
-  revealAfterPanelResize(point);
+  if (!restoring) revealAfterPanelResize(point);
 }
 
-function showPerson(person, point, returnToList) {
+function showPerson(person, point, returnToList, restoring = false) {
+  panelDetail = { type: 'person', point: pointKey(point), person: personRef(person) };
+  if (returnToList) {
+    const { campus, scrollTop } = returnToList;
+    panelDetail.parent = { point: pointKey(campus.point), campusOnly: campus.campusOnly, scrollTop };
+  }
   atlas.select(point, person);
   const body = personDetails(person, point, { heading: true });
   if (returnToList) {
@@ -220,7 +227,7 @@ function showPerson(person, point, returnToList) {
     close.className = 'map-detail__close-person';
     close.textContent = '×';
     close.setAttribute('aria-label', '回到校區名單');
-    close.addEventListener('click', returnToList);
+    close.addEventListener('click', () => showCampus(returnToList.campus, returnToList));
     body.classList.add('has-return');
     body.querySelector('.map-detail__identity').append(close);
   }
@@ -234,8 +241,8 @@ function showPerson(person, point, returnToList) {
     link.rel = 'noopener';
     details.append(link);
   }
-  showPanel('detail');
-  revealAfterPanelResize(point);
+  showPanel('detail', { focus: !restoring });
+  if (!restoring) revealAfterPanelResize(point);
 }
 
 const atlas = createAtlas($('map'), people, {
@@ -421,3 +428,83 @@ $('map-totals').textContent = [
   `${number.format(people.filter((person) => person.locations.length).length)} 位已定位署名者`,
   `${number.format(people.filter((person) => person.portrait).length)} 張頭像`,
 ].join('・');
+
+
+const SESSION_KEY = 'puma-atlas-view-v1';
+
+function personRef(person) {
+  return person && { section: person.section, raw: person.raw };
+}
+
+function saveView() {
+  const { selection, focusedUnit, ...camera } = atlas.snapshot();
+  const state = {
+    camera,
+    selection: selection && { point: pointKey(selection.point), person: personRef(selection.person) },
+    focusedUnit: focusedUnit && pointKey(focusedUnit),
+    panel: {
+      view: panelView,
+      detail: panelView === 'detail' ? panelDetail : undefined,
+      open: !panel.hidden,
+      tall: mapApp.classList.contains('is-sheet-tall'),
+      scrollTop: panel.hidden ? collapsedScrollTop : panelContent.scrollTop,
+    },
+    directory: directory.snapshot(),
+  };
+  try {
+    sessionStorage.setItem(SESSION_KEY, JSON.stringify(state));
+  } catch {
+    // The atlas still works when browser storage is unavailable.
+  }
+}
+
+function restoreDetail(saved) {
+  const point = atlas.resolvePoint(saved?.point);
+  if (!point) return false;
+  if (saved.type === 'campus') {
+    const campus = atlas.resolveCampus(point, saved.campusOnly);
+    if (!campus) return false;
+    showCampus(campus, undefined, true);
+    return true;
+  }
+  if (saved.type !== 'person' || !saved.person) return false;
+  const person = findPerson(saved.person);
+  if (!person) return false;
+  const parentPoint = atlas.resolvePoint(saved.parent?.point);
+  const campus = parentPoint && atlas.resolveCampus(parentPoint, saved.parent.campusOnly);
+  const back = campus?.people.includes(person) ? { campus, person, scrollTop: saved.parent.scrollTop } : undefined;
+  showPerson(person, point, back, true);
+  return true;
+}
+
+function restoreView() {
+  let state;
+  try {
+    state = JSON.parse(sessionStorage.getItem(SESSION_KEY));
+  } catch {
+    return;
+  }
+  if (!state?.camera || !state.panel) return;
+  directory.restore(state.directory);
+  mapApp.style.setProperty('--panel-duration', '0ms');
+  const { view, detail, open, tall, scrollTop } = state.panel;
+  if (view !== 'detail' || !restoreDetail(detail)) {
+    showPanel(view === 'about' ? 'about' : 'directory', { focus: false });
+  }
+  setPanelExpanded(open === true);
+  setSheetTall(open === true && tall === true);
+  mapApp.style.setProperty('--sheet-toolbar-height', `${toolbar.offsetHeight}px`);
+  collapsedScrollTop = Number.isFinite(scrollTop) ? scrollTop : 0;
+  if (open) panelContent.scrollTop = collapsedScrollTop;
+  atlas.resize({ pan: false });
+  const selectedPoint = atlas.resolvePoint(state.selection?.point);
+  atlas.select(selectedPoint, state.selection?.person && findPerson(state.selection.person));
+  atlas.restoreView(state.camera, atlas.resolvePoint(state.focusedUnit));
+  mapApp.style.removeProperty('--panel-duration');
+}
+
+restoreView();
+window.addEventListener('pagehide', saveView);
+document.addEventListener('visibilitychange', () => {
+  if (document.hidden) saveView();
+});
