@@ -444,3 +444,14 @@
 @media (prefers-reduced-motion: reduce) {
   .pa-directory * { transition: none !important; scroll-behavior: auto !important; }
 }
+
+.pa-dir-affiliation-sources {
+  display: grid;
+  gap: 4px;
+  font-size: .875em;
+}
+
+.pa-dir-affiliation-sources ul {
+  margin: 0;
+  padding-inline-start: 1.25em;
+}

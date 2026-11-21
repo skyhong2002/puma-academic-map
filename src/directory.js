@@ -2,6 +2,7 @@
 // 只讀 data/*.json；所有文字以 textContent 寫入，不使用 innerHTML。
 import './directory.css';
 import roster from '../data/signatories.json';
+import affiliationSources from '../data/affiliation-sources.json';
 const institutionFiles = import.meta.glob('../data/institutions/*.json', { eager: true, import: 'default' });
 
 const COUNTY_ORDER = [
@@ -108,6 +109,11 @@ for (const [section, data] of Object.entries(roster.sections || {})) {
     });
   });
 }
+function sourcesFor(entry) {
+  return affiliationSources[entry.section]?.[entry.raw] ?? [];
+}
+
+const sourcedCount = entries.filter((entry) => sourcesFor(entry).length).length;
 const uncatalogued = entries.filter((entry) => entry.candidates.length === 0);
 const matchedCount = entries.length - uncatalogued.length;
 
@@ -521,6 +527,7 @@ export function mountDirectory(element, { onSelectCounty } = {}) {
 
   function entryItem(entry, { exclude, query = '', result = false } = {}) {
     const candidates = entry.candidates.filter((inst) => inst.id !== exclude);
+    const sources = sourcesFor(entry);
     return h('li', { class: 'pa-dir-entry', tabindex: result ? '0' : '-1', dataset: result ? { result: '' } : {} },
       h('div', { class: 'pa-dir-entry-head' },
         h('span', { class: 'pa-dir-entry-name' }, entry.name ? highlight(entry.name, query) : '（未解析條目）'),
@@ -538,7 +545,13 @@ export function mountDirectory(element, { onSelectCounty } = {}) {
               text: inst.name,
             })))
           : null,
-      result && SOURCE_URL ? h('p', { class: 'pa-dir-entry-source' }, extLink(SOURCE_URL, '原站名單')) : null);
+      h('div', { class: 'pa-dir-affiliation-sources' },
+        h('strong', { text: '學術單位查核來源' }),
+        sources.length
+          ? h('ul', {}, sources.map((source) => h('li', {},
+            extLink(source.url, source.label), '，', source.description)))
+          : h('p', { class: 'pa-dir-muted', text: '待補可核對此人的公開來源。' })),
+      SOURCE_URL ? h('p', { class: 'pa-dir-entry-source' }, extLink(SOURCE_URL, '原站名單')) : null);
   }
 
   function renderSearch(query) {
@@ -640,6 +653,7 @@ export function mountDirectory(element, { onSelectCounty } = {}) {
         h('li', { text: `原站共 ${entries.length} 筆署名，其中 ${matchedCount} 筆的原文含已收錄機構名稱或別名。` }),
         h('li', { text: '同一筆署名可能同時提及多個機構，因此各機構的提及數相加會超過署名總數。' }),
         h('li', { text: `其餘 ${uncatalogued.length} 筆尚無機構候選，保留在名單並可搜尋。` }),
+        h('li', { text: `已有 ${sourcedCount} / ${entries.length} 筆附學術單位查核來源。每則來源的查核範圍見連結說明。` }),
         h('li', { text: '同名署名者分開列出，不合併。' })));
   }
 

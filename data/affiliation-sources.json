@@ -1,0 +1,77 @@
+{
+  "共同領銜": {
+    "杜正勝（中央研究院院士、中研院史語所通訊研究員）": [
+      {
+        "label": "研究所個人頁",
+        "description": "中研院史語所列為退休研究人員。",
+        "url": "https://www1.ihp.sinica.edu.tw/jp/Fellows/Cheng-sheng_Tu"
+      }
+    ],
+    "李茂生（臺灣大學法學院名譽教授）": [
+      {
+        "label": "法學院個人頁",
+        "description": "臺大法律學院記載其在該院任教的經歷。",
+        "url": "https://www.law.ntu.edu.tw/index.php/adjunct-professor-e/itemlist/user/456-mau-sheng-lee"
+      }
+    ],
+    "李德財（中央研究院院士、前中興大學校長）": [
+      {
+        "label": "院士簡歷",
+        "description": "中研院院士名錄收錄李德財的學術簡歷。",
+        "url": "https://academicians.sinica.edu.tw/index.php?r=academician-n%2Fshow&id=241"
+      }
+    ],
+    "吳茂昆（中央研究院院士、前東華大學校長、美國國家科學學院外籍院士）": [
+      {
+        "label": "院士簡歷",
+        "description": "中研院院士名錄收錄吳茂昆的學術簡歷。",
+        "url": "https://academicians.sinica.edu.tw/index.php?r=academician-n%2Fshow&id=207"
+      },
+      {
+        "label": "研究所個人頁",
+        "description": "中研院物理研究所列有吳茂昆的研究員資料。",
+        "url": "https://www.phys.sinica.edu.tw/directory.php?directory=11&id_key=1"
+      }
+    ],
+    "廖運範（中央研究院院士、長庚大學特聘講座教授）": [
+      {
+        "label": "院士簡歷",
+        "description": "中研院院士名錄收錄廖運範的學術簡歷。",
+        "url": "https://academicians.sinica.edu.tw/index.php?r=academician-n%2Fshow&id=131"
+      }
+    ],
+    "林麗瓊（中央研究院院士、臺大物理系講座教授、臺大凝態科學研究中心合聘特聘研究員、臺大新穎材料原子級科學研究中心主任）": [
+      {
+        "label": "系所個人頁",
+        "description": "臺大物理系列出臺大講座教授職稱與校內研究經歷。",
+        "url": "https://phys.ntu.edu.tw/News_Content_n_39720_s_81561.html"
+      }
+    ],
+    "周婉窈（台灣大學歷史學系名譽教授）": [
+      {
+        "label": "系所公告",
+        "description": "臺大歷史系公告周婉窈獲聘臺大名譽教授。",
+        "url": "https://homepage.ntu.edu.tw/~history/news20250109.html"
+      },
+      {
+        "label": "系所個人頁",
+        "description": "臺大歷史系名譽教授頁列有周婉窈。",
+        "url": "https://history.ntu.edu.tw/web/team/team_about.jsp?cp_id=CP1765863230014&lang=tw"
+      }
+    ],
+    "薛化元（政治大學台灣史研究所教授、台灣教授協會會長）": [
+      {
+        "label": "系所個人頁",
+        "description": "政大歷史學系師資頁列有薛化元的學術資料。",
+        "url": "https://history.nccu.edu.tw/PageStaffing/Detail?fid=3431&id=837"
+      }
+    ],
+    "葉啟政（台灣大學社會學系退休教授）": [
+      {
+        "label": "系所名錄",
+        "description": "臺大社會學系將葉啟政列為退休教授。",
+        "url": "https://sociology.ntu.edu.tw/faculty/fct03/"
+      }
+    ]
+  }
+}

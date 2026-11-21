@@ -56,3 +56,7 @@ python3 scripts/check_institutions.py --unmatched
 縣市界線由內政部國土測繪中心提供，依[政府資料開放授權條款第 1 版](https://data.gov.tw/license)使用。本站以 22 縣市為瀏覽入口，將圖形裁切到臺澎金馬周邊並簡化，供網頁互動顯示。圖形僅供導覽使用。[官方資料集](https://data.gov.tw/dataset/7442) · [GeoJSON 轉製來源](https://geo.maderaojen.me/datasets/tw-counties/releases/v1/2026-08-07.1/data.geojson)
 
 互動流程參考 [taiwan-election-map](https://github.com/twoheart1222/taiwan-election-map) 的全臺視圖、點選縣市下鑽及區域詳情面板。本站以縣市連到機構和校區目錄，依官方資料列出校區地址。
+
+### 個別署名的學術單位來源
+
+在 `data/affiliation-sources.json` 以原站段落與完整署名原文索引每筆資料，避免只依姓名把來源套給同名者。每筆可以有多個來源，各自填寫 `label`（來源類型）、`description`（頁面實際支持的職稱、單位或學術經歷）與 `url`（直接連到可核對人名與學術關係的頁面）。原站更正署名時，重新核對後再將來源連到更新後的原文。
