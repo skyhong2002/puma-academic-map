@@ -15,14 +15,12 @@ const details = $('place-details');
 const directoryElement = $('directory');
 const overview = $('map-overview');
 const home = $('home-panel');
-const about = $('about-map');
 const publicComments = $('public-comments');
 const publicList = $('public-comments-list');
 const publicStatus = $('public-comments-status');
 const publicMore = $('public-comments-more');
 const panelToggle = $('panel-toggle');
 const panelBack = $('panel-back');
-const aboutButton = $('map-about');
 const panelContent = $('panel-content');
 const mapApp = panel.closest('.map-app');
 const narrowLayout = matchMedia('(width < 720px)');
@@ -43,16 +41,11 @@ let sheetFrame;
 let sheetSnap;
 let suppressHandleClick = false;
 
-function updateViewExpanded(expanded) {
-  aboutButton.setAttribute('aria-expanded', String(expanded && panelView === 'about'));
-}
-
 function setPanelExpanded(expanded) {
   panel.hidden = !expanded;
   panel.inert = !expanded;
   mapApp.classList.toggle('is-panel-open', expanded);
   if (!expanded) pendingReveal = undefined;
-  updateViewExpanded(expanded);
   panelToggle.setAttribute('aria-expanded', String(expanded));
   panelToggle.querySelector('.map-panel-toggle__arrow').textContent = expanded ? '‹' : '›';
   panelToggle.title = expanded ? '收合資訊面板' : '展開資訊面板';
@@ -66,11 +59,9 @@ function showPanel(view, { focus = true, restoreScroll = false, open = true } = 
   directoryElement.hidden = view !== 'directory';
   home.hidden = view !== 'home';
   details.hidden = view !== 'detail';
-  about.hidden = view !== 'about';
   publicComments.hidden = view !== 'comments';
   if (view === 'comments' && nextPublicCursor === undefined) loadPublicComments();
   if (panel.hidden === open) setPanelExpanded(open);
-  else updateViewExpanded(open);
   if (restoreScroll) panelContent.scrollTop = collapsedScrollTop;
   if (focus) {
     if (!restoreScroll) panelContent.scrollTop = 0;
@@ -464,30 +455,18 @@ function dismissDetails() {
 $('reset-map').addEventListener('click', () => {
   showHomePanel({ focus: false, open: !panel.hidden, resetMap: true });
 });
-aboutButton.addEventListener('click', () => {
-  if (!panel.hidden && !about.hidden) closePanel({ focusTarget: aboutButton });
-  else {
-    rememberParent({ fromRoot: true });
-    showPanel('about');
-  }
-});
 document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape' && !event.defaultPrevented && !directory.isComposingSearch(event)) closePanel();
 });
 
-if (roster.source_url) {
-  $('source-link').href = roster.source_url;
-  $('home-source').href = roster.source_url;
-}
+if (roster.source_url) $('home-source').href = roster.source_url;
 const updated = new Date(roster.fetched_at);
 if (Number.isFinite(updated.getTime())) {
   const time = $('home-updated');
   time.dateTime = updated.toISOString();
   time.textContent = new Intl.DateTimeFormat('zh-TW', { dateStyle: 'medium', timeZone: 'Asia/Taipei' }).format(updated);
 } else $('home-updated').parentElement.hidden = true;
-for (const link of document.querySelectorAll('#about-map a[href^="https://forms.gle/"]')) {
-  link.addEventListener('click', () => track('click_signup_link'));
-}
+$('home-signup').addEventListener('click', () => track('click_signup_link'));
 const locatedCount = people.filter((person) => person.locations.length).length;
 $('map-totals').textContent = `${number.format(locatedCount)} 位已定位署名者`;
 $('overview-leads').textContent = number.format(roster.sections['共同領銜'].source_rows);
@@ -751,9 +730,9 @@ function restorePanel(state, { back = false } = {}) {
   mapApp.style.setProperty('--panel-duration', '0ms');
   const { view, detail, open, tall, scrollTop } = state.panel;
   const expanded = back || open === true;
-  const isHome = view === 'home' || (view === 'directory' && isHomeDirectory(state.directory));
+  const isHome = ['home', 'about'].includes(view) || (view === 'directory' && isHomeDirectory(state.directory));
   if (view !== 'detail' || !restoreDetail(detail)) {
-    const nextView = isHome ? 'home' : ['about', 'comments'].includes(view) ? view : 'directory';
+    const nextView = isHome ? 'home' : view === 'comments' ? 'comments' : 'directory';
     showPanel(nextView, { focus: false, open: expanded });
   }
   setPanelExpanded(expanded);
@@ -788,7 +767,7 @@ function restoreView(expectedLinkedPerson) {
   if (!state?.camera || !state.panel || (expectedLinkedPerson && state.linkedPerson !== expectedLinkedPerson)) return false;
   panelAncestors = Array.isArray(state.ancestors) ? state.ancestors.slice(-20) : [];
   const saved = state.directory;
-  const isHome = state.panel.view === 'home' || (state.panel.view === 'directory' && isHomeDirectory(saved));
+  const isHome = ['home', 'about'].includes(state.panel.view) || (state.panel.view === 'directory' && isHomeDirectory(saved));
   if (isHome) panelAncestors = [];
   else if (!panelAncestors.length) panelAncestors = [{ ...homeSnapshot(), camera: state.camera }];
   updatePanelBack();

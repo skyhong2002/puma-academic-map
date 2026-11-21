@@ -40,7 +40,17 @@
               <button type="button" data-overview="institutions"><strong id="overview-institutions"></strong><span>已定位機構</span></button>
               <button type="button" data-overview="comments"><strong id="overview-comments">—</strong><span>公開留言</span></button>
             </div>
-            <p class="map-home__hint">點校區、系所或人物，查看署名與留言。</p>
+            <div class="map-home__about">
+              <h2>關於署名地圖</h2>
+              <p>這張地圖整理支持沈伯洋的學界公開署名。點校區、系所或人物，可以查看署名與留言。</p>
+              <a id="home-signup" class="map-home__signup" href="https://forms.gle/joAmvcST4U4jUX137">填寫學界後援會登記表</a>
+              <details class="map-home__notes">
+                <summary>資料範圍與定位說明</summary>
+                <p id="map-totals"></p>
+                <p>放大地圖可看已查證的系館；僅有校區座標的署名會收在校區標記。校徽用於辨識地點，署名代表個人意見。</p>
+                <p><a href="https://github.com/skyhong2002/puma-academic-map">GitHub 原始碼</a> · © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a></p>
+              </details>
+            </div>
             <footer class="map-home__source">
               <span>名單更新 <time id="home-updated"></time></span>
               <a id="home-source" href="https://sites.google.com/view/academic-kouenkai-for-puma/" target="_blank" rel="noopener">原始聯署網站</a>
@@ -54,15 +64,6 @@
             <ul id="public-comments-list" class="map-public-comments"></ul>
             <button type="button" id="public-comments-more" class="map-campus-zoom" hidden>載入更多留言</button>
           </section>
-          <section id="about-map" class="map-detail" hidden>
-            <h2 tabindex="-1">台北市市長候選人沈伯洋先生學界後援會署名地圖</h2>
-            <p>查看支持沈伯洋的學術界公開署名與機構。</p>
-            <p id="map-totals"></p>
-            <p>放大可看到已查核的系館，點選姓名可查看署名詳情。進入校區細節後會顯示署名者，空間較窄時以頭貼或姓名第一字顯示。僅有校區座標的署名會收在校區標記。校徽用於辨識地點，署名代表個人意見。</p>
-            <p><a id="source-link" href="https://sites.google.com/view/academic-kouenkai-for-puma/" target="_blank" rel="noopener">連署網站</a></p>
-            <p><a href="https://forms.gle/joAmvcST4U4jUX137">填寫學界後援會登記表</a></p>
-            <p><a href="https://github.com/skyhong2002/puma-academic-map">GitHub 原始碼</a> · © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a></p>
-          </section>
         </div>
       </aside>
       <button type="button" id="panel-toggle" class="map-panel-toggle"
@@ -70,7 +71,6 @@
       <div class="map-stage">
         <nav class="map-tools" aria-label="地圖工具">
           <button type="button" id="reset-map" aria-label="回到臺灣附近">回起點</button>
-          <button type="button" id="map-about" aria-controls="map-panel" aria-expanded="false" aria-label="關於署名地圖">ⓘ</button>
         </nav>
         <div id="map" class="map-app__map" aria-label="全球署名地圖"></div>
       </div>
