@@ -6,5 +6,60 @@
     "usage_url": "https://www.vizual.upol.cz/soubory_v2/UP_manualJVS.pdf",
     "credit": "帕拉茨基大學的官方英文中央式標誌，取自校方提供的網頁版 PNG。",
     "usage": "校方媒體套件允許將標誌用於與帕拉茨基大學相關的媒體內容。此處標示個人學術隸屬，保留校方提供的完整組合、比例與色彩。"
+  },
+  "Akita International University": {
+    "file": "completion-world-aiu.webp",
+    "source_url": "https://web.aiu.ac.jp/en/about/logomark/",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Akita_International_University_Logo.svg",
+    "credit": "國際教養大學（秋田）官方標誌，含圖記與日文校名。Wikimedia Commons 版本取自校方網站 SVG；原路徑現已 404，但與 Wayback 2023-08 存檔逐一相同，且校方現行網站仍使用同一圖記與校名組合。Commons 標為公有領域並保留商標註記；本站等比轉為 WebP。",
+    "usage": "以 Commons 公有領域版本作非商業的學術隸屬識別，保留原圖色彩與比例，不暗示校方背書；圖樣另有商標權利。"
+  },
+  "Hamilton College": {
+    "file": "completion-world-hamilton.webp",
+    "source_url": "https://www.hamilton.edu/",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Hamilton_College_logo.svg",
+    "usage_url": "https://www.hamilton.edu/styleguides/graphicidentity/hamilton-messaging-and-identity-guide-pdf-1-1",
+    "credit": "Hamilton College（紐約州柯克蘭）官方字標。Wikimedia Commons 版本來源為校方網站，標為公有領域並保留商標註記；本站等比轉為 WebP。",
+    "usage": "以 Commons 公有領域版本作非商業的學術隸屬識別，保留原圖色彩與比例，不暗示校方背書；圖樣另有商標權利。"
+  },
+  "Lamar University": {
+    "file": "completion-world-lamar.webp",
+    "source_url": "https://www.lamar.edu/_files/documents/marketing-communications/licensing-and-trademarks/LUVisualStandardsManual.pdf",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Lamar_University_logo.svg",
+    "usage_url": "https://www.lamar.edu/marketing-communications/brand-guidelines/licensing-trademarks/index.html",
+    "credit": "Lamar University 官方標誌（星形圖記與校名橫式組合），Commons 版本依校方視覺識別手冊繪製，標為公有領域並保留商標註記；本站等比轉為 WebP。",
+    "usage": "以 Commons 公有領域版本作非商業的學術隸屬識別，保留原圖色彩與比例，不暗示校方背書；圖樣另有商標權利。"
+  },
+  "Shippensburg University": {
+    "file": "completion-world-shippensburg.webp",
+    "source_url": "https://www.ship.edu/globalassets/marketing/su_identityguide.pdf",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Shippensburg_university_textlogo.png",
+    "usage_url": "https://www.ship.edu/about/offices/communications/",
+    "credit": "Shippensburg University 官方雙行字標，即校方 2026 年識別指南第 6 頁核准的「Wordmark only, two-line stacked」版本（不含船形圖記）。Commons 版本取自該指南，標為公有領域並保留商標註記；本站等比轉為 WebP。",
+    "usage": "以 Commons 公有領域版本作非商業的學術隸屬識別，保留原圖色彩與比例，不暗示校方背書；圖樣另有商標權利。"
+  },
+  "Sogang University": {
+    "file": "completion-world-sogang.webp",
+    "source_url": "https://www.sogang.ac.kr/intro/symbol/s_logo.html",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Sogang_University_-_logotype_(en).svg",
+    "usage_url": "https://ccsun7.sogang.ac.kr/intro/symbol/data/Sogang_UI_renewal.pdf",
+    "credit": "西江大學官方英文字標（雙行版），列於校方 2023 年 UI 指南第 6 頁的 Logotype。Wikimedia Commons 版本取自校方識別頁，標為公有領域並保留商標註記；本站等比轉為 WebP。",
+    "usage": "以 Commons 公有領域版本作非商業的學術隸屬識別，保留原圖色彩與比例，不暗示校方背書；圖樣另有商標權利。"
+  },
+  "喬治亞法院大學": {
+    "file": "completion-world-georgian-court.webp",
+    "source_url": "https://georgian.edu/",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Georgian_court_univ_logo.png",
+    "usage_url": "https://georgian.edu/marketing/",
+    "credit": "Georgian Court University 官方字標。Wikimedia Commons 版本取自校方網站，標為公有領域並保留商標註記；本站等比轉為 WebP。",
+    "usage": "以 Commons 公有領域版本作非商業的學術隸屬識別，保留原圖色彩與比例，不暗示校方背書；圖樣另有商標權利。"
+  },
+  "德州三一大學": {
+    "file": "completion-world-trinity-san-antonio.webp",
+    "source_url": "https://www.trinity.edu/",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Trinity_univ_textlogo.png",
+    "usage_url": "https://trinity.edu/general-counsel/resources",
+    "credit": "Trinity University（德州聖安東尼奧）官方字標。Wikimedia Commons 版本取自校方網站，標為公有領域並保留商標註記；本站等比轉為 WebP。",
+    "usage": "以 Commons 公有領域版本作非商業的學術隸屬識別，保留原圖色彩與比例，不暗示校方背書；圖樣另有商標權利。"
   }
 }
