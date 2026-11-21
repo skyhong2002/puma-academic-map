@@ -205,7 +205,7 @@ function countBadge(count, unit) {
 // ---------- 主元件 ----------
 
 export function mountDirectory(element, {
-  onSelectCounty, onLocate, onLocateUnit, onSearchPerson, onSearchChange, onSearchOpen, onOpenPerson,
+  onSelectCounty, onLocate, onLocateUnit, onSearchPerson, onSearchChange, onSearchOpen, onSearchClear, onOpenPerson,
 } = {}) {
   if (!element) throw new Error('mountDirectory 需要容器元素');
   const uid = `pa-dir-${Math.random().toString(36).slice(2, 8)}`;
@@ -348,6 +348,7 @@ export function mountDirectory(element, {
 
   function clearSearch() {
     resetSearch();
+    onSearchClear?.();
     render({ focus: null });
   }
 
