@@ -82,8 +82,8 @@ function closePanel({ focusTarget = returnFocus } = {}) {
   (focusTarget?.isConnected && focusTarget.getClientRects().length ? focusTarget : panelToggle).focus({ preventScroll: true });
 }
 
-function locateAfterPanelResize(point, person) {
-  const locate = () => atlas.locate(point, person);
+function locateAfterPanelResize(point, person, options) {
+  const locate = () => atlas.locate(point, person, options);
   const request = {};
   pendingReveal = request;
   locate();
@@ -108,7 +108,7 @@ function detailTitle(text) {
   return title;
 }
 
-function showCampus(campus, { restoring = false, fromParent = false } = {}) {
+function showCampus(campus, { restoring = false, fromParent = false, campusView } = {}) {
   if (campus.campusOnly && !campus.point.unit) campus = atlas.resolveCampus(campus.point) ?? campus;
   if (!restoring) rememberParent({ fromRoot: !fromParent });
   if (!restoring) track('view_academic_location');
@@ -184,8 +184,8 @@ function showCampus(campus, { restoring = false, fromParent = false } = {}) {
     expand.className = 'map-campus-zoom';
     expand.textContent = `在地圖展開 ${number.format(people.length)} 人`;
     expand.addEventListener('click', () => {
-      closePanel({ focusTarget: panelToggle });
-      atlas.expandCampus(point);
+      if (narrowLayout.matches) setSheetTall(false);
+      locateAfterPanelResize(point, undefined, { campusView: 'people' });
     });
     details.append(expand);
   }
@@ -198,7 +198,7 @@ function showCampus(campus, { restoring = false, fromParent = false } = {}) {
   showPanel('detail', { focus: !restoring });
   if (!restoring) {
     if (narrowLayout.matches) setSheetTall(false);
-    locateAfterPanelResize(point);
+    locateAfterPanelResize(point, undefined, { campusView });
   }
 }
 
@@ -271,7 +271,6 @@ function showPerson(person, point, { restoring = false, tall = false, fromParent
 
 const atlas = createAtlas($('map'), people, {
   onCampus: showCampus,
-  onCampusZoom: dismissDetails,
   onPerson: showPerson,
   isNarrow: () => narrowLayout.matches,
   preserveResizeOrigin: () => Boolean(sheetSnap),
@@ -448,11 +447,6 @@ narrowLayout.addEventListener('change', () => {
 new ResizeObserver(() => {
   mapApp.style.setProperty('--sheet-toolbar-height', `${toolbar.offsetHeight}px`);
 }).observe(toolbar);
-function dismissDetails() {
-  if (panelView !== 'detail') return;
-  closePanel({ focusTarget: panelToggle });
-  showHomePanel({ focus: false, open: false });
-}
 $('reset-map').addEventListener('click', () => {
   showHomePanel({ focus: false, open: !panel.hidden, resetMap: true });
 });

@@ -121,7 +121,7 @@ function campusTitle(point) {
   return point.campus ? `${point.institution}・${point.campus}` : point.institution;
 }
 
-export function createAtlas(container, people, { onCampus, onCampusZoom, onPerson, isNarrow, preserveResizeOrigin }) {
+export function createAtlas(container, people, { onCampus, onPerson, isNarrow, preserveResizeOrigin }) {
   const map = L.map(container, { minZoom: 2, maxZoom: CAMPUS_PEOPLE_ZOOM, zoomControl: false, worldCopyJump: true });
   map.attributionControl.setPrefix('<a href="https://github.com/skyhong2002/puma-academic-map">GitHub 原始碼</a>');
   L.control.zoom({ position: 'bottomright', zoomInTitle: '放大', zoomOutTitle: '縮小' }).addTo(map);
@@ -178,7 +178,7 @@ export function createAtlas(container, people, { onCampus, onCampusZoom, onPerso
     });
     marker.on('click', () => {
       if (single) onPerson(group.people[0], group.point);
-      else map.setView(marker.getLatLng(), CAMPUS_ZOOM + 1);
+      else onCampus(group);
     });
     clusters.addLayer(marker);
   }
@@ -602,16 +602,7 @@ export function createAtlas(container, people, { onCampus, onCampusZoom, onPerso
           && placed.every((box) => Math.abs(screen.x + x - box.x) >= (box.width + width) / 2 + 8
             || screen.y + y <= box.y - box.height - 8 || top >= box.y + 8);
       });
-      const openCampus = () => {
-        const focus = L.latLngBounds([anchor]);
-        for (const { lat, lon } of unitsByCampus.get(point) ?? []) {
-          const coordinate = L.latLng(lat, lon);
-          if (map.distance(anchor, coordinate) <= CAMPUS_FOCUS_RADIUS_METRES) focus.extend(coordinate);
-        }
-        onCampusZoom?.();
-        select(point);
-        map.setView(focus.getCenter(), UNIT_ZOOM);
-      };
+      const openCampus = () => onCampus(group, { campusView: 'units' });
       {
         const pin = L.circleMarker(anchor, { radius: 5, color: '#fff', weight: 1, fillColor: orange, fillOpacity: 1 });
         pin.on('click', openCampus);
@@ -650,7 +641,7 @@ export function createAtlas(container, people, { onCampus, onCampusZoom, onPerso
         }
         previews.append(entry);
       }
-      card.append(previews, button(`查看全部 ${people.length} 人`, 'atlas-campus__more', () => onCampus(group)));
+      card.append(previews, button(`查看全部 ${people.length} 人`, 'atlas-campus__more', openCampus));
       const icon = L.divIcon({ className: 'atlas-campus-marker', html: card, iconSize: [width, height], iconAnchor: [width / 2, height] });
       cards.addLayer(L.marker(at, { icon, interactive: false, keyboard: false }));
     }
@@ -698,11 +689,6 @@ export function createAtlas(container, people, { onCampus, onCampusZoom, onPerso
       if (!group || !campusOnly) return group;
       return { ...group, campusOnly: true, people: group.people.filter((person) => !locatedUnit(person, point)) };
     },
-    expandCampus(point) {
-      select(point);
-      focusedUnit = point.unit ? point : undefined;
-      map.setView([point.lat, point.lon], CAMPUS_PEOPLE_ZOOM, { animate: false });
-    },
     campusesFor(institution) {
       const campuses = registeredCampuses.filter(({ point }) => point.institution === institution)
         .sort((a, b) => b.people.length - a.people.length);
@@ -716,13 +702,27 @@ export function createAtlas(container, people, { onCampus, onCampusZoom, onPerso
     },
     peopleAt(point) { return [...(peopleByUnit.get(point) ?? [])]; },
     canExpandUnit,
-    locate(point, person) {
+    locate(point, person, { campusView } = {}) {
       select(point, person);
       focusedUnit = point.unit ? point : undefined;
+      const anchor = L.latLng(point.lat, point.lon);
+      if (campusView === 'units') {
+        const focus = L.latLngBounds([anchor]);
+        for (const { lat, lon } of unitsByCampus.get(point) ?? []) {
+          const coordinate = L.latLng(lat, lon);
+          if (map.distance(anchor, coordinate) <= CAMPUS_FOCUS_RADIUS_METRES) focus.extend(coordinate);
+        }
+        map.setView(focus.getCenter(), UNIT_ZOOM, { animate: false });
+        return;
+      }
+      if (campusView === 'people') {
+        map.setView(anchor, CAMPUS_PEOPLE_ZOOM, { animate: false });
+        return;
+      }
       const targetZoom = canExpandUnit(point) ? CAMPUS_PEOPLE_ZOOM :
         point.unit ? UNIT_ZOOM + 1 : CAMPUS_ZOOM + 1;
       const zoom = person || point.unit ? Math.max(targetZoom, map.getZoom()) : targetZoom;
-      map.setView([point.lat, point.lon], zoom, { animate: false });
+      map.setView(anchor, zoom, { animate: false });
     },
   };
 }
