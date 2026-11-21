@@ -1,7 +1,7 @@
 import L from 'leaflet';
 import 'leaflet.markercluster';
 import { locatedUnit, unitLocations } from './unit-locations.js';
-import { emblemFor, emblemImage } from './emblems.js';
+import { emblemFor, emblemImage, institutionMark } from './emblems.js';
 
 const catalog = Object.values(import.meta.glob('../data/institutions/*.json', { eager: true, import: 'default' })).flat();
 
@@ -117,19 +117,6 @@ export function pointKey(point) {
 
 function campusTitle(point) {
   return point.campus ? `${point.institution}・${point.campus}` : point.institution;
-}
-
-function addEmblem(item, institution) {
-  const emblem = emblemFor(institution);
-  if (emblem) {
-    item.prepend(emblemImage(emblem));
-    return;
-  }
-  const glyph = document.createElement('span');
-  glyph.className = 'atlas-emblem';
-  glyph.setAttribute('aria-hidden', 'true');
-  glyph.textContent = /大學|college|university|大學校/i.test(institution) ? '學' : '研';
-  item.prepend(glyph);
 }
 
 export function createAtlas(container, people, { onCampus, onCampusZoom, onPerson, preserveResizeOrigin }) {
@@ -631,7 +618,7 @@ export function createAtlas(container, people, { onCampus, onCampusZoom, onPerso
       const title = button(groupTitle, 'atlas-campus__title', openCampus);
       title.title = groupTitle;
       registerSelection(title, point);
-      addEmblem(title, point.institution);
+      title.prepend(institutionMark(point.institution));
       card.append(title);
       const previews = document.createElement('div');
       previews.className = 'atlas-campus__people';

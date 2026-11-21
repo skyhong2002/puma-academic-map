@@ -231,6 +231,21 @@
   color: var(--pa-dir-muted);
 }
 
+.pa-dir-institution-row {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr);
+  align-items: start;
+  gap: 10px;
+}
+.pa-dir-institution-copy { display: grid; min-width: 0; gap: 2px; }
+.pa-dir-institution-row > .atlas-emblem {
+  width: 42px;
+  height: 42px;
+  border-radius: 7px;
+  padding: 3px;
+  font-size: 9px;
+}
+
 /* 機構詳情 */
 .pa-dir-links { font-size: 14px; }
 .pa-dir-link {
