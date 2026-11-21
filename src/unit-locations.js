@@ -1,5 +1,5 @@
 import { departmentFor } from './departments.js';
-import { canonicalCampus, unitInstitutionAliases, officialCampus } from './campus-locations.js';
+import { canonicalCampus, unitInstitutionAliases, officialCampus, officialCampusAt } from './campus-locations.js';
 
 const files = import.meta.glob('../data/units/*.json', { eager: true, import: 'default' });
 const normalize = (text) => text.normalize('NFKC').replace(/\s+/g, '').replaceAll('台', '臺').replaceAll('學系', '系');
@@ -44,7 +44,8 @@ export function refineCampus(person, point) {
   if (campus.campus && !genericGuangfu) return campus;
   const unitName = departmentFor(person, campus.institution);
   const unit = locations.get(normalize(unitName));
-  return (unit?.campus && officialCampus(unit.institution, unit.campus)) || campus;
+  return (unit?.campus && officialCampus(unit.institution, unit.campus)) ||
+    officialCampusAt(campus) || campus;
 }
 
 export function findUnits(query) {

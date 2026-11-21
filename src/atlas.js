@@ -9,6 +9,7 @@ const START = [[21.87, 119.65], [25.35, 122.12]];
 const CAMPUS_ZOOM = 14;
 const UNIT_ZOOM = 17;
 const CAMPUS_PEOPLE_ZOOM = 20;
+const CAMPUS_FOCUS_RADIUS_METRES = 1500;
 const PREVIEW_LIMIT = 4;
 const PERSON_HEIGHT = 34;
 const PERSON_GAP = 4;
@@ -179,12 +180,13 @@ export function createAtlas(container, people, { onCampus, onPerson, preserveRes
     [0, 1, -1, 2, -2, 3, -3].map((column) => [column * 210, row * 125 - 10]));
   const peopleByUnit = new Map();
   const campusByUnit = new Map();
-  const campusesWithUnits = new Set();
+  const unitsByCampus = new Map();
   for (const group of groups) {
     for (const person of group.people) {
       const unit = locatedUnit(person, group.point);
       if (!unit) continue;
-      campusesWithUnits.add(group.point);
+      if (!unitsByCampus.has(group.point)) unitsByCampus.set(group.point, new Set());
+      unitsByCampus.get(group.point).add(unit);
       if (!peopleByUnit.has(unit)) {
         peopleByUnit.set(unit, new Set());
         campusByUnit.set(unit, group.point);
@@ -527,11 +529,17 @@ export function createAtlas(container, people, { onCampus, onPerson, preserveRes
             || screen.y + y <= box.y - box.height - 8 || top >= box.y + 8);
       });
       const openCampus = () => {
-        if (campusesWithUnits.has(point)) {
-          const coordinates = people.map((person) => locatedUnit(person, point)).filter(Boolean)
-            .map(({ lat, lon }) => [lat, lon]);
-          map.setView(L.latLngBounds(coordinates).getCenter(), UNIT_ZOOM);
-        } else onCampus(group);
+        const units = unitsByCampus.get(point);
+        if (!units) {
+          onCampus(group);
+          return;
+        }
+        const focus = L.latLngBounds([anchor]);
+        for (const { lat, lon } of units) {
+          const coordinate = L.latLng(lat, lon);
+          if (map.distance(anchor, coordinate) <= CAMPUS_FOCUS_RADIUS_METRES) focus.extend(coordinate);
+        }
+        map.setView(focus.getCenter(), UNIT_ZOOM);
       };
       {
         const pin = L.circleMarker(anchor, { radius: 5, color: '#fff', weight: 1, fillColor: orange, fillOpacity: 1 });

@@ -30,6 +30,12 @@ export function officialCampus(institution, name) {
   };
 }
 
+export function officialCampusAt(point) {
+  const school = universities.find(({ name }) => name === point.institution);
+  const campus = school?.campuses.find(({ lat, lon }) => lat === point.lat && lon === point.lon);
+  return campus && officialCampus(point.institution, campus.name);
+}
+
 export function canonicalCampus(point) {
   if (point.country !== '臺灣') return point;
   const named = officialCampus(nycu.name, nycuNamedCampuses.get(point.institution));

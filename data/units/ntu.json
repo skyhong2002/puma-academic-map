@@ -1,5 +1,6 @@
 {
   "institution": "國立臺灣大學",
+  "campus": "校總區",
   "units": {
     "歷史學系": {
       "lat": 25.017893092886094,
@@ -254,6 +255,7 @@
       "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
     },
     "創新設計學院": {
+      "campus": "水源校區",
       "lat": 25.014633164392695,
       "lon": 121.52831291943919,
       "building": "卓越研究大樓",
@@ -268,6 +270,7 @@
       "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
     },
     "分子醫學研究所": {
+      "campus": "城中校區",
       "lat": 25.040562433361597,
       "lon": 121.51958245588477,
       "building": "臺大醫院東址",
@@ -275,6 +278,7 @@
       "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
     },
     "生物化學暨分子生物學研究所": {
+      "campus": "城中校區",
       "lat": 25.039534534826796,
       "lon": 121.51965205380036,
       "building": "基礎醫學大樓",
@@ -282,6 +286,7 @@
       "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
     },
     "腦與心智科學研究所": {
+      "campus": "城中校區",
       "lat": 25.039534534826796,
       "lon": 121.51965205380036,
       "building": "基礎醫學大樓",
@@ -289,6 +294,7 @@
       "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
     },
     "醫學院微生物學研究所": {
+      "campus": "城中校區",
       "lat": 25.039534534826796,
       "lon": 121.51965205380036,
       "building": "基礎醫學大樓",
@@ -296,6 +302,7 @@
       "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
     },
     "公共衛生學院": {
+      "campus": "城中校區",
       "lat": 25.041269101937555,
       "lon": 121.52306001571345,
       "building": "公衛大樓",
@@ -303,6 +310,7 @@
       "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
     },
     "健康政策與管理研究所": {
+      "campus": "城中校區",
       "lat": 25.041269101937555,
       "lon": 121.52306001571345,
       "building": "公衛大樓",
@@ -317,6 +325,7 @@
       "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
     },
     "健康數據拓析統計研究所": {
+      "campus": "城中校區",
       "lat": 25.041269101937555,
       "lon": 121.52306001571345,
       "building": "公衛大樓",
@@ -324,6 +333,7 @@
       "address_source_url": "https://hdas.ntu.edu.tw/"
     },
     "健康行為與社區科學研究所": {
+      "campus": "城中校區",
       "lat": 25.041269101937555,
       "lon": 121.52306001571345,
       "building": "公衛大樓",
@@ -331,6 +341,7 @@
       "address_source_url": "https://hbcs.ntu.edu.tw/web/student/student.jsp?cp_no=CP1694057914185&lang=tw"
     },
     "環境與職業健康科學研究所": {
+      "campus": "城中校區",
       "lat": 25.041269101937555,
       "lon": 121.52306001571345,
       "building": "公衛大樓",
@@ -345,6 +356,7 @@
       "address_source_url": "https://cbe.ntu.edu.tw/files/0a07a3fbfeaf625f"
     },
     "創新領域學士學位學程": {
+      "campus": "水源校區",
       "lat": 25.014633164392695,
       "lon": 121.52831291943919,
       "building": "卓越研究大樓",
@@ -541,6 +553,7 @@
       "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
     },
     "醫學院生化分生所": {
+      "campus": "城中校區",
       "lat": 25.039534534826796,
       "lon": 121.51965205380036,
       "building": "基礎醫學大樓",
@@ -548,6 +561,7 @@
       "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
     },
     "微生物學研究所": {
+      "campus": "城中校區",
       "lat": 25.039534534826796,
       "lon": 121.51965205380036,
       "building": "基礎醫學大樓",
@@ -562,6 +576,7 @@
       "address_source_url": "https://cpo.ntu.edu.tw/map/C_02_list.pdf"
     },
     "公共衛生學院健康行為與社區科學研究所": {
+      "campus": "城中校區",
       "lat": 25.041269101937555,
       "lon": 121.52306001571345,
       "building": "公衛大樓",
@@ -569,6 +584,7 @@
       "address_source_url": "https://hbcs.ntu.edu.tw/web/student/student.jsp?cp_no=CP1694057914185&lang=tw"
     },
     "公共衛生學院環境與職業健康科學研究所": {
+      "campus": "城中校區",
       "lat": 25.041269101937555,
       "lon": 121.52306001571345,
       "building": "公衛大樓",
