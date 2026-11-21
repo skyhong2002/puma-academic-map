@@ -358,5 +358,50 @@
         ]
       }
     ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "李恩齊（國立陽明交通大學助理研究員）",
+    "sources": [
+      {
+        "url": "https://liberalarts.nycu.edu.tw/liberalarts/ch/app/artwebsite/view?id=5748&module=artwebsite&serno=14f045d0-4c8e-441f-bd04-59b050e5700e",
+        "label": "校方單位人員名錄",
+        "description": "陽明交通大學博雅書苑列李恩齊為光復校區的專案助理研究員。",
+        "department": "博雅書苑",
+        "institutions": [
+          "國立陽明交通大學"
+        ]
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "林韋廷（交通大學科技管理博士、交通大學教育博士候選人）",
+    "sources": [
+      {
+        "url": "https://collego.edu.tw/Highschool/DepartmentCompare?ids=031017%2C023019",
+        "label": "教育部選才育才輔助系統",
+        "description": "ColleGo! 的系友資料確認林韋廷曾錄取交通大學教育所與科管所博士班，署名原文列他為教育博士候選人。",
+        "department": "教育研究所",
+        "institutions": [
+          "國立陽明交通大學"
+        ]
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳治維（國立陽明交通大學數據金融創新）",
+    "sources": [
+      {
+        "url": "https://ncsd.ndc.gov.tw/_ofu/FileDatabase/5e5aa8d2-4aee-4c9f-a2b8-a1f0b1383f80/114%E5%B9%B4%E5%9C%8B%E5%AE%B6%E6%B0%B8%E7%BA%8C%E7%99%BC%E5%B1%95%E7%8D%8E%20%E5%BE%97%E7%8D%8E%E5%B0%88%E8%BC%AF_%E5%AE%9A%E7%A8%BF.pdf",
+        "label": "國家永續發展獎得獎專輯",
+        "description": "國家永續發展獎專輯列陳治維為陽明交通大學數據金融創新中心副主任。",
+        "department": "數據金融創新中心",
+        "institutions": [
+          "國立陽明交通大學"
+        ]
+      }
+    ]
   }
 ]

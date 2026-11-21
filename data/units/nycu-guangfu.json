@@ -293,6 +293,24 @@
         "GMBA",
         "Global MBA"
       ]
+    },
+    "博雅書苑": {
+      "lat": 24.7846364,
+      "lon": 120.9972857,
+      "building": "綜合一館",
+      "source_url": "https://www.openstreetmap.org/way/134753275",
+      "address_source_url": "https://www.nycu.edu.tw/liberalarts/ch/app/artwebsite/view?id=5747&module=artwebsite&serno=7d976a50-d774-4ce2-8cbd-06e2760a978b",
+      "aliases": []
+    },
+    "教育研究所": {
+      "lat": 24.787388,
+      "lon": 120.9986367,
+      "building": "人社一館",
+      "source_url": "https://www.openstreetmap.org/way/135992304",
+      "address_source_url": "https://education.nycu.edu.tw/introduction/map/",
+      "aliases": [
+        "教育所"
+      ]
     }
   }
 }
