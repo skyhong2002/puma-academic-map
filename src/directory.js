@@ -246,18 +246,14 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
     h('p', { class: 'pa-dir-sr', id: `${uid}-search-hint`, text: '可搜尋原站署名原文；按 ↓ 移到第一筆結果，Esc 清除。' }),
   );
 
-  // 縣市選單
-  const countySelect = h('select', {
-    class: 'pa-dir-county-select',
-    'aria-label': '依縣市篩選',
-    onChange: () => selectCounty(countySelect.value || null),
-  }, h('option', { value: '', text: '全部縣市' }),
-  COUNTY_ORDER.map((county) => h('option', { value: county, text: county })));
+  const geoTitle = h('h3', { class: 'rail__heading', id: 'directory-geo-heading' });
+  const geoList = h('ul', { class: 'rail__list', id: 'directory-geo-list' });
+  const geoRail = h('nav', { class: 'rail directory-geo', 'aria-labelledby': geoTitle.id }, geoTitle, geoList);
   const unlocatedButton = h('button', {
     type: 'button',
     class: 'pa-dir-chip pa-dir-chip-alt',
     onClick: () => {
-      if (state.view === 'unlocated') selectCounty(null);
+      if (state.view === 'unlocated') selectCounty(state.county);
       else showUnlocated();
     },
   }, '尚未定位', countBadge(unlocated.length, '筆署名'));
@@ -274,8 +270,8 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
   const institutionMode = h('button', { type: 'button', class: 'pa-dir-chip', text: '機構',
     onClick: () => selectMode('institutions') });
   const modes = h('div', { class: 'map-switch', role: 'group', 'aria-label': '名錄分類' }, peopleMode, institutionMode);
-  const filters = h('div', { class: 'pa-dir-filters' }, modes, countySelect, unlocatedButton);
-  element.append(header, searchForm, filters, live, main, footer);
+  const filters = h('div', { class: 'pa-dir-filters' }, modes, unlocatedButton);
+  element.append(header, searchForm, filters, geoRail, live, main, footer);
 
   // ---- 事件 ----
   let searchTimer = 0;
@@ -372,7 +368,6 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
   function render({ focus } = {}) {
     clearButton.hidden = !searchInput.value;
     filters.hidden = state.overseas;
-    countySelect.value = state.view === 'unlocated' ? '' : state.county ?? '';
     unlocatedButton.setAttribute('aria-pressed', String(state.view === 'unlocated'));
     peopleMode.setAttribute('aria-pressed', String(state.groupBy === 'people'));
     institutionMode.setAttribute('aria-pressed', String(state.groupBy === 'institutions'));
@@ -706,6 +701,8 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
   render();
 
   return {
+    geoTitle,
+    geoList,
     setMapInstitution(institution) {
       state.mapInstitution = institution;
       state.groupBy = 'people';

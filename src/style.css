@@ -1128,3 +1128,9 @@ path.bin-4 { fill: var(--bin-4); }
   color: var(--ink-soft);
   font-size: 0.875rem;
 }
+
+.directory-geo .rail__list {
+  margin: 0;
+  padding-inline: 2px;
+  scrollbar-width: thin;
+}

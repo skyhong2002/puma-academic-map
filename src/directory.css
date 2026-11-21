@@ -131,16 +131,6 @@
 .pa-dir-search-clear[hidden] { display: none; }
 /* 名錄篩選 */
 .pa-dir-filters { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
-.pa-dir-county-select {
-  min-height: 44px;
-  padding: 0 8px;
-  border: 1px solid var(--pa-dir-border);
-  border-radius: 8px;
-  background: var(--pa-dir-card);
-  color: var(--pa-dir-text);
-  font: inherit;
-  font-size: 16px;
-}
 .pa-dir-chip {
   position: relative;
   display: inline-flex;
