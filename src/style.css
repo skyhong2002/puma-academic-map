@@ -73,6 +73,8 @@
     --county-line: #12171c;
     --label: #f2efe8;
     --label-halo: rgba(18, 23, 28, 0.8);
+    --label-strong: #0e1f20;
+    --label-strong-halo: rgba(170, 224, 214, 0.85);
     --highlight: #5e4d17;
     --notice-bg: #29251a;
     --notice-border: #574c2c;
@@ -730,6 +732,25 @@ path.bin-4 { fill: var(--bin-4); }
 }
 
 /* ---------- 手機窄版微調 ---------- */
+
+@media (max-width: 719px) {
+  /* 手機上資訊卡收窄，留出本島西北角 */
+  .atlas__top {
+    max-width: 46%;
+  }
+
+  .cue {
+    padding: 6px 10px 7px;
+  }
+
+  .cue__name {
+    font-size: 1.0625rem;
+  }
+
+  .cue__meta {
+    font-size: 0.75rem;
+  }
+}
 
 @media (max-width: 419px) {
   .legend__title {
