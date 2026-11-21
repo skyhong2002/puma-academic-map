@@ -71,6 +71,7 @@ export function personComments(person) {
   section.className = 'person-comments';
   section.setAttribute('aria-label', `${person.name}的留言板`);
   const heading = element('h3', '留言板');
+  heading.tabIndex = -1;
   const form = element('form');
   const input = commentInput();
   input.placeholder = `我想對${person.name}說……`;
@@ -99,7 +100,8 @@ export function personComments(person) {
   form.append(input, trap, submit, status);
   section.append(heading, form, listStatus, list, more, retry);
 
-  const endpoint = commentBoardId(person).then((id) => `/api/people/${id}/comments`);
+  const boardId = commentBoardId(person);
+  const endpoint = boardId.then((id) => `/api/people/${id}/comments`);
   let next = null;
   let loaded = false;
   let loading = false;
@@ -183,7 +185,7 @@ export function personComments(person) {
         change.disabled = remove.disabled = false;
       }
     });
-    const share = button('分享字卡', () => openCommentShareCard(section, person.name, comment.body, share));
+    const share = button('分享字卡', () => openCommentShareCard(section, person.name, comment.body, boardId, share));
     actions.append(change, remove, share);
     item.append(actions, feedback);
     return item;
@@ -246,7 +248,7 @@ export function personComments(person) {
       const hasFocus = form.contains(document.activeElement) || document.activeElement === document.body;
       if (hasFocus && section.getClientRects().length) {
         status.textContent = '';
-        openCommentShareCard(section, person.name, comment.body, input);
+        openCommentShareCard(section, person.name, comment.body, boardId, input);
       } else status.textContent = '留言已公開。';
     } catch (error) {
       status.textContent = errorText(error);

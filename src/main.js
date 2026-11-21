@@ -5,6 +5,7 @@ import { createAtlas, pointKey } from './atlas.js';
 import { mountDirectory } from './directory.js';
 import { people } from './person-data.js';
 import { personDetails } from './person-map.js';
+import { commentBoardId } from './comment-board-id.js';
 import { personComments } from './person-comments.js';
 import { track } from './analytics.js';
 
@@ -526,7 +527,23 @@ function restoreView() {
   mapApp.style.removeProperty('--panel-duration');
 }
 
-restoreView();
+async function openLinkedBoard(id) {
+  const matches = await Promise.all(people.map(async (person) => await commentBoardId(person) === id ? person : null));
+  const person = matches.find(Boolean);
+  if (!person) {
+    restoreView();
+    return;
+  }
+  showPerson(person, person.locations[0]);
+  if (narrowLayout.matches) setSheetTall(true);
+  const heading = details.querySelector('.person-comments h3');
+  heading.focus({ preventScroll: true });
+  heading.scrollIntoView({ block: 'start' });
+}
+
+const linkedPerson = new URLSearchParams(location.search).get('person');
+if (/^[a-f0-9]{32}$/.test(linkedPerson ?? '')) openLinkedBoard(linkedPerson).catch(restoreView);
+else restoreView();
 window.addEventListener('pagehide', saveView);
 document.addEventListener('visibilitychange', () => {
   if (document.hidden) saveView();

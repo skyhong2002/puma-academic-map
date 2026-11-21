@@ -108,3 +108,5 @@
   .comment-share header { grid-column: 1 / -1; }
   .comment-share__controls { align-self: center; }
 }
+
+.comment-share__links { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-top: 12px; font-size: .875rem; }
