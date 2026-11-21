@@ -1,6 +1,6 @@
 import L from 'leaflet';
 import 'leaflet.markercluster';
-import { locatedUnit, unitLocations } from './unit-locations.js';
+import { locatedUnit } from './unit-locations.js';
 import { emblemFor, emblemImage } from './emblems.js';
 
 const catalog = Object.values(import.meta.glob('../data/institutions/*.json', { eager: true, import: 'default' })).flat();
@@ -57,7 +57,6 @@ function campusGroups(people) {
       const key = campusKey(point);
       const existing = groups.get(key);
       if (existing) existing.point = { ...existing.point, ...point };
-      else groups.set(key, { point, people: new Map() });
     }
   }
   return [...groups.values()].map(({ point, people }) => ({
@@ -106,7 +105,7 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
     const zoom = Math.min(CAMPUS_ZOOM, Math.max(map.getZoom() + 1, map.getBoundsZoom(layer.getBounds(), false, [48, 48])));
     map.setView(layer.getLatLng(), zoom);
   });
-  for (const group of groups.filter(({ people }) => people.length)) {
+  for (const group of groups) {
     const single = group.people.length === 1;
     const label = single ? group.people[0].name : campusTitle(group.point);
     const text = document.createElement('span');
@@ -153,7 +152,7 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
   function showUnitPins(bounds) {
     const byBuilding = new Map();
     const buildings = [];
-    for (const point of unitLocations) {
+    for (const point of peopleByUnit.keys()) {
       if (!bounds.contains([point.lat, point.lon])) continue;
       const key = `${point.lat},${point.lon}`;
       if (!byBuilding.has(key)) byBuilding.set(key, []);
@@ -275,13 +274,13 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
         continue;
       }
       if (detailed) {
-        if (!individualPeople.length && people.length) continue;
+        if (!individualPeople.length) continue;
         const open = () => onCampus({ ...group, people: individualPeople, campusOnly: true });
-        const label = individualPeople.length ? `${groupTitle} · ${individualPeople.length}` : groupTitle;
+        const label = `${groupTitle} · ${individualPeople.length}`;
         const marker = mapPill(label, 'atlas-campus-fallback', open);
         const emblem = emblemFor(point.institution);
         if (emblem) marker.prepend(emblemImage(emblem));
-        marker.title = individualPeople.length ? `${label}・校區定位` : label;
+        marker.title = `${label}・校區定位`;
         cards.addLayer(L.marker(anchor, {
           icon: L.divIcon({ html: marker, className: 'atlas-fallback-marker', iconSize: [0, 0] }),
           interactive: false, keyboard: false,
@@ -289,7 +288,7 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
         continue;
       }
       const width = 196;
-      const height = people.length ? 114 : 48;
+      const height = 114;
       const position = positions.find(([x, y]) => {
         const left = screen.x + x - width / 2;
         const top = screen.y + y - height;
@@ -323,23 +322,20 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
       title.title = groupTitle;
       addEmblem(title, point.institution);
       card.append(title);
-      if (people.length) {
-        const previews = document.createElement('div');
-        previews.className = 'atlas-campus__people';
-        for (const person of people.slice(0, PREVIEW_LIMIT)) {
-          const entry = button(person.name, 'atlas-campus__person', () => onPerson(person, locatedUnit(person, point) ?? point));
-          entry.title = person.name;
-          if (person.portrait) {
-            const img = document.createElement('img');
-            img.src = person.portrait.image;
-            img.alt = '';
-            entry.prepend(img);
-          }
-          previews.append(entry);
+      const previews = document.createElement('div');
+      previews.className = 'atlas-campus__people';
+      for (const person of people.slice(0, PREVIEW_LIMIT)) {
+        const entry = button(person.name, 'atlas-campus__person', () => onPerson(person, locatedUnit(person, point) ?? point));
+        entry.title = person.name;
+        if (person.portrait) {
+          const img = document.createElement('img');
+          img.src = person.portrait.image;
+          img.alt = '';
+          entry.prepend(img);
         }
-        card.append(previews);
-        card.append(button(`查看全部 ${people.length} 人`, 'atlas-campus__more', () => onCampus(group)));
+        previews.append(entry);
       }
+      card.append(previews, button(`查看全部 ${people.length} 人`, 'atlas-campus__more', () => onCampus(group)));
       const icon = L.divIcon({ className: 'atlas-campus-marker', html: card, iconSize: [width, height], iconAnchor: [width / 2, height] });
       cards.addLayer(L.marker(at, { icon, interactive: false, keyboard: false }));
     }
