@@ -1122,3 +1122,9 @@ path.bin-4 { fill: var(--bin-4); }
     min-height: 0;
   }
 }
+
+.rail__empty {
+  align-self: center;
+  color: var(--ink-soft);
+  font-size: 0.875rem;
+}

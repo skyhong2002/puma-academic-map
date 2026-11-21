@@ -43,7 +43,7 @@
           <div class="atlas__map" id="world-map" aria-label="海外署名地圖"></div>
         </div>
         <nav class="world-rail" id="world-rail" aria-label="海外國家與地區" hidden>
-          <h3 class="rail__heading">國家與地區・依署名人數排序</h3>
+          <h3 class="rail__heading" id="world-rail-heading">國家與地區・依署名人數排序</h3>
           <ul class="world-rail__list" id="world-country-list"></ul>
         </nav>
         <div class="atlas" id="atlas">
@@ -77,6 +77,7 @@
         <nav class="rail" aria-labelledby="rail-heading">
           <h3 class="rail__heading" id="rail-heading">縣市清單</h3>
           <ul class="rail__list" id="county-list"></ul>
+          <ul class="rail__list" id="county-institution-list" hidden></ul>
         </nav>
 
         <p class="visually-hidden" id="status" role="status" aria-live="polite"></p>

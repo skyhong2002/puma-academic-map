@@ -210,6 +210,7 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
     county: null,
     overseas: false,
     overseasCountry: null,
+    mapInstitution: null,
     groupBy: 'people',
     institution: null,
     view: 'browse', // browse | unlocated
@@ -338,6 +339,7 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
 
   function selectCounty(county, { notify = true, focus = 'heading' } = {}) {
     state.county = county;
+    state.mapInstitution = null;
     state.institution = null;
     state.view = 'browse';
     state.entryLimit = PAGE;
@@ -428,10 +430,15 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
   }
 
   function renderPeople() {
-    const title = state.overseas ? (state.overseasCountry ? `${state.overseasCountry}署名者` : '海外署名者') : state.county ? `${state.county}署名者` : '全部署名者';
+    const scope = state.mapInstitution ?? (state.overseas ? state.overseasCountry ?? '海外' : state.county ?? '全部');
+    const title = `${scope}署名者`;
     const list = entries.filter((entry) => {
+      if (state.mapInstitution) return locationsFor(entry).some((place) =>
+        place.institution === state.mapInstitution && (state.overseas
+          ? place.country === state.overseasCountry
+          : norm(place.city).startsWith(norm(state.county))));
       if (state.overseas) return locationsFor(entry).some((place) => !state.overseasCountry || place.country === state.overseasCountry);
-      if (state.county) return locationsFor(entry).some((place) => normalizeCounty(place.city)?.startsWith(state.county));
+      if (state.county) return locationsFor(entry).some((place) => norm(place.city).startsWith(norm(state.county)));
       return true;
     });
     main.replaceChildren(
@@ -697,7 +704,17 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
   render();
 
   return {
+    setMapInstitution(institution) {
+      state.mapInstitution = institution;
+      state.groupBy = 'people';
+      state.institution = null;
+      state.view = 'browse';
+      state.entryLimit = PAGE;
+      resetSearch();
+      render();
+    },
     setOverseasCountry(country) {
+      state.mapInstitution = null;
       state.overseasCountry = country;
       state.entryLimit = PAGE;
       resetSearch();
@@ -706,6 +723,7 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
     setOverseas(value) {
       if (value === state.overseas) return;
       state.overseas = value;
+      state.mapInstitution = null;
       state.overseasCountry = null;
       state.institution = null;
       state.view = 'browse';
@@ -715,7 +733,7 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
     },
     setCounty(countyOrNull) {
       const county = normalizeCounty(countyOrNull);
-      if (county === state.county && state.view === 'browse' && !state.institution && !searchInput.value && !state.query) return;
+      if (county === state.county && state.view === 'browse' && !state.institution && !state.mapInstitution && !searchInput.value && !state.query) return;
       selectCounty(county, { notify: false, focus: null });
     },
   };

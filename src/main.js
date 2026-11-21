@@ -39,6 +39,66 @@ const binOf = (county) => BINS.findIndex((bin) => personCount(county) >= bin.min
 const describe = (county) => `${number.format(personCount(county))} 筆已定位署名`;
 const NATIONAL_META = `${number.format(taiwanPeople.length)} 筆已定位署名 · ${countyCounts.size} 縣市`;
 
+function addLocation(groups, name, person, point) {
+  if (!groups.has(name)) groups.set(name, { people: new Set(), points: [] });
+  const group = groups.get(name);
+  group.people.add(person);
+  group.points.push(point);
+}
+
+function sortedLocations(groups) {
+  return [...groups].sort(([a, x], [b, y]) => y.people.size - x.people.size || a.localeCompare(b, 'zh-TW'));
+}
+
+const taiwanInstitutions = new Map();
+for (const person of taiwanPeople) {
+  for (const point of person.locations.filter(isTaiwan)) {
+    const county = COUNTY_ORDER.find((name) => normalizeCounty(point.city).startsWith(name));
+    if (!county) continue;
+    if (!taiwanInstitutions.has(county)) taiwanInstitutions.set(county, new Map());
+    addLocation(taiwanInstitutions.get(county), point.institution, person, point);
+  }
+}
+
+function locationChip(label, count, onClick) {
+  const item = document.createElement('li');
+  const button = document.createElement('button');
+  button.className = 'chip';
+  button.type = 'button';
+  button.textContent = label;
+  if (count != null) {
+    const badge = document.createElement('span');
+    badge.className = 'chip__count bin-2';
+    badge.textContent = number.format(count);
+    button.append(badge);
+    button.setAttribute('aria-label', `${label}，${count} 筆署名`);
+    button.setAttribute('aria-pressed', 'false');
+  }
+  button.addEventListener('click', onClick);
+  item.append(button);
+  return item;
+}
+
+function renderInstitutions(rail, groups, backLabel, onBack, onSelect) {
+  rail.replaceChildren(locationChip(backLabel, null, onBack));
+  for (const [name, group] of sortedLocations(groups)) {
+    const item = locationChip(name, group.people.size, (event) => {
+      for (const button of rail.querySelectorAll('[aria-pressed]')) {
+        button.setAttribute('aria-pressed', String(button === event.currentTarget));
+      }
+      directory.setMapInstitution(name);
+      onSelect(group.points);
+    });
+    rail.append(item);
+  }
+  if (!groups.size) {
+    const empty = document.createElement('li');
+    empty.className = 'rail__empty';
+    empty.textContent = '此範圍尚無已定位機構';
+    rail.append(empty);
+  }
+}
+
 /* ---------- 頁首概況與來源 ---------- */
 
 const sections = signatories.sections ?? {};
@@ -142,7 +202,10 @@ const makeListButton = (county) => {
   } else {
     button.classList.add('chip--home');
   }
-  button.addEventListener('click', () => setCounty(county));
+  button.addEventListener('click', () => {
+    setCounty(county);
+    if (county) $('county-institution-list').querySelector('button').focus({ preventScroll: true });
+  });
   item.append(button);
   listButtons.set(county, button);
   return item;
@@ -184,15 +247,34 @@ function setCounty(value, { updateDirectory = true } = {}) {
   const normalized = value ? normalizeCounty(value) : null;
   const next = normalized && known.has(normalized) ? normalized : null;
   if (updateDirectory) directory?.setCounty(next);
-  if (next === selected) return;
+  if (next === selected) {
+    if (next) {
+      map.refocus();
+      for (const button of $('county-institution-list').querySelectorAll('[aria-pressed]')) {
+        button.setAttribute('aria-pressed', 'false');
+      }
+    }
+    return;
+  }
   selected = next;
+  hovered = null;
   map.select(selected);
   renderCrumbs();
   renderCue();
   renderList();
-  const button = listButtons.get(selected).getBoundingClientRect();
-  const rail = list.getBoundingClientRect();
-  list.scrollLeft += Math.min(0, button.left - rail.left - 16) + Math.max(0, button.right - rail.right + 16);
+
+  const institutions = $('county-institution-list');
+  list.hidden = Boolean(selected);
+  institutions.hidden = !selected;
+  $('rail-heading').textContent = selected ? `${selected}・大學與機構` : '縣市清單';
+  if (selected) {
+    renderInstitutions(institutions, taiwanInstitutions.get(selected) ?? new Map(), '← 全臺縣市', () => {
+      const previous = selected;
+      setCounty(null);
+      listButtons.get(previous)?.focus();
+    }, map.fitInstitution);
+    institutions.scrollLeft = 0;
+  }
   $('status').textContent = selected ? `已選取${selected}，${describe(selected)}。` : '已回到全臺視圖。';
 }
 
@@ -224,36 +306,38 @@ directory = mountDirectory($('directory'), {
 
 let worldMap;
 const overseasCountries = new Map();
+const overseasInstitutions = new Map();
 for (const person of overseasPeople) {
   for (const point of person.locations.filter((location) => !isTaiwan(location))) {
-    if (!overseasCountries.has(point.country)) overseasCountries.set(point.country, { people: new Set(), points: [] });
-    const country = overseasCountries.get(point.country);
-    country.people.add(person);
-    country.points.push(point);
+    addLocation(overseasCountries, point.country, person, point);
+    if (!overseasInstitutions.has(point.country)) overseasInstitutions.set(point.country, new Map());
+    addLocation(overseasInstitutions.get(point.country), point.institution, person, point);
   }
 }
 
-const countryButtons = new Map();
-for (const [name, country] of [[null, { people: new Set(overseasPeople) }],
-  ...[...overseasCountries].sort(([a, x], [b, y]) => y.people.size - x.people.size || a.localeCompare(b, 'zh-TW'))]) {
-  const li = document.createElement('li');
-  const button = document.createElement('button');
-  const count = document.createElement('span');
-  button.className = 'chip';
-  button.type = 'button';
-  button.setAttribute('aria-pressed', String(name === null));
-  button.setAttribute('aria-label', `${name ?? '全部地區'}，${country.people.size} 筆署名`);
-  count.className = 'chip__count bin-2';
-  count.textContent = number.format(country.people.size);
-  button.append(name ?? '全部地區', count);
-  button.addEventListener('click', () => {
-    for (const [key, item] of countryButtons) item.setAttribute('aria-pressed', String(key === name));
-    directory.setOverseasCountry(name);
-    worldMap.fitCountry(country.points);
-  });
-  countryButtons.set(name, button);
-  li.append(button);
-  $('world-country-list').append(li);
+function renderWorldRail(country = null, focus = false) {
+  const rail = $('world-country-list');
+  $('world-rail-heading').textContent = country
+    ? `${country}・大學與機構`
+    : '國家與地區・依署名人數排序';
+  if (country) {
+    renderInstitutions(rail, overseasInstitutions.get(country), '← 全部國家與地區', () => {
+      directory.setOverseasCountry(null);
+      worldMap.fitCountry();
+      renderWorldRail();
+      [...rail.querySelectorAll('button')].find((button) => button.textContent.startsWith(country))?.focus();
+    }, worldMap.fitInstitution);
+    if (focus) rail.querySelector('button').focus({ preventScroll: true });
+    return;
+  }
+  const all = locationChip('全部地區', overseasPeople.length, () => worldMap.fitCountry());
+  all.firstElementChild.setAttribute('aria-pressed', 'true');
+  rail.replaceChildren(all, ...sortedLocations(overseasCountries).map(([name, group]) =>
+    locationChip(name, group.people.size, () => {
+      directory.setOverseasCountry(name);
+      worldMap.fitCountry(group.points);
+      renderWorldRail(name, true);
+    })));
 }
 
 function showWorld(show) {
@@ -271,9 +355,13 @@ function showWorld(show) {
   if (show) {
     worldMap ??= createWorldMap($('world-map'));
     worldMap.map.invalidateSize();
-    if (!wasVisible) worldMap.fitCountry();
-  } else {
-    for (const [key, item] of countryButtons) item.setAttribute('aria-pressed', String(key === null));
+    if (!wasVisible) {
+      worldMap.fitCountry();
+      renderWorldRail();
+    }
+  } else if (wasVisible) {
+    const institution = $('county-institution-list').querySelector('[aria-pressed="true"]');
+    if (institution) directory.setMapInstitution(institution.firstChild.textContent);
   }
 }
 $('show-taiwan').addEventListener('click', () => showWorld(false));

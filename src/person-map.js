@@ -176,6 +176,7 @@ function addPersonMarkers(map, entries, include, avatarZoom) {
   }
 
   let rosterPanel;
+  map.on('movestart', () => rosterPanel?.remove());
   function showRoster(members, selected) {
     map.closePopup();
     rosterPanel?.remove();
@@ -263,6 +264,11 @@ export function addTaiwanPeople(map) {
   return addPersonMarkers(map, taiwanPeople, isTaiwan, 9);
 }
 
+export function fitInstitution(map, points) {
+  map.closePopup();
+  map.fitBounds(points.map(({ lat, lon }) => [lat, lon]), { padding: [32, 32], maxZoom: 10 });
+}
+
 export function createWorldMap(container) {
   const overview = [[-57, -178], [82, 179]];
   const map = L.map(container, {
@@ -274,6 +280,7 @@ export function createWorldMap(container) {
   return {
     map,
     locate,
+    fitInstitution: (points) => fitInstitution(map, points),
     fitCountry(points) {
       map.closePopup();
       map.fitBounds(points?.map(({ lat, lon }) => [lat, lon]) ?? overview,
