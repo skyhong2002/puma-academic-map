@@ -592,7 +592,7 @@ export function mountDirectory(element, {
     const places = pointsBySection.get(entry.section)?.get(entry.raw) ?? [];
     const name = entry.name || '（未解析條目）';
     return h('li', { class: 'pa-dir-entry' },
-      h('details', {},
+      h('details', { dataset: { entry: JSON.stringify([entry.section, entry.raw]) } },
         h('summary', {
           class: 'pa-dir-entry-head',
           dataset: result ? { result: '' } : {},
@@ -763,6 +763,33 @@ export function mountDirectory(element, {
     searchForm,
     searchInput,
     isComposingSearch,
+    snapshot() {
+      return {
+        county: state.county,
+        groupBy: state.groupBy,
+        institution: institutionById.get(state.institution)?.name,
+        view: state.view,
+        query: composing ? state.query : searchInput.value,
+        entryLimit: state.entryLimit,
+        searchLimit: state.searchLimit,
+        expanded: [...main.querySelectorAll('details[data-entry][open]')].map((entry) => entry.dataset.entry),
+      };
+    },
+    restore(saved) {
+      if (!saved) return;
+      state.county = COUNTY_ORDER.includes(saved.county) ? saved.county : null;
+      state.groupBy = saved.groupBy === 'institutions' ? 'institutions' : 'people';
+      state.institution = institutions.find(({ name }) => name === saved.institution)?.id ?? null;
+      state.view = saved.view === 'unlocated' ? 'unlocated' : 'browse';
+      state.query = typeof saved.query === 'string' ? saved.query : '';
+      searchInput.value = state.query;
+      if (Number.isInteger(saved.entryLimit) && saved.entryLimit > 0) state.entryLimit = saved.entryLimit;
+      if (Number.isInteger(saved.searchLimit) && saved.searchLimit > 0) state.searchLimit = saved.searchLimit;
+      render();
+      if (!Array.isArray(saved.expanded)) return;
+      const expanded = new Set(saved.expanded);
+      for (const entry of main.querySelectorAll('details[data-entry]')) entry.open = expanded.has(entry.dataset.entry);
+    },
     setMapInstitution(institution, members) {
       state.mapInstitution = institution;
       state.mapInstitutionMembers = members
