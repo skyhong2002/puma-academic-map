@@ -126,6 +126,16 @@ const hasLocation = (entry) => Boolean(pointsBySection.get(entry.section)?.get(e
 const unlocated = entries.filter((entry) => !hasLocation(entry));
 const locatedEntries = [...new Map(entries.filter(hasLocation)
   .map((entry) => [JSON.stringify([entry.section, entry.raw]), entry])).values()];
+const institutionSignerCounts = new Map();
+for (const person of people) {
+  for (const name of new Set(person.locations.map(({ institution }) => institution))) {
+    institutionSignerCounts.set(name, (institutionSignerCounts.get(name) ?? 0) + 1);
+  }
+}
+const mappedInstitutions = [...institutionSignerCounts].map(([name, count]) => ({
+  name, count, type: institutions.find((institution) => institution.name === name)?.type,
+})).sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, 'zh-TW'));
+
 const overviewLists = new Map([
   ['leads', { title: '共同領銜', list: entries.filter((entry) => entry.section === '共同領銜') }],
   ['members', { title: '會員署名', list: entries.filter((entry) => entry.section === '會員名單') }],
@@ -438,6 +448,7 @@ export function mountDirectory(element, {
         list.length ? entryList(list) : h('p', { class: 'pa-dir-muted', text: '目前沒有符合的署名。' }));
       live.textContent = `${title}，共 ${list.length} 筆`;
     }
+    else if (state.view === 'institutions') renderMappedInstitutions();
     else if (state.view === 'unlocated') renderUnlocated();
     else if (state.institution) renderInstitution(institutionById.get(state.institution));
     else if (state.overseas || state.groupBy === 'people') renderPeople();
@@ -465,19 +476,22 @@ export function mountDirectory(element, {
   }
 
   function institutionCard(inst, county) {
+    const mapped = Number.isInteger(inst.count);
+    const count = mapped ? inst.count : inst.entries.length;
+    const countLabel = mapped ? '位已定位署名者' : '筆署名提及';
     return h('li', { class: 'pa-dir-card' },
       h('button', {
         type: 'button',
         class: 'pa-dir-card-button pa-dir-institution-row',
-        onClick: () => selectInstitution(inst, { fromCounty: county ?? null }),
-        'aria-label': `${inst.name}，${inst.entries.length} 筆署名原文提及`,
+        onClick: () => mapped ? onOpenInstitution?.(inst.name, null) : selectInstitution(inst, { fromCounty: county ?? null }),
+        'aria-label': `${inst.name}，${count} ${mapped ? countLabel : '筆署名原文提及'}`,
       },
       institutionMark(inst.name),
       h('span', { class: 'pa-dir-institution-copy' },
-        h('span', { class: 'pa-dir-card-type', text: TYPE_LABEL[inst.type] }),
+        inst.type ? h('span', { class: 'pa-dir-card-type', text: TYPE_LABEL[inst.type] }) : null,
         h('span', { class: 'pa-dir-card-name', text: inst.name }),
         h('span', { class: 'pa-dir-card-count' },
-          h('strong', { text: inst.entries.length }), ' 筆署名提及')),
+          h('strong', { text: count }), ` ${countLabel}`)),
       h('span', { class: 'pa-dir-card-arrow', 'aria-hidden': 'true', text: '›' })));
   }
 
@@ -506,6 +520,14 @@ export function mountDirectory(element, {
       coverageNote(),
     );
     live.textContent = `${title}，共 ${list.length} 筆`;
+  }
+
+  function renderMappedInstitutions() {
+    main.replaceChildren(
+      viewTitle('已定位機構', `共 ${mappedInstitutions.length.toLocaleString('zh-TW')} 所，同一機構的不同校區合計為一所。`),
+      h('ul', { class: 'pa-dir-cards', role: 'list' }, mappedInstitutions.map((inst) => institutionCard(inst))),
+    );
+    live.textContent = `已定位機構，共 ${mappedInstitutions.length} 所`;
   }
 
   function renderOverview() {
@@ -722,11 +744,12 @@ export function mountDirectory(element, {
     searchForm,
     searchInput,
     isComposingSearch,
+    mappedInstitutionCount: mappedInstitutions.length,
     showOverviewList(view) {
-      if (!overviewLists.has(view)) return;
+      if (view !== 'institutions' && !overviewLists.has(view)) return;
       state.view = view;
       state.county = null;
-      state.groupBy = 'people';
+      state.groupBy = view === 'institutions' ? 'institutions' : 'people';
       state.institution = null;
       state.entryLimit = PAGE;
       resetSearch();
@@ -749,7 +772,7 @@ export function mountDirectory(element, {
       state.county = COUNTY_ORDER.includes(saved.county) ? saved.county : null;
       state.groupBy = saved.groupBy === 'institutions' ? 'institutions' : 'people';
       state.institution = institutions.find(({ name }) => name === saved.institution)?.id ?? null;
-      state.view = saved.view === 'unlocated' || overviewLists.has(saved.view) ? saved.view : 'browse';
+      state.view = ['unlocated', 'institutions'].includes(saved.view) || overviewLists.has(saved.view) ? saved.view : 'browse';
       state.query = typeof saved.query === 'string' ? saved.query : '';
       searchInput.value = state.query;
       searchStarted = Boolean(state.query.trim());

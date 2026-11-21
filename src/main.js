@@ -14,6 +14,8 @@ const panel = $('map-panel');
 const details = $('place-details');
 const directoryElement = $('directory');
 const overview = $('map-overview');
+const home = $('home-panel');
+const regions = $('map-regions');
 const about = $('about-map');
 const publicComments = $('public-comments');
 const publicList = $('public-comments-list');
@@ -25,6 +27,7 @@ const aboutButton = $('map-about');
 const panelContent = $('panel-content');
 const mapApp = panel.closest('.map-app');
 const narrowLayout = matchMedia('(width < 720px)');
+const wideLayout = matchMedia('(width >= 1024px)');
 const toolbar = mapApp.querySelector('.map-toolbar');
 const number = new Intl.NumberFormat('zh-TW');
 let returnFocus;
@@ -33,7 +36,8 @@ let nextPublicCursor;
 let loadingPublicComments = false;
 let peopleByBoard;
 let panelAncestors = [];
-let panelView = 'directory';
+let panelView = 'home';
+let activeRegion = null;
 let collapsedScrollTop = 0;
 let pendingReveal;
 let sheetDrag;
@@ -58,17 +62,17 @@ function setPanelExpanded(expanded) {
   atlas.resize();
 }
 
-function showPanel(view, { focus = true, restoreScroll = false } = {}) {
+function showPanel(view, { focus = true, restoreScroll = false, open = true } = {}) {
   if (panel.hidden && document.activeElement instanceof HTMLElement) returnFocus = document.activeElement;
   panelView = view;
   directoryElement.hidden = view !== 'directory';
-  overview.hidden = directoryElement.hidden;
+  home.hidden = view !== 'home';
   details.hidden = view !== 'detail';
   about.hidden = view !== 'about';
   publicComments.hidden = view !== 'comments';
   if (view === 'comments' && nextPublicCursor === undefined) loadPublicComments();
-  if (panel.hidden) setPanelExpanded(true);
-  else updateViewExpanded(true);
+  if (panel.hidden === open) setPanelExpanded(open);
+  else updateViewExpanded(open);
   if (restoreScroll) panelContent.scrollTop = collapsedScrollTop;
   if (focus) {
     if (!restoreScroll) panelContent.scrollTop = 0;
@@ -291,8 +295,12 @@ const directory = mountDirectory(directoryElement, {
   },
   onSearchClear: () => showHomePanel({ focus: false }),
   onSearchChange(query) {
+    if (!query.trim()) {
+      showHomePanel({ focus: false });
+      return;
+    }
     atlas.select();
-    if (!searchTracked && query.trim()) {
+    if (!searchTracked) {
       searchTracked = true;
       track('use_directory_search');
     }
@@ -453,15 +461,10 @@ new ResizeObserver(() => {
 function dismissDetails() {
   if (panelView !== 'detail') return;
   closePanel({ focusTarget: panelToggle });
-  panelView = 'directory';
-  directory.restore(homeDirectory);
-  clearAncestors();
-  collapsedScrollTop = 0;
+  showHomePanel({ focus: false, open: false });
 }
 $('reset-map').addEventListener('click', () => {
-  dismissDetails();
-  pendingReveal = undefined;
-  atlas.reset();
+  showHomePanel({ focus: false, open: !panel.hidden, resetMap: true });
 });
 aboutButton.addEventListener('click', () => {
   if (!panel.hidden && !about.hidden) closePanel({ focusTarget: aboutButton });
@@ -474,7 +477,16 @@ document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape' && !event.defaultPrevented && !directory.isComposingSearch(event)) closePanel();
 });
 
-if (roster.source_url) $('source-link').href = roster.source_url;
+if (roster.source_url) {
+  $('source-link').href = roster.source_url;
+  $('home-source').href = roster.source_url;
+}
+const updated = new Date(roster.fetched_at);
+if (Number.isFinite(updated.getTime())) {
+  const time = $('home-updated');
+  time.dateTime = updated.toISOString();
+  time.textContent = new Intl.DateTimeFormat('zh-TW', { dateStyle: 'medium', timeZone: 'Asia/Taipei' }).format(updated);
+} else $('home-updated').parentElement.hidden = true;
 for (const link of document.querySelectorAll('#about-map a[href^="https://forms.gle/"]')) {
   link.addEventListener('click', () => track('click_signup_link'));
 }
@@ -482,7 +494,7 @@ const locatedCount = people.filter((person) => person.locations.length).length;
 $('map-totals').textContent = `${number.format(locatedCount)} 位已定位署名者`;
 $('overview-leads').textContent = number.format(roster.sections['共同領銜'].source_rows);
 $('overview-members').textContent = number.format(roster.sections['會員名單'].source_rows);
-$('overview-located').textContent = number.format(locatedCount);
+$('overview-institutions').textContent = number.format(directory.mappedInstitutionCount);
 const commentTotal = $('overview-comments');
 fetch('/api/people/comment-count', { signal: AbortSignal.timeout(5000) })
   .then((response) => {
@@ -500,14 +512,28 @@ overview.addEventListener('click', (event) => {
   const button = event.target.closest('button[data-overview]');
   if (!button) return;
   const view = button.dataset.overview;
-  if (view === 'comments') {
-    rememberParent({ fromRoot: true });
-    showPanel('comments');
-  } else if (directory.snapshot().view !== view || directory.searchInput.value) {
-    rememberParent({ fromRoot: true });
+  rememberParent({ fromRoot: true });
+  if (view === 'comments') showPanel('comments');
+  else {
+    showPanel('directory', { focus: false });
     directory.showOverviewList(view);
     panelContent.scrollTop = 0;
   }
+});
+
+function setActiveRegion(region) {
+  activeRegion = region;
+  for (const button of regions.querySelectorAll('button[data-region]')) {
+    button.setAttribute('aria-pressed', String(button.dataset.region === region));
+  }
+}
+
+regions.addEventListener('click', (event) => {
+  const button = event.target.closest('button[data-region]');
+  if (!button) return;
+  pendingReveal = undefined;
+  setActiveRegion(button.dataset.region);
+  atlas.exploreRegion(activeRegion);
 });
 publicMore.addEventListener('click', loadPublicComments);
 
@@ -639,6 +665,7 @@ function panelSnapshot() {
       detail: panelView === 'detail' ? panelDetail : undefined,
       open: !panel.hidden,
       tall: mapApp.classList.contains('is-sheet-tall'),
+      region: activeRegion,
       scrollTop: panel.hidden ? collapsedScrollTop : panelContent.scrollTop,
     },
     directory: directory.snapshot(),
@@ -657,8 +684,8 @@ function homeSnapshot() {
   return {
     camera: { lat, lng, zoom },
     directory: homeDirectory,
-    panel: { view: 'directory', open: true, scrollTop: 0 },
-    title: '全部署名者',
+    panel: { view: 'home', open: true, scrollTop: 0, region: activeRegion },
+    title: '地圖首頁',
   };
 }
 
@@ -674,7 +701,7 @@ function isHomeDirectory(saved) {
 
 function rememberParent({ fromRoot = false } = {}) {
   const state = fromRoot ? null : panelSnapshot();
-  if (!state || (panelView === 'directory' && isHomeDirectory(state.directory))) {
+  if (!state || panelView === 'home') {
     panelAncestors = [homeSnapshot()];
   } else {
     const title = panelView === 'directory'
@@ -685,14 +712,19 @@ function rememberParent({ fromRoot = false } = {}) {
   updatePanelBack();
 }
 
-function showHomePanel({ focus = true } = {}) {
+function showHomePanel({ focus = true, open = true, resetMap = false } = {}) {
   clearAncestors();
   pendingReveal = undefined;
   directory.restore(homeDirectory);
   atlas.select();
   collapsedScrollTop = 0;
-  showPanel('directory', { focus });
+  showPanel('home', { focus, open });
   panelContent.scrollTop = 0;
+  if (resetMap) {
+    setActiveRegion(null);
+    atlas.resize({ pan: false });
+    atlas.reset();
+  }
 }
 
 $('atlas-home').addEventListener('click', () => {
@@ -702,7 +734,7 @@ $('atlas-home').addEventListener('click', () => {
     history.replaceState(history.state, '', url);
     linkedPerson = null;
   }
-  showHomePanel();
+  showHomePanel({ resetMap: true });
 });
 
 function saveView() {
@@ -735,11 +767,14 @@ function restorePanel(state, { back = false } = {}) {
   pendingReveal = undefined;
   directory.restore(state.directory);
   mapApp.style.setProperty('--panel-duration', '0ms');
-  const { view, detail, open, tall, scrollTop } = state.panel;
-  if (view !== 'detail' || !restoreDetail(detail)) {
-    showPanel(['about', 'comments'].includes(view) ? view : 'directory', { focus: false });
-  }
+  const { view, detail, open, tall, scrollTop, region } = state.panel;
   const expanded = back || open === true;
+  const isHome = view === 'home' || (view === 'directory' && isHomeDirectory(state.directory));
+  setActiveRegion(region ?? null);
+  if (view !== 'detail' || !restoreDetail(detail)) {
+    const nextView = isHome ? 'home' : ['about', 'comments'].includes(view) ? view : 'directory';
+    showPanel(nextView, { focus: false, open: expanded });
+  }
   setPanelExpanded(expanded);
   setSheetTall((back ? tall || mapApp.classList.contains('is-sheet-tall') : tall) && expanded);
   mapApp.style.setProperty('--sheet-toolbar-height', `${toolbar.offsetHeight}px`);
@@ -772,19 +807,26 @@ function restoreView(expectedLinkedPerson) {
   if (!state?.camera || !state.panel || (expectedLinkedPerson && state.linkedPerson !== expectedLinkedPerson)) return false;
   panelAncestors = Array.isArray(state.ancestors) ? state.ancestors.slice(-20) : [];
   const saved = state.directory;
-  if (!panelAncestors.length && (state.panel.view !== 'directory' || (saved && !isHomeDirectory(saved)))) {
-    panelAncestors = [{ ...homeSnapshot(), camera: state.camera }];
-  }
+  const isHome = state.panel.view === 'home' || (state.panel.view === 'directory' && isHomeDirectory(saved));
+  if (isHome) panelAncestors = [];
+  else if (!panelAncestors.length) panelAncestors = [{ ...homeSnapshot(), camera: state.camera }];
   updatePanelBack();
   restorePanel(state);
   return true;
+}
+
+function startHome() {
+  if (restoreView()) return;
+  mapApp.style.setProperty('--panel-duration', '0ms');
+  showHomePanel({ focus: false, open: wideLayout.matches, resetMap: true });
+  mapApp.style.removeProperty('--panel-duration');
 }
 
 async function openLinkedBoard(id) {
   const person = (await boardPeople()).get(id);
   if (id !== linkedPerson) return;
   if (person) openPersonBoard(person);
-  else restoreView();
+  else startHome();
 }
 
 function openPersonBoard(person, { fromParent = false } = {}) {
@@ -797,8 +839,8 @@ function openPersonBoard(person, { fromParent = false } = {}) {
 let linkedPerson = new URLSearchParams(location.search).get('person');
 if (/^[a-f0-9]{32}$/.test(linkedPerson ?? '')) {
   const reloading = performance.getEntriesByType('navigation')[0]?.type === 'reload';
-  if (!reloading || !restoreView(linkedPerson)) openLinkedBoard(linkedPerson).catch(() => restoreView());
-} else restoreView();
+  if (!reloading || !restoreView(linkedPerson)) openLinkedBoard(linkedPerson).catch(startHome);
+} else startHome();
 window.addEventListener('pagehide', saveView);
 document.addEventListener('visibilitychange', () => {
   if (document.hidden) saveView();

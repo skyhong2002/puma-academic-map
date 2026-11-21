@@ -17,7 +17,7 @@
     <main class="map-app">
       <header class="map-toolbar">
         <div class="map-toolbar__brand">
-          <button type="button" id="atlas-home" aria-label="回到全部署名者頂端">
+          <button type="button" id="atlas-home" aria-label="回到地圖首頁">
             <img src="/assets/puma-signature.webp" width="40" height="40" alt="" />
           </button>
           <h1>台北市市長候選人沈伯洋先生學界後援會署名地圖</h1>
@@ -33,13 +33,31 @@
           <span aria-hidden="true">← 上一層</span><span id="panel-back-title"></span>
         </button>
         <div id="panel-content">
-          <div class="map-overview" id="map-overview" role="group" aria-label="資料概況">
-            <button type="button" data-overview="leads"><strong id="overview-leads"></strong><span>共同領銜</span></button>
-            <button type="button" data-overview="members"><strong id="overview-members"></strong><span>會員署名</span></button>
-            <button type="button" data-overview="located"><strong id="overview-located"></strong><span>已定位署名者</span></button>
-            <button type="button" data-overview="comments"><strong id="overview-comments">—</strong><span>公開留言</span></button>
-          </div>
-          <section id="directory" aria-label="機構與署名名錄"></section>
+          <section id="home-panel" class="map-home" aria-label="地圖首頁">
+            <div class="map-overview" id="map-overview" role="group" aria-label="資料概況">
+              <button type="button" data-overview="leads"><strong id="overview-leads"></strong><span>共同領銜</span></button>
+              <button type="button" data-overview="members"><strong id="overview-members"></strong><span>會員署名</span></button>
+              <button type="button" data-overview="institutions"><strong id="overview-institutions"></strong><span>已定位機構</span></button>
+              <button type="button" data-overview="comments"><strong id="overview-comments">—</strong><span>公開留言</span></button>
+            </div>
+            <div class="map-home__explore">
+              <h2 id="region-heading" tabindex="-1">依地區探索</h2>
+              <div class="map-home__regions" id="map-regions" role="group" aria-labelledby="region-heading">
+                <button type="button" data-region="north" aria-pressed="false">北部</button>
+                <button type="button" data-region="central" aria-pressed="false">中部</button>
+                <button type="button" data-region="south" aria-pressed="false">南部</button>
+                <button type="button" data-region="east" aria-pressed="false">東部</button>
+                <button type="button" data-region="islands" aria-pressed="false">離島</button>
+                <button type="button" data-region="overseas" aria-pressed="false">海外</button>
+              </div>
+              <p>點地圖上的數字放大，點校區、系所或人物查看詳細資料。</p>
+            </div>
+            <footer class="map-home__source">
+              <span>名單更新 <time id="home-updated"></time></span>
+              <a id="home-source" href="https://sites.google.com/view/academic-kouenkai-for-puma/" target="_blank" rel="noopener">原始聯署網站</a>
+            </footer>
+          </section>
+          <section id="directory" aria-label="機構與署名名錄" hidden></section>
           <section id="place-details" class="map-detail" hidden></section>
           <section id="public-comments" class="map-detail" hidden>
             <h2 tabindex="-1">公開留言</h2>

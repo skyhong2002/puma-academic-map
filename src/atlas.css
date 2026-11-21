@@ -431,6 +431,35 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
   font-variant-numeric: tabular-nums;
   line-height: 1.25;
 }
+.map-home__explore { padding: 20px 16px; }
+.map-home__explore h2 { margin: 0 0 12px; font-size: 17px; }
+.map-home__explore p { margin: 12px 0 0; color: var(--ink-soft); font-size: 13px; line-height: 1.6; }
+.map-home__regions { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+.map-home__regions button {
+  min-height: 44px;
+  padding: 4px;
+  border: 1px solid var(--rule);
+  border-radius: 7px;
+  background: var(--panel-orange-card);
+  color: var(--ink);
+  font: inherit;
+  cursor: pointer;
+}
+.map-home__regions button:hover,
+.map-home__regions button[aria-pressed="true"] { background: var(--panel-orange-hover); color: var(--accent-ink); }
+.map-home__regions button[aria-pressed="true"] { border-color: var(--map-orange-edge); font-weight: 650; }
+.map-home__source {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 6px 12px;
+  margin-inline: 16px;
+  padding-block: 12px;
+  border-block-start: 1px solid #92441120;
+  color: var(--ink-soft);
+  font-size: 12px;
+}
+.map-home__source a { color: var(--accent-ink); }
 .map-detail .map-public-comments { list-style: none; margin: 0 0 12px; padding: 0; }
 .map-public-comments li {
   position: relative;
