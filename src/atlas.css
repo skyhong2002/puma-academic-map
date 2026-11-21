@@ -13,8 +13,9 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
   --map-orange-light: #f5a45d;
   --map-orange-edge: #924411;
   --map-orange-ink: #211d1d;
-  --panel-orange: #fff0e1;
-  --panel-orange-card: #fff8f1;
+  --panel-orange: #ffddbd;
+  --panel-orange-card: #ffead6;
+  --panel-orange-hover: #ffd2a8;
   --map-tide: #c9602c;
   --map-tide-light: #ffddb1;
   --paper: #fff;
@@ -90,6 +91,7 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
 .map-toolbar__brand img { width: 32px; height: 32px; flex: none; }
 .map-toolbar h1 {
   margin: 0;
+  translate: 0 1px;
   font-size: 11px;
   font-size: clamp(10px, 4cqi - 1.2px, 15px);
   line-height: 1.25;
@@ -140,13 +142,13 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
 @media (hover: hover) {
   .map-app :is(.map-toolbar, .map-tools) button:hover,
   .map-toolbar__source:hover { background: var(--paper-raised); }
-  .map-app .map-panel-toggle:hover { background: #ffe6cf; }
+  .map-app .map-panel-toggle:hover { background: var(--panel-orange-hover); }
 }
 .map-app .map-panel-toggle { background: var(--panel-orange); }
 .map-panel {
   --paper: var(--panel-orange);
   --paper-raised: var(--panel-orange-card);
-  --rule: #e5c9b0;
+  --rule: #dcad86;
   grid-row: 3;
   height: min(45dvh, 420px);
   min-height: 0;
@@ -266,7 +268,7 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
     max-width: 100%;
     padding: 5px 8px;
     border-radius: 10px;
-    background: var(--paper);
+    background: var(--panel-orange);
     box-shadow: 0 1px 5px #20212426;
   }
   .map-app:not(.is-panel-open) .map-toolbar__source { box-shadow: 0 1px 5px #20212426; }
@@ -306,13 +308,13 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
   --pa-dir-bg: var(--panel-orange);
   --pa-dir-card: var(--panel-orange-card);
   --pa-dir-border: var(--rule);
-  --pa-dir-accent-soft: #ffe6cf;
+  --pa-dir-accent-soft: var(--panel-orange-hover);
 }
 .map-panel .pa-directory, .map-detail { padding: 16px; }
 .map-panel .pa-dir-filters .map-switch { margin-block-end: 0; }
 .map-panel .pa-dir-filters :is(.map-switch button, .pa-dir-chip)[aria-pressed="true"] {
   border-color: var(--map-orange);
-  background: #ffebd8;
+  background: var(--panel-orange-hover);
   color: var(--accent-ink);
 }
 .map-detail h2 { margin: 0 0 8px; font-size: 21px; line-height: 1.3; overflow-wrap: anywhere; }
