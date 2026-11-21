@@ -22,6 +22,7 @@ const narrowLayout = matchMedia('(width < 720px)');
 const toolbar = mapApp.querySelector('.map-toolbar');
 const number = new Intl.NumberFormat('zh-TW');
 let activeCampus;
+let campusListReturn;
 let returnFocus;
 let panelView = 'directory';
 let collapsedScrollTop = 0;
@@ -110,13 +111,16 @@ function detailTitle(text) {
   return title;
 }
 
-function showCampus(campus) {
+function showCampus(campus, restore) {
+  let returnButton;
+  campusListReturn = undefined;
   track('view_academic_location');
   activeCampus = campus;
   const { point, people, unit, campusOnly } = campus;
   const school = [point.institution, point.campus].filter(Boolean).join('・');
   const title = detailTitle(unit ?? school);
   const sub = document.createElement('p');
+  sub.className = 'map-detail__place';
   sub.textContent = [unit ? school : null, point.city, point.country, `${number.format(people.length)} 筆署名`].filter(Boolean).join('・');
   const members = document.createElement('ul');
   members.className = 'map-campus-people';
@@ -124,7 +128,12 @@ function showCampus(campus) {
     const item = document.createElement('li');
     const button = document.createElement('button');
     button.type = 'button';
-    button.addEventListener('click', () => showPerson(person, unit ? locatedUnit(person, point) ?? point : point, campus));
+    if (restore?.person === person) returnButton = button;
+    button.addEventListener('click', () => {
+      const scrollTop = panelContent.scrollTop;
+      showPerson(person, unit ? locatedUnit(person, point) ?? point : point, campus);
+      campusListReturn = { person, scrollTop };
+    });
     if (person.portrait) {
       const image = document.createElement('img');
       image.src = person.portrait.image;
@@ -135,7 +144,10 @@ function showCampus(campus) {
     const label = document.createElement('span');
     const name = document.createElement('strong');
     name.textContent = person.name;
-    label.append(name, document.createElement('br'), person.affiliation_text);
+    const affiliation = document.createElement('span');
+    affiliation.className = 'map-campus-people__affiliation';
+    affiliation.textContent = person.affiliation_text;
+    label.append(name, affiliation);
     button.append(label);
     item.append(button);
     members.append(item);
@@ -198,19 +210,24 @@ function showCampus(campus) {
     details.append(link);
   }
   details.append(members);
-  showPanel('detail');
+  showPanel('detail', { focus: !returnButton });
+  if (returnButton) {
+    panelContent.scrollTop = restore.scrollTop;
+    returnButton.scrollIntoView({ block: 'nearest' });
+    returnButton.focus({ preventScroll: true });
+  }
   revealAfterPanelResize(point);
 }
 
 function showPerson(person, point, campus = null) {
+  campusListReturn = undefined;
   activeCampus = campus;
-  const title = detailTitle(person.name);
-  const body = personDetails(person, point, { showName: false });
-  details.replaceChildren(title, body);
+  details.replaceChildren(personDetails(person, point, { heading: true }));
   if (roster.source_url) {
     const link = document.createElement('a');
     link.href = roster.source_url;
     link.textContent = '原站署名名單';
+    link.className = 'map-detail__source-link';
     link.target = '_blank';
     link.rel = 'noopener';
     details.append(link);
@@ -359,7 +376,7 @@ new ResizeObserver(() => {
   mapApp.style.setProperty('--sheet-toolbar-height', `${toolbar.offsetHeight}px`);
 }).observe(toolbar);
 back.addEventListener('click', () => {
-  if (activeCampus && details.querySelector('.map-campus-people') === null) showCampus(activeCampus);
+  if (activeCampus && details.querySelector('.map-campus-people') === null) showCampus(activeCampus, campusListReturn);
   else showPanel('directory');
 });
 $('reset-map').addEventListener('click', () => {

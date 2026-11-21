@@ -10,28 +10,38 @@ import { isTaiwan, people } from './person-data.js';
 export const taiwanPeople = people.filter((person) => person.locations.some(isTaiwan));
 export const overseasPeople = people.filter((person) => person.locations.some((point) => !isTaiwan(point)));
 
-export function personDetails(person, point, { showName = true } = {}) {
+export function personDetails(person, point, { heading = false } = {}) {
   const content = document.createElement('div');
-  const title = document.createElement('strong');
+  content.className = 'person-details';
+  const title = document.createElement(heading ? 'h2' : 'strong');
+  if (heading) title.tabIndex = -1;
   title.textContent = person.name;
   const place = document.createElement('p');
+  place.className = 'map-detail__place';
   place.textContent = [point.institution, point.campus, point.unit, point.building, point.city, point.country].filter(Boolean).join(' · ');
   const emblem = emblemFor(point.institution);
   if (emblem) {
-    place.className = 'map-detail__institution';
+    place.classList.add('map-detail__institution');
     place.prepend(emblemImage(emblem));
   }
   const claim = document.createElement('p');
+  claim.className = 'map-detail__claim';
   claim.textContent = person.affiliation_text;
-  if (showName) content.append(title);
-  content.append(place, claim);
+  const identity = heading ? document.createElement('div') : content;
+  if (heading) {
+    identity.className = 'map-detail__identity';
+    content.append(identity);
+  }
   if (person.portrait) {
     const image = document.createElement('img');
     image.src = person.portrait.image;
     image.alt = `${person.name}的公開照片`;
     image.width = 64;
-    content.prepend(image);
+    if (heading) image.height = 64;
+    identity.append(image);
   }
+  identity.append(title);
+  content.append(place, claim);
   const activities = person.refs.filter((ref) => ref.kind === 'support');
   const refs = [...person.refs.filter((ref) => ref.kind !== 'support'), { label: point.unit ? '系館座標來源' : '機構座標來源', url: point.source_url }];
   if (point.address_source_url) refs.push({ label: point.unit ? '系所位置來源' : '機構地址來源', url: point.address_source_url });
@@ -45,6 +55,7 @@ export function personDetails(person, point, { showName = true } = {}) {
     if (person.portrait.license_url) refs.push({ label: '照片授權', url: person.portrait.license_url });
   }
   const list = document.createElement('ul');
+  list.className = 'map-detail__sources';
   for (const ref of [...refs, ...activities]) {
     if (!/^https?:\/\//i.test(ref.url)) continue;
     const item = document.createElement('li');
@@ -57,7 +68,7 @@ export function personDetails(person, point, { showName = true } = {}) {
     if (ref.description) item.append(`，${ref.description}`);
     list.append(item);
   }
-  content.append(list);
+  if (list.childElementCount) content.append(list);
   return content;
 }
 
