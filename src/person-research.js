@@ -54,11 +54,6 @@ function researchSources(record, referenceLinks) {
   });
 }
 
-function academicTitle(affiliation) {
-  return affiliation.match(/(?:(?:兼任|專任|名譽|榮譽|榮退|退休|特聘|講座|客座|專技|臨床|專案|約聘|訪問|通訊|合聘|資深)\s*)*(?:(?:副|助理)?教授(?:級(?:專業技術人員|專家|研究員|主治醫師))?|博士後(?:研究員|研究人員)?|(?:助理|助|副)?研究員|講師|院士)/u)?.[0]
-    ?? affiliation.match(/\b(?:(?:Visiting|Adjunct|Emeritus|Assistant|Associate)\s+)*(?:Professor|Postdoctoral Researcher|Research Fellow|Lecturer)(?:\s+Emeritus)?\b/i)?.[0];
-}
-
 export function personResearch(person, { avatarFor, onOpenPerson, referenceLinks }) {
   const record = recordsByPerson.get(personKey(person));
   if (!record) return null;
@@ -90,12 +85,11 @@ export function personResearch(person, { avatarFor, onOpenPerson, referenceLinks
     const name = document.createElement('strong');
     name.textContent = other.name;
     identity.append(name);
-    const title = academicTitle(other.affiliation_text);
-    if (title) {
-      const role = document.createElement('span');
-      role.className = 'map-person-research__role';
-      role.textContent = title;
-      identity.append(' ', role);
+    if (other.affiliation_text) {
+      const affiliation = document.createElement('span');
+      affiliation.className = 'map-person-research__affiliation';
+      affiliation.textContent = other.affiliation_text;
+      identity.append(' ', affiliation);
     }
     const topic = document.createElement('span');
     topic.className = 'map-person-research__topic';

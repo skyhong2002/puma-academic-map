@@ -580,7 +580,7 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
 .map-person-research__person::after { content: '›'; grid-column: 3; grid-row: 1 / span 2; }
 .map-person-research__identity { grid-column: 2; font-size: 0.875rem; overflow-wrap: anywhere; }
 .map-person-research__topic { grid-column: 2; }
-.map-person-research__role,
+.map-person-research__affiliation,
 .map-person-research__topic { color: var(--ink-soft); font-size: 0.8125rem; overflow-wrap: anywhere; }
 .map-person-research__person:hover { background: var(--panel-orange-card); }
 .map-detail__references {
