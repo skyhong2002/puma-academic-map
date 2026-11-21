@@ -134,13 +134,17 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
   const positions = [0, 1, -1, 2, -2, 3, -3].flatMap((row) =>
     [0, 1, -1, 2, -2, 3, -3].map((column) => [column * 210, row * 125 - 10]));
   const peopleByUnit = new Map();
+  const campusByUnit = new Map();
   const campusesWithUnits = new Set();
   for (const group of groups) {
     for (const person of group.people) {
       const unit = locatedUnit(person, group.point);
       if (!unit) continue;
       campusesWithUnits.add(group.point);
-      if (!peopleByUnit.has(unit)) peopleByUnit.set(unit, new Set());
+      if (!peopleByUnit.has(unit)) {
+        peopleByUnit.set(unit, new Set());
+        campusByUnit.set(unit, group.point);
+      }
       peopleByUnit.get(unit).add(person);
     }
   }
@@ -177,6 +181,7 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
       cards.addLayer(L.marker(anchor, {
         icon: L.divIcon({ html: item, className: 'atlas-unit-marker', iconSize: [0, 0] }),
         interactive: false, keyboard: false,
+        animationOrigin: campusByUnit.get(points[0]),
       }));
       buildings.push({ anchor, members });
     }
@@ -224,6 +229,7 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
         const marker = L.marker(position, {
           icon: L.divIcon({ html: pin, className: 'atlas-person-marker', iconSize: [0, 0] }),
           interactive: false, keyboard: false, zIndexOffset: 300,
+          animationOrigin: campusByUnit.get(point),
         });
         cards.addLayer(marker);
         pins.push({ pin, marker, fullName, box, x, portrait: Boolean(person.portrait) });
@@ -291,7 +297,52 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
     }
   }
 
+  const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+  const fadingMarkers = new Set();
+  let previousZoom;
+
+  function animateCampusChange(outgoing) {
+    for (const { parent, copy } of outgoing) {
+      copy.setAttribute('inert', '');
+      copy.setAttribute('aria-hidden', 'true');
+      parent.append(copy);
+      fadingMarkers.add(copy);
+      const fade = copy.animate([{ opacity: 1 }, { opacity: 0 }], {
+        duration: 180, easing: 'ease-out', fill: 'forwards',
+      });
+      fade.onfinish = () => {
+        copy.remove();
+        fadingMarkers.delete(copy);
+      };
+    }
+
+    cards.eachLayer((layer) => {
+      if (!(layer instanceof L.Marker)) return;
+      const element = layer.getElement();
+      const origin = layer.options.animationOrigin;
+      const at = map.latLngToLayerPoint(layer.getLatLng());
+      const offset = origin ? map.latLngToLayerPoint([origin.lat, origin.lon]).subtract(at) : L.point(0, 8);
+      const fraction = Math.min(1, 120 / Math.max(1, Math.hypot(offset.x, offset.y)));
+      element.animate([
+        { opacity: 0, translate: `${offset.x * fraction}px ${offset.y * fraction}px` },
+        { opacity: 1, translate: '0px 0px' },
+      ], { duration: 280, easing: 'cubic-bezier(.22, .72, .28, 1)' });
+    });
+  }
+
   function showCampuses() {
+    const zoom = map.getZoom();
+    const detailed = zoom >= UNIT_ZOOM;
+    for (const marker of fadingMarkers) marker.remove();
+    fadingMarkers.clear();
+    const animate = !reducedMotion.matches && zoom >= CAMPUS_ZOOM && previousZoom >= CAMPUS_ZOOM &&
+      detailed !== (previousZoom >= UNIT_ZOOM);
+    previousZoom = zoom;
+    const outgoing = animate ? cards.getLayers().flatMap((layer) => {
+      if (!(layer instanceof L.Marker)) return [];
+      const element = layer.getElement();
+      return [{ parent: element.parentElement, copy: element.cloneNode(true) }];
+    }) : [];
     current.hidden = map.getZoom() >= CAMPUS_ZOOM;
     L.DomUtil.setPosition(current, map.containerPointToLayerPoint([0, 0]));
     if (map.getZoom() < CAMPUS_ZOOM) {
@@ -305,7 +356,6 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
     const placed = [];
     const visible = groups.filter(({ point }) => bounds.contains([point.lat, point.lon]))
       .sort((a, b) => b.people.length - a.people.length);
-    const detailed = map.getZoom() >= UNIT_ZOOM;
     const individualGroups = detailed ? showUnitPins(bounds) : [];
     const size = map.getSize();
     for (const group of visible) {
@@ -408,6 +458,7 @@ export function createAtlas(container, people, { onCampus, onPerson }) {
       });
       showPeople(individualGroups, occupied);
     }
+    if (animate) animateCampusChange(outgoing);
   }
 
   const reset = () => map.fitBounds(START, { padding: [32, 44], animate: false });
