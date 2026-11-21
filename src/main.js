@@ -14,7 +14,7 @@ const COUNTY_ORDER = [
   '澎湖縣', '金門縣', '連江縣',
 ];
 
-// 色階：已建檔校區數。0 另外處理成「尚無建檔」。
+// 色階：縣市內已建檔機構數，與名錄的縣市計數同一口徑。
 const BINS = [
   { min: 0, max: 0, label: '0' },
   { min: 1, max: 1, label: '1' },
@@ -45,7 +45,7 @@ for (const institution of institutions) {
 }
 const campusCount = (county) => countyStats.get(county)?.campuses ?? 0;
 const institutionCount = (county) => countyStats.get(county)?.institutions.size ?? 0;
-const binOf = (county) => BINS.findIndex((bin) => campusCount(county) >= bin.min && campusCount(county) <= bin.max);
+const binOf = (county) => BINS.findIndex((bin) => institutionCount(county) >= bin.min && institutionCount(county) <= bin.max);
 const describe = (county) =>
   campusCount(county)
     ? `${number.format(institutionCount(county))} 所機構 · ${number.format(campusCount(county))} 處校區`
@@ -132,7 +132,7 @@ const makeListButton = (county) => {
   name.textContent = county ?? '全臺';
   button.append(name);
   if (county) {
-    const count = campusCount(county);
+    const count = institutionCount(county);
     const badge = document.createElement('span');
     badge.className = `chip__count bin-${binOf(county)}`;
     badge.textContent = number.format(count);
@@ -208,7 +208,7 @@ function setCounty(value, { updateDirectory = true } = {}) {
   renderList();
   const button = listButtons.get(selected).getBoundingClientRect();
   const rail = list.getBoundingClientRect();
-  list.scrollLeft += Math.min(0, button.left - rail.left) + Math.max(0, button.right - rail.right);
+  list.scrollLeft += Math.min(0, button.left - rail.left - 16) + Math.max(0, button.right - rail.right + 16);
   $('status').textContent = selected ? `已選取${selected}，${describe(selected).replace(' · ', '、')}。` : '已回到全臺視圖。';
 }
 

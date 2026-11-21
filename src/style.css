@@ -17,7 +17,7 @@
   --accent-wash: #f7e3d6;
   --focus: #1d5fd1;
 
-  /* 已建檔校區數色階（0 → 8+） */
+  /* 已建檔機構數色階（0 → 8+） */
   --bin-0: #f1ede3;
   --bin-1: #cfe0dc;
   --bin-2: #9ec4be;
@@ -336,6 +336,11 @@ path.bin-4 { fill: var(--bin-4); }
   text-shadow: 0 0 3px var(--label-strong-halo), 0 0 3px var(--label-strong-halo), 0 0 6px var(--label-strong-halo);
 }
 
+/* 金門、連江已有左下角小框，主圖上只在選取時標名 */
+.county-label--inset:not(.is-selected) {
+  opacity: 0;
+}
+
 .county-label--small {
   opacity: 0;
 }
@@ -559,8 +564,8 @@ path.bin-4 { fill: var(--bin-4); }
   color: var(--accent-ink);
 }
 
-.inset.is-dimmed {
-  opacity: 0.72;
+.inset.is-dimmed .inset__name {
+  color: var(--ink-faint);
 }
 
 .legend {
@@ -640,8 +645,6 @@ path.bin-4 { fill: var(--bin-4); }
   padding: 3px var(--gutter) 8px;
   overflow-x: auto;
   list-style: none;
-  scroll-snap-type: x proximity;
-  scroll-padding-inline: var(--gutter);
   scrollbar-width: none;
 }
 
@@ -651,7 +654,6 @@ path.bin-4 { fill: var(--bin-4); }
 
 .rail__list li {
   flex: none;
-  scroll-snap-align: start;
 }
 
 .chip {

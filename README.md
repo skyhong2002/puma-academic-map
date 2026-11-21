@@ -17,18 +17,16 @@
 
 ## 網域與部署
 
-2026-11-21 查驗 `observe.tw` 使用 Cloudflare nameservers，`puma-academic.observe.tw` 的公開 DNS 查詢回傳 `NXDOMAIN`。
+正式站使用 `puma-academic.observe.tw`，由 Cloudflare Tunnel 將流量轉送到 `sky-server` 的靜態網站服務。
 
-1. 建立首版後，在管理 `observe.tw` 的 Cloudflare 帳號建立 Pages 專案，連接本 repo 的 `main`。Vite 建置輸出規劃為 `dist/`。
-2. 先在 Pages 配發的 `*.pages.dev` 網址驗證地圖、搜尋及來源連結。接著在 Pages → Custom domains 加入 `puma-academic.observe.tw` 並確認建立 CNAME。
-3. 等待網域啟用後，驗證 DNS、HTTPS 與正式站的桌面 1440p 和手機操作。[Cloudflare Pages 自訂網域文件](https://developers.cloudflare.com/pages/configuration/custom-domains/)
+部署時在 `main` 執行 `npm ci` 和 `npm run build`，並將 `dist/` 發布到主機。部署後確認首頁、靜態資源、搜尋與離島瀏覽。
 
 ## 交付順序
 
 1. 完成擷取器、原站筆數核對與資料更新差異。
 2. 建立機構對照表，抽查跨縣市、多校區、離島與海外條目。
 3. 完成全臺地圖、搜尋與名單，驗證聚合數量、放大與校區詳情。
-4. 建立 Pages 專案並綁定子網域，完成正式站驗證。
+4. 發布至 sky-server 並綁定子網域，完成正式站驗證。
 
 目前已有靜態網站首版。地圖支援縣市下鑽與離島小地圖，名錄可搜尋姓名、機構及校區。
 
@@ -60,3 +58,7 @@ python3 scripts/check_institutions.py --unmatched
 ### 個別署名的學術單位來源
 
 在 `data/affiliation-sources.json` 以原站段落與完整署名原文索引每筆資料，避免只依姓名把來源套給同名者。每筆可以有多個來源，各自填寫 `label`（來源類型）、`description`（頁面實際支持的職稱、單位或學術經歷）與 `url`（直接連到可核對人名與學術關係的頁面）。原站更正署名時，重新核對後再將來源連到更新後的原文。
+
+## 授權
+
+本站程式碼採用 [MIT License](LICENSE)。縣市圖資依上方資料來源與授權說明使用。

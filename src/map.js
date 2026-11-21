@@ -160,7 +160,7 @@ export function createCountyMap({ container, insetContainer, geojson, binOf, onH
       interactive: false,
       keyboard: false,
       icon: L.divIcon({
-        className: `county-label${SMALL_COUNTIES.has(county) ? ' county-label--small' : ''}${binOf(county) >= 3 ? ' county-label--on-dark' : ''}`,
+        className: `county-label${SMALL_COUNTIES.has(county) ? ' county-label--small' : ''}${binOf(county) >= 3 ? ' county-label--on-dark' : ''}${INSET_COUNTIES.includes(county) ? ' county-label--inset' : ''}`,
         html: `<span>${county}</span>`,
         iconSize: [0, 0],
       }),

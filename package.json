@@ -1,5 +1,5 @@
 {
-  "name": "puma-academic",
+  "name": "puma-academic-map",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -13,5 +13,6 @@
   },
   "devDependencies": {
     "vite": "^8.3.8"
-  }
+  },
+  "license": "MIT"
 }
