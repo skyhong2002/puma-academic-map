@@ -26,7 +26,10 @@ function popup(person, point) {
   }
   const refs = [...person.refs, { label: '機構座標來源', url: point.source_url }];
   if (point.address_source_url) refs.push({ label: '機構地址來源', url: point.address_source_url });
-  if (person.portrait) refs.push({ label: '照片來源', url: person.portrait.source_url, description: person.portrait.credit });
+  if (person.portrait) {
+    refs.push({ label: '照片來源', url: person.portrait.source_url, description: person.portrait.credit });
+    if (person.portrait.license_url) refs.push({ label: '照片授權', url: person.portrait.license_url });
+  }
   const list = document.createElement('ul');
   for (const ref of refs) {
     if (!/^https?:\/\//i.test(ref.url)) continue;

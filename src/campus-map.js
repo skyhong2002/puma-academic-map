@@ -11,7 +11,8 @@ function button(label, className, onClick) {
 
 export function createCampusView(map, departmentFor, personDetails) {
   const container = map.getContainer();
-  const pins = L.layerGroup();
+  const pins = document.createElement('div');
+  pins.className = 'campus-pins';
   const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     maxZoom: 19,
@@ -33,7 +34,7 @@ export function createCampusView(map, departmentFor, personDetails) {
 
   function draw() {
     if (!school) return;
-    pins.clearLayers();
+    pins.replaceChildren();
     const entries = department?.entries ?? school.departments;
     const size = map.getSize();
     const cellWidth = department ? 86 : 112;
@@ -103,8 +104,11 @@ export function createCampusView(map, departmentFor, personDetails) {
         image.alt = '';
         markerButton.prepend(image);
       }
-      const icon = L.divIcon({ className: 'campus-marker', html: markerButton, iconSize: [cellWidth - 8, cellHeight - 8] });
-      pins.addLayer(L.marker(latLng, { icon, interactive: false, keyboard: false }));
+      markerButton.style.left = `${x}px`;
+      markerButton.style.top = `${y}px`;
+      markerButton.style.width = `${cellWidth - 8}px`;
+      markerButton.style.height = `${cellHeight - 8}px`;
+      pins.append(markerButton);
     });
   }
 
@@ -123,7 +127,7 @@ export function createCampusView(map, departmentFor, personDetails) {
     department = null;
     map.closePopup();
     pins.remove();
-    pins.clearLayers();
+    pins.replaceChildren();
     tiles.remove();
     attribution?.remove();
     controls.remove();
@@ -151,7 +155,7 @@ export function createCampusView(map, departmentFor, personDetails) {
       school = { name, departments, anchor: bounds.getCenter(), onBack, onDepartment, departmentPage: 0 };
       page = 0;
       container.classList.add('is-campus');
-      container.append(controls);
+      container.append(pins, controls);
       map.fire('campusview', { active: true });
       map.setMaxZoom(18);
       map.stop();
@@ -159,7 +163,6 @@ export function createCampusView(map, departmentFor, personDetails) {
       map.fitBounds(bounds, { padding: [32, 48], maxZoom: 16, animate: false });
       attribution?.addTo(map);
       tiles.addTo(map);
-      pins.addTo(map);
       draw();
     },
   };

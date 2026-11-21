@@ -1170,10 +1170,16 @@ path.bin-4 { fill: var(--bin-4); }
 }
 .campus-control:disabled { opacity: .5; cursor: default; }
 
-.campus-marker > .campus-pin {
+.campus-pins {
+  position: absolute;
+  z-index: 625;
+  inset: 0;
+  pointer-events: none;
+}
+.campus-pins .campus-pin {
+  position: absolute;
+  transform: translate(-50%, -50%);
   pointer-events: auto;
-  width: 100%;
-  height: 100%;
   display: grid;
   align-content: center;
   justify-items: center;
@@ -1187,7 +1193,7 @@ path.bin-4 { fill: var(--bin-4); }
   overflow-wrap: anywhere;
   cursor: pointer;
 }
-.campus-marker > .campus-pin:hover { background: var(--accent-wash); }
+.campus-pins .campus-pin:hover { background: var(--accent-wash); }
 .campus-pin--person img {
   width: 39px;
   height: 39px;

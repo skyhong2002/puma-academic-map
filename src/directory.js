@@ -594,7 +594,8 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
                 extLink(source.url, source.label), '，', source.description)))
               : h('p', { class: 'pa-dir-muted', text: '待補可核對此人的公開來源。' })),
           portrait ? h('p', { class: 'pa-dir-entry-source' },
-            extLink(portrait.source_url, '照片來源'), '，', portrait.credit) : null,
+            extLink(portrait.source_url, '照片來源'), '，', portrait.credit,
+            portrait.license_url ? [' · ', extLink(portrait.license_url, '授權條款')] : null) : null,
           SOURCE_URL ? h('p', { class: 'pa-dir-entry-source' }, extLink(SOURCE_URL, '原站名單')) : null)));
   }
 
