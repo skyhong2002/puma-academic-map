@@ -201,7 +201,8 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
 #panel-content { min-height: 0; overflow: auto; overscroll-behavior: contain; }
 @media (width < 720px) {
   .map-app {
-    --sheet-handle-height: 32px;
+    --sheet-handle-height: 24px;
+    --sheet-corner-radius: 16px;
     --sheet-closed-height: calc(var(--sheet-handle-height) + env(safe-area-inset-bottom));
     --sheet-max-height: clamp(var(--sheet-closed-height), calc(100dvh - var(--sheet-toolbar-height, 158px) - 144px), 75dvh);
     --sheet-height: max(var(--sheet-closed-height), min(var(--sheet-max-height), 45dvh, 420px));
@@ -242,7 +243,7 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
   .map-panel {
     position: relative;
     z-index: 850;
-    border-radius: 16px 16px 0 0;
+    border-radius: var(--sheet-corner-radius) var(--sheet-corner-radius) 0 0;
     box-shadow: 0 -4px 18px #211d1d22;
     box-sizing: border-box;
     height: auto;
@@ -270,7 +271,7 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
     min-height: var(--sheet-handle-height);
     padding: 0;
     border: 0;
-    border-radius: 16px 16px 0 0;
+    border-radius: var(--sheet-corner-radius) var(--sheet-corner-radius) 0 0;
     background: transparent;
     touch-action: none;
     -webkit-tap-highlight-color: transparent;
@@ -298,6 +299,15 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
     display: flex;
   }
   .map-stage .leaflet-bottom { bottom: 8px; }
+  .map-app.is-panel-open:not(.is-sheet-dragging) .map-stage {
+    margin-block-end: calc(-1 * var(--sheet-corner-radius));
+  }
+  .map-app.is-panel-open:not(.is-sheet-dragging) .map-stage .leaflet-bottom {
+    bottom: calc(8px + var(--sheet-corner-radius));
+  }
+  .map-app.is-panel-open .map-stage :is(.leaflet-control-scale, .leaflet-control-attribution) {
+    display: none;
+  }
 }
 @media (width < 720px) and (height < 520px) {
   .map-toolbar__brand img { width: 28px; height: 28px; }
