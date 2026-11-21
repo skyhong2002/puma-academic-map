@@ -1,0 +1,418 @@
+[
+  {
+    "section": "共同領銜",
+    "raw": "謝昇佑（台灣科技大學財務金融研究所兼任助理教授）",
+    "locations": [
+      {
+        "institution": "國立臺灣科技大學",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.013237,
+        "lon": 121.541083,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.57/24.98/10000",
+        "campus_only": true
+      }
+    ]
+  },
+  {
+    "section": "共同領銜",
+    "raw": "鄭宗弘（Stanford University, Department of Economics PhD Student）",
+    "locations": [
+      {
+        "institution": "Stanford University",
+        "country": "美國",
+        "city": "Stanford, CA",
+        "lat": 37.429434,
+        "lon": -122.167359,
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip",
+        "address_source_url": "https://economics.stanford.edu/",
+        "campus_only": true
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "林晉宇（輔仁大學退休客座教授）",
+    "locations": [
+      {
+        "institution": "輔仁大學",
+        "country": "臺灣",
+        "city": "新北市",
+        "lat": 25.033274,
+        "lon": 121.434694,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.43/25.04/5000",
+        "campus_only": true
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "王瑞華（北美州台灣人敎授學會前理事）",
+    "locations": [
+      {
+        "institution": "北美洲台灣人教授協會",
+        "country": "美國",
+        "city": "Chicago, IL",
+        "lat": 41.787994,
+        "lon": -87.599539,
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip",
+        "campus": "1980 年成立會議地（芝加哥大學）",
+        "address_source_url": "https://www.natpa.org/aboutus.html",
+        "campus_only": true
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "張耀仁（耶魯大學醫學院血液腫瘤科助理教授）",
+    "locations": [
+      {
+        "institution": "Yale School of Medicine",
+        "country": "美國",
+        "city": "New Haven, CT",
+        "lat": 41.3027,
+        "lon": -72.936,
+        "source_url": "https://en.wikipedia.org/wiki/Yale_School_of_Medicine",
+        "address_source_url": "https://medicine.yale.edu/",
+        "campus_only": true
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "張又中（逢甲大學材料科學與工程學系助理教授）",
+    "locations": [
+      {
+        "institution": "逢甲大學",
+        "country": "臺灣",
+        "city": "臺中市",
+        "lat": 24.178697,
+        "lon": 120.648904,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.6/24.18/10000",
+        "campus_only": true
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "鄭邦鎮（台灣文學國家園區協進會理事長）",
+    "locations": [
+      {
+        "institution": "台灣文學國家園區協進會",
+        "country": "臺灣",
+        "city": "臺南市",
+        "lat": 22.995784,
+        "lon": 120.200346,
+        "source_url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=%E5%8F%B0%E5%8D%97%E5%B8%82%E4%B8%AD%E8%A5%BF%E5%8D%80%E6%B0%91%E6%AC%8A%E8%B7%AF%E4%BA%8C%E6%AE%B5283%E8%99%9F&f=pjson&maxLocations=1",
+        "address": "臺南市中西區民權路二段283號",
+        "address_source_url": "https://taiwanliteraturenationalpark.cashier.ecpay.com.tw/",
+        "campus_only": true
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "林逸靜（南華大學生死學系副教授）",
+    "locations": [
+      {
+        "institution": "南華大學",
+        "country": "臺灣",
+        "city": "嘉義縣",
+        "lat": 23.569517,
+        "lon": 120.49439,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.47/23.56/10000",
+        "campus_only": true
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "黃宣蓉（東元醫院醫師）",
+    "locations": [
+      {
+        "institution": "東元綜合醫院",
+        "country": "臺灣",
+        "city": "新竹縣",
+        "lat": 24.823729,
+        "lon": 121.013915,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/121.01/24.83/4500",
+        "address": "新竹縣竹北市縣政二路69號",
+        "campus_only": true
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "林慧姿（國立台中科技大學退休教授）",
+    "locations": [
+      {
+        "institution": "國立臺中科技大學",
+        "country": "臺灣",
+        "city": "臺中市",
+        "lat": 24.15062,
+        "lon": 120.682909,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.68/24.14/10000",
+        "campus_only": true
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "洪大為（國立清華大學博士生、前元智大學兼任教師）",
+    "locations": [
+      {
+        "institution": "國立清華大學",
+        "country": "臺灣",
+        "city": "新竹市",
+        "lat": 24.796398,
+        "lon": 120.996864,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.97/24.8/10000",
+        "campus_only": true
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "鄭琦加（門諾醫院主治醫師）",
+    "locations": [
+      {
+        "institution": "門諾醫院",
+        "country": "臺灣",
+        "city": "花蓮縣",
+        "lat": 23.987798,
+        "lon": 121.626381,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/med/121.62/23.99/4500",
+        "address": "花蓮縣花蓮市民權路44號",
+        "campus_only": true
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "李柏翰（東吳大學法學院法律系博士生）",
+    "locations": [
+      {
+        "institution": "東吳大學",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.038324,
+        "lon": 121.509657,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.513/25.038/1800",
+        "campus": "城中校區",
+        "address": "臺北市中正區貴陽街一段56號",
+        "address_source_url": "https://www-ch.scu.edu.tw/",
+        "campus_only": true
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "林文琳（輔仁大學營養科學系助理教授）",
+    "locations": [
+      {
+        "institution": "輔仁大學",
+        "country": "臺灣",
+        "city": "新北市",
+        "lat": 25.033274,
+        "lon": 121.434694,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.43/25.04/5000",
+        "campus_only": true
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "羅振洲（元智大學電機系助理教授）",
+    "locations": [
+      {
+        "institution": "元智大學",
+        "country": "臺灣",
+        "city": "桃園市",
+        "lat": 24.969897,
+        "lon": 121.263456,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.24/24.96/10000",
+        "campus_only": true
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "黃善聖（逢甲大學通識中心兼任助理教授）",
+    "locations": [
+      {
+        "institution": "逢甲大學",
+        "country": "臺灣",
+        "city": "臺中市",
+        "lat": 24.178697,
+        "lon": 120.648904,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.6/24.18/10000",
+        "campus_only": true
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "李取中（國立成功大學規劃與設計學院建築學系副教授級兼任專家）",
+    "sources": [
+      {
+        "label": "成大公開課程大綱",
+        "description": "成大通識中心「影像美學」課綱列出李惠昌（筆名李取中）授課。地圖採成大校級點位，署名中的建築系兼聘及職級尚待獨立核對。",
+        "url": "https://class-qry.acad.ncku.edu.tw/syllabus/syllabus.php?syear=0115&sem=1&co_no=A91C100&class_code="
+      }
+    ],
+    "locations": [
+      {
+        "institution": "國立成功大學",
+        "country": "臺灣",
+        "city": "臺南市",
+        "lat": 22.995894,
+        "lon": 120.218433,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.22/23.02/10000",
+        "campus_only": true
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "程楚仁（國立臺灣科技大學博士後研究員）",
+    "locations": [
+      {
+        "institution": "國立臺灣科技大學",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.013237,
+        "lon": 121.541083,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.57/24.98/10000",
+        "campus_only": true
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳逸仲（美國范德堡大學醫學中心不孕症中心臨床講師）",
+    "locations": [
+      {
+        "institution": "Vanderbilt University Medical Center",
+        "country": "美國",
+        "city": "Nashville, TN",
+        "lat": 36.142407,
+        "lon": -86.801598,
+        "source_url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=1211+Medical+Center+Dr%2C+Nashville%2C+TN+37232&f=pjson&maxLocations=1",
+        "address_source_url": "https://www.vumc.org/obgyn/reproductive-endocrinology-and-infertility",
+        "campus_only": true
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "張懿慈（明新科技大學兼任助理教授）",
+    "locations": [
+      {
+        "institution": "明新科技大學",
+        "country": "臺灣",
+        "city": "新竹縣",
+        "lat": 24.863533,
+        "lon": 120.989928,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.99/24.86/4500",
+        "address": "新竹縣新豐鄉新興路1號",
+        "campus_only": true
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "何逸琪（臺灣印度研究協會研究員）",
+    "locations": [
+      {
+        "institution": "臺灣印度研究協會",
+        "country": "臺灣",
+        "city": "新竹市",
+        "lat": 24.805126,
+        "lon": 120.973517,
+        "source_url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Eastern+District+Hsinchu+City+Taiwan&f=pjson&maxLocations=1",
+        "campus": "登記地區（東區概略位置）",
+        "address_source_url": "https://data.zhupiter.com/oddt/15219176/臺灣印度研究協會/",
+        "campus_only": true
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "許諾（荷蘭萊頓大學國際關係與國際組織學系講師）",
+    "locations": [
+      {
+        "institution": "萊頓大學",
+        "country": "荷蘭",
+        "city": "The Hague",
+        "lat": 52.078666,
+        "lon": 4.320212,
+        "source_url": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?q=Turfmarkt%2099%20Den%20Haag",
+        "campus": "海牙校區",
+        "address_source_url": "https://www.universiteitleiden.nl/en/education/study-programmes/bachelor/political-science/international-relations-and-organisations",
+        "campus_only": true
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳奕旭（美國加州大學聖塔克魯斯分校電機系教授）",
+    "locations": [
+      {
+        "institution": "加州大學聖塔克魯斯分校",
+        "country": "美國",
+        "city": "Santa Cruz, CA",
+        "lat": 36.995584,
+        "lon": -122.058801,
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip",
+        "campus_only": true
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "詹松軒（倫敦政經學院政府系博士候選人）",
+    "locations": [
+      {
+        "institution": "倫敦政治經濟學院",
+        "country": "英國",
+        "city": "London",
+        "lat": 51.51389,
+        "lon": -0.11667,
+        "source_url": "https://en.wikipedia.org/wiki/London_School_of_Economics",
+        "address_source_url": "https://www.lse.ac.uk/government/people",
+        "campus_only": true
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "王立 （紐約市立大學亨特學院羅曼語文學系法語組講師）",
+    "locations": [
+      {
+        "institution": "紐約市立大學亨特學院",
+        "country": "美國",
+        "city": "New York, NY",
+        "lat": 40.768669,
+        "lon": -73.964795,
+        "source_url": "https://nces.ed.gov/ipeds/datacenter/data/HD2024.zip",
+        "address_source_url": "https://hunter.cuny.edu/",
+        "campus_only": true
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "吳宗儒（中央研究院前博士後研究員）",
+    "locations": [
+      {
+        "institution": "中央研究院南港院區",
+        "country": "臺灣",
+        "city": "臺北市",
+        "lat": 25.0420743,
+        "lon": 121.614046,
+        "source_url": "https://www.openstreetmap.org/way/155772172",
+        "campus_only": true
+      }
+    ]
+  }
+]

@@ -27,6 +27,9 @@ for (const { institution, campus, units } of Object.values(files)) {
 
 export function locatedUnit(person, point) {
   const campus = canonicalCampus(point);
+  const campusOnly = person.locations?.some((location) => location.campus_only &&
+    location.institution === campus.institution && location.lat === campus.lat && location.lon === campus.lon);
+  if (campusOnly) return null;
   const locations = byInstitution.get(campus.institution);
   if (!locations) return null;
   const label = departmentFor(person, campus.institution);
@@ -37,6 +40,7 @@ export function locatedUnit(person, point) {
 
 export function refineCampus(person, point) {
   const campus = canonicalCampus(point);
+  if (campus.campus_only) return campus;
   const locations = byInstitution.get(campus.institution);
   if (!locations) return campus;
   const genericGuangfu = point.institution === '國立陽明交通大學' &&
