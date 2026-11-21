@@ -15,16 +15,21 @@ const about = $('about-map');
 const back = $('panel-back');
 const open = $('open-directory');
 const panelToggle = $('panel-toggle');
+const panelSize = $('panel-size');
 const aboutButton = $('map-about');
 const panelContent = $('panel-content');
 const mapApp = panel.closest('.map-app');
 const narrowLayout = matchMedia('(width < 720px)');
+const toolbar = mapApp.querySelector('.map-toolbar');
 const number = new Intl.NumberFormat('zh-TW');
 let activeCampus;
 let returnFocus;
 let panelView = 'directory';
 let collapsedScrollTop = 0;
 let pendingReveal;
+let sheetDrag;
+let sheetFrame;
+let suppressHandleClick = false;
 
 function updateViewExpanded(expanded) {
   open.setAttribute('aria-expanded', String(expanded && panelView === 'directory'));
@@ -61,10 +66,18 @@ function showPanel(view, { focus = true, restoreScroll = false } = {}) {
   }
 }
 
+function setSheetTall(tall) {
+  mapApp.classList.toggle('is-sheet-tall', tall);
+  panelSize.textContent = tall ? '縮小' : '展開';
+  panelSize.setAttribute('aria-label', tall ? '縮小資訊面板' : '放大資訊面板');
+}
+
 function closePanel({ focusTarget = returnFocus } = {}) {
+  clearSheetDrag();
   if (panel.hidden) return;
   collapsedScrollTop = panelContent.scrollTop;
   setPanelExpanded(false);
+  setSheetTall(false);
   (focusTarget?.isConnected && focusTarget.getClientRects().length ? focusTarget : open).focus({ preventScroll: true });
 }
 
@@ -248,10 +261,77 @@ open.addEventListener('click', () => {
   else showPanel('directory');
 });
 $('panel-close').addEventListener('click', closePanel);
-panelToggle.addEventListener('click', () => {
+panelToggle.addEventListener('click', (event) => {
+  if (event.detail && suppressHandleClick) return;
   if (panel.hidden) showPanel(panelView, { focus: narrowLayout.matches, restoreScroll: true });
   else closePanel({ focusTarget: panelToggle });
 });
+panelSize.addEventListener('click', () => setSheetTall(!mapApp.classList.contains('is-sheet-tall')));
+panelToggle.addEventListener('pointerdown', (event) => {
+  if (!event.isPrimary || event.button !== 0) return;
+  suppressHandleClick = false;
+  if (!narrowLayout.matches) return;
+  sheetDrag = {
+    id: event.pointerId, start: event.clientY, closed: panel.hidden,
+    height: panel.hidden ? 0 : panel.offsetHeight, delta: 0,
+  };
+  panelToggle.setPointerCapture(event.pointerId);
+});
+panelToggle.addEventListener('pointermove', (event) => {
+  if (sheetDrag?.id !== event.pointerId) return;
+  sheetDrag.delta = sheetDrag.start - event.clientY;
+  if (!suppressHandleClick && Math.abs(sheetDrag.delta) < 8) return;
+  suppressHandleClick = true;
+  if (sheetDrag.closed && panel.hidden && sheetDrag.delta <= 0) return;
+  if (panel.hidden) showPanel(panelView, { focus: false, restoreScroll: true });
+  mapApp.classList.add('is-sheet-dragging');
+  if (sheetFrame !== undefined) return;
+  sheetFrame = requestAnimationFrame(() => {
+    sheetFrame = undefined;
+    mapApp.style.setProperty('--sheet-drag-height',
+      `clamp(0px, ${sheetDrag.height + sheetDrag.delta}px, var(--sheet-max-height))`);
+  });
+});
+function clearSheetDrag() {
+  if (!sheetDrag) return;
+  const { id } = sheetDrag;
+  sheetDrag = undefined;
+  cancelAnimationFrame(sheetFrame);
+  sheetFrame = undefined;
+  mapApp.classList.remove('is-sheet-dragging');
+  mapApp.style.removeProperty('--sheet-drag-height');
+  if (panelToggle.hasPointerCapture(id)) panelToggle.releasePointerCapture(id);
+}
+function endSheetDrag(event) {
+  if (sheetDrag?.id !== event.pointerId) return;
+  const { closed, delta, height } = sheetDrag;
+  clearSheetDrag();
+  if (!suppressHandleClick) return;
+  if (panel.hidden) return;
+  const dropped = event.type === 'pointerup' && narrowLayout.matches;
+  if (closed) {
+    if (!dropped || delta < 32) closePanel({ focusTarget: panelToggle });
+    else if (delta > mapApp.clientHeight * 0.55) setSheetTall(true);
+    return;
+  }
+  if (!dropped) return;
+  if (delta > 32) setSheetTall(true);
+  if (delta < -32) {
+    if (mapApp.classList.contains('is-sheet-tall') && height + delta > height * 0.4) setSheetTall(false);
+    else closePanel({ focusTarget: panelToggle });
+  }
+}
+for (const type of ['pointerup', 'pointercancel', 'lostpointercapture']) {
+  panelToggle.addEventListener(type, endSheetDrag);
+}
+narrowLayout.addEventListener('change', () => {
+  if (!sheetDrag) return;
+  if (sheetDrag.closed) closePanel({ focusTarget: panelToggle });
+  else clearSheetDrag();
+});
+new ResizeObserver(() => {
+  mapApp.style.setProperty('--sheet-toolbar-height', `${toolbar.offsetHeight}px`);
+}).observe(toolbar);
 back.addEventListener('click', () => {
   if (activeCampus && details.querySelector('.map-campus-people') === null) showCampus(activeCampus);
   else showPanel('directory');

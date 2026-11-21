@@ -1,6 +1,7 @@
 html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
 .map-app {
   position: relative;
+  height: 100dvh;
   isolation: isolate;
   display: grid;
   grid-template-columns: minmax(0, 1fr);
@@ -122,15 +123,22 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
 }
 .map-panel__actions { display: flex; flex: none; gap: 8px; justify-content: space-between; padding: 8px 12px; border-bottom: 1px solid var(--rule); }
 #panel-close { margin-left: auto; }
+#panel-size { display: none; }
 #panel-content { min-height: 0; overflow: auto; overscroll-behavior: contain; }
 .map-panel-toggle__label { display: none; }
 @media (width < 720px) {
   .map-app {
-    --sheet-height: clamp(calc(100px + env(safe-area-inset-bottom)), calc(100dvh - 240px), min(45dvh, 420px));
-    grid-template-rows: auto minmax(0, 1fr) 0px;
+    --sheet-max-height: clamp(0px, calc(100dvh - var(--sheet-toolbar-height, 158px) - 144px), 75dvh);
+    --sheet-height: min(var(--sheet-max-height), 45dvh, 420px);
+    --sheet-row: 0px;
+    grid-template-rows: auto minmax(0, 1fr) var(--sheet-row);
     transition: grid-template-rows var(--panel-duration) var(--panel-ease);
   }
-  .map-app.is-panel-open { grid-template-rows: auto minmax(0, 1fr) var(--sheet-height); }
+  .map-app.is-panel-open { --sheet-row: var(--sheet-drag-height, var(--sheet-height)); }
+  .map-app.is-sheet-tall { --sheet-height: var(--sheet-max-height); }
+  .map-app.is-sheet-dragging { transition: none; }
+  #panel-size { display: inline-flex; align-items: center; margin-left: auto; }
+  #panel-close { margin-left: 0; }
   .map-panel-toggle__arrow { display: none; }
   .map-panel-toggle__label { display: inline; }
   .map-toolbar { padding-block-end: 7px; }
@@ -139,14 +147,15 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
   .map-panel {
     position: relative;
     z-index: 850;
-    margin-top: -8px;
     border-radius: 16px 16px 0 0;
     box-shadow: 0 -4px 18px #211d1d22;
-    height: var(--sheet-height);
+    height: auto;
     padding-inline: env(safe-area-inset-left) env(safe-area-inset-right);
   }
   .map-panel-toggle {
-    bottom: calc(16px + env(safe-area-inset-bottom));
+    bottom: calc(26px + env(safe-area-inset-bottom));
+    touch-action: none;
+    user-select: none;
     transition: bottom var(--panel-duration) var(--panel-ease);
     left: 50%;
     transform: translateX(-50%);
@@ -166,7 +175,8 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
     border-radius: 3px;
     background: var(--ink-soft);
   }
-  .is-panel-open .map-panel-toggle { bottom: 12px; }
+  .is-panel-open .map-panel-toggle { bottom: 27px; }
+  .is-sheet-dragging .map-panel-toggle { transition: none; cursor: grabbing; }
   .map-stage .map-tools {
     bottom: auto;
     top: 10px;
@@ -175,6 +185,12 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
   }
   .map-app:not(.is-panel-open) .leaflet-bottom { bottom: env(safe-area-inset-bottom); }
   .is-panel-open .leaflet-bottom { bottom: 8px; }
+}
+@media (width < 720px) and (height < 520px) {
+  .map-toolbar__brand { margin-bottom: 2px; }
+  .map-toolbar__brand img { width: 28px; }
+  .map-toolbar h1 { line-height: 1.25; }
+  #map-search { margin-bottom: 4px; }
 }
 @media (width >= 720px) {
   .map-app {
