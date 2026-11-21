@@ -266,7 +266,10 @@ function showPerson(person, point, { restoring = false, tall = false, fromParent
   if (references.childElementCount > 1) details.append(references);
   import('./person-research.js').then(({ personResearch }) => {
     if (!body.isConnected) return;
-    const research = personResearch(person, (other) => showPerson(other, undefined, { fromParent: true }));
+    const research = personResearch(person, {
+      avatarFor: personAvatar,
+      onOpenPerson: (other) => showPerson(other, undefined, { fromParent: true }),
+    });
     if (research?.keywords) body.append(research.keywords);
     if (research?.related) details.append(research.related);
   }, () => {});
@@ -507,14 +510,14 @@ function boardPeople() {
   return peopleByBoard;
 }
 
-function publicCommentAvatar(person) {
+function personAvatar(person) {
   const avatar = document.createElement('span');
-  avatar.className = 'map-public-comments__avatar';
+  avatar.className = 'map-person-avatar';
   avatar.setAttribute('aria-hidden', 'true');
   const emblem = !person.portrait && person.locations.map(({ institution }) => emblemFor(institution)).find(Boolean);
   if (person.portrait) {
     const image = document.createElement('img');
-    image.className = 'map-public-comments__portrait';
+    image.className = 'map-person-avatar__portrait';
     image.src = person.portrait.image;
     image.alt = '';
     image.loading = 'lazy';
@@ -574,7 +577,7 @@ function publicCommentRow(comment, person) {
   chevron.className = 'map-public-comments__chevron';
   chevron.setAttribute('aria-hidden', 'true');
   chevron.textContent = '›';
-  row.append(publicCommentAvatar(person), content, chevron);
+  row.append(personAvatar(person), content, chevron);
   return row;
 }
 

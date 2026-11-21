@@ -473,7 +473,7 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
 }
 .map-public-comments li + li { border-block-start: 1px solid #92441120; }
 .map-public-comments li:hover { background: var(--panel-orange-card); }
-.map-public-comments__avatar {
+.map-person-avatar {
   display: grid;
   place-items: center;
   width: 32px;
@@ -485,7 +485,7 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
   font-size: 13px;
   font-weight: 700;
 }
-.map-public-comments__portrait { width: 100%; height: 100%; object-fit: cover; }
+.map-person-avatar__portrait { width: 100%; height: 100%; object-fit: cover; }
 .map-public-comments__meta { color: var(--ink-soft); font-size: 0.8125rem; overflow-wrap: anywhere; }
 .map-public-comments__meta strong { color: var(--accent-ink); }
 .map-public-comments__affiliation {
@@ -550,7 +550,6 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
 .map-person-research { margin-block: 16px; padding-block-start: 12px; border-block-start: 1px solid var(--rule); }
 .map-person-research h3 { margin: 0 0 8px; font-size: 0.9375rem; }
 .map-person-research--related { margin-block-start: 4px; }
-.map-person-research__description { margin: 0 0 8px; color: var(--ink-soft); font-size: 0.8125rem; }
 .map-detail .map-person-research ul { margin: 0; padding: 0; list-style: none; }
 .map-person-research__keywords { display: flex; flex-wrap: wrap; gap: 5px 6px; }
 .map-person-research__keywords li { min-width: 0; max-width: 100%; }
@@ -567,7 +566,7 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
 .map-person-research__related li + li { border-block-start: 1px solid var(--rule); }
 .map-person-research__person {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-columns: 32px minmax(0, 1fr) auto;
   align-items: center;
   column-gap: 8px;
   width: 100%;
@@ -581,9 +580,12 @@ html, body, .map-app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
   font: inherit;
   cursor: pointer;
 }
-.map-person-research__person::after { content: '›'; grid-column: 2; grid-row: 1 / span 2; }
-.map-person-research__person strong { font-size: 0.875rem; overflow-wrap: anywhere; }
-.map-person-research__person span { color: var(--ink-soft); font-size: 0.8125rem; overflow-wrap: anywhere; }
+.map-person-research__person > .map-person-avatar { grid-column: 1; grid-row: 1 / span 2; }
+.map-person-research__person::after { content: '›'; grid-column: 3; grid-row: 1 / span 2; }
+.map-person-research__identity { grid-column: 2; font-size: 0.875rem; overflow-wrap: anywhere; }
+.map-person-research__topic { grid-column: 2; }
+.map-person-research__role,
+.map-person-research__topic { color: var(--ink-soft); font-size: 0.8125rem; overflow-wrap: anywhere; }
 .map-person-research__person:hover { background: var(--panel-orange-card); }
 .map-detail__references {
   margin-block-start: 24px;
