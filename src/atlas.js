@@ -537,6 +537,7 @@ export function createAtlas(container, people, { onCampus, onCampusZoom, onPerso
     }
     if (map.hasLayer(clusters)) clusters.remove();
     cards.clearLayers();
+    const size = map.getSize();
     const bounds = detailed ? map.getBounds() : map.getBounds().pad(0.08);
     const placed = [];
     const visible = groups.filter(({ point }) => bounds.contains([point.lat, point.lon]))
