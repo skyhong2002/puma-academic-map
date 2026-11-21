@@ -92,9 +92,9 @@ function revealAfterPanelResize(point) {
   });
 }
 
-function locateOnMap(point) {
+function locateOnMap(point, person) {
   pendingReveal = undefined;
-  atlas.locate(point);
+  atlas.locate(point, person);
 }
 
 function detailTitle(text) {
@@ -108,6 +108,7 @@ function showCampus(campus, restore) {
   let returnButton;
   track('view_academic_location');
   const { point, people, unit, campusOnly } = campus;
+  atlas.select(point);
   const school = [point.institution, point.campus].filter(Boolean).join('・');
   const title = detailTitle(unit ?? school);
   const sub = document.createElement('p');
@@ -211,6 +212,7 @@ function showCampus(campus, restore) {
 }
 
 function showPerson(person, point, returnToList) {
+  atlas.select(point, person);
   const body = personDetails(person, point, { heading: true });
   if (returnToList) {
     const close = document.createElement('button');
@@ -238,13 +240,16 @@ function showPerson(person, point, returnToList) {
 
 const atlas = createAtlas($('map'), people, {
   onCampus: showCampus,
+  onCampusZoom: dismissDetails,
   onPerson: showPerson,
   preserveResizeOrigin: () => Boolean(sheetSnap),
 });
 const findPerson = (entry) => people.find((person) => person.section === entry.section && person.raw === entry.raw);
 let searchTracked = false;
 const directory = mountDirectory(directoryElement, {
+  onSearchClear: () => atlas.select(),
   onSearchChange(query) {
+    atlas.select();
     if (!searchTracked && query.trim()) {
       searchTracked = true;
       track('use_directory_search');
@@ -258,7 +263,7 @@ const directory = mountDirectory(directoryElement, {
     const person = findPerson(entry);
     if (!person?.locations.length) return;
     const unit = person.locations.map((point) => locatedUnit(person, point)).find(Boolean);
-    locateOnMap(unit ?? person.locations[0]);
+    locateOnMap(unit ?? person.locations[0], person);
   },
   onLocateUnit(point) {
     showCampus({ point, unit: point.unit, people: atlas.peopleAt(point) });
@@ -269,7 +274,7 @@ const directory = mountDirectory(directoryElement, {
     if (!person) return;
     const location = locatedUnit(person, point) ?? point;
     showPerson(person, location);
-    locateOnMap(location);
+    locateOnMap(location, person);
   },
 });
 directoryElement.querySelector('h2').tabIndex = -1;
@@ -389,7 +394,14 @@ narrowLayout.addEventListener('change', () => {
 new ResizeObserver(() => {
   mapApp.style.setProperty('--sheet-toolbar-height', `${toolbar.offsetHeight}px`);
 }).observe(toolbar);
+function dismissDetails() {
+  if (panelView !== 'detail') return;
+  closePanel({ focusTarget: panelToggle });
+  panelView = 'directory';
+  collapsedScrollTop = 0;
+}
 $('reset-map').addEventListener('click', () => {
+  dismissDetails();
   pendingReveal = undefined;
   atlas.reset();
 });

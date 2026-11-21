@@ -127,7 +127,7 @@ function addEmblem(item, institution) {
   item.prepend(glyph);
 }
 
-export function createAtlas(container, people, { onCampus, onPerson, preserveResizeOrigin }) {
+export function createAtlas(container, people, { onCampus, onCampusZoom, onPerson, preserveResizeOrigin }) {
   const map = L.map(container, { minZoom: 2, maxZoom: CAMPUS_PEOPLE_ZOOM, zoomControl: false, worldCopyJump: true });
   map.attributionControl.setPrefix('<a href="https://github.com/skyhong2002/puma-academic-map">GitHub 原始碼</a>');
   L.control.zoom({ position: 'bottomright', zoomInTitle: '放大', zoomOutTitle: '縮小' }).addTo(map);
@@ -208,6 +208,35 @@ export function createAtlas(container, people, { onCampus, onPerson, preserveRes
   let focusedUnit;
   const canExpandUnit = (point) => (peopleByUnit.get(point)?.size ?? 0) > PREVIEW_LIMIT;
 
+  const selectionMark = L.circleMarker([0, 0], {
+    className: 'atlas-selection-mark', radius: 16, weight: 2,
+    color: orange, fillColor: '#fff', fillOpacity: 0.3, interactive: false,
+  });
+  const selectionButtons = new Map();
+  let selectedPlace;
+  const placeKey = (point, person) => JSON.stringify([
+    campusKey(point), point.unit, person?.section, person?.raw,
+  ]);
+
+  function registerSelection(item, point, person) {
+    const key = placeKey(point, person);
+    selectionButtons.set(item, key);
+    if (selectedPlace === key) item.setAttribute('aria-current', 'location');
+  }
+
+  function select(point, person) {
+    selectedPlace = point && placeKey(point, person);
+    for (const [item, key] of selectionButtons) {
+      if (selectedPlace === key) item.setAttribute('aria-current', 'location');
+      else item.removeAttribute('aria-current');
+    }
+    if (!point) {
+      selectionMark.remove();
+    } else {
+      selectionMark.setLatLng([point.lat, point.lon]).addTo(map).bringToFront();
+    }
+  }
+
   function showUnitPins(bounds) {
     const buildings = [];
     const units = [...peopleByUnit].sort(([a], [b]) =>
@@ -222,6 +251,7 @@ export function createAtlas(container, people, { onCampus, onPerson, preserveRes
         point, unit, people,
       }));
       item.title = unit;
+      registerSelection(item, point);
       appendCount(item, people.length);
       cards.addLayer(L.marker(anchor, {
         icon: L.divIcon({ html: item, className: 'atlas-unit-marker', iconSize: [0, 0] }),
@@ -307,6 +337,7 @@ export function createAtlas(container, people, { onCampus, onPerson, preserveRes
       for (const { person, point } of members) {
         const pin = mapPill(person.name, 'atlas-person-dot atlas-person-dot--named', () => onPerson(person, point));
         pin.title = `${person.name}・${point.unit ?? campusTitle(point)}`;
+        registerSelection(pin, point, person);
         if (closest) pin.style.maxWidth = `${rowWidth}px`;
         if (person.portrait) {
           const portrait = document.createElement('span');
@@ -393,6 +424,7 @@ export function createAtlas(container, people, { onCampus, onPerson, preserveRes
     if (!label) {
       label = mapPill(campusTitle(point), 'atlas-campus-fallback',
         () => onCampus({ point, people, campusOnly: true }));
+      registerSelection(label, point);
       appendCount(label, people.length);
       cards.addLayer(L.marker(anchor, {
         icon: L.divIcon({ html: label, className: 'atlas-fallback-marker', iconSize: [0, 0] }),
@@ -453,6 +485,7 @@ export function createAtlas(container, people, { onCampus, onPerson, preserveRes
   }
 
   function showCampuses() {
+    selectionButtons.clear();
     const zoom = map.getZoom();
     const detailed = zoom >= UNIT_ZOOM;
     for (const marker of fadingMarkers) marker.remove();
@@ -501,6 +534,7 @@ export function createAtlas(container, people, { onCampus, onPerson, preserveRes
         if (!individualPeople.length) continue;
         const open = () => onCampus({ ...group, people: individualPeople, campusOnly: true });
         const marker = mapPill(groupTitle, 'atlas-campus-fallback', open);
+        registerSelection(marker, point);
         appendCount(marker, individualPeople.length);
         const emblem = emblemFor(point.institution);
         if (emblem) marker.prepend(emblemImage(emblem));
@@ -539,6 +573,8 @@ export function createAtlas(container, people, { onCampus, onPerson, preserveRes
           const coordinate = L.latLng(lat, lon);
           if (map.distance(anchor, coordinate) <= CAMPUS_FOCUS_RADIUS_METRES) focus.extend(coordinate);
         }
+        onCampusZoom?.();
+        select(point);
         map.setView(focus.getCenter(), UNIT_ZOOM);
       };
       {
@@ -558,12 +594,15 @@ export function createAtlas(container, people, { onCampus, onPerson, preserveRes
       L.DomEvent.disableClickPropagation(card);
       const title = button(groupTitle, 'atlas-campus__title', openCampus);
       title.title = groupTitle;
+      registerSelection(title, point);
       addEmblem(title, point.institution);
       card.append(title);
       const previews = document.createElement('div');
       previews.className = 'atlas-campus__people';
       for (const person of people.slice(0, PREVIEW_LIMIT)) {
-        const entry = button(person.name, 'atlas-campus__person', () => onPerson(person, locatedUnit(person, point) ?? point));
+        const location = locatedUnit(person, point) ?? point;
+        const entry = button(person.name, 'atlas-campus__person', () => onPerson(person, location));
+        registerSelection(entry, location, person);
         entry.title = person.name;
         if (person.portrait) {
           const img = document.createElement('img');
@@ -586,6 +625,7 @@ export function createAtlas(container, people, { onCampus, onPerson, preserveRes
 
   const reset = () => {
     focusedUnit = undefined;
+    select();
     map.fitBounds(START, { padding: [32, 44], animate: false });
   };
   map.on('moveend', showCampuses);
@@ -595,7 +635,9 @@ export function createAtlas(container, people, { onCampus, onPerson, preserveRes
   return {
     reset,
     resize,
+    select,
     expandCampus(point) {
+      select(point);
       focusedUnit = point.unit ? point : undefined;
       map.setView([point.lat, point.lon], CAMPUS_PEOPLE_ZOOM, { animate: false });
     },
@@ -604,7 +646,8 @@ export function createAtlas(container, people, { onCampus, onPerson, preserveRes
     },
     peopleAt(point) { return [...(peopleByUnit.get(point) ?? [])]; },
     canExpandUnit,
-    locate(point) {
+    locate(point, person) {
+      select(point, person);
       focusedUnit = point.unit ? point : undefined;
       const targetZoom = canExpandUnit(point) ? CAMPUS_PEOPLE_ZOOM :
         point.unit ? UNIT_ZOOM + 1 : CAMPUS_ZOOM + 1;
