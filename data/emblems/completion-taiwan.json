@@ -1,0 +1,25 @@
+{
+  "南臺科技大學": {
+    "file": "completion-taiwan-stust.png",
+    "source_url": "https://www.stust.edu.tw/tc/emblem",
+    "license_url": "https://commons.wikimedia.org/wiki/File:STUST_Logo.svg",
+    "credit": "南臺科技大學校徽，林香礽設計。Wikimedia Commons 將相同幾何圖樣標為公有領域，本站採校方網站的原始 PNG 配色。",
+    "usage": "以原始圖形作非商業地理識別，保留校方色彩和比例。"
+  },
+  "國立勤益科技大學": {
+    "file": "completion-taiwan-ncut.webp",
+    "source_url": "https://www.ncut.edu.tw/p/412-1000-251.php?Lang=zh-tw",
+    "license_url": "https://commons.wikimedia.org/wiki/File:NCUT.svg",
+    "usage_url": "https://n058.ncut.edu.tw/p/406-1058-88409%2Cr1514.php?Lang=zh-tw",
+    "credit": "國立勤益科技大學校徽彩色版，來源為校方校徽圖檔。Wikimedia Commons 將相同幾何圖樣標為公有領域，並保留商標註記。本站版本等比縮圖並轉為 WebP。",
+    "usage": "以校方原圖作非商業地理識別，保留校方色彩和比例。"
+  },
+  "原東方設計大學校區": {
+    "file": "completion-taiwan-tfdu.svg",
+    "source_url": "https://cmuscc.cmu.edu.tw/sites/cmuscc.cmu.edu.tw/files/imce/u79/202012030951481.pdf",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Tung_Fang_Design_University_logo.svg",
+    "usage_url": "https://udb.moe.edu.tw/termination",
+    "credit": "東方設計大學 2017 年更名後的末代校徽，原校圖樣由 Wikimedia Commons 保存並標為公有領域，另保留商標註記；該校於 2024 年停辦。",
+    "usage": "標示署名紀錄所指的原校區，保留原圖色彩和比例。"
+  }
+}

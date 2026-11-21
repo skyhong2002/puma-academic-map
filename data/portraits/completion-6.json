@@ -1,0 +1,36 @@
+{
+  "共同領銜": {
+    "李忠憲（成功大學電機系教授）": {
+      "file": "completion-6-lee-js.webp",
+      "credit": "國立成功大學電機工程學系師資頁具名照片，政府資料開放授權條款第 1 版；方形裁切、縮放及 WebP 轉檔",
+      "source_url": "https://www.ee.ncku.edu.tw/teacher/index2.php?teacher_id=22",
+      "license_url": "https://web.ncku.edu.tw/p/404-1000-140790.php?Lang=en"
+    },
+    "陳方隅（東吳大學政治學系副教授）": {
+      "file": "completion-6-chen-fy.webp",
+      "credit": "行政院人權及轉型正義處《善解人義》官方節目單具名照片，政府資料開放授權條款第 1 版；方形裁切、縮放及 WebP 轉檔",
+      "source_url": "https://tjb.ey.gov.tw/page/647E69AD75BDDB28/5941d155-9bd7-43a1-b004-3ef23e970c7f",
+      "license_url": "https://www.ey.gov.tw/Page/2EADDBFEDDB6357E"
+    }
+  },
+  "會員名單": {
+    "劉承賢（國立台灣師範大學副教授）": {
+      "file": "completion-6-lau-sh.webp",
+      "credit": "國立臺灣師範大學臺灣語文學系師資頁具名照片，CC BY 4.0；方形裁切、縮放及 WebP 轉檔",
+      "source_url": "https://www.tcll.ntnu.edu.tw/index.php/faculty/",
+      "license_url": "https://www.ntnu.edu.tw/static.php?id=privacy"
+    },
+    "楊瑞彬（國立成功大學航太系教授）": {
+      "file": "completion-6-yang-rb.webp",
+      "credit": "國立成功大學航空太空工程學系師資頁具名照片，政府資料開放授權條款第 1 版；方形裁切、縮放及 WebP 轉檔",
+      "source_url": "https://iaa.ncku.edu.tw/p/412-1104-32710.php?Lang=zh-tw",
+      "license_url": "https://web.ncku.edu.tw/p/404-1000-140790.php?Lang=en"
+    },
+    "葉國樑（台灣師範大學健康促進與衛生教育學系退休教授）": {
+      "file": "completion-6-ye-kl.webp",
+      "credit": "教育部「良師興國」典藏網頁師鐸獎人物具名照片，政府資料開放授權條款第 1 版；方形裁切、縮放及 WebP 轉檔",
+      "source_url": "https://excellentteacher.moe.edu.tw/2019/teacher2_02.htm#t3",
+      "license_url": "https://www.edu.tw/News_Content.aspx?n=9F932B3D33DCCF6B&s=D58428E869E39027&sms=15283ECA9D7F60AA"
+    }
+  }
+}
