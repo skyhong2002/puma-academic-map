@@ -40,10 +40,11 @@ const describe = (county) => `${number.format(personCount(county))} 筆已定位
 const NATIONAL_META = `${number.format(taiwanPeople.length)} 筆已定位署名 · ${countyCounts.size} 縣市`;
 
 function addLocation(groups, name, person, point) {
-  if (!groups.has(name)) groups.set(name, { people: new Set(), points: [] });
+  if (!groups.has(name)) groups.set(name, { people: new Set(), points: [], members: [] });
   const group = groups.get(name);
   group.people.add(person);
   group.points.push(point);
+  group.members.push({ person, point });
 }
 
 function sortedLocations(groups) {
@@ -79,6 +80,15 @@ function locationChip(label, count, onClick) {
   return item;
 }
 
+function openCampus(atlas, campus, rail, name, members, onBack) {
+  const mobile = matchMedia('(max-width: 1039px)').matches;
+  campus.show(name, members, onBack, directory.setMapDepartment);
+  if (rail !== directory.geoList || mobile) {
+    if (mobile) atlas.scrollIntoView({ block: 'nearest' });
+    atlas.querySelector('.campus-controls button')?.focus({ preventScroll: true });
+  }
+}
+
 function renderInstitutions(rail, pairedRail, groups, backLabel, onBack, onSelect) {
   rail.replaceChildren(locationChip(backLabel, null, onBack));
   for (const [name, group] of sortedLocations(groups)) {
@@ -89,7 +99,7 @@ function renderInstitutions(rail, pairedRail, groups, backLabel, onBack, onSelec
         }
       }
       directory.setMapInstitution(name);
-      onSelect(group.points);
+      onSelect(name, group.members);
     });
     item.firstElementChild.dataset.institution = name;
     rail.append(item);
@@ -262,14 +272,22 @@ function renderTaiwanRail(rail, title, pairedRail) {
     setCounty(null);
     const overview = rail === directory.geoList ? rail : list;
     overview.querySelectorAll('button')[index]?.focus();
-  }, map.fitInstitution);
+  }, (name, members) => {
+    $('county-institution-list').closest('nav').hidden = true;
+    openCampus($('atlas'), map.campus, rail, name, members, () => {
+      setCounty(selected);
+      [...rail.querySelectorAll('[data-institution]')].find((button) => button.dataset.institution === name)?.focus();
+    });
+  });
   rail.scrollLeft = 0;
 }
 
 function setCounty(value, { updateDirectory = true } = {}) {
   const normalized = value ? normalizeCounty(value) : null;
   const next = normalized && known.has(normalized) ? normalized : null;
+  map.campus.clear();
   if (updateDirectory) directory?.setCounty(next);
+  list.closest('nav').hidden = !$('world-atlas').hidden;
   if (next === selected) {
     if (next) {
       map.refocus();
@@ -302,7 +320,7 @@ $('reset').addEventListener('click', () => {
   listButtons.get(null)?.focus({ preventScroll: true });
 });
 document.addEventListener('keydown', (event) => {
-  if (event.key !== 'Escape' || event.defaultPrevented || !selected || $('atlas').hidden) return;
+  if (event.key !== 'Escape' || event.defaultPrevented || !selected || $('atlas').hidden || $('map').classList.contains('is-campus')) return;
   // 名錄裡的搜尋框等輸入元件可能自己用 Esc，不搶。
   if (event.target instanceof Element && event.target.closest('input, textarea, select, [contenteditable="true"], dialog')) return;
   setCounty(null);
@@ -343,9 +361,19 @@ function renderWorldRail(country = null, focusRail = null, previousCountry = nul
       renderInstitutions(rail, rail === mapRail ? directory.geoList : mapRail,
         overseasInstitutions.get(country), '← 全部國家與地區', () => {
           directory.setOverseasCountry(null);
+          $('world-rail').hidden = false;
           worldMap.fitCountry();
           renderWorldRail(null, rail, country);
-        }, worldMap.fitInstitution);
+        }, (name, members) => {
+          $('world-rail').hidden = true;
+          openCampus($('world-atlas'), worldMap.campus, rail, name, members, () => {
+            directory.setOverseasCountry(country);
+            worldMap.fitCountry(overseasCountries.get(country).points);
+            $('world-rail').hidden = false;
+            renderWorldRail(country);
+            [...rail.querySelectorAll('[data-institution]')].find((button) => button.dataset.institution === name)?.focus();
+          });
+        });
     } else {
       const all = locationChip('全部地區', overseasPeople.length, () => worldMap.fitCountry());
       all.firstElementChild.setAttribute('aria-pressed', 'true');
@@ -365,6 +393,9 @@ function renderWorldRail(country = null, focusRail = null, previousCountry = nul
 
 function showWorld(show) {
   const wasVisible = !$('world-atlas').hidden;
+  if (show === wasVisible && $('mapped-count').textContent) return;
+  if (show && $('map').classList.contains('is-campus')) setCounty(selected);
+  if (!show && wasVisible) worldMap.campus.clear();
   directory?.setOverseas(show);
   $('atlas').hidden = show;
   $('world-atlas').hidden = !show;

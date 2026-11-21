@@ -1,6 +1,7 @@
 import L from 'leaflet';
 import 'leaflet.markercluster';
 import 'leaflet.markercluster/dist/MarkerCluster.css';
+import { createCampusView } from './campus-map.js';
 import worldCountries from './world-countries.json';
 import { isTaiwan, people } from './person-data.js';
 
@@ -236,6 +237,13 @@ function addPersonMarkers(map, entries, include, avatarZoom) {
     if (!shared) pins.push({ marker, avatar });
   }
   map.addLayer(markers);
+  map.on('campusview', ({ active }) => {
+    if (active) {
+      map.closePopup();
+      rosterPanel?.remove();
+      markers.remove();
+    } else markers.addTo(map);
+  });
   map.on('zoomend', () => {
     const next = map.getZoom() >= avatarZoom;
     if (next === showAvatars) return;
@@ -264,10 +272,8 @@ export function addTaiwanPeople(map) {
   return addPersonMarkers(map, taiwanPeople, isTaiwan, 9);
 }
 
-export function fitInstitution(map, points) {
-  map.fire('clearplaceroster');
-  map.closePopup();
-  map.fitBounds(points.map(({ lat, lon }) => [lat, lon]), { padding: [32, 32], maxZoom: 10 });
+export function campusFor(map) {
+  return createCampusView(map, departmentFor, popup);
 }
 
 export function createWorldMap(container) {
@@ -277,12 +283,14 @@ export function createWorldMap(container) {
   }).fitBounds(overview, { padding: [10, 10] });
   L.geoJSON(worldCountries, { interactive: false, className: 'world-country' }).addTo(map);
   map.attributionControl.addAttribution('<a href="https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/">Natural Earth</a>');
+  const campus = campusFor(map);
   const locate = addPersonMarkers(map, overseasPeople, (point) => !isTaiwan(point), 4);
   return {
     map,
     locate,
-    fitInstitution: (points) => fitInstitution(map, points),
+    campus,
     fitCountry(points) {
+      campus.clear();
       map.fire('clearplaceroster');
       map.closePopup();
       map.fitBounds(points?.map(({ lat, lon }) => [lat, lon]) ?? overview,

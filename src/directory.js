@@ -211,6 +211,7 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
     overseas: false,
     overseasCountry: null,
     mapInstitution: null,
+    mapDepartment: null,
     groupBy: 'people',
     institution: null,
     view: 'browse', // browse | unlocated
@@ -336,6 +337,7 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
   function selectCounty(county, { notify = true, focus = 'heading' } = {}) {
     state.county = county;
     state.mapInstitution = null;
+    state.mapDepartment = null;
     state.institution = null;
     state.view = 'browse';
     state.entryLimit = PAGE;
@@ -426,8 +428,9 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
 
   function renderPeople() {
     const scope = state.mapInstitution ?? (state.overseas ? state.overseasCountry ?? '海外' : state.county ?? '全部');
-    const title = `${scope}署名者`;
+    const title = `${scope}${state.mapDepartment ? `・${state.mapDepartment.label}` : ''}署名者`;
     const list = entries.filter((entry) => {
+      if (state.mapDepartment) return state.mapDepartment.keys.has(`${entry.section}\0${entry.raw}`);
       if (state.mapInstitution) return locationsFor(entry).some((place) =>
         place.institution === state.mapInstitution && (state.overseas
           ? place.country === state.overseasCountry
@@ -705,6 +708,19 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
     geoList,
     setMapInstitution(institution) {
       state.mapInstitution = institution;
+      state.mapDepartment = null;
+      state.groupBy = 'people';
+      state.institution = null;
+      state.view = 'browse';
+      state.entryLimit = PAGE;
+      resetSearch();
+      render();
+    },
+    setMapDepartment(department) {
+      state.mapDepartment = department ? {
+        label: department.label,
+        keys: new Set(department.entries.map(({ person }) => `${person.section}\0${person.raw}`)),
+      } : null;
       state.groupBy = 'people';
       state.institution = null;
       state.view = 'browse';
@@ -714,6 +730,7 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
     },
     setOverseasCountry(country) {
       state.mapInstitution = null;
+      state.mapDepartment = null;
       state.overseasCountry = country;
       state.entryLimit = PAGE;
       resetSearch();
@@ -723,6 +740,7 @@ export function mountDirectory(element, { onSelectCounty, onLocate } = {}) {
       if (value === state.overseas) return;
       state.overseas = value;
       state.mapInstitution = null;
+      state.mapDepartment = null;
       state.overseasCountry = null;
       state.institution = null;
       state.view = 'browse';
