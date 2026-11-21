@@ -204,7 +204,7 @@ function countBadge(count, unit) {
 
 // ---------- 主元件 ----------
 
-export function mountDirectory(element, { onSelectCounty, onLocate, onLocateUnit } = {}) {
+export function mountDirectory(element, { onSelectCounty, onLocate, onLocateUnit, onSearchPerson } = {}) {
   if (!element) throw new Error('mountDirectory 需要容器元素');
   const uid = `pa-dir-${Math.random().toString(36).slice(2, 8)}`;
   const state = {
@@ -567,7 +567,11 @@ export function mountDirectory(element, { onSelectCounty, onLocate, onLocateUnit
     const name = entry.name || '（未解析條目）';
     return h('li', { class: 'pa-dir-entry' },
       h('details', {},
-        h('summary', { class: 'pa-dir-entry-head', dataset: result ? { result: '' } : {} },
+        h('summary', {
+          class: 'pa-dir-entry-head',
+          dataset: result ? { result: '' } : {},
+          onClick: result && places.length ? () => onSearchPerson?.(entry) : null,
+        },
           portrait ? h('img', { class: 'pa-dir-portrait', src: portrait.image, alt: '', loading: 'lazy', width: '28', height: '28' }) : null,
           h('span', { class: 'pa-dir-entry-name', title: name }, highlight(name, query)),
           entry.affiliation ? h('span', { class: 'pa-dir-entry-affiliation' }, highlight(entry.affiliation, query)) : null,

@@ -31,12 +31,12 @@ function showPanel(view, { focus = true } = {}) {
   }
 }
 
-function closePanel() {
+function closePanel({ focusTarget = returnFocus } = {}) {
   if (panel.hidden) return;
   panel.hidden = true;
   open.setAttribute('aria-expanded', 'false');
   activeCampus = null;
-  (returnFocus?.isConnected ? returnFocus : open).focus({ preventScroll: true });
+  (focusTarget?.isConnected ? focusTarget : open).focus({ preventScroll: true });
 }
 
 function detailTitle(text) {
@@ -144,19 +144,27 @@ function showPerson(person, point, campus = null) {
 }
 
 const atlas = createAtlas($('map'), people, { onCampus: showCampus, onPerson: showPerson });
+const wideMap = matchMedia('(min-width: 600px)');
+const mapInset = () => wideMap.matches ? panel.getBoundingClientRect().right / 2 : 0;
+const findPerson = (entry) => people.find((person) => person.section === entry.section && person.raw === entry.raw);
 const directory = mountDirectory(directoryElement, {
+  onSearchPerson(entry) {
+    const person = findPerson(entry);
+    if (!person?.locations.length) return;
+    const unit = person.locations.map((point) => locatedUnit(person, point)).find(Boolean);
+    if (!wideMap.matches) closePanel({ focusTarget: open });
+    atlas.locate(unit ?? person.locations[0], mapInset());
+  },
   onLocateUnit(point) {
     showCampus({ point, unit: point.unit, people: atlas.peopleAt(point) });
-    const inset = matchMedia('(min-width: 600px)').matches ? panel.getBoundingClientRect().right / 2 : 0;
-    atlas.locate(point, inset);
+    atlas.locate(point, mapInset());
   },
   onLocate(entry, point) {
-    const person = people.find((person) => person.section === entry.section && person.raw === entry.raw);
+    const person = findPerson(entry);
     if (!person) return;
     const location = locatedUnit(person, point) ?? point;
     showPerson(person, location);
-    const offset = matchMedia('(min-width: 600px)').matches ? panel.getBoundingClientRect().right / 2 : 0;
-    atlas.locate(location, offset);
+    atlas.locate(location, mapInset());
   },
 });
 directory.geoList.closest('nav').hidden = true;
