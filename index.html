@@ -28,14 +28,20 @@
           <span aria-hidden="true">←</span><span id="panel-back-title"></span>
         </button>
         <div id="panel-content">
-          <dl class="map-overview" id="map-overview" aria-label="資料概況">
-            <div><dt>共同領銜</dt><dd id="overview-leads"></dd></div>
-            <div><dt>會員署名</dt><dd id="overview-members"></dd></div>
-            <div><dt>已定位署名者</dt><dd id="overview-located"></dd></div>
-            <div><dt>公開留言</dt><dd id="overview-comments" aria-label="留言數載入中">—</dd></div>
-          </dl>
+          <div class="map-overview" id="map-overview" role="group" aria-label="資料概況">
+            <button type="button" data-overview="leads"><strong id="overview-leads"></strong><span>共同領銜</span></button>
+            <button type="button" data-overview="members"><strong id="overview-members"></strong><span>會員署名</span></button>
+            <button type="button" data-overview="located"><strong id="overview-located"></strong><span>已定位署名者</span></button>
+            <button type="button" data-overview="comments"><strong id="overview-comments">—</strong><span>公開留言</span></button>
+          </div>
           <section id="directory" aria-label="機構與署名名錄"></section>
           <section id="place-details" class="map-detail" hidden></section>
+          <section id="public-comments" class="map-detail" hidden>
+            <h2 tabindex="-1">公開留言</h2>
+            <p id="public-comments-status" role="status"></p>
+            <ul id="public-comments-list" class="map-public-comments"></ul>
+            <button type="button" id="public-comments-more" class="map-campus-zoom" hidden>載入更多留言</button>
+          </section>
           <section id="about-map" class="map-detail" hidden>
             <h2 tabindex="-1">關於署名地圖</h2>
             <p>查看支持沈伯洋的學術界公開署名與機構。</p>

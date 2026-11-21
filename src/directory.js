@@ -122,7 +122,15 @@ for (const person of people) {
 }
 
 const sourcedCount = entries.filter((entry) => sourcesFor(entry).length).length;
-const unlocated = entries.filter((entry) => !pointsBySection.get(entry.section)?.get(entry.raw)?.length);
+const hasLocation = (entry) => Boolean(pointsBySection.get(entry.section)?.get(entry.raw)?.length);
+const unlocated = entries.filter((entry) => !hasLocation(entry));
+const locatedEntries = [...new Map(entries.filter(hasLocation)
+  .map((entry) => [JSON.stringify([entry.section, entry.raw]), entry])).values()];
+const overviewLists = new Map([
+  ['leads', { title: '共同領銜', list: entries.filter((entry) => entry.section === '共同領銜') }],
+  ['members', { title: '會員署名', list: entries.filter((entry) => entry.section === '會員名單') }],
+  ['located', { title: '已定位署名者', list: locatedEntries }],
+]);
 const matchedCount = entries.filter((entry) => entry.candidates.length > 0).length;
 
 const countyStats = new Map();
@@ -419,6 +427,12 @@ export function mountDirectory(element, {
     institutionMode.setAttribute('aria-pressed', String(state.groupBy === 'institutions'));
     const query = state.query.trim();
     if (query.length >= MIN_QUERY) renderSearch(query);
+    else if (overviewLists.has(state.view)) {
+      const { title, list } = overviewLists.get(state.view);
+      main.replaceChildren(viewTitle(title, `共 ${list.length.toLocaleString('zh-TW')} 筆署名`),
+        list.length ? entryList(list) : h('p', { class: 'pa-dir-muted', text: '目前沒有符合的署名。' }));
+      live.textContent = `${title}，共 ${list.length} 筆`;
+    }
     else if (state.view === 'unlocated') renderUnlocated();
     else if (state.institution) renderInstitution(institutionById.get(state.institution));
     else if (state.overseas || state.groupBy === 'people') renderPeople();
@@ -786,6 +800,16 @@ export function mountDirectory(element, {
     searchForm,
     searchInput,
     isComposingSearch,
+    showOverviewList(view) {
+      if (!overviewLists.has(view)) return;
+      state.view = view;
+      state.county = null;
+      state.groupBy = 'people';
+      state.institution = null;
+      state.entryLimit = PAGE;
+      resetSearch();
+      render({ focus: 'heading' });
+    },
     snapshot({ committedQuery = false } = {}) {
       return {
         county: state.county,
@@ -804,7 +828,7 @@ export function mountDirectory(element, {
       state.county = COUNTY_ORDER.includes(saved.county) ? saved.county : null;
       state.groupBy = saved.groupBy === 'institutions' ? 'institutions' : 'people';
       state.institution = institutions.find(({ name }) => name === saved.institution)?.id ?? null;
-      state.view = saved.view === 'unlocated' ? 'unlocated' : 'browse';
+      state.view = saved.view === 'unlocated' || overviewLists.has(saved.view) ? saved.view : 'browse';
       state.query = typeof saved.query === 'string' ? saved.query : '';
       searchInput.value = state.query;
       searchStarted = Boolean(state.query.trim());

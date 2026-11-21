@@ -58,6 +58,10 @@ if (!columns.has('author_name')) db.exec('ALTER TABLE comments ADD COLUMN author
 if (!columns.has('author_website')) db.exec('ALTER TABLE comments ADD COLUMN author_website TEXT');
 const select = `SELECT id, body, created_at AS createdAt, updated_at AS updatedAt,
   author_name AS authorName, author_website AS authorWebsite FROM comments`;
+const publicComments = `SELECT id, person, body, created_at AS createdAt FROM comments
+  WHERE person IN (${[...people].map(() => '?').join(',')})`;
+const publicLatest = db.prepare(`${publicComments} ORDER BY created_at DESC, id DESC LIMIT ?`);
+const publicOlder = db.prepare(`${publicComments} AND (created_at, id) < (?, ?) ORDER BY created_at DESC, id DESC LIMIT ?`);
 const boardTotals = db.prepare('SELECT person, COUNT(*) AS total FROM comments GROUP BY person');
 const latest = db.prepare(`${select} WHERE person = ? ORDER BY created_at DESC, id DESC LIMIT ?`);
 const older = db.prepare(`${select} WHERE person = ? AND (created_at, id) < (?, ?) ORDER BY created_at DESC, id DESC LIMIT ?`);
@@ -199,6 +203,13 @@ function send(response, status, value) {
   response.end(value === undefined ? undefined : JSON.stringify(value));
 }
 
+function sendPage(response, comments) {
+  const hasMore = comments.length > pageSize;
+  if (hasMore) comments.pop();
+  const last = comments.at(-1);
+  send(response, 200, { comments, next: hasMore ? `${last.createdAt}.${last.id}` : null });
+}
+
 const server = createServer({ requestTimeout: 10_000, headersTimeout: 5_000 }, async (request, response) => {
   try {
     const url = new URL(request.url, 'http://api.internal');
@@ -210,6 +221,12 @@ const server = createServer({ requestTimeout: 10_000, headersTimeout: 5_000 }, a
     if (request.method === 'GET' && url.pathname === '/api/people/comment-count') {
       const total = boardTotals.all().reduce((sum, board) => sum + (people.has(board.person) ? board.total : 0), 0);
       send(response, 200, { total });
+      return;
+    }
+    if (request.method === 'GET' && url.pathname === '/api/people/public-comments') {
+      const before = cursor(url.searchParams);
+      sendPage(response, before ? publicOlder.all(...people, ...before, pageSize + 1) :
+        publicLatest.all(...people, pageSize + 1));
       return;
     }
     const route = url.pathname.match(routePattern);
@@ -229,10 +246,7 @@ const server = createServer({ requestTimeout: 10_000, headersTimeout: 5_000 }, a
     if (method === 'GET' && !id) {
       const before = cursor(url.searchParams);
       const comments = before ? older.all(person, ...before, pageSize + 1) : latest.all(person, pageSize + 1);
-      const hasMore = comments.length > pageSize;
-      if (hasMore) comments.pop();
-      const last = comments.at(-1);
-      send(response, 200, { comments, next: hasMore ? `${last.createdAt}.${last.id}` : null });
+      sendPage(response, comments);
       return;
     }
     const posting = method === 'POST' && !id;

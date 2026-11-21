@@ -15,6 +15,10 @@ const details = $('place-details');
 const directoryElement = $('directory');
 const overview = $('map-overview');
 const about = $('about-map');
+const publicComments = $('public-comments');
+const publicList = $('public-comments-list');
+const publicStatus = $('public-comments-status');
+const publicMore = $('public-comments-more');
 const panelToggle = $('panel-toggle');
 const panelBack = $('panel-back');
 const aboutButton = $('map-about');
@@ -25,6 +29,9 @@ const toolbar = mapApp.querySelector('.map-toolbar');
 const number = new Intl.NumberFormat('zh-TW');
 let returnFocus;
 let panelDetail;
+let nextPublicCursor;
+let loadingPublicComments = false;
+let peopleByBoard;
 let panelHistory = [];
 let panelView = 'directory';
 let collapsedScrollTop = 0;
@@ -59,6 +66,8 @@ function showPanel(view, { focus = true, restoreScroll = false } = {}) {
   overview.hidden = directoryElement.hidden;
   details.hidden = view !== 'detail';
   about.hidden = view !== 'about';
+  publicComments.hidden = view !== 'comments';
+  if (view === 'comments' && nextPublicCursor === undefined) loadPublicComments();
   if (panel.hidden) setPanelExpanded(true);
   else updateViewExpanded(true);
   if (restoreScroll) panelContent.scrollTop = collapsedScrollTop;
@@ -447,6 +456,71 @@ fetch('/api/people/comment-count', { signal: AbortSignal.timeout(5000) })
   })
   .catch(() => { commentTotal.setAttribute('aria-label', '暫時無法讀取留言數'); });
 
+overview.addEventListener('click', (event) => {
+  const button = event.target.closest('button[data-overview]');
+  if (!button) return;
+  const view = button.dataset.overview;
+  if (view === 'comments') {
+    rememberPanel();
+    showPanel('comments');
+  } else if (directory.snapshot().view !== view || directory.searchInput.value) {
+    rememberPanel();
+    directory.showOverviewList(view);
+    panelContent.scrollTop = 0;
+  }
+});
+publicMore.addEventListener('click', loadPublicComments);
+
+function boardPeople() {
+  peopleByBoard ??= Promise.all(people.map(async (person) => [await commentBoardId(person), person]))
+    .then((entries) => new Map(entries));
+  return peopleByBoard;
+}
+
+async function loadPublicComments() {
+  if (loadingPublicComments) return;
+  loadingPublicComments = true;
+  publicMore.disabled = true;
+  publicStatus.textContent = '正在載入留言…';
+  const query = nextPublicCursor ? `?before=${encodeURIComponent(nextPublicCursor)}` : '';
+  try {
+    const [response, boards] = await Promise.all([
+      fetch(`/api/people/public-comments${query}`, { signal: AbortSignal.timeout(5000) }),
+      boardPeople(),
+    ]);
+    if (!response.ok) throw new Error('Public comments unavailable');
+    const { comments, next } = await response.json();
+    const rows = document.createDocumentFragment();
+    for (const comment of comments) {
+      const person = boards.get(comment.person);
+      if (!person) continue;
+      const row = document.createElement('li');
+      const button = document.createElement('button');
+      button.type = 'button';
+      const title = document.createElement('strong');
+      title.textContent = `${person.name}的留言板`;
+      const body = document.createElement('span');
+      body.textContent = comment.body;
+      button.append(title, body);
+      button.addEventListener('click', () => openPersonBoard(person));
+      row.append(button);
+      rows.append(row);
+    }
+    publicList.append(rows);
+    nextPublicCursor = next;
+    publicStatus.textContent = publicList.childElementCount ? '' : '目前沒有公開留言。';
+    publicMore.textContent = '載入更多留言';
+    publicMore.hidden = !next;
+  } catch {
+    publicStatus.textContent = '暫時無法載入留言。';
+    publicMore.textContent = '重新載入';
+    publicMore.hidden = false;
+  } finally {
+    loadingPublicComments = false;
+    publicMore.disabled = false;
+  }
+}
+
 const SESSION_KEY = 'puma-atlas-view-v1';
 
 function personRef(person) {
@@ -480,7 +554,7 @@ function updatePanelBack() {
 function rememberPanel(options) {
   const title = panelView === 'directory'
     ? directoryElement.querySelector('.pa-dir-view-title')?.textContent
-    : (panelView === 'detail' ? details : about).querySelector('h2')?.textContent;
+    : panelContent.querySelector('section:not([hidden]) h2')?.textContent;
   panelHistory.push({ ...panelSnapshot(options), title: title || '署名者名錄' });
   if (panelHistory.length > 20) panelHistory.shift();
   updatePanelBack();
@@ -518,7 +592,7 @@ function restorePanel(state, { back = false } = {}) {
   mapApp.style.setProperty('--panel-duration', '0ms');
   const { view, detail, open, tall, scrollTop } = state.panel;
   if (view !== 'detail' || !restoreDetail(detail)) {
-    showPanel(view === 'about' ? 'about' : 'directory', { focus: false });
+    showPanel(['about', 'comments'].includes(view) ? view : 'directory', { focus: false });
   }
   const expanded = back || open === true;
   setPanelExpanded(expanded);
@@ -565,12 +639,12 @@ function restoreView() {
 }
 
 async function openLinkedBoard(id) {
-  const matches = await Promise.all(people.map(async (person) => await commentBoardId(person) === id ? person : null));
-  const person = matches.find(Boolean);
-  if (!person) {
-    restoreView();
-    return;
-  }
+  const person = (await boardPeople()).get(id);
+  if (person) openPersonBoard(person);
+  else restoreView();
+}
+
+function openPersonBoard(person) {
   showPerson(person, person.locations[0]);
   if (narrowLayout.matches) setSheetTall(true);
   const heading = details.querySelector('.person-comments h3');
