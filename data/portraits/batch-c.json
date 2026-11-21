@@ -1,0 +1,28 @@
+{
+  "會員名單": {
+    "馬徹（中研院基因體中心研究員）": {
+      "file": "batch-c-ma.webp",
+      "credit": "國家科學及技術委員會，政府資料開放授權條款第 1 版；裁切、縮圖與 WebP 轉檔",
+      "source_url": "https://web.nstc.gov.tw/cen/oaa/award_113/Che-Alex-Ma.html",
+      "license_url": "https://www.nstc.gov.tw/division/detail/a22a29a9-03d7-4d55-850a-f4f6ca1a04e9?l=ch"
+    },
+    "許晃雄（中央研究院環境變遷研究中心退休特聘研究員）": {
+      "file": "batch-c-hsu.webp",
+      "credit": "國家科學及技術委員會，政府資料開放授權條款第 1 版；裁切、縮圖與 WebP 轉檔",
+      "source_url": "https://web.nstc.gov.tw/cen/oaa/award_112/Huang-Hsiung-Hsu.html",
+      "license_url": "https://www.nstc.gov.tw/division/detail/a22a29a9-03d7-4d55-850a-f4f6ca1a04e9?l=ch"
+    },
+    "施信民（台灣大學化工系退休教授）": {
+      "file": "batch-c-shi.webp",
+      "credit": "中華民國總統府，政府資料開放授權條款第 1 版；縮圖與 WebP 轉檔",
+      "source_url": "https://www.president.gov.tw/Page/712",
+      "license_url": "https://www.president.gov.tw/Page/18"
+    },
+    "廖玉蕙（國立臺北教育大學語文與創作學系教授）": {
+      "file": "batch-c-liao.webp",
+      "credit": "臺中市政府文化局臺中文學館，政府資料開放授權條款第 1 版；自合影左側裁切、縮圖與 WebP 轉檔",
+      "source_url": "https://www.tlm.taichung.gov.tw/gallery/Details.aspx?Parser=16%2C6%2C99%2C121%2C%2C%2C%2C425",
+      "license_url": "https://www.tlm.taichung.gov.tw/content/index.aspx?Parser=1,10,94"
+    }
+  }
+}

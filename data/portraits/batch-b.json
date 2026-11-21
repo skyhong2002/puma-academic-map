@@ -1,0 +1,46 @@
+{
+  "會員名單": {
+    "蘇怡璇（中研院細生所研究員）": {
+      "file": "batch-b-su-yi-hsien.webp",
+      "credit": "中央研究院細胞與個體生物學研究所，政府網站資料開放宣告；裁切、縮圖與 WebP 轉檔",
+      "source_url": "https://icob.sinica.edu.tw/faculty/faculty_lab?id=39d4473b67d74129b517e98c2ea80459",
+      "license_url": "https://icob.sinica.edu.tw/webService/opendata"
+    },
+    "陳縕儂（國立臺灣大學資訊工程學系教授）": {
+      "file": "batch-b-chen-yun-nung.webp",
+      "credit": "國家科學及技術委員會，政府資料開放授權條款第 1 版；從官方合影裁切前排左起第 5 人並轉為 WebP",
+      "source_url": "https://www.nstc.gov.tw/folksonomy/detail/60a68da8-946e-4e54-8798-c9addc9f0f86?l=ch",
+      "license_url": "https://www.nstc.gov.tw/folksonomy/detail/a22a29a9-03d7-4d55-850a-f4f6ca1a04e9?l=ch"
+    },
+    "王櫻芬（臺灣大學音樂學研究所特聘教授）": {
+      "file": "batch-b-wang-ying-fen.webp",
+      "credit": "客家委員會客家文化發展中心，政府網站資料開放宣告；裁切官方與會學者合影右側人物並轉為 WebP",
+      "source_url": "https://thcdc.hakka.gov.tw/12205/12214/12215/151192/post",
+      "license_url": "https://thcdc.hakka.gov.tw/12271/12274/23943/post"
+    },
+    "曾道雄（台北歌劇劇場藝術總監）": {
+      "file": "batch-b-tseng-tao-hsiung.webp",
+      "credit": "彰化市公所，政府網站資料開放宣告；自活動合影裁切右側人物並轉為 WebP",
+      "source_url": "https://www.changhua.gov.tw/RowContent/3262?pgid=1",
+      "license_url": "https://www.changhua.gov.tw/OpenData"
+    },
+    "林福來（台灣師大名譽教授）": {
+      "file": "batch-b-lin-fou-lai.webp",
+      "credit": "教育部，政府資料開放授權條款第 1 版；自官方頒獎照裁切左側人物並轉為 WebP",
+      "source_url": "https://dept.moe.gov.tw/ed2700/News_Content.aspx?n=727087A8A1328DEE&s=9AF5DEA6C957CED2&sms=49589CE1E2730CC8",
+      "license_url": "https://www.edu.tw/News_Content.aspx?n=9F932B3D33DCCF6B&sms=15283ECA9D7F60AA&s=D58428E869E39027"
+    },
+    "李梅君（中研院民族所副研究員）": {
+      "file": "batch-b-lee-mei-chun.webp",
+      "credit": "中央研究院，政府資料開放授權條款第 1 版；自官方人物介紹圖卡裁切、縮圖與 WebP 轉檔",
+      "source_url": "https://www.sinica.edu.tw/news_content/559/2404",
+      "license_url": "https://www.sinica.edu.tw/cp/85"
+    },
+    "紀國鐘（國立陽明交通大學終身講座教授）": {
+      "file": "batch-b-chi-gou-chung.webp",
+      "credit": "盧素璧、沈慈雅／中部科學園區管理局，網站資料開放宣告；裁切《中科簡訊》演講照片、縮圖與 WebP 轉檔",
+      "source_url": "https://www.ctsp.gov.tw/files/0311e2b1-577a-4de0-bc06-d5845e69c376.pdf#page=20",
+      "license_url": "https://www.ctsp.gov.tw/chinese/other/security_1.aspx?v=1"
+    }
+  }
+}

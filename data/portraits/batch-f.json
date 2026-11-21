@@ -1,0 +1,34 @@
+{
+  "會員名單": {
+    "鄭揚（中央研究院生醫所助研究員）": {
+      "file": "batch-f-cheng-yang.webp",
+      "credit": "中央研究院《中研院訊》，政府資料開放授權條款第 1 版；自人物介紹圖裁切及縮圖轉為 WebP",
+      "source_url": "https://newsletter.sinica.edu.tw/30499/",
+      "license_url": "https://www.sinica.edu.tw/cp/85"
+    },
+    "劉益昌（國立中興大學/國立成功大學特約講座教授/名譽教授）": {
+      "file": "batch-f-liu-yi-chang.webp",
+      "credit": "臺南市政府文化局，依該局政府網站資料開放宣告；裁切、縮圖並轉為 WebP",
+      "source_url": "https://culture.tainan.gov.tw/theme/tour/Details?Parser=13,50,357,350,,,49",
+      "license_url": "https://culture.tainan.gov.tw/content/index?Parser=1%2C14%2C83"
+    },
+    "王君琦（國立台北藝術大學電影創作學系副教授）": {
+      "file": "batch-f-wang-chun-chi.webp",
+      "credit": "中華民國總統府，政府資料開放授權條款第 1 版；自活動照片左側裁切王君琦，縮圖並轉為 WebP",
+      "source_url": "https://www.president.gov.tw/News/26485",
+      "license_url": "https://www.president.gov.tw/Page/18"
+    },
+    "戴寶村（政治大學台灣史研究所退休教授）": {
+      "file": "batch-f-tai-pao-tsun.webp",
+      "credit": "國家發展委員會檔案管理局，依網站資料開放宣告之 CC BY 4.0；自第 7 頁委員介紹擷取及裁切、轉為 WebP",
+      "source_url": "https://www.archives.gov.tw/wSite/public/Attachment/001/f1731910076945.pdf#page=7",
+      "license_url": "https://www.archives.gov.tw/tw/arctw/625-10226.html"
+    },
+    "孫珍理（國立臺灣大學機械工程學系教授）": {
+      "file": "batch-f-sun-chern-li.webp",
+      "credit": "國家科學及技術委員會，政府資料開放授權條款第 1 版；自 2023 CES 合影右二裁切孫珍理，轉為 WebP",
+      "source_url": "https://www.nstc.gov.tw/folksonomy/detail/ba00ed72-e17e-479a-ba81-e3d365ecabe2?l=ch",
+      "license_url": "https://www.nstc.gov.tw/division/detail/a22a29a9-03d7-4d55-850a-f4f6ca1a04e9?l=ch"
+    }
+  }
+}
