@@ -273,6 +273,7 @@ const atlas = createAtlas($('map'), people, {
   onCampus: showCampus,
   onCampusZoom: dismissDetails,
   onPerson: showPerson,
+  isNarrow: () => narrowLayout.matches,
   preserveResizeOrigin: () => Boolean(sheetSnap),
 });
 const findPerson = (entry) => people.find((person) => person.section === entry.section && person.raw === entry.raw);

@@ -7,6 +7,7 @@ import { addOceanCurrent } from './ocean-current.js';
 const catalog = Object.values(import.meta.glob('../data/institutions/*.json', { eager: true, import: 'default' })).flat();
 
 const START = [[21.87, 118.15], [26.42, 122.16]];
+const MOBILE_START = [[21.87, 120.01], [25.31, 122.01]];
 const CAMPUS_ZOOM = 14;
 const UNIT_ZOOM = 17;
 const CAMPUS_PEOPLE_ZOOM = 20;
@@ -121,7 +122,7 @@ function campusTitle(point) {
   return point.campus ? `${point.institution}・${point.campus}` : point.institution;
 }
 
-export function createAtlas(container, people, { onCampus, onCampusZoom, onPerson, preserveResizeOrigin }) {
+export function createAtlas(container, people, { onCampus, onCampusZoom, onPerson, isNarrow, preserveResizeOrigin }) {
   const map = L.map(container, { minZoom: 2, maxZoom: CAMPUS_PEOPLE_ZOOM, zoomControl: false, worldCopyJump: true });
   map.attributionControl.setPrefix('<a href="https://github.com/skyhong2002/puma-academic-map">GitHub 原始碼</a>');
   L.control.zoom({ position: 'bottomright', zoomInTitle: '放大', zoomOutTitle: '縮小' }).addTo(map);
@@ -650,8 +651,10 @@ export function createAtlas(container, people, { onCampus, onCampusZoom, onPerso
     focusedUnit = undefined;
     select();
     const { x, y } = map.getSize();
-    map.fitBounds(START, {
-      padding: [Math.min(32, x / 40), Math.min(44, y / 8)], animate: false,
+    const narrow = isNarrow();
+    map.fitBounds(narrow ? MOBILE_START : START, {
+      padding: [Math.min(32, x / 40), narrow ? Math.min(22, y / 25) : Math.min(44, y / 8)],
+      animate: false,
     });
   }
   map.on('moveend', showCampuses);
