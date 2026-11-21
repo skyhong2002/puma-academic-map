@@ -3,9 +3,10 @@ import universities from '../data/institutions/universities.json';
 const nycu = universities.find(({ name }) => name === '國立陽明交通大學');
 const guangfu = nycu.campuses.find(({ name }) => name === '新竹光復校區');
 const guangfuNames = new Set([nycu.name, '國立交通大學', '國立陽明交通大學光復校區']);
-const nycuNamedCampuses = new Map([
-  ['國立陽明交通大學臺北陽明校區', '臺北陽明校區'],
-  ['國立陽明交通大學六家校區', '六家校區'],
+const namedCampuses = new Map([
+  ['國立陽明交通大學臺北陽明校區', [nycu.name, '臺北陽明校區']],
+  ['國立陽明交通大學六家校區', [nycu.name, '六家校區']],
+  ['國立臺灣師範大學僑生先修部（林口校區）', ['國立臺灣師範大學', '林口校區']],
 ]);
 
 export const unitInstitutionAliases = {
@@ -38,7 +39,8 @@ export function officialCampusAt(point) {
 
 export function canonicalCampus(point) {
   if (point.country !== '臺灣') return point;
-  const named = officialCampus(nycu.name, nycuNamedCampuses.get(point.institution));
+  const identity = namedCampuses.get(point.institution);
+  const named = identity && officialCampus(...identity);
   if (named?.city === point.city) return { ...point, ...named };
   if (guangfuNames.has(point.institution) && point.city === guangfu.county &&
       Math.abs(point.lat - guangfu.lat) <= 0.0001 && Math.abs(point.lon - guangfu.lon) <= 0.0001) {

@@ -25,7 +25,7 @@ export function departmentFor(person, institution) {
     const heading = normalizeUnit(claim).replace(/^(前|曾任)/, '');
     const alias = aliases.find((item) => heading.startsWith(item));
     if (!alias) continue;
-    const department = heading.slice(alias.length).match(/^([\p{Script=Han}]{1,24}?(?:學系|研究所|學位學程|學程|學院|中心|學士班|院|系|所))(?=兼任|專任|約聘|名譽|榮譽|退休|教授|副教授|助理|博士|碩士|講師|研究員|主任|創意長|特聘|講座|$)/u);
+    const department = heading.slice(alias.length).match(/^([\p{Script=Han}]{1,24}?(?:學系|研究所|學位學程|學程|學院|中心|學士班|院|系|所|部))(?=兼任|專任|約聘|名譽|榮譽|退休|教授|副教授|助理|博士|碩士|講師|研究員|主任|創意長|特聘|講座|$)/u);
     if (department) return department[1];
   }
   return '系所未標明';

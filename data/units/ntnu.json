@@ -1,5 +1,6 @@
 {
   "institution": "國立臺灣師範大學",
+  "campus": "和平校區",
   "units": {
     "歷史學系": {
       "lat": 25.0277,
@@ -51,6 +52,7 @@
       "address_source_url": "https://www.cte.ntnu.edu.tw/index.php/locations/"
     },
     "光電工程研究所": {
+      "campus": "公館校區",
       "lat": 25.006652,
       "lon": 121.535756,
       "building": "應用科學大樓",
@@ -79,6 +81,7 @@
       "address_source_url": "https://www.cte.ntnu.edu.tw/index.php/locations/"
     },
     "數學系": {
+      "campus": "公館校區",
       "lat": 25.007551,
       "lon": 121.536143,
       "building": "數學館",
@@ -86,6 +89,7 @@
       "address_source_url": "https://www.es.ntnu.edu.tw/wp-content/uploads/2023/10/%E5%A0%B1%E5%88%B0%E8%B7%AF%E7%B7%9A%E5%9C%96.pdf"
     },
     "地球科學系": {
+      "campus": "公館校區",
       "lat": 25.007555,
       "lon": 121.534907,
       "building": "理學院大樓 F 棟",
@@ -93,6 +97,7 @@
       "address_source_url": "https://www.es.ntnu.edu.tw/wp-content/uploads/2023/10/%E5%A0%B1%E5%88%B0%E8%B7%AF%E7%B7%9A%E5%9C%96.pdf"
     },
     "物理學系": {
+      "campus": "公館校區",
       "lat": 25.007555,
       "lon": 121.534907,
       "building": "理學院大樓 F 棟",
@@ -100,6 +105,7 @@
       "address_source_url": "https://www.es.ntnu.edu.tw/wp-content/uploads/2023/10/%E5%A0%B1%E5%88%B0%E8%B7%AF%E7%B7%9A%E5%9C%96.pdf"
     },
     "化學系": {
+      "campus": "公館校區",
       "lat": 25.007555,
       "lon": 121.534907,
       "building": "理學院大樓 F 棟",
@@ -107,6 +113,7 @@
       "address_source_url": "https://www.es.ntnu.edu.tw/wp-content/uploads/2023/10/%E5%A0%B1%E5%88%B0%E8%B7%AF%E7%B7%9A%E5%9C%96.pdf"
     },
     "生命科學系": {
+      "campus": "公館校區",
       "lat": 25.007555,
       "lon": 121.534907,
       "building": "理學院大樓 F 棟",
@@ -114,6 +121,7 @@
       "address_source_url": "https://www.es.ntnu.edu.tw/wp-content/uploads/2023/10/%E5%A0%B1%E5%88%B0%E8%B7%AF%E7%B7%9A%E5%9C%96.pdf"
     },
     "資訊工程學系": {
+      "campus": "公館校區",
       "lat": 25.006652,
       "lon": 121.535756,
       "building": "應用科學大樓",
@@ -121,6 +129,7 @@
       "address_source_url": "https://www.hs.ntnu.edu.tw/static/webroot/G162269151451663/application/NN173105358040699.pdf"
     },
     "科學教育研究所": {
+      "campus": "公館校區",
       "lat": 25.007338,
       "lon": 121.536514,
       "building": "科教大樓",
@@ -142,6 +151,8 @@
       "address_source_url": "https://www.epc.ntnu.edu.tw/"
     },
     "僑生先修部": {
+      "aliases": ["僑先部"],
+      "campus": "林口校區",
       "lat": 25.0672,
       "lon": 121.4008,
       "building": "林口校區行政大樓",
