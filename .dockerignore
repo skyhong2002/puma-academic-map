@@ -1,0 +1,8 @@
+**
+!package.json
+!data/
+!data/signatories.json
+!server/
+!server/comments.js
+!src/
+!src/comment-board-id.js

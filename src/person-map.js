@@ -16,14 +16,7 @@ export function personDetails(person, point, { heading = false } = {}) {
   const title = document.createElement(heading ? 'h2' : 'strong');
   if (heading) title.tabIndex = -1;
   title.textContent = person.name;
-  const place = document.createElement('p');
-  place.className = 'map-detail__place';
-  place.textContent = [point.institution, point.campus, point.unit, point.building, point.city, point.country].filter(Boolean).join(' · ');
-  const emblem = emblemFor(point.institution);
-  if (emblem) {
-    place.classList.add('map-detail__institution');
-    place.prepend(emblemImage(emblem));
-  }
+  const emblem = point ? emblemFor(point.institution) : null;
   const claim = document.createElement('p');
   claim.className = 'map-detail__claim';
   claim.textContent = person.affiliation_text;
@@ -41,10 +34,21 @@ export function personDetails(person, point, { heading = false } = {}) {
     identity.append(image);
   }
   identity.append(title);
-  content.append(place, claim);
+  if (point) {
+    const place = document.createElement('p');
+    place.className = 'map-detail__place';
+    place.textContent = [point.institution, point.campus, point.unit, point.building, point.city, point.country].filter(Boolean).join(' · ');
+    if (emblem) {
+      place.classList.add('map-detail__institution');
+      place.prepend(emblemImage(emblem));
+    }
+    content.append(place);
+  }
+  content.append(claim);
   const activities = person.refs.filter((ref) => ref.kind === 'support');
-  const refs = [...person.refs.filter((ref) => ref.kind !== 'support'), { label: point.unit ? '系館座標來源' : '機構座標來源', url: point.source_url }];
-  if (point.address_source_url) refs.push({ label: point.unit ? '系所位置來源' : '機構地址來源', url: point.address_source_url });
+  const refs = person.refs.filter((ref) => ref.kind !== 'support');
+  if (point?.source_url) refs.push({ label: point.unit ? '系館座標來源' : '機構座標來源', url: point.source_url });
+  if (point?.address_source_url) refs.push({ label: point.unit ? '系所位置來源' : '機構地址來源', url: point.address_source_url });
   if (emblem) {
     refs.push({ label: '機構標誌來源', url: emblem.source_url, description: emblem.credit });
     refs.push({ label: '機構標誌使用條件', url: emblem.license_url });

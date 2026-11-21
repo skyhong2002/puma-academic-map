@@ -205,7 +205,7 @@ function countBadge(count, unit) {
 // ---------- 主元件 ----------
 
 export function mountDirectory(element, {
-  onSelectCounty, onLocate, onLocateUnit, onSearchPerson, onSearchChange, onSearchOpen,
+  onSelectCounty, onLocate, onLocateUnit, onSearchPerson, onSearchChange, onSearchOpen, onOpenPerson,
 } = {}) {
   if (!element) throw new Error('mountDirectory 需要容器元素');
   const uid = `pa-dir-${Math.random().toString(36).slice(2, 8)}`;
@@ -603,6 +603,10 @@ export function mountDirectory(element, {
           h('span', { class: `pa-dir-section-tag${entry.section === '共同領銜' ? ' is-lead' : ''}`, text: entry.section })),
         h('div', { class: 'pa-dir-entry-body' },
           h('p', { class: 'pa-dir-entry-raw' }, highlight(entry.affiliation || entry.raw, query)),
+          onOpenPerson ? h('button', { type: 'button', class: 'pa-dir-cand',
+            onClick: () => onOpenPerson(entry), text: '開啟人物與留言板',
+            'aria-label': `開啟 ${name} 的人物資料與留言板`,
+          }) : null,
           places.length ? h('ul', { class: 'pa-dir-entry-places' }, places.map((place) => h('li', {},
             h('button', { type: 'button', class: 'pa-dir-cand',
               onClick: () => onLocate?.(entry, place),

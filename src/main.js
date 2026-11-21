@@ -5,6 +5,7 @@ import { createAtlas } from './atlas.js';
 import { mountDirectory } from './directory.js';
 import { people } from './person-data.js';
 import { personDetails } from './person-map.js';
+import { personComments } from './person-comments.js';
 import { track } from './analytics.js';
 
 const $ = (id) => document.getElementById(id);
@@ -23,6 +24,7 @@ const toolbar = mapApp.querySelector('.map-toolbar');
 const number = new Intl.NumberFormat('zh-TW');
 let activeCampus;
 let campusListReturn;
+let directoryPersonReturn;
 let returnFocus;
 let panelView = 'directory';
 let collapsedScrollTop = 0;
@@ -114,6 +116,7 @@ function detailTitle(text) {
 function showCampus(campus, restore) {
   let returnButton;
   campusListReturn = undefined;
+  directoryPersonReturn = undefined;
   track('view_academic_location');
   activeCampus = campus;
   const { point, people, unit, campusOnly } = campus;
@@ -221,6 +224,7 @@ function showCampus(campus, restore) {
 
 function showPerson(person, point, campus = null) {
   campusListReturn = undefined;
+  directoryPersonReturn = undefined;
   activeCampus = campus;
   details.replaceChildren(personDetails(person, point, { heading: true }));
   if (roster.source_url) {
@@ -232,8 +236,9 @@ function showPerson(person, point, campus = null) {
     link.rel = 'noopener';
     details.append(link);
   }
+  details.append(personComments(person));
   showPanel('detail');
-  revealAfterPanelResize(point);
+  if (point) revealAfterPanelResize(point);
 }
 
 const atlas = createAtlas($('map'), people, {
@@ -259,6 +264,14 @@ const directory = mountDirectory(directoryElement, {
     if (!person?.locations.length) return;
     const unit = person.locations.map((point) => locatedUnit(person, point)).find(Boolean);
     locateOnMap(unit ?? person.locations[0]);
+  },
+  onOpenPerson(entry) {
+    const person = findPerson(entry);
+    if (!person) return;
+    const target = document.activeElement;
+    const scrollTop = panelContent.scrollTop;
+    showPerson(person, person.locations[0]);
+    directoryPersonReturn = { target, scrollTop };
   },
   onLocateUnit(point) {
     showCampus({ point, unit: point.unit, people: atlas.peopleAt(point) });
@@ -377,7 +390,13 @@ new ResizeObserver(() => {
 }).observe(toolbar);
 back.addEventListener('click', () => {
   if (activeCampus && details.querySelector('.map-campus-people') === null) showCampus(activeCampus, campusListReturn);
-  else showPanel('directory');
+  else if (directoryPersonReturn?.target?.isConnected) {
+    const { target, scrollTop } = directoryPersonReturn;
+    directoryPersonReturn = undefined;
+    showPanel('directory', { focus: false });
+    panelContent.scrollTop = scrollTop;
+    target.focus({ preventScroll: true });
+  } else showPanel('directory');
 });
 $('reset-map').addEventListener('click', () => {
   pendingReveal = undefined;

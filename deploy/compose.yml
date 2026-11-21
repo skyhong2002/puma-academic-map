@@ -1,0 +1,30 @@
+services:
+  web:
+    image: nginx:1.28-alpine
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${PUMA_PORT:-19132}:80"
+    volumes:
+      - ../dist:/usr/share/nginx/html:ro
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      comments:
+        condition: service_healthy
+  comments:
+    build:
+      context: ..
+      dockerfile: deploy/comments.Dockerfile
+    restart: unless-stopped
+    environment:
+      COMMENTS_ORIGIN: ${COMMENTS_ORIGIN:-https://puma-academic.observe.tw}
+      COMMENTS_BEHIND_PROXY: "1"
+    volumes:
+      - comments:/data
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:4174/healthz').then(r => { if (!r.ok) process.exit(1) }).catch(() => process.exit(1))"]
+      interval: 15s
+      timeout: 3s
+      start_period: 5s
+      start_interval: 1s
+volumes:
+  comments:
