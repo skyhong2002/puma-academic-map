@@ -1,0 +1,263 @@
+{
+ "batch": 28,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "陳昭瑩（臺大醫學院物理治療學系暨研究所兼任講師）",
+   "research": {
+    "keywords": [
+     {
+      "label": "骨科術後物理治療",
+      "source": "https://www.ntuh.gov.tw/PTC/Fpage.action?fid=1222"
+     },
+     {
+      "label": "運動傷害防治",
+      "source": "https://www.ntuh.gov.tw/PTC/Fpage.action?fid=1222"
+     },
+     {
+      "label": "骨盆底肌功能重建",
+      "source": "https://www.ntuh.gov.tw/PTC/Fpage.action?fid=1222"
+     },
+     {
+      "label": "骨質疏鬆症物理治療",
+      "source": "https://www.ntuh.gov.tw/PTC/Fpage.action?fid=1222"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-028/chen-zhaoying.jpg",
+    "crop": [
+     1500,
+     100,
+     2500,
+     2500
+    ],
+    "source_url": "https://www.ntuh.gov.tw/PTC/Fpage.action?fid=1222",
+    "credit": "來源：臺大醫院物理治療中心官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "臺大醫院物理治療中心專任治療師頁，經歷列「臺大醫學院物理治療學系暨研究所 兼任講師」，身分相符；關鍵詞取自「臨床專長」欄。正式白袍單人照。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李晏佐（臺東大學休閒碩專班副教授）",
+   "note": "官網專任教師頁（wedc.nttu.edu.tw）僅有街頭生活照（圓形裁切、背景雜亂），依規則不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林靖修（臺東大學南島文化研究博士班教授）",
+   "note": "公共與文化事務學系師資頁僅有圖示佔位圖，個人簡介頁無照片；未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳麒（國立臺東大學幼兒教育學系助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-028/chen-qi.png",
+    "crop": [
+     100,
+     0,
+     620,
+     620
+    ],
+    "source_url": "https://ndcde.nttu.edu.tw/p/404-1036-166338.php?Lang=zh-tw",
+    "credit": "來源：國立臺東大學幼兒教育學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "幼教系個人頁，職稱已更新為副教授（署名為助理教授），同系同名，視為同一人。單人半身照，白底。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳美靜（臺東大學美術產業學系助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-028/chen-meijing.jpg",
+    "crop": null,
+    "source_url": "https://art.nttu.edu.tw/p/404-1026-151547.php?Lang=zh-tw",
+    "credit": "來源：國立臺東大學美術產業學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "美術產業學系個人頁（頁面標示老師個人照），臉部清楚但打光偏彩色、較不正式。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李威寰（國立臺東大學華語文學系助理教授）",
+   "note": "師資頁有 250x250 照片，但為說話中的非正式照、圓形裁切，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "梁偉立（國立臺灣大學 森林環境暨資源學系教授）",
+   "note": "未於機構頁面找到可確認的單人正式肖像（臺大學術庫僅有約 100px 的低解析、生活照）；未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張正衡（臺灣大學人類學系副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-028/chang-cheng-heng.jpg",
+    "crop": null,
+    "source_url": "https://anthro.ntu.edu.tw/%e5%b0%88%e4%bb%bb%e6%95%99%e5%b8%ab/",
+    "credit": "來源：國立臺灣大學人類學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "人類學系專任教師頁，單人、白底、臉部清楚，但為輕便T恤、解析度偏低(282x340)。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "翁書偉（國立臺灣大學公共衛生學院 健康行為與社區科學研究所助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-028/wong.jpg",
+    "crop": null,
+    "source_url": "https://hbcs.ntu.edu.tw/web/about/faculty.jsp",
+    "credit": "來源：國立臺灣大學公共衛生學院健康行為與社區科學研究所官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "系所師資頁，助理教授，身分相符；西裝單人肖像，背景為辦公室。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林牧之（國立臺灣大學共同教育中心兼任助理教授）",
+   "note": "未於機構頁面找到可確認的單人正式肖像（臺大學術庫僅有約 100px 的低解析、生活照）；未採用。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "李宗興（臺灣大學創新領域學士學位學程助理教授）",
+   "note": "未於機構頁面找到可確認的單人正式肖像（臺大學術庫僅有約 100px 的低解析、生活照）；未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "葉昱緯（國立臺灣大學博士後研究員）",
+   "note": "未於機構頁面找到可確認的單人正式肖像（臺大學術庫僅有約 100px 的低解析、生活照）；未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "洪伯邑（臺灣大學地理環境資源學系教授）",
+   "note": "地理系師資頁照片為 T 恤戶外生活照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "莊振義（國立臺灣大學地理環境資源學系教授）",
+   "note": "地理系頁照片為近距離側拍生活照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡毓芬（國立臺灣大學外國語文學系教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-028/tsai-yufen.jpg",
+    "crop": null,
+    "source_url": "https://www.forex.ntu.edu.tw/1916/",
+    "credit": "來源：國立臺灣大學外國語文學系暨研究所官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "外文系教師頁，單人正式肖像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張雅婷（國立臺灣大學大氣科學系博士後研究員）",
+   "note": "大氣系博士後頁照片為親子合照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林耀盛（國立臺灣大學心理學系教授）",
+   "note": "心理學系頁僅有登山生活照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "洪承宇（國立臺灣大學教授）",
+   "note": "未於機構頁面找到可確認的單人正式肖像（臺大學術庫僅有約 100px 的低解析、生活照）；未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉奇璋（國立臺灣大學森林環境暨資源學系副教授）",
+   "note": "未於機構頁面找到可確認的單人正式肖像（臺大學術庫僅有約 100px 的低解析、生活照）；未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡協澄（國立臺灣大學機械工程學系副教授）",
+   "note": "未於機構頁面找到可確認的單人正式肖像（臺大學術庫僅有約 100px 的低解析、生活照）；未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳冠妃（國立臺灣大學歷史學系助理教授）",
+   "note": "未於機構頁面找到可確認的單人正式肖像（臺大學術庫僅有約 100px 的低解析、生活照）；未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林孟慧（國立臺灣大學氣候變遷與永續發展國際學位學程博士候選人）",
+   "research": {
+    "keywords": [
+     {
+      "label": "氣候變遷",
+      "source": "https://advisory.yda.gov.tw/committee-intro/161"
+     },
+     {
+      "label": "水資源管理",
+      "source": "https://advisory.yda.gov.tw/committee-intro/161"
+     },
+     {
+      "label": "永續發展",
+      "source": "https://advisory.yda.gov.tw/committee-intro/161"
+     },
+     {
+      "label": "能源轉型",
+      "source": "https://advisory.yda.gov.tw/committee-intro/161"
+     },
+     {
+      "label": "低碳社會",
+      "source": "https://advisory.yda.gov.tw/committee-intro/161"
+     },
+     {
+      "label": "綠色金融",
+      "source": "https://advisory.yda.gov.tw/committee-intro/161"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "行政院青年諮詢委員會委員頁，職稱為「國立臺灣大學氣候變遷與永續發展國際學位學程博士生」，與署名相符；關鍵詞取自「專長領域」標籤。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳世楠（臺灣大學海洋研究所教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-028/chen-shihnan.jpg",
+    "crop": null,
+    "source_url": "https://www.oc.ntu.edu.tw/staffs/teachers/",
+    "credit": "來源：國立臺灣大學海洋研究所官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "海洋所專任教師頁，單人半身照，素色背景。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "魏志潾（國立臺灣大學海洋研究所教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-028/wei-chihlin.jpg",
+    "crop": null,
+    "source_url": "https://www.oc.ntu.edu.tw/staffs/teachers/",
+    "credit": "來源：國立臺灣大學海洋研究所官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "海洋所專任教師頁，單人半身照，素色背景。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "闕河嘉（國立臺灣大學生傳系副教授）",
+   "note": "未於機構頁面找到可確認的單人正式肖像（臺大學術庫僅有約 100px 的低解析、生活照）；未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "廖憶純（國立臺灣大學生化科技學系教授）",
+   "note": "未於機構頁面找到可確認的單人正式肖像（臺大學術庫僅有約 100px 的低解析、生活照）；未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張智涵（國立臺灣大學生命科學系副教授）",
+   "note": "未於機構頁面找到可確認的單人正式肖像（臺大學術庫僅有約 100px 的低解析、生活照）；未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林大利（國立臺灣大學生態學與演化生物學研究所助理教授）",
+   "note": "未於機構頁面找到可確認的單人正式肖像（臺大學術庫僅有約 100px 的低解析、生活照）；未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "呂佳蓉（國立臺灣大學語言學研究所副教授）",
+   "note": "未於機構頁面找到可確認的單人正式肖像（臺大學術庫僅有約 100px 的低解析、生活照）；未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳佩貞（臺灣大學農業化學系教授）",
+   "note": "未於機構頁面找到可確認的單人正式肖像（臺大學術庫僅有約 100px 的低解析、生活照）；未採用。"
+  }
+ ]
+}

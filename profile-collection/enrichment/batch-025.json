@@ -1,0 +1,346 @@
+{
+ "batch": 25,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "陳建賓（美國德州農工大學維多利亞分校教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-025/chen-jb.png",
+    "crop": null,
+    "source_url": "https://www.tamuv.edu/business/contact-us/our-faculty/office2/name-104134-en.aspx",
+    "credit": "來源：美國德州農工大學維多利亞分校商學院官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "頁面為 Chien-Ping Chen（經濟學教授、系主任），與署名機構一致；照片 200x200 正式單人照。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳怡伶（美國懷俄明大學政治、公共事務、國際研究教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-025/chen-yl.jpg",
+    "crop": null,
+    "source_url": "https://www.uwyo.edu/sppais/school-directory/faculty/chen.html",
+    "credit": "來源：美國懷俄明大學政治、公共事務與國際研究學院官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "Yi-Ling Chen 教授，機構一致；照片臉部清楚但為偏休閒的近照（橘色牆面背景）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李龍（美國懷俄明大學教授和系主任）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-025/lee-long.jpg",
+    "crop": null,
+    "source_url": "https://www.uwyo.edu/mathstats/people/faculty/lee.html",
+    "credit": "來源：美國懷俄明大學數學與統計系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "Long Lee 教授暨系主任，機構一致；正式單人照。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉俐吟（美國戴頓大學副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-025/liu-ly.jpg",
+    "crop": null,
+    "source_url": "https://udayton.edu/directory/artssciences/politicalscience/liu-li-yin.php",
+    "credit": "來源：美國戴頓大學政治學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "Li-Yin Liu 副教授（政治學系，東海大學學歷），機構一致；正式單人照 250x250。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "簡士傑（美國沃特伯格學院生物學系助理教授）",
+   "note": "Wartburg 官網人物頁回應 202／JS 驗證無法取得頁面，未繞過；未放頭像。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "陳幼馨（美國猶他州立大學世界語言與文化學系副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-025/chen-yh.jpg",
+    "crop": null,
+    "source_url": "https://artsci.usu.edu/world-languages-cultures/directory/chen-jasmine",
+    "credit": "來源：美國猶他州立大學世界語言與文化學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "Jasmine Yu-Hsing Chen 副教授，機構一致；單人半正式照（戶外樹木背景）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "楊宗軒（美國瑪麗華盛頓大學助理教授）",
+   "note": "UMW 目錄確有 Tsung-Hsuan (Joey) Yang（商學院會計助理教授）但頁面無研究專長欄；目錄照為戶外靠欄杆的休閒姿勢，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "高穎超 Ying-Chao Kao（美國維吉尼亞聯邦大學社會學系 Department of Sociology, Virginia Commonwealth University副教授 Associate Professor）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-025/kao.jpg",
+    "crop": null,
+    "source_url": "https://gsws.vcu.edu/directory/affiliates/kaoyingchao.html",
+    "credit": "來源：美國維吉尼亞聯邦大學官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "Ying-Chao Kao 副教授（VCU，高穎超博士），同一人；正式單人照。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陸浩然（美國羅文大學學校心理學助理教授）",
+   "note": "Rowan 人物頁的照片為健行生活照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "蕭遠（美國耶魯大學（Yale University）社會系助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-025/hsiao-o.jpg",
+    "crop": null,
+    "source_url": "https://sociology.yale.edu/profile/yuan-hsiao",
+    "credit": "來源：美國耶魯大學社會學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "Yuan Hsiao，Yale 社會學系助理教授，機構一致；原圖 2733x2761 單人肖像（站台 480 縮圖被截斷，改用原圖）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "葉信鴻（美國聖塔克拉拉大學教學副教授、加州大學柏克萊分校東亞系台灣組講師）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-025/yeh.png",
+    "crop": [
+     200,
+     180,
+     400,
+     400
+    ],
+    "source_url": "https://www.scu.edu/cas/modernlanguages/faculty--staff/sean-yeh/",
+    "credit": "來源：美國聖塔克拉拉大學現代語文系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "Hsin-hung (Sean) Yeh，SCU 副教授，同時任 Berkeley 講師，兩頁一致；原圖為站姿半身照，已裁切頭肩，背景為戶外樹林。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "羅聖皓（美國芝加哥大學公共政策學院助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-025/lo.jpg",
+    "crop": null,
+    "source_url": "https://harris.uchicago.edu/directory/sheng-hao-lo",
+    "credit": "來源：美國芝加哥大學哈里斯公共政策學院官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "Sheng-Hao Lo，Harris 助理教學教授，機構一致；正式單人照。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "莊鎮元（美國芝加哥大學藝術史學系博士生）",
+   "research": {
+    "keywords": [
+     {
+      "label": "East Asian Art",
+      "source": "https://arthistory.uchicago.edu/graduate/profiles/chuang"
+     },
+     {
+      "label": "visual and material cultures of medieval to late imperial China",
+      "source": "https://arthistory.uchicago.edu/graduate/profiles/chuang"
+     },
+     {
+      "label": "Mongol-Yuan China",
+      "source": "https://arthistory.uchicago.edu/graduate/profiles/chuang"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "Chen-yuan David Chuang，UChicago 藝術史系研究生（台大學士），採用頁面研究描述；頁面照片為模糊黑白合照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳煒仁（美國芝加哥神學院博士候選人）",
+   "research": {
+    "keywords": [
+     {
+      "label": "Hebrew Bible",
+      "source": "https://vintage.ctschicago.edu/phd-students/"
+     },
+     {
+      "label": "postcolonialism",
+      "source": "https://vintage.ctschicago.edu/phd-students/"
+     },
+     {
+      "label": "gender/queer theories",
+      "source": "https://vintage.ctschicago.edu/phd-students/"
+     },
+     {
+      "label": "LGBTQ Studies",
+      "source": "https://vintage.ctschicago.edu/phd-students/"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "Wei-Jen Chen（CTS 博士生，台灣背景，推定為同一人）；學生頁照片為戴草帽休閒照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳逸仲（美國范德堡大學醫學中心不孕症中心臨床講師）",
+   "note": "Vanderbilt 僅找到 I-Chung Chen, Ph.D.（臨床婦產科 Instructor），無法確認為同一人，且無研究專長與照片；略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳亭安（美國華盛頓大學分子醫學與疾病機制學程博士候選人）",
+   "research": {
+    "keywords": [
+     {
+      "label": "neurodevelopmental disorders",
+      "source": "https://www.seattlechildrens.org/research/centers-programs/integrative-brain-research/our-labs/page-lab/"
+     },
+     {
+      "label": "autism spectrum disorder (ASD) risk genes",
+      "source": "https://www.seattlechildrens.org/research/centers-programs/integrative-brain-research/our-labs/page-lab/"
+     },
+     {
+      "label": "abnormal brain scaling",
+      "source": "https://www.seattlechildrens.org/research/centers-programs/integrative-brain-research/our-labs/page-lab/"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-025/tachen.jpg",
+    "crop": null,
+    "source_url": "https://www.seattlechildrens.org/research/centers-programs/integrative-brain-research/our-labs/page-lab/",
+    "credit": "來源：美國西雅圖兒童醫院 Page Lab官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "Ting An Chen，UW M3D 博士候選人、Page Lab，台大 2020 學士，一致；照片 250x250 單人。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "蘇怡安（美國華盛頓大學塔科馬分校社會科學系認知心理學助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-025/su.jpg",
+    "crop": null,
+    "source_url": "https://www.tacoma.uw.edu/news/uw-tacoma-welcomes-dozen-new-faculty-members-2025-26-academic-year",
+    "credit": "來源：美國華盛頓大學塔科馬分校官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "I-An \"Amy\" Su，UW Tacoma 認知心理學助理教授，一致；單人照（戶外綠葉背景）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "廖莘雅（美國華盛頓州立大學心理系副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-025/liao.jpg",
+    "crop": null,
+    "source_url": "https://psychology.wsu.edu/faculty/wsu-profile/hsinya.liao/",
+    "credit": "來源：美國華盛頓州立大學心理系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "Hsin-Ya Liao 副教授（台大學士），機構一致；單人照 240x240。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張祐仁（美國西維吉尼亞大學副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-025/chang.jpg",
+    "crop": null,
+    "source_url": "https://medicine.wvu.edu/athletic-training/research/yu-jen-chang-phd/",
+    "credit": "來源：美國西維吉尼亞大學醫學院官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "Yu-Jen Chang 副教授，機構一致；正式單人照，原圖 200x250 已裁為 200x200。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "潘明勳（美國賓州Shippensburg 大學財務金融系名譽教授）",
+   "note": "Shippensburg 官網人物頁回傳 Error，無法取得照片；搜尋結果顯示 Ming-Shiun Pan 在官網仍列為 Professor（未見名譽教授標示）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉麗雲（美國賓州天普大學醫學院神經科學系教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-025/lc2.jpg",
+    "crop": [
+     0,
+     0,
+     320,
+     320
+    ],
+    "source_url": "https://medicine.temple.edu/directory/lee-yuan-liu-chen-phd",
+    "credit": "來源：美國天普大學醫學院官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "Lee-Yuan Liu-Chen 教授，Temple 醫學院；正式單人照（頁面縮圖僅 100px，改用同檔較大原圖 320x430）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃嘉斌（美國馬里蘭大學學院市分校副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-025/huang.jpg",
+    "crop": [
+     0,
+     0,
+     220,
+     220
+    ],
+    "source_url": "https://www.cs.umd.edu/people/jbhuang",
+    "credit": "來源：美國馬里蘭大學電腦科學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "Jia-Bin Huang，UMD 副教授，機構一致；單人照 220x303 已裁方形。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "丁弘彬（美國馬里蘭州羅耀拉大學商學院副院長暨教授）",
+   "note": "Loyola Maryland 目錄的 Hung-bin Ding（Sellinger 副院長暨教授）一致，但頁面照片 150x200 頭頂被截斷，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳建霖（義守大學機械系教授）",
+   "note": "ISU 機械系頁（Jiann-Lin Chen 教授）一致，但照片為書櫃背景，依規則不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳玉海（聖約翰科大退休教授助理教授）",
+   "note": "聖約翰科大核心課程中心頁（cct.edu.tw）陳玉海，政大宗教所博士，推定為同一人；頁面無照片。 [審核剔除：身分為推定]"
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡榮任（國立聯合大學 建築學系助理教授）",
+   "note": "NUU 建築系頁（Jung-Jen Tsai 助理教授）一致，但頁面照片頭頂被截斷、為全身照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃建勳（市立聯合醫院忠孝院區泌尿科主治醫師，陽明大學泌尿學科兼任助理教授，教育部部定助理教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "尿路結石",
+      "source": "https://websrv01.tpech.gov.tw/drview/home/read?emp_no=DAR87"
+     },
+     {
+      "label": "攝護腺疾病",
+      "source": "https://websrv01.tpech.gov.tw/drview/home/read?emp_no=DAR87"
+     },
+     {
+      "label": "小兒泌尿",
+      "source": "https://websrv01.tpech.gov.tw/drview/home/read?emp_no=DAR87"
+     },
+     {
+      "label": "性功能障礙",
+      "source": "https://websrv01.tpech.gov.tw/drview/home/read?emp_no=DAR87"
+     },
+     {
+      "label": "排尿障礙",
+      "source": "https://websrv01.tpech.gov.tw/drview/home/read?emp_no=DAR87"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-025/hch.jpg",
+    "crop": null,
+    "source_url": "https://websrv01.tpech.gov.tw/drview/home/read?emp_no=DAR87",
+    "credit": "來源：臺北市立聯合醫院忠孝院區醫師簡介官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "醫院醫師簡介頁，學歷含陽明大學兼任助理教授、教育部部定助理教授，完全一致；照片為 512x384 GIF，解析度偏低但臉部清楚、正式。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳淑純（致理科大應英系副教授退休副教授）",
+   "note": "僅找到致理數位學院課程頁，無專長或照片；略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "莫康笙（致理科技大學 應用英語系助理教授）",
+   "note": "致理應英系頁面確認一致，但頁面無單人肖像（僅橫幅圖），不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "姜穎（致理科技大學休閒遊憩管理系教授）",
+   "note": "致理休閒系頁面一致，但照片僅 127x150（<150px），不採用。"
+  }
+ ]
+}

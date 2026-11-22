@@ -1,0 +1,243 @@
+{
+ "batch": 27,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "魏郁禎（國立臺北教育大學教育經營與管理學系特聘教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-027/wei.png",
+    "crop": null,
+    "source_url": "https://em.ntue.edu.tw/p/406-1022-30301,r1304.php?Lang=zh-tw",
+    "credit": "來源：國立臺北教育大學教育經營與管理學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "系網頁個人頁正式單人肖像，姓名與系所一致。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張英傑（國立臺北教育大學數學暨資訊教育學系退休教授）",
+   "note": "系網頁退休教師頁（研究專長：兒童數學概念發展、數學教育）；頁面照片僅 90×120 且 alt 寫「張英哲」，不確定是本人，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "王楚蓁（臺北教育大學語文與創作學系助理教授）",
+   "note": "語創系教師頁有圖，但為戶外生活照，略過頭像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "謝華貞（國立臺北教育大學講師）",
+   "note": "僅在 NTUE 師資培育處兼任教師名單找到「謝華貞老師」，專長列表演藝術、鍵盤樂；頁面未標系所/職稱且無照片，同名同校但無法完全確認，研究關鍵詞供參考。",
+   "research": {
+    "keywords": [
+     {
+      "label": "表演藝術",
+      "source": "https://ote.ntue.edu.tw/p/16-1008-11400.php?Lang=zh-tw"
+     },
+     {
+      "label": "鍵盤樂",
+      "source": "https://ote.ntue.edu.tw/p/16-1008-11400.php?Lang=zh-tw"
+     }
+    ],
+    "scholar": null
+   }
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳峻鋕（國立臺北教育大學通識教育中心兼任助理教授）",
+   "note": "通識中心頁面（兼任師資名單）無照片，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳盈棻（國立臺北科技大學建築系助理教授）",
+   "note": "北科大建築系頁有圖，但疑為戶外且與姓名性別/身分不確定，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "鄭秀芳（國立臺北藝術大學專技兼任助理教授）",
+   "note": "找不到北藝大官方人物頁（系所不明），略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "姜睿明（國立臺北藝術大學戲劇學系兼任助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-027/chiang.jpg",
+    "crop": [
+     1667,
+     200,
+     2400,
+     2400
+    ],
+    "source_url": "https://theatre.tnua.edu.tw/faculty/parttime/La5P3ErMky",
+    "credit": "來源：國立臺北藝術大學戲劇學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "戲劇系兼任教師頁（助理教授），單人形象照，臉部清楚；已裁切頭肩。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "游富凱（國立臺北藝術大學戲劇系兼任助理教授）",
+   "note": "戲劇系兼任教師頁（助理教授）圖為戴口罩活動照，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "王盈勛（國立臺北藝術大學教授）",
+   "note": "北藝大藝術與科技中心頁無照片；通識中心 PID=101 頁面為他人，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳曉朋（國立臺北藝術大學美術學系教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-027/chen_sp.jpg",
+    "crop": [
+     450,
+     0,
+     1707,
+     1707
+    ],
+    "source_url": "https://finearts.tnua.edu.tw/%E9%99%B3%E6%9B%89%E6%9C%8B%E8%80%81%E5%B8%AB/",
+    "credit": "來源：國立臺北藝術大學美術學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "美術系教師頁，教授兼系主任，單人形象照（深色背景），已裁切置中。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳佳穗（國立臺北藝術大學電影創作學系兼任助理教授）",
+   "note": "電影系兼任教師頁（助理教授級專技）無照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳洛纓（臺北藝術大學電影系兼任助理教授）",
+   "note": "電影系兼任教師頁無照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡淩蕙（臺北藝術大學音樂學院傳統音樂學系副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-027/tsai_ll.jpg",
+    "crop": null,
+    "source_url": "https://musiccollege.tnua.edu.tw/Front/Faculty/Faculty-DOTM/Faculty-DOTM-Full/Members.aspx?id=4XxsUoWQkLo%3D",
+    "credit": "來源：國立臺北藝術大學音樂學院傳統音樂學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "傳音系專任師資頁，副教授（傳音系主任）；照片為半正式辦公室單人照，背景尚可。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "楊聰賢（國立臺北藝術大學音樂系退休教授）",
+   "note": "僅找到非機構官網來源（音樂群像資料庫等），無官方人物頁照片，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡懿玲（國立臺北護理健康大學助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-027/tsai_yl.jpg",
+    "crop": null,
+    "source_url": "https://dhcm1994.ntunhs.edu.tw/p/412-1067-4342.php?Lang=zh-tw",
+    "credit": "來源：國立臺北護理健康大學健康事業管理系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "健康事業管理系專任教師頁，助理教授，正式單人肖像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "賴春金（國立臺北護理健康大學退休教授）",
+   "note": "幼保系退休教師頁圖為戶外生活照，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "邱琬淳（臺北醫學大學保健營養學系教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-027/wan-chun-chiu.jpg",
+    "crop": null,
+    "source_url": "https://hub.tmu.edu.tw/zh/persons/wan-chun-chiu",
+    "credit": "來源：臺北醫學大學學術資源平台（保健營養學系）官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "TMU 學術平台個人頁，保健營養學系教授，單人正式肖像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳怡君（臺北醫學大學保健營養學系教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-027/yi-chun-chen-2.jpg",
+    "crop": [
+     0,
+     0,
+     400,
+     400
+    ],
+    "source_url": "https://hub.tmu.edu.tw/zh/persons/yi-chun-chen-2/",
+    "credit": "來源：臺北醫學大學學術資源平台（保健營養學系）官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "TMU 學術平台個人頁，保健營養學系教授，單人正式肖像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "夏詩閔（臺北醫學大學保健營養學系教授兼系主任）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-027/xia.jpg",
+    "crop": null,
+    "source_url": "https://nutrition.tmu.edu.tw/web/about/mentor_in.jsp?lang=tw&fp_id=FP1782808067724",
+    "credit": "來源：臺北醫學大學營養學院官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "營養學院系所主管頁，特聘教授兼保健營養學系主任，正式單人肖像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳建宇（臺北醫學大學副教務長/教授）",
+   "note": "TMU 學術平台圖為手托下巴的生活照（走廊背景），不符正式肖像，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張書君（臺北醫學大學轉譯醫學博士學位學程副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-027/shu-chun-chang.jpg",
+    "crop": null,
+    "source_url": "https://hub.tmu.edu.tw/zh/persons/shu-chun-chang/",
+    "credit": "來源：臺北醫學大學學術資源平台（轉譯醫學博士學位學程）官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "TMU 學術平台個人頁，轉譯醫學博士學位學程副教授；原圖僅 222×309，證件式單人照。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "余信賢（臺北醫學大學醫學系副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-027/hsin-hsien-yu.jpg",
+    "crop": null,
+    "source_url": "https://hub.tmu.edu.tw/zh/persons/hsin-hsien-yu/",
+    "credit": "來源：臺北醫學大學學術資源平台（醫學系）官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "TMU 學術平台個人頁，醫學系副教授，單人肖像（臉部較近但清楚）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳育瑋（臺北醫學大學醫學資訊研究所教授）",
+   "note": "TMU 學術平台圖為戶外生活照，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林千玉（國立臺南大學特殊教育系教授）",
+   "note": "系網頁圖僅 118 px 寬，過小，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林美吟（國立臺南大學跨領域學院教授兼院長）",
+   "note": "視設系頁圖 140×140（<150px），略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "袁子賢（國立臺南藝術大學動畫藝術與影像美學研究所助理教授）",
+   "note": "所網頁圖僅 130×130，過小，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "朱夢慈（國立臺南藝術大學民族音樂學研究所副教授）",
+   "note": "南藝大所網頁圖為活動拿麥克風照，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "何婉甄（國立臺南藝術大學音樂系副教授）",
+   "note": "音樂系頁圖為側身黑白照且臉小，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳宜臻（臺大醫學檢驗及生物技術學系博士後研究員）",
+   "note": "搜尋不到臺大醫檢系博士後研究員的官方頁面（皆為同名他人），略過。"
+  }
+ ]
+}

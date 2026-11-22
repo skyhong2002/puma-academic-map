@@ -33627,5 +33627,158 @@
         "source": "https://campusdirectory.ucsc.edu/cd_detail?uid=ychen225"
       }
     ]
+  },
+  {
+    "id": "25ec6bad36f6dcb5a2fd608eb936efea",
+    "section": "會員名單",
+    "raw": "莊鎮元（美國芝加哥大學藝術史學系博士生）",
+    "keywords": [
+      {
+        "label": "East Asian Art",
+        "source": "https://arthistory.uchicago.edu/graduate/profiles/chuang"
+      },
+      {
+        "label": "Mongol-Yuan China",
+        "source": "https://arthistory.uchicago.edu/graduate/profiles/chuang"
+      }
+    ]
+  },
+  {
+    "id": "a1b8e6bbe3717918dbd974e3d2b49640",
+    "section": "會員名單",
+    "raw": "陳煒仁（美國芝加哥神學院博士候選人）",
+    "keywords": [
+      {
+        "label": "Hebrew Bible",
+        "source": "https://vintage.ctschicago.edu/phd-students/"
+      },
+      {
+        "label": "postcolonialism",
+        "source": "https://vintage.ctschicago.edu/phd-students/"
+      },
+      {
+        "label": "gender/queer theories",
+        "source": "https://vintage.ctschicago.edu/phd-students/"
+      },
+      {
+        "label": "LGBTQ Studies",
+        "source": "https://vintage.ctschicago.edu/phd-students/"
+      }
+    ]
+  },
+  {
+    "id": "61cc3e33258ab267564bfb61899d500d",
+    "section": "會員名單",
+    "raw": "陳亭安（美國華盛頓大學分子醫學與疾病機制學程博士候選人）",
+    "keywords": [
+      {
+        "label": "neurodevelopmental disorders",
+        "source": "https://www.seattlechildrens.org/research/centers-programs/integrative-brain-research/our-labs/page-lab/"
+      },
+      {
+        "label": "autism spectrum disorder (ASD) risk genes",
+        "source": "https://www.seattlechildrens.org/research/centers-programs/integrative-brain-research/our-labs/page-lab/"
+      },
+      {
+        "label": "abnormal brain scaling",
+        "source": "https://www.seattlechildrens.org/research/centers-programs/integrative-brain-research/our-labs/page-lab/"
+      }
+    ]
+  },
+  {
+    "id": "75a9b25f4ca7b9bef5e99d4aa139b6ed",
+    "section": "會員名單",
+    "raw": "黃建勳（市立聯合醫院忠孝院區泌尿科主治醫師，陽明大學泌尿學科兼任助理教授，教育部部定助理教授）",
+    "keywords": [
+      {
+        "label": "尿路結石",
+        "source": "https://websrv01.tpech.gov.tw/drview/home/read?emp_no=DAR87"
+      },
+      {
+        "label": "攝護腺疾病",
+        "source": "https://websrv01.tpech.gov.tw/drview/home/read?emp_no=DAR87"
+      },
+      {
+        "label": "小兒泌尿",
+        "source": "https://websrv01.tpech.gov.tw/drview/home/read?emp_no=DAR87"
+      },
+      {
+        "label": "性功能障礙",
+        "source": "https://websrv01.tpech.gov.tw/drview/home/read?emp_no=DAR87"
+      },
+      {
+        "label": "排尿障礙",
+        "source": "https://websrv01.tpech.gov.tw/drview/home/read?emp_no=DAR87"
+      }
+    ]
+  },
+  {
+    "id": "be9f8b240d11d7ef8b2b84f63ee9b957",
+    "section": "會員名單",
+    "raw": "謝華貞（國立臺北教育大學講師）",
+    "keywords": [
+      {
+        "label": "表演藝術",
+        "source": "https://ote.ntue.edu.tw/p/16-1008-11400.php?Lang=zh-tw"
+      },
+      {
+        "label": "鍵盤樂",
+        "source": "https://ote.ntue.edu.tw/p/16-1008-11400.php?Lang=zh-tw"
+      }
+    ]
+  },
+  {
+    "id": "84164a94dde7d9df8400f6bf7a0f9027",
+    "section": "會員名單",
+    "raw": "陳昭瑩（臺大醫學院物理治療學系暨研究所兼任講師）",
+    "keywords": [
+      {
+        "label": "骨科術後物理治療",
+        "source": "https://www.ntuh.gov.tw/PTC/Fpage.action?fid=1222"
+      },
+      {
+        "label": "運動傷害防治",
+        "source": "https://www.ntuh.gov.tw/PTC/Fpage.action?fid=1222"
+      },
+      {
+        "label": "骨盆底肌功能重建",
+        "source": "https://www.ntuh.gov.tw/PTC/Fpage.action?fid=1222"
+      },
+      {
+        "label": "骨質疏鬆症物理治療",
+        "source": "https://www.ntuh.gov.tw/PTC/Fpage.action?fid=1222"
+      }
+    ]
+  },
+  {
+    "id": "062df7478a619f3d6df605205db57399",
+    "section": "會員名單",
+    "raw": "林孟慧（國立臺灣大學氣候變遷與永續發展國際學位學程博士候選人）",
+    "keywords": [
+      {
+        "label": "氣候變遷",
+        "source": "https://advisory.yda.gov.tw/committee-intro/161"
+      },
+      {
+        "label": "水資源管理",
+        "source": "https://advisory.yda.gov.tw/committee-intro/161"
+      },
+      {
+        "label": "永續發展",
+        "source": "https://advisory.yda.gov.tw/committee-intro/161"
+      },
+      {
+        "label": "能源轉型",
+        "source": "https://advisory.yda.gov.tw/committee-intro/161"
+      },
+      {
+        "label": "低碳社會",
+        "source": "https://advisory.yda.gov.tw/committee-intro/161"
+      },
+      {
+        "label": "綠色金融",
+        "source": "https://advisory.yda.gov.tw/committee-intro/161"
+      }
+    ]
   }
 ]
