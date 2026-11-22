@@ -1,0 +1,342 @@
+{
+ "batch": 33,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "楊志偉（陽明交通大學管理學院兼任助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-033/yang.jpg",
+    "crop": null,
+    "source_url": "https://ibm.nycu.edu.tw/%E5%B8%AB%E8%B3%87%E8%88%87%E5%AD%B8%E8%A1%93%E6%88%90%E6%9E%9C/%E5%B8%AB%E8%B3%87/%E6%A5%8A%E5%BF%97%E5%81%89/",
+    "credit": "來源：陽明交通大學經營管理研究所官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "找到單人肖像（原圖 180×250；圖片 alt 寫「楊志瑋」，頁面標題為楊志偉，判斷為同一人頁面）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "紀國鐘（國立陽明交通大學終身講座教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "半導體材料",
+      "source": "https://www.ust.edu.tw/mobile/lecture02.aspx"
+     },
+     {
+      "label": "光電材料及元件",
+      "source": "https://www.ust.edu.tw/mobile/lecture02.aspx"
+     },
+     {
+      "label": "光電微結構",
+      "source": "https://www.ust.edu.tw/mobile/lecture02.aspx"
+     },
+     {
+      "label": "Thin film solar cell",
+      "source": "https://www.ust.edu.tw/mobile/lecture02.aspx"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "研究領域取自台灣聯合大學系統講座教授頁（紀國鐘，交通大學光電系）；陽明交大光電系人物頁研究欄為空白。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃桂瑩（陽明交通大學視覺文化研究所副教授）",
+   "note": "官網照片為無臉部的身體照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "盧孳艷（國立陽明交通大學護理學院退休教授）",
+   "note": "退休教授，個人舊頁無法連線，未找到研究專長頁面。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃國源（陽明交通大學資工系退休教授）",
+   "note": "系網站頭像為預設剪影，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "魏群樹（陽明交通大學資訊工程學系副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-033/cswei.png",
+    "crop": null,
+    "source_url": "https://www.cs.nycu.edu.tw/members/detail/cswei",
+    "credit": "來源：陽明交通大學資訊工程學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "找到系網站單人照。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "王邦任（陽明交通大學資訊工程學系助理教授）",
+   "note": "系網站照為戶外生活照風格、背景雜亂，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "洪英章（國立陽明交通大學資訊管理所博士）",
+   "note": "查無可確認同一人之公開頁面（已知 URL 未提及其姓名）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳柏安（國立陽明交通大學資訊管理研究所教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-033/chen1.png",
+    "crop": [
+     120,
+     10,
+     640,
+     640
+    ],
+    "source_url": "https://www.nycu.edu.tw/iim/ch/app/artwebsite/view?module=artwebsite&id=37975&serno=4cb17686-fcc1-48ac-bc4e-764d07d8555b",
+    "credit": "來源：陽明交通大學資訊管理研究所官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "找到所網站單人照（教授兼所長）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "孫春在（陽明交通大學退休教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-033/sun.png",
+    "crop": null,
+    "source_url": "https://www.cs.nycu.edu.tw/members/detail/ctsun",
+    "credit": "來源：陽明交通大學資訊工程學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "找到系網站單人照。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃汀華（陽明交通大學通訊所博士）",
+   "note": "查無可確認之公開資料（已知 URL 為失效 PDF）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "杜宗熹（國立陽明交通大學醫學系副教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "神經修復手術",
+      "source": "https://www.vghtpe.gov.tw/Docpersnr.action?tno=DOC3397F"
+     },
+     {
+      "label": "腦部腫瘤手術",
+      "source": "https://www.vghtpe.gov.tw/Docpersnr.action?tno=DOC3397F"
+     },
+     {
+      "label": "神經重症照護",
+      "source": "https://www.vghtpe.gov.tw/Docpersnr.action?tno=DOC3397F"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "臺北榮總醫師頁：陽明醫學系外科學科副教授、神經外科；關鍵詞取自「醫療專長」。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "楊凱鈞（國立陽明交通大學醫學系副教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "失眠",
+      "source": "https://www.vghtpe.gov.tw/Docpersnr.action?tno=DOC3306L"
+     },
+     {
+      "label": "憂鬱與焦慮症",
+      "source": "https://www.vghtpe.gov.tw/Docpersnr.action?tno=DOC3306L"
+     },
+     {
+      "label": "躁鬱症",
+      "source": "https://www.vghtpe.gov.tw/Docpersnr.action?tno=DOC3306L"
+     },
+     {
+      "label": "腦部造影",
+      "source": "https://www.vghtpe.gov.tw/Docpersnr.action?tno=DOC3306L"
+     },
+     {
+      "label": "神經精神藥理學",
+      "source": "https://www.vghtpe.gov.tw/Docpersnr.action?tno=DOC3306L"
+     }
+    ],
+    "scholar": "https://scholar.google.com/citations?user=YxxHdWwAAAAJ"
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-033/kc.jpg",
+    "crop": [
+     0,
+     0,
+     288,
+     288
+    ],
+    "source_url": "https://www.vghtpe.gov.tw/Docpersnr.action?tno=DOC3306L",
+    "credit": "來源：臺北榮民總醫院醫師介紹頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "臺北榮總精神部主治醫師，頁面載「國立陽明大學醫學系 兼任助理教授」，與任務之副教授職級不一致，但為同校同系同名醫師，採用；有 Google Scholar 連結。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃安君（國立陽明交通大學醫學系助理教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "高齡醫學",
+      "source": "https://www.vghtpe.gov.tw/Docpersnr.action?tno=DOC1596A"
+     },
+     {
+      "label": "老年病症侯群",
+      "source": "https://www.vghtpe.gov.tw/Docpersnr.action?tno=DOC1596A"
+     },
+     {
+      "label": "老年人多重用藥",
+      "source": "https://www.vghtpe.gov.tw/Docpersnr.action?tno=DOC1596A"
+     },
+     {
+      "label": "跌倒",
+      "source": "https://www.vghtpe.gov.tw/Docpersnr.action?tno=DOC1596A"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "臺北榮總醫師頁：陽明大學醫學系助理教授、高齡醫學中心；關鍵詞取自「醫療專長」（頁面用字「侯」）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "楊智廸（陽明交通大學附設醫院陽明交通大學醫學院兼任助理教授，陽明交通大學附設醫院主治醫師）",
+   "note": "醫院頁（泌尿外科主治醫師）無專長欄且無照片，未採用。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "温宏斌（國立陽明交通大學電機系特聘教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-033/wen.png",
+    "crop": null,
+    "source_url": "https://dee.nycu.edu.tw/teachers.php?locale=tw&pa=getItem&teacher_id=26",
+    "credit": "來源：陽明交通大學電機工程學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "找到系網站單人照（藍底半正式照，原圖 298×333）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "金立群（國立陽明交通大學音樂研究所退休副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-033/jin.jpg",
+    "crop": null,
+    "source_url": "https://imu.nycu.edu.tw/member.php?id=9",
+    "credit": "來源：陽明交通大學音樂研究所官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "找到所網站單人照（退休教師頁）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "翁註重（雲林科技大學工業設計系教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-033/weng.jpg",
+    "crop": [
+     230,
+     40,
+     560,
+     560
+    ],
+    "source_url": "https://id.yuntech.edu.tw/tw/about/index.php?unit=2&kind=7",
+    "credit": "來源：雲林科技大學工業設計系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "找到系網站單人照（深色背景，已裁切放大臉部）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳晉東（國立雲林科技大學智慧數據科學研究所助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-033/wu.jpg",
+    "crop": [
+     90,
+     0,
+     360,
+     360
+    ],
+    "source_url": "https://ids.yuntech.edu.tw/team/",
+    "credit": "來源：雲林科技大學智慧數據科學研究所官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "找到所網站教師列表單人照（身穿白袍）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "郭致維（國立雲林科技大學通識中心兼任講師）",
+   "note": "僅有課程頁，未找到專長或人物頁。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "簡端良（雲林科技大學通識教育中心助理教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "倫理學",
+      "source": "https://aae.yuntech.edu.tw/aae/epaper/413/P1-01.html"
+     },
+     {
+      "label": "佛學",
+      "source": "https://aae.yuntech.edu.tw/aae/epaper/413/P1-01.html"
+     },
+     {
+      "label": "哲學專論",
+      "source": "https://aae.yuntech.edu.tw/aae/epaper/413/P1-01.html"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "雲科大校刊電子報介紹：通識中心老師，專長倫理學、佛學、哲學專論；未找到合適頭像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳敬介（靜宜大學中國文學系，前台灣研究中心副教授，主任）",
+   "note": "系網站照片僅 110×147，低於門檻，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃正聰（靜宜大學副教授）",
+   "note": "觀光系頁照片為生活照（白 polo、椅子）且僅 150×200，不採用；專長為頁面所列但本任務只需頭像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃國超（靜宜大學台灣文學系副教授）",
+   "note": "系網站照片頭頂被截斷，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "王孝勇（靜宜大學大眾傳播學系特聘教授）",
+   "note": "系網站頁面無法確認照片屬該員（疑似不符），不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李晨鐘（靜宜大學教授）",
+   "note": "頁面為體育室專任教師，職稱未顯示為教授，身分不確定，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "徐承蔭（靜宜大學法律學系兼任助理教授）",
+   "note": "法律系頁為預設無照片圖示。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "鄭羽軒（靜宜大學法律系兼任助理教授）",
+   "note": "法律系頁為預設無照片圖示。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林靜秀（靜宜大學生態人文學系副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-033/lin.jpeg",
+    "crop": null,
+    "source_url": "https://eco.pu.edu.tw/p/800-1165-103187.php?Lang=zh-tw",
+    "credit": "來源：靜宜大學生態人文學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "找到系網站單人照（原圖 150×176）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "何淑熏（靜宜大學行銷與數位經營學系教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-033/ho0.jpeg",
+    "crop": null,
+    "source_url": "https://mdba.pu.edu.tw/p/800-1148-094051.php?Lang=zh-tw",
+    "credit": "來源：靜宜大學行銷與數位經營學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "找到系網站單人照，但原圖僅 150×200、偏模糊，臉部仍可辨識。"
+  }
+ ]
+}

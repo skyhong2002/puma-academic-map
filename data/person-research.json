@@ -33910,5 +33910,148 @@
         "source": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/0003"
       }
     ]
+  },
+  {
+    "id": "0edabd19e0ace84b6dc60561fd4a9a83",
+    "section": "會員名單",
+    "raw": "紀國鐘（國立陽明交通大學終身講座教授）",
+    "keywords": [
+      {
+        "label": "半導體材料",
+        "source": "https://www.ust.edu.tw/mobile/lecture02.aspx"
+      },
+      {
+        "label": "光電材料及元件",
+        "source": "https://www.ust.edu.tw/mobile/lecture02.aspx"
+      },
+      {
+        "label": "光電微結構",
+        "source": "https://www.ust.edu.tw/mobile/lecture02.aspx"
+      },
+      {
+        "label": "Thin film solar cell",
+        "source": "https://www.ust.edu.tw/mobile/lecture02.aspx"
+      }
+    ]
+  },
+  {
+    "id": "fd0d91d1302860868e7a72d79a66a71a",
+    "section": "會員名單",
+    "raw": "杜宗熹（國立陽明交通大學醫學系副教授）",
+    "keywords": [
+      {
+        "label": "神經修復手術",
+        "source": "https://www.vghtpe.gov.tw/Docpersnr.action?tno=DOC3397F"
+      },
+      {
+        "label": "腦部腫瘤手術",
+        "source": "https://www.vghtpe.gov.tw/Docpersnr.action?tno=DOC3397F"
+      },
+      {
+        "label": "神經重症照護",
+        "source": "https://www.vghtpe.gov.tw/Docpersnr.action?tno=DOC3397F"
+      }
+    ]
+  },
+  {
+    "id": "f56091b6f3062d7d8b1aff3dd2eaf5a2",
+    "section": "會員名單",
+    "raw": "楊凱鈞（國立陽明交通大學醫學系副教授）",
+    "keywords": [
+      {
+        "label": "失眠",
+        "source": "https://www.vghtpe.gov.tw/Docpersnr.action?tno=DOC3306L"
+      },
+      {
+        "label": "憂鬱與焦慮症",
+        "source": "https://www.vghtpe.gov.tw/Docpersnr.action?tno=DOC3306L"
+      },
+      {
+        "label": "躁鬱症",
+        "source": "https://www.vghtpe.gov.tw/Docpersnr.action?tno=DOC3306L"
+      },
+      {
+        "label": "腦部造影",
+        "source": "https://www.vghtpe.gov.tw/Docpersnr.action?tno=DOC3306L"
+      },
+      {
+        "label": "神經精神藥理學",
+        "source": "https://www.vghtpe.gov.tw/Docpersnr.action?tno=DOC3306L"
+      }
+    ],
+    "scholar": "https://scholar.google.com/citations?user=YxxHdWwAAAAJ"
+  },
+  {
+    "id": "ee44571cb82cca1ce6a0919c31f84298",
+    "section": "會員名單",
+    "raw": "黃安君（國立陽明交通大學醫學系助理教授）",
+    "keywords": [
+      {
+        "label": "高齡醫學",
+        "source": "https://www.vghtpe.gov.tw/Docpersnr.action?tno=DOC1596A"
+      },
+      {
+        "label": "老年病症侯群",
+        "source": "https://www.vghtpe.gov.tw/Docpersnr.action?tno=DOC1596A"
+      },
+      {
+        "label": "老年人多重用藥",
+        "source": "https://www.vghtpe.gov.tw/Docpersnr.action?tno=DOC1596A"
+      },
+      {
+        "label": "跌倒",
+        "source": "https://www.vghtpe.gov.tw/Docpersnr.action?tno=DOC1596A"
+      }
+    ]
+  },
+  {
+    "id": "133442eecd4431a71796c24a5b13d883",
+    "section": "會員名單",
+    "raw": "簡端良（雲林科技大學通識教育中心助理教授）",
+    "keywords": [
+      {
+        "label": "倫理學",
+        "source": "https://aae.yuntech.edu.tw/aae/epaper/413/P1-01.html"
+      },
+      {
+        "label": "佛學",
+        "source": "https://aae.yuntech.edu.tw/aae/epaper/413/P1-01.html"
+      },
+      {
+        "label": "哲學專論",
+        "source": "https://aae.yuntech.edu.tw/aae/epaper/413/P1-01.html"
+      }
+    ]
+  },
+  {
+    "id": "1eb62a3bb0b12900ff07efd02ac42438",
+    "section": "會員名單",
+    "raw": "柯凱婷（馬偕醫院精神部馬偕醫學院兼任臨床講師）",
+    "keywords": [
+      {
+        "label": "憂鬱症",
+        "source": "https://tpoas.mmh.org.tw/doctor_view.php?depid=52&did=594"
+      },
+      {
+        "label": "焦慮症",
+        "source": "https://tpoas.mmh.org.tw/doctor_view.php?depid=52&did=594"
+      },
+      {
+        "label": "躁鬱症",
+        "source": "https://tpoas.mmh.org.tw/doctor_view.php?depid=52&did=594"
+      },
+      {
+        "label": "睡眠障礙",
+        "source": "https://tpoas.mmh.org.tw/doctor_view.php?depid=52&did=594"
+      },
+      {
+        "label": "意義治療取向心理治療",
+        "source": "https://tpoas.mmh.org.tw/doctor_view.php?depid=52&did=594"
+      },
+      {
+        "label": "正念取向團體與個別心理治療",
+        "source": "https://tpoas.mmh.org.tw/doctor_view.php?depid=52&did=594"
+      }
+    ]
   }
 ]
