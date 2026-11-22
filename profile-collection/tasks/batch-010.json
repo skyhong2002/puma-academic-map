@@ -1,0 +1,393 @@
+{
+ "batch": 10,
+ "people": [
+  {
+   "section": "共同領銜",
+   "raw": "許維德（國立陽明交通大學人文社會學系副教授）",
+   "name": "許維德",
+   "affiliation_text": "國立陽明交通大學人文社會學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://hs.nycu.edu.tw/members/WDShu",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "共同領銜",
+   "raw": "謝昇佑（台灣科技大學財務金融研究所兼任助理教授）",
+   "name": "謝昇佑",
+   "affiliation_text": "台灣科技大學財務金融研究所兼任助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://bp.ntu.edu.tw/News_Content_n_102151_s_106157.html",
+    "https://bp.ntu.edu.tw/News_Content_n_102151_sms_79803_s_106157.html"
+   ]
+  },
+  {
+   "section": "共同領銜",
+   "raw": "郭華仁（台大農藝學系名譽教授）",
+   "name": "郭華仁",
+   "affiliation_text": "台大農藝學系名譽教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://agron.ntu.edu.tw/cp_n_42947.html",
+    "https://press.ntu.edu.tw/tw/publish/show.php?act=book&refer=ntup_book01368"
+   ]
+  },
+  {
+   "section": "共同領銜",
+   "raw": "鄭欽仁（台灣大學歷史學系名譽教授）",
+   "name": "鄭欽仁",
+   "affiliation_text": "台灣大學歷史學系名譽教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://sec.ntu.edu.tw/epaper/article.asp?num=550&sn=570",
+    "https://www.tisanet.org/quarterly/7-4-2.pdf"
+   ]
+  },
+  {
+   "section": "共同領銜",
+   "raw": "陳幼馨（美國猶他州立大學世界語言與文化學系副教授）",
+   "name": "陳幼馨",
+   "affiliation_text": "美國猶他州立大學世界語言與文化學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://artsci.usu.edu/world-languages-cultures/directory/chen-jasmine",
+    "https://catalog.usu.edu/pages/TtIs5hufYgu8xKYw6A7u",
+    "https://eall.columbian.gwu.edu/sites/g/files/zaxdzs6041/files/downloads/CASLAR-6%20Conference%20Schedule%20%2807_27%20updated%20version%29.pdf"
+   ]
+  },
+  {
+   "section": "共同領銜",
+   "raw": "陳時奮（加拿大西安大略大學榮譽教授/美國西華盛頓大學講座教授）",
+   "name": "陳時奮",
+   "affiliation_text": "加拿大西安大略大學榮譽教授/美國西華盛頓大學講座教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://cbe.wwu.edu/index.php/people/chens20",
+    "https://osaas.commerce.nccu.edu.tw/uploads/journal/18.pdf",
+    "https://www.ivey.uwo.ca/faculty_research/directory/shih-fen-chen/"
+   ]
+  },
+  {
+   "section": "共同領銜",
+   "raw": "陳月妙（中正大學外國語文學系退休教授）",
+   "name": "陳月妙",
+   "affiliation_text": "中正大學外國語文學系退休教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://fllcccu.ccu.edu.tw/p/406-1060-5988%2Cr737.php?Lang=zh-tw",
+    "https://sites.google.com/view/ccuiccc/",
+    "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+   ]
+  },
+  {
+   "section": "共同領銜",
+   "raw": "高仁山（元智大學兼任教授）",
+   "name": "高仁山",
+   "affiliation_text": "元智大學兼任教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://www.cm.yzu.edu.tw/CH/Page/Teacher.aspx?ID=jazzkao"
+   ]
+  },
+  {
+   "section": "共同領銜",
+   "raw": "黃兆年（國立政治大學國家發展研究所副教授）",
+   "name": "黃兆年",
+   "affiliation_text": "國立政治大學國家發展研究所副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "共同領銜",
+   "raw": "黃厚銘（政治大學社會學系特聘教授）",
+   "name": "黃厚銘",
+   "affiliation_text": "政治大學社會學系特聘教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://sociology.nccu.edu.tw/PageStaffing/Detail?fid=3308&id=666",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://www.telltaiwan.org/30059"
+   ]
+  },
+  {
+   "section": "共同領銜",
+   "raw": "黃山耘（台灣大學外國語文學系副教授）",
+   "name": "黃山耘",
+   "affiliation_text": "台灣大學外國語文學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "共同領銜",
+   "raw": "黃揚名（輔仁大學心理學系副教授）",
+   "name": "黃揚名",
+   "affiliation_text": "輔仁大學心理學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://psy.fju.edu.tw/members/teachers/1",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "Kevin Wei（加拿大英屬哥倫比亞大學助理教授）",
+   "name": "Kevin Wei",
+   "affiliation_text": "加拿大英屬哥倫比亞大學助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://www.grad.ubc.ca/researcher/22976-wei"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "Shitephen Wang（台大森林環資系助理教授）",
+   "name": "Shitephen Wang",
+   "affiliation_text": "台大森林環資系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://www.fo.ntu.edu.tw/zh_tw/faculty/member/Shitephen-Wang-31845190"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "TIŌ SūnBûn（台湾大学日本語文学系退休教授）",
+   "name": "TIŌ SūnBûn",
+   "affiliation_text": "台湾大学日本語文学系退休教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://ctlt.twl.ncku.edu.tw/chuliau/files/20240821141520-20240908Ong_conf0821.pdf",
+    "https://ctlt.twl.ncku.edu.tw/jotv/TGGK_v17n1_2025web.pdf",
+    "https://homepage.ntu.edu.tw/~japanese/ja/about/chaoshunwun.htm"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "丁弘彬（美國馬里蘭州羅耀拉大學商學院副院長暨教授）",
+   "name": "丁弘彬",
+   "affiliation_text": "美國馬里蘭州羅耀拉大學商學院副院長暨教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://www.loyola.edu/contact/faculty-experts/directory/",
+    "https://www.loyola.edu/news/2022/1213-chair-governor-commission.html"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "丁文卿（國立中正大學勞工關係學系助理教授）",
+   "name": "丁文卿",
+   "affiliation_text": "國立中正大學勞工關係學系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://labor.ccu.edu.tw/p/406-1086-75549,r696.php?Lang=zh-tw",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "于欽平（國立中山大學光電工程學系副教授）",
+   "name": "于欽平",
+   "affiliation_text": "國立中山大學光電工程學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://dop.nsysu.edu.tw/p/405-1207-189109,c17572.php?Lang=zh-tw",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "何婉甄（國立臺南藝術大學音樂系副教授）",
+   "name": "何婉甄",
+   "affiliation_text": "國立臺南藝術大學音樂系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "何彥霆（日本大阪大學助理教授）",
+   "name": "何彥霆",
+   "affiliation_text": "日本大阪大學助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://doi.org/10.1016/j.jcmgh.2021.04.004",
+    "https://doi.org/10.1038/s41598-018-36057-0",
+    "https://doi.org/10.1186/s12929-024-01001-0",
+    "https://med.ncku.edu.tw/p/404-1015-286073.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "何彩滿（中原大學通識教育中心副教授）",
+   "name": "何彩滿",
+   "affiliation_text": "中原大學通識教育中心副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://cge.cycu.edu.tw/%E5%B8%AB%E8%B3%87%E9%99%A3%E5%AE%B9/",
+    "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "何恭之（長庚醫院副教授級主治醫師）",
+   "name": "何恭之",
+   "affiliation_text": "長庚醫院副教授級主治醫師",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://www.cgmh.org.tw/tw/Services/DoctorInfo/5914",
+    "https://www1.cgmh.org.tw/lhcc/01.about/01.3.7.nuclear.html"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "何明字（成功大學工程科學系副教授）",
+   "name": "何明字",
+   "affiliation_text": "成功大學工程科學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "何春松（淡江大學化學工程與材料工程學系兼任副教授）",
+   "name": "何春松",
+   "affiliation_text": "淡江大學化學工程與材料工程學系兼任副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://www.che.tku.edu.tw/che/?page_id=10227"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "何淑熏（靜宜大學行銷與數位經營學系教授）",
+   "name": "何淑熏",
+   "affiliation_text": "靜宜大學行銷與數位經營學系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://mdba.pu.edu.tw/p/800-1148-094051.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "何美霖（輔仁大學化學系教授）",
+   "name": "何美霖",
+   "affiliation_text": "輔仁大學化學系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://ch.fju.edu.tw/%E5%B8%AB%E8%B3%87%E9%99%A3%E5%AE%B9/",
+    "https://ch.fju.edu.tw/portfolio-item/%E4%BD%95%E7%BE%8E%E9%9C%96%E8%80%81%E5%B8%AB/",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "余信賢（臺北醫學大學醫學系副教授）",
+   "name": "余信賢",
+   "affiliation_text": "臺北醫學大學醫學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://hub.tmu.edu.tw/zh/persons/hsin-hsien-yu/",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "余光昌（嘉南藥理大學環境工程與科學系教授）",
+   "name": "余光昌",
+   "affiliation_text": "嘉南藥理大學環境工程與科學系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://ev.cnu.edu.tw/?.__id=P20210223161822402&.p=HjrH",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "余貞誼（高雄醫學大學性別研究所副教授）",
+   "name": "余貞誼",
+   "affiliation_text": "高雄醫學大學性別研究所副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "侯貴圓（中山醫學大學助理教授）",
+   "name": "侯貴圓",
+   "affiliation_text": "中山醫學大學助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  }
+ ]
+}

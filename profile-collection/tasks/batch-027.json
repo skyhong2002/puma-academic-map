@@ -1,0 +1,375 @@
+{
+ "batch": 27,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "蕭驩庭（國立台北科技大學兼任講師）",
+   "name": "蕭驩庭",
+   "affiliation_text": "國立台北科技大學兼任講師",
+   "need": [
+    "research"
+   ],
+   "known_urls": [
+    "https://aps.ntut.edu.tw/course/tw/ShowSyllabus.jsp?code=12455&snum=363065"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "薛建蓉（輔英科技大學護理系助理教授）",
+   "name": "薛建蓉",
+   "affiliation_text": "輔英科技大學護理系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "薛念林（逢甲大學資工系教授）",
+   "name": "薛念林",
+   "affiliation_text": "逢甲大學資工系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "薛智仁（國立台灣大學法律學院教授）",
+   "name": "薛智仁",
+   "affiliation_text": "國立台灣大學法律學院教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://scholars.lib.ntu.edu.tw/entities/person/a86cd789-1708-42cb-b06a-3692506edb29",
+    "https://www.law.ntu.edu.tw/index.php/%E8%AA%8D%E8%AD%98%E6%9C%AC%E9%99%A2/%E6%9C%AC%E9%99%A2%E5%B8%AB%E8%B3%87/item/206-%E8%96%9B%E6%99%BA%E4%BB%81-%E6%95%99%E6%8E%88"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "薛榮祥（龍華科技大學退休副教授）",
+   "name": "薛榮祥",
+   "affiliation_text": "龍華科技大學退休副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://ccdc.lhu.edu.tw/var/file/53/1053/attach/3/pta_14650_9624549_52062.pdf",
+    "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "藍挹丰（淡江大學教育心理與諮商研究所兼任助理教授）",
+   "name": "藍挹丰",
+   "affiliation_text": "淡江大學教育心理與諮商研究所兼任助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蘇峰山（南華大學副教授）",
+   "name": "蘇峰山",
+   "affiliation_text": "南華大學副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蘇怡安（美國華盛頓大學塔科馬分校社會科學系認知心理學助理教授）",
+   "name": "蘇怡安",
+   "affiliation_text": "美國華盛頓大學塔科馬分校社會科學系認知心理學助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://www.tacoma.uw.edu/news/uw-tacoma-welcomes-dozen-new-faculty-members-2025-26-academic-year"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蘇慶軒（國立屏東大學社會發展學系副教授）",
+   "name": "蘇慶軒",
+   "affiliation_text": "國立屏東大學社會發展學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蘇益志（實踐大學家庭諮商與輔導碩士班兼任助理教授級專業技術人員）",
+   "name": "蘇益志",
+   "affiliation_text": "實踐大學家庭諮商與輔導碩士班兼任助理教授級專業技術人員",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://fscd.usc.edu.tw/p/412-1086-1332.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蘇育德（陽明交大電機系退休教授）",
+   "name": "蘇育德",
+   "affiliation_text": "陽明交大電機系退休教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://dee.nycu.edu.tw/teachers.php?locale=tw&pa=getItem&teacher_id=75"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蘇芳儀（美國加州大學洛杉磯分校助理教授）",
+   "name": "蘇芳儀",
+   "affiliation_text": "美國加州大學洛杉磯分校助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://samueli.ucla.edu/people/ida-su/",
+    "https://www.nstc.gov.tw/la/ch/detail/b4802ac6-56e2-4092-aab9-1bd5cf2b96dd"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蘇逸人（長庚大學行為科學研究所教授）",
+   "name": "蘇逸人",
+   "affiliation_text": "長庚大學行為科學研究所教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://www.cgu.edu.tw/dot/FullTimeProfessorManagement/Detail/f0ff8fd6-5722-4d4b-9225-6e03ebcbd6ea?nodeId=8775"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蘇郁心（國立台北藝術大學藝術跨域研究所兼任助理教授級專業技術人員）",
+   "name": "蘇郁心",
+   "affiliation_text": "國立台北藝術大學藝術跨域研究所兼任助理教授級專業技術人員",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://finearts.tnua.edu.tw/%E5%85%BC%E4%BB%BB%E5%B8%AB%E8%B3%87/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "袁子賢（國立臺南藝術大學動畫藝術與影像美學研究所助理教授）",
+   "name": "袁子賢",
+   "affiliation_text": "國立臺南藝術大學動畫藝術與影像美學研究所助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "褚瑞基（銘傳大學退休副教授）",
+   "name": "褚瑞基",
+   "affiliation_text": "銘傳大學退休副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://arch.mcu.edu.tw/%E8%A4%9A%E7%91%9E%E5%9F%BA-%E5%89%AF%E6%95%99%E6%8E%88/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "許世融（國立台中教育大學區域與社會發展學系教授）",
+   "name": "許世融",
+   "affiliation_text": "國立台中教育大學區域與社會發展學系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://rsd.ntcu.edu.tw/teacher?cate=1",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "許俊傑（高雄長庚醫院教授）",
+   "name": "許俊傑",
+   "affiliation_text": "高雄長庚醫院教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://www.cgmh.org.tw/tw/Services/DoctorInfo/6990"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "許儷絹（中國醫藥大學醫學系教授）",
+   "name": "許儷絹",
+   "affiliation_text": "中國醫藥大學醫學系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://cmumd.cmu.edu.tw/zh-hant/node/53",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "許嘉月（台北醫學大學副教授）",
+   "name": "許嘉月",
+   "affiliation_text": "台北醫學大學副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "許家維（台灣大學生化所副教授）",
+   "name": "許家維",
+   "affiliation_text": "台灣大學生化所副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://ibs.ntu.edu.tw/web/team/team_in.jsp?fp_id=FP1706589842789&lang=tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "許政行（中原大學機械工程學系退休教授）",
+   "name": "許政行",
+   "affiliation_text": "中原大學機械工程學系退休教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://www.cycu-me.org/member-detail/Cheng-Hsing_Hsu/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "許文瀞（台北醫學大學醫學科學研究所博士後研究員）",
+   "name": "許文瀞",
+   "affiliation_text": "台北醫學大學醫學科學研究所博士後研究員",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://gims.tmu.edu.tw/Front/Template/News.aspx?Sn=324&id=s%2F%2FumQ4Ml78%3D"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "許晉瑋（台大電機系教授）",
+   "name": "許晉瑋",
+   "affiliation_text": "台大電機系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://giee.ntu.edu.tw/tw/faculty/ne/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "許智能（高雄醫學大學醫藥機應用化學系教授）",
+   "name": "許智能",
+   "affiliation_text": "高雄醫學大學醫藥機應用化學系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://clife.kmu.edu.tw/index.php/zh-tw/%E5%AD%B8%E9%99%A2%E5%B0%8E%E8%A6%BD/%E9%99%A2%E9%95%B7",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "許淑娟（高雄師範大學地理學系教授）",
+   "name": "許淑娟",
+   "affiliation_text": "高雄師範大學地理學系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://geo.nknu.edu.tw/index.php?option=module&lang=cht&task=pageinfo&id=56&index=7",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "許炳煌（國立臺北教育大學兒童英語教育學系教授）",
+   "name": "許炳煌",
+   "affiliation_text": "國立臺北教育大學兒童英語教育學系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "許維智（中科大／行政院政務顧問助理教授／政務顧問）",
+   "name": "許維智",
+   "affiliation_text": "中科大／行政院政務顧問助理教授／政務顧問",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://data.zhupiter.com/oddt/19575887/",
+    "https://lrm.nutc.edu.tw/p/412-1054-12481.php"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "許舜欽（長榮大學資訊管理系榮譽教授）",
+   "name": "許舜欽",
+   "affiliation_text": "長榮大學資訊管理系榮譽教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://dweb.cjcu.edu.tw/rcai/article/4941",
+    "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "許菁芳（國立暨南大學公共行政學系副教授）",
+   "name": "許菁芳",
+   "affiliation_text": "國立暨南大學公共行政學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://dppa.ncnu.edu.tw/p/404-1028-4115.php"
+   ]
+  }
+ ]
+}

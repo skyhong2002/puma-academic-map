@@ -1,0 +1,396 @@
+{
+ "batch": 3,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "彭立言（英國牛津大學法學博士）",
+   "name": "彭立言",
+   "affiliation_text": "英國牛津大學法學博士",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://ohrh.law.ox.ac.uk/author/li-yen-peng/",
+    "https://ora.ox.ac.uk/objects/uuid:2c2be636-fb26-4f6f-a063-af265fdbf7e7"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "彭筱芳（台灣大學醫學檢驗暨生物技術學系博士後研究員）",
+   "name": "彭筱芳",
+   "affiliation_text": "台灣大學醫學檢驗暨生物技術學系博士後研究員",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.mc.ntu.edu.tw/clsmb/files/%E5%B9%B4%E5%A0%B1/2023%E5%B9%B4%E5%A0%B1%28%E9%86%AB%E6%8A%80%E7%B3%BB%29.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "彭美蓁（前遠東科技大學／長榮大學兼任講師）",
+   "name": "彭美蓁",
+   "affiliation_text": "前遠東科技大學／長榮大學兼任講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.farhugs.com/providers/764/about"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "房彥輝（實踐大學兼任講師）",
+   "name": "房彥輝",
+   "affiliation_text": "實踐大學兼任講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.minglun-law.com/paper/other_page.php?id=21005"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "曹英傑（國立陽明交通大學兼任助理教授）",
+   "name": "曹英傑",
+   "affiliation_text": "國立陽明交通大學兼任助理教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "曾博泓（淡江大學講師）",
+   "name": "曾博泓",
+   "affiliation_text": "淡江大學講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.ccjhs.tp.edu.tw/wp-content/uploads/doc/e001/%E8%97%9D%E8%A1%93%E6%9A%96%E5%BF%83%E5%B7%A5%E4%BD%9C%E5%9D%8A%E2%94%80%E9%81%8B%E7%94%A8%E6%8A%95%E5%B0%84%E5%9E%8B%E5%85%B7%E5%9C%A8%E5%9C%98%E9%AB%94%E5%B8%B6%E9%A0%98.pdf",
+    "https://www.core.tku.edu.tw/core/?page_id=4131"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "李兆然（李兆然家醫科診所院長，台大醫院家庭醫學科兼任教學主治醫師院長主治醫師）",
+   "name": "李兆然",
+   "affiliation_text": "李兆然家醫科診所院長，台大醫院家庭醫學科兼任教學主治醫師院長主治醫師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.tafm.org.tw/ehc-tafm/s/w/search_dir/search_dir/dir/8245",
+    "https://www.tafm.org.tw/ehc-tafm/s/w/search_dir/search_dir/mapSearch1/31"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "李如韻（康寧大學通識中心兼任講師）",
+   "name": "李如韻",
+   "affiliation_text": "康寧大學通識中心兼任講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.ukn.edu.tw/p/406-1000-38473%2Cr384.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "李恩齊（國立陽明交通大學助理研究員）",
+   "name": "李恩齊",
+   "affiliation_text": "國立陽明交通大學助理研究員",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://ir.lib.nycu.edu.tw/bitstream/11536/163161/1/Issue079-06.pdf",
+    "https://liberalarts.nycu.edu.tw/liberalarts/ch/app/artwebsite/view?id=5748&module=artwebsite&serno=14f045d0-4c8e-441f-bd04-59b050e5700e"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "李柏翰（東吳大學法學院法律系博士生）",
+   "name": "李柏翰",
+   "affiliation_text": "東吳大學法學院法律系博士生",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": []
+  },
+  {
+   "section": "會員名單",
+   "raw": "李泳泉（世新大學退休講師）",
+   "name": "李泳泉",
+   "affiliation_text": "世新大學退休講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.shu.edu.tw/Spotlight.aspx?from=06&sID=29081"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "李漢偉（國立台南大學國語文學系退休教授）",
+   "name": "李漢偉",
+   "affiliation_text": "國立台南大學國語文學系退休教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://chinese.nutn.edu.tw/index.php?id=4500&index=1&lang=cht&option=module&task=pageinfo"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "李銘順（國家住都中心董事）",
+   "name": "李銘順",
+   "affiliation_text": "國家住都中心董事",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.hurc.org.tw/hurc/docDetail?doc_id=25&pid=9&uid=35",
+    "https://www.hurc.org.tw/hurc/docDetail?doc_id=32&pid=9&rn=1089582636&uid=36"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "李錦旭（屏東大學退休老師）",
+   "name": "李錦旭",
+   "affiliation_text": "屏東大學退休老師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://social.nptu.edu.tw/p/405-1128-103668%2Cc10404.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "李長泰（台灣經濟研究院副研究員）",
+   "name": "李長泰",
+   "affiliation_text": "台灣經濟研究院副研究員",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://vos.tier.org.tw/SearchMore.aspx?Title=%E8%A3%BD%E9%80%A0%E6%A5%AD"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "杜宜儒（美國加州大學聖塔克魯斯分校 UC Santa Cruz講師 lecturer）",
+   "name": "杜宜儒",
+   "affiliation_text": "美國加州大學聖塔克魯斯分校 UC Santa Cruz講師 lecturer",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://campusdirectory.ucsc.edu/cd_detail?uid=etu6"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "林以信（美國杜克大學(Duke University)博士候選人）",
+   "name": "林以信",
+   "affiliation_text": "美國杜克大學(Duke University)博士候選人",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.csr.ntnu.edu.tw/index.php/2023/02/13/2023-02-13-01/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "林坤熒（南開科技大學退休助理教授）",
+   "name": "林坤熒",
+   "affiliation_text": "南開科技大學退休助理教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.pshs.ntct.edu.tw/ischool/public/resource_view/open.php?file=60eb3143e358eb4e820a43038bf4a7ca.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "林士哲（中研院生醫所博士後研究員）",
+   "name": "林士哲",
+   "affiliation_text": "中研院生醫所博士後研究員",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://si.npas.programs.sinica.edu.tw/ins/news-awards.php",
+    "https://www.ibms.sinica.edu.tw/ch/news/2022-451.html"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "林奕彤（奧地利維也納音樂暨表演藝術大學博士生）",
+   "name": "林奕彤",
+   "affiliation_text": "奧地利維也納音樂暨表演藝術大學博士生",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://apcs.site.nthu.edu.tw/p/406-1404-318784%2Cr2547.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "林慧姿（國立台中科技大學退休教授）",
+   "name": "林慧姿",
+   "affiliation_text": "國立台中科技大學退休教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": []
+  },
+  {
+   "section": "會員名單",
+   "raw": "林慧瑜（國立台北教育大學教育系副教授退休）",
+   "name": "林慧瑜",
+   "affiliation_text": "國立台北教育大學教育系副教授退休",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://academicntue.ntue.edu.tw/var/file/2/1002/img/19/127.pdf",
+    "https://secretariatntue.ntue.edu.tw/var/file/43/1043/img/270/610171766.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "林慧瑜（國立台北教育大學退休副教授）",
+   "name": "林慧瑜",
+   "affiliation_text": "國立台北教育大學退休副教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://academicntue.ntue.edu.tw/var/file/2/1002/img/19/127.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "林振祥（國立中興大學生命科學系）",
+   "name": "林振祥",
+   "affiliation_text": "國立中興大學生命科學系",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "林文琳（輔仁大學營養科學系助理教授）",
+   "name": "林文琳",
+   "affiliation_text": "輔仁大學營養科學系助理教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": []
+  },
+  {
+   "section": "會員名單",
+   "raw": "林明芳（元培醫事科技大學醫放系前兼任助理教授）",
+   "name": "林明芳",
+   "affiliation_text": "元培醫事科技大學醫放系前兼任助理教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://rad.ypu.edu.tw/var/file/30/1030/img/745365808.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "林晉宇（輔仁大學退休客座教授）",
+   "name": "林晉宇",
+   "affiliation_text": "輔仁大學退休客座教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": []
+  },
+  {
+   "section": "會員名單",
+   "raw": "林治萱（吉紅本屋有限公司/新生醫護管理專科學校幼兒保育科執行長 /兼任部定講師）",
+   "name": "林治萱",
+   "affiliation_text": "吉紅本屋有限公司/新生醫護管理專科學校幼兒保育科執行長 /兼任部定講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://child.hsc.edu.tw/p/412-1009-1956.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "林瑞瑩（長庚大學醫學系副教授）",
+   "name": "林瑞瑩",
+   "affiliation_text": "長庚大學醫學系副教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "林真宇（School of Journalism, Media and Culture at Cardiff University (UK)Lecturer）",
+   "name": "林真宇",
+   "affiliation_text": "School of Journalism, Media and Culture at Cardiff University (UK)Lecturer",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://popcultureacademytw.com/editorialboard/",
+    "https://profiles.cardiff.ac.uk/staff/linc37",
+    "https://www.cardiff.ac.uk/__data/assets/pdf_file/0004/134842/JOMEC_UG2026_web.pdf"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,397 @@
+{
+ "batch": 8,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "高之晨（嘉義長庚心臟外科主治醫師；樹人醫專兼任講師主治醫師；講師）",
+   "name": "高之晨",
+   "affiliation_text": "嘉義長庚心臟外科主治醫師；樹人醫專兼任講師主治醫師；講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.cgmh.org.tw/shcc/Services/DoctorInfo/8612"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "高潔如（台體大研發處兼任講師）",
+   "name": "高潔如",
+   "affiliation_text": "台體大研發處兼任講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://www.theunion.org.tw/2026/03/%E3%80%90%E5%A4%A7%E5%AD%B8%E5%BF%AB%E5%A0%B1455%E6%9C%9F%E3%80%91%E7%A7%81%E7%AB%8B%E5%A4%A7%E5%AD%B8%E4%BB%BB%E6%95%99%E4%BA%8C%E5%8D%81%E5%A4%9A%E5%B9%B4%EF%BC%8C%E9%80%80%E4%BC%91%E4%BF%9D/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "魏君容（哈佛癌症中心行政執行主任）",
+   "name": "魏君容",
+   "affiliation_text": "哈佛癌症中心行政執行主任",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.dfhcc.harvard.edu/insider/for-researchers/funding/hcc-incubator-award-program/past-hcc-incubator-awards"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "魏龍達（中央研究院社會學研究所博士後研究員）",
+   "name": "魏龍達",
+   "affiliation_text": "中央研究院社會學研究所博士後研究員",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.ios.sinica.edu.tw/postdocs.php"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃世溥（淡江大學統計與資料科學學系兼任講師）",
+   "name": "黃世溥",
+   "affiliation_text": "淡江大學統計與資料科學學系兼任講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://www.stat.tku.edu.tw/stat/?page_id=17516"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃克文（紐西蘭奧克蘭大學人文學系資深講師）",
+   "name": "黃克文",
+   "affiliation_text": "紐西蘭奧克蘭大學人文學系資深講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://toaj.stpi.niar.org.tw/index/journal/volume/article/4b1141f99db7dc72019dbd83f4b000d1",
+    "https://www.auckland.ac.nz/assets/study/programmes-and-courses/undergraduate-study-options/undergraduate-prospectus/UG%20Prospectus_2026_WEB.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃呂琛（Macquarie UniversitySenior Lecturer）",
+   "name": "黃呂琛",
+   "affiliation_text": "Macquarie UniversitySenior Lecturer",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://researchers.mq.edu.au/en/persons/roger-lee-huang/",
+    "https://www.nccu.edu.tw/p/406-1000-12591%2Cr17.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃嘉瑜（國立清華大學英語教育中心約聘講師）",
+   "name": "黃嘉瑜",
+   "affiliation_text": "國立清華大學英語教育中心約聘講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://eeclass.nthu.edu.tw/course/info/26091"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃奕傑（Harvard University （哈佛大學）博士後研究員）",
+   "name": "黃奕傑",
+   "affiliation_text": "Harvard University （哈佛大學）博士後研究員",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://ioh.tw/talks/%E9%AB%98%E9%86%AB%E7%94%9F%E7%89%A9%E9%86%AB%E5%AD%B8%E6%9A%A8%E7%92%B0%E5%A2%83%E7%94%9F%E7%89%A9%E5%AD%B8%E7%B3%BB-%E9%BB%83%E5%A5%95%E5%82%91-yi-chieh-huang-tw-study-kmu-bde",
+    "https://www.chemistry.harvard.edu/people/yi-chieh-huang"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃妙珠（長庚大學退休教授長庚大學退休教授）",
+   "name": "黃妙珠",
+   "affiliation_text": "長庚大學退休教授長庚大學退休教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.cgmh.org.tw/tw/Services/DoctorInfo/0003"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃婉綸（國立臺灣藝術大學兼任講師）",
+   "name": "黃婉綸",
+   "affiliation_text": "國立臺灣藝術大學兼任講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃宜品（實踐大學媒體傳達設計學系兼任講師）",
+   "name": "黃宜品",
+   "affiliation_text": "實踐大學媒體傳達設計學系兼任講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃宣蓉（東元醫院醫師）",
+   "name": "黃宣蓉",
+   "affiliation_text": "東元醫院醫師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": []
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃建勳（市立聯合醫院忠孝院區泌尿科主治醫師，陽明大學泌尿學科兼任助理教授，教育部部定助理教授）",
+   "name": "黃建勳",
+   "affiliation_text": "市立聯合醫院忠孝院區泌尿科主治醫師，陽明大學泌尿學科兼任助理教授，教育部部定助理教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://websrv01.tpech.gov.tw/drview/home/read?emp_no=DAR87"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃建勳（財團法人食品工業發展研究所資深研究員）",
+   "name": "黃建勳",
+   "affiliation_text": "財團法人食品工業發展研究所資深研究員",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.firdi.org.tw/Bulletins_Detail.aspx?BulletinID=30006253"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃彥宜（國立暨南國際大學退休教授）",
+   "name": "黃彥宜",
+   "affiliation_text": "國立暨南國際大學退休教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://b003.ncnu.edu.tw/var/file/7/1007/img/157/549828261.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃汀華（陽明交通大學通訊所博士）",
+   "name": "黃汀華",
+   "affiliation_text": "陽明交通大學通訊所博士",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://ir.lib.nycu.edu.tw/bitstream/11536/101997/1/972219E009004.PDF"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃清江（前明道大學生物科技學系退休教授）",
+   "name": "黃清江",
+   "affiliation_text": "前明道大學生物科技學系退休教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://ir-lib.ncut.edu.tw/bitstream/987654321/4149/3/C19.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃烱焜（羅東博愛醫院醫師）",
+   "name": "黃烱焜",
+   "affiliation_text": "羅東博愛醫院醫師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.pohai.org.tw/doctor_detail.php?PKey=483"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃璇華（中醫大病理部講師（退休））",
+   "name": "黃璇華",
+   "affiliation_text": "中醫大病理部講師（退休）",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC1140720/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃維富（前華夏科技大學專任副教授/進修推廣部主任）",
+   "name": "黃維富",
+   "affiliation_text": "前華夏科技大學專任副教授/進修推廣部主任",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.twnorth.org.tw/world-news/117"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃繁光（淡江大學歷史系退休教授退休教授）",
+   "name": "黃繁光",
+   "affiliation_text": "淡江大學歷史系退休教授退休教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://events.tku.edu.tw/FocusDetail.cshtml?sn=582"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃群偉（林口長庚紀念醫院副研究員）",
+   "name": "黃群偉",
+   "affiliation_text": "林口長庚紀念醫院副研究員",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www1.cgmh.org.tw/intr/intr2/C01S31/newsletter/202010/files/basic-html/page69.html"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃華駿（東海大學企管系兼任助理教授）",
+   "name": "黃華駿",
+   "affiliation_text": "東海大學企管系兼任助理教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://coursedev.ithu.tw/view/112/2/1245"
+   ]
+  },
+  {
+   "section": "共同領銜",
+   "raw": "侯宗佑（政治大學數位內容與科技學程助理教授）",
+   "name": "侯宗佑",
+   "affiliation_text": "政治大學數位內容與科技學程助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://www.comm.nccu.edu.tw/PageDoc?fid=11488"
+   ]
+  },
+  {
+   "section": "共同領銜",
+   "raw": "劉玉皙（世新大學傳播管理學系副教授）",
+   "name": "劉玉皙",
+   "affiliation_text": "世新大學傳播管理學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://cm.wp.shu.edu.tw/?page_id=532"
+   ]
+  },
+  {
+   "section": "共同領銜",
+   "raw": "劉育成（東吳大學社會學系教授）",
+   "name": "劉育成",
+   "affiliation_text": "東吳大學社會學系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://lass.artsoc.scu.edu.tw/subabout/2/14",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "共同領銜",
+   "raw": "吳易澄（馬偕醫學大學醫學系助理教授、新竹馬偕紀念醫院醫師）",
+   "name": "吳易澄",
+   "affiliation_text": "馬偕醫學大學醫學系助理教授、新竹馬偕紀念醫院醫師",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://www.mmu.edu.tw/medicine/xmdoc/cont?sid=0Q023567863805704932&xsmsid=0Q005583577403752074"
+   ]
+  },
+  {
+   "section": "共同領銜",
+   "raw": "周耿生（馬偕醫護管理專科學校 跨領域教育中心副教授）",
+   "name": "周耿生",
+   "affiliation_text": "馬偕醫護管理專科學校 跨領域教育中心副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://web.mkc.edu.tw/Download.aspx?dir=Archive&file=F8-0A-48-3B-7C-78-5F-8C-CC-5D-EE-96-52-CD-FD-11.pdf&filename=%E7%AC%AC12%E6%AC%A1%E8%A1%8C%E6%94%BF%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%84%28114.07.15%29&sn=2390",
+    "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+   ]
+  },
+  {
+   "section": "共同領銜",
+   "raw": "孫英玄（中興大學森林學系副教授）",
+   "name": "孫英玄",
+   "affiliation_text": "中興大學森林學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "http://www.for.nchu.edu.tw/teacher.php",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  }
+ ]
+}

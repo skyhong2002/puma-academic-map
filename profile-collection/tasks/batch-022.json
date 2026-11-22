@@ -1,0 +1,387 @@
+{
+ "batch": 22,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "洪伯邑（臺灣大學地理環境資源學系教授）",
+   "name": "洪伯邑",
+   "affiliation_text": "臺灣大學地理環境資源學系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://scholars.lib.ntu.edu.tw/entities/person/60fda895-6429-41d5-856d-3f0a04ef4c25",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "洪嘉宏（國立宜蘭大學通識教育中心兼任助理教授）",
+   "name": "洪嘉宏",
+   "affiliation_text": "國立宜蘭大學通識教育中心兼任助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://gec.niu.edu.tw/index.php?Plugin=o_niu&Action=o_niutchdetail&niuid=chhung",
+    "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "洪嘉駿（國立清華大學科管院創意長兼任助理教授）",
+   "name": "洪嘉駿",
+   "affiliation_text": "國立清華大學科管院創意長兼任助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://www.katsunang.com/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "洪思群（慈濟大學醫學系教授）",
+   "name": "洪思群",
+   "affiliation_text": "慈濟大學醫學系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://personnel.tcu.edu.tw/?p=6354",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "洪意凌（國立清華大學社會學研究所副教授）",
+   "name": "洪意凌",
+   "affiliation_text": "國立清華大學社會學研究所副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://iosoc.site.nthu.edu.tw/p/405-1547-222618,c19021.php?Lang=zh-tw",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "洪承宇（國立臺灣大學教授）",
+   "name": "洪承宇",
+   "affiliation_text": "國立臺灣大學教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://scholars.lib.ntu.edu.tw/entities/person/9426b229-209a-4635-9a9c-5196aad0c5b8",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "洪浦釗（臺北市立大學通識教育中心助理教授）",
+   "name": "洪浦釗",
+   "affiliation_text": "臺北市立大學通識教育中心助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://genedu.utaipei.edu.tw/p/412-1018-3375.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "洪瑀韓（美國休士頓大學城中分校教育學系副教授）",
+   "name": "洪瑀韓",
+   "affiliation_text": "美國休士頓大學城中分校教育學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://scholar.google.com/citations?hl=en&user=vfBYYd0AAAAJ",
+    "https://www.uhd.edu/documents/faculty/yu-han-hung-cv.pdf",
+    "https://www.yphs.tp.edu.tw/wp-content/uploads/doc/yp1905/%E6%88%B0%E7%88%AD%E8%88%87%E5%92%8C%E5%B9%B3%E3%80%81%E8%A8%98%E6%86%B6%E8%88%87%E5%86%8D%E7%8F%BE%EF%BC%8D%E8%87%BA%E7%81%A3%E3%80%81%E6%97%A5%E6%9C%AC%E3%80%81%E9%9F%93%E5%9C%8B%E4%BA%8C%E6%88%B0%E6%AD%B7%E5%8F%B2%E6%95%98%E4%BA%8B%E8%88%87%E5%8F%8D%E6%80%9D%E3%80%8D.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "洪紹閔（日本東北大學FRIS助理教授）",
+   "name": "洪紹閔",
+   "affiliation_text": "日本東北大學FRIS助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://doi.org/10.1016/j.concog.2024.103771",
+    "https://doi.org/10.1038/s42003-025-07563-5",
+    "https://doi.org/10.1162/netn_a_00387",
+    "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202301016472078102"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "洪維勵（國立臺北大學休閒運動管理學系副教授）",
+   "name": "洪維勵",
+   "affiliation_text": "國立臺北大學休閒運動管理學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://lsm.ntpu.edu.tw/page.php?id=32&ids=1",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "洪耀南（淡江大學外交系專任助理教授）",
+   "name": "洪耀南",
+   "affiliation_text": "淡江大學外交系專任助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://www.tidx.tku.edu.tw/Front/People/Faculty/Members.aspx?PID=0000000053&id=Mg19MK%2FlJN4%3D"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "洪芷漪（國立政治大學應用數學系副教授）",
+   "name": "洪芷漪",
+   "affiliation_text": "國立政治大學應用數學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "洪逸柔（國立臺灣藝術大學通識教育中心助理教授）",
+   "name": "洪逸柔",
+   "affiliation_text": "國立臺灣藝術大學通識教育中心助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "涂世雄（中原大學副教授）",
+   "name": "涂世雄",
+   "affiliation_text": "中原大學副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://eeweb.cycu.edu.tw/portfolio-item/4679/",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "温秉彝（國立中正大學物理系助理教授）",
+   "name": "温秉彝",
+   "affiliation_text": "國立中正大學物理系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://physics.ccu.edu.tw/p/404-1077-17082.php?Lang=zh-tw",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "游勝翔（國立臺北教育大學心理與諮商學系副教授）",
+   "name": "游勝翔",
+   "affiliation_text": "國立臺北教育大學心理與諮商學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "游富凱（國立臺北藝術大學戲劇系兼任助理教授）",
+   "name": "游富凱",
+   "affiliation_text": "國立臺北藝術大學戲劇系兼任助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "游崴（國立臺灣藝術大學雕塑學系助理教授）",
+   "name": "游崴",
+   "affiliation_text": "國立臺灣藝術大學雕塑學系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "游文瑜（台北醫學大學附設醫院急診醫學科主治醫師、部定助理教授）",
+   "name": "游文瑜",
+   "affiliation_text": "台北醫學大學附設醫院急診醫學科主治醫師、部定助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://tmu.pure.elsevier.com/zh/persons/wenyu-yu",
+    "https://www.tmuh.org.tw/team/team/86/86/860010"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "游琇婷（政治大學心理學系教授）",
+   "name": "游琇婷",
+   "affiliation_text": "政治大學心理學系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "游量凱（輔大博物館學研究所助理教授）",
+   "name": "游量凱",
+   "affiliation_text": "輔大博物館學研究所助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://fjumust.wixsite.com/homepage/team-4"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "潘世姬（國立台北藝術大學音樂系兼任教授）",
+   "name": "潘世姬",
+   "affiliation_text": "國立台北藝術大學音樂系兼任教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://music.tnua.edu.tw/wp-content/uploads/2024/09/113-1%E5%85%BC%E4%BB%BB%E6%95%99%E5%B8%AB%E8%B3%87%E6%96%99%E8%A1%A81130905-1.pdf",
+    "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "潘明勳（美國賓州Shippensburg 大學財務金融系名譽教授）",
+   "name": "潘明勳",
+   "affiliation_text": "美國賓州Shippensburg 大學財務金融系名譽教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://scholar.google.com/citations?user=oXDRoM4AAAAJ&hl=en",
+    "https://webspace.ship.edu/mspan/vitae.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "潘美玲（國立陽明交通大學人文社會學系教授）",
+   "name": "潘美玲",
+   "affiliation_text": "國立陽明交通大學人文社會學系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://hs.nycu.edu.tw/members/MLPan",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "王仲益（陽明交通大學半導體工程學系副教授）",
+   "name": "王仲益",
+   "affiliation_text": "陽明交通大學半導體工程學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "王佩廸（台南應用科技大學漫畫系／台灣ACG研究學會助理教授／理事長）",
+   "name": "王佩廸",
+   "affiliation_text": "台南應用科技大學漫畫系／台灣ACG研究學會助理教授／理事長",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://comic.tut.edu.tw/p/403-1093-1270-2.php?Lang=zh-tw",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "王冠傑（嘉南藥理大學藥學系助理教授）",
+   "name": "王冠傑",
+   "affiliation_text": "嘉南藥理大學藥學系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://pharm.cnu.edu.tw/?.__id=P20210202144424284&.p=Hjrg"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "王叡栩（台南應用科技大學美術系助理教授）",
+   "name": "王叡栩",
+   "affiliation_text": "台南應用科技大學美術系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://art.tut.edu.tw/p/403-1073-1272.php?Lang=zh-tw",
+    "https://art.tut.edu.tw/p/406-1073-60276%2Cr1272.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "王士榮（國立中央大學應用地質研究所教授）",
+   "name": "王士榮",
+   "affiliation_text": "國立中央大學應用地質研究所教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://cgc.ncu.edu.tw/zh-TW/faculty-member/1/profile",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "王大維（國立屏東大學教育心理與輔導學系副教授）",
+   "name": "王大維",
+   "affiliation_text": "國立屏東大學教育心理與輔導學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  }
+ ]
+}

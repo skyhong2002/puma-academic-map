@@ -1,0 +1,389 @@
+{
+ "batch": 11,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "倪世傑（政治大學國際事務學院兼任助理教授）",
+   "name": "倪世傑",
+   "affiliation_text": "政治大學國際事務學院兼任助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "傅鈺雯（國立高雄大學西洋語文學系教授）",
+   "name": "傅鈺雯",
+   "affiliation_text": "國立高雄大學西洋語文學系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://dowell.nuk.edu.tw/p/404-1042-26953.php?Lang=zh-tw",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉俊秀（陽明交通大學土木工程學系退休教授）",
+   "name": "劉俊秀",
+   "affiliation_text": "陽明交通大學土木工程學系退休教授",
+   "need": [
+    "research"
+   ],
+   "known_urls": [
+    "https://ce.nycu.edu.tw/member/educators/16"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉俐吟（美國戴頓大學副教授）",
+   "name": "劉俐吟",
+   "affiliation_text": "美國戴頓大學副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udayton.edu/directory/artssciences/politicalscience/liu-li-yin.php",
+    "https://ws.moe.edu.tw/Download.ashx?icon=..pdf&n=DBF907BFFAC11F29B3C3A3C170D536C4A55BA64A9B373232286286555F373A8305CB982121A20205&u=C099358C81D4876CFEC87A29619E9EA464B3EFB3D2526237117AC26281484AA1717F59BBB1864D6802CF5ABBD0BE3F129BFE13822BF92A7799CEFA7D03A61A080CAC8C05C3EC2EE4F8C2D162340DBEFD"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉倚帆（淡江大學大眾傳播學系助理教授）",
+   "name": "劉倚帆",
+   "affiliation_text": "淡江大學大眾傳播學系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://www.tamx.tku.edu.tw/Front/Faculty/Faculty-full-time/Members.aspx?PID=0000000007&id=zMPpvkI63H4%3D"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉兆隆（國立彰化師範大學副教授）",
+   "name": "劉兆隆",
+   "affiliation_text": "國立彰化師範大學副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉効樺（國立東華大學諮商與臨床心理學系副教授）",
+   "name": "劉効樺",
+   "affiliation_text": "國立東華大學諮商與臨床心理學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://rc017.ndhu.edu.tw/p/406-1054-46477,r2326.php?Lang=zh-tw",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉叔秋（國立中山大學教授）",
+   "name": "劉叔秋",
+   "affiliation_text": "國立中山大學教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://colearning.nsysu.edu.tw/p/405-1306-314161,c24757.php?Lang=zh-tw",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉同雪（輔仁大學醫學院臨床心理學系教授）",
+   "name": "劉同雪",
+   "affiliation_text": "輔仁大學醫學院臨床心理學系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://researchinfo.fju.edu.tw/professors/2026",
+    "https://www.cpsy.fju.edu.tw/teacher.jsp?type=a"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉名峰（國立金門大學閩南文化碩士學位學程教授）",
+   "name": "劉名峰",
+   "affiliation_text": "國立金門大學閩南文化碩士學位學程教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://culture.nqu.edu.tw/p/405-1030-5239,c941.php?Lang=zh-tw",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉奇璋（國立臺灣大學森林環境暨資源學系副教授）",
+   "name": "劉奇璋",
+   "affiliation_text": "國立臺灣大學森林環境暨資源學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://ntuinfo.ntu.edu.tw/pdf/teacher_list.pdf",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉奕汶（國立清華大學電機系特聘教授）",
+   "name": "劉奕汶",
+   "affiliation_text": "國立清華大學電機系特聘教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://academic.site.nthu.edu.tw/p/406-1007-302662%2Cr1455.php?Lang=zh-tw",
+    "https://pmed.site.nthu.edu.tw/p/406-1522-243039,r8978.php?Lang=zh-tw",
+    "https://scholars.nthu.edu.tw/esploro/profile/yiwen_liu",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉姿妤（台灣大學外文系助理教授）",
+   "name": "劉姿妤",
+   "affiliation_text": "台灣大學外文系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://www.forex.ntu.edu.tw/7290/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉威廷（國立彰化師範大學台灣文學研究所副教授）",
+   "name": "劉威廷",
+   "affiliation_text": "國立彰化師範大學台灣文學研究所副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉宏裕（明新科技大學休閒管理系副教授）",
+   "name": "劉宏裕",
+   "affiliation_text": "明新科技大學休閒管理系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://acade.must.edu.tw/member/list.aspx?UnitID=56&id=1102",
+    "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉定朋（台灣大學工程科學及海洋工程系助理教授）",
+   "name": "劉定朋",
+   "affiliation_text": "台灣大學工程科學及海洋工程系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://homepage.ntu.edu.tw/~ntuesoe/tw/faculty.html",
+    "https://scholars.lib.ntu.edu.tw/entities/person/e647625d-ed78-4d87-95a9-f102dc003ced"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉振霖（同步輻射研究中心副研究員）",
+   "name": "劉振霖",
+   "affiliation_text": "同步輻射研究中心副研究員",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://www.nsrrc.org.tw/Chinese/personal.aspx?Dept_UID=18&ID=15228&Type=D",
+    "https://www.nsrrc.org.tw/chinese/personal.aspx?ID=15228&Dept_UID=18&Type=D"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉旻禕（台大醫學院生化分生所教授）",
+   "name": "劉旻禕",
+   "affiliation_text": "台大醫學院生化分生所教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://scholars.lib.ntu.edu.tw/entities/person/e13c65c1-58b3-437b-842e-d4287fc81484"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉曦宸（文化大學勞動暨人力資源學系助理教授）",
+   "name": "劉曦宸",
+   "affiliation_text": "文化大學勞動暨人力資源學系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://labor.pccu.edu.tw/p/405-1147-92220%2Cc3828.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉正達（國立虎尾科技大學企業管理系教授）",
+   "name": "劉正達",
+   "affiliation_text": "國立虎尾科技大學企業管理系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉沁瑜（輔仁大學營養科學系/台灣營養學會教授/理事）",
+   "name": "劉沁瑜",
+   "affiliation_text": "輔仁大學營養科學系/台灣營養學會教授/理事",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://researchinfo.fju.edu.tw/professors/2588",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉為光（中原大學設計學博士學位學程主任/副教授）",
+   "name": "劉為光",
+   "affiliation_text": "中原大學設計學博士學位學程主任/副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://deptweb.cycu.edu.tw/phdpd/%E6%88%90%E5%93%A1%E4%BB%8B%E7%B4%B9/%E4%B8%BB%E7%AE%A1/",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉秀娟（國立臺北教育大學幼兒與家庭教育學系副教授）",
+   "name": "劉秀娟",
+   "affiliation_text": "國立臺北教育大學幼兒與家庭教育學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://ecfe.ntue.edu.tw/p/405-1024-8170,c1086.php?Lang=zh-tw",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉若凡（國立政治大學社會學系助理教授）",
+   "name": "劉若凡",
+   "affiliation_text": "國立政治大學社會學系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://sociology.nccu.edu.tw/PageStaffing/Detail?fid=3308&id=6208"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉豐佾（國立中正大學社會福利學系助理教授）",
+   "name": "劉豐佾",
+   "affiliation_text": "國立中正大學社會福利學系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉雨庭（國立中興大學土壤環境科學系特聘教授）",
+   "name": "劉雨庭",
+   "affiliation_text": "國立中興大學土壤環境科學系特聘教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://soil.nchu.edu.tw/member_detail.php?Key=21",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉靈均（日本大阪公立大學人權問題研究中心客座研究員）",
+   "name": "劉靈均",
+   "affiliation_text": "日本大阪公立大學人權問題研究中心客座研究員",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://api.researchmap.jp/dearlittlecookie/research_interests",
+    "https://researchmap.jp/dearlittlecookie/research_experience"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉鴻陞（世新大學行政管理學系教授兼管理學院副院長）",
+   "name": "劉鴻陞",
+   "affiliation_text": "世新大學行政管理學系教授兼管理學院副院長",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://ppm.wp.shu.edu.tw/?page_id=3495",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉麗雲（美國賓州天普大學醫學院神經科學系教授）",
+   "name": "劉麗雲",
+   "affiliation_text": "美國賓州天普大學醫學院神經科學系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://bulletin.temple.edu/faculty/",
+    "https://medicine.temple.edu/directory/lee-yuan-liu-chen-phd",
+    "https://rx.mc.ntu.edu.tw/alumni/HonorRoll/files/HonorRoll_1_2012th.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳作樂（長榮大學資管系退修教授）",
+   "name": "吳作樂",
+   "affiliation_text": "長榮大學資管系退修教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://dweb.cjcu.edu.tw/racd/article/3172",
+    "https://file.moc.gov.tw/Download.ashx?n=6ZmE5Lu2IC0g5YWs6KaW56ys5LqU5bGG6JGj55uj5LqL5YCZ6YG45Lq66YeN5o%2BQ5ZCN5ZCN5ZauLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvT2xkRmlsZXMvQWRtaW5VcGxvYWRzL21vY2hpc3RvcnkvY2NhSW1hZ2VzL2FydE5ld3MvMC8wODA3MDMwMS5wZGY%3D"
+   ]
+  }
+ ]
+}

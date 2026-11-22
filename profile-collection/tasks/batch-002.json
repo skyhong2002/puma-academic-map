@@ -1,0 +1,396 @@
+{
+ "batch": 2,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "吳家恆（世新大學通識中心兼任講師）",
+   "name": "吳家恆",
+   "affiliation_text": "世新大學通識中心兼任講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://ap4.shu.edu.tw/stu1/stu1/SE0202GRD01.aspx?course_key=184489&query_agrp=0&query_majr=00"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳文晉（中央研究院生物化學研究所研究副技師）",
+   "name": "吳文晉",
+   "affiliation_text": "中央研究院生物化學研究所研究副技師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.ibc.sinica.edu.tw/faculty.php?lang=En&type=SP",
+    "https://www.ibc.sinica.edu.tw/facultyV.php?DatetimeStr=&type=PI",
+    "https://www.ibc.sinica.edu.tw/seminarV.php?DatetimeStr=20261116111809&lang="
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳逸如（林口長庚神經內科部部主任）",
+   "name": "吳逸如",
+   "affiliation_text": "林口長庚神經內科部部主任",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.cgmh.org.tw/index.aspx/Services/DoctorInfo/2000"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳順安（新竹市南門醫院主治醫師）",
+   "name": "吳順安",
+   "affiliation_text": "新竹市南門醫院主治醫師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.nanmen.com.tw/DepartmentDetail/52"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "呂木蘭（國立台中教育大學兼任講師）",
+   "name": "呂木蘭",
+   "affiliation_text": "國立台中教育大學兼任講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "呂紹瑋（國立陽明交通大學生物醫學研究所博士候選人）",
+   "name": "呂紹瑋",
+   "affiliation_text": "國立陽明交通大學生物醫學研究所博士候選人",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://tw.kid-pro.com/about-shawnlu",
+    "https://www.mdpi.com/2079-6374/12/5/312"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "呂萱萱（UT MD Anderson Cancer CenterResearch Scientist）",
+   "name": "呂萱萱",
+   "affiliation_text": "UT MD Anderson Cancer CenterResearch Scientist",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://jacbs.org.tw/common/doc/books/jacbs-33.pdf",
+    "https://mdanderson.elsevierpure.com/en/persons/hsuan-hsuan-lu/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "周文一（宏國德霖科技大學退休副教授）",
+   "name": "周文一",
+   "affiliation_text": "宏國德霖科技大學退休副教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://generalaffairs1.hdut.edu.tw/ezfiles/19/1019/img/246/262135146.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "周理悧（台南私立應用科技大學）",
+   "name": "周理悧",
+   "affiliation_text": "台南私立應用科技大學",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.opentix.life/event/1886343194812399617"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "唐嘉妤（國立政治大學社會學系博士候選人）",
+   "name": "唐嘉妤",
+   "affiliation_text": "國立政治大學社會學系博士候選人",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://css.nccu.edu.tw/%E5%85%AC%E5%91%8A/elementor-10515/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "孫傳硯（陽明交通大學醫學系講師）",
+   "name": "孫傳硯",
+   "affiliation_text": "陽明交通大學醫學系講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "孫啓榕（中國科技大學建築系專任講師）",
+   "name": "孫啓榕",
+   "affiliation_text": "中國科技大學建築系專任講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "山人幸琪（加拿大英屬哥倫比亞大學）",
+   "name": "山人幸琪",
+   "affiliation_text": "加拿大英屬哥倫比亞大學",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://news.ubc.ca/expert/hsingchi-von-bergmann/",
+    "https://www.ciss.ntnu.edu.tw/wp-content/uploads/2025-Booklet-of-Global-Studies_20250505.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "岳宜欣（國立台中科技大學語言中心助理教授）",
+   "name": "岳宜欣",
+   "affiliation_text": "國立台中科技大學語言中心助理教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://language.nutc.edu.tw/p/404-1079-101808.php"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "崔博翔（國立清華大學生醫工程與環境科學系教授）",
+   "name": "崔博翔",
+   "affiliation_text": "國立清華大學生醫工程與環境科學系教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://scholars.nthu.edu.tw/esploro/profile/pohsiang_tsui"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "巫梓豪（美國喬治亞州立大學刑事司法與犯罪學系博士候選人）",
+   "name": "巫梓豪",
+   "affiliation_text": "美國喬治亞州立大學刑事司法與犯罪學系博士候選人",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.cprc.moj.gov.tw/1563/36715/16811/43267/post"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "廖偉翔（加拿大麥基爾大學精神醫學系博士生）",
+   "name": "廖偉翔",
+   "affiliation_text": "加拿大麥基爾大學精神醫學系博士生",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://guavanthropology.tw/index.php/article/7112"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "廖御呈（國立屏東大學電腦科學與人工智慧學系兼任講師）",
+   "name": "廖御呈",
+   "affiliation_text": "國立屏東大學電腦科學與人工智慧學系兼任講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://cs.nptu.edu.tw/p/412-1111-10341.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "廖振博（美國賓州大學(UPenn)博士後研究員）",
+   "name": "廖振博",
+   "affiliation_text": "美國賓州大學(UPenn)博士後研究員",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://pathology.med.upenn.edu/department/newsletter/spring-2026/welcome-team"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "廖映庭（國立陽明交通大學醫學系講師）",
+   "name": "廖映庭",
+   "affiliation_text": "國立陽明交通大學醫學系講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "廖紫均（國立自然科學博物館副研究員）",
+   "name": "廖紫均",
+   "affiliation_text": "國立自然科學博物館副研究員",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.nmns.edu.tw/ch/research/research-and-writing/detail/?id=A049&unit=%E4%BA%BA%E9%A1%9E%E5%AD%B8%E7%B5%84"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張家銘（長庚大學醫學系副教授）",
+   "name": "張家銘",
+   "affiliation_text": "長庚大學醫學系副教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張懿慈（明新科技大學兼任助理教授）",
+   "name": "張懿慈",
+   "affiliation_text": "明新科技大學兼任助理教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": []
+  },
+  {
+   "section": "會員名單",
+   "raw": "張揚沛（高雄市立大同醫院主治醫師）",
+   "name": "張揚沛",
+   "affiliation_text": "高雄市立大同醫院主治醫師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.cgmh.org.tw/tw/Services/DeptInfo/W/W3700"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張書豪（輔大醫學系/輔大醫院臨床助理教授/主治醫師）",
+   "name": "張書豪",
+   "affiliation_text": "輔大醫學系/輔大醫院臨床助理教授/主治醫師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://orth.fjuh.fju.edu.tw/wordpress/%E5%BC%B5%E6%9B%B8%E8%B1%AA%E4%B8%BB%E6%B2%BB%E9%86%AB%E5%B8%AB/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張瑞林（法國國家科學研究中心暨奧地利考古研究院兼任研究員）",
+   "name": "張瑞林",
+   "affiliation_text": "法國國家科學研究中心暨奧地利考古研究院兼任研究員",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://epub.oeaw.ac.at/0xc1aa5572_0x00404bd6.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張皓（國立清華大學社會學研究所博士候選人）",
+   "name": "張皓",
+   "affiliation_text": "國立清華大學社會學研究所博士候選人",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://iosoc.site.nthu.edu.tw/p/405-1547-292374%2Cc21983.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張耀仁（耶魯大學醫學院血液腫瘤科助理教授）",
+   "name": "張耀仁",
+   "affiliation_text": "耶魯大學醫學院血液腫瘤科助理教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": []
+  },
+  {
+   "section": "會員名單",
+   "raw": "張興東（國立雲林科技大學工商管理學程兼任講師）",
+   "name": "張興東",
+   "affiliation_text": "國立雲林科技大學工商管理學程兼任講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張鑑元（清大助理教授）",
+   "name": "張鑑元",
+   "affiliation_text": "清大助理教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  }
+ ]
+}

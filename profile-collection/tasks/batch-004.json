@@ -1,0 +1,398 @@
+{
+ "batch": 4,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "林肇基（臺灣大學雙語教育中心博士後研究員）",
+   "name": "林肇基",
+   "affiliation_text": "臺灣大學雙語教育中心博士後研究員",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://cbe.ntu.edu.tw/events/319"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "林育誼（輔仁大學音樂系兼任講師）",
+   "name": "林育誼",
+   "affiliation_text": "輔仁大學音樂系兼任講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.music.fju.edu.tw/member/parttime_prof/appliedmusic/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "林逸靜（南華大學生死學系副教授）",
+   "name": "林逸靜",
+   "affiliation_text": "南華大學生死學系副教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": []
+  },
+  {
+   "section": "會員名單",
+   "raw": "林青穀（林青穀家庭醫學·身心科·心臟科診所院長 ·前台北市立師範學院部定講師）",
+   "name": "林青穀",
+   "affiliation_text": "林青穀家庭醫學·身心科·心臟科診所院長 ·前台北市立師範學院部定講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://drlinchingku.com/%E9%86%AB%E8%AD%B7%E5%9C%98%E9%9A%8A/%E6%9E%97%E9%9D%92%E7%A9%80-%E9%86%AB%E5%B8%AB/",
+    "https://drlinchingku.com/contact/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "林韋廷（交通大學科技管理博士、交通大學教育博士候選人）",
+   "name": "林韋廷",
+   "affiliation_text": "交通大學科技管理博士、交通大學教育博士候選人",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://collego.edu.tw/Highschool/DepartmentCompare?ids=031017%2C023019",
+    "https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id%3D%22106NCTU5230005%22.&searchmode=basic"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "柯凱婷（馬偕醫院精神部馬偕醫學院兼任臨床講師）",
+   "name": "柯凱婷",
+   "affiliation_text": "馬偕醫院精神部馬偕醫學院兼任臨床講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://tpoas.mmh.org.tw/doctor_view.php?depid=52&did=594"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "柯惠敏（台灣經濟研究院副研究員）",
+   "name": "柯惠敏",
+   "affiliation_text": "台灣經濟研究院副研究員",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://vos.tier.org.tw/SearchMore.aspx?Title=%E5%B7%9D%E6%99%AE2.0"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "柯錦彥（南開科技大學退休教師）",
+   "name": "柯錦彥",
+   "affiliation_text": "南開科技大學退休教師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://nkaao.nkut.edu.tw/files/archive/435_46e98cdf.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "楊仁敘（政治大學社會工作研究所博士候選人）",
+   "name": "楊仁敘",
+   "affiliation_text": "政治大學社會工作研究所博士候選人",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://ethnos.nccu.edu.tw/PageDoc/Detail?fid=9604&id=33578"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "楊凱鈞（國立陽明交通大學醫學系副教授）",
+   "name": "楊凱鈞",
+   "affiliation_text": "國立陽明交通大學醫學系副教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "楊孟蓉（California State University, Long BeachAssistant professor）",
+   "name": "楊孟蓉",
+   "affiliation_text": "California State University, Long BeachAssistant professor",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.csulb.edu/school-of-art/page/mj-yang"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "楊宗軒（美國瑪麗華盛頓大學助理教授）",
+   "name": "楊宗軒",
+   "affiliation_text": "美國瑪麗華盛頓大學助理教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://catalog.umw.edu/administration-faculty/current-faculty/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "楊小賢（陽明交通大學百川學程助理教授）",
+   "name": "楊小賢",
+   "affiliation_text": "陽明交通大學百川學程助理教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://anniv2026.web.nycu.edu.tw/%E6%A0%A1%E5%8F%8B%E5%9B%9E%E5%A8%98%E5%AE%B6/%E4%BA%A4%E5%A4%A7%E6%97%A5%E6%A0%A1%E5%8F%8B%E5%9B%9E%E5%A8%98%E5%AE%B6/",
+    "https://nycu.academia.edu/JessicaSiuyinYeung/Conference%20Papers"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "楊智廸（陽明交通大學附設醫院陽明交通大學醫學院兼任助理教授，陽明交通大學附設醫院主治醫師）",
+   "name": "楊智廸",
+   "affiliation_text": "陽明交通大學附設醫院陽明交通大學醫學院兼任助理教授，陽明交通大學附設醫院主治醫師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.hosp.nycu.edu.tw/reservation10.html?component=regist&docno=15069&view=schedule"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "楊曜旭（嘉義長庚 中醫科主任）",
+   "name": "楊曜旭",
+   "affiliation_text": "嘉義長庚 中醫科主任",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.cgmh.org.tw/tw/Services/DoctorInfo/8978"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "楊汗如（台大戲劇、北藝大戲劇、音樂、傳音系講師）",
+   "name": "楊汗如",
+   "affiliation_text": "台大戲劇、北藝大戲劇、音樂、傳音系講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://theatre.ntu.edu.tw/faculty/%E6%A5%8A%E6%B1%97%E5%A6%82"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "江宗翰（世新大學英語系兼任講師）",
+   "name": "江宗翰",
+   "affiliation_text": "世新大學英語系兼任講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "江明憬（沖繩科學技術大學院大學(OIST)Staff Scientist）",
+   "name": "江明憬",
+   "affiliation_text": "沖繩科學技術大學院大學(OIST)Staff Scientist",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.oist.jp/research/research-units/mru/members"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "汪家慶（Department of Human Development and Family Science, Virginia Polytechnic Institute and State UniversityPhD student，諮商心理師，社會工作師）",
+   "name": "汪家慶",
+   "affiliation_text": "Department of Human Development and Family Science, Virginia Polytechnic Institute and State UniversityPhD student，諮商心理師，社會工作師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://liberalarts.vt.edu/departments-and-schools/department-of-human-development-and-family-science/academic-programs/hdfs-graduate-students/chia-ching-wang.html",
+    "https://www.ncyu.edu.tw/gcweb/Subject/Detail/236058?nodeId=19476"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "洪儷倩（政治大學宗教研究所博士）",
+   "name": "洪儷倩",
+   "affiliation_text": "政治大學宗教研究所博士",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://ord.nccu.edu.tw/files/news/2726_053227e2.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "洪大為（國立清華大學博士生、前元智大學兼任教師）",
+   "name": "洪大為",
+   "affiliation_text": "國立清華大學博士生、前元智大學兼任教師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": []
+  },
+  {
+   "section": "會員名單",
+   "raw": "洪肇基（國立體育大學適應體育學系助理教授）",
+   "name": "洪肇基",
+   "affiliation_text": "國立體育大學適應體育學系助理教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://person.ntsu.edu.tw/p/405-1006-50058%2Cc2988.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "洪英章（國立陽明交通大學資訊管理所博士）",
+   "name": "洪英章",
+   "affiliation_text": "國立陽明交通大學資訊管理所博士",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.fssh.khc.edu.tw/resource/openfid.php?id=1432"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "湯婉君（國立台灣藝術大學兼任講師）",
+   "name": "湯婉君",
+   "affiliation_text": "國立台灣藝術大學兼任講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "潘威佑（社團法人台灣教師聯盟理事長）",
+   "name": "潘威佑",
+   "affiliation_text": "社團法人台灣教師聯盟理事長",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://taiwanutt.wixsite.com/website",
+    "https://taiwanutt.wixsite.com/website/post/%E5%8F%B0%E7%81%A3%E6%95%99%E5%B8%AB%E8%81%AF%E7%9B%9F2025%E5%B9%B44%E6%9C%88%E4%BB%BD%E6%9C%83%E8%A8%8A",
+    "https://www.judicial.gov.tw/tw/cp-144-865760-df993-1.html"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "潘忠廷（東華大學自然資源與環境學系博士後研究員）",
+   "name": "潘忠廷",
+   "affiliation_text": "東華大學自然資源與環境學系博士後研究員",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://graduation.ndhu.edu.tw/var/file/202/1202/img/153792471.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "王守誠（國立臺灣海洋大學專案助理研究員）",
+   "name": "王守誠",
+   "affiliation_text": "國立臺灣海洋大學專案助理研究員",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://secretariat.ntou.edu.tw/var/file/121/1121/attach/23/pta_75947_9140873_34313.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "王安琪（台灣藝術大學工藝系兼任講師）",
+   "name": "王安琪",
+   "affiliation_text": "台灣藝術大學工藝系兼任講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "王定中（嘉義長庚神經外科助理教授級主治醫師）",
+   "name": "王定中",
+   "affiliation_text": "嘉義長庚神經外科助理教授級主治醫師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.cgmh.org.tw/tw/Services/DoctorInfo/2812"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "王政卿（紐約州立大學下城醫學院醫學敎授）",
+   "name": "王政卿",
+   "affiliation_text": "紐約州立大學下城醫學院醫學敎授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://pubmed.ncbi.nlm.nih.gov/37421149/",
+    "https://sites.google.com/gm.tnfsh.tn.edu.tw/historymuseum/%E5%82%91%E5%87%BA%E6%A0%A1%E5%8F%8B/%E7%AC%AC%E5%8D%81%E5%9B%9B%E5%B1%862020"
+   ]
+  }
+ ]
+}

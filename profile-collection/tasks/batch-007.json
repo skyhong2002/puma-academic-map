@@ -1,0 +1,399 @@
+{
+ "batch": 7,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "陳俊文（Georgian Court UniversityAssociate Professor）",
+   "name": "陳俊文",
+   "affiliation_text": "Georgian Court UniversityAssociate Professor",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://catalog.georgian.edu/directories/librarians-teaching-faculty/",
+    "https://www.nuk.edu.tw/p/404-1000-88387.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳俊昇（曾任日本筑波大學外國研究員）",
+   "name": "陳俊昇",
+   "affiliation_text": "曾任日本筑波大學外國研究員",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://ctcn.ebook.hyread.com.tw/bookDetail.jsp?id=171520"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳信昭（殷建智精神科診所、台南市立醫院主治醫師）",
+   "name": "陳信昭",
+   "affiliation_text": "殷建智精神科診所、台南市立醫院主治醫師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://psy-med.ncku.edu.tw/p/404-1128-297191.php?Lang=zh-tw",
+    "https://www.doctoryin.com.tw/doctors.html"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳周宏（美國Gonzaga Univetsity退休名譽教授）",
+   "name": "陳周宏",
+   "affiliation_text": "美國Gonzaga Univetsity退休名譽教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://info.usc.edu.tw/var/file/3/1003/img/495/100-1-1-A-P.pdf",
+    "https://www.gonzaga.edu/school-of-business-administration/about/professors-emeriti"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳國慶（國立中正大學社會福利學系/博士生、東海大學社會工作學系/兼任講師）",
+   "name": "陳國慶",
+   "affiliation_text": "國立中正大學社會福利學系/博士生、東海大學社會工作學系/兼任講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://sociwork.thu.edu.tw/faculty/f02/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳奕旭（美國加州大學聖塔克魯斯分校電機系教授）",
+   "name": "陳奕旭",
+   "affiliation_text": "美國加州大學聖塔克魯斯分校電機系教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": []
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳巧禎（亞洲大學社會工作學系兼任講師）",
+   "name": "陳巧禎",
+   "affiliation_text": "亞洲大學社會工作學系兼任講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳慧如（南華大學永續綠色科技研究所助理教授）",
+   "name": "陳慧如",
+   "affiliation_text": "南華大學永續綠色科技研究所助理教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://cst3.nhu.edu.tw/Web/UserList?mid=9715&n=%E6%95%99%E5%B8%AB%E7%B8%BD%E8%A1%A8&tid=0"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳振陽（台大醫學院微生物學研究所名譽教授）",
+   "name": "陳振陽",
+   "affiliation_text": "台大醫學院微生物學研究所名譽教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://press.ntu.edu.tw/tw/publish/show.php?act=book&refer=ntup_book01537"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳文雄（國立中正大學特聘教授）",
+   "name": "陳文雄",
+   "affiliation_text": "國立中正大學特聘教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://econ.ccu.edu.tw/p/426-1117-77.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳昭瑩（臺大醫學院物理治療學系暨研究所兼任講師）",
+   "name": "陳昭瑩",
+   "affiliation_text": "臺大醫學院物理治療學系暨研究所兼任講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.ntuh.gov.tw/PTC/Fpage.action?fid=1222"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳昭靜（台南應用科技大學（退休）助理教授）",
+   "name": "陳昭靜",
+   "affiliation_text": "台南應用科技大學（退休）助理教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://affairs-genera.tut.edu.tw/var/file/47/1047/img/644/675695512.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳東榮（國立中央大學前英文系教授兼主任）",
+   "name": "陳東榮",
+   "affiliation_text": "國立中央大學前英文系教授兼主任",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://history.tlshaa.org.tw/content/4/15/2"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳柏伸（南臺科技大學應用日語系兼任講師）",
+   "name": "陳柏伸",
+   "affiliation_text": "南臺科技大學應用日語系兼任講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://japan.stust.edu.tw/tc/node/teacher_b16",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳治維（國立陽明交通大學數據金融創新）",
+   "name": "陳治維",
+   "affiliation_text": "國立陽明交通大學數據金融創新",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://ncsd.ndc.gov.tw/_ofu/FileDatabase/5e5aa8d2-4aee-4c9f-a2b8-a1f0b1383f80/114%E5%B9%B4%E5%9C%8B%E5%AE%B6%E6%B0%B8%E7%BA%8C%E7%99%BC%E5%B1%95%E7%8D%8E%20%E5%BE%97%E7%8D%8E%E5%B0%88%E8%BC%AF_%E5%AE%9A%E7%A8%BF.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳泰亨（國立中山大學副教授）",
+   "name": "陳泰亨",
+   "affiliation_text": "國立中山大學副教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://dpcem.nsysu.edu.tw/p/404-1330-337777.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳淑純（致理科大應英系副教授退休副教授）",
+   "name": "陳淑純",
+   "affiliation_text": "致理科大應英系副教授退休副教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://dlc.chihlee.edu.tw/info/10041785?lang=GB2312"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳煒仁（美國芝加哥神學院博士候選人）",
+   "name": "陳煒仁",
+   "affiliation_text": "美國芝加哥神學院博士候選人",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://vintage.ctschicago.edu/phd-students/",
+    "https://www.ctschicago.edu/wp-content/uploads/2019/03/Lent-Reflections-2019-FINAL.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳玉海（聖約翰科大退休教授助理教授）",
+   "name": "陳玉海",
+   "affiliation_text": "聖約翰科大退休教授助理教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://scsb.sju.edu.tw/data.php?id=119&tpl=6"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳玠宇（東吳大學法律系博士生、兼任講師）",
+   "name": "陳玠宇",
+   "affiliation_text": "東吳大學法律系博士生、兼任講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.law.scu.edu.tw/concurrent-appointment"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳璟（日本多摩美術大學美術學部助手）",
+   "name": "陳璟",
+   "affiliation_text": "日本多摩美術大學美術學部助手",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://art-studies.tamabi.ac.jp/professor/2611/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳維斌（牙醫學博士/金曲獎最佳作詞音樂公司代表人）",
+   "name": "陳維斌",
+   "affiliation_text": "牙醫學博士/金曲獎最佳作詞音樂公司代表人",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://tcschoir.org.tw/artists/%E9%99%B3%E7%B6%AD%E6%96%8C/",
+    "https://www.kingstone.com.tw/basic/2014160056010/?lid=StoreStorage"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳英亮（交通大學退休教授）",
+   "name": "陳英亮",
+   "affiliation_text": "交通大學退休教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://dee.nycu.edu.tw/pages.php?locale=tw&pa=leaders",
+    "https://dee.nycu.edu.tw/pages.php?pa=leaders"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳逸仲（美國范德堡大學醫學中心不孕症中心臨床講師）",
+   "name": "陳逸仲",
+   "affiliation_text": "美國范德堡大學醫學中心不孕症中心臨床講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": []
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳韻文（藝術美感教育領域獨立學者）",
+   "name": "陳韻文",
+   "affiliation_text": "藝術美感教育領域獨立學者",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.gipa.ntnu.edu.tw/wp-content/uploads/2020/02/%E9%99%B3%E9%9F%BB%E6%96%87.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳鴻大（中原大學物理學及通識中心前兼任助理教授）",
+   "name": "陳鴻大",
+   "affiliation_text": "中原大學物理學及通識中心前兼任助理教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://phys.cycu.edu.tw/portfolio_tags/%E5%85%BC%E4%BB%BB%E6%95%99%E5%B8%AB"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "顏仕宇（瑞典斯德哥爾摩大學社會人類學博士候選人）",
+   "name": "顏仕宇",
+   "affiliation_text": "瑞典斯德哥爾摩大學社會人類學博士候選人",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://ccs.ncl.edu.tw/act_detail.aspx?sn=512",
+    "https://www.su.se/english/profiles/s/shng2329"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "饒加恩（國立台北藝術大學講師）",
+   "name": "饒加恩",
+   "affiliation_text": "國立台北藝術大學講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "饒智昇（國家中山科學研究院助理研究員）",
+   "name": "饒智昇",
+   "affiliation_text": "國家中山科學研究院助理研究員",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.ncsist.org.tw/csistdup/news/TechDataDetail.aspx?NodeId=3106"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "馮志宇（國立陽明交通大學兼任講師）",
+   "name": "馮志宇",
+   "affiliation_text": "國立陽明交通大學兼任講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  }
+ ]
+}

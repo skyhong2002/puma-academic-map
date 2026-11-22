@@ -1,0 +1,481 @@
+{
+ "batch": 1,
+ "people": [
+  {
+   "section": "共同領銜",
+   "raw": "唐國銘（樹德科技大學資管系退休副教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "人力資源管理",
+      "source": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+     },
+     {
+      "label": "行銷管理",
+      "source": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+     },
+     {
+      "label": "組織行為",
+      "source": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+     },
+     {
+      "label": "知識管理",
+      "source": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "教育部大專校院教師名錄（樹德科技大學資訊管理系專任副教授）列出專長；人名、校系皆吻合。找不到官方人物照。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "方禎璋（東海大學餐飲管理學系兼任助理教授）",
+   "note": "東海大學課程網確有方禎璋（餐旅系助理教授），但無研究專長欄位與人物照；略過。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "李明仁（嘉義大學應用歷史學系退休教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "清代臺灣史",
+      "source": "https://taiwan.nccu.edu.tw/PageStaffing/Detail?fid=2553&id=2040"
+     },
+     {
+      "label": "北亞史",
+      "source": "https://taiwan.nccu.edu.tw/PageStaffing/Detail?fid=2553&id=2040"
+     },
+     {
+      "label": "中國中古史",
+      "source": "https://taiwan.nccu.edu.tw/PageStaffing/Detail?fid=2553&id=2040"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "政大台灣史研究所兼任教授頁（台大歷史博士）列出研究專長；嘉大應用歷史學系退休教授名單亦有同名，且學歷、領域（清代台灣史、北亞史、魏晉南北朝史）一致，判定為同一人（現兼任於政大）。無人物照（頁面為預設佔位圖）。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "林欽惠（德國柏林洪堡大學亞非學系專任講師）",
+   "note": "HU Berlin 亞非學系確有 Dr. Chin-Hui Lin（中文講師），但官方頁無研究關鍵詞；Academia.edu 回應 403，未繞過；略過。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "鄭宗弘（Stanford University, Department of Economics PhD Student）",
+   "note": "找不到可確認的 Stanford 經濟系博士生頁面（台大 COSS 頁僅有同名大學部學生）；可能為 Yale Tobin Center 前 pre-doc，但無法確認，略過。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "陳永豐（眼科診所院長）",
+   "note": "僅有姓名與『眼科診所院長』，無法確認身分，略過。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "黃苕冠（美國漢密爾頓學院講師）",
+   "research": {
+    "keywords": [
+     {
+      "label": "Chinese grammar",
+      "source": "https://www.hamilton.edu/academics/our-faculty/directory/faculty-detail/tiao-guan-huang"
+     },
+     {
+      "label": "grammar pedagogy",
+      "source": "https://www.hamilton.edu/academics/our-faculty/directory/faculty-detail/tiao-guan-huang"
+     },
+     {
+      "label": "pragmatics",
+      "source": "https://www.hamilton.edu/academics/our-faculty/directory/faculty-detail/tiao-guan-huang"
+     },
+     {
+      "label": "semantics",
+      "source": "https://www.hamilton.edu/academics/our-faculty/directory/faculty-detail/tiao-guan-huang"
+     },
+     {
+      "label": "curriculum design",
+      "source": "https://www.hamilton.edu/academics/our-faculty/directory/faculty-detail/tiao-guan-huang"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "Hamilton College 教師頁（Lecturer, East Asian Languages and Literatures）原文研究興趣；頁面照片未出現在 HTML（動態載入），不含頭像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "Chaoyuh Yang 楊朝諭（Baylor College of Medicine 美國休士頓貝勒醫學院Emeritus Professor）",
+   "note": "搜尋確認 BCM 有 Chao-Yuh Yang, Ph.D. Professor Emeritus（Medicine-Athero & Lipo）；但 BCM 個人頁現回 404，無法取得頭像。關鍵詞為 OpenAlex 作者（Baylor College of Medicine）主題標籤，非個人頁原文。 [審核剔除研究詞]"
+  },
+  {
+   "section": "會員名單",
+   "raw": "Hsiao-Rong Chen (陳曉蓉）（Eli Lilly (禮來藥廠）Computational Biology & AI Lead （數據科學家)）",
+   "note": "PubMed 41026608 作者列 Hsiao-Rong Chen, Eli Lilly and Company；OpenAlex 作者 A5077318602（Eli Lilly）主題標籤，非個人頁原文。無官方人物照。 [審核剔除研究詞]"
+  },
+  {
+   "section": "會員名單",
+   "raw": "I-Yun Cheng（The University of SydneyPh.D candidate）",
+   "note": "雪梨大學 2024 研討會議程列出 I-Yun Cheng (University of Sydney)，題目為紐西蘭與台灣博物館的原住民語言政策比較；僅憑議程題目，無『PhD candidate』明確佐證，無頭像。 [審核剔除研究詞]"
+  },
+  {
+   "section": "會員名單",
+   "raw": "Ko-Le Chen（School of Design, Arts and Creative Industries, Northumbria University, UKResearch Fellow ）",
+   "research": {
+    "keywords": [
+     {
+      "label": "Participatory Design",
+      "source": "https://researchportal.northumbria.ac.uk/en/persons/ko-le-chen/"
+     },
+     {
+      "label": "Transcultural",
+      "source": "https://researchportal.northumbria.ac.uk/en/persons/ko-le-chen/"
+     },
+     {
+      "label": "Mentoring Program",
+      "source": "https://researchportal.northumbria.ac.uk/en/persons/ko-le-chen/"
+     },
+     {
+      "label": "Science and Technology Studies",
+      "source": "https://scholar.google.com/citations?user=HVAVwO0AAAAJ"
+     }
+    ],
+    "scholar": "https://scholar.google.com/citations?user=HVAVwO0AAAAJ"
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-001/kole.jpg",
+    "crop": null,
+    "source_url": "https://hosting.northumbria.ac.uk/cocreate/ko-le-chen/",
+    "credit": "來源：Northumbria University CoCreate官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "Northumbria 研究入口網（Research Fellow）與 Scholar（School of Design, Northumbria）一致；頭像取自 CoCreate 官方人物頁（黑白單人照，研究入口網僅有佔位圖）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "Malas Takisdahuan（彰化師範大學教育學院兼任助理教授）",
+   "note": "可確認為彰師大兼任助理教授（邱孟玲），但找不到官方研究專長欄位或人物頁；略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "Paul Chiou（Lamar UniversityRetired Professor）",
+   "research": {
+    "keywords": [
+     {
+      "label": "Statistics",
+      "source": "https://www.lamar.edu/library/archive/archived-catalogs/pdfs/2002---04-lu-graduate-catalog-vol-47-no-2.pdf"
+     },
+     {
+      "label": "reliability theory",
+      "source": "https://www.lamar.edu/library/archive/archived-catalogs/pdfs/2002---04-lu-graduate-catalog-vol-47-no-2.pdf"
+     }
+    ],
+    "scholar": "https://scholar.google.com/citations?hl=en&user=Gby5ecgAAAAJ"
+   },
+   "note": "Lamar 2002-04 研究所目錄：Paul Chiou, Professor of Mathematics（1988 起），專長 Statistics, reliability theory；Scholar（lamar.edu 驗證信箱）一致。退休狀態未見官方佐證。無人物照。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "Simon Chiu（Edinburgh Napier UniversityFormer Lecturer）",
+   "note": "Napier 官網個人頁回應 403（未繞過），搜尋摘要僅見 Lecturer / Tourism，無法直接核對頁面；略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "Teng Hongtin丁鳳珍（國立台中教育大學台語系副教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "台語文學創作",
+      "source": "https://taiwanese.ntcu.edu.tw/teacher/3"
+     },
+     {
+      "label": "台灣文學史",
+      "source": "https://taiwanese.ntcu.edu.tw/teacher/3"
+     },
+     {
+      "label": "台語教學",
+      "source": "https://taiwanese.ntcu.edu.tw/teacher/3"
+     },
+     {
+      "label": "台灣民間文學",
+      "source": "https://taiwanese.ntcu.edu.tw/teacher/3"
+     },
+     {
+      "label": "歌仔冊",
+      "source": "https://taiwanese.ntcu.edu.tw/teacher/3"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-001/teng-thumb.webp",
+    "crop": null,
+    "source_url": "https://taiwanese.ntcu.edu.tw/teacher/3",
+    "credit": "來源：國立臺中教育大學臺灣語文學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "系所師資頁（副教授）『授課領域』原文；照片為該頁單人照（352x500）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "Tsu Tsír-hông （母語ê/gǎi醫學迷頁主／前國防醫學院醫學系臨床教師）",
+   "research": {
+    "keywords": [
+     {
+      "label": "一般兒科",
+      "source": "https://www.cmu-hch.cmu.edu.tw/Doctor/DoctorInfo/313"
+     },
+     {
+      "label": "內分泌疾病",
+      "source": "https://www.cmu-hch.cmu.edu.tw/Doctor/DoctorInfo/313"
+     },
+     {
+      "label": "糖尿病",
+      "source": "https://www.cmu-hch.cmu.edu.tw/Doctor/DoctorInfo/313"
+     },
+     {
+      "label": "遺傳代謝疾病",
+      "source": "https://www.cmu-hch.cmu.edu.tw/Doctor/DoctorInfo/313"
+     },
+     {
+      "label": "成長評估",
+      "source": "https://www.cmu-hch.cmu.edu.tw/Doctor/DoctorInfo/313"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-001/tsu.jpg",
+    "crop": null,
+    "source_url": "https://www.cmu-hch.cmu.edu.tw/Doctor/DoctorInfo/313",
+    "credit": "來源：中國醫藥大學新竹附設醫院醫師介紹官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "朱子宏（Tsír-hông Tsu）醫師，頁面列母語（台語、客語等）相關貢獎，與『母語ê/gǎi醫學』吻合；頁面未提國防醫學院，以人名羅馬字與母語醫學身分判定。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "何宇傑（國立東華大學資訊工程學系助理教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "Deep Learning",
+      "source": "https://www.csie.ndhu.edu.tw/en/professors-en/"
+     },
+     {
+      "label": "Recommender System",
+      "source": "https://www.csie.ndhu.edu.tw/en/professors-en/"
+     },
+     {
+      "label": "Large Language Model",
+      "source": "https://www.csie.ndhu.edu.tw/en/professors-en/"
+     },
+     {
+      "label": "Martech",
+      "source": "https://www.csie.ndhu.edu.tw/en/professors-en/"
+     },
+     {
+      "label": "Interactive Design",
+      "source": "https://www.csie.ndhu.edu.tw/en/professors-en/"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-001/ho.jpg",
+    "crop": [
+     0,
+     60,
+     504,
+     504
+    ],
+    "source_url": "https://www.csie.ndhu.edu.tw/en/professors-en/",
+    "credit": "來源：國立東華大學資訊工程學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "東華資工系英文師資頁（Assistant Professor, iVector Laboratory）；照片為生活風格單人照，臉部清楚。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "何逸琪（臺灣印度研究協會研究員）",
+   "note": "可確認為台灣印度研究協會研究員（著作作者），但無官方研究關鍵詞頁面與人物照；略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "何雅雯（曾任韓國西江大學中文系副教授）",
+   "note": "搜尋指向 Sogang Academia.edu 頁面（華人離散文學、現代與古典詩等），但該頁 403（未繞過），無法核對；略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "侯侑期（馬里蘭大學University of Maryland, College Park數學系博士候選人）",
+   "research": {
+    "keywords": [
+     {
+      "label": "geometric analysis",
+      "source": "https://yu-chihou.github.io/index.html"
+     },
+     {
+      "label": "complex geometry",
+      "source": "https://yu-chihou.github.io/index.html"
+     },
+     {
+      "label": "algebraic geometry",
+      "source": "https://yu-chihou.github.io/index.html"
+     },
+     {
+      "label": "canonical Kähler metrics",
+      "source": "https://yu-chihou.github.io/index.html"
+     },
+     {
+      "label": "pluripotential theory",
+      "source": "https://yu-chihou.github.io/index.html"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "個人網站（UMD 數學系 PhD 學生，指導教授 Tamás Darvas）原文。個人網站照片中有狗遮擋半張臉，未採用；UMD 系頁無照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "侯淑惠（中原大學外語教學中心兼任助理教授）",
+   "note": "未找到可確認身分的官方頁面，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "傅玉翠（輔仁大學退休副教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "西班牙語語法",
+      "source": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+     },
+     {
+      "label": "西班牙語詞彙",
+      "source": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "教育部教師名錄（輔仁大學西班牙語文學系副教授）列出專長；輔大系頁現列為兼任。無人物照。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉威（Johns Hopkins Bloomberg School of Public HealthPhD Candidate）",
+   "note": "JHU 流行病學博士生 Wei Liu（網路訪談確認為台灣人、前非洲抗瘧工作者）疑為同一人，但 JHU 頁面 403（未繞過），無法核對關鍵詞；略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉峻豪（加拿大多倫多大學博士候選人）",
+   "note": "僅找到長庚醫院精神科同名學者，無多倫多大學證據，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉志成（台灣科技大學化工系退休教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "工業廢水處理與回收技術",
+      "source": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+     },
+     {
+      "label": "工業廢棄物環境危害性評估",
+      "source": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "教育部名錄（臺科大化工系專任教授）專長；工學院歷任院長頁（劉志成，化工系教授）單人照，為演講側面照、非標準證件照，請視需要審核。 [審核剔除頭像]"
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉怡敏（台灣精準健康促進協會理事）",
+   "note": "known URL 為活動『創意團隊』頁，無職稱與研究資訊，無法確認同一人；略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉美芳（輔英科技大學講師）",
+   "research": {
+    "keywords": [
+     {
+      "label": "精神科護理",
+      "source": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+     },
+     {
+      "label": "移民心理健康",
+      "source": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+     },
+     {
+      "label": "復元培力",
+      "source": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+     },
+     {
+      "label": "多元文化",
+      "source": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "教育部名錄（輔英科技大學護理科專任，列為實習指導教師）專長；輔英護理科頁亦列同名講師（精神照護組）。頁面無人物照。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳冠緯（波鴻魯爾大學東亞學系博士候選人）",
+   "research": {
+    "keywords": [
+     {
+      "label": "Political And Social Philosophy",
+      "source": "https://www.ea.sinica.edu.tw/Content_People_Page.aspx?lang=e&peoid=146&pid=4&uid=46"
+     },
+     {
+      "label": "Political Sociology",
+      "source": "https://www.ea.sinica.edu.tw/Content_People_Page.aspx?lang=e&peoid=146&pid=4&uid=46"
+     },
+     {
+      "label": "Intellectual History",
+      "source": "https://www.ea.sinica.edu.tw/Content_People_Page.aspx?lang=e&peoid=146&pid=4&uid=46"
+     },
+     {
+      "label": "Taiwan Studies",
+      "source": "https://www.ea.sinica.edu.tw/Content_People_Page.aspx?lang=e&peoid=146&pid=4&uid=46"
+     },
+     {
+      "label": "Critical Theory",
+      "source": "https://www.ea.sinica.edu.tw/Content_People_Page.aspx?lang=e&peoid=146&pid=4&uid=46"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-001/wu.jpg",
+    "crop": [
+     0,
+     0,
+     351,
+     351
+    ],
+    "source_url": "https://www.ea.sinica.edu.tw/Content_People_Page.aspx?lang=e&peoid=146&pid=4&uid=46",
+    "credit": "來源：中央研究院歐美研究所官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "中研院歐美所訪問學生頁（Doctoral Candidate, Ruhr-Universität Bochum）原文專長與個人照。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳宗儒（中央研究院前博士後研究員）",
+   "note": "名單 PDF 僅列『吳宗儒 博士/研究員 中央研究院』，找不到可確認為同一人的頁面（同名醫師多位），略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳宗樹（台灣大學公共衛生學院兼任講師）",
+   "research": {
+    "keywords": [
+     {
+      "label": "疾病監測系統",
+      "source": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+     },
+     {
+      "label": "發展中國家健康資訊系統",
+      "source": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+     },
+     {
+      "label": "全球衛生發展",
+      "source": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "教育部名錄（台灣大學公共衛生學系兼任講師）專長；與馬拉威醫療團公衛工作者報導相符。無人物照。"
+  }
+ ]
+}

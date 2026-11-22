@@ -1,0 +1,386 @@
+{
+ "batch": 34,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "顏杏如（國立台灣大學歷史學系教授）",
+   "name": "顏杏如",
+   "affiliation_text": "國立台灣大學歷史學系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://scholars.lib.ntu.edu.tw/entities/person/056eb174-5531-44b0-bd8e-bff13e0aa902",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "顏榕（台北大學法律學系副教授）",
+   "name": "顏榕",
+   "affiliation_text": "台北大學法律學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://www.law.ntpu.edu.tw/teacher/32"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "顏瓊芬（東海大學生態與環境研究中心特聘教授）",
+   "name": "顏瓊芬",
+   "affiliation_text": "東海大學生態與環境研究中心特聘教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://cee.thu.edu.tw/web/news/detail.php?cid=1&id=15"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "顏維婷（中央研究院政治學研究所助研究員）",
+   "name": "顏維婷",
+   "affiliation_text": "中央研究院政治學研究所助研究員",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://ipsas20.project.sinica.edu.tw/IPSASwithme_28.html",
+    "https://www.ios.sinica.edu.tw/singlepage.php?id=1",
+    "https://www.ipsas.sinica.edu.tw/wp-content/uploads/2026/08/Yen_CV_Aug2026.pdf",
+    "https://www.sinica.edu.tw/calendar_content/57/5351"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "顏訥（國立東華大學華文文學與創作學系助理教授）",
+   "name": "顏訥",
+   "affiliation_text": "國立東華大學華文文學與創作學系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://sili.ndhu.edu.tw/p/412-1055-22760.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "馬千里（國立成功大學 生物醫學工程學系兼任助理教授）",
+   "name": "馬千里",
+   "affiliation_text": "國立成功大學 生物醫學工程學系兼任助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "馮文陽（中原大學兼任助理教授）",
+   "name": "馮文陽",
+   "affiliation_text": "中原大學兼任助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://etd.lib.ncu.edu.tw/detail/97dc572dd557c017ccaf9cb1ccf90829/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "馮朝霖（政治大學教育學院退休教授）",
+   "name": "馮朝霖",
+   "affiliation_text": "政治大學教育學院退休教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://edu.nccu.edu.tw/PageStaffing/Detail?fid=9760&id=3022"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "駱芬美（銘傳大學通識教育中心兼任副教授）",
+   "name": "駱芬美",
+   "affiliation_text": "銘傳大學通識教育中心兼任副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "高國傑（日本静岡大學數理系統工程學系副教授）",
+   "name": "高國傑",
+   "affiliation_text": "日本静岡大學數理系統工程學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://tdb.shizuoka.ac.jp/RDB/public/Default2.aspx?id=11212&l=0"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "高崇文（中原大學物理系教授）",
+   "name": "高崇文",
+   "affiliation_text": "中原大學物理系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://deptweb.cycu.edu.tw/upis/%E5%B8%AB%E8%B3%87%E4%BB%8B%E7%B4%B9/%E5%B8%AB%E8%B3%87%E9%99%A3%E5%AE%B9/",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "高惠春（淡江大學化學系退休教授）",
+   "name": "高惠春",
+   "affiliation_text": "淡江大學化學系退休教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://tpd.tku.edu.tw/chemistry/?page_id=144",
+    "https://www.che.tku.edu.tw/che/?page_id=11891"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "高惠玲（慈濟大學退休副教授）",
+   "name": "高惠玲",
+   "affiliation_text": "慈濟大學退休副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "高文芳（陽明交大物理所退休教授）",
+   "name": "高文芳",
+   "affiliation_text": "陽明交大物理所退休教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://phys.nycu.edu.tw/%E6%9C%AC%E6%89%80%E6%88%90%E5%93%A1/%E5%B8%AB%E8%B3%87/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "高明達（中央研究院資訊所退休研究員）",
+   "name": "高明達",
+   "affiliation_text": "中央研究院資訊所退休研究員",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://iis.sinica.edu.tw/en/page/People/JointAdjunctResearchFellows.html",
+    "https://www.iis.sinica.edu.tw/zh/page/People/EmeritusFormerResearchFellows.html",
+    "https://www.ios.sinica.edu.tw/singlepage.php?id=1"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "高穎家（高雄醫學大學職能治療學系助理教授）",
+   "name": "高穎家",
+   "affiliation_text": "高雄醫學大學職能治療學系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "高穎超 Ying-Chao Kao（美國維吉尼亞聯邦大學社會學系 Department of Sociology, Virginia Commonwealth University副教授 Associate Professor）",
+   "name": "高穎超 Ying-Chao Kao",
+   "affiliation_text": "美國維吉尼亞聯邦大學社會學系 Department of Sociology, Virginia Commonwealth University副教授 Associate Professor",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://doi.org/10.1163/24688800-05020006",
+    "https://doi.org/10.1177/13634607211047518",
+    "https://gsws.vcu.edu/directory/affiliates/kaoyingchao.html"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "高至芃（輔仁大學數學系助理教授）",
+   "name": "高至芃",
+   "affiliation_text": "輔仁大學數學系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://www.math.fju.edu.tw/zh-hant/members/faculty/team/louiskao"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "高連庸（美國喬治華盛頓大學數學系副教授）",
+   "name": "高連庸",
+   "affiliation_text": "美國喬治華盛頓大學數學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://math.columbian.gwu.edu/lien-yung-nyima-kao",
+    "https://scholar.google.com/citations?hl=en&user=BzGiZfsAAAAJ"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "魏志潾（國立臺灣大學海洋研究所教授）",
+   "name": "魏志潾",
+   "affiliation_text": "國立臺灣大學海洋研究所教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://scholars.lib.ntu.edu.tw/entities/person/0b7b31d5-adee-4ced-bb9b-da1f76d2b54b",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "魏書娥（南華大學生死系副教授）",
+   "name": "魏書娥",
+   "affiliation_text": "南華大學生死系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://lads3.nhu.edu.tw/Web/UserDetail?id=100540&unitid=4031&n=Teachers",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "魏群樹（陽明交通大學資訊工程學系副教授）",
+   "name": "魏群樹",
+   "affiliation_text": "陽明交通大學資訊工程學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://www.cs.nycu.edu.tw/members/detail/cswei"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "魏貽君（國立東華大學華文系副教授）",
+   "name": "魏貽君",
+   "affiliation_text": "國立東華大學華文系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://sili.ndhu.edu.tw/p/412-1055-18002.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "魏道駿（仁德醫護管理專科學校 餐旅管理科 助理教授兼科主任）",
+   "name": "魏道駿",
+   "affiliation_text": "仁德醫護管理專科學校 餐旅管理科 助理教授兼科主任",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Institution?id=000021FC0018",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "魏郁禎（國立臺北教育大學教育經營與管理學系特聘教授）",
+   "name": "魏郁禎",
+   "affiliation_text": "國立臺北教育大學教育經營與管理學系特聘教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "魏鈴穎（台灣大學助理教授）",
+   "name": "魏鈴穎",
+   "affiliation_text": "台灣大學助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://scholars.lib.ntu.edu.tw/entities/person/02416d1a-25ca-4013-99bf-ee31840c33a5",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃俊凱（田納西大學健康科學中心副教授）",
+   "name": "黃俊凱",
+   "affiliation_text": "田納西大學健康科學中心副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://pt2.cgu.edu.tw/p/404-1075-58159.php?Lang=zh-tw",
+    "https://scholar.google.com/citations?hl=en&user=Zz52QB0AAAAJ",
+    "https://www.uthsc.edu/faculty/profile/search.php?college=health-professions&dept-id=701904"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃善聖（逢甲大學通識中心兼任助理教授）",
+   "name": "黃善聖",
+   "affiliation_text": "逢甲大學通識中心兼任助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://coursedev.ithu.tw/view/112/1/0427",
+    "https://genedu.fcu.edu.tw/teachers/?job_title=%E5%85%BC%E4%BB%BB%E5%8A%A9%E7%90%86%E6%95%99%E6%8E%88&post_page=5"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃嘉斌（美國馬里蘭大學學院市分校副教授）",
+   "name": "黃嘉斌",
+   "affiliation_text": "美國馬里蘭大學學院市分校副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://www.cs.umd.edu/people/jbhuang"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃國源（陽明交通大學資工系退休教授）",
+   "name": "黃國源",
+   "affiliation_text": "陽明交通大學資工系退休教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://www.cs.nycu.edu.tw/members/detail/kyhuang"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,387 @@
+{
+ "batch": 14,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "廖東亮（逢甲大學財務金融學系教授(退休）",
+   "name": "廖東亮",
+   "affiliation_text": "逢甲大學財務金融學系教授(退休",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "廖莘雅（美國華盛頓州立大學心理系副教授）",
+   "name": "廖莘雅",
+   "affiliation_text": "美國華盛頓州立大學心理系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://psychology.wsu.edu/faculty/wsu-profile/hsinya.liao/",
+    "https://scholar.google.com/citations?hl=en&user=XP4wxfUAAAAJ"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "廖誼青（中國醫藥大學營養學系助理教授）",
+   "name": "廖誼青",
+   "affiliation_text": "中國醫藥大學營養學系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://cmuntt.cmu.edu.tw/teacher-pos/23"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張乃仁（林口長庚醫院整形重建外科教授）",
+   "name": "張乃仁",
+   "affiliation_text": "林口長庚醫院整形重建外科教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://www.cgmh.org.tw/drclub/Services/DoctorInfo/7213"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張于忻（台北市立大學華語文教學碩士學位學程助理教授）",
+   "name": "張于忻",
+   "affiliation_text": "台北市立大學華語文教學碩士學位學程助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://gpchinese.utaipei.edu.tw/p/412-1071-7448.php?Lang=zh-tw",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張偉德（樹德科技大學 電腦與通訊系特聘教授）",
+   "name": "張偉德",
+   "affiliation_text": "樹德科技大學 電腦與通訊系特聘教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張典正（美國德州大學醫學中心婦產部教授）",
+   "name": "張典正",
+   "affiliation_text": "美國德州大學醫學中心婦產部教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://directory.uthscsa.edu/academics/profile/changt3",
+    "https://pubmed.ncbi.nlm.nih.gov/20874104/",
+    "https://taiwaneseamericanhistory.org/whos-who-1948-tien-cheng-chang/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張勝南（台大醫學院臨床副教授）",
+   "name": "張勝南",
+   "affiliation_text": "台大醫學院臨床副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://epaper.mc.ntu.edu.tw/view.php?pt=a&rn=381-6.pdf&rt=pdf&v=381",
+    "https://scholars.lib.ntu.edu.tw/entities/person/03630dfb-fa91-4ede-ad32-87e2698bd859"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張勝彦（國立臺北大學人文學院歷史系歷史系教授兼民俗藝術研究所所長暨人文學院院長(現己退休）",
+   "name": "張勝彦",
+   "affiliation_text": "國立臺北大學人文學院歷史系歷史系教授兼民俗藝術研究所所長暨人文學院院長(現己退休",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://report.ndc.gov.tw/ReportFront/PageSystem/reportFileDownload/C10100234/001",
+    "https://www.wunan.com.tw/bookdetail?NO=10699"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張又中（逢甲大學材料科學與工程學系助理教授）",
+   "name": "張又中",
+   "affiliation_text": "逢甲大學材料科學與工程學系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://mse-r.ntust.edu.tw/p/412-1019-252.php?Lang=zh-tw",
+    "https://mse.fcu.edu.tw/faculty/?post_page=2"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張國財（新竹教育大學退休副教授）",
+   "name": "張國財",
+   "affiliation_text": "新竹教育大學退休副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://am.site.nthu.edu.tw/p/412-1133-31.php?Lang=zh-tw",
+    "https://damc.site.nthu.edu.tw/p/412-1102-83.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張國龍（台灣大學物理系退休教授）",
+   "name": "張國龍",
+   "affiliation_text": "台灣大學物理系退休教授",
+   "need": [
+    "research"
+   ],
+   "known_urls": [
+    "https://www.taiwanwatch.org.tw/node/586"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張孔昭（成功大學醫學院病理學科教授）",
+   "name": "張孔昭",
+   "affiliation_text": "成功大學醫學院病理學科教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://pathology.hosp.ncku.edu.tw/p/404-1062-257302.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張宇慧（國立中山大學教育所暨師培中心助理教授）",
+   "name": "張宇慧",
+   "affiliation_text": "國立中山大學教育所暨師培中心助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://ctep.nsysu.edu.tw/p/405-1136-275829,c16243.php?Lang=zh-tw",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張宜君（國立臺灣師範大學教育學系副教授）",
+   "name": "張宜君",
+   "affiliation_text": "國立臺灣師範大學教育學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://www.ed.ntnu.edu.tw/zh_tw/members/teacher110/%E5%BC%B5%E5%AE%9C%E5%90%9B-97618310"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張家誠（南臺科技大學創新產品設計系教授）",
+   "name": "張家誠",
+   "affiliation_text": "南臺科技大學創新產品設計系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://cpd.stust.edu.tw/tc/node/teacher_ccc",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張志丞（中央研究院資訊科學研究所博士後研究員）",
+   "name": "張志丞",
+   "affiliation_text": "中央研究院資訊科學研究所博士後研究員",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://iaa.nycu.edu.tw/?p=8338",
+    "https://iis.sinica.edu.tw/zh/page/People/PostdoctoralFellows.html",
+    "https://www.ios.sinica.edu.tw/singlepage.php?id=1"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張志宏（國立東華大學通識教育中心兼任講師）",
+   "name": "張志宏",
+   "affiliation_text": "國立東華大學通識教育中心兼任講師",
+   "need": [
+    "research"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張惠娟（台北醫學大學心智意識與腦科學研究所助理教授）",
+   "name": "張惠娟",
+   "affiliation_text": "台北醫學大學心智意識與腦科學研究所助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://gimbc.tmu.edu.tw/claire-h-c-chang/?lang=zh-hant",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張慈宜（輔大心理系副教授）",
+   "name": "張慈宜",
+   "affiliation_text": "輔大心理系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://psy.fju.edu.tw/news/63/tags/%E8%AA%B2%E7%A8%8B",
+    "https://researchinfo.fju.edu.tw/professors/777",
+    "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張政傑（東吳大學日本語文學系助理教授）",
+   "name": "張政傑",
+   "affiliation_text": "東吳大學日本語文學系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張敏琪（國立彰化師範大學美術系助理教授）",
+   "name": "張敏琪",
+   "affiliation_text": "國立彰化師範大學美術系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張文菁（靜宜大學行銷與數位經營管理學系副教授）",
+   "name": "張文菁",
+   "affiliation_text": "靜宜大學行銷與數位經營管理學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張昌祐（中央研究院生物多樣性研究中心助研究員）",
+   "name": "張昌祐",
+   "affiliation_text": "中央研究院生物多樣性研究中心助研究員",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://biodiv.sinica.edu.tw/zh_pi-Chang-Yu_Chang",
+    "https://www.ios.sinica.edu.tw/singlepage.php?id=1"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張晴文（國立清華大學藝術與設計學系副教授）",
+   "name": "張晴文",
+   "affiliation_text": "國立清華大學藝術與設計學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://artdesign.nthu.edu.tw/?page_id=103",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張智宏（國立中央大學認知神經科學研究所副教授）",
+   "name": "張智宏",
+   "affiliation_text": "國立中央大學認知神經科學研究所副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://icn.ncu.edu.tw/2-1-detail.php?id=6",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張智涵（國立臺灣大學生命科學系副教授）",
+   "name": "張智涵",
+   "affiliation_text": "國立臺灣大學生命科學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://scholars.lib.ntu.edu.tw/entities/person/62dcba41-c384-40fd-85d9-2e18a1b27a36",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張書君（臺北醫學大學轉譯醫學博士學位學程副教授）",
+   "name": "張書君",
+   "affiliation_text": "臺北醫學大學轉譯醫學博士學位學程副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://hub.tmu.edu.tw/zh/persons/shu-chun-chang/",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張書林（嘉南藥理大學化粧品應用與管理系助理教授）",
+   "name": "張書林",
+   "affiliation_text": "嘉南藥理大學化粧品應用與管理系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://cs.cnu.edu.tw/?.__id=P20210409141835467&.p=Hjrg",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張楓明（南華大學社會工作學系副教授）",
+   "name": "張楓明",
+   "affiliation_text": "南華大學社會工作學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://as3.nhu.edu.tw/Web/UserDetail?id=100617&n=%E5%B0%88%E4%BB%BB%E6%95%99%E5%B8%AB&unitid=5051"
+   ]
+  }
+ ]
+}

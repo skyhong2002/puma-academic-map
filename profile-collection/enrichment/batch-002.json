@@ -1,0 +1,471 @@
+{
+ "batch": 2,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "吳家恆（世新大學通識中心兼任講師）",
+   "research": {
+    "keywords": [
+     {
+      "label": "歐洲音樂史",
+      "source": "https://gd.wp.shu.edu.tw/?page_id=213"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "世新大學兼任教師名單頁列「吳家恒」講師、專長歐洲音樂史、通識：音樂欣賞（用字略異，同為世新兼任講師、愛丁堡大學音樂碩士）；未找到官方單人照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳文晉（中央研究院生物化學研究所研究副技師）",
+   "research": {
+    "keywords": [
+     {
+      "label": "蛋白質核磁共振學",
+      "source": "https://www.ibc.sinica.edu.tw/facultyV.php?type=SP&lang=&DatetimeStr=20210917081117&lang="
+     },
+     {
+      "label": "結構生物學",
+      "source": "https://www.ibc.sinica.edu.tw/facultyV.php?type=SP&lang=&DatetimeStr=20210917081117&lang="
+     },
+     {
+      "label": "DNA的突變與修復機制",
+      "source": "https://www.ibc.sinica.edu.tw/facultyV.php?type=SP&lang=&DatetimeStr=20210917081117&lang="
+     }
+    ],
+    "scholar": "https://scholar.google.com/citations?user=_1aq1g8AAAAJ"
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-002/wu-wenjin.jpg",
+    "crop": null,
+    "source_url": "https://www.ibc.sinica.edu.tw/facultyV.php?type=SP&lang=&DatetimeStr=20210917081117&lang=",
+    "credit": "來源：中央研究院生物化學研究所官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "院所教職員頁，姓名、職稱(研究副技師)相符；Scholar 連結取自該頁。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳逸如（林口長庚神經內科部部主任）",
+   "research": {
+    "keywords": [
+     {
+      "label": "巴金森氏症",
+      "source": "https://www.cgmh.org.tw/index.aspx/Services/DoctorInfo/2000"
+     },
+     {
+      "label": "肉毒桿菌素注射",
+      "source": "https://www.cgmh.org.tw/index.aspx/Services/DoctorInfo/2000"
+     },
+     {
+      "label": "肌張力不全",
+      "source": "https://www.cgmh.org.tw/index.aspx/Services/DoctorInfo/2000"
+     },
+     {
+      "label": "脊髓小腦共濟失調症",
+      "source": "https://www.cgmh.org.tw/index.aspx/Services/DoctorInfo/2000"
+     },
+     {
+      "label": "遺傳性神經退化疾病",
+      "source": "https://www.cgmh.org.tw/index.aspx/Services/DoctorInfo/2000"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-002/wu-yiru.jpg",
+    "crop": [
+     42,
+     36,
+     180,
+     180
+    ],
+    "source_url": "https://www.cgmh.org.tw/index.aspx/Services/DoctorInfo/2000",
+    "credit": "來源：長庚醫療財團法人官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "長庚醫師資料頁，林口長庚神經內科部部主任，專長與照片取自該頁；原圖有白邊，已裁切灰底區。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳順安（新竹市南門醫院主治醫師）",
+   "research": {
+    "keywords": [
+     {
+      "label": "兒童過敏氣喘風濕科",
+      "source": "https://www.nanmen.com.tw/DepartmentDetail/52"
+     },
+     {
+      "label": "過敏性疾病",
+      "source": "https://www.nanmen.com.tw/DepartmentDetail/52"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-002/wu-shunan.jpg",
+    "crop": null,
+    "source_url": "https://www.nanmen.com.tw/DepartmentDetail/52",
+    "credit": "來源：南門綜合醫院官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "南門醫院小兒科頁，主治醫師，專長與照片取自該頁。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "呂木蘭（國立台中教育大學兼任講師）",
+   "research": {
+    "keywords": [
+     {
+      "label": "性別平等教育",
+      "source": "https://ge.ntcu.edu.tw/teacher?cate=1"
+     },
+     {
+      "label": "食農教育",
+      "source": "https://ge.ntcu.edu.tw/teacher?cate=1"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "臺中教育大學通識教育中心師資介紹列兼任講師、研究專長如上；該頁無照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "呂紹瑋（國立陽明交通大學生物醫學研究所博士候選人）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-002/lu-shaowei.jpg",
+    "crop": null,
+    "source_url": "https://kid-pro.com/about-shawnlu",
+    "credit": "來源：呂紹瑋個人／所屬公司網站（kid-pro.com）人物介紹頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔"
+   },
+   "note": "該頁寫陽明交大『生物醫學工程學系』博士候選人（任務為『生物醫學研究所』，系所字樣略異，姓名、學校、博士候選人身分一致）；研究詞僅取自『腦機介面產業16年研發與創業經驗』，建議複核。 [審核剔除研究詞]"
+  },
+  {
+   "section": "會員名單",
+   "raw": "呂萱萱（UT MD Anderson Cancer CenterResearch Scientist）",
+   "research": {
+    "keywords": [
+     {
+      "label": "Areca nut extract",
+      "source": "https://mdanderson.elsevierpure.com/en/persons/hsuan-hsuan-lu/"
+     },
+     {
+      "label": "Autophagy",
+      "source": "https://mdanderson.elsevierpure.com/en/persons/hsuan-hsuan-lu/"
+     },
+     {
+      "label": "Mouth carcinoma",
+      "source": "https://mdanderson.elsevierpure.com/en/persons/hsuan-hsuan-lu/"
+     },
+     {
+      "label": "Lung cancer",
+      "source": "https://mdanderson.elsevierpure.com/en/persons/hsuan-hsuan-lu/"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "MD Anderson Pure 個人頁（Research Scientist, Melanoma Medical Oncology），關鍵詞為該頁列出之 fingerprint；中文名由 jacbs 論文集中「呂萱萱 Hsuan-Hsuan Lu」對應。頁面僅有佔位圖，無頭像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "周文一（宏國德霖科技大學退休副教授）",
+   "note": "報導指為『天牛博士』、《台灣天牛圖鑑》作者，曾任德霖技術學院副教授；來源為新聞而非官方頁，僅一個研究詞，無官方照片。 [審核剔除研究詞]"
+  },
+  {
+   "section": "會員名單",
+   "raw": "周理悧（台南私立應用科技大學）",
+   "note": "未找到可確認為同一人的資料／來源，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "唐嘉妤（國立政治大學社會學系博士候選人）",
+   "note": "未找到可確認為同一人的資料／來源，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "孫傳硯（陽明交通大學醫學系講師）",
+   "note": "未找到可確認為同一人的資料／來源，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "孫啓榕（中國科技大學建築系專任講師）",
+   "note": "未找到可確認為同一人的資料／來源，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "山人幸琪（加拿大英屬哥倫比亞大學）",
+   "research": {
+    "keywords": [
+     {
+      "label": "Health Sciences Education",
+      "source": "https://news.ubc.ca/expert/hsingchi-von-bergmann/"
+     },
+     {
+      "label": "International Comparative Studies",
+      "source": "https://news.ubc.ca/expert/hsingchi-von-bergmann/"
+     },
+     {
+      "label": "Inquiry-Based Education",
+      "source": "https://news.ubc.ca/expert/hsingchi-von-bergmann/"
+     },
+     {
+      "label": "Admission & Assessment",
+      "source": "https://news.ubc.ca/expert/hsingchi-von-bergmann/"
+     }
+    ],
+    "scholar": "https://scholar.google.com/citations?user=kHBxUQgAAAAJ"
+   },
+   "note": "UBC 專家頁 Dr. HsingChi von Bergmann（牙醫學院教授）；2025 NTNU 全球研究論壇手冊以『山人幸琪教授』對應，身分確認。未找到可用官方照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "岳宜欣（國立台中科技大學語言中心助理教授）",
+   "note": "未找到可確認為同一人的資料／來源，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "崔博翔（國立清華大學生醫工程與環境科學系教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "定量超音波影像生物標誌",
+      "source": "https://scholars.nthu.edu.tw/esploro/profile/pohsiang_tsui"
+     },
+     {
+      "label": "人工智慧合成式超音波影像",
+      "source": "https://scholars.nthu.edu.tw/esploro/profile/pohsiang_tsui"
+     },
+     {
+      "label": "超音波組織特性化",
+      "source": "https://scholars.nthu.edu.tw/esploro/profile/pohsiang_tsui"
+     },
+     {
+      "label": "超音波影像軟體開發與整合",
+      "source": "https://scholars.nthu.edu.tw/esploro/profile/pohsiang_tsui"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-002/tsui.jpg",
+    "crop": null,
+    "source_url": "https://www.cgu.edu.tw/bme/FullTimeProfessorManagement/Detail/80a93c00-82c7-49df-ad44-6a1c52b1d878?nodeId=16011",
+    "credit": "來源：長庚大學生物醫學工程學系（崔博翔原任職單位）官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "清大 Scholars 頁（生醫工程與環境科學系教授）符合；其原任長庚大學，同一研究領域（超音波組織特性化）。照片取自長庚大學舊人物頁（原任職），清大頁面無照片，建議複核是否沿用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "巫梓豪（美國喬治亞州立大學刑事司法與犯罪學系博士候選人）",
+   "note": "未找到可確認為同一人的資料／來源，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "廖偉翔（加拿大麥基爾大學精神醫學系博士生）",
+   "note": "芭樂人類學文章：台大精神科總醫師，2025 赴麥基爾大學 Mental Health 博士班；興趣詞取自文中描述；頁面僅有演講照，不採用。 [審核剔除研究詞]"
+  },
+  {
+   "section": "會員名單",
+   "raw": "廖御呈（國立屏東大學電腦科學與人工智慧學系兼任講師）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-002/liao-yucheng.jpg",
+    "crop": null,
+    "source_url": "https://cs.nptu.edu.tw/p/412-1111-10341.php?Lang=zh-tw",
+    "credit": "來源：國立屏東大學電腦科學與人工智慧學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "系所教師頁僅列學歷與授課科目，無研究專長；照片取自該頁。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "廖振博（美國賓州大學(UPenn)博士後研究員）",
+   "note": "未找到可確認為同一人的資料／來源，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "廖映庭（國立陽明交通大學醫學系講師）",
+   "note": "未找到可確認為同一人的資料／來源，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "廖紫均（國立自然科學博物館副研究員）",
+   "note": "未找到可確認為同一人的資料／來源，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張家銘（長庚大學醫學系副教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "成人精神醫學",
+      "source": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/0919"
+     },
+     {
+      "label": "憂鬱症",
+      "source": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/0919"
+     },
+     {
+      "label": "自殺",
+      "source": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/0919"
+     },
+     {
+      "label": "創傷後壓力疾患",
+      "source": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/0919"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "長庚醫師頁：林口長庚精神科副教授級主治醫師；頁面未明寫隸屬長庚大學醫學系，同名者於其他機構已排除，建議複核。照片網址無法取得。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張懿慈（明新科技大學兼任助理教授）",
+   "note": "未找到可確認為同一人的資料／來源，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張揚沛（高雄市立大同醫院主治醫師）",
+   "research": {
+    "keywords": [
+     {
+      "label": "動作障礙",
+      "source": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/K968"
+     },
+     {
+      "label": "肉毒桿菌注射",
+      "source": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/K968"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-002/zhang-yangpei.jpg",
+    "crop": null,
+    "source_url": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/K968",
+    "credit": "來源：長庚醫療財團法人官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "長庚醫師頁：高雄市立大同醫院神經內科主治醫師，專長與照片取自該頁。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張書豪（輔大醫學系/輔大醫院臨床助理教授/主治醫師）",
+   "research": {
+    "keywords": [
+     {
+      "label": "微創人工膝關節置換",
+      "source": "https://orth.fjuh.fju.edu.tw/wordpress/%E5%BC%B5%E6%9B%B8%E8%B1%AA%E4%B8%BB%E6%B2%BB%E9%86%AB%E5%B8%AB/"
+     },
+     {
+      "label": "退化性關節病變",
+      "source": "https://orth.fjuh.fju.edu.tw/wordpress/%E5%BC%B5%E6%9B%B8%E8%B1%AA%E4%B8%BB%E6%B2%BB%E9%86%AB%E5%B8%AB/"
+     },
+     {
+      "label": "關節保留治療",
+      "source": "https://orth.fjuh.fju.edu.tw/wordpress/%E5%BC%B5%E6%9B%B8%E8%B1%AA%E4%B8%BB%E6%B2%BB%E9%86%AB%E5%B8%AB/"
+     },
+     {
+      "label": "骨質疏鬆",
+      "source": "https://orth.fjuh.fju.edu.tw/wordpress/%E5%BC%B5%E6%9B%B8%E8%B1%AA%E4%B8%BB%E6%B2%BB%E9%86%AB%E5%B8%AB/"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-002/zhang-shuhao.png",
+    "crop": [
+     0,
+     30,
+     408,
+     408
+    ],
+    "source_url": "https://orth.fjuh.fju.edu.tw/wordpress/%E5%BC%B5%E6%9B%B8%E8%B1%AA%E4%B8%BB%E6%B2%BB%E9%86%AB%E5%B8%AB/",
+    "credit": "來源：輔仁大學附設醫院骨科官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "輔大醫院骨科主治醫師頁，專長與照片取自該頁（去背 PNG，白底）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張瑞林（法國國家科學研究中心暨奧地利考古研究院兼任研究員）",
+   "research": {
+    "keywords": [
+     {
+      "label": "莎草紙學",
+      "source": "https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/24/24-01.html"
+     },
+     {
+      "label": "古希臘文獻考證",
+      "source": "https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/24/24-01.html"
+     },
+     {
+      "label": "希臘羅馬時期埃及",
+      "source": "https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/24/24-01.html"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "臺大歷史系學術通訊（2018）編按：專長如上、奧地利科研院古代文化史研究所榮譽研究員；來源年代較早，現況（CNRS 兼任）未於官方頁確認；無官方照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張皓（國立清華大學社會學研究所博士候選人）",
+   "research": {
+    "keywords": [
+     {
+      "label": "政治社會學",
+      "source": "https://iosoc.site.nthu.edu.tw/p/405-1547-292374%2Cc21983.php?Lang=zh-tw"
+     },
+     {
+      "label": "族群社會學",
+      "source": "https://iosoc.site.nthu.edu.tw/p/405-1547-292374%2Cc21983.php?Lang=zh-tw"
+     },
+     {
+      "label": "族群認同",
+      "source": "https://iosoc.site.nthu.edu.tw/p/405-1547-292374%2Cc21983.php?Lang=zh-tw"
+     },
+     {
+      "label": "青年政治",
+      "source": "https://iosoc.site.nthu.edu.tw/p/405-1547-292374%2Cc21983.php?Lang=zh-tw"
+     },
+     {
+      "label": "民粹主義",
+      "source": "https://iosoc.site.nthu.edu.tw/p/405-1547-292374%2Cc21983.php?Lang=zh-tw"
+     },
+     {
+      "label": "歷史社會學",
+      "source": "https://iosoc.site.nthu.edu.tw/p/405-1547-292374%2Cc21983.php?Lang=zh-tw"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "清大社會所人物頁，研究領域與興趣取自該頁；該頁照片為生活照（非正式肖像），不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張耀仁（耶魯大學醫學院血液腫瘤科助理教授）",
+   "note": "未找到可確認為同一人的資料／來源，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張興東（國立雲林科技大學工商管理學程兼任講師）",
+   "note": "未找到可確認為同一人的資料／來源，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張鑑元（清大助理教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "silicon spin-qubit devices",
+      "source": "https://sites.google.com/view/chienyuanchang/home"
+     },
+     {
+      "label": "cryogenic control",
+      "source": "https://sites.google.com/view/chienyuanchang/home"
+     },
+     {
+      "label": "quantum-error-correction decoders",
+      "source": "https://sites.google.com/view/chienyuanchang/home"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "清大半導體研究學院助理教授（Ted C. Y. Chang, Tedious Quantum Lab，Georgia Tech 物理博士）；研究詞取自實驗室網站敘述；未找到官方單人照片。"
+  }
+ ]
+}

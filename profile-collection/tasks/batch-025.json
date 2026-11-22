@@ -1,0 +1,388 @@
+{
+ "batch": 25,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "芙厄阿布達爾（臺灣本土神學研究中心研究員）",
+   "name": "芙厄阿布達爾",
+   "affiliation_text": "臺灣本土神學研究中心研究員",
+   "need": [
+    "research"
+   ],
+   "known_urls": [
+    "https://www.actt.org.tw/salon/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "英家銘（國立清華大學副教授）",
+   "name": "英家銘",
+   "affiliation_text": "國立清華大學副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://his.site.nthu.edu.tw/p/406-1397-184975,r3130.php?Lang=zh-tw",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "荊偉民（國立高雄師範大學 化學系副教授）",
+   "name": "荊偉民",
+   "affiliation_text": "國立高雄師範大學 化學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://sso.nknu.edu.tw/DataOpen2Search/vita.aspx?UNID=4526",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "莊克士（國立清華大學退休教授）",
+   "name": "莊克士",
+   "affiliation_text": "國立清華大學退休教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "http://mx.nthu.edu.tw/~kschuang/interest.htm",
+    "https://bmes.site.nthu.edu.tw/p/404-1360-171922.php?Lang=zh-tw",
+    "https://ess.site.nthu.edu.tw/p/404-1351-141251.php"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "莊千慧（日本 神戶女子大學副教授）",
+   "name": "莊千慧",
+   "affiliation_text": "日本 神戶女子大學副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://shinjo-lab.kobe-wu.ac.jp/researcher/c-chuang/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "莊士杰（紐約州立大學助理教授）",
+   "name": "莊士杰",
+   "affiliation_text": "紐約州立大學助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://www.downstate.edu/education-training/school-of-graduate-studies/programs/neural-behavioral-science/faculty.html",
+    "https://www.downstate.edu/education-training/student-affairs/_documents/student-policies/bulletins/bulletin_com_sgs_2016-18.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "莊岳峰（崑山科技大學 公共關係曁廣告系副教授）",
+   "name": "莊岳峰",
+   "affiliation_text": "崑山科技大學 公共關係曁廣告系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "莊振義（國立臺灣大學地理環境資源學系教授）",
+   "name": "莊振義",
+   "affiliation_text": "國立臺灣大學地理環境資源學系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://scholars.lib.ntu.edu.tw/entities/person/345b3032-60cf-40bf-9ce0-aafbd8d1d055",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "莊文瑞（東吳大學哲學系退休副教授）",
+   "name": "莊文瑞",
+   "affiliation_text": "東吳大學哲學系退休副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://scuphi.pph.scu.edu.tw/about/3",
+    "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "莊文芳（輔仁大學社會工作系副教授）",
+   "name": "莊文芳",
+   "affiliation_text": "輔仁大學社會工作系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://hrweb.fju.edu.tw/DownloadNewsFileServlet?file=1067",
+    "https://researchinfo.fju.edu.tw/professors/2797",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "莊雪華（國立中山大學教育所特聘教授）",
+   "name": "莊雪華",
+   "affiliation_text": "國立中山大學教育所特聘教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://education.nsysu.edu.tw/p/405-1134-241825,c160.php?Lang=zh-tw",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "莫康笙（致理科技大學 應用英語系助理教授）",
+   "name": "莫康笙",
+   "affiliation_text": "致理科技大學 應用英語系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://ae100.chihlee.edu.tw/p/412-1039-3200.php",
+    "https://data.gov.tw/dataset/27931",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "萬孟瑋（嘉南藥理大學環境工程與科學系教授）",
+   "name": "萬孟瑋",
+   "affiliation_text": "嘉南藥理大學環境工程與科學系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://ev.cnu.edu.tw/?.__id=P20210223163951102&.p=HjrH",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "萬宗綸（國立陽明交通大學外國語文學系副教授）",
+   "name": "萬宗綸",
+   "affiliation_text": "國立陽明交通大學外國語文學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://www.tsunglunwan.com/mandarin.html"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "葉信鴻（美國聖塔克拉拉大學教學副教授、加州大學柏克萊分校東亞系台灣組講師）",
+   "name": "葉信鴻",
+   "affiliation_text": "美國聖塔克拉拉大學教學副教授、加州大學柏克萊分校東亞系台灣組講師",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://ealc.berkeley.edu/people/hsin-hung-yeh",
+    "https://www.scu.edu/cas/modernlanguages/faculty--staff/sean-yeh/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "葉國樑（台灣師範大學健康促進與衛生教育學系退休教授）",
+   "name": "葉國樑",
+   "affiliation_text": "台灣師範大學健康促進與衛生教育學系退休教授",
+   "need": [
+    "research"
+   ],
+   "known_urls": [
+    "https://www.he.ntnu.edu.tw/wp-content/uploads/2020/02/%E6%97%A5%E9%96%93%E9%83%A8%E7%A0%94%E7%A9%B6%E7%94%9F%E6%89%8B%E5%86%8A%EF%BC%88104%E5%AD%B8%E5%B9%B4%E5%BA%A6%EF%BC%89.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "葉弘德（陽明交通大學環境工程研究所榮譽退休教授）",
+   "name": "葉弘德",
+   "affiliation_text": "陽明交通大學環境工程研究所榮譽退休教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://ev.nycu.edu.tw/zh_tw/about",
+    "https://ev.nycu.edu.tw/zh_tw/member/%E8%91%89%E5%BC%98%E5%BE%B7-78000680"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "葉憲清（國立體育大學榮譽教授）",
+   "name": "葉憲清",
+   "affiliation_text": "國立體育大學榮譽教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://dostsa.ntsu.edu.tw/p/412-1024-2.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "葉昱緯（國立臺灣大學博士後研究員）",
+   "name": "葉昱緯",
+   "affiliation_text": "國立臺灣大學博士後研究員",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://homepage.ntu.edu.tw/~forestry/UT_NTU/2022/UTokyo-NTU%20Joint%20Conference%202022.htm"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "葉根泉（中國文化大學戲劇學系副教授）",
+   "name": "葉根泉",
+   "affiliation_text": "中國文化大學戲劇學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://dta.pccu.edu.tw/p/412-1229-4501.php?Lang=zh-tw",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "葉正沛（陽明交通大學教授）",
+   "name": "葉正沛",
+   "affiliation_text": "陽明交通大學教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://iaa.nycu.edu.tw/?page_id=200"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "葉秀珍（國立中正大學社會福利學系退休教授）",
+   "name": "葉秀珍",
+   "affiliation_text": "國立中正大學社會福利學系退休教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "葉筱凡（長庚大學人文及社會學科助理教授）",
+   "name": "葉筱凡",
+   "affiliation_text": "長庚大學人文及社會學科助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://pure.lib.cgu.edu.tw/zh/persons/hsiao-fan-yeh-2/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "董致韡（台灣大學農藝學系教授）",
+   "name": "董致韡",
+   "affiliation_text": "台灣大學農藝學系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://scholars.lib.ntu.edu.tw/entities/person/762168bc-705c-42c4-a973-2d12ede31eda",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡佩桂（國立高雄師範大學跨領域藝術研究所副教授）",
+   "name": "蔡佩桂",
+   "affiliation_text": "國立高雄師範大學跨領域藝術研究所副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://www.inarts.world/teacher/%E8%94%A1%E4%BD%A9%E6%A1%82/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡佩芸（國立台灣大學重點科技研究學院教授）",
+   "name": "蔡佩芸",
+   "affiliation_text": "國立台灣大學重點科技研究學院教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://giee.ntu.edu.tw/en/faculty/ics/",
+    "https://gsat.ntu.edu.tw/tw/news/364/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡佳妤（國立高雄大學應用經濟學系助理教授）",
+   "name": "蔡佳妤",
+   "affiliation_text": "國立高雄大學應用經濟學系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡佾玲（國立臺灣藝術大學戲劇學系助理教授）",
+   "name": "蔡佾玲",
+   "affiliation_text": "國立臺灣藝術大學戲劇學系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡偉博（台灣大學化工系教授）",
+   "name": "蔡偉博",
+   "affiliation_text": "台灣大學化工系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://che.ntu.edu.tw/che/WeiborTsai.html",
+    "https://scholars.lib.ntu.edu.tw/entities/person/8870cf05-4ab6-428b-b614-6a43a39aa4c2"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡協澄（國立臺灣大學機械工程學系副教授）",
+   "name": "蔡協澄",
+   "affiliation_text": "國立臺灣大學機械工程學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://scholars.lib.ntu.edu.tw/entities/person/7e4d7685-19db-4520-b749-1e46a552df69",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,435 @@
+{
+ "batch": 3,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "彭立言（英國牛津大學法學博士）",
+   "research": {
+    "keywords": [
+     {
+      "label": "international legal theory",
+      "source": "https://ohrh.law.ox.ac.uk/author/li-yen-peng/"
+     },
+     {
+      "label": "international law-making",
+      "source": "https://ohrh.law.ox.ac.uk/author/li-yen-peng/"
+     },
+     {
+      "label": "human rights advocacy",
+      "source": "https://ohrh.law.ox.ac.uk/author/li-yen-peng/"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "OHRH 作者頁：台灣律師、牛津大學 DPhil in Law（St Antony's College），與署名「英國牛津大學法學博士」相符。照片為作者頁單人照但背景為酒吧、偏生活照，請審核是否採用。 [審核剔除頭像]"
+  },
+  {
+   "section": "會員名單",
+   "raw": "彭筱芳（台灣大學醫學檢驗暨生物技術學系博士後研究員）",
+   "note": "台大醫技系年報顯示為博五學生（永順博士生獎學金），非博士後；無個人頁、研究主題與照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "彭美蓁（前遠東科技大學／長榮大學兼任講師）",
+   "research": {
+    "keywords": [
+     {
+      "label": "複雜性創傷",
+      "source": "https://www.farhugs.com/providers/764/about"
+     },
+     {
+      "label": "童年逆境",
+      "source": "https://www.farhugs.com/providers/764/about"
+     },
+     {
+      "label": "哀傷輔導",
+      "source": "https://www.farhugs.com/providers/764/about"
+     },
+     {
+      "label": "伴侶關係",
+      "source": "https://www.farhugs.com/providers/764/about"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-003/peng_mz.jpg",
+    "crop": [
+     110,
+     0,
+     400,
+     400
+    ],
+    "source_url": "https://www.farhugs.com/providers/764/about",
+    "credit": "來源：FarHugs 遠距抱抱 諮商心理師介紹頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "FarHugs 頁面：諮商心理師，經歷列「長榮大學 英文講師」，與署名相符（頁面未見遠東科大，但同名且有長榮經歷）。來源為商業平台，非校方頁面。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "房彥輝（實踐大學兼任講師）",
+   "note": "名綸法律事務所頁面確認為實踐大學兼任講師；頁面無明確研究專長欄位，故不填研究主題。照片為辦公桌前單人照，臉部偏小。 [審核剔除頭像]"
+  },
+  {
+   "section": "會員名單",
+   "raw": "曹英傑（國立陽明交通大學兼任助理教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "企業策略與轉型",
+      "source": "https://efundgroup.com/%E8%91%A3%E4%BA%8B%E9%95%B7%E7%B0%A1%E4%BB%8B/"
+     },
+     {
+      "label": "新創與商業模式",
+      "source": "https://efundgroup.com/%E8%91%A3%E4%BA%8B%E9%95%B7%E7%B0%A1%E4%BB%8B/"
+     },
+     {
+      "label": "品牌與市場成長",
+      "source": "https://efundgroup.com/%E8%91%A3%E4%BA%8B%E9%95%B7%E7%B0%A1%E4%BB%8B/"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-003/tsao2.jpg",
+    "crop": null,
+    "source_url": "https://efundgroup.com/%E8%91%A3%E4%BA%8B%E9%95%B7%E7%B0%A1%E4%BB%8B/",
+    "credit": "來源：益紡創新（E Fund Group）官網董事長簡介頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "本人所屬公司官網簡介列「國立陽明交通大學 兼任助理教授」，與署名一致；為業界背景，關鍵詞取自其「專業領域」欄位。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "曾博泓（淡江大學講師）",
+   "research": {
+    "keywords": [
+     {
+      "label": "心理諮商",
+      "source": "https://www.core.tku.edu.tw/core/?page_id=4131"
+     },
+     {
+      "label": "反思寫作",
+      "source": "https://www.core.tku.edu.tw/core/?page_id=4131"
+     },
+     {
+      "label": "通識博雅教育",
+      "source": "https://www.core.tku.edu.tw/core/?page_id=4131"
+     },
+     {
+      "label": "性別關係教育",
+      "source": "https://www.core.tku.edu.tw/core/?page_id=4131"
+     },
+     {
+      "label": "多元文化",
+      "source": "https://www.core.tku.edu.tw/core/?page_id=4131"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-003/tseng.jpg",
+    "crop": [
+     0,
+     150,
+     1045,
+     1045
+    ],
+    "source_url": "https://www.core.tku.edu.tw/core/?page_id=4131",
+    "credit": "來源：淡江大學通識與核心課程中心官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "淡江大學通識與核心課程中心教師頁，職稱講師，與署名一致。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李兆然（李兆然家醫科診所院長，台大醫院家庭醫學科兼任教學主治醫師院長主治醫師）",
+   "note": "TAFM 尋找家庭醫師頁僅有診所地址，無專長、無照片；未找到其他來源。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李如韻（康寧大學通識中心兼任講師）",
+   "note": "已知康寧大學頁面 404，未找到替代來源。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李恩齊（國立陽明交通大學助理研究員）",
+   "note": "NYCU 博雅書院頁面為「專案助理研究員」職務描述（非研究主題）且無照片；未找到可確認的研究領域。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李柏翰（東吳大學法學院法律系博士生）",
+   "note": "同名搜尋僅得東吳法律系博士班一般資訊，無法確認個人。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李泳泉（世新大學退休講師）",
+   "note": "世新校園報導僅提及 2019 年退休，無研究領域與照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李漢偉（國立台南大學國語文學系退休教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "現代文學理論",
+      "source": "https://ksliterary.ksml.edu.tw/author/Details?Parser=99%2C3%2C22%2C%2C%2C%2C83"
+     },
+     {
+      "label": "臺灣文學",
+      "source": "https://ksliterary.ksml.edu.tw/author/Details?Parser=99%2C3%2C22%2C%2C%2C%2C83"
+     },
+     {
+      "label": "國小語文教學",
+      "source": "https://ksliterary.ksml.edu.tw/author/Details?Parser=99%2C3%2C22%2C%2C%2C%2C83"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "高雄文學資料庫作者頁：李漢偉（1955 生），臺南大學國語文學系教授，與署名相符。照片為戶外單人生活照（圖檔名「李偉.jpg」），非校方官網，請審核。南大系網頁未找到其個人頁。 [審核剔除頭像]"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李銘順（國家住都中心董事）",
+   "note": "HURC 董監事名單僅列其為台灣生態城市暨國土規劃學會副秘書長，無簡介、研究領域或照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李錦旭（屏東大學退休老師）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-003/li_cs.jpg",
+    "crop": [
+     0,
+     354,
+     600,
+     600
+    ],
+    "source_url": "https://social.nptu.edu.tw/p/405-1128-103668%2Cc10404.php?Lang=zh-tw",
+    "credit": "來源：國立屏東大學社會發展學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "屏東大學社發系頁面：兼任副教授，國立臺灣師範大學教育學系博士。頁面無「專長」欄，關鍵詞取自其「開課名稱」；照片背景含海報，已裁切至本人。 [審核剔除研究詞]"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李長泰（台灣經濟研究院副研究員）",
+   "note": "台經院頁面查無此人（搜尋只出現他人）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "杜宜儒（美國加州大學聖塔克魯斯分校 UC Santa Cruz講師 lecturer）",
+   "research": {
+    "keywords": [
+     {
+      "label": "Self-Directed Learning in Digital Discourse",
+      "source": "https://campusdirectory.ucsc.edu/cd_detail?uid=etu6"
+     },
+     {
+      "label": "Second Language Writing Feedback",
+      "source": "https://campusdirectory.ucsc.edu/cd_detail?uid=etu6"
+     },
+     {
+      "label": "Teaching Language with Authentic Materials",
+      "source": "https://campusdirectory.ucsc.edu/cd_detail?uid=etu6"
+     },
+     {
+      "label": "Educational technology and online teaching",
+      "source": "https://campusdirectory.ucsc.edu/cd_detail?uid=etu6"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "UCSC 名錄顯示 I Ju Tu（Lecturer in Chinese, Languages and Applied Linguistics），與杜宜儒相符。照片為頁面內嵌 base64 圖（230×250），解析度偏低。 [審核剔除頭像]"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林以信（美國杜克大學(Duke University)博士候選人）",
+   "research": {
+    "keywords": [
+     {
+      "label": "神經免疫學",
+      "source": "https://www.csr.ntnu.edu.tw/index.php/2023/02/13/2023-02-13-01/"
+     },
+     {
+      "label": "多發性硬化症",
+      "source": "https://www.csr.ntnu.edu.tw/index.php/2023/02/13/2023-02-13-01/"
+     },
+     {
+      "label": "阿茲海默症",
+      "source": "https://www.csr.ntnu.edu.tw/index.php/2023/02/13/2023-02-13-01/"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "師大體育系報導：林以信於 Duke 攻讀免疫學博士，與署名相符。報導內照片為活動照且頭部被裁切，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林坤熒（南開科技大學退休助理教授）",
+   "note": "已知 PDF 僅列名於南開科大教授群，未找到個人頁。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林士哲（中研院生醫所博士後研究員）",
+   "note": "IBMS 新聞頁僅顯示為 2022 獎項得主（指導老師楊世斌），無研究主題與照片；同名同姓無法進一步確認。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林奕彤（奧地利維也納音樂暨表演藝術大學博士生）",
+   "note": "清大研討會頁僅有論文主題（音樂外交，以台北世紀交響樂團 1980 年維也納演出為例），無個人頁與照片，不足以列為研究關鍵詞。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林慧姿（國立台中科技大學退休教授）",
+   "note": "搜尋無任何對應結果。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林慧瑜（國立台北教育大學教育系副教授退休）",
+   "note": "已知 NTUE PDF 僅為捐款／追思紀事（林慧瑜教授退休），無研究領域與照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林慧瑜（國立台北教育大學退休副教授）",
+   "note": "已知 NTUE PDF 僅為捐款／追思紀事（林慧瑜教授退休），無研究領域與照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林振祥（國立中興大學生命科學系）",
+   "research": {
+    "keywords": [
+     {
+      "label": "植物對於非生物逆境的防禦機制",
+      "source": "https://lifes.nchu.edu.tw/web/faculty/detail.php?lang=zh_tw&cid=1&id=16"
+     },
+     {
+      "label": "small RNA",
+      "source": "https://lifes.nchu.edu.tw/web/faculty/detail.php?lang=zh_tw&cid=1&id=16"
+     },
+     {
+      "label": "小分子RNA機制與植物逆境",
+      "source": "https://lifes.nchu.edu.tw/web/faculty/detail.php?lang=zh_tw&cid=1&id=16"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "中興大學生命科學系個人頁（教授，生理組）。頁面僅有實驗室團體照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林文琳（輔仁大學營養科學系助理教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "食品化學",
+      "source": "https://www.ns.fju.edu.tw/Faculty/Detail/1056"
+     },
+     {
+      "label": "分子生物",
+      "source": "https://www.ns.fju.edu.tw/Faculty/Detail/1056"
+     },
+     {
+      "label": "動物實驗",
+      "source": "https://www.ns.fju.edu.tw/Faculty/Detail/1056"
+     },
+     {
+      "label": "麻芛",
+      "source": "https://www.ns.fju.edu.tw/Faculty/Detail/1056"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "輔大營養科學系教師頁（助理教授，營養與代謝疾病研究室）。頁面無個人照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林明芳（元培醫事科技大學醫放系前兼任助理教授）",
+   "note": "元培醫放系課表有林明芳老師，但無個人頁、專長與照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林晉宇（輔仁大學退休客座教授）",
+   "note": "僅在連署報導見「輔仁大學退休客座教授」，無法確認系所與研究領域。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林治萱（吉紅本屋有限公司/新生醫護管理專科學校幼兒保育科執行長 /兼任部定講師）",
+   "research": {
+    "keywords": [
+     {
+      "label": "失智症照護",
+      "source": "https://child.hsc.edu.tw/p/412-1009-1956.php?Lang=zh-tw"
+     },
+     {
+      "label": "社區健康促進",
+      "source": "https://child.hsc.edu.tw/p/412-1009-1956.php?Lang=zh-tw"
+     },
+     {
+      "label": "個案管理",
+      "source": "https://child.hsc.edu.tw/p/412-1009-1956.php?Lang=zh-tw"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-003/lin_cs.png",
+    "crop": null,
+    "source_url": "https://honyacare.com/about",
+    "credit": "來源：吉紅照顧本屋官網創辦人簡介頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "新生醫專幼保科教師頁（講師、陽明大學臨床暨社區護理研究所）與吉紅本屋創辦人簡介一致。照片來自本人公司官網，檔名為林治萱。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林瑞瑩（長庚大學醫學系副教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "新生兒神經科學",
+      "source": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/0362"
+     },
+     {
+      "label": "一般新生兒急症",
+      "source": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/0362"
+     },
+     {
+      "label": "早產兒加護治療及追蹤照護",
+      "source": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/0362"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-003/lin_rr.jpg",
+    "crop": [
+     12,
+     42,
+     240,
+     240
+    ],
+    "source_url": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/0362",
+    "credit": "來源：長庚醫療財團法人官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "長庚醫院醫師介紹頁：林瑞瑩，副教授，新生兒科。頁面未明言「長庚大學醫學系」，但同名同院且職稱相符（TPIDB 亦列長庚大學醫學系副教授、新生兒研究），身分稍有不確定，請審核。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林真宇（School of Journalism, Media and Culture at Cardiff University (UK)Lecturer）",
+   "research": {
+    "keywords": [
+     {
+      "label": "music censorship",
+      "source": "https://programs.vancouvertaiwanfest.ca/silenced-sunrise/"
+     },
+     {
+      "label": "cultural politics",
+      "source": "https://programs.vancouvertaiwanfest.ca/silenced-sunrise/"
+     },
+     {
+      "label": "the transnational circulation of popular music",
+      "source": "https://programs.vancouvertaiwanfest.ca/silenced-sunrise/"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "Chen-Yu Lin，Cardiff JOMEC lecturer（Pop Culture Academy 編委頁亦列為卡迪夫大學講師）。Cardiff 官方頁被 Cloudflare 擋住無法讀取，關鍵詞取自 Vancouver TaiwanFest 簡介頁；無頭像。"
+  }
+ ]
+}

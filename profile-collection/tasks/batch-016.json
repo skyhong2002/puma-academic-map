@@ -1,0 +1,384 @@
+{
+ "batch": 16,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "徐禎苓（台北市立大學中國語文學系助理教授）",
+   "name": "徐禎苓",
+   "affiliation_text": "台北市立大學中國語文學系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://literacy.utaipei.edu.tw/p/412-1065-2396.php?Lang=zh-tw",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "徐鳳麟（台北醫學大學藥學院名譽教授）",
+   "name": "徐鳳麟",
+   "affiliation_text": "台北醫學大學藥學院名譽教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "http://nppharm.tmu.edu.tw/team/content.php?type=1&sid=36",
+    "https://pharm.tmu.edu.tw/team/index.php?srhDepartment=3&type=1"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "應鳳凰（台北教育大學台文系退休教授）",
+   "name": "應鳳凰",
+   "affiliation_text": "台北教育大學台文系退休教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://taiwan.ntue.edu.tw/p/406-1029-14977%2Cr579.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "戴寶村（政治大學台灣史研究所退休教授）",
+   "name": "戴寶村",
+   "affiliation_text": "政治大學台灣史研究所退休教授",
+   "need": [
+    "research"
+   ],
+   "known_urls": [
+    "https://taiwan.nccu.edu.tw/PageDoc/Detail?fid=12951&id=27225"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "戴曉惠（文化大學勞動系助理教授）",
+   "name": "戴曉惠",
+   "affiliation_text": "文化大學勞動系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://labor.pccu.edu.tw/p/404-1147-106604.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "戴瑜慧（國立陽明交通大學傳播與科技學系副教授）",
+   "name": "戴瑜慧",
+   "affiliation_text": "國立陽明交通大學傳播與科技學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://yuhuitai.com/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "施志汶（國立台灣師大歷史系退休副教授）",
+   "name": "施志汶",
+   "affiliation_text": "國立台灣師大歷史系退休副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://www.his.ntnu.edu.tw/index.php/faculty-04/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "施明祥（國立暨南國際大學土木系終身特聘教授）",
+   "name": "施明祥",
+   "affiliation_text": "國立暨南國際大學土木系終身特聘教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://www.ce.ncnu.edu.tw/article_d.php?id=468&lang=tw&tb=2"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "施景中（台大醫院婦產部產科主任 部定副教授）",
+   "name": "施景中",
+   "affiliation_text": "台大醫院婦產部產科主任 部定副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://www.ntuh.gov.tw/obgy/Vcard.action?q_itemCode=692&q_type=-1"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "施睿誼（亞洲大學社會工作學系助理教授）",
+   "name": "施睿誼",
+   "affiliation_text": "亞洲大學社會工作學系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://sw.asia.edu.tw/zh_tw/faculty/faculty_1/%E6%96%BD%E7%9D%BF%E8%AA%BC-90669297",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "施養信（台灣大學農業化學系教授）",
+   "name": "施養信",
+   "affiliation_text": "台灣大學農業化學系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://scholars.lib.ntu.edu.tw/entities/person/f2c4040d-518e-4076-8504-1de66c931605",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "施麗雯（台北醫學大學醫學人文研究所副教授）",
+   "name": "施麗雯",
+   "affiliation_text": "台北醫學大學醫學人文研究所副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "http://medhuman.tmu.edu.tw/index.php?action=people&cid=1&id=3",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "曾凡碩（中山大學通訊工程研究所特聘教授）",
+   "name": "曾凡碩",
+   "affiliation_text": "中山大學通訊工程研究所特聘教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://ice.nsysu.edu.tw/p/412-1209-3366.php?Lang=zh-tw",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "曾國展（國立屏東科技大學食品科學系助理教授）",
+   "name": "曾國展",
+   "affiliation_text": "國立屏東科技大學食品科學系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "曾士榮（政大台文所副教授）",
+   "name": "曾士榮",
+   "affiliation_text": "政大台文所副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://tailit.nccu.edu.tw/PageStaffing/Detail?fid=2721&id=262"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "曾宗盛（台灣神學研究學院舊約學副教授）",
+   "name": "曾宗盛",
+   "affiliation_text": "台灣神學研究學院舊約學副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://www.tgst.edu.tw/p/404-1001-3430.php"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "曾文碧（中央研究院原分所退休研究員）",
+   "name": "曾文碧",
+   "affiliation_text": "中央研究院原分所退休研究員",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://doi.org/10.1002/chem.201505039",
+    "https://doi.org/10.1039/d3cp05120j",
+    "https://doi.org/10.3390/molecules27196226",
+    "https://newsletter.sinica.edu.tw/reviews/news/read_news3869.html?nid=9622"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "曾旭民（長庚大學醫務管理系教授）",
+   "name": "曾旭民",
+   "affiliation_text": "長庚大學醫務管理系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "曾曉萍（健行科技大學財務金融系副教授）",
+   "name": "曾曉萍",
+   "affiliation_text": "健行科技大學財務金融系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://www.fd.uch.edu.tw/zh_tw/Introduction/Members/%E6%9B%BE%E6%9B%89%E8%90%8D-53586671"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "曾永慶（淡江大學兼任 副教授）",
+   "name": "曾永慶",
+   "affiliation_text": "淡江大學兼任 副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "曾玉村（國立中正大學師資培育中心暨教育學研究所教授）",
+   "name": "曾玉村",
+   "affiliation_text": "國立中正大學師資培育中心暨教育學研究所教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://deptedu.ccu.edu.tw/p/404-1231-27973.php?Lang=zh-tw",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "曾琮琇（臺北大學中國文學系副教授）",
+   "name": "曾琮琇",
+   "affiliation_text": "臺北大學中國文學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://www.cl.ntpu.edu.tw/faculty/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "曾素玲（東吳大學音樂系教授）",
+   "name": "曾素玲",
+   "affiliation_text": "東吳大學音樂系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "曾蘇銘（國立台灣藝術大學 戲劇學系客座教授）",
+   "name": "曾蘇銘",
+   "affiliation_text": "國立台灣藝術大學 戲劇學系客座教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "曾道雄（台北歌劇劇場藝術總監）",
+   "name": "曾道雄",
+   "affiliation_text": "台北歌劇劇場藝術總監",
+   "need": [
+    "research"
+   ],
+   "known_urls": [
+    "https://pr.ntnu.edu.tw/news/index.php?id=10225&mode=data",
+    "https://www.ncafroc.org.tw/artsaward/winnerDetail%401277"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "朱夢慈（國立臺南藝術大學民族音樂學研究所副教授）",
+   "name": "朱夢慈",
+   "affiliation_text": "國立臺南藝術大學民族音樂學研究所副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "朱崧肇（慈濟大學醫學系副教授）",
+   "name": "朱崧肇",
+   "affiliation_text": "慈濟大學醫學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://hlm.tzuchi.com.tw/home/index.php/team-hemat/dr25018",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "朱志傑（國立彰化師範大學企業管理學系助理教授）",
+   "name": "朱志傑",
+   "affiliation_text": "國立彰化師範大學企業管理學系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "朱珮華（美國德州農工大學獸醫系助理教授）",
+   "name": "朱珮華",
+   "affiliation_text": "美國德州農工大學獸醫系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://candicechudvm.com/about.html",
+    "https://scholar.google.com.hk/citations?user=cv_brEAAAAAJ",
+    "https://vetmed.tamu.edu/news/press-releases/ai-in-veterinary-medicine/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "朱盈樺（國立台北教育大學文化創意產業經營學系副教授）",
+   "name": "朱盈樺",
+   "affiliation_text": "國立台北教育大學文化創意產業經營學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,405 @@
+{
+ "batch": 1,
+ "people": [
+  {
+   "section": "共同領銜",
+   "raw": "唐國銘（樹德科技大學資管系退休副教授）",
+   "name": "唐國銘",
+   "affiliation_text": "樹德科技大學資管系退休副教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+   ]
+  },
+  {
+   "section": "共同領銜",
+   "raw": "方禎璋（東海大學餐飲管理學系兼任助理教授）",
+   "name": "方禎璋",
+   "affiliation_text": "東海大學餐飲管理學系兼任助理教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://national.service.thu.edu.tw/view/105/1/2544"
+   ]
+  },
+  {
+   "section": "共同領銜",
+   "raw": "李明仁（嘉義大學應用歷史學系退休教授）",
+   "name": "李明仁",
+   "affiliation_text": "嘉義大學應用歷史學系退休教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://web085004.adm.ncyu.edu.tw/eRes.pub/ctrlrd/teaRes.aspx?teacher=A0311"
+   ]
+  },
+  {
+   "section": "共同領銜",
+   "raw": "林欽惠（德國柏林洪堡大學亞非學系專任講師）",
+   "name": "林欽惠",
+   "affiliation_text": "德國柏林洪堡大學亞非學系專任講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://agnes.hu-berlin.de/lupo/rds?keep=y&moduleCall=webInfo&personal.pid=26543&publishConfFile=webInfoPerson&publishSubDir=personal&purge=y&showsearch=n&state=verpublish&status=init&vmfile=no"
+   ]
+  },
+  {
+   "section": "共同領銜",
+   "raw": "鄭宗弘（Stanford University, Department of Economics PhD Student）",
+   "name": "鄭宗弘",
+   "affiliation_text": "Stanford University, Department of Economics PhD Student",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://coss.ntu.edu.tw/ResearchTeam.html"
+   ]
+  },
+  {
+   "section": "共同領銜",
+   "raw": "陳永豐（眼科診所院長）",
+   "name": "陳永豐",
+   "affiliation_text": "眼科診所院長",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.mbpr.com.tw/wp-content/uploads/2022/05/Reivew-vol28.pdf",
+    "https://www.nhi.gov.tw/ch/dl-10747-3a1e3e69a7414d49a905659775437248-1.pdf"
+   ]
+  },
+  {
+   "section": "共同領銜",
+   "raw": "黃苕冠（美國漢密爾頓學院講師）",
+   "name": "黃苕冠",
+   "affiliation_text": "美國漢密爾頓學院講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://c026.wzu.edu.tw/article/518213",
+    "https://www.hamilton.edu/academics/our-faculty/directory/faculty-detail/tiao-guan-huang"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "Chaoyuh Yang 楊朝諭（Baylor College of Medicine 美國休士頓貝勒醫學院Emeritus Professor）",
+   "name": "Chaoyuh Yang 楊朝諭",
+   "affiliation_text": "Baylor College of Medicine 美國休士頓貝勒醫學院Emeritus Professor",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://pubmed.ncbi.nlm.nih.gov/8187250/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "Hsiao-Rong Chen (陳曉蓉）（Eli Lilly (禮來藥廠）Computational Biology & AI Lead （數據科學家)）",
+   "name": "Hsiao-Rong Chen",
+   "affiliation_text": "陳曉蓉）（Eli Lilly (禮來藥廠）Computational Biology & AI Lead （數據科學家)",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://aacrjournals.org/clincancerres/article/doi/10.1158/1078-0432.CCR-25-0174/767070/p/Final-Results-from-a-First-in-Human-Phase-I-Study",
+    "https://pubmed.ncbi.nlm.nih.gov/41026608/",
+    "https://www.lilly.com/about/contact"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "I-Yun Cheng（The University of SydneyPh.D candidate）",
+   "name": "I-Yun Cheng",
+   "affiliation_text": "The University of SydneyPh.D candidate",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.sydney.edu.au/about-us/campuses/campus-locations.html",
+    "https://www.sydney.edu.au/content/dam/corporate/documents/faculty-of-arts-and-social-sciences/schools/slc/lcnau2024-program-schedule.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "Ko-Le Chen（School of Design, Arts and Creative Industries, Northumbria University, UKResearch Fellow ）",
+   "name": "Ko-Le Chen",
+   "affiliation_text": "School of Design, Arts and Creative Industries, Northumbria University, UKResearch Fellow",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://researchportal.northumbria.ac.uk/en/persons/ko-le-chen/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "Malas Takisdahuan（彰化師範大學教育學院兼任助理教授）",
+   "name": "Malas Takisdahuan",
+   "affiliation_text": "彰化師範大學教育學院兼任助理教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://politics.thu.edu.tw/upload/politics/news_upload/%E6%9C%83%E8%AD%B0%E6%89%8B%E5%86%8A%E5%AE%9A%E7%A8%BF.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "Paul Chiou（Lamar UniversityRetired Professor）",
+   "name": "Paul Chiou",
+   "affiliation_text": "Lamar UniversityRetired Professor",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.lamar.edu/library/archive/archived-catalogs/pdfs/2002---04-lu-graduate-catalog-vol-47-no-2.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "Simon Chiu（Edinburgh Napier UniversityFormer Lecturer）",
+   "name": "Simon Chiu",
+   "affiliation_text": "Edinburgh Napier UniversityFormer Lecturer",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://openrepository.aut.ac.nz/server/api/core/bitstreams/9719e571-f515-4a5c-b368-a3deae0dc333/content",
+    "https://www.napier.ac.uk/about-us/our-location/our-campuses/craiglockhart",
+    "https://www.napierstudents.com/news/article/6013/Excellence-Awards-Shortlisted-Nominees/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "Teng Hongtin丁鳳珍（國立台中教育大學台語系副教授）",
+   "name": "Teng Hongtin丁鳳珍",
+   "affiliation_text": "國立台中教育大學台語系副教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://taiwanese.ntcu.edu.tw/front/Teaching_Group/member.php?ID=a19e76bccb706b62d82c52c7a3ff346172549a810f94321b980ffcfbb4383cd3&PID=8"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "Tsu Tsír-hông （母語ê/gǎi醫學迷頁主／前國防醫學院醫學系臨床教師）",
+   "name": "Tsu Tsír-hông",
+   "affiliation_text": "母語ê/gǎi醫學迷頁主／前國防醫學院醫學系臨床教師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.cmu-hch.cmu.edu.tw/Doctor/DoctorInfo/313"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "何宇傑（國立東華大學資訊工程學系助理教授）",
+   "name": "何宇傑",
+   "affiliation_text": "國立東華大學資訊工程學系助理教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://sys.ndhu.edu.tw/RD/TeacherTreasury/tlist.aspx?tcher=13763"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "何逸琪（臺灣印度研究協會研究員）",
+   "name": "何逸琪",
+   "affiliation_text": "臺灣印度研究協會研究員",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://ly.ebook.hyread.com.tw/bookDetail.jsp?id=416482"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "何雅雯（曾任韓國西江大學中文系副教授）",
+   "name": "何雅雯",
+   "affiliation_text": "曾任韓國西江大學中文系副教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://scc.sogang.ac.kr/echina/echina02_1_7.html",
+    "https://www.litphil.sinica.edu.tw/newsletter/119/119-3-50.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "侯侑期（馬里蘭大學University of Maryland, College Park數學系博士候選人）",
+   "name": "侯侑期",
+   "affiliation_text": "馬里蘭大學University of Maryland, College Park數學系博士候選人",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www-math.umd.edu/people/graduate-students.html"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "侯淑惠（中原大學外語教學中心兼任助理教授）",
+   "name": "侯淑惠",
+   "affiliation_text": "中原大學外語教學中心兼任助理教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://ilearning.cycu.edu.tw/course/info.php?id=6498"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "傅玉翠（輔仁大學退休副教授）",
+   "name": "傅玉翠",
+   "affiliation_text": "輔仁大學退休副教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://hrweb.fju.edu.tw/DownloadNewsFileServlet?file=510"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉威（Johns Hopkins Bloomberg School of Public HealthPhD Candidate）",
+   "name": "劉威",
+   "affiliation_text": "Johns Hopkins Bloomberg School of Public HealthPhD Candidate",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://publichealth.jhu.edu/departments/epidemiology/people/students-epidemiology-student-organization",
+    "https://wanchunghuang.com/podcast-wei-liu/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉峻豪（加拿大多倫多大學博士候選人）",
+   "name": "劉峻豪",
+   "affiliation_text": "加拿大多倫多大學博士候選人",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://pubmed.ncbi.nlm.nih.gov/41689079/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉志成（台灣科技大學化工系退休教授）",
+   "name": "劉志成",
+   "affiliation_text": "台灣科技大學化工系退休教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.ce.ntust.edu.tw/p/412-1024-6702.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉怡敏（台灣精準健康促進協會理事）",
+   "name": "劉怡敏",
+   "affiliation_text": "台灣精準健康促進協會理事",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.tpha-tw.org/team.php"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉美芳（輔英科技大學講師）",
+   "name": "劉美芳",
+   "affiliation_text": "輔英科技大學講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://ens.fy.edu.tw/p/412-1103-9453.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳冠緯（波鴻魯爾大學東亞學系博士候選人）",
+   "name": "吳冠緯",
+   "affiliation_text": "波鴻魯爾大學東亞學系博士候選人",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.ea.sinica.edu.tw/Content_People_Page.aspx?lang=e&peoid=146&pid=4&uid=46",
+    "https://www.oaw.ruhr-uni-bochum.de/mam/gc/content/short_profile_kuanweiwu.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳宗儒（中央研究院前博士後研究員）",
+   "name": "吳宗儒",
+   "affiliation_text": "中央研究院前博士後研究員",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.labmed.org.tw/UpFiles/file/20190715/20190715104138583858.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳宗樹（台灣大學公共衛生學院兼任講師）",
+   "name": "吳宗樹",
+   "affiliation_text": "台灣大學公共衛生學院兼任講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://data.gov.tw/dataset/27931"
+   ]
+  }
+ ]
+}

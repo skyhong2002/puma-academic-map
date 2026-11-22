@@ -1,0 +1,30 @@
+{
+ "batch": 36,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "黎芸靈（東海大學社會工作學系助理教授）",
+   "name": "黎芸靈",
+   "affiliation_text": "東海大學社會工作學系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://sociwork.thu.edu.tw/faculty/full-time-teacher/yun-ling-li/",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "龎壯城（國立成功大學中國文學系助理教授）",
+   "name": "龎壯城",
+   "affiliation_text": "國立成功大學中國文學系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  }
+ ]
+}

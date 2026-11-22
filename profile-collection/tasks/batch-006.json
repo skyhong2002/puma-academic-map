@@ -1,0 +1,397 @@
+{
+ "batch": 6,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "蘇春霖（南臺科技大學通識教育中心自然科學組教授 及 春霖診所 院長）",
+   "name": "蘇春霖",
+   "affiliation_text": "南臺科技大學通識教育中心自然科學組教授 及 春霖診所 院長",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://data.gov.tw/dataset/27931"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "許州億（嘉南藥理大學藥學系退休助理教授）",
+   "name": "許州億",
+   "affiliation_text": "嘉南藥理大學藥學系退休助理教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://mcbio.cnu.edu.tw/?.__id=P20210816124244214&.p=HjYo",
+    "https://pharm.cnu.edu.tw/?.__id=P20221114092038068&.p=HjYo"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "許晏庭（中央研究院社會學研究所博士後研究員）",
+   "name": "許晏庭",
+   "affiliation_text": "中央研究院社會學研究所博士後研究員",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.ios.sinica.edu.tw/postdocs.php"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "許諾（荷蘭萊頓大學國際關係與國際組織學系講師）",
+   "name": "許諾",
+   "affiliation_text": "荷蘭萊頓大學國際關係與國際組織學系講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": []
+  },
+  {
+   "section": "會員名單",
+   "raw": "詹松軒（倫敦政經學院政府系博士候選人）",
+   "name": "詹松軒",
+   "affiliation_text": "倫敦政經學院政府系博士候選人",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": []
+  },
+  {
+   "section": "會員名單",
+   "raw": "詹益鑑（美國加州大學柏克萊分校訪問學者暨公衛學院院長資深顧問）",
+   "name": "詹益鑑",
+   "affiliation_text": "美國加州大學柏克萊分校訪問學者暨公衛學院院長資深顧問",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://nbrp.sinica.edu.tw/posts/184b3cc8-7290-49fc-94b2-7dc6b4551c85?page_id=8"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "謝志杰（國立政治大學傳播學院博士班博士生）",
+   "name": "謝志杰",
+   "affiliation_text": "國立政治大學傳播學院博士班博士生",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://ccphd.nccu.edu.tw/PageStaffing/Detail?fid=12680&id=4933"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "謝華貞（國立臺北教育大學講師）",
+   "name": "謝華貞",
+   "affiliation_text": "國立臺北教育大學講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "賴建雄（長庚大學醫學院助理教授）",
+   "name": "賴建雄",
+   "affiliation_text": "長庚大學醫學院助理教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.cgu.edu.tw/cm/Contents?nodeId=3451"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "賴炘延（英國聖安德魯斯大學國際關係學院副講師）",
+   "name": "賴炘延",
+   "affiliation_text": "英國聖安德魯斯大學國際關係學院副講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://research-portal.st-andrews.ac.uk/en/persons/hsinyen-lai/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "趙錫彥（泰國朱拉隆功大學研究員）",
+   "name": "趙錫彥",
+   "affiliation_text": "泰國朱拉隆功大學研究員",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://iccs.chss.nycu.edu.tw/zh/activity.php?USN=1465&project_id=13"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "邱智銘（東吳大學語言中心兼任講師）",
+   "name": "邱智銘",
+   "affiliation_text": "東吳大學語言中心兼任講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://web-ch.scu.edu.tw/language/teacher_resume/3837/524"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "邱皓瑄（Brooklyn College of City University of New YorkProfessor）",
+   "name": "邱皓瑄",
+   "affiliation_text": "Brooklyn College of City University of New YorkProfessor",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.brooklyn.edu/wp-content/uploads/KSB-Annual-Report-2012-2013.pdf",
+    "https://www.brooklyn.edu/wp-content/uploads/Registrar_Fall2023_136748988_Course_Schedule1239_05172023.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "邱蕙君（崑山科大講師）",
+   "name": "邱蕙君",
+   "affiliation_text": "崑山科大講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://syllabus.ahan.net/Course.aspx?cid=198599"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "邱賜程（台中科大國貿系副教授（退休））",
+   "name": "邱賜程",
+   "affiliation_text": "台中科大國貿系副教授（退休）",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://ba.nchu.edu.tw/files/archive/932_950d706d.pdf",
+    "https://teric.naer.edu.tw/wSite/PDFReader?fileName=1534829647917&format=pdf&xmlId=1800038"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "郭明芳（東吳大學中國文學博士中國文學博士）",
+   "name": "郭明芳",
+   "affiliation_text": "東吳大學中國文學博士中國文學博士",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://dcollection.lib.thu.edu.tw/wp-content/uploads/2024/12/%E7%AC%AC39%E6%9C%9F%E9%A4%A8%E5%88%8A49-54.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "郭秋薇（日本京都女子大學現代社會學部講師）",
+   "name": "郭秋薇",
+   "affiliation_text": "日本京都女子大學現代社會學部講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.kyoto-wu.ac.jp/gakubu/kyouin/shakai/index.html"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "郭致維（國立雲林科技大學通識中心兼任講師）",
+   "name": "郭致維",
+   "affiliation_text": "國立雲林科技大學通識中心兼任講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://webapp.yuntech.edu.tw/emap/CourseCore/RelatedCourse.aspx?dc=UHX&dn=1&mdc=BHX&sn=7138"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "鄧欣潔（國立故宮博物院助理研究員）",
+   "name": "鄧欣潔",
+   "affiliation_text": "國立故宮博物院助理研究員",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.npm.gov.tw/ChineseArt-Content.aspx?a=10251&idstr=03012531&l=1&sno=04012587&type=2024",
+    "https://www.tmaroc.org.tw/wp-content/uploads/83%E6%9C%9F%E8%A8%8A.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "鄧為寧（劍橋大學博士候選人）",
+   "name": "鄧為寧",
+   "affiliation_text": "劍橋大學博士候選人",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://weiningdeng.com/",
+    "https://www.phy.cam.ac.uk/about/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "鄭信男（大葉大學系主任）",
+   "name": "鄭信男",
+   "affiliation_text": "大葉大學系主任",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://bulletin.dyu.edu.tw/file/A0103/139192.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "鄭琦加（門諾醫院主治醫師）",
+   "name": "鄭琦加",
+   "affiliation_text": "門諾醫院主治醫師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": []
+  },
+  {
+   "section": "會員名單",
+   "raw": "鄭裕民（高雄醫學大學骨科教授）",
+   "name": "鄭裕民",
+   "affiliation_text": "高雄醫學大學骨科教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.kmuh.org.tw/web/kmuhdept/0700/DeptIntro.aspx"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "鄭運聰（長庚大學講師）",
+   "name": "鄭運聰",
+   "affiliation_text": "長庚大學講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "鄭麗伶（北美洲台灣人教授協會前會長）",
+   "name": "鄭麗伶",
+   "affiliation_text": "北美洲台灣人教授協會前會長",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://sites.google.com/view/natpa-2022-annual-conference/schedule",
+    "https://taiwaneseamericanhistory.org/whos-li-lin-cheng/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "錢俊宇（德國科隆大學東亞系中文講師）",
+   "name": "錢俊宇",
+   "affiliation_text": "德國科隆大學東亞系中文講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://collego.edu.tw/Highschool/DepartmentCompare?ids=020033%2C020036"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "鍾繼儀（國立臺灣師範大學博士候選人）",
+   "name": "鍾繼儀",
+   "affiliation_text": "國立臺灣師範大學博士候選人",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://bp.ntu.edu.tw/001/Upload/1352/ckfile/857c6b94-70fb-4d5f-940a-478a21c7d789.pdf",
+    "https://chungchiyi.com/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳世雄（明道大學前校長）",
+   "name": "陳世雄",
+   "affiliation_text": "明道大學前校長",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://give.nchu.edu.tw/uploads/peri/1906.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳亭安（美國華盛頓大學分子醫學與疾病機制學程博士候選人）",
+   "name": "陳亭安",
+   "affiliation_text": "美國華盛頓大學分子醫學與疾病機制學程博士候選人",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.seattlechildrens.org/research/centers-programs/integrative-brain-research/our-labs/page-lab/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳以萱（捷克帕拉茨基大學亞洲研究系資深講師）",
+   "name": "陳以萱",
+   "affiliation_text": "捷克帕拉茨基大學亞洲研究系資深講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://kas.upol.cz/en/people/doctoral-students/",
+    "https://www.nccu.edu.tw/p/405-1000-19777%2Cc87.php?Lang=zh-tw"
+   ]
+  }
+ ]
+}

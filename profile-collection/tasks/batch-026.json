@@ -1,0 +1,390 @@
+{
+ "batch": 26,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "蔡嘉恩（國立臺灣海洋大學海洋法政學士學位學程兼任專技助理教授）",
+   "name": "蔡嘉恩",
+   "affiliation_text": "國立臺灣海洋大學海洋法政學士學位學程兼任專技助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡嘉綾（玄奘大學應用日語學系助理教授）",
+   "name": "蔡嘉綾",
+   "affiliation_text": "玄奘大學應用日語學系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://www.hcu.edu.tw/dm/dm/zh-tw/E0123AE200CE42678C34529101D24F6B/275894426EBA42EB9E40DA81E695613A/E1633B5C082749AFBFF095158671D7CB"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡婉琪（高雄醫學大學醫技系副教授）",
+   "name": "蔡婉琪",
+   "affiliation_text": "高雄醫學大學醫技系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://mlsb.kmu.edu.tw/index.php/zh-tw/29-wan-chi_tsai",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡宏政（國立高雄科技大學工業設計系教授）",
+   "name": "蔡宏政",
+   "affiliation_text": "國立高雄科技大學工業設計系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡尚岳（政治大學教授）",
+   "name": "蔡尚岳",
+   "affiliation_text": "政治大學教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡尚恩（長榮大學資工系副教授）",
+   "name": "蔡尚恩",
+   "affiliation_text": "長榮大學資工系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://dweb.cjcu.edu.tw/csie/teacher/CS",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡幸娟（清華大學中文系兼任助理教授）",
+   "name": "蔡幸娟",
+   "affiliation_text": "清華大學中文系兼任助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://cl.site.nthu.edu.tw/p/406-1401-154611,r2887.php?Lang=zh-tw",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡怡佳（輔仁大學宗教學系教授）",
+   "name": "蔡怡佳",
+   "affiliation_text": "輔仁大學宗教學系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://researchinfo.fju.edu.tw/professors/1794",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡怡玟（臺北大學通識教育中心副教授）",
+   "name": "蔡怡玟",
+   "affiliation_text": "臺北大學通識教育中心副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡懿玲（國立臺北護理健康大學助理教授）",
+   "name": "蔡懿玲",
+   "affiliation_text": "國立臺北護理健康大學助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡春美（輔仁大學心理學系副教授）",
+   "name": "蔡春美",
+   "affiliation_text": "輔仁大學心理學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://psy.fju.edu.tw/members/teachers/8",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡晏榕（國立臺灣戲曲學院助理教授）",
+   "name": "蔡晏榕",
+   "affiliation_text": "國立臺灣戲曲學院助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://www.tphkc.org.tw/lan-112-2/2023/5/31/e-3"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡晏霖（陽明交通大學人社系副教授）",
+   "name": "蔡晏霖",
+   "affiliation_text": "陽明交通大學人社系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://hs.nycu.edu.tw/about",
+    "https://iacs.web.nycu.edu.tw/faculty/%E6%A0%B8%E5%BF%83%E6%88%90%E5%93%A1%E8%88%87%E6%94%AF%E6%8F%B4%E5%B8%AB%E8%B3%87-core-support-faculty/",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡松純（國立臺北教育大學心理與諮商學系副教授）",
+   "name": "蔡松純",
+   "affiliation_text": "國立臺北教育大學心理與諮商學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡榮任（國立聯合大學 建築學系助理教授）",
+   "name": "蔡榮任",
+   "affiliation_text": "國立聯合大學 建築學系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://arch.nuu.edu.tw/p/412-1085-5551.php",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡榮捷（前大葉大學公關處長助理教授）",
+   "name": "蔡榮捷",
+   "affiliation_text": "前大葉大學公關處長助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://syl.dyu.edu.tw/lecturer.php?courid=2327&dyu_smty=1&dyu_smye=106&teid=RjA4MjQ%3D"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡榮祥（國立中正大學政治系教授）",
+   "name": "蔡榮祥",
+   "affiliation_text": "國立中正大學政治系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://polsci.ccu.edu.tw/p/406-1087-19061,r833.php?Lang=zh-tw",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡欣祐（台灣大學分子醫學所副教授）",
+   "name": "蔡欣祐",
+   "affiliation_text": "台灣大學分子醫學所副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://scholars.lib.ntu.edu.tw/entities/person/dc2e99d2-cc53-4171-a7e1-92a8fab31faf",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡毓芬（國立臺灣大學外國語文學系教授）",
+   "name": "蔡毓芬",
+   "affiliation_text": "國立臺灣大學外國語文學系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://scholars.lib.ntu.edu.tw/entities/person/4ffe9a76-2835-4d76-9f3e-6321be722568",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡淩蕙（臺北藝術大學音樂學院傳統音樂學系副教授）",
+   "name": "蔡淩蕙",
+   "affiliation_text": "臺北藝術大學音樂學院傳統音樂學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://data.gov.tw/dataset/27931",
+    "https://musiccollege.tnua.edu.tw/Front/Faculty/Faculty-DOTM/Faculty-DOTM-Full/Members.aspx?id=4XxsUoWQkLo%3D"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡蕙頻（國立台北教育大學台灣語言與文化學系兼任助理教授）",
+   "name": "蔡蕙頻",
+   "affiliation_text": "國立台北教育大學台灣語言與文化學系兼任助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://taiwan.ntue.edu.tw/p/403-1029-578-1.php?Lang=zh-tw",
+    "https://taiwan.ntue.edu.tw/p/403-1029-578.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔣元隆（高雄科技大學退休副教授）",
+   "name": "蔣元隆",
+   "affiliation_text": "高雄科技大學退休副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://ec.nkust.edu.tw/p/404-1122-95991.php?Lang=zh-tw",
+    "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔣薇華（台北藝術大學副教授）",
+   "name": "蔣薇華",
+   "affiliation_text": "台北藝術大學副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蕭世暉（國立台灣師範大學原住民族教育文化學程兼任助理教授）",
+   "name": "蕭世暉",
+   "affiliation_text": "國立台灣師範大學原住民族教育文化學程兼任助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://www.airitilibrary.com/Article/Detail?DocID=P20161117001-201503-201611180018-201611180018-117-127",
+    "https://www.geo.ntnu.edu.tw/index.php/thesis/",
+    "https://www.geo.ntnu.edu.tw/wp-content/uploads/2026/04/IGCT2026%E6%9C%83%E8%AD%B0%E6%89%8B%E5%86%8A.pdf"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蕭宏祺（世新大學教授）",
+   "name": "蕭宏祺",
+   "affiliation_text": "世新大學教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://cm.wp.shu.edu.tw/?page_id=493",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蕭富山（台大工商管理學系暨商學研究所兼任教授級專業技術人員）",
+   "name": "蕭富山",
+   "affiliation_text": "台大工商管理學系暨商學研究所兼任教授級專業技術人員",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://management.ntu.edu.tw/BA/faculty/list/department/2/title/30",
+    "https://management.ntu.edu.tw/faculty/teacher/sn/143"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蕭旭府（馬偕醫學大學助理教授）",
+   "name": "蕭旭府",
+   "affiliation_text": "馬偕醫學大學助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://holistic.mmu.edu.tw/xmdoc/cont?sid=0P097334266796918817&xsmsid=0P087499930268804900",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蕭有志（實踐大學建築設計學系副教授）",
+   "name": "蕭有志",
+   "affiliation_text": "實踐大學建築設計學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蕭皓文（東京大學醫科學研究所博士後研究員）",
+   "name": "蕭皓文",
+   "affiliation_text": "東京大學醫科學研究所博士後研究員",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://investigator.tw/imt_team/%E8%95%AD%E7%9A%93%E6%96%87/",
+    "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202501002013394925",
+    "https://www.ims.u-tokyo.ac.jp/imsut/en/access/access/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蕭遠（美國耶魯大學（Yale University）社會系助理教授）",
+   "name": "蕭遠",
+   "affiliation_text": "美國耶魯大學（Yale University）社會系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://sociology.yale.edu/sites/default/files/2026-02/Yuan%20Hsiao_CV_Jan%202026.pdf"
+   ]
+  }
+ ]
+}
