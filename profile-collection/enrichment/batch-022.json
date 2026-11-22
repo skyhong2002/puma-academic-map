@@ -1,0 +1,492 @@
+{
+ "batch": 22,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "黃嫆茹（林口長庚醫院教授級主治醫師）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-022/h1.jpg",
+    "crop": [
+     48,
+     86,
+     171,
+     171
+    ],
+    "source_url": "https://www.cgmh.org.tw/drclub/Services/DoctorInfo/5305",
+    "credit": "來源：林口長庚紀念醫院官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "長庚醫師頁（顯微重建整形外科，教授級主治醫師）身分相符；官方半正式單人照，原圖有白邊，已裁到照片內，解析度偏低(約170px)。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張乃仁（林口長庚醫院整形重建外科教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-022/h2.jpg",
+    "crop": [
+     32,
+     34,
+     198,
+     198
+    ],
+    "source_url": "https://www.cgmh.org.tw/drclub/Services/DoctorInfo/7213",
+    "credit": "來源：林口長庚紀念醫院官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "長庚醫師頁（整形外科，教授級主治醫師）身分相符；官方單人照，臉部清楚但穿著較休閒（米奇圖案襯衫），解析度偏低。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "盧俊瑋（林口長庚醫院皮膚科副教授）",
+   "note": "長庚醫師頁身分相符（皮膚免疫科），但頁面無照片，未放 portrait。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "王巧萍（林業試驗所育林組副研究員）",
+   "research": {
+    "keywords": [
+     {
+      "label": "土壤生態",
+      "source": "https://www.tfri.gov.tw/News_Content_Table.aspx?n=7741&s=17789"
+     },
+     {
+      "label": "森林養分與碳氮循環",
+      "source": "https://www.tfri.gov.tw/News_Content_Table.aspx?n=7741&s=17789"
+     },
+     {
+      "label": "全球氣候變遷",
+      "source": "https://www.tfri.gov.tw/News_Content_Table.aspx?n=7741&s=17789"
+     },
+     {
+      "label": "擾動生態學",
+      "source": "https://www.tfri.gov.tw/News_Content_Table.aspx?n=7741&s=17789"
+     },
+     {
+      "label": "劣化生態系復育",
+      "source": "https://www.tfri.gov.tw/News_Content_Table.aspx?n=7741&s=17789"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "林試所「本組人員研究領域及負責業務」頁身分相符（副研究員），僅有橫幅風景圖、無人像，未放 portrait；順便補研究領域。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林青穀（林青穀家庭醫學·身心科·心臟科診所院長 ·前台北市立師範學院部定講師）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-022/lcg.jpg",
+    "crop": [
+     100,
+     110,
+     560,
+     560
+    ],
+    "source_url": "https://drlinchingku.com/%E9%86%AB%E8%AD%B7%E5%9C%98%E9%9A%8A/%E6%9E%97%E9%9D%92%E7%A9%80-%E9%86%AB%E5%B8%AB/",
+    "credit": "來源：林青穀家庭醫學專科診所官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "診所官網醫師頁（北醫畢、台北市立師範大學兼任講師）身分相符；研究詞取自「主治專長」；白袍單人照清晰。 [審核剔除research]"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張偉德（樹德科技大學 電腦與通訊系特聘教授）",
+   "note": "搜尋得知系所頁（comd.stu.edu.tw、cit.stu.edu.tw）有資料，但站台對程式請求回 403/空白（防護），未繞過，故無頭像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "王寶惜（正修科技大學 餐飲管理系教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "飲食文化",
+      "source": "https://fbm.csu.edu.tw/p/905-1139-0627.php"
+     },
+     {
+      "label": "人力資源管理",
+      "source": "https://fbm.csu.edu.tw/p/905-1139-0627.php"
+     },
+     {
+      "label": "餐飲業連鎖經營管理",
+      "source": "https://fbm.csu.edu.tw/p/905-1139-0627.php"
+     },
+     {
+      "label": "餐飲英文",
+      "source": "https://fbm.csu.edu.tw/p/905-1139-0627.php"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-022/w1.png",
+    "crop": [
+     778,
+     778,
+     1786,
+     1786
+    ],
+    "source_url": "https://fbm.csu.edu.tw/p/905-1139-0627.php",
+    "credit": "來源：正修科技大學餐飲管理系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "系所教師頁身分相符（專任教授兼系主任）；單人半正式照，頭上有太陽眼鏡、手持資料，臉部清楚；原圖 3840x5760 已裁頭肩。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "江榮傑（正修科技大學機械系退休教授退休教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "自動化",
+      "source": "https://me.csu.edu.tw/p/905-1129-0195.php?Lang=zh-tw"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "系所頁身分相符（機械系專任教授，專長自動化），但頁面照片為戶外自拍生活照，不放 portrait。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳信昭（殷建智精神科診所、台南市立醫院主治醫師）",
+   "note": "殷建智精神科診所醫師頁（副院長，前成大醫院兒童青少年精神科主任）身分相符；研究詞取自「主治項目」；診所頁照片為抱狗照，不放 portrait。 [審核剔除research]"
+  },
+  {
+   "section": "會員名單",
+   "raw": "江明憬（沖繩科學技術大學院大學(OIST)Staff Scientist）",
+   "research": {
+    "keywords": [
+     {
+      "label": "animal behavior",
+      "source": "https://www.oist.jp/research/research-units/mru/members"
+     },
+     {
+      "label": "electrophysiology",
+      "source": "https://www.oist.jp/research/research-units/mru/members"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "OIST 單位成員頁 Ming Ching Chiang, Staff Scientist 相符；研究詞取自其自介；頁面照片為餐桌生活照，不放 portrait。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林昱伸（波士頓大學副教授）",
+   "note": "BU 數學系個人頁（Associate Professor）身分相符，但官方頁與個人頁均無照片可取。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "趙錫彥（泰國朱拉隆功大學研究員）",
+   "note": "交大 ICCS 活動頁確認趙錫彥(Shi-Yan Chao)為朱拉隆功大學比較文學系博士後研究員；僅 Academia.edu 列有研究領域，但該站回 403 未能實際查看，故不填研究詞；無官方頭像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "詹立煒（淡江大學公共行政暨法律學系助理教授）",
+   "note": "系所頁身分相符，照片為低解析度、背景書架雜亂的簡易拍攝，不放 portrait。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "鄭光倫（淡江大學公共行政暨法律學系助理教授）",
+   "note": "系所頁身分相符，但照片似由合照裁切，臉太小且側有他人，不放 portrait。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "曾永慶（淡江大學兼任 副教授）",
+   "note": "淡江教師歷程頁無照片，通識中心頁連結失效；找不到官方照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "何春松（淡江大學化學工程與材料工程學系兼任副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-022/he.jpg",
+    "crop": [
+     55,
+     20,
+     320,
+     320
+    ],
+    "source_url": "https://www.che.tku.edu.tw/che/?page_id=10227",
+    "credit": "來源：淡江大學化學工程與材料工程學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "化材系兼任師資頁身分相符（副教授級專業技術教師）；證件式單人照清晰。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張煖（淡江大學化學工程與材料工程學系退休教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "程序強化",
+      "source": "https://www.che.tku.edu.tw/che/?page_id=11891"
+     },
+     {
+      "label": "新能源程序",
+      "source": "https://www.che.tku.edu.tw/che/?page_id=11891"
+     },
+     {
+      "label": "綠色程序",
+      "source": "https://www.che.tku.edu.tw/che/?page_id=11891"
+     },
+     {
+      "label": "流體力學模擬",
+      "source": "https://www.che.tku.edu.tw/che/?page_id=11891"
+     },
+     {
+      "label": "多目標最佳化設計",
+      "source": "https://www.che.tku.edu.tw/che/?page_id=11891"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-022/zhangn2.jpg",
+    "crop": [
+     155,
+     40,
+     480,
+     480
+    ],
+    "source_url": "https://www.che.tku.edu.tw/che/?page_id=11891",
+    "credit": "來源：淡江大學化學工程與材料工程學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "化材系退休教師頁（榮譽教授）身分相符；採用其證件式照片（原圖含文字看板，已只裁臉部）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "高惠春（淡江大學化學系退休教授）",
+   "note": "化材系退休教師頁身分相符，但僅有演講持麥克風的活動照，不放 portrait。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "洪耀南（淡江大學外交系專任助理教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "中國政治",
+      "source": "https://www.tidx.tku.edu.tw/Front/People/Faculty/Members.aspx?PID=0000000053&id=Mg19MK%2FlJN4%3D"
+     },
+     {
+      "label": "中共黨史",
+      "source": "https://www.tidx.tku.edu.tw/Front/People/Faculty/Members.aspx?PID=0000000053&id=Mg19MK%2FlJN4%3D"
+     },
+     {
+      "label": "習近平研究",
+      "source": "https://www.tidx.tku.edu.tw/Front/People/Faculty/Members.aspx?PID=0000000053&id=Mg19MK%2FlJN4%3D"
+     },
+     {
+      "label": "兩岸關係",
+      "source": "https://www.tidx.tku.edu.tw/Front/People/Faculty/Members.aspx?PID=0000000053&id=Mg19MK%2FlJN4%3D"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-022/hong.jpg",
+    "crop": [
+     0,
+     0,
+     236,
+     236
+    ],
+    "source_url": "https://www.tidx.tku.edu.tw/Front/People/Faculty/Members.aspx?PID=0000000053&id=Mg19MK%2FlJN4%3D",
+    "credit": "來源：淡江大學外交與國際關係學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "系所頁身分相符；單人照臉部清楚，解析度偏低(236x311)。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "鄭欽模（淡江大學外交與國際關係學系副教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "北約與歐洲安全",
+      "source": "https://www.tidx.tku.edu.tw/Front/People/Faculty/Members.aspx?PID=0000000003&id=Mg19MK%2FlJN4%3D"
+     },
+     {
+      "label": "中東歐國家民主化研究",
+      "source": "https://www.tidx.tku.edu.tw/Front/People/Faculty/Members.aspx?PID=0000000003&id=Mg19MK%2FlJN4%3D"
+     },
+     {
+      "label": "俄羅斯安全政策",
+      "source": "https://www.tidx.tku.edu.tw/Front/People/Faculty/Members.aspx?PID=0000000003&id=Mg19MK%2FlJN4%3D"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "系所頁身分相符；照片為雙手扠腰、背景有大字看板，不放 portrait。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉倚帆（淡江大學大眾傳播學系助理教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "閱聽人研究",
+      "source": "https://www.tamx.tku.edu.tw/Front/Faculty/Faculty-full-time/Members.aspx?PID=0000000007&id=zMPpvkI63H4%3D"
+     },
+     {
+      "label": "傳播科技與社會",
+      "source": "https://www.tamx.tku.edu.tw/Front/Faculty/Faculty-full-time/Members.aspx?PID=0000000007&id=zMPpvkI63H4%3D"
+     },
+     {
+      "label": "新媒體研究",
+      "source": "https://www.tamx.tku.edu.tw/Front/Faculty/Faculty-full-time/Members.aspx?PID=0000000007&id=zMPpvkI63H4%3D"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "系所頁身分相符；照片為研討會抓拍（掛識別證、說話中），不放 portrait。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "柯純融（淡江大學建築學系副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-022/ke.jpg",
+    "crop": [
+     599,
+     200,
+     1330,
+     1330
+    ],
+    "source_url": "https://www.arch.tku.edu.tw/arch/?page_id=6797",
+    "credit": "來源：淡江大學建築學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "建築系專任教師頁身分相符（副教授兼系主任）；單人頭肩照清晰，背景為書架。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "藍挹丰（淡江大學教育心理與諮商研究所兼任助理教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "臨床心理學",
+      "source": "https://www.edpsy.tku.edu.tw/edpsy/?page_id=689"
+     },
+     {
+      "label": "諮商實務",
+      "source": "https://www.edpsy.tku.edu.tw/edpsy/?page_id=689"
+     },
+     {
+      "label": "犯罪心理學",
+      "source": "https://www.edpsy.tku.edu.tw/edpsy/?page_id=689"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-022/lyf.jpg",
+    "crop": [
+     0,
+     10,
+     180,
+     180
+    ],
+    "source_url": "https://www.edpsy.tku.edu.tw/edpsy/?page_id=689",
+    "credit": "來源：淡江大學教育心理與諮商研究所官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "教心所兼任師資頁身分相符；單人照臉部清楚但解析度低(180x200)。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張貴傑（淡江大學教育心理與諮商研究所副教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "教學實踐研究",
+      "source": "https://www.edpsy.tku.edu.tw/edpsy/?page_id=652"
+     },
+     {
+      "label": "反思寫作",
+      "source": "https://www.edpsy.tku.edu.tw/edpsy/?page_id=652"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "教心所專任師資頁身分相符；頁面照片為騎單車背背包生活照，不放 portrait。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "王筱蘭（淡江大學數學系退休教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "泛函分析",
+      "source": "https://www.math.tku.edu.tw/math/?page_id=554&asc=退休教師"
+     },
+     {
+      "label": "算子理論",
+      "source": "https://www.math.tku.edu.tw/math/?page_id=554&asc=退休教師"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "數學系退休教師頁身分相符；照片為辦公室遠景生活照、臉小，不放 portrait。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳世芳（淡江大學歷史學系兼任助理教授）",
+   "note": "歷史系兼任師資頁身分相符，但照片僅 95x107，小於 150 px，不放 portrait。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃繁光（淡江大學歷史系退休教授退休教授）",
+   "note": "歷史系退休師資頁僅有預設佔位圖；專長(宋史)僅見於被防護擋下的淡水維基館，未能實際查看，故不填。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃世溥（淡江大學統計與資料科學學系兼任講師）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-022/huangsp.jpg",
+    "crop": [
+     0,
+     20,
+     495,
+     495
+    ],
+    "source_url": "https://www.stat.tku.edu.tw/stat/?page_id=17516",
+    "credit": "來源：淡江大學統計與資料科學學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "統計系兼任教師頁身分相符（講師）；證件式照片清晰；頁面未列研究專長，故無研究詞。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳慧勻（淡江大學通識與核心課程中心/雞屎藤舞蹈劇場專任副教授/副藝術總監）",
+   "research": {
+    "keywords": [
+     {
+      "label": "臺灣劇場史",
+      "source": "https://www.core.tku.edu.tw/core/?page_id=2650"
+     },
+     {
+      "label": "後殖民劇場理論",
+      "source": "https://www.core.tku.edu.tw/core/?page_id=2650"
+     },
+     {
+      "label": "跨文化戲劇理論",
+      "source": "https://www.core.tku.edu.tw/core/?page_id=2650"
+     },
+     {
+      "label": "表導演實務",
+      "source": "https://www.core.tku.edu.tw/core/?page_id=2650"
+     },
+     {
+      "label": "身心合一跨文化演員訓練",
+      "source": "https://www.core.tku.edu.tw/core/?page_id=2650"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "通識核心課程中心專兼任師資頁身分相符；研究詞取自「研究專長」。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林呈欣（淡江大學風險管理與保險學系副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-022/lin.jpg",
+    "crop": [
+     100,
+     20,
+     520,
+     520
+    ],
+    "source_url": "https://www.ins.tku.edu.tw/ins/?page_id=9509",
+    "credit": "來源：淡江大學風險管理與保險學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "風保系師資頁身分相符（副教授級專業技術人員）；西裝正面單人照清晰，但背景為純黑。"
+  }
+ ]
+}

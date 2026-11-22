@@ -1,0 +1,271 @@
+{
+ "batch": 24,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "潘威佑（社團法人台灣教師聯盟理事長）",
+   "note": "台灣教師聯盟官網僅有會訊，未找到個人頁與頭像、研究專長；略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "王柏傑（國立空中大學講師）",
+   "note": "已知來源為空大嘉義中心地點頁，無個人頁；未搜尋到可確認資料。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "王怡然（紐約大學物理系助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-024/wang_joel.jpg",
+    "crop": null,
+    "source_url": "https://wp.nyu.edu/quantum_institute/faculty/",
+    "credit": "來源：紐約大學 Quantum Institute官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "Joel Wang（王怡然，中研院物理所演講頁確認為同一人）現為 NYU 物理系助理教授；頁面為單人正式照，已預覽。Scholar 興趣：2D materials, quantum technology, cQED, superconductivity。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "王政卿（紐約州立大學下城醫學院醫學敎授）",
+   "note": "僅有 PubMed 與校友頁，無法確認個人頁；略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "莊士杰（紐約州立大學助理教授）",
+   "note": "Downstate 教師頁（Shih-Chieh (Abraham) Chuang）只有文字研究描述，無頭像；略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "周鉅原（紐約市大學經濟系教授）",
+   "note": "CCNY / GC CUNY 頁 403，未取得頭像；略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "王立 （紐約市立大學亨特學院羅曼語文學系法語組講師）",
+   "note": "Hunter 學院羅曼語文系教師頁未見此人；略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李安如（紐約市立大學教授）",
+   "note": "John Jay 教師頁（Anru Lee）有照片，但為戶外旅遊生活照，不符正式肖像標準，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃克文（紐西蘭奧克蘭大學人文學系資深講師）",
+   "note": "搜尋未能確認奧克蘭大學同名人士；略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃烱焜（羅東博愛醫院醫師）",
+   "research": {
+    "keywords": [
+     {
+      "label": "排尿障礙",
+      "source": "https://www.pohai.org.tw/doctor_detail.php?PKey=483"
+     },
+     {
+      "label": "攝護腺肥大",
+      "source": "https://www.pohai.org.tw/doctor_detail.php?PKey=483"
+     },
+     {
+      "label": "泌尿系統結石",
+      "source": "https://www.pohai.org.tw/doctor_detail.php?PKey=483"
+     },
+     {
+      "label": "泌尿腫瘤",
+      "source": "https://www.pohai.org.tw/doctor_detail.php?PKey=483"
+     },
+     {
+      "label": "男性不孕",
+      "source": "https://www.pohai.org.tw/doctor_detail.php?PKey=483"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-024/huang_jk.jpg",
+    "crop": [
+     130,
+     0,
+     330,
+     330
+    ],
+    "source_url": "https://www.pohai.org.tw/doctor_detail.php?PKey=483",
+    "credit": "來源：羅東博愛醫院官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "羅東博愛醫院醫師頁（泌尿外科主治醫師）專長欄與單人白袍正式照；已預覽並裁切。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳周宏（美國Gonzaga Univetsity退休名譽教授）",
+   "note": "Gonzaga 教師頁 403；搜尋僅見 Jason C.H. Chen（MIS），無法確認為同一人，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張武修（美國Tufts大學醫學院客座教授）",
+   "note": "搜尋未找到 Tufts 頁面；略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳泰延（美國休士頓大學化學系副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-024/chen_tai_yen.jpg",
+    "crop": null,
+    "source_url": "https://www.uh.edu/nsm/chemistry/people/profiles/tai-yen-chen/index.php",
+    "credit": "來源：休士頓大學化學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "UH 化學系副教授個人頁單人照，臉清楚；已預覽。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "洪瑀韓（美國休士頓大學城中分校教育學系副教授）",
+   "note": "未取得官方頁面頭像（UHD 只有 CV PDF）；略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "王耀進（美國佛羅里達大學觀光餐旅暨活動管理系助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-024/wang_yao_chin.webp",
+    "crop": null,
+    "source_url": "https://hhp.ufl.edu/directory/yao-chin-wang/",
+    "credit": "來源：佛羅里達大學 HHP 學院官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "UF THEM 系助理教授頁，正式單人照；已預覽。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳振迪（美國俄亥俄州立大學助理教授）",
+   "note": "Chen-Ti Chen，OSU 農業環境與發展經濟系助理教授、台大農經學士，推定為同一人；半正式單人照，已預覽。 [審核剔除portrait]"
+  },
+  {
+   "section": "會員名單",
+   "raw": "簡龍璋（美國內華達大學拉斯維加斯分校流行病學與生物統計學系副教授）",
+   "note": "UNLV 官方頁未取得；Scholar 興趣 Spatiotemporal analysis 等（非需求）；無頭像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "詹益鑑（美國加州大學柏克萊分校訪問學者暨公衛學院院長資深顧問）",
+   "note": "搜尋可能對應 I-Chien Jan（Berkeley 公衛學院院長特別顧問），無法確認；略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "蘇芳儀（美國加州大學洛杉磯分校助理教授）",
+   "note": "UCLA Samueli 頁（Fang-Yi \"Ida\" Su，助理教授）有照片，但為戶外 iPhone 生活照、背景雜亂，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳奕旭（美國加州大學聖塔克魯斯分校電機系教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "Energy",
+      "source": "https://campusdirectory.ucsc.edu/cd_detail?uid=ychen225"
+     },
+     {
+      "label": "Environmental Policy",
+      "source": "https://campusdirectory.ucsc.edu/cd_detail?uid=ychen225"
+     },
+     {
+      "label": "Economics",
+      "source": "https://campusdirectory.ucsc.edu/cd_detail?uid=ychen225"
+     },
+     {
+      "label": "Water",
+      "source": "https://campusdirectory.ucsc.edu/cd_detail?uid=ychen225"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-024/chen_yihsu.jpg",
+    "crop": null,
+    "source_url": "https://people.ucsc.edu/~ychen225/",
+    "credit": "來源：本人個人網站（UC Santa Cruz）官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "Yihsu Chen，UCSC 電機與電腦工程系教授；關鍵詞取自校園名錄「Areas of Expertise」。照片為本人網站單人照，背景戶外但臉清楚。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "蔡榮芳（美國南卡州查爾斯頓學院歷史系名譽教授）",
+   "note": "未找到官方頭像；略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "簡揚庭（美國喬治亞州立大學天文暨物理學系助理教授）",
+   "note": "GSU 頁 403，搜尋亦無明列專長頁；略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "高連庸（美國喬治華盛頓大學數學系副教授）",
+   "note": "GWU 頁 403；Scholar 興趣 Dynamical Systems and Geometry（非需求）；無頭像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "楊佳蓁（美國奧克拉荷馬州立大學教育心理研究所教授）",
+   "note": "OSU experts 頁（Chia-chen Yang，Professor）縮圖為 180px 戶外生活照（太陽眼鏡在頭上），不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林庭安（美國康乃迪克大學University of Connecticut哲學系合作研究員）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-024/lin_ting_an.jpg",
+    "crop": null,
+    "source_url": "https://philosophy.uconn.edu/person/ting-an-lin-2/",
+    "credit": "來源：康乃狄克大學哲學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "UConn 哲學系頁 Ting-an Lin（Associate Research Scholar）單人半正式照，150px（剛好達標），背景為植物；已預覽。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林彥瑜（美國德堡大學社會人類學系助理教授）",
+   "note": "僅有 CV PDF，DePauw 頁與個人網站未能取得；略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李佳蔚（美國德州三一大學音樂系教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-024/lee_chiawei.jpg",
+    "crop": null,
+    "source_url": "https://trinity.edu/directory/clee",
+    "credit": "來源：三一大學官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "Trinity 官方名錄 Chia-Wei Lee, D.M.A. 單人照；已預覽。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃綠玉（美國德州大學休士頓公共衛生學院教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-024/hwang.jpg",
+    "crop": null,
+    "source_url": "https://sph.uth.edu/faculty/emeriti?fac=rmT1omzsPnVmTSI%2Fj5K7WQ%3D%3D",
+    "credit": "來源：德州大學休士頓健康科學中心公共衛生學院官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "Lu-Yu Hwang，UTHealth SPH 名譽教授（Epidemiology）；正式單人照，已預覽。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張典正（美國德州大學醫學中心婦產部教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-024/chang_t.jpg",
+    "crop": null,
+    "source_url": "https://directory.uthscsa.edu/academics/profile/changt3",
+    "credit": "來源：德州大學健康科學中心聖安東尼奧分校官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "Tiencheng Arthur Chang，UTHSCSA 婦產科教授（台大學士）；單人白袍照，已預覽。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "朱珮華（美國德州農工大學獸醫系助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-024/chu_candice.jpg",
+    "crop": [
+     110,
+     30,
+     480,
+     480
+    ],
+    "source_url": "https://candicechudvm.com/about.html",
+    "credit": "來源：本人個人網站（Texas A&M 獸醫病理）官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "Candice P. Chu，TAMU Veterinary Pathobiology 助理教授本人網站單人照；已裁切預覽。"
+  }
+ ]
+}

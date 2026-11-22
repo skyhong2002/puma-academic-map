@@ -26407,6 +26407,14 @@
       {
         "label": "諮商心理研究",
         "source": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+      },
+      {
+        "label": "教學實踐研究",
+        "source": "https://www.edpsy.tku.edu.tw/edpsy/?page_id=652"
+      },
+      {
+        "label": "反思寫作",
+        "source": "https://www.edpsy.tku.edu.tw/edpsy/?page_id=652"
       }
     ]
   },
@@ -26534,6 +26542,14 @@
       {
         "label": "Analytic Toeplitz operators",
         "source": "https://teacher.tku.edu.tw/StfTchrSmy.aspx?tid=t738310"
+      },
+      {
+        "label": "泛函分析",
+        "source": "https://www.math.tku.edu.tw/math/?page_id=554&asc=退休教師"
+      },
+      {
+        "label": "算子理論",
+        "source": "https://www.math.tku.edu.tw/math/?page_id=554&asc=退休教師"
       }
     ]
   },
@@ -26557,6 +26573,14 @@
       {
         "label": "文化心理",
         "source": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+      },
+      {
+        "label": "諮商實務",
+        "source": "https://www.edpsy.tku.edu.tw/edpsy/?page_id=689"
+      },
+      {
+        "label": "犯罪心理學",
+        "source": "https://www.edpsy.tku.edu.tw/edpsy/?page_id=689"
       }
     ],
     "related": [
@@ -26722,6 +26746,10 @@
       },
       {
         "label": "波蘭政治",
+        "source": "https://www.tidx.tku.edu.tw/Front/People/Faculty/Members.aspx?PID=0000000003&id=Mg19MK%2FlJN4%3D"
+      },
+      {
+        "label": "中東歐國家民主化研究",
         "source": "https://www.tidx.tku.edu.tw/Front/People/Faculty/Members.aspx?PID=0000000003&id=Mg19MK%2FlJN4%3D"
       }
     ]
@@ -33505,6 +33533,98 @@
       {
         "label": "基督教藝術（Christian Art）",
         "source": "https://fineart.thu.edu.tw/web/teacher/detail.php?cid=0&id=39"
+      }
+    ]
+  },
+  {
+    "id": "cf9838afd69a5effaf1e8b2cdcf1f0f3",
+    "section": "會員名單",
+    "raw": "江明憬（沖繩科學技術大學院大學(OIST)Staff Scientist）",
+    "keywords": [
+      {
+        "label": "animal behavior",
+        "source": "https://www.oist.jp/research/research-units/mru/members"
+      },
+      {
+        "label": "electrophysiology",
+        "source": "https://www.oist.jp/research/research-units/mru/members"
+      }
+    ]
+  },
+  {
+    "id": "585799ab60c51036317a921353b7f981",
+    "section": "會員名單",
+    "raw": "陳慧勻（淡江大學通識與核心課程中心/雞屎藤舞蹈劇場專任副教授/副藝術總監）",
+    "keywords": [
+      {
+        "label": "臺灣劇場史",
+        "source": "https://www.core.tku.edu.tw/core/?page_id=2650"
+      },
+      {
+        "label": "後殖民劇場理論",
+        "source": "https://www.core.tku.edu.tw/core/?page_id=2650"
+      },
+      {
+        "label": "跨文化戲劇理論",
+        "source": "https://www.core.tku.edu.tw/core/?page_id=2650"
+      },
+      {
+        "label": "表導演實務",
+        "source": "https://www.core.tku.edu.tw/core/?page_id=2650"
+      },
+      {
+        "label": "身心合一跨文化演員訓練",
+        "source": "https://www.core.tku.edu.tw/core/?page_id=2650"
+      }
+    ]
+  },
+  {
+    "id": "2de358b5c2a358142f9a306ac899c74a",
+    "section": "會員名單",
+    "raw": "黃烱焜（羅東博愛醫院醫師）",
+    "keywords": [
+      {
+        "label": "排尿障礙",
+        "source": "https://www.pohai.org.tw/doctor_detail.php?PKey=483"
+      },
+      {
+        "label": "攝護腺肥大",
+        "source": "https://www.pohai.org.tw/doctor_detail.php?PKey=483"
+      },
+      {
+        "label": "泌尿系統結石",
+        "source": "https://www.pohai.org.tw/doctor_detail.php?PKey=483"
+      },
+      {
+        "label": "泌尿腫瘤",
+        "source": "https://www.pohai.org.tw/doctor_detail.php?PKey=483"
+      },
+      {
+        "label": "男性不孕",
+        "source": "https://www.pohai.org.tw/doctor_detail.php?PKey=483"
+      }
+    ]
+  },
+  {
+    "id": "e2e919dfa7be6f92007ff6cf3cddce28",
+    "section": "會員名單",
+    "raw": "陳奕旭（美國加州大學聖塔克魯斯分校電機系教授）",
+    "keywords": [
+      {
+        "label": "Energy",
+        "source": "https://campusdirectory.ucsc.edu/cd_detail?uid=ychen225"
+      },
+      {
+        "label": "Environmental Policy",
+        "source": "https://campusdirectory.ucsc.edu/cd_detail?uid=ychen225"
+      },
+      {
+        "label": "Economics",
+        "source": "https://campusdirectory.ucsc.edu/cd_detail?uid=ychen225"
+      },
+      {
+        "label": "Water",
+        "source": "https://campusdirectory.ucsc.edu/cd_detail?uid=ychen225"
       }
     ]
   }
