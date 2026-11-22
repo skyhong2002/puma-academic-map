@@ -1,0 +1,238 @@
+{
+ "batch": 8,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "許維智（中科大／行政院政務顧問助理教授／政務顧問）",
+   "note": "中科大兼任助理教授身分已由系網頁確認（NUTC 休閒事業經營系兼任教師頁），但該頁無照片；其他來源皆為新聞或維基，未找到官方單人頭像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林燕輝（中臺科技大學環境與安全衛生工程系教授）",
+   "note": "系網頁與環境部專家資料庫確認身分，但教師名錄無照片；未找到官方頭像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "譚偉恩（中興大學國際政治研究所教授）",
+   "note": "所網頁照片為與狗合照的生活照（食品安全所頁面為同一張），不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林宣佑（國立中興大學園藝學系副教授）",
+   "note": "系所 Google Sites 頁面只有橫幅圖，無個人照片；hort.nchu.edu.tw 個人頁 404。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉雨庭（國立中興大學土壤環境科學系特聘教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-008/liu.jpg",
+    "crop": null,
+    "source_url": "https://soil.nchu.edu.tw/member_detail.php?Key=21",
+    "credit": "來源：國立中興大學土壤環境科學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "系所成員頁確認為特聘教授，照片為實驗室單人肖像，臉部清楚。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳淑卿（國立中興大學外文系名譽教授）",
+   "note": "外文系名譽教授列於兼任師資表，無照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "郭容妙（國立中興大學應用數學系教授）",
+   "note": "系網頁照片為辦公室自拍、背景雜亂，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "杜武青（國立中興大學教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-008/du.jpg",
+    "crop": [
+     1470,
+     350,
+     1700,
+     1700
+    ],
+    "source_url": "https://www.ee.nchu.edu.tw/wb_teacher00.asp?url=33",
+    "credit": "來源：國立中興大學電機工程學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "電機系講座教授頁（玉山學者、教授），官方正式單人肖像；以手動裁切取頭肩。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "孫英玄（中興大學森林學系副教授）",
+   "note": "森林系頁面照片為低解析度（175x200）隨手拍、臉部模糊歪斜，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳良築（中興大學生科院分子生物學研究所名譽教授）",
+   "note": "分子生物學研究所 Google Sites 頁面無個人照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳明敏（中興大學行銷系名譽教授）",
+   "note": "僅找到新聞與維基資料，未找到系所或機構頁面明列的研究專長，不杜撰。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李皇照（中興大學行銷系退休教授）",
+   "note": "行銷系教師頁未列其人；唯一照片為活動新聞，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "廖宜恩（中興大學資訊工程系退休教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-008/liao.jpg",
+    "crop": null,
+    "source_url": "https://cs.nchu.edu.tw/p/412-1002-210.php?Lang=zh-tw",
+    "credit": "來源：國立中興大學資訊工程學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "資工系退休師資頁（專長：XML Databases, Data Mining 等）；照片為單人半正式肖像，背景有窗與植物，品質尚可。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "王強生（國立中興大學農藝學系退休教授退休教授）",
+   "note": "農藝系頁面列為兼任教授，照片為手持稻穀的生活照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "王慶裕（國立中興大學農藝系退休教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-008/wcy.png",
+    "crop": null,
+    "source_url": "https://agro.nchu.edu.tw/web/faculty/list.php?lang=zh_tw",
+    "credit": "來源：國立中興大學農藝學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "農藝系退休教授列表，照片單人、臉部清楚，背景為室內窗邊，品質尚可。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "徐慧霞（中華科大副教授）",
+   "note": "資管系頁面確認（ccm.cust.edu.tw，需 legacy TLS 設定），但縮圖 300x400 模糊且頭頂被截斷，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃璇華（中醫大病理部講師（退休））",
+   "note": "未找到可確認為同一人的中國醫藥大學或機構頁面；搜尋結果只有同名論文作者，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳麗糸（亞洲大學 護理學系兼任助理教授）",
+   "note": "亞洲大學護理系兼任頁照片僅 112x130，低於 150px 門檻，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳美智（亞洲大學社工系教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-008/mcchen.jpg",
+    "crop": null,
+    "source_url": "https://sw.asia.edu.tw/zh_tw/faculty/faculty_1/%E9%99%B3%E7%BE%8E%E6%99%BAMei-Chi-Chen-82428164",
+    "credit": "來源：亞洲大學社會工作學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "社工系教授兼系主任頁，照片為單人半身，解析度僅 189x189（縮圖），品質尚可。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳巧禎（亞洲大學社會工作學系兼任講師）",
+   "research": {
+    "keywords": [
+     {
+      "label": "減少傷害處遇",
+      "source": "https://sw.asia.edu.tw/zh_tw/faculty/faculty_2/%E9%99%B3%E5%B7%A7%E7%A6%8EQiao-Zhen-Chen-57881358"
+     },
+     {
+      "label": "藥癮青少年、成人個別輔導及其家庭處遇",
+      "source": "https://sw.asia.edu.tw/zh_tw/faculty/faculty_2/%E9%99%B3%E5%B7%A7%E7%A6%8EQiao-Zhen-Chen-57881358"
+     },
+     {
+      "label": "愛滋及性傳染疾病諮詢/篩檢/教育宣導及個別處遇",
+      "source": "https://sw.asia.edu.tw/zh_tw/faculty/faculty_2/%E9%99%B3%E5%B7%A7%E7%A6%8EQiao-Zhen-Chen-57881358"
+     },
+     {
+      "label": "性別與多元性別教育（性教育/性別平等意識培力/性別基礎概念/多元性別認識）",
+      "source": "https://sw.asia.edu.tw/zh_tw/faculty/faculty_2/%E9%99%B3%E5%B7%A7%E7%A6%8EQiao-Zhen-Chen-57881358"
+     },
+     {
+      "label": "助人工作者培訓與督導",
+      "source": "https://sw.asia.edu.tw/zh_tw/faculty/faculty_2/%E9%99%B3%E5%B7%A7%E7%A6%8EQiao-Zhen-Chen-57881358"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "研究專長取自社工系教師頁（講師・業界教師）；頁面照片為近距離自拍、畫質粗糙，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "施睿誼（亞洲大學社會工作學系助理教授）",
+   "note": "官方照片為戶外倚樹生活照（200x200）與 133px 縮圖，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李美玲（亞洲大學社會工作學系退休教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-008/lee.jpg",
+    "crop": [
+     300,
+     0,
+     760,
+     760
+    ],
+    "source_url": "https://sw.asia.edu.tw/zh_tw/faculty/RT/%E6%9D%8E%E7%BE%8E%E7%8E%B2Meilin-Lee-79277403",
+    "credit": "來源：亞洲大學社會工作學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "社工系退休教師頁，照片為戶外單人，裁切後頭肩清楚。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林韋廷（交通大學科技管理博士、交通大學教育博士候選人）",
+   "note": "搜尋未找到可確認身分的公開頁面（只有同名他校碩士生），略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "王耀德（交通大學退休教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-008/wang.jpg",
+    "crop": null,
+    "source_url": "https://gmba.nycu.edu.tw/faculty/yau-de-wang/",
+    "credit": "來源：國立陽明交通大學企業管理碩士學位學程官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "GMBA 退休教師頁（副教授，研究專長：組織行為、組織理論等；署名原文為退休教授，確定為交通大學同一人）；官方照片僅 150x200 且為近距離特寫，品質普通。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳英亮（交通大學退休教授）",
+   "note": "僅在電機系歷屆主管頁出現，照片為戶外生活照，且無研究專長頁，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "魏道駿（仁德醫護管理專科學校 餐旅管理科 助理教授兼科主任）",
+   "note": "仁德餐旅科師資頁照片為持酒杯全身生活照、臉部被截斷，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "郭正光（休士頓華美中醫學院退休教授）",
+   "note": "僅有新聞與 Taiwanese American history 網站，無機構官方人物頁，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳一標（佛光大學佛教學系教授）",
+   "note": "佛教學系頁面照片為研討會講台生活照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃芸新（佛光大學心理系副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-008/fgu2.png",
+    "crop": null,
+    "source_url": "https://psychology.fgu.edu.tw/zh_tw/Faculty/member/%E9%BB%83%E8%8A%B8%E6%96%B0-99022805",
+    "credit": "來源：佛光大學心理學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "心理系頁面官方單人形象照（灰色圓形背景、四角為透明／留白），臉部清楚。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林明昌（佛光大學語文學系副教授）",
+   "note": "系頁照片為含大量文字與風景合成的海報式圖片，不採用。"
+  }
+ ]
+}

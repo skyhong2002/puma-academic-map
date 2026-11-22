@@ -1,0 +1,240 @@
+{
+ "batch": 9,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "詹松軒（倫敦政經學院政府系博士候選人）",
+   "note": "搜尋無法確認同一人，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳明斈（健行科技大學國企系助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-009/chen_mh.jpg",
+    "crop": null,
+    "source_url": "http://www.ib.uch.edu.tw/zh_tw/Introduction/Members/-%E9%99%B3%E6%98%8E%E6%96%88-4988867",
+    "credit": "來源：健行科技大學國際企業經營系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "健行科大國企系成員頁，姓名與助理教授職稱相符；正式單人肖像，臉部清楚。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "曾曉萍（健行科技大學財務金融系副教授）",
+   "note": "健行科大財金系頁面照片為戶外生活照，未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "翁正忞（僑光科技大學國際貿易系副教授退休）",
+   "note": "僑光國貿系名錄有其名，但未取得專長頁與照片。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "高仁山（元智大學兼任教授）",
+   "note": "元智管院頁面照片僅 130x150（短邊<150），未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "王崇喆（元智大學助理教授）",
+   "note": "元智電機系頁面照片為自拍式戶外照，未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳翠華（元智大學應用外語系副教授）",
+   "note": "元智應外系頁面照片為樓梯處生活照，未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "王旭（元智大學應用外語系退休教授）",
+   "note": "清大語言所頁面（Samuel Hsu Wang，退休教授，現職元智）無照片；未找到可用頭像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "糠明珊（元智大學通識教學部助理教授）",
+   "note": "元智通識部頁面照片為登山戶外照，未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳巍仁（元智大學通識教學部助理教授）",
+   "note": "元智通識部頁面照片為街頭生活照、背景雜亂，未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "羅振洲（元智大學電機系助理教授）",
+   "note": "元智電機系頁面照片為比手勢/生活照，未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "郭集慶（光田醫療社團法人光田綜合醫院癌症中心助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-009/kok.jpg",
+    "crop": null,
+    "source_url": "https://www.ktgh.com.tw/ktgh/Doctor/DrDetail/666A194C6EBBF5D19EE7CC6D228F4FFC?EmpNo=1036&isFromFD=True",
+    "credit": "來源：光田綜合醫院官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "光田醫院醫師介紹頁：癌症中心主任、教育部部定助理教授，與署名相符；半正式醫師形象照（250px，臉部清楚、白袍）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡榮捷（前大葉大學公關處長助理教授）",
+   "note": "大葉大學課程綱要頁（專長：台灣史）照片僅 120x140，未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃清江（前明道大學生物科技學系退休教授）",
+   "note": "搜尋未找到明道大學對應頁面。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "王怡惠（前東方設計大學觀光與休閒事業管理系（退休）助理教授）",
+   "note": "東方設計大學觀光系頁面（專長：觀光產業經營管理等）無法連線取得照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃維富（前華夏科技大學專任副教授/進修推廣部主任）",
+   "research": {
+    "keywords": [
+     {
+      "label": "奈米技術",
+      "source": "https://www.me.hwh.edu.tw/files/15-1016-19966,c4472-1.php?Lang=zh-tw"
+     },
+     {
+      "label": "冷凍空調",
+      "source": "https://www.me.hwh.edu.tw/files/15-1016-19966,c4472-1.php?Lang=zh-tw"
+     },
+     {
+      "label": "機械製造",
+      "source": "https://www.me.hwh.edu.tw/files/15-1016-19966,c4472-1.php?Lang=zh-tw"
+     },
+     {
+      "label": "機械設計",
+      "source": "https://www.me.hwh.edu.tw/files/15-1016-19966,c4472-1.php?Lang=zh-tw"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "華夏科大機械系榮退教師頁：黃維富副教授，專長如上（頁面未提進修推廣部主任，姓名、校名、職稱相符，採用）。頁面照片僅 118x140，未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "鄧為寧（劍橋大學博士候選人）",
+   "research": {
+    "keywords": [
+     {
+      "label": "CPT-Symmetric Universe",
+      "source": "https://weiningdeng.com/"
+     },
+     {
+      "label": "Theoretical Cosmology",
+      "source": "https://weiningdeng.com/"
+     },
+     {
+      "label": "Particle Physics",
+      "source": "https://weiningdeng.com/"
+     },
+     {
+      "label": "Quantum Gravity",
+      "source": "https://weiningdeng.com/"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "本人網站：Cambridge Cavendish Laboratory 理論物理博士生，Research Interests 如上。網站照片為戶外生活照，未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "盧致豪（加州大學舊金山分校博士後研究員）",
+   "note": "Google Scholar 疑似為 Chih-Hao Lu（UCSF postdoc），但未找到官方人物頁，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "Kevin Wei（加拿大英屬哥倫比亞大學助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-009/wei.png",
+    "crop": null,
+    "source_url": "https://zoology.ubc.ca/person/kevin-wei",
+    "credit": "來源：加拿大英屬哥倫比亞大學動物學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "UBC Zoology 教師頁，Assistant Professor，與署名相符；官方人物照（370x320），臉部清楚但偏休閒。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "陳時奮（加拿大西安大略大學榮譽教授/美國西華盛頓大學講座教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-009/chen_sf_wwu.jpg",
+    "crop": null,
+    "source_url": "https://cbe.wwu.edu/index.php/people/chens20",
+    "credit": "來源：美國西華盛頓大學商學院官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "WWU CBE 頁面為 Kaiser Professor（講座教授），生於台灣、研究國際企業，與署名相符；正式單人肖像。Ivey 頁面亦有照片但未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "羅友志（國立勤益科技大學 健康產業科技研發與管理系教授）",
+   "note": "勤益健管系頁面照片為演講活動照，未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "王瑞華（北美州台灣人敎授學會前理事）",
+   "note": "僅找到台美史料中心第三方頁面（照片為旅遊生活照，非機構官方頁），未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "鄭麗伶（北美洲台灣人教授協會前會長）",
+   "note": "僅找到台美史料中心第三方頁面，且為病毒學研究人員，無頁面明列研究專長，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳彥勳（南伊利諾大學人類科學院助理教授）",
+   "note": "SIU 2026 New Faculty 頁（Yen-Hsun Wu，Assistant Professor, Human Sciences）未見其照片；未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "賴明材（南臺科技大學企業管理系教授）",
+   "note": "南臺企管系頁面照片僅 120x185，未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳雍正（南臺科技大學副教授）",
+   "note": "南臺多媒體系頁面照片為手持獎座照，未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張家誠（南臺科技大學創新產品設計系教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-009/chang.jpg",
+    "crop": null,
+    "source_url": "https://cpd.stust.edu.tw/tc/node/teacher_ccc",
+    "credit": "來源：南臺科技大學創新產品設計系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "系所教師頁，姓名、系所、教授職稱相符；單人肖像（165px，黑白）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃盈斐（南臺科技大學助理教授）",
+   "note": "南臺幼保系頁面無個人照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳柏伸（南臺科技大學應用日語系兼任講師）",
+   "note": "南臺應日系頁面僅列學經歷與碩論，無專長欄位亦無照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "葉瓊霞（南臺科技大學講師）",
+   "research": {
+    "keywords": [
+     {
+      "label": "台灣史",
+      "source": "https://pmi.stust.edu.tw/tc/node/sibyl"
+     },
+     {
+      "label": "台灣文學史",
+      "source": "https://pmi.stust.edu.tw/tc/node/sibyl"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "南臺科大流行音樂產業系教師頁，研究領域：台灣史、台灣文學史。頁面照片為拉伸變形且圖檔無法取得，未採用。"
+  }
+ ]
+}

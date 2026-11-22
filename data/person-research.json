@@ -33294,5 +33294,93 @@
         "source": "https://dpcem.nsysu.edu.tw/p/404-1330-337777.php?Lang=zh-tw"
       }
     ]
+  },
+  {
+    "id": "fac3ef9d793a25bf8080a538e66a61ae",
+    "section": "會員名單",
+    "raw": "陳巧禎（亞洲大學社會工作學系兼任講師）",
+    "keywords": [
+      {
+        "label": "減少傷害處遇",
+        "source": "https://sw.asia.edu.tw/zh_tw/faculty/faculty_2/%E9%99%B3%E5%B7%A7%E7%A6%8EQiao-Zhen-Chen-57881358"
+      },
+      {
+        "label": "藥癮青少年、成人個別輔導及其家庭處遇",
+        "source": "https://sw.asia.edu.tw/zh_tw/faculty/faculty_2/%E9%99%B3%E5%B7%A7%E7%A6%8EQiao-Zhen-Chen-57881358"
+      },
+      {
+        "label": "愛滋及性傳染疾病諮詢/篩檢/教育宣導及個別處遇",
+        "source": "https://sw.asia.edu.tw/zh_tw/faculty/faculty_2/%E9%99%B3%E5%B7%A7%E7%A6%8EQiao-Zhen-Chen-57881358"
+      },
+      {
+        "label": "性別與多元性別教育（性教育/性別平等意識培力/性別基礎概念/多元性別認識）",
+        "source": "https://sw.asia.edu.tw/zh_tw/faculty/faculty_2/%E9%99%B3%E5%B7%A7%E7%A6%8EQiao-Zhen-Chen-57881358"
+      },
+      {
+        "label": "助人工作者培訓與督導",
+        "source": "https://sw.asia.edu.tw/zh_tw/faculty/faculty_2/%E9%99%B3%E5%B7%A7%E7%A6%8EQiao-Zhen-Chen-57881358"
+      }
+    ]
+  },
+  {
+    "id": "60bac70cdf0a4c624e7f862b63484be3",
+    "section": "會員名單",
+    "raw": "黃維富（前華夏科技大學專任副教授/進修推廣部主任）",
+    "keywords": [
+      {
+        "label": "奈米技術",
+        "source": "https://www.me.hwh.edu.tw/files/15-1016-19966,c4472-1.php?Lang=zh-tw"
+      },
+      {
+        "label": "冷凍空調",
+        "source": "https://www.me.hwh.edu.tw/files/15-1016-19966,c4472-1.php?Lang=zh-tw"
+      },
+      {
+        "label": "機械製造",
+        "source": "https://www.me.hwh.edu.tw/files/15-1016-19966,c4472-1.php?Lang=zh-tw"
+      },
+      {
+        "label": "機械設計",
+        "source": "https://www.me.hwh.edu.tw/files/15-1016-19966,c4472-1.php?Lang=zh-tw"
+      }
+    ]
+  },
+  {
+    "id": "e31d59b42aaab4fdd20ff05809ef86cc",
+    "section": "會員名單",
+    "raw": "鄧為寧（劍橋大學博士候選人）",
+    "keywords": [
+      {
+        "label": "CPT-Symmetric Universe",
+        "source": "https://weiningdeng.com/"
+      },
+      {
+        "label": "Theoretical Cosmology",
+        "source": "https://weiningdeng.com/"
+      },
+      {
+        "label": "Particle Physics",
+        "source": "https://weiningdeng.com/"
+      },
+      {
+        "label": "Quantum Gravity",
+        "source": "https://weiningdeng.com/"
+      }
+    ]
+  },
+  {
+    "id": "15eb14a8a71f91280c20e1134ecf753d",
+    "section": "會員名單",
+    "raw": "葉瓊霞（南臺科技大學講師）",
+    "keywords": [
+      {
+        "label": "台灣史",
+        "source": "https://pmi.stust.edu.tw/tc/node/sibyl"
+      },
+      {
+        "label": "台灣文學史",
+        "source": "https://pmi.stust.edu.tw/tc/node/sibyl"
+      }
+    ]
   }
 ]
