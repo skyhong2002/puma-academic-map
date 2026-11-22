@@ -3,277 +3,274 @@
  "people": [
   {
    "section": "會員名單",
-   "raw": "陳盈婷（中國文化大學兼任助理教授）",
-   "name": "陳盈婷",
-   "affiliation_text": "中國文化大學兼任助理教授",
+   "raw": "楊志偉（陽明交通大學管理學院兼任助理教授）",
+   "name": "楊志偉",
+   "affiliation_text": "陽明交通大學管理學院兼任助理教授",
    "need": [
     "portrait"
    ],
    "known_urls": [
-    "https://landscape.pccu.edu.tw/p/406-1239-148008,r3149.php?Lang=zh-tw",
+    "https://ibm.nycu.edu.tw/%E5%B8%AB%E8%B3%87%E8%88%87%E5%AD%B8%E8%A1%93%E6%88%90%E6%9E%9C/%E5%B8%AB%E8%B3%87/%E6%A5%8A%E5%BF%97%E5%81%89/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "紀國鐘（國立陽明交通大學終身講座教授）",
+   "name": "紀國鐘",
+   "affiliation_text": "國立陽明交通大學終身講座教授",
+   "need": [
+    "research"
+   ],
+   "known_urls": [
+    "https://dop.nycu.edu.tw/ch/people_ii.html?tID=125"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃桂瑩（陽明交通大學視覺文化研究所副教授）",
+   "name": "黃桂瑩",
+   "affiliation_text": "陽明交通大學視覺文化研究所副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://svc.nycu.edu.tw/svc/ch/app/artwebsite/view?module=artwebsite&id=6745&serno=9a39b03a-f8ae-41f8-ba68-44b6e0a914ca",
     "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "陳盈棻（國立臺北科技大學建築系助理教授）",
-   "name": "陳盈棻",
-   "affiliation_text": "國立臺北科技大學建築系助理教授",
+   "raw": "盧孳艷（國立陽明交通大學護理學院退休教授）",
+   "name": "盧孳艷",
+   "affiliation_text": "國立陽明交通大學護理學院退休教授",
    "need": [
-    "portrait"
+    "research"
    ],
    "known_urls": [
-    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+    "https://sts.nycu.edu.tw/%E3%80%90%E5%AD%B8%E8%A1%93%E6%BC%94%E8%AC%9B%E3%80%91107-12-07%E4%BA%94%E4%B8%8B%E5%8D%88100-%E5%8F%B0%E7%81%A3%E5%85%AC%E5%85%B1%E8%A1%9B%E7%94%9F%E8%AD%B7%E7%90%86%E5%8F%B2%EF%BC%9A%E5%9C%A8/"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "陳碧祺（高雄師範大學教育學系教授）",
-   "name": "陳碧祺",
-   "affiliation_text": "高雄師範大學教育學系教授",
+   "raw": "黃國源（陽明交通大學資工系退休教授）",
+   "name": "黃國源",
+   "affiliation_text": "陽明交通大學資工系退休教授",
    "need": [
     "portrait"
    ],
    "known_urls": [
-    "https://c.nknu.edu.tw/edu/Teacher.aspx?PClass=0004&PN=10",
-    "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+    "https://www.cs.nycu.edu.tw/members/detail/kyhuang"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "陳祈安（台大醫學院醫學系婦產科教授（已退休））",
-   "name": "陳祈安",
-   "affiliation_text": "台大醫學院醫學系婦產科教授（已退休）",
+   "raw": "魏群樹（陽明交通大學資訊工程學系副教授）",
+   "name": "魏群樹",
+   "affiliation_text": "陽明交通大學資訊工程學系副教授",
    "need": [
     "portrait"
    ],
    "known_urls": [
-    "https://scholars.lib.ntu.edu.tw/entities/person/acba3a5e-757c-4e54-bcca-6cb4f113bdff"
+    "https://www.cs.nycu.edu.tw/members/detail/cswei"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "陳祈男（成功大學工程科學系退休名譽教授）",
-   "name": "陳祈男",
-   "affiliation_text": "成功大學工程科學系退休名譽教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "陳秋瑩（中國醫藥大學公共衛生系教授）",
-   "name": "陳秋瑩",
-   "affiliation_text": "中國醫藥大學公共衛生系教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://webap.cmu.edu.tw/TchEportfolio/index_1/chence",
-    "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "陳立民（國立高雄師範大學 視覺設計系教授）",
-   "name": "陳立民",
-   "affiliation_text": "國立高雄師範大學 視覺設計系教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://sso.nknu.edu.tw/DataOpen2Search/vita.aspx?UNID=1997",
-    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "陳紫樺（國立台北護理健康大學通識中心助理教授）",
-   "name": "陳紫樺",
-   "affiliation_text": "國立台北護理健康大學通識中心助理教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://generaledu.ntunhs.edu.tw/p/412-1019-1562.php?Lang=zh-tw",
-    "https://incubation.ntunhs.edu.tw/index.php?pageID=4&tid=545"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "陳維鈞（台北科技大學創新前瞻科技研究學院兼任教授）",
-   "name": "陳維鈞",
-   "affiliation_text": "台北科技大學創新前瞻科技研究學院兼任教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://ifirst.ntut.edu.tw/p/405-1130-135806%2Cc16921.php?Lang=zh-tw",
-    "https://ifirst.ntut.edu.tw/var/file/130/1130/img/4037/484422483.pdf"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "陳綺娟（芬蘭赫爾辛基大學博士後研究員）",
-   "name": "陳綺娟",
-   "affiliation_text": "芬蘭赫爾辛基大學博士後研究員",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://doi.org/10.1111/jse.12899",
-    "https://www.helsinki.fi/en/researchgroups/crop-light/people"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "陳美智（亞洲大學社工系教授）",
-   "name": "陳美智",
-   "affiliation_text": "亞洲大學社工系教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://sw.asia.edu.tw/uploads/asset/data/60e691d5063ca27d7a0000cc/%E9%99%B3%E7%BE%8E%E6%99%BA%E4%B8%AD%E6%96%87.pdf"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "陳美靜（臺東大學美術產業學系助理教授）",
-   "name": "陳美靜",
-   "affiliation_text": "臺東大學美術產業學系助理教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "陳良築（中興大學生科院分子生物學研究所名譽教授）",
-   "name": "陳良築",
-   "affiliation_text": "中興大學生科院分子生物學研究所名譽教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://sites.google.com/email.nchu.edu.tw/mbio/%E7%B3%BB%E6%89%80%E6%88%90%E5%93%A1/%E5%85%BC%E4%BB%BB%E6%95%99%E5%B8%AB/%E9%99%B3%E8%89%AF%E7%AF%89%E5%90%8D%E8%AD%BD%E6%95%99%E6%8E%88"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "陳蕾惠（中央研究院分子生物學研究所研究員）",
-   "name": "陳蕾惠",
-   "affiliation_text": "中央研究院分子生物學研究所研究員",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://www.imb.sinica.edu.tw/ch/faculty/index.html",
-    "https://www.imb.sinica.edu.tw/ch/faculty/profile/rhchen.html",
-    "https://www.ios.sinica.edu.tw/singlepage.php?id=1"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "陳言丞（慈濟大學醫學系外科學科副教授）",
-   "name": "陳言丞",
-   "affiliation_text": "慈濟大學醫學系外科學科副教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://med.tcu.edu.tw/?p=5010",
-    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
-    "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "陳詠昌（中央研究院環境變遷中心博士後研究員）",
-   "name": "陳詠昌",
-   "affiliation_text": "中央研究院環境變遷中心博士後研究員",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://pubmed.ncbi.nlm.nih.gov/38012250/",
-    "https://www.ios.sinica.edu.tw/singlepage.php?id=1",
-    "https://www.koryu.or.jp/Portals/0/shomu/%EF%BC%92%EF%BC%90%EF%BC%92%EF%BC%91%E5%B9%B4%E5%BA%A6%E4%BA%8B%E6%A5%AD%E5%A0%B1%E5%91%8A%E6%9B%B8%E5%8F%8A%E3%81%B3%E9%99%84%E5%B1%9E%E6%98%8E%E7%B4%B0%E6%9B%B8.pdf"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "陳逸杰（國立高雄大學建築學系教授）",
-   "name": "陳逸杰",
-   "affiliation_text": "國立高雄大學建築學系教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "陳錦生（長榮大學生科系名譽教授）",
-   "name": "陳錦生",
-   "affiliation_text": "長榮大學生科系名譽教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://dweb.cjcu.edu.tw/biosci/staff/"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "陳雍正（南臺科技大學副教授）",
-   "name": "陳雍正",
-   "affiliation_text": "南臺科技大學副教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://mes.stust.edu.tw/tc/node/jaychen",
-    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "陳雲翔（輔仁大學生命科學系副教授）",
-   "name": "陳雲翔",
-   "affiliation_text": "輔仁大學生命科學系副教授",
+   "raw": "王邦任（陽明交通大學資訊工程學系助理教授）",
+   "name": "王邦任",
+   "affiliation_text": "陽明交通大學資訊工程學系助理教授",
    "need": [
     "portrait"
    ],
    "known_urls": [
     "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
-    "https://www.bio.fju.edu.tw/content/%E9%99%B3%E9%9B%B2%E7%BF%94%E8%80%81%E5%B8%AB"
+    "https://www.cs.nycu.edu.tw/members/detail/denniswang"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "陳韻如（台北大學社會系兼任副教授）",
-   "name": "陳韻如",
-   "affiliation_text": "台北大學社會系兼任副教授",
+   "raw": "洪英章（國立陽明交通大學資訊管理所博士）",
+   "name": "洪英章",
+   "affiliation_text": "國立陽明交通大學資訊管理所博士",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.fssh.khc.edu.tw/resource/openfid.php?id=1432"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳柏安（國立陽明交通大學資訊管理研究所教授）",
+   "name": "陳柏安",
+   "affiliation_text": "國立陽明交通大學資訊管理研究所教授",
    "need": [
     "portrait"
    ],
    "known_urls": [
-    "https://sociology.ntpu.edu.tw/teacher/24",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://www.nycu.edu.tw/iim/ch/app/tabfolder/37974"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "孫春在（陽明交通大學退休教授）",
+   "name": "孫春在",
+   "affiliation_text": "陽明交通大學退休教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://www.cs.nycu.edu.tw/members/detail/ctsun",
+    "https://www.cs.nycu.edu.tw/members/prof?locale=zh"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃汀華（陽明交通大學通訊所博士）",
+   "name": "黃汀華",
+   "affiliation_text": "陽明交通大學通訊所博士",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://ir.lib.nycu.edu.tw/bitstream/11536/101997/1/972219E009004.PDF"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "杜宗熹（國立陽明交通大學醫學系副教授）",
+   "name": "杜宗熹",
+   "affiliation_text": "國立陽明交通大學醫學系副教授",
+   "need": [
+    "research"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "楊凱鈞（國立陽明交通大學醫學系副教授）",
+   "name": "楊凱鈞",
+   "affiliation_text": "國立陽明交通大學醫學系副教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃安君（國立陽明交通大學醫學系助理教授）",
+   "name": "黃安君",
+   "affiliation_text": "國立陽明交通大學醫學系助理教授",
+   "need": [
+    "research"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "楊智廸（陽明交通大學附設醫院陽明交通大學醫學院兼任助理教授，陽明交通大學附設醫院主治醫師）",
+   "name": "楊智廸",
+   "affiliation_text": "陽明交通大學附設醫院陽明交通大學醫學院兼任助理教授，陽明交通大學附設醫院主治醫師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.hosp.nycu.edu.tw/reservation10.html?component=regist&docno=15069&view=schedule"
+   ]
+  },
+  {
+   "section": "共同領銜",
+   "raw": "温宏斌（國立陽明交通大學電機系特聘教授）",
+   "name": "温宏斌",
+   "affiliation_text": "國立陽明交通大學電機系特聘教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://dee.nycu.edu.tw/teachers.php?locale=tw&pa=getItem&teacher_id=26",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "金立群（國立陽明交通大學音樂研究所退休副教授）",
+   "name": "金立群",
+   "affiliation_text": "國立陽明交通大學音樂研究所退休副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://imu.nycu.edu.tw/member.php?id=9"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "翁註重（雲林科技大學工業設計系教授）",
+   "name": "翁註重",
+   "affiliation_text": "雲林科技大學工業設計系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://id.yuntech.edu.tw/tw/about/index.php?unit=2&kind=7",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳晉東（國立雲林科技大學智慧數據科學研究所助理教授）",
+   "name": "吳晉東",
+   "affiliation_text": "國立雲林科技大學智慧數據科學研究所助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://ids.yuntech.edu.tw/team/",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "郭致維（國立雲林科技大學通識中心兼任講師）",
+   "name": "郭致維",
+   "affiliation_text": "國立雲林科技大學通識中心兼任講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://webapp.yuntech.edu.tw/emap/CourseCore/RelatedCourse.aspx?dc=UHX&dn=1&mdc=BHX&sn=7138"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "簡端良（雲林科技大學通識教育中心助理教授）",
+   "name": "簡端良",
+   "affiliation_text": "雲林科技大學通識教育中心助理教授",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
     "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "陳馥瑋（屏東大學社會發展學系助理教授）",
-   "name": "陳馥瑋",
-   "affiliation_text": "屏東大學社會發展學系助理教授",
+   "raw": "陳敬介（靜宜大學中國文學系，前台灣研究中心副教授，主任）",
+   "name": "陳敬介",
+   "affiliation_text": "靜宜大學中國文學系，前台灣研究中心副教授，主任",
    "need": [
     "portrait"
    ],
@@ -283,9 +280,9 @@
   },
   {
    "section": "會員名單",
-   "raw": "陳麒（國立臺東大學幼兒教育學系助理教授）",
-   "name": "陳麒",
-   "affiliation_text": "國立臺東大學幼兒教育學系助理教授",
+   "raw": "黃正聰（靜宜大學副教授）",
+   "name": "黃正聰",
+   "affiliation_text": "靜宜大學副教授",
    "need": [
     "portrait"
    ],
@@ -295,48 +292,9 @@
   },
   {
    "section": "會員名單",
-   "raw": "陳麗糸（亞洲大學 護理學系兼任助理教授）",
-   "name": "陳麗糸",
-   "affiliation_text": "亞洲大學 護理學系兼任助理教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://fonursing.kmu.edu.tw/images/pdf_faculty/107%E6%95%99%E5%B8%ABCV/%E4%B8%AD%E6%96%87CV--%E9%99%B3%E9%BA%97%E7%B3%B8.pdf",
-    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "陸浩然（美國羅文大學學校心理學助理教授）",
-   "name": "陸浩然",
-   "affiliation_text": "美國羅文大學學校心理學助理教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://education.rowan.edu/contactus/luh-hao-jan.html",
-    "https://sites.rowan.edu/catalogs/_docs/2023-2024-graduate-catalog.pdf"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "韓承樺（國立台灣大學歷史學系助理教授）",
-   "name": "韓承樺",
-   "affiliation_text": "國立台灣大學歷史學系助理教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://scholars.lib.ntu.edu.tw/entities/person/b3f30918-60a4-4f78-8fa3-191e2b3f6cd8",
-    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "顏嘉宏（高雄醫學大學天然藥物研究所教授）",
-   "name": "顏嘉宏",
-   "affiliation_text": "高雄醫學大學天然藥物研究所教授",
+   "raw": "黃國超（靜宜大學台灣文學系副教授）",
+   "name": "黃國超",
+   "affiliation_text": "靜宜大學台灣文學系副教授",
    "need": [
     "portrait"
    ],
@@ -346,40 +304,74 @@
   },
   {
    "section": "會員名單",
-   "raw": "顏士清（國立清華大學副教授）",
-   "name": "顏士清",
-   "affiliation_text": "國立清華大學副教授",
+   "raw": "王孝勇（靜宜大學大眾傳播學系特聘教授）",
+   "name": "王孝勇",
+   "affiliation_text": "靜宜大學大眾傳播學系特聘教授",
    "need": [
     "portrait"
    ],
    "known_urls": [
-    "https://cge.site.nthu.edu.tw/p/406-1573-251034,r10280.php",
     "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "顏如儀（University of Cincinnati 數學系教授）",
-   "name": "顏如儀",
-   "affiliation_text": "University of Cincinnati 數學系教授",
+   "raw": "李晨鐘（靜宜大學教授）",
+   "name": "李晨鐘",
+   "affiliation_text": "靜宜大學教授",
    "need": [
     "portrait"
    ],
    "known_urls": [
-    "https://researchdirectory.uc.edu/p/yenji"
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "顏子瑜（國立中正大學財務金融系副教授）",
-   "name": "顏子瑜",
-   "affiliation_text": "國立中正大學財務金融系副教授",
+   "raw": "徐承蔭（靜宜大學法律學系兼任助理教授）",
+   "name": "徐承蔭",
+   "affiliation_text": "靜宜大學法律學系兼任助理教授",
    "need": [
     "portrait"
    ],
    "known_urls": [
-    "https://deptfin.ccu.edu.tw/p/404-1118-1069.php?Lang=zh-tw",
+    "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "鄭羽軒（靜宜大學法律系兼任助理教授）",
+   "name": "鄭羽軒",
+   "affiliation_text": "靜宜大學法律系兼任助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "林靜秀（靜宜大學生態人文學系副教授）",
+   "name": "林靜秀",
+   "affiliation_text": "靜宜大學生態人文學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
     "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "何淑熏（靜宜大學行銷與數位經營學系教授）",
+   "name": "何淑熏",
+   "affiliation_text": "靜宜大學行銷與數位經營學系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://mdba.pu.edu.tw/p/800-1148-094051.php?Lang=zh-tw"
    ]
   }
  ]

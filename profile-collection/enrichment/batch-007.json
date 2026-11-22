@@ -1,0 +1,233 @@
+{
+ "batch": 7,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "賴全裕（中山醫學大學教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-007/lai.jpg",
+    "crop": null,
+    "source_url": "https://occupation.csmu.edu.tw/p/412-1035-5812.php?Lang=zh-tw",
+    "credit": "來源：中山醫學大學職業安全衛生學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "中山醫職安系專任教師頁（賴全裕 教授）之單人正式肖像，臉部清楚。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "王雅倩（中山醫學大學醫學社會暨社會工作學系副教授）",
+   "note": "中山醫醫社系教師頁身分一致，但頁面僅有 200x114 的小圖（短邊<150），不採用。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "曾光華（中正大學企管系教授）",
+   "note": "中正企管系頁面身分一致，但照片為活動現場拍攝（手持麥克風、背景有人），不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李政忠（中正大學傳播學系兼任副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-007/lizc.jpg",
+    "crop": null,
+    "source_url": "https://telecom.ccu.edu.tw/p/406-1088-11535,r3039.php?Lang=zh-tw",
+    "credit": "來源：國立中正大學傳播學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "中正傳播系「兼任教師」頁列有李政忠副教授，與署名（兼任副教授）一致；單人肖像、臉部清楚。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "丁文卿（國立中正大學勞工關係學系助理教授）",
+   "note": "中正勞工系頁面身分一致，但照片為坐沙發的生活照（持抱枕、有浮水印文字），不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "周德璋（國立中正大學化學暨生物化學系退休榮譽教授）",
+   "note": "中正化學系退休教授頁僅列名（榮譽教授），沒有照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳嘉俞（國立中正大學地球與環境科學系助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-007/chenjy.png",
+    "crop": null,
+    "source_url": "https://eq.ccu.edu.tw/p/412-1070-1404.php?Lang=zh-tw",
+    "credit": "來源：國立中正大學地球與環境科學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "專任教師列表頁（陳嘉俞 專任助理教授）上的 300x300 單人照，臉部清楚、略偏休閒但屬官方頁面。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "陳月妙（中正大學外國語文學系退休教授）",
+   "note": "外文系退休教師頁與國際文創中心頁皆確認身分，但沒有她的照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "曾玉村（國立中正大學師資培育中心暨教育學研究所教授）",
+   "note": "教育所合聘教授頁身分一致，但頁面沒有照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李藹慈（國立中正大學成教系教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-007/lai2.jpg",
+    "crop": null,
+    "source_url": "https://cyiaace.ccu.edu.tw/p/404-1243-30127.php?Lang=zh-tw",
+    "credit": "來源：國立中正大學成人及繼續教育學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "成教系教師頁單人半身肖像，臉部清楚（3463x5194 原圖）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡榮祥（國立中正大學政治系教授）",
+   "note": "中正政治系頁面身分一致，但照片為教室遠距離拍攝、臉太小，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張瑞恩（中正大學數學系助理教授）",
+   "note": "中正數學系頁面身分一致，但頁面圖片只是姓名橫幅，沒有人像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "邱献良（國立中正大學會計與資訊科技學系副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-007/chiu.jpg",
+    "crop": null,
+    "source_url": "https://ait.ccu.edu.tw/p/404-1119-27211.php?Lang=zh-tw",
+    "credit": "來源：國立中正大學會計與資訊科技學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "專任教師頁正式單人肖像，臉部清楚。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "王正嘉（國立中正大學法律學系教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-007/wangcj.jpg",
+    "crop": null,
+    "source_url": "https://deptlaw.ccu.edu.tw/p/406-1124-12061,r809.php?Lang=zh-tw",
+    "credit": "來源：國立中正大學法律學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "法律系教師頁 200x200 單人肖像，臉部清楚。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "温秉彝（國立中正大學物理系助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-007/wen.jpg",
+    "crop": null,
+    "source_url": "https://physics.ccu.edu.tw/p/404-1077-17082.php?Lang=zh-tw",
+    "credit": "來源：國立中正大學物理系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "物理系教師頁單人肖像（912x912），臉部清楚。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳文雄（國立中正大學特聘教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-007/chenwhm.jpg",
+    "crop": null,
+    "source_url": "https://econ.ccu.edu.tw/p/426-1117-77.php?Lang=zh-tw",
+    "credit": "來源：國立中正大學經濟學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "經濟系頁（特聘教授，現旅居美國）單人照 194x259，臉部清楚但背景為牆面、解析度偏低。研究主題：舊版系頁已 404、OSU 頁面失效，未能直接看到頁面原字詞，故不填 research（搜尋摘要提及 health economics、agricultural biotechnology、food consumption and nutrition 等，但無法驗證來源）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳國慶（國立中正大學社會福利學系/博士生、東海大學社會工作學系/兼任講師）",
+   "note": "東海社工系頁僅在實習課程師資列表中列名「陳國慶 講師」，沒有個人頁；網路上同名者多（醫師、電池工程教授等），無法確定為同一人，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "阮曉眉（中正大學社會福利學系副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-007/juan.png",
+    "crop": null,
+    "source_url": "https://dsw.ccu.edu.tw/p/406-1084-5467,r934.php?Lang=zh-tw",
+    "credit": "來源：國立中正大學社會福利學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "社福系專任師資頁單人正式肖像，臉部清楚。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉豐佾（國立中正大學社會福利學系助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-007/liu.png",
+    "crop": null,
+    "source_url": "https://dsw.ccu.edu.tw/p/406-1084-33805,r934.php?Lang=zh-tw",
+    "credit": "來源：國立中正大學社會福利學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "社福系專任師資頁單人肖像，臉部清楚。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "王德睦（中正大學社會福利學系退休教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-007/wangdm.jpg",
+    "crop": null,
+    "source_url": "https://dsw.ccu.edu.tw/p/406-1084-5611,r1253.php?Lang=zh-tw",
+    "credit": "來源：國立中正大學社會福利學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "社福系退休教師頁（王德睦 教授）單人照，戶外背景但臉部清楚。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "葉秀珍（國立中正大學社會福利學系退休教授）",
+   "note": "社福系退休教師頁身分一致，但照片為旅遊背景生活照（背景雜亂），不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "顏子瑜（國立中正大學財務金融系副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-007/yen.jpg",
+    "crop": null,
+    "source_url": "https://deptfin.ccu.edu.tw/p/404-1118-1069.php?Lang=zh-tw",
+    "credit": "來源：國立中正大學財務金融系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "財金系專任副教授頁單人照，臉部清楚，屬休閒風格。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳永洲（國立中正大學運動競技學系副教授）",
+   "note": "運動競技系師資確認身分，但院系與計畫成果頁（publication.ccu.edu.tw）只有預設佔位圖，沒有照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "聶良育（中研院PhD candidate）",
+   "note": "僅找到 Nature Communications 論文與 NTU 論文紀錄（生化所 Liao 實驗室），找不到個人頁或頭像，也沒有可引用的研究專長欄位，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "邵允鍾（中研院歐美所助研究員）",
+   "note": "歐美所人員頁（留職停薪）身分一致，但照片為演講現場側面、手持麥克風，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "彭仁郁（中研院民族所副研究員）",
+   "note": "民族所頁面身分一致，但列表照片是手捧花束的生活照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李梅君（中研院民族所副研究員）",
+   "note": "民族所頁面身分一致，但頁面圖片是手繪插畫，不是照片，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "郭佩宜（中研院民族所副研究員）",
+   "note": "民族所頁面身分一致，但人員列表使用預設佔位圖（icon.jpg），沒有照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳昆峯（中研院生化所副研究員）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-007/wu.jpg",
+    "crop": null,
+    "source_url": "https://www.ibc.sinica.edu.tw/facultyV.php?DatetimeStr=20210916145242&type=PI",
+    "credit": "來源：中央研究院生物化學研究所官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "生化所研究人員頁單人正式肖像（300x451），臉部清楚。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "鄭泰安（中研院生醫所特聘研究員）",
+   "note": "生醫所頁面確認身分（退休研究員），但照片網址（CDN 403／404）無法取得，無頭像。"
+  }
+ ]
+}

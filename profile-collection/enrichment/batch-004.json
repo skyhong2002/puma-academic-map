@@ -1,0 +1,412 @@
+{
+ "batch": 4,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "邱皓瑄（Brooklyn College of City University of New YorkProfessor）",
+   "research": {
+    "keywords": [
+     {
+      "label": "organizational behavior",
+      "source": "https://www.brooklyn.edu/faculty-staff/hao-hsuan-holly-chiu/"
+     },
+     {
+      "label": "knowledge sharing",
+      "source": "https://www.brooklyn.edu/faculty-staff/hao-hsuan-holly-chiu/"
+     },
+     {
+      "label": "innovation implementation",
+      "source": "https://www.brooklyn.edu/faculty-staff/hao-hsuan-holly-chiu/"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-004/chiu.jpg",
+    "crop": [
+     430,
+     0,
+     340,
+     340
+    ],
+    "source_url": "https://www.brooklyn.edu/faculty-staff/hao-hsuan-holly-chiu/",
+    "credit": "來源：Brooklyn College官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "Brooklyn College 教師頁（Hao-Hsuan (Holly) Chiu，商學系；NTU 政治系學士）。研究興趣取自頁面描述。頭像為該頁 og:image（檔名標示為其本人的單人照，1200x628），裁出頭肩；頁面上方未直接顯示該圖。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "楊孟蓉（California State University, Long BeachAssistant professor）",
+   "research": {
+    "keywords": [
+     {
+      "label": "K-12 art pedagogy",
+      "source": "https://www.csulb.edu/school-of-art/page/mj-yang"
+     },
+     {
+      "label": "queer studies",
+      "source": "https://www.csulb.edu/school-of-art/page/mj-yang"
+     },
+     {
+      "label": "participatory action research",
+      "source": "https://www.csulb.edu/school-of-art/page/mj-yang"
+     },
+     {
+      "label": "Universal Design for Learning",
+      "source": "https://www.csulb.edu/school-of-art/page/mj-yang"
+     },
+     {
+      "label": "culturally responsive pedagogy",
+      "source": "https://www.csulb.edu/school-of-art/page/mj-yang"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "CSULB 藝術學院 MJ (Meng-Jung) Yang，藝術教育助理教授（MFA 國立臺灣師範大學），身分相符。官方頁面照片為戴帽側身生活照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "汪家慶（Department of Human Development and Family Science, Virginia Polytechnic Institute and State UniversityPhD student，諮商心理師，社會工作師）",
+   "research": {
+    "keywords": [
+     {
+      "label": "Mental Health",
+      "source": "https://liberalarts.vt.edu/departments-and-schools/department-of-human-development-and-family-science/academic-programs/hdfs-graduate-students/chia-ching-wang.html"
+     },
+     {
+      "label": "Couple/Family relationships of LGBTQIA+ people",
+      "source": "https://liberalarts.vt.edu/departments-and-schools/department-of-human-development-and-family-science/academic-programs/hdfs-graduate-students/chia-ching-wang.html"
+     },
+     {
+      "label": "BIPOC and people living with HIV",
+      "source": "https://liberalarts.vt.edu/departments-and-schools/department-of-human-development-and-family-science/academic-programs/hdfs-graduate-students/chia-ching-wang.html"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "Virginia Tech HDFS 研究生頁（Chia-Ching (Raymond) Wang，MFT 博士生，台灣背景，國立嘉義大學輔導碩士、暨南社工學士）。關鍵詞取自「Principal Areas of Research Focus」。頁面照片為遊行活動場景的生活照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林秉澤（Duke University (杜克大學）博士後研究員）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-004/lin.jpg",
+    "crop": null,
+    "source_url": "https://bme.duke.edu/people/bing-ze-lin/",
+    "credit": "來源：Duke University 生物醫學工程系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "Duke BME 人物頁（Bing Ze Lin，Postdoctoral Associate）正式單人肖像，臉部清楚，1200x1200。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳俊文（Georgian Court UniversityAssociate Professor）",
+   "research": {
+    "keywords": [
+     {
+      "label": "Exercise Physiology",
+      "source": "https://georgian.edu/academics/faculty/vincent-chen/"
+     },
+     {
+      "label": "Nutrition",
+      "source": "https://georgian.edu/academics/faculty/vincent-chen/"
+     },
+     {
+      "label": "Muscle Biology",
+      "source": "https://georgian.edu/academics/faculty/vincent-chen/"
+     },
+     {
+      "label": "Training Intervention and Exercise Performance",
+      "source": "https://georgian.edu/academics/faculty/vincent-chen/"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-004/gcu.webp",
+    "crop": null,
+    "source_url": "https://georgian.edu/academics/faculty/vincent-chen/",
+    "credit": "來源：Georgian Court University官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "Georgian Court University 的 Vincent Chen，運動科學副教授；國立高雄大學傑出校友頁（陳俊文，運動健康與休閒學系 94 級）確認為同一人。照片為半正式單人肖像，800x800。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃奕傑（Harvard University （哈佛大學）博士後研究員）",
+   "note": "Harvard 化學系人物頁回傳 403（不繞過）；高醫大資料僅有學生時期描述，無法確認與 Harvard 博士後為同一人，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃呂琛（Macquarie UniversitySenior Lecturer）",
+   "research": {
+    "keywords": [
+     {
+      "label": "Authoritarian Regimes",
+      "source": "https://researchers.mq.edu.au/en/persons/roger-lee-huang/"
+     },
+     {
+      "label": "Contentious Politics and Political Violence",
+      "source": "https://researchers.mq.edu.au/en/persons/roger-lee-huang/"
+     },
+     {
+      "label": "Politics of Southeast Asia",
+      "source": "https://researchers.mq.edu.au/en/persons/roger-lee-huang/"
+     },
+     {
+      "label": "Taiwan’s Security and International Relations",
+      "source": "https://researchers.mq.edu.au/en/persons/roger-lee-huang/"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-004/huang_roger.png",
+    "crop": null,
+    "source_url": "https://researchers.mq.edu.au/en/persons/roger-lee-huang/",
+    "credit": "來源：Macquarie University官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "Macquarie University Roger Lee Huang，Senior Lecturer（School of International Studies）；曾任職台灣民進黨與中研院，與任務檔給的政大頁面呼應，中文名未在英文頁面直接出現，依 known_urls 採用。Scholar 連結來自搜尋結果（頁面標示 Macquarie）。照片為 WEBPROFILE 單人像，背景素淨，285x370。 [審核移除未驗證的 Scholar 連結]"
+  },
+  {
+   "section": "會員名單",
+   "raw": "盧毅（National Taiwan UniversityAssociate Professor）",
+   "research": {
+    "keywords": [
+     {
+      "label": "Plant nutrition and metabolites of the rhizosphere",
+      "source": "https://ac.ntu.edu.tw/EN/cp_n_195094.html"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-004/grillet.png",
+    "crop": null,
+    "source_url": "https://metabolitesandplantnutrition.com/",
+    "credit": "來源：本人研究室網站（Laboratory of Plant Nutrition and Metabolites），版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "盧毅 = Louis Grillet，臺大農業化學系副教授（系所英文教師頁確認 Associate Professor）。研究專長取自系所教師頁「Research Expertise」；研究室網站另提及 phytoremediation、nutrient use efficiency（僅在敘述文字中，未列入）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "邱耀慶(Rocco Chiou)（Birkbeck, University of London 助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-004/chiou_surrey.jpg",
+    "crop": null,
+    "source_url": "https://www.surrey.ac.uk/people/rocco-chiou",
+    "credit": "來源：University of Surrey（前任職單位）官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "Birkbeck 頁面照片為街頭自拍，不採用；改用 Surrey 官方人物頁（前任職，同一人，Birkbeck 傳記提及 2023 年加入 Surrey）單人照，背景素淨，臉部清楚但僅 250x250、便服。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡靜輝（The University of Texas at Arlington退休教授）",
+   "note": "搜尋與僑委會頁面均找不到相符資料，無法確認身分，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳怡偉（UCLA牙科學院助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-004/chen_yw.webp",
+    "crop": null,
+    "source_url": "https://dentistry.ucla.edu/people/yi-wei-chen-ms-phd",
+    "credit": "來源：UCLA School of Dentistry官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "UCLA 牙醫學院人物頁（Yi-Wei Chen，Assistant Adjunct Professor；台灣 NCKU 博士），正式單人肖像 500x500。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "顏如儀（University of Cincinnati 數學系教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-004/yen.jpg",
+    "crop": null,
+    "source_url": "https://researchdirectory.uc.edu/p/yenji",
+    "credit": "來源：University of Cincinnati 研究名錄官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "UC Research Directory Ju-Yi Yen（數學系教授，A&S Mathematical Sciences）。照片為證件式單人肖像，解析度偏低（180x231）、臉部清楚。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "葉淑涵（University of FloridaAssociate Instructional Professor）",
+   "research": {
+    "keywords": [
+     {
+      "label": "Chinese language curriculum and instruction",
+      "source": "https://languages.ufl.edu/directory/shu-han-yeh/"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-004/yeh.jpg",
+    "crop": null,
+    "source_url": "https://languages.ufl.edu/directory/shu-han-yeh/",
+    "credit": "來源：University of Florida 語言文學文化系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "UF Shu-Han Yeh，Associate Instructional Professor of Chinese（NTNU 華語碩士）。頁面僅列一項「Areas of interests」；照片為正式單人像 1024x1024。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "胡㴠棻（University of Nevada, Las VegasProfessor）",
+   "research": {
+    "keywords": [
+     {
+      "label": "electronic commerce",
+      "source": "https://www.unlv.edu/people/han-fen-hu"
+     },
+     {
+      "label": "online consumer behavior",
+      "source": "https://www.unlv.edu/people/han-fen-hu"
+     },
+     {
+      "label": "organizational technology strategy",
+      "source": "https://www.unlv.edu/people/han-fen-hu"
+     }
+    ],
+    "scholar": "https://scholar.google.com/citations?user=-7WMAMAAAAAJ"
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-004/hu.jpg",
+    "crop": null,
+    "source_url": "https://www.unlv.edu/people/han-fen-hu",
+    "credit": "來源：UNLV官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "UNLV 人物頁 Han-fen Hu，資訊系統教授；Scholar 連結為該頁「Google Scholar Profile」連結。照片為正式單人肖像 450x450。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "沈穎芳（Virginia Commonwealth University副教授）",
+   "note": "VCU 人物頁無照片；本人網站（yfshen.info）僅有活動現場遠景照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "趙淑員（〔弘光科大〕退休教授）",
+   "note": "弘光科大官方頁面無法取得照片（頁面 500 錯誤），搜尋也無人物頁，略過。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "劉玉皙（世新大學傳播管理學系副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-004/liu_yuhsi.jpg",
+    "crop": null,
+    "source_url": "https://cm.wp.shu.edu.tw/?page_id=532",
+    "credit": "來源：世新大學傳播管理學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "系所教師頁，單人半正式肖像，278x354。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "羅尹悅（世新大學傳播管理學系副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-004/lo_yinyueh.jpg",
+    "crop": null,
+    "source_url": "https://cm.wp.shu.edu.tw/?page_id=533",
+    "credit": "來源：世新大學傳播管理學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "系所教師頁（頁面寫作「羅尹悦」），單人正式肖像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "羅慧雯（世新大學傳播管理系助理教授）",
+   "note": "系所頁面照片為櫻花背景的戶外生活照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "程珮玲（世新大學兼任助理教授）",
+   "note": "中文系兼任教師名單頁只有文字表格，無照片；搜尋無其他官方人物頁。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "蕭宏祺（世新大學教授）",
+   "note": "系所頁面照片為建築物前的休閒 T 恤生活照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳品皓（世新大學新聞系副教授）",
+   "note": "新聞系頁面唯一圖片僅 138x138，小於 150 px，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "孔祥明（世新大學社會心理系副教授）",
+   "note": "系所頁面照片為旅遊河畔生活照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "江宗翰（世新大學英語系兼任講師）",
+   "note": "僅在英語暨傳播應用學系兼任教師名單找到姓名與學歷（政大英文系博士班），無照片與研究專長頁面。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉鴻陞（世新大學行政管理學系教授兼管理學院副院長）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-004/liu_hc.jpg",
+    "crop": [
+     0,
+     0,
+     2800,
+     2800
+    ],
+    "source_url": "https://ppm.wp.shu.edu.tw/?page_id=3495",
+    "credit": "來源：世新大學行政管理學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "系所個人頁（教授兼管理學院副院長）正式肖像，2800x3600，已裁頭肩。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "馮文陽（中原大學兼任助理教授）",
+   "note": "搜尋找不到中原大學相符的人物頁，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "涂世雄（中原大學副教授）",
+   "note": "電機系頁面照片為教室內的側身生活照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林穎凡（中原大學助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-004/lin_yf.jpg",
+    "crop": [
+     470,
+     5,
+     430,
+     430
+    ],
+    "source_url": "https://ce.cycu.edu.tw/%E7%B3%BB%E6%89%80%E6%88%90%E5%93%A1/",
+    "credit": "來源：中原大學土木工程學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "系所成員頁（助理教授）攝影棚全身照，圖片置於該成員標題卡片，已裁頭肩（原圖 1361x1021）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林俊宏（中原大學土木工程學系副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-004/lin_jh.jpg",
+    "crop": [
+     460,
+     10,
+     420,
+     420
+    ],
+    "source_url": "https://ce.cycu.edu.tw/%E7%B3%BB%E6%89%80%E6%88%90%E5%93%A1/",
+    "credit": "來源：中原大學土木工程學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "系所成員頁（副教授）攝影棚全身照，圖片置於該成員標題卡片，已裁頭肩。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "許政行（中原大學機械工程學系退休教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-004/hsu.jpg",
+    "crop": [
+     100,
+     0,
+     400,
+     400
+    ],
+    "source_url": "https://www.cycu-me.org/member-detail/Cheng-Hsing_Hsu/",
+    "credit": "來源：中原大學機械工程學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "系所榮退教師頁（許政行教授）半正式單人像，戶外綠色背景，臉部清楚；已裁去左右白邊。"
+  }
+ ]
+}

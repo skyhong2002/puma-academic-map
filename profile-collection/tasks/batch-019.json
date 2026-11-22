@@ -3,23 +3,22 @@
  "people": [
   {
    "section": "會員名單",
-   "raw": "林子賢（中國醫藥大學公衛系教授）",
-   "name": "林子賢",
-   "affiliation_text": "中國醫藥大學公衛系教授",
+   "raw": "楊昊（國立政治大學東亞所教授）",
+   "name": "楊昊",
+   "affiliation_text": "國立政治大學東亞所教授",
    "need": [
     "portrait"
    ],
    "known_urls": [
-    "https://cmuph.cmu.edu.tw/?q=zh-hant%2Fnode%2F188",
-    "https://cmuph.cmu.edu.tw/?q=zh-hant/node/14",
-    "https://news.cmu.edu.tw/ann_detail.php?sn=115577"
+    "https://eastasia.nccu.edu.tw/PageStaffing?fid=2922",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "林孟儒（逢甲大學機械與電腦輔助工程系教授）",
-   "name": "林孟儒",
-   "affiliation_text": "逢甲大學機械與電腦輔助工程系教授",
+   "raw": "金仕起（政治大學歷史學系副教授）",
+   "name": "金仕起",
+   "affiliation_text": "政治大學歷史學系副教授",
    "need": [
     "portrait"
    ],
@@ -29,243 +28,136 @@
   },
   {
    "section": "會員名單",
-   "raw": "林孟慧（國立臺灣大學氣候變遷與永續發展國際學位學程博士候選人）",
-   "name": "林孟慧",
-   "affiliation_text": "國立臺灣大學氣候變遷與永續發展國際學位學程博士候選人",
+   "raw": "陳怡萱（國立政治大學民族學系/土地原專班副教授）",
+   "name": "陳怡萱",
+   "affiliation_text": "國立政治大學民族學系/土地原專班副教授",
    "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "李台元（國立政治大學民族學系兼任助理教授）",
+   "name": "李台元",
+   "affiliation_text": "國立政治大學民族學系兼任助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃季平（國立政治大學民族學系副教授）",
+   "name": "黃季平",
+   "affiliation_text": "國立政治大學民族學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://ethnos.nccu.edu.tw/PageStaffing/Detail?fid=9618&id=2994",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳志輝（國立政治大學法學院副教授）",
+   "name": "陳志輝",
+   "affiliation_text": "國立政治大學法學院副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://mini3.law.nccu.edu.tw/zh_tw/Faculty/teachers/Associate_Professor/%E9%99%B3%E5%BF%97%E8%BC%9D-17339846",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉若凡（國立政治大學社會學系助理教授）",
+   "name": "劉若凡",
+   "affiliation_text": "國立政治大學社會學系助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://sociology.nccu.edu.tw/PageStaffing/Detail?fid=3308&id=6208"
+   ]
+  },
+  {
+   "section": "共同領銜",
+   "raw": "黃厚銘（政治大學社會學系特聘教授）",
+   "name": "黃厚銘",
+   "affiliation_text": "政治大學社會學系特聘教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://sociology.nccu.edu.tw/PageStaffing/Detail?fid=3308&id=666",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://www.telltaiwan.org/30059"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "楊仁敘（政治大學社會工作研究所博士候選人）",
+   "name": "楊仁敘",
+   "affiliation_text": "政治大學社會工作研究所博士候選人",
+   "need": [
+    "portrait",
     "research"
    ],
    "known_urls": [
-    "https://advisory.yda.gov.tw/committee-intro/161"
+    "https://ethnos.nccu.edu.tw/PageDoc/Detail?fid=9604&id=33578"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "林宣佑（國立中興大學園藝學系副教授）",
-   "name": "林宣佑",
-   "affiliation_text": "國立中興大學園藝學系副教授",
+   "raw": "陳玠文（政治大學神經科學研究所助理教授）",
+   "name": "陳玠文",
+   "affiliation_text": "政治大學神經科學研究所助理教授",
    "need": [
     "portrait"
    ],
    "known_urls": [
-    "https://sites.google.com/email.nchu.edu.tw/nchu-bpbim/%E7%B3%BB%E6%89%80%E6%88%90%E5%93%A1/%E5%B8%AB%E8%B3%87%E9%99%A3%E5%AE%B9/%E6%9E%97%E5%AE%A3%E4%BD%91-%E5%8A%A9%E7%90%86%E6%95%99%E6%8E%88",
+    "https://in.nccu.edu.tw/PageStaffing/Detail?fid=3324&id=5230",
     "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "林庭安（美國康乃迪克大學University of Connecticut哲學系合作研究員）",
-   "name": "林庭安",
-   "affiliation_text": "美國康乃迪克大學University of Connecticut哲學系合作研究員",
+   "raw": "邱健嘉（國立政治大學財務管理學系助理教授）",
+   "name": "邱健嘉",
+   "affiliation_text": "國立政治大學財務管理學系助理教授",
    "need": [
     "portrait"
    ],
    "known_urls": [
-    "https://lintingantw.com/news/",
-    "https://philosophy.uconn.edu/person/ting-an-lin-2/"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "林彥廷（國立高雄餐旅大學通識教育中心專案副教授）",
-   "name": "林彥廷",
-   "affiliation_text": "國立高雄餐旅大學通識教育中心專案副教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://ge.nkuht.edu.tw/p/404-1038-18792.php?Lang=zh-tw"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "林彥瑜（美國德堡大學社會人類學系助理教授）",
-   "name": "林彥瑜",
-   "affiliation_text": "美國德堡大學社會人類學系助理教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://www.depauw.edu/files/cvs/curriculum_vitae_april_2026_yen_yu_lin.pdf"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "林志昇（德育護理健康學院助理教授）",
-   "name": "林志昇",
-   "affiliation_text": "德育護理健康學院助理教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://child.dyhu.edu.tw/p/16-1012-47755.php",
     "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "林志銘（明志科技大學退休副教授）",
-   "name": "林志銘",
-   "affiliation_text": "明志科技大學退休副教授",
+   "raw": "沈錳坤（政治大學資訊科學系退休教授）",
+   "name": "沈錳坤",
+   "affiliation_text": "政治大學資訊科學系退休教授",
    "need": [
     "portrait"
    ],
    "known_urls": [
-    "https://ee.mcut.edu.tw/p/412-1040-5353.php?Lang=zh-tw",
+    "https://dct.nccu.edu.tw/PageStaffing/Detail?fid=12719&id=4365",
     "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "林怡安（國立臺北商業大學通識教育中心助理教授）",
-   "name": "林怡安",
-   "affiliation_text": "國立臺北商業大學通識教育中心助理教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://cge.ntub.edu.tw/var/file/19/1019/img/1004/linyian.pdf",
-    "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "林惠雯（台大數學系教授）",
-   "name": "林惠雯",
-   "affiliation_text": "台大數學系教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://scholars.lib.ntu.edu.tw/entities/person/81f8cac3-3f69-4340-9527-9d7cb361546d",
-    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "林慈偉（輔仁大學法律學院助理教授）",
-   "name": "林慈偉",
-   "affiliation_text": "輔仁大學法律學院助理教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://researchinfo.fju.edu.tw/professors/4493",
-    "https://www.financelaw.fju.edu.tw/News_detail.aspx?CatID=8941f937-c5c3-4cbd-bff7-f589a4eace04&ID=797645a6-0e9c-436e-9455-876013c9e03e"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "林慶彰（中央研究院中國文哲研究所退休研究員）",
-   "name": "林慶彰",
-   "affiliation_text": "中央研究院中國文哲研究所退休研究員",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://confucian.utaipei.edu.tw/p/412-1074-12.php?Lang=zh-tw",
-    "https://www.ios.sinica.edu.tw/singlepage.php?id=1",
-    "https://www.litphil.sinica.edu.tw/members/1095?page_id=58",
-    "https://www.litphil.sinica.edu.tw/members/1f1c2c23-b707-4c2d-9cf5-afb3c94699a3?page_id=13"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "林文澧（國立台灣大學醫學工程學系退休教授）",
-   "name": "林文澧",
-   "affiliation_text": "國立台灣大學醫學工程學系退休教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://bme.ntu.edu.tw/plan_WinLiLin.html",
-    "https://scholars.lib.ntu.edu.tw/entities/person/af5ee82b-898f-4568-9d91-7bb40f9d3a1d",
-    "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "林文蘭（國立清華大學社會學研究所副教授）",
-   "name": "林文蘭",
-   "affiliation_text": "國立清華大學社會學研究所副教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://iosoc.site.nthu.edu.tw/p/405-1547-222616,c19021.php",
-    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "林新曜（馬偕醫學大學助理教授）",
-   "name": "林新曜",
-   "affiliation_text": "馬偕醫學大學助理教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
-    "https://www.mmc.edu.tw/medicine/xmdoc/cont?sid=0Q231531799356946491&sq=&xsmsid=0Q005583577403752074"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "林明昌（佛光大學語文學系副教授）",
-   "name": "林明昌",
-   "affiliation_text": "佛光大學語文學系副教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://literary.fgu.edu.tw/zh_tw/member/%E6%9E%97%E6%98%8E%E6%98%8C-22838401",
-    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "林昭志（國立高雄大學法律學系副教授）",
-   "name": "林昭志",
-   "affiliation_text": "國立高雄大學法律學系副教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://law.nuk.edu.tw/p/412-1061-5132.php?Lang=zh-tw",
-    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "林昱伸（波士頓大學副教授）",
-   "name": "林昱伸",
-   "affiliation_text": "波士頓大學副教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://math.nsysu.edu.tw/var/file/183/1183/img/3843/202011NewsLetter.pdf",
-    "https://www.bu.edu/math/profile/yu-shen-lin/"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "林桂如（實踐大學音樂系專任副教授）",
-   "name": "林桂如",
-   "affiliation_text": "實踐大學音樂系專任副教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
-    "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "林楚淇（中原大學通識教育中心兼任助理教授）",
-   "name": "林楚淇",
-   "affiliation_text": "中原大學通識教育中心兼任助理教授",
+   "raw": "簡士鎰（國立政治大學資訊管理學系副教授）",
+   "name": "簡士鎰",
+   "affiliation_text": "國立政治大學資訊管理學系副教授",
    "need": [
     "portrait"
    ],
@@ -275,92 +167,52 @@
   },
   {
    "section": "會員名單",
-   "raw": "林楷翔（英國倫敦大學亞非學院佛教研究中心博士後研究員）",
-   "name": "林楷翔",
-   "affiliation_text": "英國倫敦大學亞非學院佛教研究中心博士後研究員",
+   "raw": "鄧欣潔（國立故宮博物院助理研究員）",
+   "name": "鄧欣潔",
+   "affiliation_text": "國立故宮博物院助理研究員",
    "need": [
-    "portrait"
+    "portrait",
+    "research"
    ],
    "known_urls": [
-    "https://www.soas.ac.uk/about/kai-hsiang-lin"
+    "https://www.npm.gov.tw/ChineseArt-Content.aspx?a=10251&idstr=03012531&l=1&sno=04012587&type=2024",
+    "https://www.tmaroc.org.tw/wp-content/uploads/83%E6%9C%9F%E8%A8%8A.pdf"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "林楸燕（東吳大學英文系兼任助理教授）",
-   "name": "林楸燕",
-   "affiliation_text": "東吳大學英文系兼任助理教授",
+   "raw": "劉曦宸（文化大學勞動暨人力資源學系助理教授）",
+   "name": "劉曦宸",
+   "affiliation_text": "文化大學勞動暨人力資源學系助理教授",
    "need": [
     "portrait"
    ],
    "known_urls": [
-    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
-    "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
+    "https://labor.pccu.edu.tw/p/405-1147-92220%2Cc3828.php?Lang=zh-tw"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "林榮泰（台灣藝術大學設計學院退休教授）",
-   "name": "林榮泰",
-   "affiliation_text": "台灣藝術大學設計學院退休教授",
+   "raw": "戴曉惠（文化大學勞動系助理教授）",
+   "name": "戴曉惠",
+   "affiliation_text": "文化大學勞動系助理教授",
    "need": [
     "portrait"
    ],
    "known_urls": [
-    "https://president.ntua.edu.tw/wp-content/uploads/2023/10/112%E5%AD%B8%E5%B9%B4%E5%BA%A6%E7%AC%AC1%E6%AC%A1%E8%A1%8C%E6%94%BF%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%84-2.pdf",
-    "https://scholar.google.com/citations?hl=zh-TW&user=zMea1tUAAAAJ"
+    "https://labor.pccu.edu.tw/p/404-1147-106604.php?Lang=zh-tw"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "林永順（國立屏東科技大學教授）",
-   "name": "林永順",
-   "affiliation_text": "國立屏東科技大學教授",
+   "raw": "許賢瑤（文化大學史學系退休副教授）",
+   "name": "許賢瑤",
+   "affiliation_text": "文化大學史學系退休副教授",
    "need": [
     "portrait"
    ],
    "known_urls": [
-    "https://fps.npust.edu.tw/teacher/alexlin/"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "林燕輝（中臺科技大學環境與安全衛生工程系教授）",
-   "name": "林燕輝",
-   "affiliation_text": "中臺科技大學環境與安全衛生工程系教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://sedr.moenv.gov.tw/zh-tw/publicpage/Pub_info3-1.aspx?expertsn=E0022",
-    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "林牧之（國立臺灣大學共同教育中心兼任助理教授）",
-   "name": "林牧之",
-   "affiliation_text": "國立臺灣大學共同教育中心兼任助理教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "http://emchistory.blogspot.com/2018/03/lin-mu-chih.html",
-    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "林玉娟（慈濟大學護理學系助理教授）",
-   "name": "林玉娟",
-   "affiliation_text": "慈濟大學護理學系助理教授",
-   "need": [
-    "portrait"
-   ],
-   "known_urls": [
-    "https://nc.tcu.edu.tw/p/406-1014-64705%2Cr1026.php?Lang=zh-tw",
-    "https://tcunursing.tcu.edu.tw/?page_id=4469",
-    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+    "https://craahp.pccu.edu.tw/p/404-1097-147277.php?Lang=zh-tw"
    ]
   },
   {
@@ -377,17 +229,158 @@
   },
   {
    "section": "會員名單",
-   "raw": "林秀玲（國立台灣師範大學博士後研究員）",
-   "name": "林秀玲",
-   "affiliation_text": "國立台灣師範大學博士後研究員",
+   "raw": "陳世杰（文化大學戲劇學系副教授）",
+   "name": "陳世杰",
+   "affiliation_text": "文化大學戲劇學系副教授",
    "need": [
     "portrait"
    ],
    "known_urls": [
-    "https://course.sa.ntnu.edu.tw/zh_tw/Faculty2/faculty",
-    "https://jories.ntnu.edu.tw/jres/PaperContent.aspx?cid=296&ItemId=2019&loc=tw",
-    "https://toaj.stpi.niar.org.tw/index/journal/volume/article/4b1141f99960674201999a0df183139c",
-    "https://www.sec.ntnu.edu.tw/zh_tw/Faculty2/faculty"
+    "https://dta.pccu.edu.tw/p/404-1229-20149.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳慧蓉（文化大學新聞系副教授）",
+   "name": "陳慧蓉",
+   "affiliation_text": "文化大學新聞系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://jou.pccu.edu.tw/teacherDetail.php?id=6"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張國財（新竹教育大學退休副教授）",
+   "name": "張國財",
+   "affiliation_text": "新竹教育大學退休副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://am.site.nthu.edu.tw/p/412-1133-31.php?Lang=zh-tw",
+    "https://damc.site.nthu.edu.tw/p/412-1102-83.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "莊千慧（日本 神戶女子大學副教授）",
+   "name": "莊千慧",
+   "affiliation_text": "日本 神戶女子大學副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://shinjo-lab.kobe-wu.ac.jp/researcher/c-chuang/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "郭秋薇（日本京都女子大學現代社會學部講師）",
+   "name": "郭秋薇",
+   "affiliation_text": "日本京都女子大學現代社會學部講師",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://www.kyoto-wu.ac.jp/gakubu/kyouin/shakai/index.html"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡仕邦（日本同志社大学理工学研究科機械工学博士）",
+   "name": "蔡仕邦",
+   "affiliation_text": "日本同志社大学理工学研究科機械工学博士",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://ndlsearch.ndl.go.jp/books/R100000039-I13979811"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳璟（日本多摩美術大學美術學部助手）",
+   "name": "陳璟",
+   "affiliation_text": "日本多摩美術大學美術學部助手",
+   "need": [
+    "portrait",
+    "research"
+   ],
+   "known_urls": [
+    "https://art-studies.tamabi.ac.jp/professor/2611/"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉靈均（日本大阪公立大學人權問題研究中心客座研究員）",
+   "name": "劉靈均",
+   "affiliation_text": "日本大阪公立大學人權問題研究中心客座研究員",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://api.researchmap.jp/dearlittlecookie/research_interests",
+    "https://researchmap.jp/dearlittlecookie/research_experience"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "何彥霆（日本大阪大學助理教授）",
+   "name": "何彥霆",
+   "affiliation_text": "日本大阪大學助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://doi.org/10.1016/j.jcmgh.2021.04.004",
+    "https://doi.org/10.1038/s41598-018-36057-0",
+    "https://doi.org/10.1186/s12929-024-01001-0",
+    "https://med.ncku.edu.tw/p/404-1015-286073.php?Lang=zh-tw"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "洪紹閔（日本東北大學FRIS助理教授）",
+   "name": "洪紹閔",
+   "affiliation_text": "日本東北大學FRIS助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://doi.org/10.1016/j.concog.2024.103771",
+    "https://doi.org/10.1038/s42003-025-07563-5",
+    "https://doi.org/10.1162/netn_a_00387",
+    "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202301016472078102"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳慶昌（日本立命館アジア太平洋大学アジア太平洋研究科教授）",
+   "name": "陳慶昌",
+   "affiliation_text": "日本立命館アジア太平洋大学アジア太平洋研究科教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://researcher.apu.ac.jp/apuhp/KgApp?resId=S001733",
+    "https://www.apu.ac.jp/home/news/article/?storyid=3579"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "高國傑（日本静岡大學數理系統工程學系副教授）",
+   "name": "高國傑",
+   "affiliation_text": "日本静岡大學數理系統工程學系副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://tdb.shizuoka.ac.jp/RDB/public/Default2.aspx?id=11212&l=0"
    ]
   }
  ]

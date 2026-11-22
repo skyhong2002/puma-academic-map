@@ -13,12 +13,15 @@ Fragment format (profile-collection/enrichment/*.json):
 import argparse
 import hashlib
 import json
+import os
 from pathlib import Path
 import re
 import subprocess
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
+# 臉部偵測需要 opencv：用有安裝的直譯器執行 portrait_normalize.py（可用 PORTRAIT_PYTHON 覆寫）。
+PORTRAIT_PYTHON = os.environ.get("PORTRAIT_PYTHON", str(Path.home() / ".cache/puma-img/venv/bin/python"))
 DATA = ROOT / "data"
 URL = re.compile(r"^https://[^\s<>\"']+$")
 EMAIL = re.compile(r"[\w.+-]+@[\w-]+\.[\w.-]+")
@@ -30,6 +33,23 @@ def read(path):
 
 def write(path, value):
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def make_portrait(source, target, crop):
+    """臉部偵測後統一臉部大小；偵測不到臉時，改用人工裁切或 sharp 的視覺焦點裁切。"""
+    command = [PORTRAIT_PYTHON, str(Path(__file__).with_name("portrait_normalize.py")), source, str(target)]
+    if crop:
+        command += ["--crop", ",".join(map(str, crop))]
+    done = subprocess.run(command, capture_output=True, text=True)
+    if done.returncode == 0:
+        return None
+    if done.returncode != 3:
+        return done.stderr.strip()[-160:]
+    fallback = ["node", str(Path(__file__).with_name("make-portrait.mjs")), source, str(target)]
+    if crop:
+        fallback.append(",".join(map(str, crop)))
+    done = subprocess.run(fallback, capture_output=True, text=True)
+    return None if done.returncode == 0 else done.stderr.strip()[-160:]
 
 
 def clean_keywords(items):
@@ -51,6 +71,7 @@ def main():
     parser.add_argument("fragments", nargs="+", type=Path)
     parser.add_argument("--tag", required=True, help="本次合併的英數代號，用於頭像索引檔名")
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--renormalize", action="store_true", help="重新處理已有 enr- 頭像的人（以原圖重裁）")
     args = parser.parse_args()
     if not re.fullmatch(r"[a-z0-9-]+", args.tag):
         parser.error("--tag 只能含小寫英數與連字號")
@@ -72,7 +93,6 @@ def main():
     index = read(index_path) if index_path.exists() else {}
     source_path = DATA / "research" / f"enr-{args.tag}.json"
     source_records = read(source_path) if source_path.exists() else []
-    tool = Path(__file__).with_name("make-portrait.mjs")
     stats = {"research_new": 0, "research_extended": 0, "portraits": 0, "sources": 0, "rejected": []}
 
     for fragment in args.fragments:
@@ -114,19 +134,17 @@ def main():
                 stats["sources"] += 1
 
             portrait = person.get("portrait")
-            if portrait and key not in has_portrait:
+            redo = args.renormalize and key[1] in index.get(key[0], {})
+            if portrait and (key not in has_portrait or redo):
                 if not URL.match(str(portrait.get("source_url", ""))) or not portrait.get("credit"):
                     stats["rejected"].append(f"{label} 頭像缺來源或署名")
                     continue
                 name = "enr-" + hashlib.md5(json.dumps(key, ensure_ascii=False).encode()).hexdigest()[:12] + ".webp"
-                crop = portrait.get("crop")
-                command = ["node", str(tool), portrait["image_path"], str(DATA / "portraits" / name)]
-                if crop:
-                    command.append(",".join(map(str, crop)))
+                target = DATA / "portraits" / name
                 if not args.dry_run:
-                    done = subprocess.run(command, capture_output=True, text=True)
-                    if done.returncode:
-                        stats["rejected"].append(f"{label} 頭像轉檔失敗：{done.stderr.strip()[:120]}")
+                    error = make_portrait(portrait["image_path"], target, portrait.get("crop"))
+                    if error:
+                        stats["rejected"].append(f"{label} 頭像轉檔失敗：{error}")
                         continue
                 index.setdefault(key[0], {})[key[1]] = {
                     "file": name, "credit": portrait["credit"], "source_url": portrait["source_url"],

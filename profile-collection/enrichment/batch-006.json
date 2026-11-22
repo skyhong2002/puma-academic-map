@@ -1,0 +1,305 @@
+{
+ "batch": 6,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "陳蕾惠（中央研究院分子生物學研究所研究員）",
+   "note": "分生所頁面僅有論文機制圖與裁切過的生活照（頭被截斷），不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "連家郁（中央研究院助研究員）",
+   "note": "社會所頁面照片為戶外海邊生活照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "曾文碧（中央研究院原分所退休研究員）",
+   "note": "原分所頁面（mobile 版）無法連線，未找到官方人物照。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "顏維婷（中央研究院政治學研究所助研究員）",
+   "note": "政治所人物頁僅有側面、操作筆電的橫幅照，不符頭像標準；研究領域已有，未重複蒐集。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳孟軒（中央研究院歷史語言研究所副研究員）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-006/wu.jpg",
+    "crop": null,
+    "source_url": "https://www1.ihp.sinica.edu.tw/Fellows/Albert_Wu",
+    "credit": "來源：中央研究院歷史語言研究所官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "史語所人物頁單人照，臉部清楚（磚牆背景，半正式），採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "尤釋賢（中央研究院特聘研究員）",
+   "note": "數學所頁面（Yu, Shih-Hsien，特聘研究員）照片為特寫笑臉的隨拍照且頭髮被截斷，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳詠昌（中央研究院環境變遷中心博士後研究員）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-006/chen_yc.jpg",
+    "crop": null,
+    "source_url": "https://rcec.sinica.edu.tw/?action=member&id=46",
+    "credit": "來源：中央研究院環境變遷研究中心官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "環變中心人物頁（Chen, Yung Chang，博士後研究員），單人半正式照，採用。研究興趣欄為空，故未填 research。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張昌祐（中央研究院生物多樣性研究中心助研究員）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-006/chang.jpg",
+    "crop": null,
+    "source_url": "https://biodiv.sinica.edu.tw/zh_pi-Chang-Yu_Chang",
+    "credit": "來源：中央研究院生物多樣性研究中心官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "生物多樣性研究中心 PI 頁單人照，臉部清楚，採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "鄭揚（中央研究院生醫所助研究員）",
+   "note": "實驗室頁（ibms.sinica.edu.tw/yang-cheng）照片路徑回傳 HTML 而非圖檔，無法取得；未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳容（中央研究院社會學研究所助研究員）",
+   "note": "社會所頁面照片為會議發言的活動照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "許晏庭（中央研究院社會學研究所博士後研究員）",
+   "research": {
+    "keywords": [
+     {
+      "label": "都市社會學",
+      "source": "https://www.ios.sinica.edu.tw/postdoc.php?id=11102&typeID=500"
+     },
+     {
+      "label": "政治社會學",
+      "source": "https://www.ios.sinica.edu.tw/postdoc.php?id=11102&typeID=500"
+     },
+     {
+      "label": "文化社會學",
+      "source": "https://www.ios.sinica.edu.tw/postdoc.php?id=11102&typeID=500"
+     },
+     {
+      "label": "地方民主",
+      "source": "https://www.ios.sinica.edu.tw/postdoc.php?id=11102&typeID=500"
+     },
+     {
+      "label": "歷史保存",
+      "source": "https://www.ios.sinica.edu.tw/postdoc.php?id=11102&typeID=500"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-006/hsu.jpg",
+    "crop": null,
+    "source_url": "https://www.ios.sinica.edu.tw/postdoc.php?id=11102&typeID=500",
+    "credit": "來源：中央研究院社會學研究所官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "社會所博士後頁面：研究領域及興趣與單人照皆採用（戶外背景但臉部清楚、穿西裝）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "魏龍達（中央研究院社會學研究所博士後研究員）",
+   "research": {
+    "keywords": [
+     {
+      "label": "歷史社會學",
+      "source": "https://www.ios.sinica.edu.tw/postdoc.php?id=11040&typeID=500"
+     },
+     {
+      "label": "政治社會學",
+      "source": "https://www.ios.sinica.edu.tw/postdoc.php?id=11040&typeID=500"
+     },
+     {
+      "label": "比較殖民主義",
+      "source": "https://www.ios.sinica.edu.tw/postdoc.php?id=11040&typeID=500"
+     },
+     {
+      "label": "比較威權主義",
+      "source": "https://www.ios.sinica.edu.tw/postdoc.php?id=11040&typeID=500"
+     },
+     {
+      "label": "韓國現代史",
+      "source": "https://www.ios.sinica.edu.tw/postdoc.php?id=11040&typeID=500"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "社會所博士後頁面研究領域及興趣已採用；照片為咖啡廳隨拍近照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "高明達（中央研究院資訊所退休研究員）",
+   "note": "資訊所個人頁照片解析度低（264x198）、逆光隨拍，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張志丞（中央研究院資訊科學研究所博士後研究員）",
+   "note": "僅找到陽明交大應用藝術所講座海報與新聞稿，未找到官方人物頁照片。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "李德財（中央研究院院士、前中興大學校長）",
+   "research": {
+    "keywords": [
+     {
+      "label": "Design and Analysis of Algorithms",
+      "source": "https://www.iis.sinica.edu.tw/pages/dtlee/interests_zh.html"
+     },
+     {
+      "label": "Computational Geometry",
+      "source": "https://www.iis.sinica.edu.tw/pages/dtlee/interests_zh.html"
+     },
+     {
+      "label": "Software Security",
+      "source": "https://www.iis.sinica.edu.tw/pages/dtlee/interests_zh.html"
+     },
+     {
+      "label": "Algorithm Visualization",
+      "source": "https://www.iis.sinica.edu.tw/pages/dtlee/interests_zh.html"
+     },
+     {
+      "label": "Bioinformatics",
+      "source": "https://www.iis.sinica.edu.tw/pages/dtlee/interests_zh.html"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "資訊所個人頁「Research Interests」頁取得研究興趣（頁面為本人 Lee, Der-Tsai 客座講座頁，院士專區亦列為資訊所）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "于欽平（國立中山大學光電工程學系副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-006/yu.jpg",
+    "crop": null,
+    "source_url": "https://dop.nsysu.edu.tw/p/405-1207-189109,c17572.php?Lang=zh-tw",
+    "credit": "來源：國立中山大學光電工程學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "中山大學光電系教師頁單人半正式照，採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "王耀霆（中山大學光電工程系助理教授）",
+   "note": "教師頁照片為室內自拍，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "彭渰雯（國立中山大學公共事務管理研究所教授）",
+   "note": "中山大學西灣學院頁面照片為自拍特寫，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳泰亨（國立中山大學副教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "兒童神經發展學",
+      "source": "https://dpcem.nsysu.edu.tw/p/404-1330-337777.php?Lang=zh-tw"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-006/chen_ty.jpg",
+    "crop": null,
+    "source_url": "https://dpcem.nsysu.edu.tw/p/404-1330-337777.php?Lang=zh-tw",
+    "credit": "來源：國立中山大學官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "來源為中山大學 dpcem（校外合聘師資）頁面，姓名與副教授職稱相符，列兒童神經發展學為專長領域；照片為白袍單人肖像，採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林靜慧（中山大學師培中心副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-006/lin_ch.jpg",
+    "crop": null,
+    "source_url": "https://ctep.nsysu.edu.tw/p/405-1136-252381,c16243.php?Lang=zh-tw",
+    "credit": "來源：國立中山大學師資培育中心官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "師培中心教師頁單人正式照，採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張至慶（國立中山大學師培中心助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-006/chang_cc.jpg",
+    "crop": null,
+    "source_url": "https://ctep.nsysu.edu.tw/p/405-1136-286939,c16243.php?Lang=zh-tw",
+    "credit": "來源：國立中山大學師資培育中心官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "師培中心教師頁單人照（西裝，淺灰背景），採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉叔秋（國立中山大學教授）",
+   "note": "博雅教育中心頁面職稱為副教授（署名為教授），頁面圖片僅為計畫標誌，未取得頭像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "蘇亮甄（國立中山大學教育所博士候選人）",
+   "note": "僅在成大郭旭展研究室頁找到其為中山大學教育所博士班研究生，無列明專長，未找到頭像或研究領域。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張宇慧（國立中山大學教育所暨師培中心助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-006/chang_yh.jpg",
+    "crop": null,
+    "source_url": "https://ctep.nsysu.edu.tw/p/405-1136-275829,c16243.php?Lang=zh-tw",
+    "credit": "來源：國立中山大學師資培育中心官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "師培中心教師頁單人照，臉部清楚（室內背景），採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "莊雪華（國立中山大學教育所特聘教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-006/chuang.jpg",
+    "crop": null,
+    "source_url": "https://education.nsysu.edu.tw/p/405-1134-241825,c160.php?Lang=zh-tw",
+    "credit": "來源：國立中山大學教育研究所官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "教育所教師頁單人正式照，採用。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "楊靜利（中山大學社會學系特聘教授）",
+   "note": "社會系原專班頁面照片為戶外走廊隨拍，不採用。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "王宏仁（中山大學社會學系特聘教授）",
+   "note": "社會系原專班頁面照片為搞怪裝飾的生活照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳建澄（國立中山大學資訊工程學系助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-006/wu_cc.jpg",
+    "crop": null,
+    "source_url": "https://cse.nsysu.edu.tw/p/412-1205-12529.php?Lang=zh-tw",
+    "credit": "來源：國立中山大學資訊工程學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "資工系教師頁（專任約聘助理教授）單人證件式照片，採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "曾凡碩（中山大學通訊工程研究所特聘教授）",
+   "note": "通訊所頁面縮圖僅 100x120，過小；個人網站為 JS 渲染未能取得，未採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "侯貴圓（中山醫學大學助理教授）",
+   "note": "搜尋未能確認其系所與個人頁，略過。"
+  }
+ ]
+}

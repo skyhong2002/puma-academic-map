@@ -3,395 +3,391 @@
  "people": [
   {
    "section": "會員名單",
-   "raw": "王柏傑（國立空中大學講師）",
-   "name": "王柏傑",
-   "affiliation_text": "國立空中大學講師",
+   "raw": "黃絜（中原大學法學院專任助理教授）",
+   "name": "黃絜",
+   "affiliation_text": "中原大學法學院專任助理教授",
    "need": [
-    "portrait",
-    "research"
+    "portrait"
    ],
    "known_urls": [
-    "https://www2.nou.edu.tw/chiayi/Document/Detail?docid=12681&pid=3511&uid=3685",
-    "https://www2.nou.edu.tw/upload/cont_att/10793b72-4195-4576-91b7-ab94539e1cb4.pdf"
+    "https://iactlc.cycu.edu.tw/?p=4091",
+    "https://www.lawbank.com.tw/treatise/author.aspx?AID=94631"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "王瑞華（北美州台灣人敎授學會前理事）",
-   "name": "王瑞華",
-   "affiliation_text": "北美州台灣人敎授學會前理事",
+   "raw": "陳鴻大（中原大學物理學及通識中心前兼任助理教授）",
+   "name": "陳鴻大",
+   "affiliation_text": "中原大學物理學及通識中心前兼任助理教授",
    "need": [
     "portrait",
     "research"
    ],
    "known_urls": [
-    "https://taiwaneseamericanhistory.org/person/dr-ray-wang/"
+    "https://phys.cycu.edu.tw/portfolio_tags/%E5%85%BC%E4%BB%BB%E6%95%99%E5%B8%AB"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "王立 （紐約市立大學亨特學院羅曼語文學系法語組講師）",
-   "name": "王立",
-   "affiliation_text": "紐約市立大學亨特學院羅曼語文學系法語組講師",
+   "raw": "高崇文（中原大學物理系教授）",
+   "name": "高崇文",
+   "affiliation_text": "中原大學物理系教授",
    "need": [
-    "portrait",
-    "research"
+    "portrait"
    ],
-   "known_urls": []
+   "known_urls": [
+    "https://deptweb.cycu.edu.tw/upis/%E5%B8%AB%E8%B3%87%E4%BB%8B%E7%B4%B9/%E5%B8%AB%E8%B3%87%E9%99%A3%E5%AE%B9/",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
   },
   {
    "section": "會員名單",
-   "raw": "王郁中（國立虎尾科技大學通識教育中心助理教授）",
-   "name": "王郁中",
-   "affiliation_text": "國立虎尾科技大學通識教育中心助理教授",
+   "raw": "陳民樺（中原大學生物醫學工程學系副教授）",
+   "name": "陳民樺",
+   "affiliation_text": "中原大學生物醫學工程學系副教授",
    "need": [
-    "portrait",
-    "research"
+    "portrait"
    ],
    "known_urls": [
-    "https://cge.nfu.edu.tw/zh_tw/pages/faculty/About2_3",
+    "https://be.cycu.edu.tw/%E9%97%9C%E6%96%BC%E6%9C%AC%E7%B3%BB/%E7%B3%BB%E6%89%80%E7%B0%A1%E4%BB%8B/%E6%B2%BF%E9%9D%A9%E7%99%BC%E5%B1%95/",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉為光（中原大學設計學博士學位學程主任/副教授）",
+   "name": "劉為光",
+   "affiliation_text": "中原大學設計學博士學位學程主任/副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://deptweb.cycu.edu.tw/phdpd/%E6%88%90%E5%93%A1%E4%BB%8B%E7%B4%B9/%E4%B8%BB%E7%AE%A1/",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "留忠賢（中原大學資訊工程系退休副教授）",
+   "name": "留忠賢",
+   "affiliation_text": "中原大學資訊工程系退休副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳其澎（中原大學退休特聘教授）",
+   "name": "陳其澎",
+   "affiliation_text": "中原大學退休特聘教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://deptweb.cycu.edu.tw/design/%E6%88%90%E5%93%A1%E4%BB%8B%E7%B4%B9/%E5%B8%AB%E8%B3%87%E9%99%A3%E5%AE%B9/%E5%AE%A4%E8%A8%AD%E7%B3%BB/",
+    "https://www.cycu.edu.tw/?p=21971"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "林楚淇（中原大學通識教育中心兼任助理教授）",
+   "name": "林楚淇",
+   "affiliation_text": "中原大學通識教育中心兼任助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "何彩滿（中原大學通識教育中心副教授）",
+   "name": "何彩滿",
+   "affiliation_text": "中原大學通識教育中心副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://cge.cycu.edu.tw/%E5%B8%AB%E8%B3%87%E9%99%A3%E5%AE%B9/",
     "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "白淳瑜（台南應用科技大學講師）",
-   "name": "白淳瑜",
-   "affiliation_text": "台南應用科技大學講師",
+   "raw": "陳淳杰（中原大學電子工程學系教授）",
+   "name": "陳淳杰",
+   "affiliation_text": "中原大學電子工程學系教授",
    "need": [
-    "portrait",
-    "research"
+    "portrait"
    ],
    "known_urls": [
-    "https://ceec.tut.edu.tw/var/file/85/1085/img/658122445.pdf"
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "盧毅（National Taiwan UniversityAssociate Professor）",
-   "name": "盧毅",
-   "affiliation_text": "National Taiwan UniversityAssociate Professor",
+   "raw": "張耀仁（中原大學電子系特聘教授）",
+   "name": "張耀仁",
+   "affiliation_text": "中原大學電子系特聘教授",
    "need": [
-    "portrait",
-    "research"
+    "portrait"
    ],
    "known_urls": [
-    "https://ac.ntu.edu.tw/News2_n_195028_sms_124005.html"
+    "https://el.cycu.edu.tw/portfolio-item/%E5%BC%B5%E8%80%80%E4%BB%81-yao-jen-chang/",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "程楚仁（國立臺灣科技大學博士後研究員）",
-   "name": "程楚仁",
-   "affiliation_text": "國立臺灣科技大學博士後研究員",
+   "raw": "陳盈婷（中國文化大學兼任助理教授）",
+   "name": "陳盈婷",
+   "affiliation_text": "中國文化大學兼任助理教授",
    "need": [
-    "portrait",
-    "research"
+    "portrait"
    ],
    "known_urls": [
-    "https://tigp.iams.sinica.edu.tw/files/Certificate%20of%20Achievement/Award%20of%20Chu-Ren%20Chen%20%28new%29.pdf"
+    "https://landscape.pccu.edu.tw/p/406-1239-148008,r3149.php?Lang=zh-tw",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "簡揚庭（美國喬治亞州立大學天文暨物理學系助理教授）",
-   "name": "簡揚庭",
-   "affiliation_text": "美國喬治亞州立大學天文暨物理學系助理教授",
+   "raw": "黃緯中（中國文化大學史學系退休教授）",
+   "name": "黃緯中",
+   "affiliation_text": "中國文化大學史學系退休教授",
    "need": [
-    "portrait",
-    "research"
+    "portrait"
    ],
    "known_urls": [
-    "https://nol2.aca.ntu.edu.tw/nol/coursesearch/print_table.php?class=02&course_id=222+D0070&dpt_code=2220&lang=CH&semester=102-1&ser_no=29236",
-    "https://physics-astro.gsu.edu/profile/yang-ting-chien/"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "簡松興（弘光科技大學助理教授）",
-   "name": "簡松興",
-   "affiliation_text": "弘光科技大學助理教授",
-   "need": [
-    "portrait",
-    "research"
-   ],
-   "known_urls": [
-    "https://tvcfund.hk.edu.tw/wp-content/uploads/2021/12/97%E5%B9%B4%E5%BA%A6%E7%8D%8E%E8%A3%9C%E5%8A%A9%E7%A7%81%E7%AB%8B%E6%8A%80%E5%B0%88%E6%A0%A1%E9%99%A2%E6%95%B4%E9%AB%94%E7%99%BC%E5%B1%95%E7%B6%93%E8%B2%BB%E5%9F%B7%E8%A1%8C%E6%B8%85%E5%86%8A.pdf"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "簡端良（雲林科技大學通識教育中心助理教授）",
-   "name": "簡端良",
-   "affiliation_text": "雲林科技大學通識教育中心助理教授",
-   "need": [
-    "portrait",
-    "research"
-   ],
-   "known_urls": [
+    "https://craahp.pccu.edu.tw/p/404-1097-147277.php?Lang=zh-tw",
     "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "羅頌恩（東海大學美術學系講師）",
-   "name": "羅頌恩",
-   "affiliation_text": "東海大學美術學系講師",
+   "raw": "葉根泉（中國文化大學戲劇學系副教授）",
+   "name": "葉根泉",
+   "affiliation_text": "中國文化大學戲劇學系副教授",
    "need": [
-    "portrait",
-    "research"
+    "portrait"
    ],
    "known_urls": [
+    "https://dta.pccu.edu.tw/p/412-1229-4501.php?Lang=zh-tw",
     "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "翁俊堯（弘光科技大學老人福利與長期照顧事業系兼任講師）",
-   "name": "翁俊堯",
-   "affiliation_text": "弘光科技大學老人福利與長期照顧事業系兼任講師",
+   "raw": "陳秋瑩（中國醫藥大學公共衛生系教授）",
+   "name": "陳秋瑩",
+   "affiliation_text": "中國醫藥大學公共衛生系教授",
    "need": [
-    "portrait",
-    "research"
+    "portrait"
    ],
    "known_urls": [
-    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "翁正忞（僑光科技大學國際貿易系副教授退休）",
-   "name": "翁正忞",
-   "affiliation_text": "僑光科技大學國際貿易系副教授退休",
-   "need": [
-    "portrait",
-    "research"
-   ],
-   "known_urls": [
+    "https://webap.cmu.edu.tw/TchEportfolio/index_1/chence",
     "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "聶良育（中研院PhD candidate）",
-   "name": "聶良育",
-   "affiliation_text": "中研院PhD candidate",
+   "raw": "林子賢（中國醫藥大學公衛系教授）",
+   "name": "林子賢",
+   "affiliation_text": "中國醫藥大學公衛系教授",
    "need": [
-    "portrait",
-    "research"
+    "portrait"
    ],
    "known_urls": [
-    "https://www.nature.com/articles/s41467-024-53206-4"
+    "https://cmuph.cmu.edu.tw/?q=zh-hant%2Fnode%2F188",
+    "https://cmuph.cmu.edu.tw/?q=zh-hant/node/14",
+    "https://news.cmu.edu.tw/ann_detail.php?sn=115577"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "胡㴠棻（University of Nevada, Las VegasProfessor）",
-   "name": "胡㴠棻",
-   "affiliation_text": "University of Nevada, Las VegasProfessor",
+   "raw": "廖勇柏（中國醫藥大學公衞系教授）",
+   "name": "廖勇柏",
+   "affiliation_text": "中國醫藥大學公衞系教授",
    "need": [
-    "portrait",
-    "research"
+    "portrait"
    ],
    "known_urls": [
-    "https://www.unlv.edu/people/han-fen-hu"
+    "https://webap.cmu.edu.tw/TchEportfolio/index_3/liawyp"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "莊鎮元（美國芝加哥大學藝術史學系博士生）",
-   "name": "莊鎮元",
-   "affiliation_text": "美國芝加哥大學藝術史學系博士生",
+   "raw": "廖誼青（中國醫藥大學營養學系助理教授）",
+   "name": "廖誼青",
+   "affiliation_text": "中國醫藥大學營養學系助理教授",
    "need": [
-    "portrait",
-    "research"
+    "portrait"
    ],
    "known_urls": [
-    "https://arthistory.uchicago.edu/graduate/profiles/chuang",
-    "https://mingqing.sinica.edu.tw/conference/2025/files/2025%E4%B8%AD%E5%A4%AE%E7%A0%94%E7%A9%B6%E9%99%A2%E6%98%8E%E6%B8%85%E7%A0%94%E7%A9%B6%E5%9C%8B%E9%9A%9B%E5%AD%B8%E8%A1%93%E7%A0%94%E8%A8%8E%E6%9C%83--%E8%AD%B0%E7%A8%8B%E5%AD%B8%E8%80%85%E5%90%8D%E5%96%AE_1209.pdf"
+    "https://cmuntt.cmu.edu.tw/teacher-pos/23"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "葉俊雄（開南大學退休教授）",
-   "name": "葉俊雄",
-   "affiliation_text": "開南大學退休教授",
+   "raw": "邱英明（中國醫藥大學生物醫學研究所講座教授）",
+   "name": "邱英明",
+   "affiliation_text": "中國醫藥大學生物醫學研究所講座教授",
    "need": [
-    "portrait",
-    "research"
+    "portrait"
    ],
    "known_urls": [
-    "https://www.csie.sju.edu.tw/user_active/zsublist.asp?start=401"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "葉川慈（臺北市立大學師培中心兼任講師博士候選人）",
-   "name": "葉川慈",
-   "affiliation_text": "臺北市立大學師培中心兼任講師博士候選人",
-   "need": [
-    "portrait",
-    "research"
-   ],
-   "known_urls": [
+    "https://gibs.cmu.edu.tw/teacher-pos/18",
     "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "葉晉玉（國立台中科技大學兼任講師）",
-   "name": "葉晉玉",
-   "affiliation_text": "國立台中科技大學兼任講師",
+   "raw": "許儷絹（中國醫藥大學醫學系教授）",
+   "name": "許儷絹",
+   "affiliation_text": "中國醫藥大學醫學系教授",
    "need": [
-    "portrait",
-    "research"
+    "portrait"
    ],
    "known_urls": [
-    "https://alumni.ntou.edu.tw/var/file/101/1101/img/1398/814964909.pdf"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "葉淑涵（University of FloridaAssociate Instructional Professor）",
-   "name": "葉淑涵",
-   "affiliation_text": "University of FloridaAssociate Instructional Professor",
-   "need": [
-    "portrait",
-    "research"
-   ],
-   "known_urls": [
-    "https://languages.ufl.edu/directory/shu-han-yeh/",
-    "https://languages.ufl.edu/wp-content/uploads/sites/119/Shu-Han-Yeh-CV.pdf"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "葉瓊霞（南臺科技大學講師）",
-   "name": "葉瓊霞",
-   "affiliation_text": "南臺科技大學講師",
-   "need": [
-    "portrait",
-    "research"
-   ],
-   "known_urls": [
-    "https://pmi.stust.edu.tw/tc/node/sibyl"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "董峯政（國立高雄餐旅大學（退休）前圖書館主任）",
-   "name": "董峯政",
-   "affiliation_text": "國立高雄餐旅大學（退休）前圖書館主任",
-   "need": [
-    "portrait",
-    "research"
-   ],
-   "known_urls": [
-    "https://w3.hkjh.kh.edu.tw/holo_old/%E6%88%90%E6%9E%9C%E5%BD%99%E7%B7%A8/96%E9%96%A9%E5%8D%97%E8%AA%9E%E6%8E%88%E8%AA%B2%E5%B8%AB%E8%B3%87%E5%9F%B9%E8%A8%93%E5%88%9D%E9%9A%8E%E7%A0%94%E7%BF%92%E6%88%90%E6%9E%9C%E5%BD%99%E7%B6%BF.pdf"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "蔡仕邦（日本同志社大学理工学研究科機械工学博士）",
-   "name": "蔡仕邦",
-   "affiliation_text": "日本同志社大学理工学研究科機械工学博士",
-   "need": [
-    "portrait",
-    "research"
-   ],
-   "known_urls": [
-    "https://ndlsearch.ndl.go.jp/books/R100000039-I13979811"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "蔡秉修（華梵大學兼任講師）",
-   "name": "蔡秉修",
-   "affiliation_text": "華梵大學兼任講師",
-   "need": [
-    "portrait",
-    "research"
-   ],
-   "known_urls": [
-    "https://m26.hfu.edu.tw/moodle/course/index.php?browse=courses&categoryid=934&page=1&perpage=20"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "蔡靜輝（The University of Texas at Arlington退休教授）",
-   "name": "蔡靜輝",
-   "affiliation_text": "The University of Texas at Arlington退休教授",
-   "need": [
-    "portrait",
-    "research"
-   ],
-   "known_urls": [
-    "https://www.ocac.gov.tw/OCAC/Pages/Detail.aspx?nodeid=345&pid=77357217"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "蕭坤松（陽明交通大學人文社會學系兼任助理教授）",
-   "name": "蕭坤松",
-   "affiliation_text": "陽明交通大學人文社會學系兼任助理教授",
-   "need": [
-    "portrait",
-    "research"
-   ],
-   "known_urls": [
-    "https://taiwan.nccu.edu.tw/upload/8/doc/15538/%E3%80%9020220310%E8%AD%B0%E7%A8%8B%E3%80%91%E7%AC%AC%E5%85%AD%E5%B1%86%E8%87%BA%E7%81%A3%E8%88%87%E6%9D%B1%E4%BA%9E%E8%BF%91%E4%BB%A3%E5%8F%B2%E9%9D%92%E5%B9%B4%E5%AD%B8%E8%80%85%E5%AD%B8%E8%A1%93%E7%A0%94%E8%A8%8E%E6%9C%83.pdf"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "蕭羽婕（史丹佛大學精神醫學院研究人員）",
-   "name": "蕭羽婕",
-   "affiliation_text": "史丹佛大學精神醫學院研究人員",
-   "need": [
-    "portrait",
-    "research"
-   ],
-   "known_urls": [
-    "https://profiles.stanford.edu/yu-jie-hsiao"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "蕭鈞毅（清華大學台灣文學研究所博士）",
-   "name": "蕭鈞毅",
-   "affiliation_text": "清華大學台灣文學研究所博士",
-   "need": [
-    "portrait",
-    "research"
-   ],
-   "known_urls": [
-    "https://tl.site.nthu.edu.tw/p/406-1399-309106%2Cr8803.php?Lang=zh-tw"
-   ]
-  },
-  {
-   "section": "會員名單",
-   "raw": "蕭雅心（國立清華大學音樂系兼任助理教授）",
-   "name": "蕭雅心",
-   "affiliation_text": "國立清華大學音樂系兼任助理教授",
-   "need": [
-    "portrait",
-    "research"
-   ],
-   "known_urls": [
+    "https://cmumd.cmu.edu.tw/zh-hant/node/53",
     "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
    ]
   },
   {
    "section": "會員名單",
-   "raw": "蘇亮甄（國立中山大學教育所博士候選人）",
-   "name": "蘇亮甄",
-   "affiliation_text": "國立中山大學教育所博士候選人",
+   "raw": "黃思超（國立中央大學中國文學系副研究員）",
+   "name": "黃思超",
+   "affiliation_text": "國立中央大學中國文學系副研究員",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+    "https://www.chinese.ncu.edu.tw/zh_tw/About2/Faculty2/Fulltime_teacher/%E9%BB%83%E6%80%9D%E8%B6%85-67461477"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳東榮（國立中央大學前英文系教授兼主任）",
+   "name": "陳東榮",
+   "affiliation_text": "國立中央大學前英文系教授兼主任",
    "need": [
     "portrait",
     "research"
    ],
    "known_urls": [
-    "https://education.nsysu.edu.tw/static/file/134/1134/img/1798/487640188.pdf"
+    "https://history.tlshaa.org.tw/content/4/15/2"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "羅程詠（國立中央大學客家學院博士後研究員）",
+   "name": "羅程詠",
+   "affiliation_text": "國立中央大學客家學院博士後研究員",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://cis.ncu.edu.tw/iTeacher/home/0x469f02fa583cbf9805548fcc375cd2a1",
+    "https://hakka.ncu.edu.tw/Hakka_ePaper/paper/paper356/356-7.html",
+    "https://scholar.google.com/citations?user=QeEFdx0AAAAJ&hl=zh-TW"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "王士榮（國立中央大學應用地質研究所教授）",
+   "name": "王士榮",
+   "affiliation_text": "國立中央大學應用地質研究所教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://cgc.ncu.edu.tw/zh-TW/faculty-member/1/profile",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "王聖閎（國立中央大學藝術學研究所助理教授）",
+   "name": "王聖閎",
+   "affiliation_text": "國立中央大學藝術學研究所助理教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://art.ncu.edu.tw/faculty.asp",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "張智宏（國立中央大學認知神經科學研究所副教授）",
+   "name": "張智宏",
+   "affiliation_text": "國立中央大學認知神經科學研究所副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://icn.ncu.edu.tw/2-1-detail.php?id=6",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "共同領銜",
+   "raw": "徐峻賢（國立中央大學認知神經科學研究所副教授）",
+   "name": "徐峻賢",
+   "affiliation_text": "國立中央大學認知神經科學研究所副教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://icn.ncu.edu.tw/2-1-detail.php?id=9",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "鄭仕坤（國立中央大學認知神經科學研究所教授）",
+   "name": "鄭仕坤",
+   "affiliation_text": "國立中央大學認知神經科學研究所教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://icn.ncu.edu.tw/2-1-detail.php?id=1",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "孫敏德（中央大學資訊工程系教授）",
+   "name": "孫敏德",
+   "affiliation_text": "中央大學資訊工程系教授",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://cis.ncu.edu.tw/iTeacher/home/0xab00416ac5d626d962e365ec3810f731",
+    "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+   ]
+  },
+  {
+   "section": "會員名單",
+   "raw": "林慶彰（中央研究院中國文哲研究所退休研究員）",
+   "name": "林慶彰",
+   "affiliation_text": "中央研究院中國文哲研究所退休研究員",
+   "need": [
+    "portrait"
+   ],
+   "known_urls": [
+    "https://confucian.utaipei.edu.tw/p/412-1074-12.php?Lang=zh-tw",
+    "https://www.ios.sinica.edu.tw/singlepage.php?id=1",
+    "https://www.litphil.sinica.edu.tw/members/1095?page_id=58",
+    "https://www.litphil.sinica.edu.tw/members/1f1c2c23-b707-4c2d-9cf5-afb3c94699a3?page_id=13"
    ]
   }
  ]
