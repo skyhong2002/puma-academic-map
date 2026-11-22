@@ -1,0 +1,474 @@
+{
+ "batch": 11,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "鄭麗玲（國立台北科技大學 文化事業發展系教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "台灣史",
+      "source": "https://cvd.ntut.edu.tw/p/404-1093-37922.php?Lang=zh-tw"
+     },
+     {
+      "label": "歷史文化創意資產研究",
+      "source": "https://cvd.ntut.edu.tw/p/404-1093-37922.php?Lang=zh-tw"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-011/cheng.jpg",
+    "crop": [
+     500,
+     500,
+     2400,
+     2400
+    ],
+    "source_url": "https://cvd.ntut.edu.tw/p/404-1093-37922.php?Lang=zh-tw",
+    "credit": "來源：國立臺北科技大學文化事業發展系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "系所教師頁，姓名與系所一致；半正式單人照，臉部清楚，已裁切"
+  },
+  {
+   "section": "會員名單",
+   "raw": "蕭驩庭（國立台北科技大學兼任講師）",
+   "note": "僅在課程大綱找到姓名（建築設計課），無個人頁與研究專長，略過"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳維鈞（台北科技大學創新前瞻科技研究學院兼任教授）",
+   "note": "創新前瞻科技研究學院師資頁有同名兼任教授級人員，但該頁照片檔在伺服器端損毀（下載截斷、下半為灰），不採用；專長（磊晶製程、薄膜材料分析、真空科技）頁面有列但此任務未要求研究"
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳懷晨（台北藝術大學人文學院教授）",
+   "note": "北藝大文學跨域創作研究所教師頁無可辨識的個人照片（僅佔位圖），未找到頭像；搜尋額度用完未再查其他來源"
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔣薇華（台北藝術大學副教授）",
+   "note": "搜尋額度用盡，未能查證"
+  },
+  {
+   "section": "會員名單",
+   "raw": "郭昭蘭（國立台北藝術大學美術系副教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "藝術史",
+      "source": "https://finearts.tnua.edu.tw/accommodation-organization/"
+     },
+     {
+      "label": "現代與當代藝術",
+      "source": "https://finearts.tnua.edu.tw/accommodation-organization/"
+     },
+     {
+      "label": "策展",
+      "source": "https://finearts.tnua.edu.tw/accommodation-organization/"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-011/guo.jpg",
+    "crop": null,
+    "source_url": "https://finearts.tnua.edu.tw/accommodation-organization/",
+    "credit": "來源：國立臺北藝術大學美術學院官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "美術系專任師資頁，副教授，姓名系所一致；正式單人照，臉部清楚"
+  },
+  {
+   "section": "會員名單",
+   "raw": "蘇郁心（國立台北藝術大學藝術跨域研究所兼任助理教授級專業技術人員）",
+   "research": {
+    "keywords": [
+     {
+      "label": "錄像創作",
+      "source": "https://finearts.tnua.edu.tw/%E5%85%BC%E4%BB%BB%E5%B8%AB%E8%B3%87/"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-011/su.jpg",
+    "crop": null,
+    "source_url": "https://finearts.tnua.edu.tw/%E5%85%BC%E4%BB%BB%E5%B8%AB%E8%B3%87/",
+    "credit": "來源：國立臺北藝術大學美術學院官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "美術學院兼任師資頁，助理教授級專業技術人員，姓名一致；單人證件式照片，臉部清楚"
+  },
+  {
+   "section": "會員名單",
+   "raw": "饒加恩（國立台北藝術大學講師）",
+   "research": {
+    "keywords": [
+     {
+      "label": "複合媒體創作",
+      "source": "https://finearts.tnua.edu.tw/accommodation-organization/"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-011/jao.jpg",
+    "crop": null,
+    "source_url": "https://finearts.tnua.edu.tw/accommodation-organization/",
+    "credit": "來源：國立臺北藝術大學美術學院官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "美術系專任師資頁（職稱列助理教授，個人資料頁列講師，同一人）；專長僅列一項；單人肖像，臉部清楚"
+  },
+  {
+   "section": "會員名單",
+   "raw": "潘世姬（國立台北藝術大學音樂系兼任教授）",
+   "note": "搜尋額度用盡，未能查證"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳紫樺（國立台北護理健康大學通識中心助理教授）",
+   "note": "北護通識中心教師頁有同名助理教授（第二語言習得），但頁面照片為戲服遊樂園生活照，不採用"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李境祐（台北醫學大學(附設醫院) 骨科學科副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-011/lee_tmuh.png",
+    "crop": null,
+    "source_url": "https://www.tmuh.org.tw/team/team/06/06/060016",
+    "credit": "來源：臺北醫學大學附設醫院官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "附醫骨科部醫師介紹頁，副教授，一致；白袍正式單人照，臉部清楚"
+  },
+  {
+   "section": "會員名單",
+   "raw": "許嘉月（台北醫學大學副教授）",
+   "note": "搜尋額度用盡，未能查證"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張惠娟（台北醫學大學心智意識與腦科學研究所助理教授）",
+   "note": "研究所教師頁有同名人，但照片為戶外生活照，不採用"
+  },
+  {
+   "section": "會員名單",
+   "raw": "徐鳳麟（台北醫學大學藥學院名譽教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "天然藥物",
+      "source": "http://nppharm.tmu.edu.tw/team/content.php?type=1&sid=36"
+     },
+     {
+      "label": "中草藥應用研究開發",
+      "source": "http://nppharm.tmu.edu.tw/team/content.php?type=1&sid=36"
+     },
+     {
+      "label": "多酚性活性化合物探索",
+      "source": "http://nppharm.tmu.edu.tw/team/content.php?type=1&sid=36"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-011/hsu.jpg",
+    "crop": null,
+    "source_url": "http://nppharm.tmu.edu.tw/team/content.php?type=1&sid=36",
+    "credit": "來源：臺北醫學大學生藥學研究所官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "生藥學研究所名譽教授頁，一致；白袍半正式單人照（原圖僅 150x150，實驗室背景稍雜）"
+  },
+  {
+   "section": "會員名單",
+   "raw": "施麗雯（台北醫學大學醫學人文研究所副教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "醫療社會學",
+      "source": "http://medhuman.tmu.edu.tw/index.php?action=people&cid=1&id=3"
+     },
+     {
+      "label": "科技與社會",
+      "source": "http://medhuman.tmu.edu.tw/index.php?action=people&cid=1&id=3"
+     },
+     {
+      "label": "性別與健康",
+      "source": "http://medhuman.tmu.edu.tw/index.php?action=people&cid=1&id=3"
+     },
+     {
+      "label": "婚姻與生育研究",
+      "source": "http://medhuman.tmu.edu.tw/index.php?action=people&cid=1&id=3"
+     },
+     {
+      "label": "質性研究方法",
+      "source": "http://medhuman.tmu.edu.tw/index.php?action=people&cid=1&id=3"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "醫學人文所頁有照片，但為居家花壁紙背景的生活照，不採用頭像"
+  },
+  {
+   "section": "會員名單",
+   "raw": "許文瀞（台北醫學大學醫學科學研究所博士後研究員）",
+   "note": "僅找到國際醫學研究學程博士班學生獲獎公告，無個人頁，未採用"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃柔蓁（台北醫學大學醫學系助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-011/huang.jpg",
+    "crop": [
+     0,
+     0,
+     500,
+     500
+    ],
+    "source_url": "https://hub.tmu.edu.tw/zh/persons/jou-chen-huang/",
+    "credit": "來源：臺北醫學大學學術研究資訊平台（Pure）官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "TMU Pure 個人頁，醫學系眼科學科助理教授，一致；白袍單人照，已裁切"
+  },
+  {
+   "section": "會員名單",
+   "raw": "梁志鳴（台北醫學大學醫療暨生物科技法律研究所教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-011/liang.jpg",
+    "crop": null,
+    "source_url": "https://hub.tmu.edu.tw/zh/persons/chiih-ming-liang/",
+    "credit": "來源：臺北醫學大學學術研究資訊平台（Pure）官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "TMU Pure 個人頁，醫療暨生物科技法律研究所教授，一致；正式單人照"
+  },
+  {
+   "section": "會員名單",
+   "raw": "游文瑜（台北醫學大學附設醫院急診醫學科主治醫師、部定助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-011/yu.jpg",
+    "crop": null,
+    "source_url": "https://www.tmuh.org.tw/team/team/86/86/860010",
+    "credit": "來源：臺北醫學大學附設醫院官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "附醫急診醫學科醫師介紹頁，兼任助理教授／部定助理教授，一致；單人肖像，臉部清楚"
+  },
+  {
+   "section": "會員名單",
+   "raw": "楊麗珍（台北長庚醫院皮膚科台北長庚醫院皮膚科副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-011/yang.jpg",
+    "crop": null,
+    "source_url": "https://www.cgmh.org.tw/app/Services/DoctorInfo/0552",
+    "credit": "來源：長庚醫院官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "長庚醫院台北皮膚科醫師介紹頁，副教授級主治醫師，一致；單人肖像，右側有白邊"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李郁緻（國立台南大學教育系副教授）",
+   "note": "搜尋額度用盡，未能查證"
+  },
+  {
+   "section": "會員名單",
+   "raw": "楊逸君（國立台南大學英語系副教授）",
+   "note": "搜尋額度用盡，未能查證"
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳明錡（國立台南大學通識教育中心助理教授）",
+   "note": "搜尋額度用盡，未能查證"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林雅齡（台南應用科技大學副教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "時尚設計",
+      "source": "https://fdm.tut.edu.tw/p/404-1057-7797.php?Lang=zh-tw"
+     },
+     {
+      "label": "時尚媒體",
+      "source": "https://fdm.tut.edu.tw/p/404-1057-7797.php?Lang=zh-tw"
+     },
+     {
+      "label": "時尚產業研究",
+      "source": "https://fdm.tut.edu.tw/p/404-1057-7797.php?Lang=zh-tw"
+     },
+     {
+      "label": "視覺文化評論",
+      "source": "https://fdm.tut.edu.tw/p/404-1057-7797.php?Lang=zh-tw"
+     },
+     {
+      "label": "文化創意產業",
+      "source": "https://fdm.tut.edu.tw/p/404-1057-7797.php?Lang=zh-tw"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-011/lin.jpg",
+    "crop": null,
+    "source_url": "https://fdm.tut.edu.tw/p/404-1057-7797.php?Lang=zh-tw",
+    "credit": "來源：台南應用科技大學時尚設計系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "系所教師頁，專任副教授，一致；正式單人照"
+  },
+  {
+   "section": "會員名單",
+   "raw": "沈繻淯（台南應用科技大學副教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "教育領導",
+      "source": "https://ece.tut.edu.tw/p/403-1059-1257.php?Lang=zh-tw"
+     },
+     {
+      "label": "行政管理",
+      "source": "https://ece.tut.edu.tw/p/403-1059-1257.php?Lang=zh-tw"
+     },
+     {
+      "label": "行銷與經營管理",
+      "source": "https://ece.tut.edu.tw/p/403-1059-1257.php?Lang=zh-tw"
+     },
+     {
+      "label": "早期教育",
+      "source": "https://ece.tut.edu.tw/p/403-1059-1257.php?Lang=zh-tw"
+     },
+     {
+      "label": "蒙特梭利教學",
+      "source": "https://ece.tut.edu.tw/p/403-1059-1257.php?Lang=zh-tw"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "幼保系教師頁有同名副教授，但照片為背景有 logo 的生活照，臉小，不採用"
+  },
+  {
+   "section": "會員名單",
+   "raw": "鍾穗蘭（台南應用科技大學漫畫系副教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "繪畫創作",
+      "source": "https://comic.tut.edu.tw/p/403-1093-1270.php?Lang=zh-tw"
+     },
+     {
+      "label": "裝置藝術",
+      "source": "https://comic.tut.edu.tw/p/403-1093-1270.php?Lang=zh-tw"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "漫畫系／美術系頁有同名副教授，但照片為黑白近距離自拍、頭頂被截，不採用"
+  },
+  {
+   "section": "會員名單",
+   "raw": "徐碧娟（台南應用科技大學漫畫系專技助理教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "漫畫創作",
+      "source": "https://comic.tut.edu.tw/p/403-1093-1270.php?Lang=zh-tw"
+     },
+     {
+      "label": "漫畫教學",
+      "source": "https://comic.tut.edu.tw/p/403-1093-1270.php?Lang=zh-tw"
+     },
+     {
+      "label": "漫畫活動企劃",
+      "source": "https://comic.tut.edu.tw/p/403-1093-1270.php?Lang=zh-tw"
+     },
+     {
+      "label": "出版",
+      "source": "https://comic.tut.edu.tw/p/403-1093-1270.php?Lang=zh-tw"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-011/xu.jpg",
+    "crop": null,
+    "source_url": "https://comic.tut.edu.tw/p/403-1093-1270.php?Lang=zh-tw",
+    "credit": "來源：台南應用科技大學漫畫系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "漫畫系教師頁，專技助理教授，一致；半正式單人照，略側臉，原圖 200x200"
+  },
+  {
+   "section": "會員名單",
+   "raw": "王佩廸（台南應用科技大學漫畫系／台灣ACG研究學會助理教授／理事長）",
+   "research": {
+    "keywords": [
+     {
+      "label": "動漫社會學",
+      "source": "https://comic.tut.edu.tw/p/403-1093-1270-2.php?Lang=zh-tw"
+     },
+     {
+      "label": "漫畫史",
+      "source": "https://comic.tut.edu.tw/p/403-1093-1270-2.php?Lang=zh-tw"
+     },
+     {
+      "label": "漫畫產業與粉絲文化",
+      "source": "https://comic.tut.edu.tw/p/403-1093-1270-2.php?Lang=zh-tw"
+     },
+     {
+      "label": "漫畫策展管理",
+      "source": "https://comic.tut.edu.tw/p/403-1093-1270-2.php?Lang=zh-tw"
+     },
+     {
+      "label": "BL文化與性別研究",
+      "source": "https://comic.tut.edu.tw/p/403-1093-1270-2.php?Lang=zh-tw"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "漫畫系教師頁（頁面圖片 alt 作「王佩迪」，同頁姓名為王佩廸），助理教授；單人照，疑為視訊截圖、畫質偏低但臉部清楚，原圖 200x200 [審核剔除頭像]"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃文勇（台南應用科技大學美術系副教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "版印創作",
+      "source": "https://art.tut.edu.tw/p/403-1073-1272.php?Lang=zh-tw"
+     },
+     {
+      "label": "影像美學",
+      "source": "https://art.tut.edu.tw/p/403-1073-1272.php?Lang=zh-tw"
+     },
+     {
+      "label": "數位藝術創作",
+      "source": "https://art.tut.edu.tw/p/403-1073-1272.php?Lang=zh-tw"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "美術系教師頁有同名副教授，但照片為手托下巴的生活照，不採用"
+  },
+  {
+   "section": "會員名單",
+   "raw": "周郁齡（台南應用科技大學美術系助理教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "視覺文化",
+      "source": "https://art.tut.edu.tw/p/403-1073-1272.php?Lang=zh-tw"
+     },
+     {
+      "label": "動態影像策展",
+      "source": "https://art.tut.edu.tw/p/403-1073-1272.php?Lang=zh-tw"
+     },
+     {
+      "label": "藝術史展覽研究",
+      "source": "https://art.tut.edu.tw/p/403-1073-1272.php?Lang=zh-tw"
+     },
+     {
+      "label": "策展學",
+      "source": "https://art.tut.edu.tw/p/403-1073-1272.php?Lang=zh-tw"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "美術系教師頁有同名助理教授，但照片為手持麥克風的活動照，不採用"
+  }
+ ]
+}

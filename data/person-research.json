@@ -5681,6 +5681,14 @@
       {
         "label": "文化創意產業",
         "source": "https://fdm.tut.edu.tw/p/404-1057-7797.php?Lang=zh-tw"
+      },
+      {
+        "label": "時尚媒體",
+        "source": "https://fdm.tut.edu.tw/p/404-1057-7797.php?Lang=zh-tw"
+      },
+      {
+        "label": "視覺文化評論",
+        "source": "https://fdm.tut.edu.tw/p/404-1057-7797.php?Lang=zh-tw"
       }
     ],
     "related": [
@@ -5724,6 +5732,10 @@
       {
         "label": "蒙特梭利教學",
         "source": "https://ece.tut.edu.tw/p/403-1059-1257.php?Lang=zh-tw"
+      },
+      {
+        "label": "行銷與經營管理",
+        "source": "https://ece.tut.edu.tw/p/403-1059-1257.php?Lang=zh-tw"
       }
     ]
   },
@@ -5754,6 +5766,18 @@
       },
       {
         "label": "BL 文化與性別研究",
+        "source": "https://comic.tut.edu.tw/p/403-1093-1270-2.php?Lang=zh-tw"
+      },
+      {
+        "label": "漫畫產業與粉絲文化",
+        "source": "https://comic.tut.edu.tw/p/403-1093-1270-2.php?Lang=zh-tw"
+      },
+      {
+        "label": "漫畫策展管理",
+        "source": "https://comic.tut.edu.tw/p/403-1093-1270-2.php?Lang=zh-tw"
+      },
+      {
+        "label": "BL文化與性別研究",
         "source": "https://comic.tut.edu.tw/p/403-1093-1270-2.php?Lang=zh-tw"
       }
     ],
@@ -11347,6 +11371,18 @@
       {
         "label": "現代藝術史",
         "source": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
+      },
+      {
+        "label": "藝術史",
+        "source": "https://finearts.tnua.edu.tw/accommodation-organization/"
+      },
+      {
+        "label": "現代與當代藝術",
+        "source": "https://finearts.tnua.edu.tw/accommodation-organization/"
+      },
+      {
+        "label": "策展",
+        "source": "https://finearts.tnua.edu.tw/accommodation-organization/"
       }
     ],
     "related": [
@@ -33380,6 +33416,28 @@
       {
         "label": "台灣文學史",
         "source": "https://pmi.stust.edu.tw/tc/node/sibyl"
+      }
+    ]
+  },
+  {
+    "id": "86486e7c407d947e840a0a80d74c321f",
+    "section": "會員名單",
+    "raw": "饒加恩（國立台北藝術大學講師）",
+    "keywords": [
+      {
+        "label": "複合媒體創作",
+        "source": "https://finearts.tnua.edu.tw/accommodation-organization/"
+      }
+    ]
+  },
+  {
+    "id": "f0a7a6ced495d591b39ed2a3718f85e3",
+    "section": "會員名單",
+    "raw": "楊汗如（台大戲劇、北藝大戲劇、音樂、傳音系講師）",
+    "keywords": [
+      {
+        "label": "崑劇表演",
+        "source": "https://theatre.ntu.edu.tw/faculty/%E6%A5%8A%E6%B1%97%E5%A6%82"
       }
     ]
   }

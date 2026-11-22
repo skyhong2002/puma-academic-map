@@ -1,0 +1,197 @@
+{
+ "batch": 13,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "黃柏堯（台灣大學健康行為與社區科學研究所副教授）",
+   "note": "Scholars Hub 有照片（身分相符），但為戶外街景背景，不放。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林亮瑜（台灣大學公共衛生學院 環境與職業健康科學研究所助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-013/lin.jpg",
+    "crop": null,
+    "source_url": "https://eohs.ntu.edu.tw/web/about/faculty.jsp?lang=tw",
+    "credit": "來源：臺大環境與職業健康科學研究所官網師資頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "所網師資頁正式單人照，臉部清楚。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡欣祐（台灣大學分子醫學所副教授）",
+   "note": "Scholars Hub 照片僅116px；所網照片為聚餐生活照，不放。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "袁千雯（台灣大學創新設計學院教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-013/yuan.png",
+    "crop": null,
+    "source_url": "https://dschool.ntu.edu.tw/people/tinayuan/",
+    "credit": "來源：臺大創新設計學院官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "官方人物頁正式單人照，臉部清楚。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "魏鈴穎（台灣大學助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-013/s_wei_魏鈴穎.jpg",
+    "crop": null,
+    "source_url": "https://scholars.lib.ntu.edu.tw/entities/person/02416d1a-25ca-4013-99bf-ee31840c33a5",
+    "credit": "來源：臺大 Scholars Hub 學者個人頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "Scholars Hub 學者頁（牙醫學系助理教授，原署名僅「台灣大學助理教授」，系所為推定，唯一對應）正式證件式單人照。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "邱靜雯（國立台灣大學化學系教授）",
+   "note": "Scholars Hub 照片173px且為活動側拍、解析度低，不放。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡偉博（台灣大學化工系教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-013/tsai.jpg",
+    "crop": null,
+    "source_url": "https://che.ntu.edu.tw/che/WeiborTsai.html",
+    "credit": "來源：臺大化工系官網教師頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "系網教師頁正式單人照，臉部清楚。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "遲正祥（國立台灣大學博士後研究員）",
+   "note": "大氣系博士後頁面有照片，但為與貓的生活照，不放。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "鄭芳婷（台灣大學台灣文學研究所教授）",
+   "note": "Scholars Hub 照片為書櫃前隨拍生活照，不放。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳榮杰（台灣大學名譽教授）",
+   "note": "農經系頁面照片僅160x120，短邊<150，不放。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "賴秀穗（台灣大學名譽教授）",
+   "note": "獸醫專業學院頁面僅有招牌圖，無人像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃青真（國立台灣大學名譽教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-013/s_huangqz_img_1442885822680.jpg",
+    "crop": null,
+    "source_url": "https://scholars.lib.ntu.edu.tw/entities/person/05d08555-c95b-4283-a325-89443eb56688",
+    "credit": "來源：臺大 Scholars Hub 學者個人頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "Scholars Hub 學者頁單人照（208px，畫質偏低但臉部清楚）；研究領域 Nutrition/Molecular nutrition 與名譽教授身分相符。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "郭貞秀（台灣大學外國語文學系副教授）",
+   "note": "Scholars Hub／外文系照片為近距離隨拍，不放。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "黃山耘（台灣大學外國語文學系副教授）",
+   "note": "外文系頁面照片為連帽衣的生活照，不放。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉姿妤（台灣大學外文系助理教授）",
+   "note": "外文系頁面照片為隨拍近照，不放。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉定朋（台灣大學工程科學及海洋工程系助理教授）",
+   "note": "系網照片為活動合照式生活照（旁有他人），不放。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林雯玲（台灣大學戲劇系教授）",
+   "note": "Scholars Hub 照片為餐廳隨拍，不放。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃漢水（台灣大學數學系副教授）",
+   "note": "數學系退休教師照片僅75x90，過小。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李白飛（國立台灣大學數學系名譽教授）",
+   "note": "數學系個人頁無照片。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "楊維哲（台灣大學數學系名譽教授）",
+   "note": "數學系個人頁無照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張瑞吉（台灣大學數學系退休教授台灣大學數學系退休教授）",
+   "note": "數學系退休教師清單僅有預設佔位圖，無照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "韓承樺（國立台灣大學歷史學系助理教授）",
+   "note": "Scholars Hub 照片為咖啡廳隨拍，不放。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "鄭欽仁（台灣大學歷史學系名譽教授）",
+   "note": "歷史系名譽教授頁僅有姓名列表，無照片；其餘為新聞／季刊頁，非官方人物頁。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "顏杏如（國立台灣大學歷史學系教授）",
+   "note": "Scholars Hub 照片僅134px，過小。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "李永熾（台灣大學歷史學系退休教授）",
+   "note": "未找到官方人物頁照片（來源多為新聞／智庫文章）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "薛智仁（國立台灣大學法律學院教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-013/s_hsueh_img_1449535858677.jpg",
+    "crop": null,
+    "source_url": "https://scholars.lib.ntu.edu.tw/entities/person/a86cd789-1708-42cb-b06a-3692506edb29",
+    "credit": "來源：臺大 Scholars Hub 學者個人頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "Scholars Hub 學者頁（法律學系，姓名與系所相符）單人照，臉部清楚。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "楊姍樺（台灣大學漁業科學研究所副教授）",
+   "note": "漁科所、創新領域學程、D-School 各頁照片皆為海邊自拍／旅遊生活照，不放。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張國龍（台灣大學物理系退休教授）",
+   "note": "網路上未找到列出研究專長的官方頁面（台大物理系名錄研究領域欄空白；看守台灣協會頁僅介紹環保與反核經歷），略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "許家維（台灣大學生化所副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-013/hsu_a.jpg",
+    "crop": null,
+    "source_url": "https://ibs.ntu.edu.tw/web/team/team_in.jsp?fp_id=FP1706589842789&lang=tw",
+    "credit": "來源：臺大生化科學研究所官網教師頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "所網教師頁單人照，臉部清楚。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "閔明源（國立台灣大學生命科學系教授）",
+   "note": "Scholars Hub 照片模糊低畫質，不放。"
+  }
+ ]
+}
