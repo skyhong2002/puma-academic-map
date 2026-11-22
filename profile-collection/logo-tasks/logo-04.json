@@ -1,0 +1,105 @@
+{
+ "batch": 4,
+ "institutions": [
+  {
+   "name": "牛津大學實驗心理學系（Mansfield Road）",
+   "people": 1
+  },
+  {
+   "name": "辛辛那提大學",
+   "people": 1
+  },
+  {
+   "name": "臺灣印度研究協會",
+   "people": 1
+  },
+  {
+   "name": "殷建智精神科診所",
+   "people": 1
+  },
+  {
+   "name": "加州州立大學長堤分校",
+   "people": 1
+  },
+  {
+   "name": "紐約市立大學紐約市立學院",
+   "people": 1
+  },
+  {
+   "name": "國家衛生研究院神經及精神醫學研究中心（竹南院區）",
+   "people": 1
+  },
+  {
+   "name": "南門綜合醫院",
+   "people": 1
+  },
+  {
+   "name": "京都女子大學",
+   "people": 1
+  },
+  {
+   "name": "奧地利考古研究院",
+   "people": 1
+  },
+  {
+   "name": "台灣本土神學研究中心",
+   "people": 1
+  },
+  {
+   "name": "維也納音樂暨表演藝術大學",
+   "people": 1
+  },
+  {
+   "name": "國防醫學大學",
+   "people": 1
+  },
+  {
+   "name": "台灣教授協會",
+   "people": 1
+  },
+  {
+   "name": "德育護理健康學院",
+   "people": 1
+  },
+  {
+   "name": "台灣文學國家園區協進會",
+   "people": 1
+  },
+  {
+   "name": "社團法人台灣教師聯盟（公開聯絡處）",
+   "people": 1
+  },
+  {
+   "name": "The University of Texas Health Science Center at San Antonio",
+   "people": 1
+  },
+  {
+   "name": "卡地夫大學新聞、媒體與文化學院",
+   "people": 1
+  },
+  {
+   "name": "貝勒醫學院",
+   "people": 1
+  },
+  {
+   "name": "臺北海洋科技大學",
+   "people": 1
+  },
+  {
+   "name": "芝加哥神學院",
+   "people": 1
+  },
+  {
+   "name": "大阪大學",
+   "people": 1
+  },
+  {
+   "name": "國立自然科學博物館",
+   "people": 1
+  },
+  {
+   "name": "沖繩科學技術大學院大學",
+   "people": 1
+  }
+ ]
+}

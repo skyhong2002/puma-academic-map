@@ -33451,5 +33451,35 @@
         "source": "https://nicr.nhri.edu.tw/pi/leech_research/"
       }
     ]
+  },
+  {
+    "id": "e732eb2089034164cf5b3cd83aca040f",
+    "section": "會員名單",
+    "raw": "謝志杰（國立政治大學傳播學院博士班博士生）",
+    "keywords": [
+      {
+        "label": "公共關係",
+        "source": "https://ccphd.nccu.edu.tw/PageStaffing/Detail?fid=12680&id=4933"
+      },
+      {
+        "label": "社群媒體",
+        "source": "https://ccphd.nccu.edu.tw/PageStaffing/Detail?fid=12680&id=4933"
+      },
+      {
+        "label": "數位行銷",
+        "source": "https://ccphd.nccu.edu.tw/PageStaffing/Detail?fid=12680&id=4933"
+      }
+    ]
+  },
+  {
+    "id": "425d8e7e93b692ba327788ef753a6d86",
+    "section": "會員名單",
+    "raw": "郭秋薇（日本京都女子大學現代社會學部講師）",
+    "keywords": [
+      {
+        "label": "労働経済学",
+        "source": "https://www.kyoto-wu.ac.jp/gakubu/kyouin/shakai/index.html"
+      }
+    ]
   }
 ]

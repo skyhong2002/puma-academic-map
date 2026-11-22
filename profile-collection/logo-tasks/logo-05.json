@@ -1,0 +1,81 @@
+{
+ "batch": 5,
+ "institutions": [
+  {
+   "name": "聖約翰科技大學",
+   "people": 1
+  },
+  {
+   "name": "中央研究院中國文哲研究所（南港院區）",
+   "people": 1
+  },
+  {
+   "name": "麥基爾大學",
+   "people": 1
+  },
+  {
+   "name": "羅文大學",
+   "people": 1
+  },
+  {
+   "name": "CSIRO Black Mountain",
+   "people": 1
+  },
+  {
+   "name": "休士頓大學城中分校",
+   "people": 1
+  },
+  {
+   "name": "史丹佛大學醫學院",
+   "people": 1
+  },
+  {
+   "name": "李兆然家醫科診所",
+   "people": 1
+  },
+  {
+   "name": "University of Tennessee Health Science Center",
+   "people": 1
+  },
+  {
+   "name": "汐止晶華眼科診所",
+   "people": 1
+  },
+  {
+   "name": "三軍總醫院",
+   "people": 0
+  },
+  {
+   "name": "臺中榮民總醫院",
+   "people": 0
+  },
+  {
+   "name": "奇美醫院",
+   "people": 0
+  },
+  {
+   "name": "花蓮慈濟醫院",
+   "people": 0
+  },
+  {
+   "name": "臺北榮民總醫院",
+   "people": 0
+  },
+  {
+   "name": "高雄榮民總醫院",
+   "people": 0
+  },
+  {
+   "name": "新竹馬偕紀念醫院",
+   "people": 0
+  },
+  {
+   "name": "恩主公醫院",
+   "people": 0
+  },
+  {
+   "name": "雙和醫院",
+   "people": 0
+  }
+ ]
+}

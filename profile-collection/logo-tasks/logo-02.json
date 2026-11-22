@@ -1,0 +1,105 @@
+{
+ "batch": 2,
+ "institutions": [
+  {
+   "name": "Utah State University",
+   "people": 2
+  },
+  {
+   "name": "正修科技大學",
+   "people": 2
+  },
+  {
+   "name": "開南大學",
+   "people": 2
+  },
+  {
+   "name": "懷俄明大學",
+   "people": 2
+  },
+  {
+   "name": "長庚科技大學",
+   "people": 2
+  },
+  {
+   "name": "南開科技大學",
+   "people": 2
+  },
+  {
+   "name": "明新科技大學",
+   "people": 2
+  },
+  {
+   "name": "輔英科技大學",
+   "people": 2
+  },
+  {
+   "name": "樹德科技大學",
+   "people": 2
+  },
+  {
+   "name": "國立嘉義大學",
+   "people": 2
+  },
+  {
+   "name": "國立臺灣戲曲學院",
+   "people": 2
+  },
+  {
+   "name": "臺南市立醫院",
+   "people": 1
+  },
+  {
+   "name": "Tufts University School of Medicine",
+   "people": 1
+  },
+  {
+   "name": "高雄市立大同醫院",
+   "people": 1
+  },
+  {
+   "name": "Harvard Cancer Consortium（中央行政辦公室）",
+   "people": 1
+  },
+  {
+   "name": "華盛頓大學塔科馬分校",
+   "people": 1
+  },
+  {
+   "name": "Vanderbilt University Medical Center",
+   "people": 1
+  },
+  {
+   "name": "瑪麗華盛頓大學",
+   "people": 1
+  },
+  {
+   "name": "台灣精準健康促進協會（法人登記主事務所）",
+   "people": 1
+  },
+  {
+   "name": "林青穀家庭醫學科診所",
+   "people": 1
+  },
+  {
+   "name": "University of Toronto, Temerty Faculty of Medicine",
+   "people": 1
+  },
+  {
+   "name": "東方設計大學",
+   "people": 1
+  },
+  {
+   "name": "聖塔克拉拉大學",
+   "people": 1
+  },
+  {
+   "name": "倫敦大學伯貝克學院",
+   "people": 1
+  },
+  {
+   "name": "國立故宮博物院（北部院區）",
+   "people": 1
+  }
+ ]
+}

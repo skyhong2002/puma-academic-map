@@ -1,0 +1,177 @@
+{
+ "batch": 3,
+ "institutions": [
+  {
+   "name": "紐約市立大學 John Jay College",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-03/jjc.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:JJCJ_logo.svg",
+    "license_url": "https://commons.wikimedia.org/wiki/File:JJCJ_logo.svg",
+    "credit": "Wikimedia Commons，標示 Public domain（文字標誌）；版權屬 John Jay College",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "John Jay College of Criminal Justice 文字標誌"
+  },
+  {
+   "name": "Edinburgh Napier University（Craiglockhart Campus）",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-03/napier.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Edinburgh_Napier_University_arms.svg",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Edinburgh_Napier_University_arms.svg",
+    "credit": "Wikimedia Commons，標示 Public domain（紋章）",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "Edinburgh Napier University 紋章（校級，非 Craiglockhart 校區專屬）"
+  },
+  {
+   "name": "同志社大學京田邊校地",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-03/doshisha.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Doshisha_University_logo.svg",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Doshisha_University_logo.svg",
+    "credit": "Wikimedia Commons，標示 Public domain（文字標誌）；版權屬同志社大學",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "使用同志社大學校級 logo（京田邊為校地）"
+  },
+  {
+   "name": "中國科技大學",
+   "note": "Commons 搜尋無結果；未取得"
+  },
+  {
+   "name": "國立宜蘭大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-03/ilan.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:National_Ilan_University_logo.png",
+    "license_url": "https://commons.wikimedia.org/wiki/File:National_Ilan_University_logo.png",
+    "credit": "Wikimedia Commons，標示 Public domain",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "國立宜蘭大學 logo"
+  },
+  {
+   "name": "University of St Andrews",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-03/standrews.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:University_of_St_Andrews_arms.svg",
+    "license_url": "https://commons.wikimedia.org/wiki/File:University_of_St_Andrews_arms.svg",
+    "credit": "Wikimedia Commons，標示 Public domain（紋章）",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "聖安德魯斯大學紋章"
+  },
+  {
+   "name": "國立臺灣大學醫學院",
+   "note": "Commons 搜尋無結果；未取得"
+  },
+  {
+   "name": "國家住宅及都市更新中心",
+   "note": "Commons 搜尋無結果；未取得"
+  },
+  {
+   "name": "臺灣神學研究學院",
+   "note": "Commons 搜尋無結果；未取得"
+  },
+  {
+   "name": "倫敦政治經濟學院",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-03/lse.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:London_school_of_economics_logo_with_name.svg",
+    "license_url": "https://commons.wikimedia.org/wiki/File:London_school_of_economics_logo_with_name.svg",
+    "credit": "Wikimedia Commons，CC BY-SA 4.0；版權屬 LSE",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "LSE logo"
+  },
+  {
+   "name": "賓州大學佩雷爾曼醫學院",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-03/perelman.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Perelman_School_of_Medicine_seal.gif",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Perelman_School_of_Medicine_seal.gif",
+    "credit": "Wikimedia Commons，標示 Public domain（院徽）",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "Perelman School of Medicine 院徽，黑白"
+  },
+  {
+   "name": "諾桑比亞大學",
+   "note": "Commons 有 Northumbria_Logo.png（CC BY-SA 4.0）但下載遇 429 未取得"
+  },
+  {
+   "name": "牛津大學 St Antony’s College",
+   "note": "Commons 搜尋無結果；未取得"
+  },
+  {
+   "name": "俄亥俄州立大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-03/osu.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ohio_State_University_Logo.svg",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Ohio_State_University_Logo.svg",
+    "credit": "Wikimedia Commons，標示 Public domain（文字標誌）；版權屬 Ohio State University",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "Ohio State University logo"
+  },
+  {
+   "name": "義守大學",
+   "note": "Commons 搜尋無結果；未取得"
+  },
+  {
+   "name": "沃特伯格學院",
+   "note": "Commons 有 Wartburg_college_logo.png，但無法確認是否同一機構，且下載遇 429"
+  },
+  {
+   "name": "紐約市立大學亨特學院",
+   "note": "Commons 有 Hunter_college_logo.png（CC BY-SA 4.0）但下載遇 429 未取得"
+  },
+  {
+   "name": "高雄醫學大學附設中和紀念醫院",
+   "note": "Commons 搜尋無結果；未取得"
+  },
+  {
+   "name": "休士頓華美中醫學院",
+   "note": "Commons 搜尋無結果；未取得"
+  },
+  {
+   "name": "大阪公立大學人權問題研究中心",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-03/osakamu.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Osaka_Metropolitan_University_Logo.png",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Osaka_Metropolitan_University_Logo.png",
+    "credit": "Wikimedia Commons，標示 Public domain；版權屬大阪公立大學",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "使用大阪公立大學校級 logo，非中心專屬 logo"
+  },
+  {
+   "name": "玄奘大學",
+   "note": "Commons 搜尋無結果；未取得"
+  },
+  {
+   "name": "國立科學工藝博物館",
+   "note": "Commons 搜尋無結果；未取得"
+  },
+  {
+   "name": "馬偕醫護管理專科學校",
+   "note": "Commons 搜尋無結果；未取得"
+  },
+  {
+   "name": "東北大學學際科學前沿研究所",
+   "note": "Commons 有東北大学の学章.jpg（校級），但下載遇 429 未取得"
+  },
+  {
+   "name": "戴頓大學",
+   "note": "Commons 搜尋無結果；未取得"
+  }
+ ]
+}

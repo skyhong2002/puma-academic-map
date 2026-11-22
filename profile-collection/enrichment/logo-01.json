@@ -1,0 +1,291 @@
+{
+ "batch": 1,
+ "institutions": [
+  {
+   "name": "東海大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-01/tunghai.png",
+    "source_url": "https://commons.wikimedia.org/wiki/File:%E6%9D%B1%E6%B5%B7%E5%A4%A7%E5%AD%B8%E6%A8%99%E6%BA%96%E5%AD%97.png",
+    "license_url": "https://commons.wikimedia.org/wiki/File:%E6%9D%B1%E6%B5%B7%E5%A4%A7%E5%AD%B8%E6%A8%99%E6%BA%96%E5%AD%97.png",
+    "credit": "東海大學標誌，來源為英文維基百科檔案頁（Commons 標示公有領域），版權屬該機構，用於地理識別。",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "Commons 東海大學標準字（橫式文字標誌），非圖形徽章"
+  },
+  {
+   "name": "高雄醫學大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-01/kmu.png",
+    "source_url": "https://en.wikipedia.org/wiki/File:Kaohsiung_Medical_University_Logo.png",
+    "license_url": "https://en.wikipedia.org/wiki/File:Kaohsiung_Medical_University_Logo.png",
+    "credit": "高雄醫學大學標誌，來源為英文維基百科檔案頁（合理使用），版權屬該機構，用於地理識別。",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "校徽，英文維基檔案頁標示合理使用"
+  },
+  {
+   "name": "長庚大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-01/cgu.svg",
+    "source_url": "https://zh.wikipedia.org/wiki/File:CGU_Logo.svg",
+    "license_url": "https://zh.wikipedia.org/wiki/File:CGU_Logo.svg",
+    "credit": "長庚大學標誌，來源為中文維基百科檔案頁（合理使用），版權屬該機構，用於地理識別。",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "中文維基檔案頁標示合理使用"
+  },
+  {
+   "name": "國立高雄師範大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-01/nknu.svg",
+    "source_url": "https://zh.wikipedia.org/wiki/File:National_Kaohsiung_Normal_University_logo.svg",
+    "license_url": "https://zh.wikipedia.org/wiki/File:National_Kaohsiung_Normal_University_logo.svg",
+    "credit": "國立高雄師範大學標誌，來源為中文維基百科檔案頁（合理使用），版權屬該機構，用於地理識別。",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "中文維基檔案頁標示合理使用"
+  },
+  {
+   "name": "長榮大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-01/cjcu.svg",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Chang_Jung_Christian_University_logo.svg",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Chang_Jung_Christian_University_logo.svg",
+    "credit": "長榮大學標誌，來源為中文維基百科檔案頁（合理使用），版權屬該機構，用於地理識別。",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "圖中含 Chang Jung Academy 字樣，疑為學園體系標誌，建議人工確認"
+  },
+  {
+   "name": "臺南應用科技大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-01/tut.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tainan_University_of_Technology_signature.svg",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Tainan_University_of_Technology_signature.svg",
+    "credit": "臺南應用科技大學標誌，來源為英文維基百科檔案頁（Commons 標示公有領域），版權屬該機構，用於地理識別。",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "橫式標準字，Commons 標示 trademarked"
+  },
+  {
+   "name": "嘉南藥理大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-01/cnu.svg",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Chia_Nan_University_of_Pharmacy_and_Science_logo.svg",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Chia_Nan_University_of_Pharmacy_and_Science_logo.svg",
+    "credit": "嘉南藥理大學標誌，來源為中文維基百科檔案頁（合理使用），版權屬該機構，用於地理識別。",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "中文維基檔案頁標示合理使用"
+  },
+  {
+   "name": "國立臺中教育大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-01/ntcuS.svg",
+    "source_url": "https://en.wikipedia.org/wiki/File:National_Taichung_University_of_Education_seal.svg",
+    "license_url": "https://en.wikipedia.org/wiki/File:National_Taichung_University_of_Education_seal.svg",
+    "credit": "國立臺中教育大學標誌，來源為英文維基百科檔案頁（公有領域），版權屬該機構，用於地理識別。",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "校徽"
+  },
+  {
+   "name": "國立暨南國際大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-01/ncnu.svg",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Embelm_of_National_Chi_Nan_University.svg",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Embelm_of_National_Chi_Nan_University.svg",
+    "credit": "國立暨南國際大學標誌，來源為中文維基百科檔案頁（合理使用），版權屬該機構，用於地理識別。",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "中文維基檔案頁標示合理使用"
+  },
+  {
+   "name": "國立臺南大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-01/nutn.svg",
+    "source_url": "https://zh.wikipedia.org/wiki/File:National_University_of_Tainan_Seal.svg",
+    "license_url": "https://zh.wikipedia.org/wiki/File:National_University_of_Tainan_Seal.svg",
+    "credit": "國立臺南大學標誌，來源為中文維基百科檔案頁（合理使用），版權屬該機構，用於地理識別。",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "中文維基檔案頁標示合理使用"
+  },
+  {
+   "name": "國立交通大學",
+   "alias_of": "國立陽明交通大學",
+   "note": "已併入國立陽明交通大學"
+  },
+  {
+   "name": "銘傳大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-01/mcu.svg",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Ming_Chuan_University_Embem.svg",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Ming_Chuan_University_Embem.svg",
+    "credit": "銘傳大學標誌，來源為中文維基百科檔案頁（合理使用），版權屬該機構，用於地理識別。",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "中文維基檔案頁標示合理使用"
+  },
+  {
+   "name": "崑山科技大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-01/ksu.svg",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Ksutlogo.svg",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Ksutlogo.svg",
+    "credit": "崑山科技大學標誌，來源為中文維基百科檔案頁（合理使用），版權屬該機構，用於地理識別。",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "中文維基檔案頁標示合理使用"
+  },
+  {
+   "name": "台南應用科技大學",
+   "alias_of": "臺南應用科技大學",
+   "note": "同「臺南應用科技大學」"
+  },
+  {
+   "name": "真理大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-01/au.png",
+    "source_url": "https://www.au.edu.tw/",
+    "license_url": "https://www.au.edu.tw/",
+    "credit": "機構官網標誌，版權屬該機構，用於地理識別。",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "官網首頁橫式標誌，含「馬偕創辦大學」字樣"
+  },
+  {
+   "name": "國立虎尾科技大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-01/nfuA.svg",
+    "source_url": "https://en.wikipedia.org/wiki/File:NFU_logo.svg",
+    "license_url": "https://en.wikipedia.org/wiki/File:NFU_logo.svg",
+    "credit": "國立虎尾科技大學標誌，來源為英文維基百科檔案頁（公有領域），版權屬該機構，用於地理識別。",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "橫式標誌"
+  },
+  {
+   "name": "國立高雄餐旅大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-01/nkuht.svg",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Emblem_of_National_Kaohsiung_University_of_Hospitality_and_Tourism.svg",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Emblem_of_National_Kaohsiung_University_of_Hospitality_and_Tourism.svg",
+    "credit": "國立高雄餐旅大學標誌，來源為中文維基百科檔案頁（合理使用），版權屬該機構，用於地理識別。",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "中文維基檔案頁標示合理使用"
+  },
+  {
+   "name": "佛光大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-01/fgu.png",
+    "source_url": "https://zh.wikipedia.org/wiki/File:fo_guang.png",
+    "license_url": "https://zh.wikipedia.org/wiki/File:fo_guang.png",
+    "credit": "佛光大學標誌，來源為中文維基百科檔案頁（合理使用），版權屬該機構，用於地理識別。",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "白底 PNG，中文維基檔案頁標示合理使用"
+  },
+  {
+   "name": "國立臺北商業大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-01/ntub.svg",
+    "source_url": "https://zh.wikipedia.org/wiki/File:National_Taipei_University_of_Business_logo.svg",
+    "license_url": "https://zh.wikipedia.org/wiki/File:National_Taipei_University_of_Business_logo.svg",
+    "credit": "國立臺北商業大學標誌，來源為中文維基百科檔案頁（合理使用），版權屬該機構，用於地理識別。",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "中文維基檔案頁標示合理使用"
+  },
+  {
+   "name": "國立體育大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-01/ntsu.png",
+    "source_url": "https://www.ntsu.edu.tw/",
+    "license_url": "https://www.ntsu.edu.tw/",
+    "credit": "機構官網標誌，版權屬該機構，用於地理識別。",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "官網首頁橫式標誌"
+  },
+  {
+   "name": "中山醫學大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-01/csmu.svg",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Chung_Shan_Medical_University_seal.svg",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Chung_Shan_Medical_University_seal.svg",
+    "credit": "中山醫學大學標誌，來源為中文維基百科檔案頁（合理使用），版權屬該機構，用於地理識別。",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "中文維基檔案頁標示合理使用"
+  },
+  {
+   "name": "龍華科技大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-01/lhu.png",
+    "source_url": "https://www.lhu.edu.tw/",
+    "license_url": "https://www.lhu.edu.tw/",
+    "credit": "機構官網標誌，版權屬該機構，用於地理識別。",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "官網首頁橫式標誌"
+  },
+  {
+   "name": "明志科技大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-01/mcut.svg",
+    "source_url": "https://zh.wikipedia.org/wiki/File:MCUT_logo.svg",
+    "license_url": "https://zh.wikipedia.org/wiki/File:MCUT_logo.svg",
+    "credit": "明志科技大學標誌，來源為中文維基百科檔案頁（合理使用），版權屬該機構，用於地理識別。",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "中文維基檔案頁標示合理使用"
+  },
+  {
+   "name": "國立臺北護理健康大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-01/ntunhs.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:National_Taipei_University_of_Nursing_and_Health_Science_logo.jpg",
+    "license_url": "https://commons.wikimedia.org/wiki/File:National_Taipei_University_of_Nursing_and_Health_Science_logo.jpg",
+    "credit": "國立臺北護理健康大學標誌，來源為英文維基百科檔案頁（CC BY 3.0），版權屬該機構，用於地理識別。",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "Commons CC BY 3.0，作者為該校"
+  },
+  {
+   "name": "仁德醫護管理專科學校",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-01/jente.jpg",
+    "source_url": "https://www.jente.edu.tw/",
+    "license_url": "https://www.jente.edu.tw/",
+    "credit": "機構官網標誌，版權屬該機構，用於地理識別。",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "官網網站圖示（270x270），解析度偏低"
+  }
+ ]
+}

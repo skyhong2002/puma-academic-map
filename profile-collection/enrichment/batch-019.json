@@ -1,0 +1,223 @@
+{
+ "batch": 19,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "楊昊（國立政治大學東亞所教授）",
+   "note": "官網僅有 120x110 縮圖，過小，略過頭像"
+  },
+  {
+   "section": "會員名單",
+   "raw": "金仕起（政治大學歷史學系副教授）",
+   "note": "官網照片為戶外全身生活照，不採用"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳怡萱（國立政治大學民族學系/土地原專班副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-019/chen-yixuan.jpg",
+    "crop": null,
+    "source_url": "https://ethnos.nccu.edu.tw/PageStaffing/Detail?fid=9618&id=4718",
+    "credit": "來源：國立政治大學民族學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "正式人像，臉部清楚"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李台元（國立政治大學民族學系兼任助理教授）",
+   "note": "兼任教師，系所名錄無頁面/照片"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃季平（國立政治大學民族學系副教授）",
+   "note": "官網照片僅 142x177，短邊<150，略過"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳志輝（國立政治大學法學院副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-019/chen-zhihui-t.jpg",
+    "crop": null,
+    "source_url": "https://law.nccu.edu.tw/zh_tw/Faculty/teachers/Associate_Professor/%E9%99%B3%E5%BF%97%E8%BC%9D-17339846",
+    "credit": "來源：國立政治大學法學院官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "官方名錄縮圖(167x200)，解析度偏低但為正式人像"
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉若凡（國立政治大學社會學系助理教授）",
+   "note": "官網照片為戶外逆光生活照、背景雜亂，不採用"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "黃厚銘（政治大學社會學系特聘教授）",
+   "note": "系所頁無照片"
+  },
+  {
+   "section": "會員名單",
+   "raw": "楊仁敘（政治大學社會工作研究所博士候選人）",
+   "note": "僅找到研討會節目表，無個人頁，略過"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳玠文（政治大學神經科學研究所助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-019/chen-jiewen.jpg",
+    "crop": null,
+    "source_url": "https://in.nccu.edu.tw/PageStaffing/Detail?fid=3324&id=5230",
+    "credit": "來源：國立政治大學神經科學研究所官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "官方頁單人照，手持書本，臉部清楚"
+  },
+  {
+   "section": "會員名單",
+   "raw": "邱健嘉（國立政治大學財務管理學系助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-019/qiu.jpg",
+    "crop": null,
+    "source_url": "https://finance.nccu.edu.tw/zh_tw/Members/members_1/%E9%82%B1%E5%81%A5%E5%98%89-32116727",
+    "credit": "來源：國立政治大學財務管理學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "正式人像"
+  },
+  {
+   "section": "會員名單",
+   "raw": "沈錳坤（政治大學資訊科學系退休教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-019/shen.png",
+    "crop": null,
+    "source_url": "https://dct.nccu.edu.tw/PageStaffing/Detail?fid=12719&id=4365",
+    "credit": "來源：國立政治大學官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "官方頁單人照，臉部清楚"
+  },
+  {
+   "section": "會員名單",
+   "raw": "簡士鎰（國立政治大學資訊管理學系副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-019/jian.png",
+    "crop": null,
+    "source_url": "https://mis2.nccu.edu.tw/zh_tw/Faculty/Faculty_01/%E7%B0%A1%E5%A3%AB%E9%8E%B0-42311139",
+    "credit": "來源：國立政治大學資訊管理學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "正式人像"
+  },
+  {
+   "section": "會員名單",
+   "raw": "鄧欣潔（國立故宮博物院助理研究員）",
+   "note": "故宮頁與搜尋均未找到個人頁（僅 Podcast 提及），無法確認研究領域"
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉曦宸（文化大學勞動暨人力資源學系助理教授）",
+   "note": "官網照片為海報前側身生活照，不採用"
+  },
+  {
+   "section": "會員名單",
+   "raw": "戴曉惠（文化大學勞動系助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-019/dai.jpg",
+    "crop": null,
+    "source_url": "https://labor.pccu.edu.tw/p/404-1147-106604.php?Lang=zh-tw",
+    "credit": "來源：中國文化大學勞動暨人力資源學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "官方頁單人照，臉部清楚"
+  },
+  {
+   "section": "會員名單",
+   "raw": "許賢瑤（文化大學史學系退休副教授）",
+   "note": "退休教師名單無照片"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林玉琪（文化大學師資培育中心副教授兼主任）",
+   "note": "官網照片為自拍式室內照，不採用"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳世杰（文化大學戲劇學系副教授）",
+   "note": "官網照片為生活照式（小圖 259x194），不採用"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳慧蓉（文化大學新聞系副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-019/chen-huirong.jpg",
+    "crop": null,
+    "source_url": "https://jou.pccu.edu.tw/teacherDetail.php?id=6",
+    "credit": "來源：中國文化大學新聞學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "官方頁單人照，半側身，臉部清楚"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張國財（新竹教育大學退休副教授）",
+   "note": "退休，名錄頁無個人照片"
+  },
+  {
+   "section": "會員名單",
+   "raw": "莊千慧（日本 神戶女子大學副教授）",
+   "note": "官網照片為戶外旅遊生活照，不採用；研究頁有關鍵詞但本任務僅需頭像"
+  },
+  {
+   "section": "會員名單",
+   "raw": "郭秋薇（日本京都女子大學現代社會學部講師）",
+   "research": {
+    "keywords": [
+     {
+      "label": "労働経済学",
+      "source": "https://www.kyoto-wu.ac.jp/gakubu/kyouin/shakai/index.html"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "京都女子大學教員名錄僅列「労働経済学」且無個人照片"
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡仕邦（日本同志社大学理工学研究科機械工学博士）",
+   "note": "未找到可驗證頁面，略過"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳璟（日本多摩美術大學美術學部助手）",
+   "note": "官網照片為與寵物的昏暗生活照，不採用"
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉靈均（日本大阪公立大學人權問題研究中心客座研究員）",
+   "note": "researchmap 回應 403，未繞過，略過"
+  },
+  {
+   "section": "會員名單",
+   "raw": "何彥霆（日本大阪大學助理教授）",
+   "note": "未找到官方人物頁，略過"
+  },
+  {
+   "section": "會員名單",
+   "raw": "洪紹閔（日本東北大學FRIS助理教授）",
+   "note": "未找到官方人物頁，略過"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳慶昌（日本立命館アジア太平洋大学アジア太平洋研究科教授）",
+   "note": "APU 教員頁無照片"
+  },
+  {
+   "section": "會員名單",
+   "raw": "高國傑（日本静岡大學數理系統工程學系副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-019/gao.jpg",
+    "crop": [
+     0,
+     0,
+     567,
+     567
+    ],
+    "source_url": "https://tdb.shizuoka.ac.jp/RDB/public/Default2.aspx?id=11212&l=0",
+    "credit": "來源：静岡大学教員データベース官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "官方資料庫單人證件照，臉部清楚"
+  }
+ ]
+}

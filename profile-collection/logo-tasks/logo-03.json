@@ -1,0 +1,105 @@
+{
+ "batch": 3,
+ "institutions": [
+  {
+   "name": "紐約市立大學 John Jay College",
+   "people": 1
+  },
+  {
+   "name": "Edinburgh Napier University（Craiglockhart Campus）",
+   "people": 1
+  },
+  {
+   "name": "同志社大學京田邊校地",
+   "people": 1
+  },
+  {
+   "name": "中國科技大學",
+   "people": 1
+  },
+  {
+   "name": "國立宜蘭大學",
+   "people": 1
+  },
+  {
+   "name": "University of St Andrews",
+   "people": 1
+  },
+  {
+   "name": "國立臺灣大學醫學院",
+   "people": 1
+  },
+  {
+   "name": "國家住宅及都市更新中心",
+   "people": 1
+  },
+  {
+   "name": "臺灣神學研究學院",
+   "people": 1
+  },
+  {
+   "name": "倫敦政治經濟學院",
+   "people": 1
+  },
+  {
+   "name": "賓州大學佩雷爾曼醫學院",
+   "people": 1
+  },
+  {
+   "name": "諾桑比亞大學",
+   "people": 1
+  },
+  {
+   "name": "牛津大學 St Antony’s College",
+   "people": 1
+  },
+  {
+   "name": "俄亥俄州立大學",
+   "people": 1
+  },
+  {
+   "name": "義守大學",
+   "people": 1
+  },
+  {
+   "name": "沃特伯格學院",
+   "people": 1
+  },
+  {
+   "name": "紐約市立大學亨特學院",
+   "people": 1
+  },
+  {
+   "name": "高雄醫學大學附設中和紀念醫院",
+   "people": 1
+  },
+  {
+   "name": "休士頓華美中醫學院",
+   "people": 1
+  },
+  {
+   "name": "大阪公立大學人權問題研究中心",
+   "people": 1
+  },
+  {
+   "name": "玄奘大學",
+   "people": 1
+  },
+  {
+   "name": "國立科學工藝博物館",
+   "people": 1
+  },
+  {
+   "name": "馬偕醫護管理專科學校",
+   "people": 1
+  },
+  {
+   "name": "東北大學學際科學前沿研究所",
+   "people": 1
+  },
+  {
+   "name": "戴頓大學",
+   "people": 1
+  }
+ ]
+}

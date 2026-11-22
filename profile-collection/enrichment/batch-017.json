@@ -1,0 +1,197 @@
+{
+ "batch": 17,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "劉兆隆（國立彰化師範大學副教授）",
+   "note": "未找到官網頁面。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "孫繼光（國立彰化師範大學助理教授）",
+   "note": "未找到官網頁面。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉威廷（國立彰化師範大學台灣文學研究所副教授）",
+   "note": "台文所頁面有照片，但為自拍式生活照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "遲恒昌（國立彰化師範大學地理學系副教授）",
+   "note": "地理系頁面照片為生活照（背包、彩色背景），不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "盧沛文（國立彰化師範大學教授）",
+   "note": "地理系頁面頭像僅 130px，低於 150px 門檻。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃文吉（彰化師範大學教授退休）",
+   "note": "台文所退休教師頁照片僅 160x120，過小。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李進億（國立彰化師範大學歷史所副教授）",
+   "note": "歷史所頁面照片 180px 但為戶外生活照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張敏琪（國立彰化師範大學美術系助理教授）",
+   "note": "未找到官網頁面。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳文彬（國立彰化師範大學運動系教授）",
+   "note": "運動系頁面照片僅 200x150 且為生活照；該頁陳文彬專長為戲劇，身分存疑。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "錢俊宇（德國科隆大學東亞系中文講師）",
+   "note": "科隆大學頁面照片為側邊裁切生活照；頁面無明列研究專長關鍵詞，故未填研究。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃界清（德州農工大學機械系榮譽傑出教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-017/han.jpg",
+    "crop": null,
+    "source_url": "https://turbolab.tamu.edu/han/",
+    "credit": "來源：德州農工大學 TEES Turbomachinery Laboratory官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "TAMU Turbo Lab 頁面 Je-Chin Han（NDC 報告確認其為德州農工大學機械系傑出教授）；正式單人肖像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃雍欽（德明財經科技大學多媒體設計系副教授）",
+   "note": "未找到官網人物頁。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "呂美慧（德明財經科技大學財務金融系助理教授）",
+   "note": "德明財金系頁面照片為戶外生活照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林志昇（德育護理健康學院助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-017/lin.jpg",
+    "crop": "0,60,827,827",
+    "source_url": "https://child.dyhu.edu.tw/p/16-1012-47755.php",
+    "credit": "來源：德育護理健康學院幼兒保育系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "幼保系頁面助理教授，證件式單人照。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "彭榮邦（慈濟大學人類發展與心理學系副教授）",
+   "note": "慈濟 Pure 頁照片僅 140x185，短邊<150。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "謝婉華（慈濟大學副教授）",
+   "note": "慈濟 Pure 頁（公共衛生學系副教授）照片僅 109x185，過小。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "謝宗成（慈濟大學教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-017/hsieh_tc.jpg",
+    "crop": null,
+    "source_url": "https://tcu.elsevierpure.com/zh/persons/tsung-cheng-hsieh/",
+    "credit": "來源：慈濟大學學研人才庫官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "慈濟大學 Pure 頁，教授、醫學科學研究所；185x185 證件式照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張綠怡（慈濟大學護理學系助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-017/chang_ly.png",
+    "crop": null,
+    "source_url": "https://tcunursing.tcu.edu.tw/?page_id=4469",
+    "credit": "來源：慈濟大學護理學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "護理系師資頁，助理教授，300x300 單人照。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林玉娟（慈濟大學護理學系助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-017/lin_yc.png",
+    "crop": null,
+    "source_url": "https://tcunursing.tcu.edu.tw/?page_id=4469",
+    "credit": "來源：慈濟大學護理學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "護理系師資頁（頁面英文名 LIN,YU-CHUAN），助理教授，300x300 單人照。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "高惠玲（慈濟大學退休副教授）",
+   "note": "未找到資料。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "朱崧肇（慈濟大學醫學系副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-017/chu.jpg",
+    "crop": "0,0,450,450",
+    "source_url": "https://hlm.tzuchi.com.tw/home/index.php/team-hemat/dr25018",
+    "credit": "來源：花蓮慈濟醫院官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "醫院頁面列「慈濟大學醫學系專任副教授」，半正式單人照。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳言丞（慈濟大學醫學系外科學科副教授）",
+   "note": "慈濟 Pure 頁照片僅 143x185，過小。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "洪思群（慈濟大學醫學系教授）",
+   "note": "未找到照片頁。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李亞夫（國立成功大學 生命科學系教授）",
+   "note": "成大生科系頁面照片為偏生活照、光線昏暗，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "馬千里（國立成功大學 生物醫學工程學系兼任助理教授）",
+   "note": "未找到資料。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "龎壯城（國立成功大學中國文學系助理教授）",
+   "note": "中文系頁面僅列約聘助理教授與專長（古文字學、訓詁學等），無照片。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "楊芳枝（成功大學台灣文學系教授）",
+   "note": "未找到資料。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "何明字（成功大學工程科學系副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-017/es_13.png",
+    "crop": null,
+    "source_url": "https://www.es.ncku.edu.tw/esncku/zh/teacher/13",
+    "credit": "來源：成功大學工程科學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "工科系師資頁副教授，正式單人照。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李輝煌（國立成功大學工程科學系副教授）",
+   "note": "工科系頁面照片僅 140px。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳祈男（成功大學工程科學系退休名譽教授）",
+   "note": "工科系頁面為預設佔位圖。"
+  }
+ ]
+}

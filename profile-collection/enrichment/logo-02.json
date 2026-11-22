@@ -1,0 +1,233 @@
+{
+ "batch": 2,
+ "institutions": [
+  {
+   "name": "Utah State University",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-02/ususeal.svg",
+    "source_url": "https://en.wikipedia.org/wiki/File:Utah_State_University_seal.svg",
+    "license_url": "https://en.wikipedia.org/wiki/File:Utah_State_University_seal.svg",
+    "credit": "英文維基百科合理使用（非自由）標誌，版權與商標屬該機構，用於地理識別；來源 USU Visual Identity PDF",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "校徽（seal）；另有 wordmark 版 usu.svg 可替代"
+  },
+  {
+   "name": "正修科技大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-02/cgu.svg",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Csu.svg",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Csu.svg",
+    "credit": "中文維基百科合理使用（非自由）標誌，版權與商標屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": ""
+  },
+  {
+   "name": "開南大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-02/knu.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kainan_University_seal2.svg",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Kainan_University_seal2.svg",
+    "credit": "Wikimedia Commons，CC0 1.0（上傳者 KNITC 自述著作權人）",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "圖形為羽翼蛇杖齒輪；依 zh.wikipedia 資訊框確認為開南大學校徽"
+  },
+  {
+   "name": "懷俄明大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-02/wyoming.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:University_of_Wyoming_logo.svg",
+    "license_url": "https://commons.wikimedia.org/wiki/File:University_of_Wyoming_logo.svg",
+    "credit": "Wikimedia Commons，PD-US-not-renewed（另有商標提醒），作者 University of Wyoming",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": ""
+  },
+  {
+   "name": "長庚科技大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-02/cgust.svg",
+    "source_url": "https://zh.wikipedia.org/wiki/File:CGIT_logo.svg",
+    "license_url": "https://zh.wikipedia.org/wiki/File:CGIT_logo.svg",
+    "credit": "中文維基百科合理使用（非自由）標誌，版權與商標屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": ""
+  },
+  {
+   "name": "南開科技大學",
+   "note": "zh.wikipedia 無校徽檔、Commons 無檔案，未找到可信來源（官網 www.nkut.edu.tw 未抓取）"
+  },
+  {
+   "name": "明新科技大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-02/must.svg",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Minghsin_University_of_Science_and_Technology_logo.svg",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Minghsin_University_of_Science_and_Technology_logo.svg",
+    "credit": "中文維基百科合理使用（非自由）標誌，版權與商標屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "原檔 650KB SVG"
+  },
+  {
+   "name": "輔英科技大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-02/fy.svg",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Fooyin_University_logo.svg",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Fooyin_University_logo.svg",
+    "credit": "中文維基百科合理使用（非自由）標誌，版權與商標屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": ""
+  },
+  {
+   "name": "樹德科技大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-02/stu.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:STU_logo.svg",
+    "license_url": "https://commons.wikimedia.org/wiki/File:STU_logo.svg",
+    "credit": "Wikimedia Commons，PD-ineligible（過於簡單無著作權，附商標提醒），作者為該校",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": ""
+  },
+  {
+   "name": "國立嘉義大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-02/ncyu.svg",
+    "source_url": "https://zh.wikipedia.org/wiki/File:National_Chiayi_University_seal.svg",
+    "license_url": "https://zh.wikipedia.org/wiki/File:National_Chiayi_University_seal.svg",
+    "credit": "中文維基百科合理使用（非自由）標誌，版權與商標屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "原檔 5.9MB SVG"
+  },
+  {
+   "name": "國立臺灣戲曲學院",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-02/tcpa.svg",
+    "source_url": "https://zh.wikipedia.org/wiki/File:National_Taiwan_College_of_Performing_Arts_Logo.svg",
+    "license_url": "https://zh.wikipedia.org/wiki/File:National_Taiwan_College_of_Performing_Arts_Logo.svg",
+    "credit": "中文維基百科合理使用（非自由）標誌，版權與商標屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "金色單色版校徽"
+  },
+  {
+   "name": "臺南市立醫院",
+   "note": "未搜尋到官方 logo（未嘗試）"
+  },
+  {
+   "name": "Tufts University School of Medicine",
+   "note": "en.wikipedia 資訊框為 TuftsMed_logo.png，但下載失敗，未取得"
+  },
+  {
+   "name": "高雄市立大同醫院",
+   "note": "未找到來源（未嘗試）"
+  },
+  {
+   "name": "Harvard Cancer Consortium（中央行政辦公室）",
+   "note": "未找到來源（未嘗試）"
+  },
+  {
+   "name": "華盛頓大學塔科馬分校",
+   "note": "en.wikipedia 資訊框僅有入口招牌照片，無 logo 檔；未取得"
+  },
+  {
+   "name": "Vanderbilt University Medical Center",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-02/vumc.jpg",
+    "source_url": "https://en.wikipedia.org/wiki/File:VUMC_logo.jpg",
+    "license_url": "https://en.wikipedia.org/wiki/File:VUMC_logo.jpg",
+    "credit": "英文維基百科合理使用（非自由）標誌，版權與商標屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "原檔僅 260x45 低解析"
+  },
+  {
+   "name": "瑪麗華盛頓大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-02/umw.png",
+    "source_url": "https://en.wikipedia.org/wiki/File:Univ_mary_washington_seal.png",
+    "license_url": "https://en.wikipedia.org/wiki/File:Univ_mary_washington_seal.png",
+    "credit": "英文維基百科合理使用（非自由）標誌，版權與商標屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "校徽 295x291 PNG，偏低解析；黑白"
+  },
+  {
+   "name": "台灣精準健康促進協會（法人登記主事務所）",
+   "note": "小型協會，未找到來源（未嘗試）"
+  },
+  {
+   "name": "林青穀家庭醫學科診所",
+   "note": "私人診所，未找到來源（未嘗試）"
+  },
+  {
+   "name": "University of Toronto, Temerty Faculty of Medicine",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-02/temerty.svg",
+    "source_url": "https://en.wikipedia.org/wiki/File:Temerty_Medicine_logo.svg",
+    "license_url": "https://en.wikipedia.org/wiki/File:Temerty_Medicine_logo.svg",
+    "credit": "英文維基百科合理使用（非自由）標誌，版權與商標屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": ""
+  },
+  {
+   "name": "東方設計大學",
+   "note": "zh.wikipedia 資訊框為 Tung_Fang_Design_University_logo.svg，但 Commons/zh/en 皆下載失敗；該校 2024/8 已停辦"
+  },
+  {
+   "name": "聖塔克拉拉大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-02/scu.svg",
+    "source_url": "https://en.wikipedia.org/wiki/File:Santa_Clara_U_Seal.svg",
+    "license_url": "https://en.wikipedia.org/wiki/File:Santa_Clara_U_Seal.svg",
+    "credit": "英文維基百科合理使用（非自由）標誌，版權與商標屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": ""
+  },
+  {
+   "name": "倫敦大學伯貝克學院",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-02/bbk.svg",
+    "source_url": "https://en.wikipedia.org/wiki/File:Birkbeck,_University_of_London_logo.svg",
+    "license_url": "https://en.wikipedia.org/wiki/File:Birkbeck,_University_of_London_logo.svg",
+    "credit": "英文維基百科合理使用（非自由）標誌，版權與商標屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "原檔 347KB SVG"
+  },
+  {
+   "name": "國立故宮博物院（北部院區）",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-02/npm.svg",
+    "source_url": "https://zh.wikipedia.org/wiki/File:ROC_National_Palace_Museum_Logo.svg",
+    "license_url": "https://zh.wikipedia.org/wiki/File:ROC_National_Palace_Museum_Logo.svg",
+    "credit": "中文維基百科合理使用（非自由）標誌，版權與商標屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "博物院標誌（饕餮紋）"
+  }
+ ]
+}
