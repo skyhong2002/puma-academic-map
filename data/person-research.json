@@ -33780,5 +33780,135 @@
         "source": "https://advisory.yda.gov.tw/committee-intro/161"
       }
     ]
+  },
+  {
+    "id": "93134dec9fd5b068c551c6ee94e04e87",
+    "section": "會員名單",
+    "raw": "林肇基（臺灣大學雙語教育中心博士後研究員）",
+    "keywords": [
+      {
+        "label": "雙語政策推動規劃與成效分析",
+        "source": "https://cbe.ntu.edu.tw/cbe_members?cat=3"
+      },
+      {
+        "label": "課程教學品質分析",
+        "source": "https://cbe.ntu.edu.tw/cbe_members?cat=3"
+      }
+    ]
+  },
+  {
+    "id": "8225777ffe65df7ee00db93a9423b6c0",
+    "section": "會員名單",
+    "raw": "鍾繼儀（國立臺灣師範大學博士候選人）",
+    "keywords": [
+      {
+        "label": "客家八音",
+        "source": "https://chungchiyi.com/"
+      },
+      {
+        "label": "客家戲曲",
+        "source": "https://chungchiyi.com/"
+      },
+      {
+        "label": "亂彈戲曲",
+        "source": "https://chungchiyi.com/"
+      },
+      {
+        "label": "北管音樂",
+        "source": "https://chungchiyi.com/"
+      },
+      {
+        "label": "客家民謠",
+        "source": "https://chungchiyi.com/research/"
+      }
+    ]
+  },
+  {
+    "id": "bce98d6bcd31a42d6c9ee842d2d92331",
+    "section": "會員名單",
+    "raw": "賴炘延（英國聖安德魯斯大學國際關係學院副講師）",
+    "keywords": [
+      {
+        "label": "international historical sociology",
+        "source": "https://research-portal.st-andrews.ac.uk/en/persons/hsinyen-lai/"
+      },
+      {
+        "label": "late-developing capitalist state formation",
+        "source": "https://research-portal.st-andrews.ac.uk/en/persons/hsinyen-lai/"
+      },
+      {
+        "label": "Arab nationalism",
+        "source": "https://research-portal.st-andrews.ac.uk/en/persons/hsinyen-lai/"
+      }
+    ]
+  },
+  {
+    "id": "a6d1d5c14afbbc94f8f9983eb5236a6b",
+    "section": "會員名單",
+    "raw": "陳韻文（藝術美感教育領域獨立學者）",
+    "keywords": [
+      {
+        "label": "educational drama",
+        "source": "https://www.inarts.world/en/teacher/%E9%99%B3%E9%9F%BB%E6%96%87/"
+      },
+      {
+        "label": "Drama Curriculum Design and Teaching",
+        "source": "https://www.inarts.world/en/teacher/%E9%99%B3%E9%9F%BB%E6%96%87/"
+      },
+      {
+        "label": "Multiple intelligences and multi-sensory teaching",
+        "source": "https://www.inarts.world/en/teacher/%E9%99%B3%E9%9F%BB%E6%96%87/"
+      },
+      {
+        "label": "Western Drama and Theater History",
+        "source": "https://www.inarts.world/en/teacher/%E9%99%B3%E9%9F%BB%E6%96%87/"
+      }
+    ]
+  },
+  {
+    "id": "cbdb34cc2f8435221055d6f5a95ebda8",
+    "section": "會員名單",
+    "raw": "鄭運聰（長庚大學講師）",
+    "keywords": [
+      {
+        "label": "神經移植",
+        "source": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/7630"
+      },
+      {
+        "label": "臂叢神經及周邊神經損傷",
+        "source": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/7630"
+      },
+      {
+        "label": "腦中風肢體重建",
+        "source": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/7630"
+      },
+      {
+        "label": "腦脊髓腫瘤術中監測導航",
+        "source": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/7630"
+      },
+      {
+        "label": "脊椎微創手術",
+        "source": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/7630"
+      }
+    ]
+  },
+  {
+    "id": "7bfc8608254809dc3f70d70d9224430f",
+    "section": "會員名單",
+    "raw": "黃妙珠（長庚大學退休教授長庚大學退休教授）",
+    "keywords": [
+      {
+        "label": "糖尿病",
+        "source": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/0003"
+      },
+      {
+        "label": "代謝症候群",
+        "source": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/0003"
+      },
+      {
+        "label": "甲狀腺及內分泌疾病",
+        "source": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/0003"
+      }
+    ]
   }
 ]

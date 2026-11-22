@@ -1,0 +1,309 @@
+{
+ "batch": 31,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "張又中（逢甲大學材料科學與工程學系助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-031/zhang.jpg",
+    "crop": [
+     130,
+     90,
+     520,
+     520
+    ],
+    "source_url": "https://mse.fcu.edu.tw/teachers-detail/?id=T14157&unit_id=CS03",
+    "credit": "來源：逢甲大學材料科學與工程學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "官網人物頁照片（經校方縮圖 API 取得）；半正式單人照，雙臂交叉，已裁切頭肩。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林孟儒（逢甲大學機械與電腦輔助工程系教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-031/lin-mr.jpg",
+    "crop": [
+     150,
+     0,
+     450,
+     450
+    ],
+    "source_url": "https://mcae.fcu.edu.tw/teachers-detail/?id=T91042&unit_id=CE04",
+    "credit": "來源：逢甲大學機械與電腦輔助工程學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "原圖為站姿半身，裁切頭肩；背景單色。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "廖東亮（逢甲大學財務金融學系教授(退休）",
+   "note": "逢甲財金系新版教師頁找不到（已退休），未取得資料。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "薛念林（逢甲大學資工系教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-031/hsueh.png",
+    "crop": null,
+    "source_url": "https://www.iecs.fcu.edu.tw/teacher/nlhsueh/",
+    "credit": "來源：逢甲大學資訊工程學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "單人、臉部清楚、背景單色，偏隨拍但可用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李舒亭（逢甲大學通識中心兼任助理教授）",
+   "note": "逢甲通識中心頁身分相符，但照片為活動場景，不放。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃善聖（逢甲大學通識中心兼任助理教授）",
+   "note": "逢甲通識中心頁（研究專長：歷史社會學／音樂藝術美學／法國語言與文化）身分相符，但官網照片為吹長笛的側臉藝術照，不放。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "洪介偉（逢甲大學風險管理與保險學系退休教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-031/hung.jpg",
+    "crop": [
+     70,
+     0,
+     560,
+     560
+    ],
+    "source_url": "https://rmi.fcu.edu.tw/teachers-detail/?id=T84010&unit_id=CB04",
+    "credit": "來源：逢甲大學風險管理與保險學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "系網頁仍列洪介偉教授（任務檔稱退休），同系同名；照片為單色背景半身，裁切頭肩。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳書毅（國立金門大學建築學系副教授）",
+   "note": "金大建築系頁身分相符，但 og 照片為抱狗的生活照，不放。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉名峰（國立金門大學閩南文化碩士學位學程教授）",
+   "note": "金大閩南文化學程頁身分相符，但照片為街頭旅遊照，不放。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "胡瑞雪（銘傳大學應用中文與華語文教學系（所）教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-031/hu-rs.jpg",
+    "crop": null,
+    "source_url": "https://ac.mcu.edu.tw/fulltime-teacher/",
+    "credit": "來源：銘傳大學應用中文與華語文教學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "專任教師頁標示胡瑞雪教授，單人半身正式照。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃詩涵（銘傳大學諮商臨床與工商心理學系助理教授）",
+   "note": "系網頁照片為圓形遮罩加彩色光斑背景（白色邊角），不放。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李永山（銘傳大學資管系退休副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-031/lee-ys.png",
+    "crop": null,
+    "source_url": "https://im.wp.mcu.edu.tw/teacher/",
+    "credit": "來源：銘傳大學資訊管理學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "銘傳資管系教師頁「李永山副教授」（研究專長巨量資料分析等），與退休副教授署名一致；330px 稍模糊，臉清楚。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "褚瑞基（銘傳大學退休副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-031/chu-rj.jpg",
+    "crop": [
+     150,
+     250,
+     1400,
+     1400
+    ],
+    "source_url": "https://arch.mcu.edu.tw/%E8%A4%9A%E7%91%9E%E5%9F%BA-%E5%89%AF%E6%95%99%E6%8E%88/",
+    "credit": "來源：銘傳大學建築系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "建築系個人頁（標示副教授(退休)），單人正式照，裁切頭肩。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "駱芬美（銘傳大學通識教育中心兼任副教授）",
+   "note": "通識中心頁照片為戶外植栽背景、頭頂被截，不放。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳清源（長庚大學中醫系教授）",
+   "note": "長庚醫院醫師頁（嘉義長庚中醫科，標示教授、長庚大學博士），與中醫系教授署名推定為同一人；原圖僅 264×344 偏模糊，已裁頭肩。 [審核剔除portrait]"
+  },
+  {
+   "section": "會員名單",
+   "raw": "葉筱凡（長庚大學人文及社會學科助理教授）",
+   "note": "pure.lib.cgu.edu.tw 有照片，但為非正式、偏小（153×234）生活照，不放。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳怡臻（長庚大學職能治療學系助理教授）",
+   "note": "職治系頁有照片，但為戶外月台生活照，不放。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "蘇逸人（長庚大學行為科學研究所教授）",
+   "note": "頁面標示教授，專長臨床心理學，與行為科學研究所署名推定為同一人（職治系頁面）；單人清楚肖像。 [審核剔除portrait]"
+  },
+  {
+   "section": "會員名單",
+   "raw": "鄭運聰（長庚大學講師）",
+   "research": {
+    "keywords": [
+     {
+      "label": "神經移植",
+      "source": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/7630"
+     },
+     {
+      "label": "臂叢神經及周邊神經損傷",
+      "source": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/7630"
+     },
+     {
+      "label": "腦中風肢體重建",
+      "source": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/7630"
+     },
+     {
+      "label": "腦脊髓腫瘤術中監測導航",
+      "source": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/7630"
+     },
+     {
+      "label": "脊椎微創手術",
+      "source": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/7630"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "研究取自長庚醫院醫師頁（現職長庚大學專任講師）；頁面無照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "趙一平（長庚大學資訊工程學系副教授）",
+   "note": "資工系頁照片僅 90×100，過小，不放。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林詩偉（長庚大學資訊管理學系教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-031/lin-sw.jpg",
+    "crop": [
+     0,
+     15,
+     201,
+     201
+    ],
+    "source_url": "https://www.cgu.edu.tw/im/Subject/Detail/42210?nodeId=12445",
+    "credit": "來源：長庚大學資訊管理學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "正式單人照，原圖 201×300，裁切頭肩。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃妙珠（長庚大學退休教授長庚大學退休教授）",
+   "research": {
+    "keywords": [
+     {
+      "label": "糖尿病",
+      "source": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/0003"
+     },
+     {
+      "label": "代謝症候群",
+      "source": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/0003"
+     },
+     {
+      "label": "甲狀腺及內分泌疾病",
+      "source": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/0003"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "研究取自長庚醫院醫師頁（長庚大學教授、新陳代謝科）；該頁無可用照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "王賀白（長庚大學通識教育中心社會科副教授）",
+   "note": "未找到可用的官方單人頭像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "曾旭民（長庚大學醫務管理系教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-031/tseng2.jpg",
+    "crop": [
+     20,
+     40,
+     600,
+     600
+    ],
+    "source_url": "https://www.cgu.edu.tw/hcm/Subject/Detail/11796?nodeId=4518",
+    "credit": "來源：長庚大學醫務管理學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "正式單人照，裁切頭肩。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "賴建雄（長庚大學醫學院助理教授）",
+   "note": "長庚大學中醫系頁僅表格列名（臨床助理教授），無照片與研究領域。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "鄭兆君（長庚科技大學副教授）",
+   "note": "長庚科技大學保健營養系頁照片帶有「僅供官網使用」浮水印，不放。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張麗春（長庚科技大學教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-031/chang-lc.jpg",
+    "crop": [
+     50,
+     0,
+     290,
+     290
+    ],
+    "source_url": "https://msn.cgust.edu.tw/p/412-1038-1599.php",
+    "credit": "來源：長庚科技大學護理研究所官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "師資陣容頁標示張麗春教授，單人半身照，裁切頭肩。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "何恭之（長庚醫院副教授級主治醫師）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-031/cgmh-5914.jpg",
+    "crop": [
+     60,
+     60,
+     150,
+     150
+    ],
+    "source_url": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/5914",
+    "credit": "來源：長庚醫療財團法人官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "長庚醫院醫師頁（核子醫學科，副教授級），原圖偏小且有邊框，已裁內部頭肩，稍模糊。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "趙培文（長榮大學 神學系助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-031/chao-pw2.png",
+    "crop": null,
+    "source_url": "https://dweb.cjcu.edu.tw/theology/staff/",
+    "credit": "來源：長榮大學神學院官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "神學院成員頁助理教授；正式燕尾服單人照，160×210 稍模糊。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "鄭瑞明（長榮大學名譽教授、台師大歷史系退休教授教授長榮大學名譽教授、台師大歷史系退休教授）",
+   "note": "長榮台灣研究所退休教師頁有照片，但為演講持麥克風照，不放。"
+  }
+ ]
+}

@@ -1,0 +1,283 @@
+{
+ "batch": 29,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "吳瑞菁（國立臺灣大學醫學檢驗暨生物技術學系副教授）",
+   "note": "臺大醫技系教師列表查無，個人頁無法連線，未取得頭像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林肇基（臺灣大學雙語教育中心博士後研究員）",
+   "research": {
+    "keywords": [
+     {
+      "label": "雙語政策推動規劃與成效分析",
+      "source": "https://cbe.ntu.edu.tw/cbe_members?cat=3"
+     },
+     {
+      "label": "課程教學品質分析",
+      "source": "https://cbe.ntu.edu.tw/cbe_members?cat=3"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "臺大雙語教育中心成員頁，博士後研究員。關鍵詞取自成員頁業務／研究方向欄（偏職務描述）；頁面照片為空白佔位圖，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "鍾繼儀（國立臺灣師範大學博士候選人）",
+   "research": {
+    "keywords": [
+     {
+      "label": "客家八音",
+      "source": "https://chungchiyi.com/"
+     },
+     {
+      "label": "客家戲曲",
+      "source": "https://chungchiyi.com/"
+     },
+     {
+      "label": "亂彈戲曲",
+      "source": "https://chungchiyi.com/"
+     },
+     {
+      "label": "北管音樂",
+      "source": "https://chungchiyi.com/"
+     },
+     {
+      "label": "客家民謠",
+      "source": "https://chungchiyi.com/research/"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-029/chung.jpg",
+    "crop": [
+     277,
+     427,
+     1280,
+     1280
+    ],
+    "source_url": "https://chungchiyi.com/",
+    "credit": "來源：本人個人網站（chungchiyi.com），版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "個人網站載明臺灣師範大學音樂學系音樂學博士候選人，與署名一致。肖像為棚拍單人照，已裁切頭肩。關鍵詞取自 About 頁「專長於…」與 Research 頁關鍵字。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張宜君（國立臺灣師範大學教育學系副教授）",
+   "note": "師大教育系教師頁有照片，但為咖啡廳生活照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡晏榕（國立臺灣戲曲學院助理教授）",
+   "note": "僅在臺北客家書院課程頁確認為臺灣戲曲學院助理教授，無官方照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳正熙（國立臺灣戲曲學院專任助理教授）",
+   "note": "戲曲學院劇場藝術學系頁圖片為文字名片，無人像；未取得頭像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "芙厄阿布達爾（臺灣本土神學研究中心研究員）",
+   "note": "僅找到讀書會導讀名單，查無專長頁面。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "王守誠（國立臺灣海洋大學專案助理研究員）",
+   "note": "僅在海大會議文件看到新聘助理研究員紀錄，無個人頁。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張雁翔（國立臺灣海洋大學海洋法律研究所助理教授）",
+   "note": "海洋法律所教師頁載明專長（憲法、行政法等）但無照片，且任務僅需頭像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡嘉恩（國立臺灣海洋大學海洋法政學士學位學程兼任專技助理教授）",
+   "note": "兼任師資頁無照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林莊傑（國立臺灣海洋大學資訊工程學系助理教授）",
+   "note": "系網頁照片為戶外側面生活照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "胡哲嘉（臺灣科技大學化學工程系教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-029/hu.png",
+    "crop": [
+     464,
+     0,
+     400,
+     400
+    ],
+    "source_url": "https://www.ch.ntust.edu.tw/departmentmembers1_2.html",
+    "credit": "來源：臺灣科技大學化學工程系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "臺科大化工系專任教師列表「胡哲嘉 教授 Chechia Hu」，單人半身正式照，已裁切頭肩。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "程楚仁（國立臺灣科技大學博士後研究員）",
+   "note": "Google Scholar「Norman C.-R. Chen」頁面單位為臺科大化學工程系；已知 TIGP 獎狀頁載明程楚仁／化工 MOF/COF 膜研究，主題一致。以英文名對應中文名，屬推定同一人（機構與領域吻合），無頭像。 [審核剔除research]"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "曹家榮（臺灣科技大學跨域創新暨國際華語中心副教授）",
+   "note": "臺科大中心頁無照片；個人網站為動態頁面無法取得人像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃婉綸（國立臺灣藝術大學兼任講師）",
+   "note": "廣電系兼任師資頁只列課程名稱（非研究領域），無照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡佾玲（國立臺灣藝術大學戲劇學系助理教授）",
+   "note": "系所頁圖片僅 110×149，低於標準。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "吳依屛（臺灣藝術大學跨域表演藝術研究所助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-029/tpa.jpg",
+    "crop": null,
+    "source_url": "https://tpa.ntua.edu.tw/?awsm_team_member=%E5%90%B3%E4%BE%9D%E5%B1%8F",
+    "credit": "來源：臺灣藝術大學跨域表演藝術研究所官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "系所頁以「吳依屏」書寫，曾任欄列臺藝大跨域表演藝術研究所兼任助理教授，判定同一人；正式單人肖像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "洪逸柔（國立臺灣藝術大學通識教育中心助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-029/hung.jpg",
+    "crop": null,
+    "source_url": "https://gec.ntua.edu.tw/pageQAQ.asp?kk=123",
+    "credit": "來源：臺灣藝術大學通識教育中心官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "通識教育中心專任師資頁，職稱助理教授，姓名與單位相符。單人肖像，背景為書櫃，臉部清楚。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "游崴（國立臺灣藝術大學雕塑學系助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-029/yu.jpg",
+    "crop": null,
+    "source_url": "https://scp.ntua.edu.tw/teacher/%E6%B8%B8%E5%B4%B4%E5%8A%A9%E7%90%86%E6%95%99%E6%8E%88/",
+    "credit": "來源：臺灣藝術大學雕塑學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "雕塑系個人頁，助理教授。原圖僅 188×249，臉部清楚但解析度偏低。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳綺娟（芬蘭赫爾辛基大學博士後研究員）",
+   "note": "赫爾辛基 Crop-light 團隊頁為 Chi-Chuan Chen，但照片為戶外背包生活照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林楷翔（英國倫敦大學亞非學院佛教研究中心博士後研究員）",
+   "note": "SOAS 頁面顯示為博士候選人（非博後），無照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃飛揚（英國牛津大學實驗心理學系研究員）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-029/huang.jpg",
+    "crop": null,
+    "source_url": "https://www.wolfson.ox.ac.uk/news/wolfson-research-fellow-dr-fei-yang-huang-wins-prestigious-ebbs-award/",
+    "credit": "來源：牛津大學 Wolfson College 官網新聞頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "Wolfson College 新聞頁載明 Dr Fei-Yang Huang 為牛津實驗心理學系（Experimental Psychology）研究員。照片為穿學袍的單人肖像，臉部清楚；來源為學院新聞頁而非個人頁。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "賴炘延（英國聖安德魯斯大學國際關係學院副講師）",
+   "research": {
+    "keywords": [
+     {
+      "label": "international historical sociology",
+      "source": "https://research-portal.st-andrews.ac.uk/en/persons/hsinyen-lai/"
+     },
+     {
+      "label": "late-developing capitalist state formation",
+      "source": "https://research-portal.st-andrews.ac.uk/en/persons/hsinyen-lai/"
+     },
+     {
+      "label": "Arab nationalism",
+      "source": "https://research-portal.st-andrews.ac.uk/en/persons/hsinyen-lai/"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "St Andrews Research Portal 個人頁（School of International Relations, Associate Lecturer）。關鍵詞取自 Research overview 原文。頁面照片為講座現場生活照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "許諾（荷蘭萊頓大學國際關係與國際組織學系講師）",
+   "note": "查無萊頓大學對應人員頁面，不確定身分，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡秉修（華梵大學兼任講師）",
+   "note": "查無個人頁面。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳韻文（藝術美感教育領域獨立學者）",
+   "research": {
+    "keywords": [
+     {
+      "label": "educational drama",
+      "source": "https://www.inarts.world/en/teacher/%E9%99%B3%E9%9F%BB%E6%96%87/"
+     },
+     {
+      "label": "Drama Curriculum Design and Teaching",
+      "source": "https://www.inarts.world/en/teacher/%E9%99%B3%E9%9F%BB%E6%96%87/"
+     },
+     {
+      "label": "Multiple intelligences and multi-sensory teaching",
+      "source": "https://www.inarts.world/en/teacher/%E9%99%B3%E9%9F%BB%E6%96%87/"
+     },
+     {
+      "label": "Western Drama and Theater History",
+      "source": "https://www.inarts.world/en/teacher/%E9%99%B3%E9%9F%BB%E6%96%87/"
+     }
+    ],
+    "scholar": null
+   },
+   "note": "跨領域美感教育計畫網站（臺師大美術系）Research Expertise 欄；表演藝術評論台人物頁載明「自由戲劇工作者暨獨立學者」，學歷一致。頁面照片為工作坊現場照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉正達（國立虎尾科技大學企業管理系教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-029/liou.jpg",
+    "crop": null,
+    "source_url": "https://ba.nfu.edu.tw/zh_tw/team/faculty/%E5%8A%89%E6%AD%A3%E9%81%94-48337628",
+    "credit": "來源：虎尾科技大學企業管理系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "企管系專任師資頁，職稱教授；原圖 225×281，半身正式單人照。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李瑞麟（虎尾科技大學數理教學中心副教授）",
+   "note": "系頁無照片（專長：數理邏輯、理論計算機科學，但任務僅需頭像）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "王郁中（國立虎尾科技大學通識教育中心助理教授）",
+   "note": "虎尾科大兼任師資頁無專長欄、照片為佔位圖。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李玉璽（國立虎尾科技大學通識教育中心教授）",
+   "note": "通識中心頁照片為授課側拍，不採用。"
+  }
+ ]
+}
