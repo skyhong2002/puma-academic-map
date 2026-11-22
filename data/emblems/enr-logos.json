@@ -460,5 +460,138 @@
     "credit": "Wikimedia Commons，PD-textlogo（作者 UTHSC），可能有商標限制",
     "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。",
     "license_url": "https://commons.wikimedia.org/wiki/File:UTHSC_logo.svg"
+  },
+  "南開科技大學": {
+    "file": "enr-logo-2b349149e8.webp",
+    "source_url": "https://www.nkut.edu.tw/",
+    "credit": "機構官網標誌，版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。",
+    "license_url": "https://www.nkut.edu.tw/"
+  },
+  "Tufts University School of Medicine": {
+    "file": "enr-logo-aee3c946f5.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:TuftsMed_logo.png",
+    "credit": "Wikimedia Commons TuftsMed_logo.png，授權未逐項核對，版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:TuftsMed_logo.png"
+  },
+  "Harvard Cancer Consortium（中央行政辦公室）": {
+    "file": "enr-logo-f7056baf25.webp",
+    "source_url": "https://hcc.harvard.edu/",
+    "credit": "機構官網 favicon 標誌（HCC 符號），版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。",
+    "license_url": "https://hcc.harvard.edu/"
+  },
+  "東方設計大學": {
+    "file": "enr-logo-59de380dc0.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tung_Fang_Design_University_logo.svg",
+    "credit": "Wikimedia Commons（Wikidata P154），授權照檔案頁，版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Tung_Fang_Design_University_logo.svg"
+  },
+  "中國科技大學": {
+    "file": "enr-logo-9adbffde7a.webp",
+    "source_url": "https://www.cute.edu.tw/",
+    "credit": "機構官網標誌，版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。",
+    "license_url": "https://www.cute.edu.tw/"
+  },
+  "諾桑比亞大學": {
+    "file": "enr-logo-4b78737d5c.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_Northumbria_University.svg",
+    "credit": "Wikimedia Commons 大學紋章（Wikidata P94），授權照檔案頁",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_Northumbria_University.svg"
+  },
+  "紐約市立大學亨特學院": {
+    "file": "enr-logo-1fc78ed8eb.webp",
+    "source_url": "https://www.hunter.cuny.edu/",
+    "credit": "機構官網標誌，版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。",
+    "license_url": "https://www.hunter.cuny.edu/"
+  },
+  "高雄醫學大學附設中和紀念醫院": {
+    "file": "enr-logo-a3dc7a25c4.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Kaohsiung_Medical_University_Chung-Ho_Memorial_Hospital_logo.svg",
+    "credit": "中文維基百科標誌檔（非自由著作，合理使用；轉自機構標誌），版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Kaohsiung_Medical_University_Chung-Ho_Memorial_Hospital_logo.svg"
+  },
+  "玄奘大學": {
+    "file": "enr-logo-968d4ce963.webp",
+    "source_url": "https://www.hcu.edu.tw/",
+    "credit": "機構官網標誌，版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。",
+    "license_url": "https://www.hcu.edu.tw/"
+  },
+  "馬偕醫護管理專科學校": {
+    "file": "enr-logo-39116a71cf.webp",
+    "source_url": "https://www.mkc.edu.tw/",
+    "credit": "機構官網標誌，版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。",
+    "license_url": "https://www.mkc.edu.tw/"
+  },
+  "戴頓大學": {
+    "file": "enr-logo-f77a553586.webp",
+    "source_url": "https://en.wikipedia.org/wiki/File:University_of_Dayton.svg",
+    "credit": "英文維基百科標誌檔（非自由著作，合理使用），版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。",
+    "license_url": "https://en.wikipedia.org/wiki/File:University_of_Dayton.svg"
+  },
+  "國立自然科學博物館": {
+    "file": "enr-logo-c329c64331.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:ROC_National_Museum_of_Natural_Science_logo.svg",
+    "credit": "中文維基百科標誌檔（非自由著作，合理使用；轉自機構標誌），版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:ROC_National_Museum_of_Natural_Science_logo.svg"
+  },
+  "三軍總醫院": {
+    "file": "enr-logo-327e979279.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Tri-Service_General_Hospital_Logo.png",
+    "credit": "中文維基百科標誌檔（非自由著作，合理使用；轉自機構標誌），版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Tri-Service_General_Hospital_Logo.png"
+  },
+  "臺中榮民總醫院": {
+    "file": "enr-logo-a46dd82400.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Taichung_Veterans_General_Hospital_Seal.svg",
+    "credit": "中文維基百科標誌檔（非自由著作，合理使用；轉自機構標誌），版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Taichung_Veterans_General_Hospital_Seal.svg"
+  },
+  "奇美醫院": {
+    "file": "enr-logo-e20cc0090c.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Chi_Mei_Medical_Center_logo.svg",
+    "credit": "中文維基百科標誌檔（非自由著作，合理使用；轉自機構標誌），版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Chi_Mei_Medical_Center_logo.svg"
+  },
+  "臺北榮民總醫院": {
+    "file": "enr-logo-c265a6705c.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Taipei_Veterans_General_Hospital_Emblem.svg",
+    "credit": "中文維基百科標誌檔（非自由著作，合理使用；轉自機構標誌），版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Taipei_Veterans_General_Hospital_Emblem.svg"
+  },
+  "高雄榮民總醫院": {
+    "file": "enr-logo-7d864fed46.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Kaohsiung_Veterans_General_Hospital_logo.svg",
+    "credit": "中文維基百科標誌檔（非自由著作，合理使用；轉自機構標誌），版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Kaohsiung_Veterans_General_Hospital_logo.svg"
+  },
+  "恩主公醫院": {
+    "file": "enr-logo-caef67381b.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:En_Chu_Kong_Hospital_logo.svg",
+    "credit": "中文維基百科標誌檔（非自由著作，合理使用；轉自機構標誌），版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:En_Chu_Kong_Hospital_logo.svg"
+  },
+  "雙和醫院": {
+    "file": "enr-logo-2a97634e12.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Taipei_Medical_University_Shuang_Ho_Hospital_logo.svg",
+    "credit": "中文維基百科標誌檔（非自由著作，合理使用；轉自機構標誌），版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Taipei_Medical_University_Shuang_Ho_Hospital_logo.svg"
   }
 }

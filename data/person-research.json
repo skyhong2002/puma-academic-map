@@ -32259,8 +32259,13 @@
       {
         "label": "微波與材料量測",
         "source": "https://eee.lhu.edu.tw/p/412-1015-194.php?Lang=zh-tw"
+      },
+      {
+        "label": "高速訊號與連接",
+        "source": "https://eee.lhu.edu.tw/p/412-1015-194.php?Lang=zh-tw"
       }
-    ]
+    ],
+    "scholar": "https://scholar.google.com/citations?user=6aUIIHsAAAAJ"
   },
   {
     "id": "dfe92446c017215900fa1540794dc1e0",
@@ -34051,6 +34056,21 @@
       {
         "label": "正念取向團體與個別心理治療",
         "source": "https://tpoas.mmh.org.tw/doctor_view.php?depid=52&did=594"
+      }
+    ]
+  },
+  {
+    "id": "93cb1e5e58fc7b18e77b283ea9a13393",
+    "section": "會員名單",
+    "raw": "鄭裕民（高雄醫學大學骨科教授）",
+    "keywords": [
+      {
+        "label": "踝關節",
+        "source": "https://www.kmuh.org.tw/Web/WebRegistration/DocIntro/DocDetail?lang=tw&doctorID=1080130&virtualCode=0700&dCode=0700"
+      },
+      {
+        "label": "足部外科疾患",
+        "source": "https://www.kmuh.org.tw/Web/WebRegistration/DocIntro/DocDetail?lang=tw&doctorID=1080130&virtualCode=0700&dCode=0700"
       }
     ]
   }

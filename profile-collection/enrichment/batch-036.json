@@ -1,0 +1,31 @@
+{
+  "batch": 36,
+  "people": [
+    {
+      "section": "會員名單",
+      "raw": "薛榮祥（龍華科技大學退休副教授）",
+      "note": "已退休；龍華科大導師名單僅見其姓名（觀光休閒系班級導師），搜尋未找到官方人物頁與照片，略過。"
+    },
+    {
+      "section": "會員名單",
+      "raw": "陳冠宇（龍華科技大學電機系助理教授、台北科技大學電子系兼任助理教授）",
+      "research": {
+        "keywords": [
+          {"label": "天線與無線系統整合", "source": "https://eee.lhu.edu.tw/p/412-1015-194.php?Lang=zh-tw"},
+          {"label": "電磁相容與雜訊管理", "source": "https://eee.lhu.edu.tw/p/412-1015-194.php?Lang=zh-tw"},
+          {"label": "高速訊號與連接", "source": "https://eee.lhu.edu.tw/p/412-1015-194.php?Lang=zh-tw"},
+          {"label": "毫米波匿蹤塗層與雷達智能蒙皮", "source": "https://eee.lhu.edu.tw/p/412-1015-194.php?Lang=zh-tw"},
+          {"label": "微波與材料量測", "source": "https://eee.lhu.edu.tw/p/412-1015-194.php?Lang=zh-tw"}
+        ],
+        "scholar": "https://scholar.google.com/citations?user=6aUIIHsAAAAJ"
+      },
+      "portrait": {
+        "image_path": "/tmp/puma-enrich/batch-036/chen.jpg",
+        "crop": null,
+        "source_url": "https://eee.lhu.edu.tw/p/412-1015-194.php?Lang=zh-tw",
+        "credit": "來源：龍華科技大學電機工程系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+      },
+      "note": "龍華科大電機系師資頁「陳冠宇 助理教授」，姓名、系所相符；專長取自該頁，Google Scholar 連結為該頁「更多資訊」所列。照片為正式單人肖像、臉部清楚，預覽已檢視。"
+    }
+  ]
+}

@@ -1,0 +1,375 @@
+{
+ "batch": 6,
+ "institutions": [
+  {
+   "name": "台南應用科技大學",
+   "alias_of": "臺南應用科技大學",
+   "note": "同校異體字，data/emblems/aliases.json 已有對應"
+  },
+  {
+   "name": "南開科技大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-06/nkut2.jpg",
+    "source_url": "https://www.nkut.edu.tw/",
+    "license_url": "https://www.nkut.edu.tw/",
+    "credit": "機構官網標誌，版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "校徽，取自官網 css/images/logo.jpg（藍底方形）"
+  },
+  {
+   "name": "臺南市立醫院",
+   "note": "官網 DNS 無法解析，Wikipedia 無標誌檔，未找到"
+  },
+  {
+   "name": "Tufts University School of Medicine",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-06/tufts.png",
+    "source_url": "https://commons.wikimedia.org/wiki/File:TuftsMed_logo.png",
+    "license_url": "https://commons.wikimedia.org/wiki/File:TuftsMed_logo.png",
+    "credit": "Wikimedia Commons TuftsMed_logo.png，授權未逐項核對，版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "橫式標誌，en.wikipedia 資訊框使用"
+  },
+  {
+   "name": "高雄市立大同醫院",
+   "note": "官網無法連線，無標誌檔"
+  },
+  {
+   "name": "Harvard Cancer Consortium（中央行政辦公室）",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-06/hccfav.svg",
+    "source_url": "https://hcc.harvard.edu/",
+    "license_url": "https://hcc.harvard.edu/",
+    "credit": "機構官網 favicon 標誌（HCC 符號），版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "取自官網 /icons/favicon.svg，非完整橫式標誌"
+  },
+  {
+   "name": "華盛頓大學塔科馬分校",
+   "note": "官網首頁僅有活動照片與 favicon，Wikipedia/Wikidata 無標誌檔"
+  },
+  {
+   "name": "台灣精準健康促進協會（法人登記主事務所）",
+   "note": "協會，無公開標誌"
+  },
+  {
+   "name": "林青穀家庭醫學科診所",
+   "note": "診所，略過"
+  },
+  {
+   "name": "東方設計大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-06/tf.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tung_Fang_Design_University_logo.svg",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Tung_Fang_Design_University_logo.svg",
+    "credit": "Wikimedia Commons（Wikidata P154），授權照檔案頁，版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "橫式標誌"
+  },
+  {
+   "name": "中國科技大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-06/cute.png",
+    "source_url": "https://www.cute.edu.tw/",
+    "license_url": "https://www.cute.edu.tw/",
+    "credit": "機構官網標誌，版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "官網 og:image 標誌"
+  },
+  {
+   "name": "國立臺灣大學醫學院",
+   "note": "官網未取得醫學院專屬標誌（僅臺大校標，不同機構）"
+  },
+  {
+   "name": "國家住宅及都市更新中心",
+   "note": "官網網域無法解析，Wikidata 無標誌"
+  },
+  {
+   "name": "臺灣神學研究學院",
+   "note": "官網無法連線；台南神學院（ttcs）標誌為不同機構，未採用"
+  },
+  {
+   "name": "諾桑比亞大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-06/northumbria.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_Northumbria_University.svg",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_Northumbria_University.svg",
+    "credit": "Wikimedia Commons 大學紋章（Wikidata P94），授權照檔案頁",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "為大學紋章而非現行品牌標誌；官網 og 圖為白字黑底不可用"
+  },
+  {
+   "name": "牛津大學 St Antony’s College",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-06/sant.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:St-Antony's_College_Oxford_Coat_Of_Arms.svg",
+    "license_url": "https://commons.wikimedia.org/wiki/File:St-Antony's_College_Oxford_Coat_Of_Arms.svg",
+    "credit": "Wikimedia Commons 學院紋章（Wikidata P94），授權照檔案頁",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "學院紋章盾牌"
+  },
+  {
+   "name": "義守大學",
+   "note": "官網 og 圖實為 HTML 頁，Wikipedia 無標誌檔"
+  },
+  {
+   "name": "沃特伯格學院",
+   "alias_of": null,
+   "note": "假定為美國 Iowa 的 Wartburg College；中文名未註明所在地，請覆核 [審核剔除：機構身分為推定]"
+  },
+  {
+   "name": "紐約市立大學亨特學院",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-06/hunter.png",
+    "source_url": "https://www.hunter.cuny.edu/",
+    "license_url": "https://www.hunter.cuny.edu/",
+    "credit": "機構官網標誌，版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "官網 hunter-cuny-logo.v2.png，文字標誌"
+  },
+  {
+   "name": "高雄醫學大學附設中和紀念醫院",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-06/kmuh.svg",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Kaohsiung_Medical_University_Chung-Ho_Memorial_Hospital_logo.svg",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Kaohsiung_Medical_University_Chung-Ho_Memorial_Hospital_logo.svg",
+    "credit": "中文維基百科標誌檔（非自由著作，合理使用；轉自機構標誌），版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "院徽"
+  },
+  {
+   "name": "休士頓華美中醫學院",
+   "note": "未找到官方標誌"
+  },
+  {
+   "name": "玄奘大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-06/hcu.png",
+    "source_url": "https://www.hcu.edu.tw/",
+    "license_url": "https://www.hcu.edu.tw/",
+    "credit": "機構官網標誌，版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "官網 header 標誌，校徽加校名"
+  },
+  {
+   "name": "國立科學工藝博物館",
+   "note": "官網無法連線，Wikipedia 無標誌檔"
+  },
+  {
+   "name": "馬偕醫護管理專科學校",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-06/mkc.png",
+    "source_url": "https://www.mkc.edu.tw/",
+    "license_url": "https://www.mkc.edu.tw/",
+    "credit": "機構官網標誌，版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "官網標誌，含校徽與校名"
+  },
+  {
+   "name": "東北大學學際科學前沿研究所",
+   "note": "官網僅有 TI-FRIS／FRIS URO 計畫標誌，非研究所標誌，未採用"
+  },
+  {
+   "name": "戴頓大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-06/dayton.svg",
+    "source_url": "https://en.wikipedia.org/wiki/File:University_of_Dayton.svg",
+    "license_url": "https://en.wikipedia.org/wiki/File:University_of_Dayton.svg",
+    "credit": "英文維基百科標誌檔（非自由著作，合理使用），版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "文字標誌（University of Dayton）"
+  },
+  {
+   "name": "牛津大學實驗心理學系（Mansfield Road）",
+   "note": "官網無法取得標誌（403／空頁）"
+  },
+  {
+   "name": "臺灣印度研究協會",
+   "note": "協會，無公開標誌"
+  },
+  {
+   "name": "殷建智精神科診所",
+   "note": "診所，略過"
+  },
+  {
+   "name": "國家衛生研究院神經及精神醫學研究中心（竹南院區）",
+   "note": "僅有國家衛生研究院總標誌，為上級機構，未套用（可考慮 alias 至國家衛生研究院）"
+  },
+  {
+   "name": "南門綜合醫院",
+   "note": "官網無法取得標誌"
+  },
+  {
+   "name": "奧地利考古研究院",
+   "note": "官網 403，Wikipedia 無標誌檔"
+  },
+  {
+   "name": "台灣本土神學研究中心",
+   "note": "未找到公開標誌"
+  },
+  {
+   "name": "台灣教授協會",
+   "note": "官網無標誌檔可取"
+  },
+  {
+   "name": "德育護理健康學院",
+   "note": "官網網域無法解析"
+  },
+  {
+   "name": "台灣文學國家園區協進會",
+   "note": "未找到公開標誌"
+  },
+  {
+   "name": "社團法人台灣教師聯盟（公開聯絡處）",
+   "note": "協會，官網無法連線"
+  },
+  {
+   "name": "卡地夫大學新聞、媒體與文化學院",
+   "note": "官網 403，Wikipedia 僅有建築照片"
+  },
+  {
+   "name": "臺北海洋科技大學",
+   "note": "官網無標誌檔可取，Wikipedia 無標誌檔"
+  },
+  {
+   "name": "國立自然科學博物館",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-06/nmns.svg",
+    "source_url": "https://zh.wikipedia.org/wiki/File:ROC_National_Museum_of_Natural_Science_logo.svg",
+    "license_url": "https://zh.wikipedia.org/wiki/File:ROC_National_Museum_of_Natural_Science_logo.svg",
+    "credit": "中文維基百科標誌檔（非自由著作，合理使用；轉自機構標誌），版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "館徽"
+  },
+  {
+   "name": "中央研究院中國文哲研究所（南港院區）",
+   "note": "官網無法連線，未找到"
+  },
+  {
+   "name": "李兆然家醫科診所",
+   "note": "診所，略過"
+  },
+  {
+   "name": "汐止晶華眼科診所",
+   "note": "診所，略過"
+  },
+  {
+   "name": "三軍總醫院",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-06/tsgh.png",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Tri-Service_General_Hospital_Logo.png",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Tri-Service_General_Hospital_Logo.png",
+    "credit": "中文維基百科標誌檔（非自由著作，合理使用；轉自機構標誌），版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "院徽"
+  },
+  {
+   "name": "臺中榮民總醫院",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-06/vghtc.svg",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Taichung_Veterans_General_Hospital_Seal.svg",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Taichung_Veterans_General_Hospital_Seal.svg",
+    "credit": "中文維基百科標誌檔（非自由著作，合理使用；轉自機構標誌），版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "zh.wikipedia 資訊框之 Seal 檔"
+  },
+  {
+   "name": "奇美醫院",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-06/chimei.svg",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Chi_Mei_Medical_Center_logo.svg",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Chi_Mei_Medical_Center_logo.svg",
+    "credit": "中文維基百科標誌檔（非自由著作，合理使用；轉自機構標誌），版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "奇美醫療財團法人標誌"
+  },
+  {
+   "name": "花蓮慈濟醫院",
+   "note": "Wikipedia 僅有外觀照，官網未取得標誌"
+  },
+  {
+   "name": "臺北榮民總醫院",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-06/vghtpe.svg",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Taipei_Veterans_General_Hospital_Emblem.svg",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Taipei_Veterans_General_Hospital_Emblem.svg",
+    "credit": "中文維基百科標誌檔（非自由著作，合理使用；轉自機構標誌），版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "院徽"
+  },
+  {
+   "name": "高雄榮民總醫院",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-06/vghks.svg",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Kaohsiung_Veterans_General_Hospital_logo.svg",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Kaohsiung_Veterans_General_Hospital_logo.svg",
+    "credit": "中文維基百科標誌檔（非自由著作，合理使用；轉自機構標誌），版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "院徽"
+  },
+  {
+   "name": "新竹馬偕紀念醫院",
+   "note": "官網網域無法解析，Wikipedia 無標誌檔"
+  },
+  {
+   "name": "恩主公醫院",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-06/ekh.svg",
+    "source_url": "https://zh.wikipedia.org/wiki/File:En_Chu_Kong_Hospital_logo.svg",
+    "license_url": "https://zh.wikipedia.org/wiki/File:En_Chu_Kong_Hospital_logo.svg",
+    "credit": "中文維基百科標誌檔（非自由著作，合理使用；轉自機構標誌），版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "院徽"
+  },
+  {
+   "name": "雙和醫院",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-06/shh2.svg",
+    "source_url": "https://zh.wikipedia.org/wiki/File:Taipei_Medical_University_Shuang_Ho_Hospital_logo.svg",
+    "license_url": "https://zh.wikipedia.org/wiki/File:Taipei_Medical_University_Shuang_Ho_Hospital_logo.svg",
+    "credit": "中文維基百科標誌檔（非自由著作，合理使用；轉自機構標誌），版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "院徽（衛福部雙和醫院）"
+  }
+ ]
+}

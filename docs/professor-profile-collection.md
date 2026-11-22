@@ -21,3 +21,11 @@ python3 scripts/collect_professor_profiles.py --output /tmp/puma-professor-profi
 2. 新研究詞與任職來源分別整理進 `data/person-research.json` 和 `data/affiliation-sources.json` 或 `data/research/`。保留對應的公開來源，不改人物 ID，不蒐集私人聯絡資訊。
 3. Commons 結果只是候選，未下載圖檔。確認照片主角、授權、署名及是否允許裁切後，才依 `data/portraits/README.md` 的格式新增；不確定就不要進網站資料。
 4. 從預設分支另開發布 PR，只帶已核對的 `data/` 變更。檢查來源與人物對應，執行 `npm ci`、`npm run build`，確認署名、研究領域與頭像沒有接錯再合併。
+
+## 目前採用的流程（2026-11）
+
+- 工作分支 `data/professor-profiles` 直接存放已審核的資料：`data/person-research.json`、`data/portraits/`（`enr-*`）、`data/research/enr-*.json`、`data/emblems/`（`enr-*`），以及 `profile-collection/` 內的任務檔與子代理原始輸出。
+- 子代理依 `profile-collection/AGENT_BRIEF.md`（人物）與 `LOGO_BRIEF.md`（機構 logo）作業，輸出到 `profile-collection/enrichment/`；由 `scripts/merge_profile_enrichment.py`、`scripts/merge_logo_enrichment.py` 驗證後合併。人物審核規則：官方人物頁、同一人才採用；生活照、太小、身分推定者剔除。
+- 頭像用 `scripts/portrait_normalize.py`（OpenCV YuNet 臉部偵測）統一臉寬約畫面 44%；只放大不補邊。Logo 用 `scripts/make-logo.mjs` 等比置中成 256 × 256 透明底 WebP。這些工具需要 sharp 與 opencv（安裝在 `~/.cache/puma-img/`，不在 repo）。
+- 頭像授權：官網照片標註「版權屬原權利人，未取得開放授權」，是專案擁有者明確決定的取捨。
+- WebSearch 每個回合上限 200 次（所有子代理共用），超過就等下一個回合。
