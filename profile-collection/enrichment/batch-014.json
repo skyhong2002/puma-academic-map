@@ -1,0 +1,203 @@
+{
+ "batch": 14,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "柯柏如（台灣大學生態學與演化生物學研究所副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-014/s_ke.jpg",
+    "crop": null,
+    "source_url": "https://scholars.lib.ntu.edu.tw/entities/person/b19df441-16d7-4421-be80-3740fb6d03b1",
+    "credit": "來源：臺灣大學 NTU Scholars Hub官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "NTU Scholars Hub 個人頁照片（150x185，偏小但臉部清楚）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "柯志哲（台灣大學社會學系教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-014/s_kechi.jpg",
+    "crop": null,
+    "source_url": "https://scholars.lib.ntu.edu.tw/entities/person/9fa1c285-bb9d-48d8-aaf0-e2ce65189bd9",
+    "credit": "來源：臺灣大學 NTU Scholars Hub官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "NTU Scholars Hub 社會學系教授頁照片（書櫃背景，半正式）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林鶴玲（台灣大學社會學系退休教授）",
+   "note": "Scholars Hub 照片為登山生活照（墨鏡、背景風景），不採用。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "葉啟政（台灣大學社會學系退休教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-014/yeh.jpg",
+    "crop": null,
+    "source_url": "https://sociology.ntu.edu.tw/faculty/fct03/",
+    "credit": "來源：臺灣大學社會學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "社會學系教師頁正式肖像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "江其衽（國立台灣大學統計與數據科學研究所副教授）",
+   "note": "Scholars Hub 照片為室內自拍，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "王弘毅（台灣大學臨床醫學研究所教授）",
+   "note": "Scholars Hub 照片為戶外生活照（墨鏡），不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃泰一（國立台灣大學資訊工程學系客座教授）",
+   "note": "資工系頁照片為持麥克風活動照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "施養信（台灣大學農業化學系教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-014/s_shih.jpg",
+    "crop": null,
+    "source_url": "https://scholars.lib.ntu.edu.tw/entities/person/f2c4040d-518e-4076-8504-1de66c931605",
+    "credit": "來源：臺灣大學 NTU Scholars Hub官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "NTU Scholars Hub 農業化學系教授頁照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林國慶（國立台灣大學農業經濟系名譽教授）",
+   "note": "農經系頁照片僅 160x120，過小。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "董致韡（台灣大學農藝學系教授）",
+   "note": "Scholars Hub 照片僅 91x120，過小。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林文澧（國立台灣大學醫學工程學系退休教授）",
+   "note": "醫工系頁無照片；Scholars Hub 照片僅 133x133。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "朱麗安（台灣大學醫工系副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-014/chu.jpg",
+    "crop": null,
+    "source_url": "https://bme.ntu.edu.tw/LiAnChu.html",
+    "credit": "來源：臺灣大學醫學工程學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "醫工系個人頁正式肖像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "蔡佩芸（國立台灣大學重點科技研究學院教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-014/tsai.jpg",
+    "crop": null,
+    "source_url": "https://giee.ntu.edu.tw/en/faculty/ics/",
+    "credit": "來源：臺灣大學電子工程學研究所官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "電子所教師頁照片；台大重點科技研究學院網頁確認同名教授（研究領域：無線通訊數位訊號處理演算法、通訊基頻積體電路設計）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李隆盛（台灣師大名譽教授、國立聯合大學及中臺科技大學前校長）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-014/lee1.jpg",
+    "crop": null,
+    "source_url": "https://www.tahrd.ntnu.edu.tw/index.php/faculty/professoremeritus/",
+    "credit": "來源：臺灣師大科技應用與人力資源發展學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "名譽教授頁肖像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "施志汶（國立台灣師大歷史系退休副教授）",
+   "note": "師大歷史系頁為預設空白圖。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "葉國樑（台灣師範大學健康促進與衛生教育學系退休教授）",
+   "note": "僅找到研究生手冊中的姓名與學歷，無研究領域；搜尋額度用盡。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林秀玲（國立台灣師範大學博士後研究員）",
+   "note": "WebSearch 額度用盡，已知頁面無可用單人照／研究領域，未找到可確認資料。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "蕭世暉（國立台灣師範大學原住民族教育文化學程兼任助理教授）",
+   "note": "WebSearch 額度用盡，已知頁面無可用單人照／研究領域，未找到可確認資料。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "鄭明憲（國立台灣師範大學美術系退休教授）",
+   "note": "師大美術系頁照片為卡通化圖像，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "楊瑞瑟（國立台灣師範大學音樂系兼任教授）",
+   "note": "師大音樂系名錄頁無照片。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "曾旭正（台灣心靈生態村協進會理事長）",
+   "note": "南藝大建築藝術研究所頁僅有職稱學歷，未列研究領域。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "鄭邦鎮（台灣文學國家園區協進會理事長）",
+   "note": "只找到生平介紹，無明列研究領域。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "許春鎮（國立台灣海洋大學海洋法律研究所教授）",
+   "note": "WebSearch 額度用盡，已知頁面無可用單人照／研究領域，未找到可確認資料。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "江明勲（國立台灣海洋大學電機系助理教授 & 鋼彈動起來技術會員）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-014/chiang.jpg",
+    "crop": null,
+    "source_url": "https://ee.ntou.edu.tw/p/412-1062-7475.php",
+    "credit": "來源：國立臺灣海洋大學電機工程學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "電機系教師頁照片（半正式、背景單純）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "曾宗盛（台灣神學研究學院舊約學副教授）",
+   "note": "台神頁僅有團體照橫幅，無單人照。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "柯惟惟（台灣科技大學兼任助理教授）",
+   "note": "WebSearch 額度用盡，已知頁面無可用單人照／研究領域，未找到可確認資料。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "謝昇佑（台灣科技大學財務金融研究所兼任助理教授）",
+   "note": "WebSearch 額度用盡，已知頁面無可用單人照／研究領域，未找到可確認資料。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "楊宗銘（台灣科技大學電機工程系退休教授）",
+   "note": "台科大電機系頁連線失敗，無法取得。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "柯惠敏（台灣經濟研究院副研究員）",
+   "note": "WebSearch 額度用盡，已知頁面無可用單人照／研究領域，未找到可確認資料。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "曾蘇銘（國立台灣藝術大學 戲劇學系客座教授）",
+   "note": "WebSearch 額度用盡，已知頁面無可用單人照／研究領域，未找到可確認資料。"
+  }
+ ]
+}
