@@ -33481,5 +33481,31 @@
         "source": "https://www.kyoto-wu.ac.jp/gakubu/kyouin/shakai/index.html"
       }
     ]
+  },
+  {
+    "id": "94f24185cacfff402c9b6f8de254fdec",
+    "section": "會員名單",
+    "raw": "陳玠宇（東吳大學法律系博士生、兼任講師）",
+    "keywords": [
+      {
+        "label": "財政法",
+        "source": "https://www.legis-pedia.com/columns/8"
+      },
+      {
+        "label": "運動法",
+        "source": "https://www.legis-pedia.com/columns/8"
+      }
+    ]
+  },
+  {
+    "id": "1b32f824188284c22a920b8364249227",
+    "section": "會員名單",
+    "raw": "羅頌恩（東海大學美術學系講師）",
+    "keywords": [
+      {
+        "label": "基督教藝術（Christian Art）",
+        "source": "https://fineart.thu.edu.tw/web/teacher/detail.php?cid=0&id=39"
+      }
+    ]
   }
 ]

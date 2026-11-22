@@ -1,0 +1,221 @@
+{
+ "batch": 21,
+ "people": [
+  {
+   "section": "會員名單",
+   "raw": "黃華駿（東海大學企管系兼任助理教授）",
+   "note": "僅有課程頁，無教師個人頁，未找到研究專長與頭像。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林其昌（東海大學化材系教授/博雅書院教授/書院長）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-021/lin-chichang-poya.png",
+    "crop": null,
+    "source_url": "https://poya.thu.edu.tw/front/About_Us/teacher1/member.php?ID=dGh1X3BveWEmdGVhY2hlcjE%3D",
+    "credit": "來源：東海大學博雅書院官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "博雅書院人物頁單人半正式照，臉部清楚（化材系頁面圖為橫幅生活照，未採用）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "謝宗諺（東海大學建築學系助理教授）",
+   "note": "建築系頁面未找到個人頁／照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳淑美（東海大學教育研究所副教授）",
+   "note": "教育研究所頁有照片但為教室側拍生活照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "江智民（東海大學生命科學系教授）",
+   "note": "生命科學系與生態中心頁照片皆為潛水／戶外生活照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳志豪（東海大學生態與環境研究中心助理研究員）",
+   "note": "生態中心頁照片為戴帽遮臉戶外照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "顏瓊芬（東海大學生態與環境研究中心特聘教授）",
+   "note": "生態中心頁照片為森林健行生活照，不採用。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "許甘霖（東海大學社會學系副教授）",
+   "note": "社會系頁照片為手托下巴的隨性照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黎芸靈（東海大學社會工作學系助理教授）",
+   "note": "社工系頁照片為與狗合照的生活照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "呂朝賢（東海大學社會工作系教授）",
+   "note": "社工系頁照片為撐傘戶外照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "鄭斐文（東海大學社會系副教授）",
+   "note": "社會系頁照片為持麥克風側臉活動照，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "羅頌恩（東海大學美術學系講師）",
+   "research": {
+    "keywords": [
+     {
+      "label": "基督教藝術（Christian Art）",
+      "source": "https://fineart.thu.edu.tw/web/teacher/detail.php?cid=0&id=39"
+     }
+    ],
+    "scholar": null
+   },
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-021/luo2.jpg",
+    "crop": [
+     150,
+     50,
+     700,
+     700
+    ],
+    "source_url": "https://fineart.thu.edu.tw/web/teacher/detail.php?cid=0&id=39",
+    "credit": "來源：東海大學美術系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "美術系師資頁（職稱為兼任講師）；黑白單人照，臉部清楚。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "邱妙津（東海大學英語中心副教授）",
+   "note": "未找到英語中心個人頁。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "林達榮（東華大學國際企業學系教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-021/lin-darong.jpg",
+    "crop": null,
+    "source_url": "https://emba.ndhu.edu.tw/%E8%AA%8D%E8%AD%98%E2%BE%BC%E9%9A%8E/%E5%B8%AB%E8%B3%87%E9%99%A3%E5%AE%B9/",
+    "credit": "來源：東華大學 EMBA官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "EMBA 師資頁（國立東華大學國際企業學系教授）正式單人照；頭頂略貼邊。"
+  },
+  {
+   "section": "共同領銜",
+   "raw": "張容嘉（東華大學民族發展與社會工作學系助理教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-021/chang-jungchia.jpg",
+    "crop": null,
+    "source_url": "https://rc027.ndhu.edu.tw/p/406-1064-234694,r6623.php",
+    "credit": "來源：東華大學民族發展與社會工作學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "系所教師頁單人照，姿勢隨性但臉部清楚（偏半正式）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "梁莉芳（東華大學社會學系副教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-021/liang-lifang.jpg",
+    "crop": null,
+    "source_url": "https://spa.ndhu.edu.tw/p/412-1059-19297.php?Lang=zh-tw",
+    "credit": "來源：東華大學社會學系官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "系所教師頁單人照，戶外背景，臉部清楚（偏半正式）。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "林世揚（東華大學經濟系助理教授）",
+   "note": "未直接找到個人頁／照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "潘忠廷（東華大學自然資源與環境學系博士後研究員）",
+   "note": "搜尋與已知 PDF 均無法確認同一人，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "金儒農（國立東華大學華文文學與創作學系助理教授）",
+   "note": "華文系頁面僅有研究領域（大眾文學與流行文化等），無照片；需求僅頭像，故無資料。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "顏訥（國立東華大學華文文學與創作學系助理教授）",
+   "note": "華文系頁面無照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "魏貽君（國立東華大學華文系副教授）",
+   "note": "華文系頁面無照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "劉効樺（國立東華大學諮商與臨床心理學系副教授）",
+   "note": "心理系頁 og:image 為 AI 卡通化圖，不採用。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "張志宏（國立東華大學通識教育中心兼任講師）",
+   "note": "找到兼任名冊但無專長欄位，且無法確認與諮商心理師為同一人，略過。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "歐良修（林口長庚副教授級主治醫師，台灣兒科醫學會副理事長）",
+   "note": "長庚醫師頁無照片檔。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳嘉芳（林口長庚整形外科助理教授）",
+   "note": "長庚醫師頁無照片檔。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃群偉（林口長庚紀念醫院副研究員）",
+   "note": "長庚研究人員頁已失效，無法取得可驗證的專長頁面與照片。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "李振宏（林口長庚紀念醫院教授心臟內科教授級主治醫師）",
+   "note": "長庚醫師頁無照片檔。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "陳志榮（林口長庚醫院 兒童感染科教授級主治醫師）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-021/cg-chen-chihjung.jpg",
+    "crop": [
+     68,
+     84,
+     130,
+     130
+    ],
+    "source_url": "https://www.cgmh.org.tw/mindislone/Services/DoctorInfo/3536",
+    "credit": "來源：長庚醫院官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "長庚醫師介紹頁官方照，原圖僅 264x344、解析度偏低。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "彭建維（林口長庚醫院助理教授）",
+   "note": "長庚醫師頁無照片檔。"
+  },
+  {
+   "section": "會員名單",
+   "raw": "黃毓惠（林口長庚醫院教授）",
+   "portrait": {
+    "image_path": "/tmp/puma-enrich/batch-021/cg-huang-yuhui.jpg",
+    "crop": [
+     32,
+     14,
+     196,
+     196
+    ],
+    "source_url": "https://www.cgmh.org.tw/linkou/Services/DoctorInfo/3764",
+    "credit": "來源：長庚醫院官網人物頁，版權屬原權利人，未取得開放授權；縮圖與 WebP 轉檔；頭肩方形裁切"
+   },
+   "note": "長庚醫師介紹頁官方照，原圖僅 262x342、解析度偏低；頁面註明長庚學術組教授級。"
+  }
+ ]
+}

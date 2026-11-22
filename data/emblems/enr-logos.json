@@ -411,5 +411,54 @@
     "credit": "Wikimedia Commons 檔案 OIST_logo.svg，授權請以檔案頁為準（未逐一核對）；版權屬該機構",
     "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。",
     "license_url": "https://commons.wikimedia.org/wiki/File:OIST_logo.svg"
+  },
+  "聖約翰科技大學": {
+    "file": "enr-logo-15c6617dce.webp",
+    "source_url": "https://zh.wikipedia.org/wiki/File:St._John%27s_University_(restored_in_1967)_seal.svg",
+    "credit": "中文維基百科校徽檔（非自由著作，合理使用；轉自學校官網標誌），版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。",
+    "license_url": "https://zh.wikipedia.org/wiki/File:St._John%27s_University_(restored_in_1967)_seal.svg"
+  },
+  "麥基爾大學": {
+    "file": "enr-logo-0a19a82688.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mcgill_univ_ca_logo.png",
+    "credit": "Wikimedia Commons，公有領域（PD-textlogo／1922 紋章），可能有商標限制",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Mcgill_univ_ca_logo.png"
+  },
+  "羅文大學": {
+    "file": "enr-logo-251b26ea14.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Rowan_univ_nj_textlogo.png",
+    "credit": "Wikimedia Commons，PD-textlogo（來源 rowan.edu），可能有商標限制",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Rowan_univ_nj_textlogo.png"
+  },
+  "CSIRO Black Mountain": {
+    "file": "enr-logo-e7b05a17de.webp",
+    "source_url": "https://en.wikipedia.org/wiki/File:CSIRO_Logo.svg",
+    "credit": "English Wikipedia，美國 PD-ineligible（作者 CSIRO，取自年報）；澳洲可能非自由，商標權屬 CSIRO",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。",
+    "license_url": "https://en.wikipedia.org/wiki/File:CSIRO_Logo.svg"
+  },
+  "休士頓大學城中分校": {
+    "file": "enr-logo-0c3fbc7931.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:University_of_Houston-Downtown_wordmark.svg",
+    "credit": "Wikimedia Commons，PD-textlogo（作者 UHD，取自學校圖形標準），可能有商標限制",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:University_of_Houston-Downtown_wordmark.svg"
+  },
+  "史丹佛大學醫學院": {
+    "file": "enr-logo-6e34bc7641.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Stanford_School_of_Medicine_Logo.jpg",
+    "credit": "Wikimedia Commons，PD-textlogo，可能有商標限制",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Stanford_School_of_Medicine_Logo.jpg"
+  },
+  "University of Tennessee Health Science Center": {
+    "file": "enr-logo-6b99e5d1e9.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:UTHSC_logo.svg",
+    "credit": "Wikimedia Commons，PD-textlogo（作者 UTHSC），可能有商標限制",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:UTHSC_logo.svg"
   }
 }

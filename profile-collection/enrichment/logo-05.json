@@ -1,0 +1,137 @@
+{
+ "batch": 5,
+ "institutions": [
+  {
+   "name": "聖約翰科技大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-05/sju.svg",
+    "source_url": "https://zh.wikipedia.org/wiki/File:St._John%27s_University_(restored_in_1967)_seal.svg",
+    "license_url": "https://zh.wikipedia.org/wiki/File:St._John%27s_University_(restored_in_1967)_seal.svg",
+    "credit": "中文維基百科校徽檔（非自由著作，合理使用；轉自學校官網標誌），版權屬該機構，用於地理識別",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "校徽，同一機構；來源為 zh.wikipedia 非自由檔"
+  },
+  {
+   "name": "中央研究院中國文哲研究所（南港院區）",
+   "note": "官網無法連線，Commons 無檔案，未找到。"
+  },
+  {
+   "name": "麥基爾大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-05/mcgill.png",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mcgill_univ_ca_logo.png",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Mcgill_univ_ca_logo.png",
+    "credit": "Wikimedia Commons，公有領域（PD-textlogo／1922 紋章），可能有商標限制",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": ""
+  },
+  {
+   "name": "羅文大學",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-05/rowan.png",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Rowan_univ_nj_textlogo.png",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Rowan_univ_nj_textlogo.png",
+    "credit": "Wikimedia Commons，PD-textlogo（來源 rowan.edu），可能有商標限制",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "文字標誌"
+  },
+  {
+   "name": "CSIRO Black Mountain",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-05/csiro.svg",
+    "source_url": "https://en.wikipedia.org/wiki/File:CSIRO_Logo.svg",
+    "license_url": "https://en.wikipedia.org/wiki/File:CSIRO_Logo.svg",
+    "credit": "English Wikipedia，美國 PD-ineligible（作者 CSIRO，取自年報）；澳洲可能非自由，商標權屬 CSIRO",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "機構為 CSIRO 的 Black Mountain 園區，使用 CSIRO 標誌"
+  },
+  {
+   "name": "休士頓大學城中分校",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-05/uhd.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:University_of_Houston-Downtown_wordmark.svg",
+    "license_url": "https://commons.wikimedia.org/wiki/File:University_of_Houston-Downtown_wordmark.svg",
+    "credit": "Wikimedia Commons，PD-textlogo（作者 UHD，取自學校圖形標準），可能有商標限制",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": ""
+  },
+  {
+   "name": "史丹佛大學醫學院",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-05/stanfordmed.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Stanford_School_of_Medicine_Logo.jpg",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Stanford_School_of_Medicine_Logo.jpg",
+    "credit": "Wikimedia Commons，PD-textlogo，可能有商標限制",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": "2013 年版，含 Medical Center 字樣"
+  },
+  {
+   "name": "李兆然家醫科診所",
+   "note": "私人診所，未找到官方 logo。"
+  },
+  {
+   "name": "University of Tennessee Health Science Center",
+   "logo": {
+    "image_path": "/tmp/puma-logos/logo-05/uthsc.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:UTHSC_logo.svg",
+    "license_url": "https://commons.wikimedia.org/wiki/File:UTHSC_logo.svg",
+    "credit": "Wikimedia Commons，PD-textlogo（作者 UTHSC），可能有商標限制",
+    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
+   },
+   "alias_of": null,
+   "note": ""
+  },
+  {
+   "name": "汐止晶華眼科診所",
+   "note": "私人診所，未找到官方 logo。"
+  },
+  {
+   "name": "三軍總醫院",
+   "note": "官網 403、Commons 無 logo，未找到。"
+  },
+  {
+   "name": "臺中榮民總醫院",
+   "note": "首頁未取得自身 logo，Commons 無，未找到。"
+  },
+  {
+   "name": "奇美醫院",
+   "note": "首頁未取得 logo，Commons 無，未找到。"
+  },
+  {
+   "name": "花蓮慈濟醫院",
+   "note": "官網無回應，Commons 無，未找到。"
+  },
+  {
+   "name": "臺北榮民總醫院",
+   "note": "官網無回應，Commons 無，未找到。"
+  },
+  {
+   "name": "高雄榮民總醫院",
+   "note": "首頁僅有 favicon，Commons 無，未找到。"
+  },
+  {
+   "name": "新竹馬偕紀念醫院",
+   "note": "官網無法連線，未找到。"
+  },
+  {
+   "name": "恩主公醫院",
+   "note": "未找到。"
+  },
+  {
+   "name": "雙和醫院",
+   "note": "Commons 無 logo，未找到。"
+  }
+ ]
+}
