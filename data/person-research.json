@@ -1,5 +1,24 @@
 [
 {
+  "id": "726d849517cacf65fbf13be98e531779",
+  "section": "會員名單",
+  "raw": "葉國樑（台灣師範大學健康促進與衛生教育學系退休教授）",
+  "keywords": [
+    {
+      "label": "環境衛生",
+      "source": "https://www.he.ntnu.edu.tw/wp-content/uploads/2020/02/%E5%9C%A8%E8%81%B7%E7%8F%AD%E7%A0%94%E7%A9%B6%E7%94%9F%E6%89%8B%E5%86%8A%EF%BC%88108%E5%AD%B8%E5%B9%B4%E5%BA%A6%EF%BC%89.pdf"
+    },
+    {
+      "label": "環境教育",
+      "source": "https://www.he.ntnu.edu.tw/wp-content/uploads/2020/02/%E5%9C%A8%E8%81%B7%E7%8F%AD%E7%A0%94%E7%A9%B6%E7%94%9F%E6%89%8B%E5%86%8A%EF%BC%88108%E5%AD%B8%E5%B9%B4%E5%BA%A6%EF%BC%89.pdf"
+    },
+    {
+      "label": "空氣污染",
+      "source": "https://www.he.ntnu.edu.tw/wp-content/uploads/2020/02/%E5%9C%A8%E8%81%B7%E7%8F%AD%E7%A0%94%E7%A9%B6%E7%94%9F%E6%89%8B%E5%86%8A%EF%BC%88108%E5%AD%B8%E5%B9%B4%E5%BA%A6%EF%BC%89.pdf"
+    }
+  ]
+},
+{
   "id": "00db7660e568a2f311c0dc6812fbe299",
   "section": "會員名單",
   "raw": "湯婉君（國立台灣藝術大學兼任講師）",
@@ -24082,6 +24101,26 @@
     "raw": "郭一勤（崑山科技大學空間設計系助理教授）",
     "keywords": [
       {
+        "label": "學校建築",
+        "source": "https://web.ksu.edu.tw/DTCRSDD/teacher/z9Bu1JBuWk57fREtjIH_NQ--"
+      },
+      {
+        "label": "人與環境行為研究",
+        "source": "https://web.ksu.edu.tw/DTCRSDD/teacher/z9Bu1JBuWk57fREtjIH_NQ--"
+      },
+      {
+        "label": "街頭藝術",
+        "source": "https://web.ksu.edu.tw/DTCRSDD/teacher/z9Bu1JBuWk57fREtjIH_NQ--"
+      },
+      {
+        "label": "社區營造",
+        "source": "https://web.ksu.edu.tw/DTCRSDD/teacher/z9Bu1JBuWk57fREtjIH_NQ--"
+      },
+      {
+        "label": "活動企劃",
+        "source": "https://web.ksu.edu.tw/DTCRSDD/teacher/z9Bu1JBuWk57fREtjIH_NQ--"
+      },
+      {
         "label": "環境心理學",
         "source": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
       },
@@ -24453,6 +24492,14 @@
     "raw": "謝婉華（慈濟大學副教授）",
     "keywords": [
       {
+        "label": "護理",
+        "source": "https://ph.tcu.edu.tw/?page_id=2960"
+      },
+      {
+        "label": "輻射健康管理",
+        "source": "https://ph.tcu.edu.tw/?page_id=2960"
+      },
+      {
         "label": "健康諮詢",
         "source": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
       },
@@ -24494,6 +24541,26 @@
     "section": "會員名單",
     "raw": "陳言丞（慈濟大學醫學系外科學科副教授）",
     "keywords": [
+      {
+        "label": "肝膽胰外科",
+        "source": "https://hlm.tzuchi.com.tw/home/index.php/team-gsurg/dr03035"
+      },
+      {
+        "label": "內分泌外科",
+        "source": "https://hlm.tzuchi.com.tw/home/index.php/team-gsurg/dr03035"
+      },
+      {
+        "label": "移植外科",
+        "source": "https://hlm.tzuchi.com.tw/home/index.php/team-gsurg/dr03035"
+      },
+      {
+        "label": "微創手術",
+        "source": "https://hlm.tzuchi.com.tw/home/index.php/team-gsurg/dr03035"
+      },
+      {
+        "label": "達文西機器手臂輔助手術",
+        "source": "https://hlm.tzuchi.com.tw/home/index.php/team-gsurg/dr03035"
+      },
       {
         "label": "肝膽胰手術",
         "source": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"
@@ -32220,6 +32287,18 @@
     "section": "會員名單",
     "raw": "楊志仁（高雄醫學大學 醫學院教授）",
     "keywords": [
+      {
+        "label": "肺阻塞",
+        "source": "https://www.kmuh.org.tw/Web/WebRegistration/DocIntro/DocDetail?lang=tw&doctorID=880306&virtualCode=HD14&dCode=0140"
+      },
+      {
+        "label": "肺炎",
+        "source": "https://www.kmuh.org.tw/Web/WebRegistration/DocIntro/DocDetail?lang=tw&doctorID=880306&virtualCode=HD14&dCode=0140"
+      },
+      {
+        "label": "呼吸道疾病",
+        "source": "https://www.kmuh.org.tw/Web/WebRegistration/DocIntro/DocDetail?lang=tw&doctorID=880306&virtualCode=HD14&dCode=0140"
+      },
       {
         "label": "肺癌",
         "source": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"

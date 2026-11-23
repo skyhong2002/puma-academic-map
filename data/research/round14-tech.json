@@ -1,0 +1,107 @@
+[
+  {
+    "section": "會員名單",
+    "raw": "曾國展（國立屏東科技大學食品科學系助理教授）",
+    "sources": [
+      {
+        "label": "屏東科技大學食品科學系曾國展師資頁",
+        "description": "屏科大食品科學系師資頁列曾國展為助理教授，專長標示為食品加工、油脂加工、酒類製造、工廠管理，並附單人照片。",
+        "url": "https://fose.npust.edu.tw/blog/teacher/%E6%9B%BE%E5%9C%8B%E5%B1%95/",
+        "institutions": [
+          "國立屏東科技大學"
+        ],
+        "department": "食品科學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳言丞（慈濟大學醫學系外科學科副教授）",
+    "sources": [
+      {
+        "label": "花蓮慈濟醫院一般外科陳言丞醫師頁",
+        "description": "花蓮慈濟醫院一般外科醫師頁列陳言丞為一般外科主任，現職含慈濟大學醫學系專任副教授；專長標示為肝膽胰外科、內分泌外科、移植外科、肝膽胰胃腸腫瘤微創手術、達文西機器手臂輔助手術，並附醫師照片。",
+        "url": "https://hlm.tzuchi.com.tw/home/index.php/team-gsurg/dr03035",
+        "institutions": [
+          "慈濟大學"
+        ],
+        "department": "醫學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "洪思群（慈濟大學醫學系教授）",
+    "sources": [
+      {
+        "label": "台北慈濟醫院腎臟內科洪思群醫師頁",
+        "description": "台北慈濟醫院醫師頁列洪思群為內科部主任、腎臟內科主任，教職欄標示慈濟大學醫學系教師（頁面更新日期 2020/05/27，當時職稱為助理教授；署名為教授，推定其後升等）；專長標示為內科學、腎臟學、透析治療，並附醫師照片。",
+        "url": "https://taipei.tzuchi.com.tw/%E6%B4%AA%E6%80%9D%E7%BE%A4-%E9%86%AB%E5%B8%AB/",
+        "institutions": [
+          "慈濟大學"
+        ],
+        "department": "醫學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "謝婉華（慈濟大學副教授）",
+    "sources": [
+      {
+        "label": "慈濟大學公共衛生學系專任教師頁",
+        "description": "慈濟大學公共衛生學系專任教師頁列謝婉華為專任副教授，陽明大學公共衛生研究所博士；專長標示為護理、健康諮詢、環境與職業衛生、輻射健康管理，並附單人照片。",
+        "url": "https://ph.tcu.edu.tw/?page_id=2960",
+        "institutions": [
+          "慈濟大學"
+        ],
+        "department": "公共衛生學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "楊志仁（高雄醫學大學 醫學院教授）",
+    "sources": [
+      {
+        "label": "高醫附醫胸腔內科楊志仁醫師頁",
+        "description": "高醫附設中和紀念醫院胸腔內科醫師頁列楊志仁，現任職稱含高雄醫學大學醫學院教授、學士後醫學系系主任；專長標示為肺癌、氣喘、肺阻塞、肺炎、一般呼吸道疾病，高雄醫學大學醫學研究所博士，並附單人照片。",
+        "url": "https://www.kmuh.org.tw/Web/WebRegistration/DocIntro/DocDetail?lang=tw&doctorID=880306&virtualCode=HD14&dCode=0140",
+        "institutions": [
+          "高雄醫學大學"
+        ],
+        "department": "醫學院"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "賴明材（南臺科技大學企業管理系教授）",
+    "sources": [
+      {
+        "label": "南臺科技大學企業管理系賴明材師資頁",
+        "description": "南臺科大企業管理系師資頁列賴明材為教授，清華大學工業工程博士，曾任商管學院院長；學術專長標示為統計應用、作業研究、可靠度分析，並附單人照片。",
+        "url": "https://ba.stust.edu.tw/tc/node/101",
+        "institutions": [
+          "南臺科技大學"
+        ],
+        "department": "企業管理系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "郭一勤（崑山科技大學空間設計系助理教授）",
+    "sources": [
+      {
+        "label": "崑山科技大學空間設計系郭一勤教師履歷頁",
+        "description": "崑山科大空間設計系教師履歷頁列郭一勤為助理教授，台灣大學建築與城鄉研究所博士；專長領域標示為學校建築、人與環境行為研究、街頭藝術、社區營造、活動企劃，並附單人照片。",
+        "url": "https://web.ksu.edu.tw/DTCRSDD/teacher/z9Bu1JBuWk57fREtjIH_NQ--",
+        "institutions": [
+          "崑山科技大學"
+        ],
+        "department": "空間設計系"
+      }
+    ]
+  }
+]
