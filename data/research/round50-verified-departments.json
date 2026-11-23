@@ -1,0 +1,152 @@
+[
+  {
+    "section": "會員名單",
+    "raw": "許菁芳（國立暨南大學公共行政學系副教授）",
+    "sources": [
+      {
+        "label": "公行系個人頁：標題與單位",
+        "url": "https://dppa.ncnu.edu.tw/p/412-1028-877.php",
+        "institutions": [
+          "國立暨南國際大學"
+        ],
+        "description": "頁面原文：「許菁芳副教授 國立暨南國際大學公共行政與政策學系」（公行系個人頁：標題與單位）",
+        "department": "",
+        "departments": {
+          "國立暨南國際大學": "公共行政與政策學系"
+        }
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "林靖修（臺東大學南島文化研究博士班教授）",
+    "sources": [
+      {
+        "label": "公事系個人頁：職稱",
+        "url": "https://pca.nttu.edu.tw/p/16-1028-36335.php?Lang=zh-tw",
+        "institutions": [
+          "國立臺東大學"
+        ],
+        "description": "頁面原文：「林靖修老師 姓 名 林靖修 Jing-siou LIN 職 稱 教授」（公事系個人頁：職稱）",
+        "department": "",
+        "departments": {
+          "國立臺東大學": "公共與文化事務學系"
+        }
+      },
+      {
+        "label": "公事系個人頁：現職單位",
+        "url": "https://pca.nttu.edu.tw/p/16-1028-36335.php?Lang=zh-tw",
+        "institutions": [
+          "國立臺東大學"
+        ],
+        "description": "頁面原文：「國立台東大學公共與文化事務學系南島文化碩士班 專任教授 （2023.08-迄今）」（公事系個人頁：現職單位）",
+        "department": "",
+        "departments": {
+          "國立臺東大學": "公共與文化事務學系"
+        }
+      },
+      {
+        "label": "南島文化研究博士班師資陣容",
+        "url": "https://pas.nttu.edu.tw/p/426-1076-3.php?Lang=zh-tw",
+        "institutions": [
+          "國立臺東大學"
+        ],
+        "description": "頁面原文：「林靖修 教授 公共與文化事務學系兼南島文化中心主任」（南島文化研究博士班師資陣容）",
+        "department": "",
+        "departments": {
+          "國立臺東大學": "公共與文化事務學系"
+        }
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "洪媽益（國立臺北科技大學教授）",
+    "sources": [
+      {
+        "label": "應英系本系教師頁",
+        "url": "https://eng.ntut.edu.tw/p/412-1091-15296.php?Lang=zh-tw",
+        "institutions": [
+          "國立臺北科技大學"
+        ],
+        "description": "頁面原文：「洪媽益 教授 miguel@ntut.edu.tw」（應英系本系教師頁）",
+        "department": "",
+        "departments": {
+          "國立臺北科技大學": "應用英文系"
+        }
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳文玲（政大X實驗學院教授）",
+    "sources": [
+      {
+        "label": "政大X實驗學院團隊頁",
+        "url": "https://x.nccu.edu.tw/about-college/members",
+        "institutions": [
+          "國立政治大學"
+        ],
+        "description": "頁面原文：「陳文玲 廣告系教授兼Ｘ實驗學院副院長」（政大X實驗學院團隊頁）",
+        "department": "",
+        "departments": {
+          "國立政治大學": "廣告學系"
+        }
+      },
+      {
+        "label": "廣告系師資頁：專任教授",
+        "url": "https://ad.nccu.edu.tw/PageStaffing/Detail?fid=2548&id=184",
+        "institutions": [
+          "國立政治大學"
+        ],
+        "description": "頁面原文：「陳文玲 教授 職稱 教授 電子郵件 wlchen@nccu.edu.tw 類別 專任」（廣告系師資頁：專任教授）",
+        "department": "",
+        "departments": {
+          "國立政治大學": "廣告學系"
+        }
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "鄭正元（台科大教授）",
+    "sources": [
+      {
+        "label": "機械系專任師資頁",
+        "url": "https://www.me.ntust.edu.tw/p/405-1005-49906,c2250.php?Lang=zh-tw",
+        "institutions": [
+          "國立臺灣科技大學"
+        ],
+        "description": "頁面原文：「姓名: 鄭正元 職稱: 特聘教授 (兼高速3D列印研究中心主任)」（機械系專任師資頁）",
+        "department": "",
+        "departments": {
+          "國立臺灣科技大學": "機械工程系"
+        }
+      }
+    ],
+    "locations": []
+  },
+  {
+    "section": "會員名單",
+    "raw": "葉筱凡（長庚大學人文及社會學科助理教授）",
+    "sources": [
+      {
+        "label": "人文及社會醫學科師資介紹",
+        "url": "https://www.cgu.edu.tw/hsm/Subject/Detail/53713?nodeId=14673",
+        "institutions": [
+          "長庚大學"
+        ],
+        "description": "頁面原文：「師資介紹 葉筱凡助理教授」（人文及社會醫學科師資介紹）",
+        "department": "",
+        "departments": {
+          "長庚大學": "人文及社會醫學科"
+        }
+      }
+    ],
+    "locations": []
+  }
+]
