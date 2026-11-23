@@ -1,5 +1,43 @@
 [
 {
+  "id": "100ea2c561f5b93029f0410167ab44e3",
+  "section": "會員名單",
+  "raw": "Malas Takisdahuan（彰化師範大學教育學院兼任助理教授）",
+  "keywords": [
+    {
+      "label": "原住民族權利促進發展",
+      "source": "https://coe.ncue.edu.tw/p/404-1033-26781.php?Lang=zh-tw"
+    },
+    {
+      "label": "長期照護政策研究",
+      "source": "https://coe.ncue.edu.tw/p/404-1033-26781.php?Lang=zh-tw"
+    },
+    {
+      "label": "政策立法研究",
+      "source": "https://coe.ncue.edu.tw/p/404-1033-26781.php?Lang=zh-tw"
+    },
+    {
+      "label": "政黨形象與原住民族投票抉擇",
+      "source": "https://coe.ncue.edu.tw/p/404-1033-26781.php?Lang=zh-tw"
+    }
+  ]
+},
+{
+  "id": "84a5361cd8bb17e7b561133282f2bf24",
+  "section": "會員名單",
+  "raw": "吳密察（退休台灣史學者）",
+  "keywords": [
+    {
+      "label": "台灣史",
+      "source": "https://press.ntu.edu.tw/tw/publish/show.php?act=book&refer=ntup_book01174&page=3&field=bdom"
+    },
+    {
+      "label": "日本近代史",
+      "source": "https://press.ntu.edu.tw/tw/publish/show.php?act=book&refer=ntup_book01174&page=3&field=bdom"
+    }
+  ]
+},
+{
   "id": "3c71c9e6bb7b130b90e36eef3d88c6ab",
   "section": "會員名單",
   "raw": "鄭邦鎮（台灣文學國家園區協進會理事長）",
