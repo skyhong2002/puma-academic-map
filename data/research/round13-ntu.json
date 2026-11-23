@@ -1,0 +1,47 @@
+[
+  {
+    "section": "會員名單",
+    "raw": "劉定朋（台灣大學工程科學及海洋工程系助理教授）",
+    "sources": [
+      {
+        "label": "臺大工程科學及海洋工程學系教師頁劉定朋助理教授",
+        "description": "臺大工程科學及海洋工程學系官網教師頁列劉定朋為助理教授，德州大學奧斯汀分校博士；研究專長標示為結構可靠度、機器學習與代理模型、不確定性量化、海洋結構動態分析、多精度模型與數位孿生，並附單人照片。",
+        "url": "https://homepage.ntu.edu.tw/~ntuesoe/tw/faculty.html",
+        "institutions": [
+          "國立臺灣大學"
+        ],
+        "department": "工程科學及海洋工程學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "蔡欣祐（台灣大學分子醫學所副教授）",
+    "sources": [
+      {
+        "label": "臺大醫學院分子醫學研究所蔡欣祐副教授頁",
+        "description": "臺大醫學院分子醫學研究所專任教師頁列蔡欣祐（Hsin-Yue Tsai）為專任副教授；研究領域標示為核糖核酸生化學、次世代定序結果分析、線蟲發展生物學。頁面照片為聚餐生活照（背景有他人），未採用為頭像。",
+        "url": "https://molecular.ntu.edu.tw/Teacher/Faculty_more?Id=16&type=1",
+        "institutions": [
+          "國立臺灣大學"
+        ],
+        "department": "醫學院分子醫學研究所"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "王弘毅（台灣大學臨床醫學研究所教授）",
+    "sources": [
+      {
+        "label": "臺大生態學與演化生物學研究所王弘毅教授頁",
+        "description": "臺大生態學與演化生物學研究所專任及合聘師資頁列王弘毅為教授，臨床醫學所合聘；研究主題標示為族群遺傳學、分子演化學、基因體學。頁面照片為戶外戴墨鏡照，未採用為頭像。",
+        "url": "https://ecology.lifescience.ntu.edu.tw/doku.php/zh-tw/faculty",
+        "institutions": [
+          "國立臺灣大學"
+        ],
+        "department": "臨床醫學研究所（合聘生態學與演化生物學研究所）"
+      }
+    ]
+  }
+]
