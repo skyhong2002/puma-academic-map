@@ -1,0 +1,65 @@
+[
+  {
+    "section": "會員名單",
+    "raw": "蔡佩桂（國立高雄師範大學跨領域藝術研究所副教授）",
+    "sources": [
+      {
+        "label": "高師大教師學經歷公開頁：蔡佩桂",
+        "description": "國立高雄師範大學教師學經歷公開頁載蔡佩桂為藝術學院跨領域藝術研究所副教授（108 年 8 月至今）、助理教授（102 年 8 月–108 年 7 月），倫敦大學藝術史研究所博士。",
+        "url": "https://sso.nknu.edu.tw/DataOpen2Search/vita.aspx?UNID=3194",
+        "institutions": [
+          "國立高雄師範大學"
+        ],
+        "department": "藝術學院跨領域藝術研究所"
+      },
+      {
+        "label": "跨領域美感教育卓越領航計畫教師頁：蔡佩桂",
+        "description": "計畫教師頁列「國立高雄師範大學藝術學院跨領域藝術研究所副教授兼任所長」，Courtauld Institute of Art 藝術史博士，並附單人照片；與署名單位、職稱相符。",
+        "url": "https://www.inarts.world/teacher/%E8%94%A1%E4%BD%A9%E6%A1%82/",
+        "institutions": [
+          "國立高雄師範大學"
+        ],
+        "department": "藝術學院跨領域藝術研究所"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "鄭瑞明（長榮大學名譽教授、台師大歷史系退休教授教授長榮大學名譽教授、台師大歷史系退休教授）",
+    "sources": [
+      {
+        "label": "長榮大學臺灣研究所退休專任教師頁：鄭瑞明",
+        "description": "長榮大學臺灣研究所退休專任教師頁列鄭瑞明為名譽教授，專長東南亞史、東亞海洋交通史、台灣早期海洋史，臺灣師範大學歷史系碩士，並附單人照片；對應署名「長榮大學名譽教授」。",
+        "url": "https://dweb.cjcu.edu.tw/taiwan/article/1443",
+        "institutions": [
+          "長榮大學"
+        ],
+        "department": "臺灣研究所"
+      },
+      {
+        "label": "臺大出版中心《來去台灣（台灣史論叢 移民篇）》作者簡介：鄭瑞明",
+        "description": "作者簡介載「鄭瑞明　臺灣師範大學歷史學系退休教授。研究專長為東南亞史、東亞海洋交通史、台灣早期海洋發展史」，研究專長與長榮大學頁一致，據以確認同一人，並對應署名「台師大歷史系退休教授」。",
+        "url": "https://press.ntu.edu.tw/tw/publish/show.php?act=book&refer=ntup_book01112&field=bser",
+        "institutions": [
+          "國立臺灣師範大學"
+        ],
+        "department": "歷史學系（退休教授）"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "Malas Takisdahuan（彰化師範大學教育學院兼任助理教授）",
+    "sources": [
+      {
+        "label": "臺中市政府性別人才資料庫：邱孟玲（Malas Takisdahuan）",
+        "description": "臺中市政府性平專區性別人才資料庫載邱孟玲 Malas Takisdahuan，現職彰化師範大學教育學院高齡健康促進與照護管理原民專班助理教授，東海大學政治學系博士；自列性別議題專長含性別與政策、教育、健康、政治、遷移。以此對應署名「彰化師範大學教育學院兼任助理教授」；頁面載「助理教授」，未標兼任。",
+        "url": "https://ge.taichung.gov.tw/talent/Details.aspx?Parser=99,7,42,,,,73",
+        "institutions": [
+          "國立彰化師範大學"
+        ],
+        "department": "教育學院高齡健康促進與照護管理原住民專班"
+      }
+    ]
+  }
+]
