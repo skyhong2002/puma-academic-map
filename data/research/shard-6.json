@@ -1362,11 +1362,6 @@
     "raw": "李閣桓（澳洲研究機構博士後研究員）",
     "sources": [
       {
-        "label": "研究機構研究員頁",
-        "description": "澳洲聯邦科學與工業研究組織 CSIRO 列 Ko-Huan Lee 為健康與生物安全部門博士後研究人員。",
-        "url": "https://people.csiro.au/l/k/ko-huan-lee"
-      },
-      {
         "label": "研究人員個人網站",
         "description": "個人網站並列中文姓名李閣桓與英文名 Ko-Huan Lee。",
         "url": "https://kohuanlee.wordpress.com/"
@@ -1374,12 +1369,13 @@
     ],
     "locations": [
       {
-        "institution": "CSIRO Black Mountain",
+        "institution": "坎培拉",
         "country": "澳洲",
         "city": "Canberra",
-        "lat": -35.2729083,
-        "lon": 149.1126362,
-        "source_url": "https://www.openstreetmap.org/way/763602398"
+        "lat": -35.2809,
+        "lon": 149.13,
+        "campus_only": true,
+        "source_url": "https://www.openstreetmap.org/search?query=Canberra#map=11/-35.2809/149.1300"
       }
     ]
   },

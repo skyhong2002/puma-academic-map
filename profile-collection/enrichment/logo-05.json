@@ -42,18 +42,6 @@
    "note": "文字標誌"
   },
   {
-   "name": "CSIRO Black Mountain",
-   "logo": {
-    "image_path": "/tmp/puma-logos/logo-05/csiro.svg",
-    "source_url": "https://en.wikipedia.org/wiki/File:CSIRO_Logo.svg",
-    "license_url": "https://en.wikipedia.org/wiki/File:CSIRO_Logo.svg",
-    "credit": "English Wikipedia，美國 PD-ineligible（作者 CSIRO，取自年報）；澳洲可能非自由，商標權屬 CSIRO",
-    "usage": "以原始圖形作非商業地理識別，保留原色彩和比例。"
-   },
-   "alias_of": null,
-   "note": "機構為 CSIRO 的 Black Mountain 園區，使用 CSIRO 標誌"
-  },
-  {
    "name": "休士頓大學城中分校",
    "logo": {
     "image_path": "/tmp/puma-logos/logo-05/uhd.svg",
