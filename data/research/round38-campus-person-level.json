@@ -1,0 +1,27 @@
+[
+  {
+    "section": "會員名單",
+    "raw": "謝婉華（慈濟大學副教授）",
+    "sources": [
+      {
+        "label": "慈濟大學公共衛生學系專任教師頁",
+        "description": "列謝婉華為專任副教授，研究室位於福田樓4樓 H416；系辦地址為花蓮市中央路三段701號（福田樓3樓），即中央校區。",
+        "url": "https://ph.tcu.edu.tw/?page_id=2960"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "慈濟大學",
+        "campus": "中央校區",
+        "country": "臺灣",
+        "city": "花蓮縣",
+        "lat": 23.99301,
+        "lon": 121.590234,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.59/23.983/6500",
+        "address": "花蓮縣花蓮市中央路三段701號",
+        "address_source_url": "https://ph.tcu.edu.tw/",
+        "replaces_default": true
+      }
+    ]
+  }
+]
