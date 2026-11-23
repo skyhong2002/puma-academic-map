@@ -1,0 +1,35 @@
+[
+  {
+    "section": "會員名單",
+    "raw": "Chaoyuh Yang 楊朝諭（Baylor College of Medicine 美國休士頓貝勒醫學院Emeritus Professor）",
+    "sources": [
+      {
+        "label": "貝勒醫學院心血管研究組教師名單：Chao-Yuh Yang, Ph.D.",
+        "description": "貝勒醫學院醫學系心血管研究組教師頁將 Chao-Yuh Yang, Ph.D. 列於 Emeritus Faculty（榮譽教授）名單；署名「Chaoyuh Yang 楊朝諭」與其職稱 Professor Emeritus 對應。",
+        "url": "https://www.bcm.edu/departments/medicine/sections/cardiovascular-research/faculty",
+        "institutions": [
+          "貝勒醫學院"
+        ],
+        "department": "醫學系心血管研究組"
+      },
+      {
+        "label": "HEART 公司科學委員會：楊朝諭博士",
+        "description": "公司網站列「楊朝諭_博士／Chao-Yuh Yang, PhD」為 Scientific Board Member，職稱 Professor Emeritus, Baylor College of Medicine，頁面同時給出中文姓名與英文名，與署名及貝勒醫學院榮譽教授職稱對應。",
+        "url": "https://hearthrtllc.com/en/about-us/",
+        "institutions": [
+          "貝勒醫學院"
+        ],
+        "department": "醫學系"
+      },
+      {
+        "label": "Frontiers in Cardiovascular Medicine 2025：LDL atherogenicity 更新回顧",
+        "description": "論文作者列 Chao-Yuh Yang，單位 Department of Medicine, Baylor College of Medicine；文章主題為以大小、密度、氧化、脂蛋白(a) 與電負性界定的 LDL 致動脈粥狀硬化性，作者另含 Gotto、Chen Chu-Huang 等，可據以確認其研究方向為脂蛋白與動脈粥狀硬化。",
+        "url": "https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2025.1649759/full",
+        "institutions": [
+          "貝勒醫學院"
+        ],
+        "department": "醫學系"
+      }
+    ]
+  }
+]
