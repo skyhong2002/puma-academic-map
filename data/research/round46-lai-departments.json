@@ -1,0 +1,46 @@
+[
+  {
+    "section": "會員名單",
+    "raw": "賴建雄（長庚大學醫學院助理教授）",
+    "sources": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "長庚大學"
+        ],
+        "description": "教育部彙整表（2025-10-15 調查）記載：長庚大學中醫學系，專任助理教授。同名者僅此 1 筆。",
+        "department": "",
+        "departments": {
+          "長庚大學": "中醫學系"
+        }
+      },
+      {
+        "label": "長庚大學中醫學系「西醫臨床教師」名錄",
+        "url": "https://www.cgu.edu.tw/cm/Contents?nodeId=3451",
+        "institutions": [
+          "長庚大學"
+        ],
+        "description": "名錄「西醫臨床專任教師」表列賴建雄，職級臨床助理教授、院區嘉義、科別眼科（發布 2024/01/25）；長庚大學醫學系人事室「兼任臨床教師」名單（113/12/05，619 筆）查無賴建雄。",
+        "department": "",
+        "departments": {
+          "長庚大學": "中醫學系"
+        }
+      },
+      {
+        "label": "長庚醫療財團法人醫師介紹頁：賴建雄",
+        "url": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/4557",
+        "institutions": [
+          "長庚大學",
+          "嘉義長庚紀念醫院"
+        ],
+        "description": "醫師頁載賴建雄為嘉義長庚醫院眼科主治醫師，職稱助理教授，台北醫學大學醫學系畢業。「眼科」是醫院科別；長庚大學端單位依教育部名錄與中醫學系名錄為中醫學系（非醫學系）。此為醫院頁面，非校方個人頁，不推定校內個人辦公室。",
+        "department": "",
+        "departments": {
+          "嘉義長庚紀念醫院": "眼科",
+          "長庚大學": "中醫學系"
+        }
+      }
+    ]
+  }
+]
