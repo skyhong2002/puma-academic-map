@@ -1,0 +1,62 @@
+[
+  {
+    "section": "會員名單",
+    "raw": "戴瑜慧（國立陽明交通大學傳播與科技學系副教授）",
+    "sources": [
+      {
+        "label": "個人網站",
+        "description": "本人個人網站，標示陽明交大傳播與科技學系副教授，並列出研究領域與正式人像。",
+        "url": "https://yuhuitai.com/"
+      },
+      {
+        "label": "陽明交通大學研發優勢分析平台",
+        "description": "學術平台人物頁，列出傳播與科技學系副教授與研究興趣。",
+        "url": "https://scholar.nycu.edu.tw/en/persons/yu-hui-tai/"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "廖奕翰（國立陽明交通大學應用化學系教授）",
+    "sources": [
+      {
+        "label": "陽明交通大學研發優勢分析平台",
+        "description": "學術平台人物頁，列出應用化學系教授、研究興趣與人像。",
+        "url": "https://scholar.nycu.edu.tw/en/persons/ian-liau/"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "王鼎涵（國立陽明交通大學牙醫系副教授）",
+    "sources": [
+      {
+        "label": "陽明交通大學研發優勢分析平台",
+        "description": "學術平台人物頁，列出牙醫學系副教授、研究興趣與人像。",
+        "url": "https://scholar.nycu.edu.tw/en/persons/ding-han-wang/"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "潘美玲（國立陽明交通大學人文社會學系教授）",
+    "sources": [
+      {
+        "label": "陽明交通大學研發優勢分析平台",
+        "description": "學術平台人物頁，列出人文社會學系教授、研究興趣與人像；頁面圖片說明為「美玲 潘」。",
+        "url": "https://scholar.nycu.edu.tw/en/persons/mei-lin-pan/"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "王邦任（陽明交通大學資訊工程學系助理教授）",
+    "sources": [
+      {
+        "label": "陽明交通大學研發優勢分析平台",
+        "description": "學術平台人物頁（英文名 Dennis Wang，圖片說明為「邦任 王」），列出資訊工程學系助理教授與人像。",
+        "url": "https://scholar.nycu.edu.tw/en/persons/dennis-wang/"
+      }
+    ]
+  }
+]
