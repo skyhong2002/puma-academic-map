@@ -1,5 +1,22 @@
 [
   {
+    "name": "國立高雄科技大學",
+    "aliases": ["高雄科技大學", "高科大"],
+    "official_url": "https://www.nkust.edu.tw/",
+    "campuses": [
+      {
+        "name": "楠梓校區",
+        "county": "高雄市",
+        "address": "高雄市楠梓區海專路142號",
+        "source_url": "https://www.nkust.edu.tw/",
+        "lat": 22.72524,
+        "lon": 120.314083,
+        "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.30/22.72/10000"
+      }
+    ],
+    "checked_on": "2026-11-23"
+  },
+  {
     "name": "國立臺灣大學",
     "aliases": [
       "國立台灣大學",

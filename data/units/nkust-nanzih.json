@@ -1,0 +1,12 @@
+{
+  "institution": "國立高雄科技大學",
+  "campus": "楠梓校區",
+  "units": {
+    "造船及海洋工程系": {
+      "lat": 22.72524,
+      "lon": 120.314083,
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.30/22.72/10000",
+      "address_source_url": "https://dnaoe.nkust.edu.tw/"
+    }
+  }
+}
