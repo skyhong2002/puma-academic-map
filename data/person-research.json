@@ -9793,6 +9793,10 @@
     "raw": "林育聖（臺北大學副教授）",
     "keywords": [
       {
+        "label": "方法論",
+        "source": "https://crm.ntpu.edu.tw/index.php?temp=team&lang=cht"
+      },
+      {
         "label": "犯罪學理論",
         "source": "https://crm.ntpu.edu.tw/index.php?option=module&lang=cht&task=pageinfo&id=8239"
       },
@@ -9815,6 +9819,14 @@
     "section": "會員名單",
     "raw": "江義平（國立臺北大學資訊管理研究所退休教授）",
     "keywords": [
+      {
+        "label": "網路市場調查研究",
+        "source": "https://www.mis.ntpu.edu.tw/professor/"
+      },
+      {
+        "label": "網路消費行為",
+        "source": "https://www.mis.ntpu.edu.tw/professor/"
+      },
       {
         "label": "網路行銷",
         "source": "https://web.ntpu.edu.tw/~ipchiang/"
@@ -9941,6 +9953,10 @@
     "section": "會員名單",
     "raw": "趙雪君（國立臺北大學中國文學系副教授）",
     "keywords": [
+      {
+        "label": "劇本寫作",
+        "source": "https://www.cl.ntpu.edu.tw/faculty/"
+      },
       {
         "label": "古典戲曲",
         "source": "https://www.cl.ntpu.edu.tw/faculty/"
@@ -10290,6 +10306,26 @@
     "raw": "呂佩怡（國立台北教育大學當代藝術評論與策展研究碩士全英文學位學程教授）",
     "keywords": [
       {
+        "label": "當代藝術策展",
+        "source": "https://ccsca.ntue.edu.tw/web/people/people2_in.jsp?fp_id=FP1704940732896"
+      },
+      {
+        "label": "場外藝術",
+        "source": "https://ccsca.ntue.edu.tw/web/people/people2_in.jsp?fp_id=FP1704940732896"
+      },
+      {
+        "label": "社區藝術",
+        "source": "https://ccsca.ntue.edu.tw/web/people/people2_in.jsp?fp_id=FP1704940732896"
+      },
+      {
+        "label": "參與式藝術",
+        "source": "https://ccsca.ntue.edu.tw/web/people/people2_in.jsp?fp_id=FP1704940732896"
+      },
+      {
+        "label": "社會參與式藝術",
+        "source": "https://ccsca.ntue.edu.tw/web/people/people2_in.jsp?fp_id=FP1704940732896"
+      },
+      {
         "label": "美術館之外藝術實踐與策展",
         "source": "https://tcaaarchive.org/Curator/Detail/1292"
       },
@@ -10429,6 +10465,22 @@
     "raw": "朱盈樺（國立台北教育大學文化創意產業經營學系副教授）",
     "keywords": [
       {
+        "label": "攝影理論",
+        "source": "https://ccim.ntue.edu.tw/p/406-1030-12336,r1136.php?Lang=zh-tw"
+      },
+      {
+        "label": "影像美學",
+        "source": "https://ccim.ntue.edu.tw/p/406-1030-12336,r1136.php?Lang=zh-tw"
+      },
+      {
+        "label": "視覺文化研究",
+        "source": "https://ccim.ntue.edu.tw/p/406-1030-12336,r1136.php?Lang=zh-tw"
+      },
+      {
+        "label": "當代藝術創作",
+        "source": "https://ccim.ntue.edu.tw/p/406-1030-12336,r1136.php?Lang=zh-tw"
+      },
+      {
         "label": "西方現當代美學",
         "source": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
       },
@@ -10542,6 +10594,10 @@
     "raw": "游勝翔（國立臺北教育大學心理與諮商學系副教授）",
     "keywords": [
       {
+        "label": "健康心理學",
+        "source": "https://pacntue.ntue.edu.tw/p/412-1026-1642.php?Lang=zh-tw"
+      },
+      {
         "label": "臨床心理學",
         "source": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
       },
@@ -10601,6 +10657,10 @@
     "section": "會員名單",
     "raw": "王楚蓁（臺北教育大學語文與創作學系助理教授）",
     "keywords": [
+      {
+        "label": "華語課程設計",
+        "source": "https://lcw.ntue.edu.tw/p/404-1055-42412.php?Lang=zh-tw"
+      },
       {
         "label": "人工智慧輔助華語教學",
         "source": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
@@ -27239,6 +27299,18 @@
     "raw": "張耀中（澳洲迪肯大學資訊學院教授）",
     "keywords": [
       {
+        "label": "cybercrime",
+        "source": "https://experts.deakin.edu.au/61987-lennon-chang"
+      },
+      {
+        "label": "cyber security",
+        "source": "https://experts.deakin.edu.au/61987-lennon-chang"
+      },
+      {
+        "label": "disinformation",
+        "source": "https://experts.deakin.edu.au/61987-lennon-chang"
+      },
+      {
         "label": "Cybercrime and cyber law",
         "source": "https://cdl.smu.edu.sg/people/lennon-chang"
       },
@@ -27825,6 +27897,22 @@
     "raw": "高連庸（美國喬治華盛頓大學數學系副教授）",
     "keywords": [
       {
+        "label": "ergodic geometry",
+        "source": "https://sites.google.com/view/nyimakao/research"
+      },
+      {
+        "label": "dynamical systems",
+        "source": "https://sites.google.com/view/nyimakao/research"
+      },
+      {
+        "label": "differential geometry",
+        "source": "https://sites.google.com/view/nyimakao/research"
+      },
+      {
+        "label": "deformation theory",
+        "source": "https://sites.google.com/view/nyimakao/research"
+      },
+      {
         "label": "Dynamical systems and geometry",
         "source": "https://scholar.google.com/citations?hl=en&user=BzGiZfsAAAAJ"
       }
@@ -27882,6 +27970,18 @@
     "section": "會員名單",
     "raw": "林彥瑜（美國德堡大學社會人類學系助理教授）",
     "keywords": [
+      {
+        "label": "race",
+        "source": "https://www.yenyulintw.com/"
+      },
+      {
+        "label": "colonial empires",
+        "source": "https://www.yenyulintw.com/"
+      },
+      {
+        "label": "material culture",
+        "source": "https://www.yenyulintw.com/"
+      },
       {
         "label": "Global and transnational sociology",
         "source": "https://www.depauw.edu/files/cvs/curriculum_vitae_april_2026_yen_yu_lin.pdf"

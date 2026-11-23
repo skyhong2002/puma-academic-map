@@ -1,0 +1,62 @@
+[
+  {
+    "section": "會員名單",
+    "raw": "錢俊宇（德國科隆大學東亞系中文講師）",
+    "sources": [
+      {
+        "label": "科隆大學中國研究系（China-Studien）中文語言教學團隊 Chunyu Chien 人員頁",
+        "description": "科隆大學中國研究系語言教學團隊人員頁列 Chunyu Chien 為東亞研究所中文語言講師（Lektor），自 2001 年 10 月起任職；授課含現代中文、翻譯、報刊閱讀與中文法律語言。頁面未列研究專長欄，故未填研究詞。",
+        "url": "https://chinastudien.phil-fak.uni-koeln.de/arbeitsbereiche/sprachausbildung-chinesisch/personal/chunyu-chien",
+        "institutions": [
+          "科隆大學"
+        ],
+        "department": "東亞研究所中國研究系（中文語言教學）"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "林彥瑜（美國德堡大學社會人類學系助理教授）",
+    "sources": [
+      {
+        "label": "本人個人網站（Yen-Yu Lin，德堡大學 DePauw University 社會學與人類學系助理教授）",
+        "description": "個人網站（Yen-Yu Lin）載明其為 DePauw University 社會學與人類學系助理教授（tenure-track，2023 年起），社會學博士畢業於維吉尼亞大學，學士與碩士訓練於臺灣大學（含早稻田大學）；研究以質性與檔案方法探討種族、殖民帝國與物質文化。",
+        "url": "https://www.yenyulintw.com/",
+        "institutions": [
+          "德堡大學"
+        ],
+        "department": "社會學與人類學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "高連庸（美國喬治華盛頓大學數學系副教授）",
+    "sources": [
+      {
+        "label": "本人個人網站（Nyima Kao 高連庸，喬治華盛頓大學數學系副教授）",
+        "description": "個人網站標題為「Nyima Kao 高連庸」，載明其為喬治華盛頓大學副教授（Notre Dame 博士，2017）；研究頁寫明研究聚焦 ergodic geometry，以動力系統工具處理幾何與拓樸問題，關注熵與平衡態等熱力學對象和空間幾何的關係，及其在微分幾何與形變理論的應用。",
+        "url": "https://sites.google.com/view/nyimakao",
+        "institutions": [
+          "喬治華盛頓大學"
+        ],
+        "department": "數學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "張耀中（澳洲迪肯大學資訊學院教授）",
+    "sources": [
+      {
+        "label": "迪肯大學專家頁（Lennon Chang 張耀中，資訊科技學院）",
+        "description": "迪肯大學專家頁列 Lennon Chang 為 Cyber Risk and Policy 副教授（School of Information Technology、Deakin Cyber Research and Innovation Centre）；研究興趣為法律與科技交界、網路犯罪與資安、資安共同生產、假訊息與外國干預。署名職稱「教授」與官方頁「副教授」不一致，身分依姓名與校系對應。",
+        "url": "https://experts.deakin.edu.au/61987-lennon-chang",
+        "institutions": [
+          "迪肯大學"
+        ],
+        "department": "資訊科技學院"
+      }
+    ]
+  }
+]
