@@ -1,0 +1,47 @@
+[
+  {
+    "section": "會員名單",
+    "raw": "康世仁（西維吉尼亚機械材料及航空系教授）",
+    "sources": [
+      {
+        "label": "西維吉尼亞大學 Statler 工程學院教職員名錄：Bruce Kang",
+        "description": "Statler 工程學院教職員名錄載 Bruce Kang 為機械、材料與航太工程系教授；1987 年華盛頓大學博士，1976 年成功大學學士，1987 年起任教西維吉尼亞大學（2004 年升教授）；頁面未列研究專長欄，研究詞沿用既有 Google Scholar 紀錄。",
+        "url": "https://directory.statler.wvu.edu/faculty-staff-directory/bruce-kang",
+        "institutions": [
+          "西維吉尼亞大學"
+        ],
+        "department": "機械、材料與航太工程系（Statler 工程學院）"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳以萱（捷克帕拉茨基大學亞洲研究系資深講師）",
+    "sources": [
+      {
+        "label": "帕拉茨基大學哲學院亞洲研究系教職員名片：Yixuan Jandová Chen, M.A.",
+        "description": "帕拉茨基大學亞洲研究系教職員名片列 Yixuan Jandová Chen, M.A.（Filozofická fakulta, Katedra asijských studií）；名片列 2025–2026 年華語教學講座與論文，題目涵蓋海外華語教學實習、文化適應及中高級華語教材的正式語體；頁面未列研究專長欄，故不填研究詞。",
+        "url": "https://kas.upol.cz/nc/en/contacts/visit-card/empid/80053079/",
+        "institutions": [
+          "捷克帕拉茨基大學"
+        ],
+        "department": "哲學院亞洲研究系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "劉威（Johns Hopkins Bloomberg School of Public HealthPhD Candidate）",
+    "sources": [
+      {
+        "label": "約翰霍普金斯大學 Infectious Disease Dynamics 團隊人物頁：Wei Liu",
+        "description": "人物頁載 Wei Liu 為流行病學系博士候選人，研究以血清流行病學與時空資料建模，了解傳染病動態、族群免疫與介入成效；加入 JHSPH 前參與臺灣流感疫苗評估，以及撒哈拉以南非洲的瘧疾防治與母嬰健康計畫；臺灣大學流行病學碩士。",
+        "url": "https://www.iddynamics.jhsph.edu/wei-liu",
+        "institutions": [
+          "約翰霍普金斯大學彭博公共衛生學院"
+        ],
+        "department": "流行病學系（Infectious Disease Dynamics Group）"
+      }
+    ]
+  }
+]

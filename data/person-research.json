@@ -1,5 +1,32 @@
 [
 {
+  "id": "16780fae515977f69a28fb276a7f6efb",
+  "section": "會員名單",
+  "raw": "劉威（Johns Hopkins Bloomberg School of Public HealthPhD Candidate）",
+  "keywords": [
+    {
+      "label": "infectious disease dynamics",
+      "source": "https://www.iddynamics.jhsph.edu/wei-liu"
+    },
+    {
+      "label": "population immunity",
+      "source": "https://www.iddynamics.jhsph.edu/wei-liu"
+    },
+    {
+      "label": "seroepidemiology",
+      "source": "https://www.iddynamics.jhsph.edu/wei-liu"
+    },
+    {
+      "label": "spatial-temporal modeling",
+      "source": "https://www.iddynamics.jhsph.edu/wei-liu"
+    },
+    {
+      "label": "intervention effectiveness",
+      "source": "https://www.iddynamics.jhsph.edu/wei-liu"
+    }
+  ]
+},
+{
   "id": "16a242afa19b3972f8201d7b7f039ddd",
   "section": "會員名單",
   "raw": "劉俊秀（陽明交通大學土木工程學系退休教授）",
