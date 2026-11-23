@@ -1,0 +1,56 @@
+[
+  {
+    "section": "會員名單",
+    "raw": "張耀仁（中原大學電子系特聘教授）",
+    "sources": [
+      {
+        "label": "中原大學電子工程學系專任教師：張耀仁 Yao-Jen Chang",
+        "description": "系網專任教師頁列 Yao-Jen Chang 為 Distinguished Professor（通訊系統組），兼系主任，研究室為電資大樓 512、Intelligent Assistive Technology Lab.；與署名「電子系特聘教授」一致，頁面附單人照片。中原大學另有機械系特聘教授 Yaw-Jen Chang，為不同人。",
+        "url": "https://el.cycu.edu.tw/en/portfolio-item/yao-jen-chang/",
+        "institutions": [
+          "中原大學"
+        ],
+        "department": "電子工程學系"
+      },
+      {
+        "label": "中原大學校網：張耀仁",
+        "description": "校網頁面記述電子系張耀仁主任三度獲選中原大學服務學習特優教師、2014 年獲教育部服務學習特優教師，並多次擔任教育部服務學習計畫規畫委員與評審，可與署名單位互相對應。",
+        "url": "https://www.cycu.edu.tw/?p=10271",
+        "institutions": [
+          "中原大學"
+        ],
+        "department": "電子工程學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "王孝勇（靜宜大學大眾傳播學系特聘教授）",
+    "sources": [
+      {
+        "label": "靜宜大學大眾傳播學系：王孝勇 WANG, HSIAO-YUNG",
+        "description": "系網個人頁列王孝勇，最高學歷國立政治大學新聞學系博士，研究專長為語藝理論與批評、巴赫汀研究、性／別研究、文化研究，附期刊論文清單（TSSCI 等）與單人照片；系網師資頁另將其列於特聘教授分頁，與署名「大眾傳播學系特聘教授」一致。",
+        "url": "https://masscom.pu.edu.tw/p/800-1090-098158.php?Lang=zh-tw",
+        "institutions": [
+          "靜宜大學"
+        ],
+        "department": "大眾傳播學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "張文菁（靜宜大學行銷與數位經營管理學系副教授）",
+    "sources": [
+      {
+        "label": "靜宜大學行銷與數位經營管理學系專任教師：張文菁 Chang, Wen-ching",
+        "description": "系網專任教師列表列張文菁為副教授兼管理學院副院長，授課領域為國際人力資源管理、組織行為、人力資源管理，並附單人照片；系名「行銷與數位經營管理學系」與署名一致（該系原為企業管理學系）。",
+        "url": "https://c071.pu.edu.tw/p/802-1148-3.php?Lang=zh-tw",
+        "institutions": [
+          "靜宜大學"
+        ],
+        "department": "行銷與數位經營管理學系"
+      }
+    ]
+  }
+]

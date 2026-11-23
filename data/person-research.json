@@ -1,5 +1,47 @@
 [
 {
+  "id": "ea2bb8ea11d97e577e4e7475680190b8",
+  "section": "會員名單",
+  "raw": "黃建勳（財團法人食品工業發展研究所資深研究員）",
+  "keywords": [
+    {
+      "label": "微生物菌種保存及分類鑑定",
+      "source": "https://ibr2018.bcrc.firdi.org.tw/index-7.html"
+    },
+    {
+      "label": "微生物新種探索",
+      "source": "https://ibr2018.bcrc.firdi.org.tw/index-7.html"
+    },
+    {
+      "label": "細菌蛋白質指紋質譜分析與快速鑑別",
+      "source": "https://ibr2018.bcrc.firdi.org.tw/index-7.html"
+    }
+  ]
+},
+{
+  "id": "a1c9aae3fceaac7ee5354dba9122fbef",
+  "section": "會員名單",
+  "raw": "盧孳艷（國立陽明交通大學護理學院退休教授）",
+  "keywords": [
+    {
+      "label": "women's health",
+      "source": "https://scholar.google.com/citations?user=yrouVkYAAAAJ&hl=en"
+    },
+    {
+      "label": "gender",
+      "source": "https://scholar.google.com/citations?user=yrouVkYAAAAJ&hl=en"
+    },
+    {
+      "label": "menstrual health",
+      "source": "https://scholar.google.com/citations?user=yrouVkYAAAAJ&hl=en"
+    },
+    {
+      "label": "community health care",
+      "source": "https://scholar.google.com/citations?user=yrouVkYAAAAJ&hl=en"
+    }
+  ]
+},
+{
   "id": "2365f622f17acbfcb5192a3f3557eb64",
   "section": "會員名單",
   "raw": "林育誼（輔仁大學音樂系兼任講師）",
