@@ -1,5 +1,25 @@
 [
 {
+  "id": "3c71c9e6bb7b130b90e36eef3d88c6ab",
+  "section": "會員名單",
+  "raw": "鄭邦鎮（台灣文學國家園區協進會理事長）",
+  "keywords": [
+    {"label": "八股文研究", "source": "https://huso.pu.edu.tw/p/405-1018-27318,c3704.php?Lang=zh-tw"},
+    {"label": "小品文", "source": "https://huso.pu.edu.tw/p/405-1018-27318,c3704.php?Lang=zh-tw"},
+    {"label": "作文方法", "source": "https://huso.pu.edu.tw/p/405-1018-27318,c3704.php?Lang=zh-tw"},
+    {"label": "臺灣文學", "source": "https://huso.pu.edu.tw/p/405-1018-27318,c3704.php?Lang=zh-tw"}
+  ]
+},
+{
+  "id": "2bdc204960cff4c03ac299f497022a8c",
+  "section": "會員名單",
+  "raw": "陳璟（日本多摩美術大學美術學部助手）",
+  "keywords": [
+    {"label": "女性日本画家", "source": "https://art-studies.tamabi.ac.jp/professor/2611/"},
+    {"label": "自己表象", "source": "https://art-studies.tamabi.ac.jp/professor/2611/"}
+  ]
+},
+{
   "id": "042fe9fe72792c97c618888a0c859854",
   "section": "會員名單",
   "raw": "陳柏伸（南臺科技大學應用日語系兼任講師）",
