@@ -34,8 +34,10 @@ export function departmentFor(person, institution) {
 }
 
 function rawDepartmentFor(person, institution) {
-  const documented = person.refs.find((ref) => ref.department && ref.institutions?.includes(institution));
-  if (documented) return documented.department;
+  // ref.departments 逐機構指定系所；沒有時才用 ref.department（套用到 ref.institutions 的每個機構）。
+  const documented = person.refs.find((ref) => ref.departments?.[institution]
+    || (ref.department && ref.institutions?.includes(institution)));
+  if (documented) return documented.departments?.[institution] || documented.department;
   const aliases = [institution, institution.replace(/^國立/, ''), ...aliasesByInstitution.get(institution) ?? [],
     ...unitInstitutionAliases[institution] ?? []]
     .map(normalizeUnit).sort((a, b) => b.length - a.length);

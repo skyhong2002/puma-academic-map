@@ -26,7 +26,9 @@ export function affiliationSources(section, raw) {
     if (!/^https?:\/\//i.test(ref.url)) continue;
     const previous = byUrl.get(ref.url);
     const units = new Set([...(previous?.institutions ?? []), ...(ref.institutions ?? [])]);
-    byUrl.set(ref.url, { ...previous, ...ref, institutions: [...units] });
+    const departments = { ...previous?.departments, ...ref.departments };
+    byUrl.set(ref.url, { ...previous, ...ref, institutions: [...units],
+      ...(Object.keys(departments).length ? { departments } : {}) });
   }
   return [...byUrl.values()];
 }
