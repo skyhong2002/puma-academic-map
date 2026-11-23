@@ -61,7 +61,7 @@ export function findUnits(query) {
   return unitLocations.filter((point) => {
     const institutions = [point.institution, ...(aliases.get(point.institution) ?? []),
       ...(unitInstitutionAliases[point.institution] ?? [])];
-    const labels = [point.unit, point.building, ...(point.aliases ?? [])];
+    const labels = [point.unit, point.building, ...(point.aliases ?? [])].filter((label) => typeof label === 'string');
     const haystack = [...labels, ...institutions.flatMap((name) => labels.map((label) => name + label))]
       .map((text) => normalize(text).toLowerCase());
     return tokens.every((token) => haystack.some((text) => text.includes(token)));
