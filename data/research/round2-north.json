@@ -1,0 +1,107 @@
+[
+  {
+    "section": "會員名單",
+    "raw": "劉若凡（國立政治大學社會學系助理教授）",
+    "sources": [
+      {
+        "label": "政大社會學系官網教師頁",
+        "description": "政大社會學系教師頁列劉若凡及其個人照片。",
+        "url": "https://sociology.nccu.edu.tw/PageStaffing/Detail?fid=3308&id=6208",
+        "institutions": [
+          "國立政治大學"
+        ],
+        "department": "社會學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "歐子綺（國立政治大學創新國際學院副教授）",
+    "sources": [
+      {
+        "label": "政大創新國際學院官網師資頁",
+        "description": "政大創新國際學院師資頁列專任教師歐子綺及其照片。",
+        "url": "https://ici.nccu.edu.tw/PageStaffing?fid=14219",
+        "institutions": [
+          "國立政治大學"
+        ],
+        "department": "創新國際學院"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "林雯玲（台灣大學戲劇系教授）",
+    "sources": [
+      {
+        "label": "臺大戲劇學系官網師資頁",
+        "description": "臺大戲劇學系師資頁列林雯玲教授及其照片。",
+        "url": "https://theatre.ntu.edu.tw/faculty/",
+        "institutions": [
+          "國立臺灣大學"
+        ],
+        "department": "戲劇學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "黃武雄（台大數學系退休教授）",
+    "sources": [
+      {
+        "label": "臺大數學系官網榮譽教授頁",
+        "description": "臺大數學系榮譽（退休）教授頁列黃武雄教授，研究為微分幾何、偏微分方程。",
+        "url": "https://www.math.ntu.edu.tw/people/professor-emeritus",
+        "institutions": [
+          "國立臺灣大學"
+        ],
+        "department": "數學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "洪伯邑（臺灣大學地理環境資源學系教授）",
+    "sources": [
+      {
+        "label": "臺大地理環境資源學系官網教師頁",
+        "description": "臺大地理系教師頁列洪伯邑教授，專長為政治生態學、農業與食物地理等。",
+        "url": "https://www.geog.ntu.edu.tw/index.php/tw/people/professor?id=163",
+        "institutions": [
+          "國立臺灣大學"
+        ],
+        "department": "地理環境資源學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "張智涵（國立臺灣大學生命科學系副教授）",
+    "sources": [
+      {
+        "label": "臺大生態學與演化生物學研究所官網教師頁",
+        "description": "臺大生態演化所教師頁列張智涵副教授（生命科學系合聘），專長為土壤生態學、群聚生態學。",
+        "url": "https://ecology.lifescience.ntu.edu.tw/doku.php/zh-tw/chchang/start",
+        "institutions": [
+          "國立臺灣大學"
+        ],
+        "department": "生命科學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "洪芷漪（國立政治大學應用數學系副教授）",
+    "sources": [
+      {
+        "label": "政大應用數學系官網教師頁",
+        "description": "政大應用數學系教師頁列洪芷漪副教授，研究專長為機率論與隨機過程及其應用、數學分析。",
+        "url": "https://ms.nccu.edu.tw/PageStaffing/Detail?fid=3280&id=967",
+        "institutions": [
+          "國立政治大學"
+        ],
+        "department": "應用數學系"
+      }
+    ]
+  }
+]

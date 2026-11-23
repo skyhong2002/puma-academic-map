@@ -1,0 +1,12 @@
+{
+  "institution": "國立高雄科技大學",
+  "campus": "燕巢校區",
+  "units": {
+    "人力資源發展系": {
+      "lat": 22.773059,
+      "lon": 120.401439,
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.3550/22.7790/6000",
+      "address_source_url": "https://hrd.nkust.edu.tw/zh_tw/Faculty"
+    }
+  }
+}

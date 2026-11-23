@@ -12,6 +12,24 @@
         "lat": 22.72524,
         "lon": 120.314083,
         "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.30/22.72/10000"
+      },
+      {
+        "name": "第一校區",
+        "county": "高雄市",
+        "address": "高雄市燕巢區大學路1號",
+        "source_url": "https://www.nkust.edu.tw/p/412-1000-2797.php",
+        "lat": 22.752102,
+        "lon": 120.330009,
+        "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.3550/22.7790/6000"
+      },
+      {
+        "name": "燕巢校區",
+        "county": "高雄市",
+        "address": "高雄市燕巢區深中路58號",
+        "source_url": "https://www.nkust.edu.tw/p/412-1000-2797.php",
+        "lat": 22.773059,
+        "lon": 120.401439,
+        "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.3550/22.7790/6000"
       }
     ],
     "checked_on": "2026-11-23"

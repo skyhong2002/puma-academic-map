@@ -1,0 +1,18 @@
+{
+  "institution": "國立高雄科技大學",
+  "campus": "第一校區",
+  "units": {
+    "金融系": {
+      "lat": 22.752102,
+      "lon": 120.330009,
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.3550/22.7790/6000",
+      "address_source_url": "https://banking.nkust.edu.tw/"
+    },
+    "工業設計系": {
+      "lat": 22.752102,
+      "lon": 120.330009,
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.3550/22.7790/6000",
+      "address_source_url": "https://id.nkust.edu.tw/p/426-1026-10.php?Lang=zh-tw"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "section": "會員名單",
+    "raw": "陳淑卿（國立中興大學外文系名譽教授）",
+    "sources": [
+      {
+        "label": "中興大學外文系師資頁",
+        "description": "外文系師資頁列陳淑卿為名譽教授，研究領域含後殖民文學、少數族裔文學、亞裔英語文學。",
+        "url": "https://dfll.nchu.edu.tw/teacher.php?cID=11",
+        "institutions": [
+          "國立中興大學"
+        ]
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "王強生（國立中興大學農藝學系退休教授退休教授）",
+    "sources": [
+      {
+        "label": "中興大學農藝系教師頁",
+        "description": "農藝學系教師頁列王強生（Chang-Sheng Wang）及其照片。",
+        "url": "https://agro.nchu.edu.tw/web/faculty/list.php?lang=zh_tw",
+        "institutions": [
+          "國立中興大學"
+        ]
+      }
+    ]
+  },
+  {
+    "section": "共同領銜",
+    "raw": "曾光華（中正大學企管系教授）",
+    "sources": [
+      {
+        "label": "中正大學企管系教師頁",
+        "description": "企業管理學系教師頁列曾光華，研究專長含服務行銷、行銷研究、創意行銷。",
+        "url": "https://busadm.ccu.edu.tw/p/405-1248-31592,c3236.php?Lang=zh-tw",
+        "institutions": [
+          "國立中正大學"
+        ]
+      }
+    ]
+  },
+  {
+    "section": "共同領銜",
+    "raw": "孫英玄（中興大學森林學系副教授）",
+    "sources": [
+      {
+        "label": "中興大學森林系師資頁",
+        "description": "森林學系師資頁列孫英玄副教授，專長遺傳學、基因體學、系統生物學。",
+        "url": "http://www.for.nchu.edu.tw/teacher.php",
+        "institutions": [
+          "國立中興大學"
+        ]
+      }
+    ]
+  }
+]
