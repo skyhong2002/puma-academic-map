@@ -1,5 +1,39 @@
 [
 {
+  "id": "b371f4d909f46755275f8ab91e40b847",
+  "section": "會員名單",
+  "raw": "黃奕傑（Harvard University （哈佛大學）博士後研究員）",
+  "keywords": [
+    {
+      "label": "E/I balance",
+      "source": "https://brain.harvard.edu/hbi_humans/yi-chieh-huang/"
+    },
+    {
+      "label": "neural rhythms",
+      "source": "https://brain.harvard.edu/hbi_humans/yi-chieh-huang/"
+    }
+  ]
+},
+{
+  "id": "a4da5a529639effbb4fe3ec0b5af92e7",
+  "section": "會員名單",
+  "raw": "廖偉翔（加拿大麥基爾大學精神醫學系博士生）",
+  "keywords": [
+    {
+      "label": "cultural psychiatry",
+      "source": "https://somatosphere.net/authors/wei-hsiang-liao/"
+    },
+    {
+      "label": "psychological anthropology",
+      "source": "https://somatosphere.net/authors/wei-hsiang-liao/"
+    },
+    {
+      "label": "governance of mental health",
+      "source": "https://somatosphere.net/authors/wei-hsiang-liao/"
+    }
+  ]
+},
+{
   "id": "100ea2c561f5b93029f0410167ab44e3",
   "section": "會員名單",
   "raw": "Malas Takisdahuan（彰化師範大學教育學院兼任助理教授）",

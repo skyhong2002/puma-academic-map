@@ -1,0 +1,29 @@
+[
+  {
+    "section": "會員名單",
+    "raw": "黃奕傑（Harvard University （哈佛大學）博士後研究員）",
+    "sources": [
+      {
+        "label": "陽明交大研究報導：黃奕傑",
+        "description": "報導載明論文第一作者黃奕傑為陽明交大神經科學研究所畢業生及哈佛大學博士後；論文 PubMed 38955183 列第一作者 Yi-Chieh Huang。哈佛頁的英文姓名對應依研究領域與博士後任職交叉確認。",
+        "url": "https://news.ltn.com.tw/news/life/breakingnews/4744107"
+      },
+      {
+        "label": "Neuron 論文作者資訊",
+        "description": "論文第一作者 Yi-Chieh Huang，單位為陽明交大神經科學研究所。",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38955183/"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "廖偉翔（加拿大麥基爾大學精神醫學系博士生）",
+    "sources": [
+      {
+        "label": "報導者作者介紹：廖偉翔",
+        "description": "作者頁載明廖偉翔為精神科醫師、麥基爾大學精神醫學系博士生；英文研究頁同列職業和學系，姓名對應依此交叉確認。",
+        "url": "https://www.twreporter.org/authors/6ab4825abeca5d0700eab693"
+      }
+    ]
+  }
+]
