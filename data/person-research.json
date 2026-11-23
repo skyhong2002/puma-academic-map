@@ -12575,7 +12575,13 @@
       {
         "label": "生態人類學",
         "source": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
-      }
+      },
+      { "label": "感官民族誌", "source": "https://pca.nttu.edu.tw/p/16-1028-36335.php?Lang=zh-tw" },
+      { "label": "公共人類學", "source": "https://pca.nttu.edu.tw/p/16-1028-36335.php?Lang=zh-tw" },
+      { "label": "人文地理資訊系統", "source": "https://pca.nttu.edu.tw/p/16-1028-36335.php?Lang=zh-tw" },
+      { "label": "台灣原住民研究", "source": "https://pca.nttu.edu.tw/p/16-1028-36335.php?Lang=zh-tw" },
+      { "label": "文化資產", "source": "https://pca.nttu.edu.tw/p/16-1028-36335.php?Lang=zh-tw" },
+      { "label": "基礎設施研究", "source": "https://pca.nttu.edu.tw/p/16-1028-36335.php?Lang=zh-tw" }
     ]
   },
   {
