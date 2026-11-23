@@ -186,12 +186,17 @@
     ],
     "locations": [
       {
-        "institution": "中國醫藥大學水湳校本部",
+        "institution": "中國醫藥大學",
+        "campus": "水湳校區",
         "country": "臺灣",
         "city": "臺中市",
         "lat": 24.178379,
         "lon": 120.660826,
-        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.663/24.19/5000"
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.663/24.19/5000",
+        "address": "臺中市北屯區經貿路一段100號",
+        "address_source_url": "https://news.cmu.edu.tw/ann_detail.php?sn=115577",
+        "replaces_default": true,
+        "listed_as": "中國醫藥大學水湳校本部"
       }
     ]
   },

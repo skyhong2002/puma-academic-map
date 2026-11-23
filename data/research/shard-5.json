@@ -381,20 +381,11 @@
     "sources": [
       {
         "label": "台南應用科技大學漫畫系師資",
-        "description": "系上列為專任副教授。",
+        "description": "系上列為專任副教授。系網頁尾載該系地址為台南市永康區中正路529號（設計大樓1樓）。原另有一個以「台南應用科技大學」命名的地點（OpenStreetMap relation 11659116，23.0377359, 120.2389624），與機構預設點「臺南應用科技大學」相距約 97 公尺、為同一所學校，已併入機構預設點，不另立地點。",
         "url": "https://comic.tut.edu.tw/p/403-1093-1270.php?Lang=zh-tw"
       }
     ],
-    "locations": [
-      {
-        "institution": "台南應用科技大學",
-        "country": "臺灣",
-        "city": "臺南市",
-        "lat": 23.0377359,
-        "lon": 120.2389624,
-        "source_url": "https://www.openstreetmap.org/relation/11659116"
-      }
-    ]
+    "locations": []
   },
   {
     "section": "會員名單",
@@ -552,20 +543,11 @@
     "sources": [
       {
         "label": "台南應用科技大學漫畫系師資",
-        "description": "系上列為專業技術助理教授。",
+        "description": "系上列為專業技術助理教授。系網頁尾載該系地址為台南市永康區中正路529號（設計大樓1樓）。原另有一個以「台南應用科技大學」命名的地點（OpenStreetMap relation 11659116，23.0377359, 120.2389624），與機構預設點「臺南應用科技大學」相距約 97 公尺、為同一所學校，已併入機構預設點，不另立地點。",
         "url": "https://comic.tut.edu.tw/p/403-1093-1270.php?Lang=zh-tw"
       }
     ],
-    "locations": [
-      {
-        "institution": "台南應用科技大學",
-        "country": "臺灣",
-        "city": "臺南市",
-        "lat": 23.0377359,
-        "lon": 120.2389624,
-        "source_url": "https://www.openstreetmap.org/relation/11659116"
-      }
-    ]
+    "locations": []
   },
   {
     "section": "會員名單",
@@ -721,20 +703,11 @@
     "sources": [
       {
         "label": "台南應用科技大學美術系個人頁",
-        "description": "系上列為專任副教授。",
+        "description": "系上列為專任副教授。原另有一個以「台南應用科技大學」命名的地點（OpenStreetMap relation 11659116，23.0377359, 120.2389624），與機構預設點「臺南應用科技大學」相距約 97 公尺、為同一所學校，已併入機構預設點，不另立地點。",
         "url": "https://art.tut.edu.tw/p/406-1073-23402%2Cr1174.php?Lang=zh-tw"
       }
     ],
-    "locations": [
-      {
-        "institution": "台南應用科技大學",
-        "country": "臺灣",
-        "city": "臺南市",
-        "lat": 23.0377359,
-        "lon": 120.2389624,
-        "source_url": "https://www.openstreetmap.org/relation/11659116"
-      }
-    ]
+    "locations": []
   },
   {
     "section": "會員名單",

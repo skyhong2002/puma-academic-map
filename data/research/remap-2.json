@@ -249,13 +249,17 @@
     "sources": [],
     "locations": [
       {
+        "institution": "國立嘉義大學",
+        "campus": "蘭潭校區",
         "country": "臺灣",
         "city": "嘉義市",
         "lat": 23.463797,
         "lon": 120.483514,
         "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.483/23.466/5000",
-        "institution": "國立嘉義大學蘭潭校區",
-        "address_source_url": "https://website.ncyu.edu.tw/aquabio/Contents?nodeId=21516"
+        "address": "嘉義市鹿寮里學府路300號",
+        "address_source_url": "https://website.ncyu.edu.tw/aquabio/Contents?nodeId=21516",
+        "replaces_default": true,
+        "listed_as": "國立嘉義大學蘭潭校區"
       }
     ]
   },

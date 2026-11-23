@@ -222,12 +222,17 @@
     ],
     "locations": [
       {
-        "institution": "國立彰化師範大學（進德校區）",
+        "institution": "國立彰化師範大學",
+        "campus": "進德校區",
         "country": "臺灣",
         "city": "彰化縣彰化市",
         "lat": 24.081544,
         "lon": 120.558826,
-        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.54/24.07/6500"
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.54/24.07/6500",
+        "address": "彰化市進德路一號",
+        "address_source_url": "https://history.ncue.edu.tw/",
+        "replaces_default": true,
+        "listed_as": "國立彰化師範大學（進德校區）"
       }
     ]
   },
