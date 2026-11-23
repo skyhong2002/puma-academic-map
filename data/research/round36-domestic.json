@@ -1,0 +1,77 @@
+[
+  {
+    "section": "會員名單",
+    "raw": "鄭安倉（國立高雄科技大學水產養殖系特聘教授）",
+    "sources": [
+      {
+        "label": "國立高雄科技大學水產養殖系專任教師頁：鄭安倉",
+        "description": "高科大水產養殖系專任教師頁列鄭安倉為特聘教授兼水圈學院院長（國立臺灣海洋大學水產養殖系博士），專長：水產繁養殖、漁電共生養殖管理、友善養殖應用、箱網養殖。",
+        "url": "https://aqua.nkust.edu.tw/p/412-1027-10902.php?Lang=zh-tw",
+        "institutions": [
+          "國立高雄科技大學"
+        ],
+        "department": "水產養殖系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "楊筑鈞（國立屏東大學 教育學系助理教授）",
+    "sources": [
+      {
+        "label": "國立屏東大學教育學系教師簡歷：楊筑鈞",
+        "description": "教育學系教師簡歷 PDF 列楊筑鈞為助理教授（國立中山大學教育研究所課程與教學組博士），研究專長與領域：永續發展與環境教育、環境心理學、遊戲式學習、公民科學。",
+        "url": "https://edu.nptu.edu.tw/var/file/118/1118/img/133527464.pdf",
+        "institutions": [
+          "國立屏東大學"
+        ],
+        "department": "教育學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "趙丹綺（國立台灣藝術大學教授）",
+    "sources": [
+      {
+        "label": "國立臺灣藝術大學工藝設計學系成員資料：趙丹綺",
+        "description": "工藝設計學系成員資料（頁面 PID=578 的資料來源）列趙丹綺為專任教師、教授，research 欄：金屬工藝、銀器工藝、寶石、珠寶設計。",
+        "url": "https://crafts.ntua.edu.tw/people/bio.php?PID=578",
+        "institutions": [
+          "國立臺灣藝術大學"
+        ],
+        "department": "工藝設計學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳威志（實踐大學媒體傳達設計學系副教授）",
+    "sources": [
+      {
+        "label": "實踐大學媒體傳達設計學系專任教師：陳威志",
+        "description": "系所專任教師資料列陳威志（Rex Takeshi Wei-Chih Chen）為媒體傳達設計學系專任，職稱「副教授級專業技術人員」；此頁未列研究專長，既有研究詞來自教育部教師名錄。",
+        "url": "https://sccd.usc.edu.tw/blog/full-time-teachers/%E9%99%B3%E5%A8%81%E5%BF%97/",
+        "institutions": [
+          "實踐大學"
+        ],
+        "department": "媒體傳達設計學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "楊東樵（實踐大學媒體傳達設計助理教授）",
+    "sources": [
+      {
+        "label": "實踐大學媒體傳達設計學系專任教師：楊東樵",
+        "description": "系所專任教師資料列楊東樵（Datavinci Dong-Ciao Yang）為媒體傳達設計學系專任助理教授，國立臺北藝術大學科技藝術碩士；此頁未列研究專長，既有研究詞來自教育部教師名錄。",
+        "url": "https://sccd.usc.edu.tw/blog/full-time-teachers/%E6%A5%8A%E6%9D%B1%E6%A8%B5/",
+        "institutions": [
+          "實踐大學"
+        ],
+        "department": "媒體傳達設計學系"
+      }
+    ]
+  }
+]
