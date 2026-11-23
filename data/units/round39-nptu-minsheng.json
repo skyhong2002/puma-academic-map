@@ -1,0 +1,19 @@
+{
+  "institution": "國立屏東大學",
+  "campus": "民生校區",
+  "units": {
+    "社會發展學系": {
+      "lat": 22.665823,
+      "lon": 120.504755,
+      "building": "民生校區",
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.489/22.669/6000",
+      "address_source_url": "https://social.nptu.edu.tw/",
+      "evidence_urls": [
+        "https://social.nptu.edu.tw/",
+        "https://www.nptu.edu.tw/p/412-1000-3320.php"
+      ],
+      "evidence_tier": "direct",
+      "evidence_checked_on": "2026-11-23"
+    }
+  }
+}
