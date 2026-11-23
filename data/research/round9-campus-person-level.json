@@ -1,0 +1,177 @@
+[
+ {
+  "section": "會員名單",
+  "raw": "胡瑞雪（銘傳大學應用中文與華語文教學系（所）教授）",
+  "sources": [
+   {
+    "label": "銘傳大學應用中國文學系網站聯絡頁",
+    "description": "系辦公室設於桃園市龜山區德明路5號（桃園校區觀光語文大樓），電話 (03)350-7001 分機 3217；專任教師頁列胡瑞雪為教授。",
+    "url": "https://ac.mcu.edu.tw/contact/"
+   }
+  ],
+  "locations": [
+   {
+    "institution": "銘傳大學",
+    "campus": "桃園校區",
+    "country": "臺灣",
+    "city": "桃園市",
+    "lat": 24.984572,
+    "lon": 121.343854,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.343854/24.984572/400",
+    "address": "桃園市龜山區德明路5號",
+    "address_source_url": "https://ac.mcu.edu.tw/contact/",
+    "replaces_default": true
+   }
+  ]
+ },
+ {
+  "section": "會員名單",
+  "raw": "許儷絹（中國醫藥大學醫學系教授）",
+  "sources": [
+   {
+    "label": "中國醫藥大學醫學系社會醫學科教師名單",
+    "description": "列許儷絹為專任教授，研究室位於醫學大樓二樓；醫學系位於英才校區（學士路91號）。",
+    "url": "https://cmumd.cmu.edu.tw/zh-hant/node/53"
+   }
+  ],
+  "locations": [
+   {
+    "institution": "中國醫藥大學",
+    "campus": "英才校區",
+    "country": "臺灣",
+    "city": "臺中市",
+    "lat": 24.155883,
+    "lon": 120.681074,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.681074/24.155883/400",
+    "address": "臺中市北區學士路91號",
+    "address_source_url": "https://cmumd.cmu.edu.tw/zh-hant/node/520",
+    "replaces_default": true
+   }
+  ]
+ },
+ {
+  "section": "會員名單",
+  "raw": "邱英明（中國醫藥大學生物醫學研究所講座教授）",
+  "sources": [
+   {
+    "label": "中國醫藥大學生物醫學研究所師資頁",
+    "description": "講座教授邱英明，辦公室位置：英才校區立夫教學大樓8樓809室。",
+    "url": "https://gibs.cmu.edu.tw/teachers?page=1"
+   }
+  ],
+  "locations": [
+   {
+    "institution": "中國醫藥大學",
+    "campus": "英才校區",
+    "country": "臺灣",
+    "city": "臺中市",
+    "lat": 24.155883,
+    "lon": 120.681074,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.681074/24.155883/400",
+    "address": "臺中市北區學士路91號",
+    "address_source_url": "https://cmumd.cmu.edu.tw/zh-hant/node/520",
+    "replaces_default": true
+   }
+  ]
+ },
+ {
+  "section": "會員名單",
+  "raw": "黃詩涵（銘傳大學諮商臨床與工商心理學系助理教授）",
+  "sources": [
+   {
+    "label": "大學招聯會 ColleGo 校系介紹",
+    "description": "銘傳大學諮商臨床與工商心理學系標示為桃園校區（桃園市龜山區德明路5號），系網專任教師分機為 03-3507001。",
+    "url": "https://collego.edu.tw/Highschool/DepartmentIntro?dept_id=046041"
+   }
+  ],
+  "locations": [
+   {
+    "institution": "銘傳大學",
+    "campus": "桃園校區",
+    "country": "臺灣",
+    "city": "桃園市",
+    "lat": 24.984572,
+    "lon": 121.343854,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.343854/24.984572/400",
+    "address": "桃園市龜山區德明路5號",
+    "address_source_url": "https://collego.edu.tw/Highschool/DepartmentIntro?dept_id=046041",
+    "replaces_default": true
+   }
+  ]
+ },
+ {
+  "section": "會員名單",
+  "raw": "張綠怡（慈濟大學護理學系助理教授）",
+  "sources": [
+   {
+    "label": "慈濟大學護理學系網站",
+    "description": "護理學系專任教師頁列張綠怡為助理教授；系辦地址為花蓮市建國路二段880號（建國校區）包容樓2樓。",
+    "url": "https://tcunursing.tcu.edu.tw/?page_id=4469"
+   }
+  ],
+  "locations": [
+   {
+    "institution": "慈濟大學",
+    "campus": "建國校區",
+    "country": "臺灣",
+    "city": "花蓮縣",
+    "lat": 23.997338,
+    "lon": 121.564924,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.564924/23.997338/400",
+    "address": "花蓮縣花蓮市建國路二段880號",
+    "address_source_url": "https://tcunursing.tcu.edu.tw/",
+    "replaces_default": true
+   }
+  ]
+ },
+ {
+  "section": "會員名單",
+  "raw": "林玉娟（慈濟大學護理學系助理教授）",
+  "sources": [
+   {
+    "label": "慈濟大學護理學系網站",
+    "description": "護理學系專任教師頁列林玉娟為助理教授；系辦地址為花蓮市建國路二段880號（建國校區）包容樓2樓。",
+    "url": "https://tcunursing.tcu.edu.tw/?page_id=4469"
+   }
+  ],
+  "locations": [
+   {
+    "institution": "慈濟大學",
+    "campus": "建國校區",
+    "country": "臺灣",
+    "city": "花蓮縣",
+    "lat": 23.997338,
+    "lon": 121.564924,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.564924/23.997338/400",
+    "address": "花蓮縣花蓮市建國路二段880號",
+    "address_source_url": "https://tcunursing.tcu.edu.tw/",
+    "replaces_default": true
+   }
+  ]
+ },
+ {
+  "section": "會員名單",
+  "raw": "彭榮邦（慈濟大學人類發展與心理學系副教授）",
+  "sources": [
+   {
+    "label": "慈濟大學人類發展與心理學系網站",
+    "description": "專任副教授兼系主任，分機 03-8572677 ext.33179；系網聯絡地址為花蓮市介仁街67號（介仁校區）。",
+    "url": "https://hdd.tcu.edu.tw/?page_id=959"
+   }
+  ],
+  "locations": [
+   {
+    "institution": "慈濟大學",
+    "campus": "介仁校區",
+    "country": "臺灣",
+    "city": "花蓮縣",
+    "lat": 23.999673,
+    "lon": 121.573371,
+    "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.573371/23.999673/400",
+    "address": "花蓮縣花蓮市介仁街67號",
+    "address_source_url": "https://hdd.tcu.edu.tw/",
+    "replaces_default": true
+   }
+  ]
+ }
+]
