@@ -1,0 +1,107 @@
+[
+  {
+    "section": "會員名單",
+    "raw": "丁文卿（國立中正大學勞工關係學系助理教授）",
+    "sources": [
+      {
+        "label": "中正大學勞工關係學系丁文卿專任教師頁",
+        "description": "中正大學勞工關係學系專任教師頁列丁文卿為助理教授並附照片；研究專長為跨國遷移與勞動、跨國社會保障、勞動與發展。",
+        "url": "https://labor.ccu.edu.tw/p/406-1086-75549,r696.php?Lang=zh-tw",
+        "institutions": [
+          "國立中正大學"
+        ],
+        "department": "勞工關係學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "葉秀珍（國立中正大學社會福利學系退休教授）",
+    "sources": [
+      {
+        "label": "中正大學社會福利學系退休教師頁",
+        "description": "中正大學社會福利學系退休教師頁列葉秀珍為教授並附照片，與署名「社會福利學系退休教授」相符。",
+        "url": "https://dsw.ccu.edu.tw/p/403-1084-1253.php?Lang=zh-tw",
+        "institutions": [
+          "國立中正大學"
+        ],
+        "department": "社會福利學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "劉兆隆（國立彰化師範大學副教授）",
+    "sources": [
+      {
+        "label": "彰化師範大學公共事務與公民教育學系劉兆隆教師頁",
+        "description": "彰化師範大學公共事務與公民教育學系教師頁列劉兆隆為副教授並附照片；學術專長為比較政治、政治經濟學、台灣政經發展。",
+        "url": "https://sites.google.com/gm.ncue.edu.tw/pace/%E7%B3%BB%E6%89%80%E6%88%90%E5%93%A1/%E5%B8%AB%E8%B3%87%E4%BB%8B%E7%B4%B9/%E5%B0%88%E4%BB%BB%E6%95%99%E5%B8%AB/%E5%8A%89%E5%85%86%E9%9A%86%E8%80%81%E5%B8%AB",
+        "institutions": [
+          "國立彰化師範大學"
+        ],
+        "department": "公共事務與公民教育學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳文彬（國立彰化師範大學運動系教授）",
+    "sources": [
+      {
+        "label": "彰化師範大學運動學系師資陣容頁",
+        "description": "彰化師範大學運動學系師資頁列陳文彬（Wen-Pin Chen）為教授並附照片；專長為劇本創作與分析、導演、表演訓練、劇場實務、影視實務、影視產業分析、台灣新電影與社會發展、台灣社會發展。",
+        "url": "https://sports.ncue.edu.tw/teacher",
+        "institutions": [
+          "國立彰化師範大學"
+        ],
+        "department": "運動學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "吳育臻（高雄師範大學地理系教授）",
+    "sources": [
+      {
+        "label": "高雄師範大學地理學系專任師資頁",
+        "description": "高雄師範大學地理學系專任師資頁列吳育臻為教授並附照片，學歷為臺灣師範大學地理學系學士、地理研究所碩博士。",
+        "url": "https://geo.nknu.edu.tw/index.php?lang=cht&temp=faculty",
+        "institutions": [
+          "國立高雄師範大學"
+        ],
+        "department": "地理學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "楊巧玲（國立高雄師範大學教育學系教授）",
+    "sources": [
+      {
+        "label": "高雄師範大學教育學系師資頁",
+        "description": "高雄師範大學教育學系師資頁列楊巧玲為教授兼教務長並附照片。",
+        "url": "https://c.nknu.edu.tw/edu/Teacher.aspx?PN=10&PClass=0004",
+        "institutions": [
+          "國立高雄師範大學"
+        ],
+        "department": "教育學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳文雄（國立中正大學特聘教授）",
+    "sources": [
+      {
+        "label": "中正大學經濟學系陳文雄教師頁",
+        "description": "中正大學經濟學系教師頁列陳文雄為特聘教授，學歷為加州大學柏克萊分校農業經濟學博士，頁面標註現旅居美國；頁面未列研究專長，研究詞取自博士學位領域。",
+        "url": "https://econ.ccu.edu.tw/p/426-1117-77.php?Lang=zh-tw",
+        "institutions": [
+          "國立中正大學"
+        ],
+        "department": "經濟學系"
+      }
+    ]
+  }
+]
