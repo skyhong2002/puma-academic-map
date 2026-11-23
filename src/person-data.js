@@ -33,7 +33,8 @@ export function affiliationSources(section, raw) {
 
 export function portraitFor(section, raw) {
   const record = Object.values(portraitIndices).map((index) => index[section]?.[raw]).find(Boolean);
-  const image = record && portraitFiles[`../data/portraits/${record.file}`];
+  const image = record && (portraitFiles[`../data/portraits/${record.file}`]
+    ?? (/^https:\/\//i.test(record.image_url ?? '') ? record.image_url : null));
   return image ? { ...record, image } : null;
 }
 
@@ -49,7 +50,10 @@ export const people = Object.entries(roster.sections).flatMap(([section, group])
       return place ? [{ institution, ...place }] : [];
     }));
     const researched = (bySection.get(section)?.get(entry.raw) ?? []).flatMap((record) => record.locations ?? []);
-    const locations = [...new Map([...officialLocations, ...researched]
+    // 人物層級校區記錄可用 replaces_default 明確取代同校的教育部預設點（避免同校出現兩個點）。
+    const replaced = new Set(researched.filter((point) => point.replaces_default && point.campus).map((point) => point.institution));
+    const generic = officialLocations.filter((point) => !replaced.has(point.institution));
+    const locations = [...new Map([...generic, ...researched]
       .filter((point) => point.country && point.institution && Number.isFinite(point.lat) && Number.isFinite(point.lon)
         && Math.abs(point.lat) <= 90 && Math.abs(point.lon) <= 180)
       .map((point) => refineCampus(person, point))
