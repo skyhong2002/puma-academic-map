@@ -1,0 +1,102 @@
+[
+  {
+    "section": "共同領銜",
+    "raw": "吳易澄（馬偕醫學大學醫學系助理教授、新竹馬偕紀念醫院醫師）",
+    "sources": [
+      {
+        "label": "新竹馬偕紀念醫院官網醫師介紹：吳易澄",
+        "description": "醫師頁載吳易澄為新竹馬偕紀念醫院精神科主任暨主治醫師、馬偕醫學院醫學系助理教授；「精神科」是醫院科別，馬偕醫學大學端單位依教育部 114 學年度師資名錄與校方醫學系師資頁為「醫學系」（專任助理教授）。",
+        "url": "https://www.hc.mmh.org.tw/doctor_view.php?depid=218&did=325",
+        "institutions": [
+          "新竹馬偕紀念醫院",
+          "馬偕醫學大學"
+        ],
+        "department": "",
+        "departments": {
+          "新竹馬偕紀念醫院": "精神科",
+          "馬偕醫學大學": "醫學系"
+        }
+      },
+      {
+        "label": "校方醫學系師資資料",
+        "description": "校方師資資料供核對醫學系任職。",
+        "url": "https://www.mmu.edu.tw/medicine/xmdoc/cont?sid=0Q023567863805704932&xsmsid=0Q005583577403752074"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "林新曜（馬偕醫學大學助理教授）",
+    "sources": [
+      {
+        "label": "馬偕紀念醫院官網醫師介紹：林新曜",
+        "description": "醫師頁載林新曜為馬偕紀念醫院神經外科主治醫師、馬偕醫學院部定助理教授；「神經外科」是醫院科別，馬偕醫學大學端單位依教育部 114 學年度師資名錄（醫學系兼任助理教授）與校方醫學系師資頁為「醫學系」。兼任身分，不推定校內個人辦公室。",
+        "url": "https://www.mmh.org.tw/doctor_view.php?depid=13&did=344",
+        "institutions": [
+          "馬偕紀念醫院",
+          "馬偕醫學大學"
+        ],
+        "department": "",
+        "departments": {
+          "馬偕紀念醫院": "神經外科",
+          "馬偕醫學大學": "醫學系"
+        }
+      },
+      {
+        "label": "校方醫學系師資資料",
+        "description": "校方師資資料供核對醫學系任職。",
+        "url": "https://www.mmc.edu.tw/medicine/xmdoc/cont?sid=0Q231531799356946491&sq=&xsmsid=0Q005583577403752074"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "王定中（嘉義長庚神經外科助理教授級主治醫師）",
+    "sources": [
+      {
+        "label": "長庚醫療財團法人官網醫師介紹：王定中",
+        "description": "醫師頁載王定中為嘉義長庚腦神經外科主治醫師、教學職稱助理教授（頁面未載學校）；長庚大學人事室 113/12/05 更新的「醫學系兼任臨床教師」名單列編號 546 王定中，學科醫學院醫學系外科、臨床助理教授。「腦神經外科」是醫院科別，長庚大學端單位為醫學系。兼任臨床教師，不推定校內個人辦公室。",
+        "url": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/2812",
+        "institutions": [
+          "嘉義長庚紀念醫院",
+          "長庚大學"
+        ],
+        "department": "",
+        "departments": {
+          "嘉義長庚紀念醫院": "腦神經外科",
+          "長庚大學": "醫學系"
+        }
+      },
+      {
+        "label": "校方醫學系師資資料",
+        "description": "校方師資資料供核對醫學系任職。",
+        "url": "https://www.cgu.edu.tw/med/ServerFile/GetByKindEditor/993bc9cc-c626-4acc-bbeb-78d52050e481?subjectId=4356"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "張家銘（長庚大學醫學系副教授）",
+    "sources": [
+      {
+        "label": "長庚醫療財團法人醫師介紹頁：張家銘",
+        "description": "醫師頁列張家銘為林口長庚醫院精神科副教授級主治醫師及自殺防治中心主任；長庚大學人事室 113/12/05 更新的「醫學系兼任臨床教師」名單列編號 75 張家銘，學科醫學院醫學系、臨床副教授，教育部 114 學年度師資名錄亦為長庚大學醫學系兼任副教授。精神科屬醫院端，大學端單位為醫學系。兼任臨床教師，不推定校內個人辦公室。",
+        "url": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/0919",
+        "institutions": [
+          "林口長庚紀念醫院",
+          "長庚大學"
+        ],
+        "department": "",
+        "departments": {
+          "林口長庚紀念醫院": "精神科",
+          "長庚大學": "醫學系"
+        }
+      },
+      {
+        "label": "校方醫學系師資資料",
+        "description": "校方師資資料供核對醫學系任職。",
+        "url": "https://www.cgu.edu.tw/med/ServerFile/GetByKindEditor/993bc9cc-c626-4acc-bbeb-78d52050e481?subjectId=4356"
+      }
+    ]
+  }
+]
