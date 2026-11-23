@@ -7,6 +7,12 @@
       "lon": 120.314083,
       "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.30/22.72/10000",
       "address_source_url": "https://dnaoe.nkust.edu.tw/"
+    },
+    "水產養殖系": {
+      "lat": 22.72524,
+      "lon": 120.314083,
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.30/22.72/10000",
+      "address_source_url": "https://aqua.nkust.edu.tw/"
     }
   }
 }
