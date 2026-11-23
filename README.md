@@ -25,6 +25,20 @@
 
 正式站使用 Google Analytics 統計瀏覽和功能使用次數。自訂事件記錄搜尋、開啟校區資料及點選登記表等操作的事件名稱。
 
+## 分支與資料存放
+
+資料和實作分開在不同分支，請不要整條合併資料分支。
+
+| 分支 | 放什麼 | 說明 |
+| --- | --- | --- |
+| `main` | 網站程式與已發布的資料 | 正式站的基準，`data/` 是建置使用的資料。 |
+| `data/professor-profiles` | **收集到的人物資料**：頭像（`data/portraits/enr-*`）、研究關鍵字（`data/person-research.json`、`data/research/enr-*.json`）、機構標誌（`data/emblems/enr-*`）、系所位置（`data/units/`、`data/institutions/`），以及收集紀錄 `profile-collection/` | 只放資料。收集、審核後先存在這裡，再依需要部署。 |
+| `feature/unit-label-aliases` | **實作**：`src/departments.js`（把簡稱與全名歸為同一系所）、`data/unit-aliases.json`，和收集用的工具腳本與流程文件 | 資料分支的新資料需搭配它才能正確分組，兩者要一起合併。 |
+
+- 要找某位人物新增的頭像或研究關鍵字，到 `data/professor-profiles`。
+- 要改收集或合併的程式、頭像臉部統一、標誌轉檔，到 `feature/unit-label-aliases`（`scripts/` 與 `docs/professor-profile-collection.md`）。
+- 資料分支的收集進度（任務檔、審核結果）在 `profile-collection/`；production 並不會從分支自動部署，部署流程見下方「正式站部署」。
+
 ## 圖資、照片與授權
 
 - 底圖使用 OpenStreetMap，資料採 ODbL 授權。[OpenStreetMap 版權與授權](https://www.openstreetmap.org/copyright)
