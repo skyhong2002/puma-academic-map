@@ -1,0 +1,92 @@
+[
+  {
+    "section": "共同領銜",
+    "raw": "洪瑞隆（台大醫院臨床教授）",
+    "sources": [
+      {
+        "label": "臺大醫院腫瘤醫學部官網醫師頁",
+        "description": "臺大醫院腫瘤醫學部醫師頁列洪瑞隆（Ruey-Long Hong）為化學治療科主治醫師，專長內科腫瘤學、腫瘤生物學，並附單人照片。頁面未標示臨床教授職稱。",
+        "url": "https://www.ntuh.gov.tw/onc/Vcard.action?q_type=A02&q_itemCode=628",
+        "institutions": [
+          "國立臺灣大學醫學院附設醫院"
+        ],
+        "department": "腫瘤醫學部"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "柯政郁（台大醫學系耳鼻喉科教授）",
+    "sources": [
+      {
+        "label": "臺大醫院耳鼻喉部官網醫師頁",
+        "description": "臺大醫院耳鼻喉部醫師頁列柯政郁（Jenq-Yuh Ko）為兼任主治醫師、兼任教授，專長鼻咽癌、頭頸部腫瘤學，並附單人照片。",
+        "url": "https://www.ntuh.gov.tw/ENT/Vcard.action?q_type=-1&q_itemCode=313",
+        "institutions": [
+          "國立臺灣大學醫學院附設醫院"
+        ],
+        "department": "耳鼻喉部"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "馮朝霖（政治大學教育學院退休教授）",
+    "sources": [
+      {
+        "label": "政大教育學系官網退休師長頁",
+        "description": "政大教育學系退休師長頁列馮朝霖教授（退休教師），研究專長為教育哲學、教育美學、另類教育學、教育思潮，並附單人照片。",
+        "url": "https://edu.nccu.edu.tw/PageStaffing/Detail?fid=9760&id=3022",
+        "institutions": [
+          "國立政治大學"
+        ],
+        "department": "教育學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "鄭芳婷（台灣大學台灣文學研究所教授）",
+    "sources": [
+      {
+        "label": "臺大臺灣文學研究所官網專任教師頁",
+        "description": "臺大臺灣文學研究所專任教師頁列 Cheng Fan-Ting（鄭芳婷）為教授，研究領域為戲劇與表演、批判理論、酷兒研究，並附單人照片。",
+        "url": "https://gitl.ntu.edu.tw/en/professor/",
+        "institutions": [
+          "國立臺灣大學"
+        ],
+        "department": "臺灣文學研究所"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "李柏翰（國立台灣大學健康政策與管理研究所副教授）",
+    "sources": [
+      {
+        "label": "臺大健康政策與管理研究所官網教師頁",
+        "description": "臺大公衛學院健康政策與管理研究所教師頁列李柏翰為副教授，研究領域為全球衛生政治、人權法、健康社會學，並附單人照片。",
+        "url": "https://ntuhpm.ntu.edu.tw/web/about/teacher.jsp",
+        "institutions": [
+          "國立臺灣大學"
+        ],
+        "department": "健康政策與管理研究所"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "呂佳蓉（國立臺灣大學語言學研究所副教授）",
+    "sources": [
+      {
+        "label": "臺大語言學研究所官網教師頁",
+        "description": "臺大語言學研究所教師頁列呂佳蓉（Chia-Rung Lu），研究領域為認知語言學、詞彙語意學、隱喻研究；頁面職稱為舊版「助理教授」，姓名與單位相符。",
+        "url": "https://homepage.ntu.edu.tw/~gilntu/Faculty/Lu.html",
+        "institutions": [
+          "國立臺灣大學"
+        ],
+        "department": "語言學研究所"
+      }
+    ]
+  }
+]
