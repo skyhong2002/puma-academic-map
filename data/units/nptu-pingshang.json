@@ -1,0 +1,13 @@
+{
+  "institution": "國立屏東大學",
+  "campus": "屏商校區",
+  "units": {
+    "智慧機器人學系": {
+      "lat": 22.6569533,
+      "lon": 120.512053,
+      "building": "教學二館",
+      "source_url": "https://www.openstreetmap.org/way/380970180",
+      "address_source_url": "https://intersci.nptu.edu.tw/p/412-1113-12710.php?Lang=zh-tw"
+    }
+  }
+}

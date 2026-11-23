@@ -1,0 +1,14 @@
+{
+  "institution": "國立屏東大學",
+  "campus": "屏師校區",
+  "units": {
+    "科學傳播學系": {
+      "lat": 22.6691121,
+      "lon": 120.5023843,
+      "building": "科藝館",
+      "source_url": "https://www.openstreetmap.org/way/142263455",
+      "address_source_url": "https://dsc.nptu.edu.tw/p/412-1136-95.php?Lang=zh-tw",
+      "aliases": ["科傳系", "科普傳播學系"]
+    }
+  }
+}

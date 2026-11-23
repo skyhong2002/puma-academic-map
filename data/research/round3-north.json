@@ -1,0 +1,101 @@
+[
+  {
+    "section": "會員名單",
+    "raw": "邱靜雯（國立台灣大學化學系教授）",
+    "sources": [
+      {
+        "label": "臺大化學系官網教師頁",
+        "description": "臺大化學系教師頁列邱靜雯教授（副系主任），並附個人照片與研究內容（主族有機金屬、自由基與材料）。",
+        "url": "https://www.ch.ntu.edu.tw/cwchiu.html",
+        "institutions": [
+          "國立臺灣大學"
+        ],
+        "department": "化學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳佩貞（臺灣大學農業化學系教授）",
+    "sources": [
+      {
+        "label": "臺大農業化學系官網專任教師頁",
+        "description": "臺大農化系專任教師頁列陳佩貞教授及其照片，研究領域為環境化學、環境毒理學、環境生物技術應用、水污染處理技術。",
+        "url": "https://ac.ntu.edu.tw/cp_n_187345.html",
+        "institutions": [
+          "國立臺灣大學"
+        ],
+        "department": "農業化學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳冠妃（國立臺灣大學歷史學系助理教授）",
+    "sources": [
+      {
+        "label": "臺大歷史學系官網專任教師頁",
+        "description": "臺大歷史系專任教師頁列陳冠妃助理教授及其照片，研究領域為臺灣社會經濟史、城市史、文化遺產研究。",
+        "url": "https://homepage.ntu.edu.tw/~history/c_members_fulltime.html",
+        "institutions": [
+          "國立臺灣大學"
+        ],
+        "department": "歷史學系"
+      }
+    ]
+  },
+  {
+    "section": "共同領銜",
+    "raw": "楊維哲（台灣大學數學系名譽教授）",
+    "sources": [
+      {
+        "label": "臺大數學系官網榮譽教授頁",
+        "description": "臺大數學系榮譽（退休）教授頁列楊維哲教授（2005 年退休），專長為數學物理、機率論，並附個人照片。",
+        "url": "https://www.math.ntu.edu.tw/people/professor-emeritus",
+        "institutions": [
+          "國立臺灣大學"
+        ],
+        "department": "數學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "蔡協澄（國立臺灣大學機械工程學系副教授）",
+    "sources": [
+      {
+        "label": "臺大機械工程學系官網研究領域頁",
+        "description": "臺大機械系研究領域頁列蔡協澄教師卡片及照片，所屬計算流體物理實驗室（機械館 632）。",
+        "url": "https://www.me.ntu.edu.tw/web/research/research.jsp",
+        "institutions": [
+          "國立臺灣大學"
+        ],
+        "department": "機械工程學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "戴寶村（政治大學台灣史研究所退休教授）",
+    "sources": [
+      {
+        "label": "政大台灣史研究所歷屆師資頁",
+        "description": "政大台史所歷屆師資頁列戴寶村教授為退休教授，最高學歷國立台灣師範大學歷史系博士，授課領域為台灣文化史、台灣海洋史。",
+        "url": "https://taiwan.nccu.edu.tw/PageDoc?fid=12951",
+        "institutions": [
+          "國立政治大學"
+        ],
+        "department": "台灣史研究所"
+      },
+      {
+        "label": "臺北教育大學台灣語言與文化學系兼任教師頁",
+        "description": "北教大台灣語言與文化學系兼任教師頁列戴寶村教授，研究專長為台灣史、台灣海洋史、歷史教育、文化經營、地方志書編撰。",
+        "url": "https://taiwan.ntue.edu.tw/p/406-1029-14971,r578.php?Lang=zh-tw",
+        "institutions": [
+          "國立臺北教育大學"
+        ],
+        "department": "台灣語言與文化學系"
+      }
+    ]
+  }
+]

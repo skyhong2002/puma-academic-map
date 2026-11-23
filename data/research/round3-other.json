@@ -1,0 +1,62 @@
+[
+  {
+    "section": "會員名單",
+    "raw": "楊智廸（陽明交通大學附設醫院陽明交通大學醫學院兼任助理教授，陽明交通大學附設醫院主治醫師）",
+    "sources": [
+      {
+        "label": "陽明交大附醫泌尿外科醫師頁",
+        "description": "院方成員介紹頁列楊智迪醫師為泌尿外科主治醫師（頁面作「迪」），學歷為高雄醫學大學學士後醫學系；頁面未列研究專長。",
+        "url": "https://www.hosp.nycu.edu.tw/departments/health-care/surgery/urinary/members/363-15069.html",
+        "institutions": [
+          "國立陽明交通大學"
+        ],
+        "department": "附設醫院泌尿外科"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "林士傑（陽明交通大學神經科學研究所教授）",
+    "sources": [
+      {
+        "label": "陽明交大研發優勢分析平台人物頁",
+        "description": "Academic Hub 列林士傑為教授（腦科學研究中心），附 ORCID；與林士傑實驗室 PI 頁（神經科學研究所）為同一人。",
+        "url": "https://scholar.nycu.edu.tw/zh/persons/shih-chieh-lin/",
+        "institutions": [
+          "國立陽明交通大學"
+        ],
+        "department": "神經科學研究所"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "黃桂瑩（陽明交通大學視覺文化研究所副教授）",
+    "sources": [
+      {
+        "label": "陽明交大研發優勢分析平台人物頁",
+        "description": "Academic Hub 列黃桂瑩為視覺文化研究所副教授，研究專長為十八、十九世紀英國藝術、十九世紀攝影史。",
+        "url": "https://scholar.nycu.edu.tw/zh/persons/kuei-ying-huang/",
+        "institutions": [
+          "國立陽明交通大學"
+        ],
+        "department": "視覺文化研究所"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "萬宗綸（國立陽明交通大學外國語文學系副教授）",
+    "sources": [
+      {
+        "label": "陽明交大外文系師資頁",
+        "description": "外國語文學系師資頁列萬宗綸及其照片。",
+        "url": "https://fl.nycu.edu.tw/en/2023/07/27/tsung-lun-alan-wan/",
+        "institutions": [
+          "國立陽明交通大學"
+        ],
+        "department": "外國語文學系"
+      }
+    ]
+  }
+]

@@ -1,5 +1,16 @@
 [
   {
+    "name": "國立屏東大學",
+    "aliases": ["屏東大學"],
+    "official_url": "https://www.nptu.edu.tw/",
+    "campuses": [
+      {"name": "民生校區", "county": "屏東縣", "address": "屏東縣屏東市民生路4-18號", "source_url": "https://www.nptu.edu.tw/p/412-1000-3320.php", "lat": 22.665823, "lon": 120.504755, "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.489/22.669/6000"},
+      {"name": "屏師校區", "county": "屏東縣", "address": "屏東縣屏東市林森路1號", "source_url": "https://www.nptu.edu.tw/p/412-1000-3320.php", "lat": 22.669204, "lon": 120.501693, "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.489/22.669/6000"},
+      {"name": "屏商校區", "county": "屏東縣", "address": "屏東縣屏東市民生東路51號", "source_url": "https://www.nptu.edu.tw/p/412-1000-3320.php", "lat": 22.658432, "lon": 120.512074, "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.489/22.669/6000"}
+    ],
+    "checked_on": "2026-11-23"
+  },
+  {
     "name": "國立高雄科技大學",
     "aliases": ["高雄科技大學", "高科大"],
     "official_url": "https://www.nkust.edu.tw/",

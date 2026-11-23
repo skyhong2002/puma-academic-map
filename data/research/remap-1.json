@@ -62,7 +62,8 @@
     ],
     "locations": [
       {
-        "institution": "國立屏東大學民生校區",
+        "institution": "國立屏東大學",
+        "campus": "民生校區",
         "country": "臺灣",
         "city": "屏東縣",
         "lat": 22.665823,
