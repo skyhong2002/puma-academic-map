@@ -1,4 +1,19 @@
 [
+{
+  "id": "3c056c55fdab1257e3a9539b12977a83",
+  "section": "會員名單",
+  "raw": "邱智銘（東吳大學語言中心兼任講師）",
+  "keywords": [
+    {
+      "label": "詞彙與語法",
+      "source": "https://web-ch.scu.edu.tw/language/teacher_resume/3837/524"
+    },
+    {
+      "label": "語料庫語言學",
+      "source": "https://web-ch.scu.edu.tw/language/teacher_resume/3837/524"
+    }
+  ]
+},
   {
     "id": "5270a9ec4cff324cc35931bc6e7f3289",
     "section": "會員名單",
@@ -10861,6 +10876,14 @@
     "raw": "陳盈棻（國立臺北科技大學建築系助理教授）",
     "keywords": [
       {
+        "label": "社區營造和參與式設計",
+        "source": "https://arch.ntut.edu.tw/p/404-1086-116303.php?Lang=zh-tw"
+      },
+      {
+        "label": "混成實境技術介入社區營造",
+        "source": "https://arch.ntut.edu.tw/p/404-1086-116303.php?Lang=zh-tw"
+      },
+      {
         "label": "電影城市",
         "source": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
       },
@@ -16124,6 +16147,14 @@
     "section": "會員名單",
     "raw": "楊宗銘（台灣科技大學電機工程系退休教授）",
     "keywords": [
+      {
+        "label": "軌道電力電子實務",
+        "source": "https://www.ee.ntust.edu.tw/p/412-1027-12781.php?Lang=zh-tw"
+      },
+      {
+        "label": "電力品質",
+        "source": "https://www.ee.ntust.edu.tw/p/412-1027-12781.php?Lang=zh-tw"
+      },
       {
         "label": "電力電子",
         "source": "https://wwwnew.ee.ntust.edu.tw/profile.php?tid=6687"
@@ -26775,6 +26806,26 @@
     "raw": "陳建樺（淡江大學體育事務處專任教授）",
     "keywords": [
       {
+        "label": "籃球",
+        "source": "https://www.sports.tku.edu.tw/%E5%B0%88%E4%BB%BB%E5%B8%AB%E8%B3%87/"
+      },
+      {
+        "label": "壘球",
+        "source": "https://www.sports.tku.edu.tw/%E5%B0%88%E4%BB%BB%E5%B8%AB%E8%B3%87/"
+      },
+      {
+        "label": "游泳",
+        "source": "https://www.sports.tku.edu.tw/%E5%B0%88%E4%BB%BB%E5%B8%AB%E8%B3%87/"
+      },
+      {
+        "label": "體能訓練",
+        "source": "https://www.sports.tku.edu.tw/%E5%B0%88%E4%BB%BB%E5%B8%AB%E8%B3%87/"
+      },
+      {
+        "label": "運動生理學",
+        "source": "https://www.sports.tku.edu.tw/%E5%B0%88%E4%BB%BB%E5%B8%AB%E8%B3%87/"
+      },
+      {
         "label": "Resistance exercise and metabolic responses",
         "source": "https://teacher.tku.edu.tw/StfTchrSmy.aspx?tid=t980721"
       }
@@ -28711,6 +28762,14 @@
     "raw": "巫麗雪（輔仁大學社會學系副教授）",
     "keywords": [
       {
+        "label": "社會階層與不平等",
+        "source": "https://www.soci.fju.edu.tw/teacher.php"
+      },
+      {
+        "label": "高齡社會與生活福祉",
+        "source": "https://www.soci.fju.edu.tw/teacher.php"
+      },
+      {
         "label": "高齡社會學",
         "source": "https://researchinfo.fju.edu.tw/professors/3774"
       },
@@ -28902,6 +28961,18 @@
     "raw": "石易平（輔仁大學社會學系副教授）",
     "keywords": [
       {
+        "label": "家庭兒少親職研究",
+        "source": "https://www.soci.fju.edu.tw/teacher.php"
+      },
+      {
+        "label": "遊戲研究",
+        "source": "https://www.soci.fju.edu.tw/teacher.php"
+      },
+      {
+        "label": "寰宇主義與文化資本",
+        "source": "https://www.soci.fju.edu.tw/teacher.php"
+      },
+      {
         "label": "家庭社會學",
         "source": "https://researchinfo.fju.edu.tw/professors/2626"
       },
@@ -28995,6 +29066,10 @@
     "section": "會員名單",
     "raw": "莊文芳（輔仁大學社會工作系副教授）",
     "keywords": [
+      {
+        "label": "保護性社會工作",
+        "source": "http://npo.social.fju.edu.tw/web/team/team_in.jsp?mp_no=MP1664866202539"
+      },
       {
         "label": "安置服務",
         "source": "https://researchinfo.fju.edu.tw/professors/2797"
@@ -32504,6 +32579,18 @@
     "section": "會員名單",
     "raw": "劉志成（台灣科技大學化工系退休教授）",
     "keywords": [
+      {
+        "label": "自電子廢棄物萃取回收稀土元素",
+        "source": "https://ch-r.ntust.edu.tw/p/404-1021-112706.php?Lang=zh-tw"
+      },
+      {
+        "label": "自工業副產品與廢棄物回收資源",
+        "source": "https://ch-r.ntust.edu.tw/p/404-1021-112706.php?Lang=zh-tw"
+      },
+      {
+        "label": "電子業廢水處理與回收再利用",
+        "source": "https://ch-r.ntust.edu.tw/p/404-1021-112706.php?Lang=zh-tw"
+      },
       {
         "label": "工業廢水處理與回收技術",
         "source": "https://ws.moe.edu.tw/001/Upload/4/relfile/0/5039/83b46b95-b029-4fc3-8863-8b6c125e10d9.csv"

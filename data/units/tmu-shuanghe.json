@@ -1,0 +1,47 @@
+{
+  "institution": "臺北醫學大學",
+  "campus": "雙和校區",
+  "units": {
+    "醫學資訊研究所": {
+      "lat": 24.991158,
+      "lon": 121.49437,
+      "building": "教學研究大樓",
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.49437/24.991158/400",
+      "address_source_url": "https://gibi.tmu.edu.tw/"
+    },
+    "醫療暨生物科技法律研究所": {
+      "lat": 24.991158,
+      "lon": 121.49437,
+      "building": "教學研究大樓",
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.49437/24.991158/400",
+      "address_source_url": "https://medlaw.tmu.edu.tw/index.php?action=contactus",
+      "aliases": [
+        "醫法所"
+      ]
+    },
+    "醫學人文研究所": {
+      "lat": 24.991158,
+      "lon": 121.49437,
+      "building": "教學研究大樓",
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.49437/24.991158/400",
+      "address_source_url": "http://medhuman.tmu.edu.tw/index.php?action=contact"
+    },
+    "心智意識與腦科學研究所": {
+      "lat": 24.991158,
+      "lon": 121.49437,
+      "building": "教學研究大樓",
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.49437/24.991158/400",
+      "address_source_url": "https://gimbc.tmu.edu.tw/",
+      "aliases": [
+        "心智意識與腦科研究所"
+      ]
+    },
+    "轉譯醫學博士學位學程": {
+      "lat": 24.991158,
+      "lon": 121.49437,
+      "building": "教學研究大樓",
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.49437/24.991158/400",
+      "address_source_url": "https://ptm.tmu.edu.tw/"
+    }
+  }
+}

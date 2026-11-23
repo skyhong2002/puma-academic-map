@@ -1,5 +1,27 @@
 [
 {
+  "name": "臺北醫學大學",
+  "aliases": [
+    "北醫",
+    "北醫大",
+    "台北醫學大學",
+    "臺北醫大"
+  ],
+  "official_url": "https://www.tmu.edu.tw/",
+  "campuses": [
+    {
+      "name": "雙和校區",
+      "county": "新北市",
+      "address": "新北市中和區圓通路301號",
+      "source_url": "https://www.tmu.edu.tw/FrontPointOfEntry.aspx?Sn=278",
+      "lat": 24.991158,
+      "lon": 121.49437,
+      "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.49437/24.991158/400"
+    }
+  ],
+  "checked_on": "2026-11-23"
+},
+{
   "name": "國立高雄師範大學",
   "aliases": [
     "高雄師範大學",
