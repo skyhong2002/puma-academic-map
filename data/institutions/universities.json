@@ -251,6 +251,36 @@
     "checked_on": "2026-11-21"
   },
   {
+    "name": "東吳大學",
+    "aliases": [
+      "東吳",
+      "東吳大",
+      "Soochow University"
+    ],
+    "official_url": "https://www.scu.edu.tw/",
+    "campuses": [
+      {
+        "name": "外雙溪校區",
+        "county": "臺北市",
+        "address": "臺北市士林區臨溪路70號",
+        "source_url": "https://www-ch.scu.edu.tw/school_traffic",
+        "lat": 25.094459,
+        "lon": 121.545561,
+        "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.1/10000"
+      },
+      {
+        "name": "城中校區",
+        "county": "臺北市",
+        "address": "臺北市中正區貴陽街一段56號",
+        "source_url": "https://www-ch.scu.edu.tw/school_traffic",
+        "lat": 25.038324,
+        "lon": 121.509657,
+        "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.51/25.04/3000"
+      }
+    ],
+    "checked_on": "2026-11-23"
+  },
+  {
     "name": "國立中山大學",
     "aliases": [
       "中山大學"

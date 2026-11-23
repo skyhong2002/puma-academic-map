@@ -27,28 +27,20 @@
       "lon": 121.541375,
       "building": "電資館",
       "source_url": "https://www.openstreetmap.org/way/646382060",
-      "address_source_url": "https://www.ee.ntust.edu.tw/p/412-1027-3232.php?Lang=zh-tw"
-    },
-    "電機系": {
-      "lat": 25.011894,
-      "lon": 121.541375,
-      "building": "電資館",
-      "source_url": "https://www.openstreetmap.org/way/646382060",
-      "address_source_url": "https://www.ee.ntust.edu.tw/p/412-1027-3232.php?Lang=zh-tw"
+      "address_source_url": "https://www.ee.ntust.edu.tw/p/412-1027-3232.php?Lang=zh-tw",
+      "aliases": [
+        "電機系"
+      ]
     },
     "電子工程系": {
       "lat": 25.011894,
       "lon": 121.541375,
       "building": "電資館",
       "source_url": "https://www.openstreetmap.org/way/646382060",
-      "address_source_url": "https://ece.ntust.edu.tw/"
-    },
-    "電子系": {
-      "lat": 25.011894,
-      "lon": 121.541375,
-      "building": "電資館",
-      "source_url": "https://www.openstreetmap.org/way/646382060",
-      "address_source_url": "https://ece.ntust.edu.tw/"
+      "address_source_url": "https://ece.ntust.edu.tw/",
+      "aliases": [
+        "電子系"
+      ]
     },
     "光電工程研究所": {
       "lat": 25.011894,
@@ -111,28 +103,20 @@
       "lon": 121.542138,
       "building": "工程一館",
       "source_url": "https://www.openstreetmap.org/way/323467344",
-      "address_source_url": "https://www.ntust.edu.tw/p/404-1000-88778.php?Lang=zh-tw"
-    },
-    "機械系": {
-      "lat": 25.013362,
-      "lon": 121.542138,
-      "building": "工程一館",
-      "source_url": "https://www.openstreetmap.org/way/323467344",
-      "address_source_url": "https://www.ntust.edu.tw/p/404-1000-88778.php?Lang=zh-tw"
+      "address_source_url": "https://www.ntust.edu.tw/p/404-1000-88778.php?Lang=zh-tw",
+      "aliases": [
+        "機械系"
+      ]
     },
     "材料科學與工程系": {
       "lat": 25.013362,
       "lon": 121.542138,
       "building": "工程一館",
       "source_url": "https://www.openstreetmap.org/way/323467344",
-      "address_source_url": "https://www.ntust.edu.tw/p/404-1000-88778.php?Lang=zh-tw"
-    },
-    "材料系": {
-      "lat": 25.013362,
-      "lon": 121.542138,
-      "building": "工程一館",
-      "source_url": "https://www.openstreetmap.org/way/323467344",
-      "address_source_url": "https://www.ntust.edu.tw/p/404-1000-88778.php?Lang=zh-tw"
+      "address_source_url": "https://www.ntust.edu.tw/p/404-1000-88778.php?Lang=zh-tw",
+      "aliases": [
+        "材料系"
+      ]
     },
     "工業管理系": {
       "lat": 25.012392,

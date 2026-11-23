@@ -1,0 +1,338 @@
+{
+  "institution": "東吳大學",
+  "campus": "外雙溪校區",
+  "units": {
+    "人文社會學院": {
+      "lat": 25.094459,
+      "lon": 121.545561,
+      "building": "外雙溪校區",
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.1/10000",
+      "address_source_url": "https://lass.artsoc.scu.edu.tw/"
+    },
+    "中國文學系": {
+      "lat": 25.094459,
+      "lon": 121.545561,
+      "building": "外雙溪校區",
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.1/10000",
+      "address_source_url": "https://web-ch.scu.edu.tw/chinese/",
+      "aliases": [
+        "中文系"
+      ]
+    },
+    "歷史學系": {
+      "lat": 25.0945324,
+      "lon": 121.5471659,
+      "building": "第二教學研究大樓",
+      "source_url": "https://www.openstreetmap.org/way/404905849",
+      "address_source_url": "https://web-ch.scu.edu.tw/history/web_page/9593",
+      "aliases": [
+        "歷史系"
+      ]
+    },
+    "哲學系": {
+      "lat": 25.0945324,
+      "lon": 121.5471659,
+      "building": "第二教學研究大樓",
+      "source_url": "https://www.openstreetmap.org/way/404905849",
+      "address_source_url": "https://scuphi.pph.scu.edu.tw/"
+    },
+    "政治學系": {
+      "lat": 25.094459,
+      "lon": 121.545561,
+      "building": "外雙溪校區",
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.1/10000",
+      "address_source_url": "https://scups.ppo.scu.edu.tw/",
+      "aliases": [
+        "政治系"
+      ]
+    },
+    "社會學系": {
+      "lat": 25.094459,
+      "lon": 121.545561,
+      "building": "外雙溪校區",
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.1/10000",
+      "address_source_url": "https://scusoc.pso.scu.edu.tw/",
+      "aliases": [
+        "社會系"
+      ]
+    },
+    "社會工作學系": {
+      "lat": 25.0945324,
+      "lon": 121.5471659,
+      "building": "第二教學研究大樓",
+      "source_url": "https://www.openstreetmap.org/way/404905849",
+      "address_source_url": "https://web-ch.scu.edu.tw/sw/",
+      "aliases": [
+        "社工系",
+        "社會工作系"
+      ]
+    },
+    "音樂學系": {
+      "lat": 25.094459,
+      "lon": 121.545561,
+      "building": "外雙溪校區",
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.1/10000",
+      "address_source_url": "https://web-ch.scu.edu.tw/music/",
+      "aliases": [
+        "音樂系"
+      ]
+    },
+    "人權碩士學位學程": {
+      "lat": 25.0936983,
+      "lon": 121.5458716,
+      "building": "哲生樓",
+      "source_url": "https://www.openstreetmap.org/way/453933861",
+      "address_source_url": "https://lass.artsoc.scu.edu.tw/subcontact/2",
+      "aliases": [
+        "人權學程",
+        "人權碩士學程"
+      ]
+    },
+    "外國語文學院": {
+      "lat": 25.0930465,
+      "lon": 121.5462708,
+      "building": "第一教學研究大樓",
+      "source_url": "https://www.openstreetmap.org/way/225008902",
+      "address_source_url": "https://web-ch.scu.edu.tw/foreign/",
+      "aliases": [
+        "外語學院"
+      ]
+    },
+    "英文學系": {
+      "lat": 25.094459,
+      "lon": 121.545561,
+      "building": "外雙溪校區",
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.1/10000",
+      "address_source_url": "https://www.qen.scu.edu.tw/",
+      "aliases": [
+        "英文系"
+      ]
+    },
+    "日本語文學系": {
+      "lat": 25.0930465,
+      "lon": 121.5462708,
+      "building": "第一教學研究大樓",
+      "source_url": "https://www.openstreetmap.org/way/225008902",
+      "address_source_url": "https://web-ch.scu.edu.tw/japanese/",
+      "aliases": [
+        "日文系",
+        "日本語文系"
+      ]
+    },
+    "德國文化學系": {
+      "lat": 25.094459,
+      "lon": 121.545561,
+      "building": "外雙溪校區",
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.1/10000",
+      "address_source_url": "https://web-ch.scu.edu.tw/deutsch/",
+      "aliases": [
+        "德文系"
+      ]
+    },
+    "語言教學中心": {
+      "lat": 25.094459,
+      "lon": 121.545561,
+      "building": "外雙溪校區",
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.1/10000",
+      "address_source_url": "https://web-ch.scu.edu.tw/language/",
+      "aliases": [
+        "語言中心"
+      ]
+    },
+    "跨領域國際學士班": {
+      "lat": 25.0930465,
+      "lon": 121.5462708,
+      "building": "第一教學研究大樓",
+      "source_url": "https://www.openstreetmap.org/way/225008902",
+      "address_source_url": "https://web-ch.scu.edu.tw/gpis"
+    },
+    "理學院": {
+      "lat": 25.0930465,
+      "lon": 121.5462708,
+      "building": "第一教學研究大樓",
+      "source_url": "https://www.openstreetmap.org/way/225008902",
+      "address_source_url": "https://web-ch.scu.edu.tw/science/web_page/1040"
+    },
+    "數學系": {
+      "lat": 25.0930465,
+      "lon": 121.5462708,
+      "building": "第一教學研究大樓",
+      "source_url": "https://www.openstreetmap.org/way/225008902",
+      "address_source_url": "https://web-ch.scu.edu.tw/math/"
+    },
+    "物理學系": {
+      "lat": 25.0930465,
+      "lon": 121.5462708,
+      "building": "第一教學研究大樓",
+      "source_url": "https://www.openstreetmap.org/way/225008902",
+      "address_source_url": "https://www.phys.scu.edu.tw/",
+      "aliases": [
+        "物理系"
+      ]
+    },
+    "化學系": {
+      "lat": 25.0940426,
+      "lon": 121.5446294,
+      "building": "超庸館",
+      "source_url": "https://www.openstreetmap.org/way/453934980",
+      "address_source_url": "https://www.chem.scu.edu.tw/"
+    },
+    "微生物學系": {
+      "lat": 25.094459,
+      "lon": 121.545561,
+      "building": "外雙溪校區",
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.54/25.1/10000",
+      "address_source_url": "https://microbiology.scu.edu.tw/",
+      "aliases": [
+        "微生物系"
+      ]
+    },
+    "心理學系": {
+      "lat": 25.0941098,
+      "lon": 121.5451741,
+      "building": "心理學系",
+      "source_url": "https://www.openstreetmap.org/way/453934783",
+      "address_source_url": "https://web-ch.scu.edu.tw/psy/",
+      "aliases": [
+        "心理系"
+      ]
+    },
+    "資料科學系": {
+      "lat": 25.0936983,
+      "lon": 121.5458716,
+      "building": "哲生樓",
+      "source_url": "https://www.openstreetmap.org/way/453933861",
+      "address_source_url": "https://web-ch.scu.edu.tw/datascience"
+    },
+    "法學院": {
+      "campus": "城中校區",
+      "lat": 25.038324,
+      "lon": 121.509657,
+      "building": "城中校區",
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.51/25.04/3000",
+      "address_source_url": "https://www.law.scu.edu.tw/"
+    },
+    "法律學系": {
+      "campus": "城中校區",
+      "lat": 25.038324,
+      "lon": 121.509657,
+      "building": "城中校區",
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.51/25.04/3000",
+      "address_source_url": "https://www.law.scu.edu.tw/",
+      "aliases": [
+        "法律系"
+      ]
+    },
+    "法律專業碩士班": {
+      "campus": "城中校區",
+      "lat": 25.038324,
+      "lon": 121.509657,
+      "building": "城中校區",
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.51/25.04/3000",
+      "address_source_url": "https://www.law.scu.edu.tw/"
+    },
+    "商學院": {
+      "campus": "城中校區",
+      "lat": 25.038324,
+      "lon": 121.509657,
+      "building": "城中校區",
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.51/25.04/3000",
+      "address_source_url": "http://business.scu.edu.tw/"
+    },
+    "經濟學系": {
+      "campus": "城中校區",
+      "lat": 25.038324,
+      "lon": 121.509657,
+      "building": "城中校區",
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.51/25.04/3000",
+      "address_source_url": "https://web-ch.scu.edu.tw/econ/contact/5344",
+      "aliases": [
+        "經濟系"
+      ]
+    },
+    "會計學系": {
+      "campus": "城中校區",
+      "lat": 25.038324,
+      "lon": 121.509657,
+      "building": "城中校區",
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.51/25.04/3000",
+      "address_source_url": "https://web-ch.scu.edu.tw/acc/",
+      "aliases": [
+        "會計系"
+      ]
+    },
+    "企業管理學系": {
+      "campus": "城中校區",
+      "lat": 25.038324,
+      "lon": 121.509657,
+      "building": "城中校區",
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.51/25.04/3000",
+      "address_source_url": "https://www.ba.scu.edu.tw/",
+      "aliases": [
+        "企管系",
+        "企業管理系"
+      ]
+    },
+    "國際經營與貿易學系": {
+      "campus": "城中校區",
+      "lat": 25.038324,
+      "lon": 121.509657,
+      "building": "城中校區",
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.51/25.04/3000",
+      "address_source_url": "https://web-ch.scu.edu.tw/ibsu",
+      "aliases": [
+        "國貿系"
+      ]
+    },
+    "財務工程與精算數學系": {
+      "campus": "城中校區",
+      "lat": 25.038324,
+      "lon": 121.509657,
+      "building": "城中校區",
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.51/25.04/3000",
+      "address_source_url": "https://www.feam.scu.edu.tw/",
+      "aliases": [
+        "財精系"
+      ]
+    },
+    "資訊管理學系": {
+      "campus": "城中校區",
+      "lat": 25.038324,
+      "lon": 121.509657,
+      "building": "城中校區",
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.51/25.04/3000",
+      "address_source_url": "http://www.csim.scu.edu.tw/lang.aspx?lang=zh-TW",
+      "aliases": [
+        "資管系"
+      ]
+    },
+    "商學進修學士班": {
+      "campus": "城中校區",
+      "lat": 25.038324,
+      "lon": 121.509657,
+      "building": "城中校區",
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.51/25.04/3000",
+      "address_source_url": "https://web-ch.scu.edu.tw/ebba"
+    },
+    "EMBA高階經營碩士在職專班": {
+      "campus": "城中校區",
+      "lat": 25.038324,
+      "lon": 121.509657,
+      "building": "城中校區",
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.51/25.04/3000",
+      "address_source_url": "https://www.emba.scu.edu.tw/zh-hant",
+      "aliases": [
+        "EMBA",
+        "高階經營碩士在職專班"
+      ]
+    },
+    "財務金融學程": {
+      "campus": "城中校區",
+      "lat": 25.0382991,
+      "lon": 121.5096097,
+      "building": "鑄秋大樓",
+      "source_url": "https://www.openstreetmap.org/way/271055841",
+      "address_source_url": "https://web-ch.scu.edu.tw/fin/"
+    }
+  }
+}
