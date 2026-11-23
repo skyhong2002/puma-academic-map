@@ -1,0 +1,57 @@
+[
+  {
+    "section": "會員名單",
+    "raw": "蘇逸人（長庚大學行為科學研究所教授）",
+    "sources": [
+      {
+        "label": "長庚大學職能治療學系／行為科學碩士班專任教師頁：蘇逸人",
+        "description": "專任教師頁列蘇逸人（Yi-Jen Su, PhD）為教授，臺灣大學心理學研究所臨床心理學博士；專長領域標示為成人臨床心理學、災難創傷心理學、心理治療、燒燙傷心理。",
+        "url": "https://www.cgu.edu.tw/dot/FullTimeProfessorManagement/Detail/f0ff8fd6-5722-4d4b-9225-6e03ebcbd6ea?nodeId=8775",
+        "institutions": [
+          "長庚大學"
+        ],
+        "department": "職能治療學系／行為科學碩士班"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "吳清源（長庚大學中醫系教授）",
+    "sources": [
+      {
+        "label": "長庚大學中醫學系中醫臨床教師名單",
+        "description": "名單列吳清源為專任臨床教授，院區嘉義，專業背景中醫一般內科。",
+        "url": "https://www.cgu.edu.tw/cm/Contents?nodeId=3452",
+        "institutions": [
+          "長庚大學"
+        ],
+        "department": "中醫學系"
+      },
+      {
+        "label": "長庚醫療財團法人官網醫師介紹：吳清源",
+        "description": "醫師頁標示職稱教授，現職嘉義長庚中醫科主治醫師，學歷中國醫藥學院中醫系、長庚大學博士，曾任嘉義長庚中醫科主任。",
+        "url": "https://www.cgmh.org.tw/tw/Services/DoctorInfo/6010",
+        "institutions": [
+          "嘉義長庚紀念醫院",
+          "長庚大學"
+        ],
+        "department": "中醫科"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "劉俊秀（陽明交通大學土木工程學系退休教授）",
+    "sources": [
+      {
+        "label": "國立交通大學土木工程學系英文師資頁：Gin-Show Liou（Internet Archive 存檔）",
+        "description": "原系網頁（cv.nctu.edu.tw，現已無法連線，取自 Internet Archive 存檔）列 Gin-Show Liou 為土木工程學系教授，1993 年起任教、1998–2000 年任系主任，UC Berkeley 博士；Research 欄列 Soil-Structure Interaction、Earthquake Engineering、Micro Vibration of Ground、Boundary Element Method 等。姓名、系所與陽明交大土木系退休教師頁（ce.nycu.edu.tw/member/educators/16）一致。",
+        "url": "https://web.archive.org/web/2020/http://www.cv.nctu.edu.tw/English_New/faculty/t10.htm",
+        "institutions": [
+          "國立陽明交通大學"
+        ],
+        "department": "土木工程學系"
+      }
+    ]
+  }
+]

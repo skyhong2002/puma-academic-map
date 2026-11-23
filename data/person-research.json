@@ -1,5 +1,32 @@
 [
 {
+  "id": "16a242afa19b3972f8201d7b7f039ddd",
+  "section": "會員名單",
+  "raw": "劉俊秀（陽明交通大學土木工程學系退休教授）",
+  "keywords": [
+    {
+      "label": "Soil-Structure Interaction",
+      "source": "https://web.archive.org/web/2020/http://www.cv.nctu.edu.tw/English_New/faculty/t10.htm"
+    },
+    {
+      "label": "Earthquake Engineering",
+      "source": "https://web.archive.org/web/2020/http://www.cv.nctu.edu.tw/English_New/faculty/t10.htm"
+    },
+    {
+      "label": "Micro Vibration of Ground",
+      "source": "https://web.archive.org/web/2020/http://www.cv.nctu.edu.tw/English_New/faculty/t10.htm"
+    },
+    {
+      "label": "Boundary Element Method",
+      "source": "https://web.archive.org/web/2020/http://www.cv.nctu.edu.tw/English_New/faculty/t10.htm"
+    },
+    {
+      "label": "Nonlinear Structural Analysis of Building",
+      "source": "https://web.archive.org/web/2020/http://www.cv.nctu.edu.tw/English_New/faculty/t10.htm"
+    }
+  ]
+},
+{
   "id": "726d849517cacf65fbf13be98e531779",
   "section": "會員名單",
   "raw": "葉國樑（台灣師範大學健康促進與衛生教育學系退休教授）",
@@ -12475,6 +12502,18 @@
     "raw": "李宗興（臺灣大學創新領域學士學位學程助理教授）",
     "keywords": [
       {
+        "label": "舞蹈研究",
+        "source": "https://dschool.ntu.edu.tw/people/tsung/"
+      },
+      {
+        "label": "創造力研究",
+        "source": "https://dschool.ntu.edu.tw/people/tsung/"
+      },
+      {
+        "label": "實踐研究",
+        "source": "https://dschool.ntu.edu.tw/people/tsung/"
+      },
+      {
         "label": "身體技巧",
         "source": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
       },
@@ -13550,6 +13589,22 @@
     "raw": "林鶴玲（台灣大學社會學系退休教授）",
     "keywords": [
       {
+        "label": "資訊社會學",
+        "source": "https://sociology.ntu.edu.tw/faculty/fct03/"
+      },
+      {
+        "label": "數位遊戲研究",
+        "source": "https://sociology.ntu.edu.tw/faculty/fct03/"
+      },
+      {
+        "label": "性別研究",
+        "source": "https://sociology.ntu.edu.tw/faculty/fct03/"
+      },
+      {
+        "label": "傳播社會學",
+        "source": "https://sociology.ntu.edu.tw/faculty/fct03/"
+      },
+      {
         "label": "Sociology of Information Technology",
         "source": "https://scholars.lib.ntu.edu.tw/entities/person/9322e2cd-15e1-49dc-9c1c-537fc68b5df6"
       },
@@ -14123,6 +14178,18 @@
     "section": "會員名單",
     "raw": "蔡欣祐（台灣大學分子醫學所副教授）",
     "keywords": [
+      {
+        "label": "核糖核酸生化學",
+        "source": "https://molecular.ntu.edu.tw/Teacher/Faculty_more?Id=16&type=1"
+      },
+      {
+        "label": "次世代定序結果分析",
+        "source": "https://molecular.ntu.edu.tw/Teacher/Faculty_more?Id=16&type=1"
+      },
+      {
+        "label": "線蟲發展生物學",
+        "source": "https://molecular.ntu.edu.tw/Teacher/Faculty_more?Id=16&type=1"
+      },
       {
         "label": "RNA biochemistry",
         "source": "https://scholars.lib.ntu.edu.tw/entities/person/dc2e99d2-cc53-4171-a7e1-92a8fab31faf"
