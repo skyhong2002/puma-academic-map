@@ -1,0 +1,47 @@
+[
+  {
+    "section": "會員名單",
+    "raw": "陳建霖（義守大學機械系教授）",
+    "sources": [
+      {
+        "label": "義守大學機械與自動化工程系師資頁：陳建霖 Jiann-Lin Chen",
+        "description": "義守大學機械與自動化工程系師資頁列陳建霖（Jiann-Lin Chen）為教授，學歷為國立成功大學航空太空研究所博士，經歷含國防部中科院副研究員、助理教授、副教授，與署名「義守大學機械系教授」一致；附單人照片。",
+        "url": "https://mae.isu.edu.tw/teachers/faculty",
+        "institutions": [
+          "義守大學"
+        ],
+        "department": "機械與自動化工程系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "丁弘彬（美國馬里蘭州羅耀拉大學商學院副院長暨教授）",
+    "sources": [
+      {
+        "label": "羅耀拉大學 Sellinger 商學院教師頁：Hung-bin Ding",
+        "description": "羅耀拉大學（Loyola University Maryland）Sellinger 商學院教師頁列 Hung-bin Ding 為管理與國際企業系教師，學歷為蘇州（東吳）大學學士、喬治華盛頓大學碩士、倫斯勒理工學院管理學博士；2022 年校方新聞稿稱其為商學院副院長暨管理學教授。頁面自述職稱為較舊的副教授暨系主任，與署名現職有時間差，同一人依學歷與機構判斷。",
+        "url": "https://www.loyola.edu/sellinger-business/faculty-research/directory/ding.html",
+        "institutions": [
+          "羅耀拉大學"
+        ],
+        "department": "Sellinger 商學院"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "黃俊凱（田納西大學健康科學中心副教授）",
+    "sources": [
+      {
+        "label": "田納西大學健康科學中心物理治療學系教職員頁：Chun-Kai Huang, PhD, MS, PT",
+        "description": "田納西大學健康科學中心（UTHSC）健康專業學院物理治療學系教職員頁列 Chun-Kai Huang, PhD, MS, PT 為副教授（Associate Professor），與署名「田納西大學健康科學中心副教授」一致；附單人照片。",
+        "url": "https://www.uthsc.edu/health-professions/physical-therapy/about/faculty-staff.php",
+        "institutions": [
+          "田納西大學健康科學中心"
+        ],
+        "department": "健康專業學院物理治療學系"
+      }
+    ]
+  }
+]

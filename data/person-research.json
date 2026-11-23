@@ -1,5 +1,32 @@
 [
 {
+  "id": "59fd389f03f06fca6725c9152288db0e",
+  "section": "會員名單",
+  "raw": "簡揚庭（美國喬治亞州立大學天文暨物理學系助理教授）",
+  "keywords": [
+    {
+      "label": "jet substructure",
+      "source": "https://as.vanderbilt.edu/physics-astronomy/colloquium-yang-ting-chien/"
+    },
+    {
+      "label": "effective field theory",
+      "source": "https://as.vanderbilt.edu/physics-astronomy/colloquium-yang-ting-chien/"
+    },
+    {
+      "label": "quark-gluon plasma",
+      "source": "https://as.vanderbilt.edu/physics-astronomy/colloquium-yang-ting-chien/"
+    },
+    {
+      "label": "heavy-ion collisions",
+      "source": "https://as.vanderbilt.edu/physics-astronomy/colloquium-yang-ting-chien/"
+    },
+    {
+      "label": "high-accuracy QCD calculations",
+      "source": "https://as.vanderbilt.edu/physics-astronomy/colloquium-yang-ting-chien/"
+    }
+  ]
+},
+{
   "id": "d75c8b58d05876e032ba2856b25429fd",
   "section": "會員名單",
   "raw": "陳東榮（國立中央大學前英文系教授兼主任）",
