@@ -1,4 +1,5 @@
 import { unitInstitutionAliases } from './campus-locations.js';
+import unitAliases from '../data/unit-aliases.json';
 
 const institutionFiles = import.meta.glob('../data/institutions/*.json', { eager: true, import: 'default' });
 const aliasesByInstitution = new Map(Object.values(institutionFiles).flat()
@@ -6,7 +7,33 @@ const aliasesByInstitution = new Map(Object.values(institutionFiles).flat()
 
 const normalizeUnit = (text) => text.replace(/\s+/g, '').replaceAll('台', '臺');
 
+// 單位資料中的 aliases（例如「生科系」）一律歸到正式單位名稱（「生命科學系」），避免同一系被拆成兩組。
+const unitFiles = import.meta.glob('../data/units/*.json', { eager: true, import: 'default' });
+const unitKey = (text) => normalizeUnit(text.normalize('NFKC')).replaceAll('學系', '系');
+const canonicalUnits = new Map();
+for (const { institution, units } of Object.values(unitFiles)) {
+  if (!institution || !units) continue;
+  const names = canonicalUnits.get(institution) ?? new Map();
+  canonicalUnits.set(institution, names);
+  for (const [unit, record] of Object.entries(units)) {
+    if (!names.has(unitKey(unit))) names.set(unitKey(unit), unit);
+    for (const alias of record.aliases ?? []) if (!names.has(unitKey(alias))) names.set(unitKey(alias), unit);
+  }
+}
+
+// data/unit-aliases.json：資料裡沒有座標、但同一系所有不同寫法的對照（簡稱、改名前後）。
+for (const [institution, variants] of Object.entries(unitAliases)) {
+  const names = canonicalUnits.get(institution) ?? new Map();
+  canonicalUnits.set(institution, names);
+  for (const [variant, canonical] of Object.entries(variants)) names.set(unitKey(variant), canonical);
+}
+
 export function departmentFor(person, institution) {
+  const label = rawDepartmentFor(person, institution);
+  return canonicalUnits.get(institution)?.get(unitKey(label)) ?? label;
+}
+
+function rawDepartmentFor(person, institution) {
   const documented = person.refs.find((ref) => ref.department && ref.institutions?.includes(institution));
   if (documented) return documented.department;
   const aliases = [institution, institution.replace(/^國立/, ''), ...aliasesByInstitution.get(institution) ?? [],
