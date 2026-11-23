@@ -1,0 +1,18 @@
+{
+  "institution": "國立高雄師範大學",
+  "campus": "燕巢校區",
+  "units": {
+    "化學系": {
+      "lat": 22.786153,
+      "lon": 120.404017,
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.404/22.786/3000",
+      "address_source_url": "https://collego.edu.tw/Highschool/DepartmentIntro?dept_id=022003"
+    },
+    "物理學系": {
+      "lat": 22.786153,
+      "lon": 120.404017,
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.404/22.786/3000",
+      "address_source_url": "https://phy.nknu.edu.tw/content/p5_1.htm"
+    }
+  }
+}

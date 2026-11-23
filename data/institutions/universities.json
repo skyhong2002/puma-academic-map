@@ -1,4 +1,102 @@
 [
+{
+  "name": "國立高雄師範大學",
+  "aliases": [
+    "高雄師範大學",
+    "高師大"
+  ],
+  "official_url": "https://www.nknu.edu.tw/",
+  "campuses": [
+    {
+      "name": "燕巢校區",
+      "county": "高雄市",
+      "address": "高雄市燕巢區深中路62號",
+      "source_url": "https://udb.moe.edu.tw/ulist/Institution?id=000021E70845",
+      "lat": 22.786153,
+      "lon": 120.404017,
+      "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.404/22.786/3000"
+    }
+  ],
+  "checked_on": "2026-11-23"
+},
+{
+  "name": "國立彰化師範大學",
+  "aliases": [
+    "彰化師範大學",
+    "彰師大"
+  ],
+  "official_url": "https://www.ncue.edu.tw/",
+  "campuses": [
+    {
+      "name": "師大校區（原寶山校區）",
+      "county": "彰化縣",
+      "address": "彰化縣彰化市師大路2號",
+      "source_url": "https://www.ncue.edu.tw/p/412-1000-1877.php?Lang=zh-tw",
+      "lat": 24.066041,
+      "lon": 120.5589,
+      "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.56/24.08/6000"
+    }
+  ],
+  "checked_on": "2026-11-23"
+},
+{
+  "name": "國立嘉義大學",
+  "aliases": [
+    "嘉義大學",
+    "嘉大"
+  ],
+  "official_url": "https://www.ncyu.edu.tw/",
+  "campuses": [
+    {
+      "name": "民雄校區",
+      "county": "嘉義縣",
+      "address": "嘉義縣民雄鄉文隆村85號",
+      "source_url": "https://www.ncyu.edu.tw/ncyu/Subject/Detail/5931?nodeId=552",
+      "lat": 23.543511,
+      "lon": 120.423975,
+      "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.43/23.55/6000"
+    },
+    {
+      "name": "新民校區",
+      "county": "嘉義市",
+      "address": "嘉義市西區新民路580號",
+      "source_url": "https://www.ncyu.edu.tw/ncyu/Subject/Detail/5931?nodeId=552",
+      "lat": 23.464892,
+      "lon": 120.44278,
+      "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.45/23.47/12000"
+    },
+    {
+      "name": "林森校區",
+      "county": "嘉義市",
+      "address": "嘉義市東區林森東路151號",
+      "source_url": "https://www.ncyu.edu.tw/ncyu/Subject/Detail/5931?nodeId=552",
+      "lat": 23.487629,
+      "lon": 120.459504,
+      "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.45/23.47/12000"
+    }
+  ],
+  "checked_on": "2026-11-23"
+},
+{
+  "name": "臺北市立大學",
+  "aliases": [
+    "北市大",
+    "台北市立大學"
+  ],
+  "official_url": "https://www.utaipei.edu.tw/",
+  "campuses": [
+    {
+      "name": "天母校區",
+      "county": "臺北市",
+      "address": "臺北市士林區忠誠路二段101號",
+      "source_url": "https://admission.utaipei.edu.tw/var/file/33/1033/img/247/103839746.pdf",
+      "lat": 25.116116,
+      "lon": 121.536553,
+      "coordinate_source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.53/25.11/4000"
+    }
+  ],
+  "checked_on": "2026-11-23"
+},
   {
     "name": "國立屏東大學",
     "aliases": ["屏東大學"],

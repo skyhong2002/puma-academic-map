@@ -1,0 +1,12 @@
+{
+  "institution": "國立嘉義大學",
+  "campus": "新民校區",
+  "units": {
+    "應用經濟學系": {
+      "lat": 23.464892,
+      "lon": 120.44278,
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.45/23.47/12000",
+      "address_source_url": "https://website.ncyu.edu.tw/gramgt/Contents?nodeId=41049"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "institution": "國立彰化師範大學",
+  "campus": "師大校區（原寶山校區）",
+  "units": {
+    "企業管理學系": {
+      "lat": 24.066041,
+      "lon": 120.5589,
+      "building": "經世館",
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.56/24.08/6000",
+      "address_source_url": "https://www.ncue.edu.tw/p/412-1000-1877.php?Lang=zh-tw"
+    }
+  }
+}

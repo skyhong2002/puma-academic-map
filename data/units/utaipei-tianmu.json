@@ -1,0 +1,12 @@
+{
+  "institution": "臺北市立大學",
+  "campus": "天母校區",
+  "units": {
+    "休閒運動管理學系": {
+      "lat": 25.116116,
+      "lon": 121.536553,
+      "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.53/25.11/4000",
+      "address_source_url": "https://collego.edu.tw/Highschool/DepartmentIntro?dept_id=035024"
+    }
+  }
+}
