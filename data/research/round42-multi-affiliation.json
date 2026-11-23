@@ -1,0 +1,60 @@
+[
+  {
+    "section": "會員名單",
+    "raw": "孫傳硯（陽明交通大學醫學系講師）",
+    "sources": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立陽明交通大學醫學系，兼任講師。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立陽明交通大學"
+        ],
+        "department": "醫學系"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "國立陽明交通大學",
+        "country": "臺灣",
+        "city": "臺北市",
+        "campus": "臺北陽明校區",
+        "lat": 25.120461,
+        "lon": 121.513537,
+        "campus_only": true,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/121.51/25.12/6500",
+        "address_source_url": "https://www.nycu.edu.tw/nycu/ch/app/artwebsite/view?id=3981&module=artwebsite&serno=c7e74691-8e3b-4ce5-bc4c-bf801f78b1fe",
+        "address": "臺北市北投區立農街二段155號"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "吳宇中（國家同步輻射研究中心研究員）",
+    "sources": [
+      {
+        "label": "教育部 114 學年度師資名錄",
+        "description": "教育部彙整表（2025-10-15 調查）記載：國立陽明交通大學應用化學系，兼任教授。",
+        "url": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv",
+        "institutions": [
+          "國立陽明交通大學"
+        ],
+        "department": "應用化學系"
+      }
+    ],
+    "locations": [
+      {
+        "institution": "國立陽明交通大學",
+        "country": "臺灣",
+        "city": "新竹市",
+        "campus": "新竹光復校區",
+        "lat": 24.789234,
+        "lon": 120.999373,
+        "campus_only": true,
+        "source_url": "https://api.nlsc.gov.tw/other/MarkBufferAnlys/edu/120.974/24.792/7500",
+        "address_source_url": "https://www.nycu.edu.tw/nycu/ch/app/artwebsite/view?id=3981&module=artwebsite&serno=c7e74691-8e3b-4ce5-bc4c-bf801f78b1fe",
+        "address": "新竹市東區大學路1001號"
+      }
+    ]
+  }
+]
