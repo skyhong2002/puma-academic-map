@@ -1,5 +1,28 @@
 [
 {
+  "id": "c5d17ff03839258f12d6461e35850e1f",
+  "section": "會員名單",
+  "raw": "孫啓榕（中國科技大學建築系專任講師）",
+  "keywords": [
+    {
+      "label": "環境規劃理論及實務",
+      "source": "https://arch.gm.cute.edu.tw/%E5%B8%AB%E8%B3%87/%E5%AD%AB%E5%95%9F%E6%A6%95"
+    },
+    {
+      "label": "都市及建築設計",
+      "source": "https://arch.gm.cute.edu.tw/%E5%B8%AB%E8%B3%87/%E5%AD%AB%E5%95%9F%E6%A6%95"
+    },
+    {
+      "label": "形象分析",
+      "source": "https://arch.gm.cute.edu.tw/%E5%B8%AB%E8%B3%87/%E5%AD%AB%E5%95%9F%E6%A6%95"
+    },
+    {
+      "label": "Community Building",
+      "source": "https://arch.gm.cute.edu.tw/%E5%B8%AB%E8%B3%87/%E5%AD%AB%E5%95%9F%E6%A6%95"
+    }
+  ]
+},
+{
   "id": "16780fae515977f69a28fb276a7f6efb",
   "section": "會員名單",
   "raw": "劉威（Johns Hopkins Bloomberg School of Public HealthPhD Candidate）",
