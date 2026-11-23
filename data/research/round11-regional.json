@@ -1,0 +1,86 @@
+[
+  {
+    "section": "會員名單",
+    "raw": "林億明（國立嘉義大學應用經濟學系教授）",
+    "sources": [
+      {
+        "label": "嘉義大學應用經濟學系林億明教授頁",
+        "description": "嘉義大學應用經濟學系專任師資頁列林億明（Yih-Ming Lin）為教授，美國范德堡大學經濟學博士，現職應用經濟學系教授；專長標示為國際貿易、計量經濟學、應用個體經濟學。",
+        "url": "https://website.ncyu.edu.tw/dpae/Contents?nodeId=15773",
+        "institutions": [
+          "國立嘉義大學"
+        ],
+        "department": "應用經濟學系"
+      },
+      {
+        "label": "嘉義大學研究成果系統林億明頁",
+        "description": "嘉義大學研究成果系統列林億明隸屬應用經濟學系，專任教授，在職，行政職務為應用經濟學系主任暨研究所所長。",
+        "url": "https://web085004.adm.ncyu.edu.tw/eRes.pub/Res.aspx?thrid=A0606",
+        "institutions": [
+          "國立嘉義大學"
+        ],
+        "department": "應用經濟學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "楊松穎（國立嘉義大學水生系助理教授）",
+    "sources": [
+      {
+        "label": "嘉義大學水生生物科學系楊松穎老師頁",
+        "description": "嘉義大學水生生物科學系教師頁列楊松穎為助理教授，日本琉球大學海洋環境學博士，2022 年起任職水生系；學術專長標示為珊瑚礁及微生物生態、珊瑚礁底棲生物多樣性、親緣關係，並附單人照片。",
+        "url": "https://website.ncyu.edu.tw/aquabio/Contents?nodeId=33037",
+        "institutions": [
+          "國立嘉義大學"
+        ],
+        "department": "水生生物科學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "蔡榮任（國立聯合大學 建築學系助理教授）",
+    "sources": [
+      {
+        "label": "聯合大學建築學系蔡榮任老師頁",
+        "description": "聯合大學建築學系教師頁列蔡榮任（Jung-Jen Tsai）為助理教授，兼任總務處能源管理組組長，辦公室在建築館教師研究室；專長及研究領域標示為臺灣建築史、西洋建築史、建築理論、國族主義理論，並附單人照片。",
+        "url": "https://arch.nuu.edu.tw/p/412-1085-5551.php",
+        "institutions": [
+          "國立聯合大學"
+        ],
+        "department": "建築學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "洪嘉宏（國立宜蘭大學通識教育中心兼任助理教授）",
+    "sources": [
+      {
+        "label": "宜蘭大學通識教育中心洪嘉宏兼任教師頁",
+        "description": "宜蘭大學通識教育中心兼任教師頁列洪嘉宏為兼任助理教授；研究專長標示為視覺文化、藝術、藝術教育、英語教學、全球化、性別研究。頁面照片為 195×237 小圖且臉部被截斷、背景雜亂，未採用為頭像。",
+        "url": "https://gec.niu.edu.tw/index.php?Plugin=o_niu&Action=o_niutchdetail&niuid=chhung",
+        "institutions": [
+          "國立宜蘭大學"
+        ],
+        "department": "通識教育中心"
+      }
+    ]
+  },
+  {
+    "section": "共同領銜",
+    "raw": "李明仁（嘉義大學應用歷史學系退休教授）",
+    "sources": [
+      {
+        "label": "嘉義大學應用歷史學系退休教師名單",
+        "description": "嘉義大學應用歷史學系暨研究所退休教師頁列李明仁為退休教授；同校研究成果系統列李明仁隸屬應用歷史學系，教授，在校狀態為退休，著作涵蓋嘉義與雲嘉區域史、民間信仰及高句麗與慕容鮮卑關係。與政大台灣史研究所兼任教授李明仁（清代臺灣史、北亞史、中國中古史；臺灣大學歷史學博士）領域一致。兩處頁面均無人物照，未採用頭像。",
+        "url": "https://www.ncyu.edu.tw/ncyuhg/Contents?nodeId=45036",
+        "institutions": [
+          "國立嘉義大學"
+        ],
+        "department": "應用歷史學系"
+      }
+    ]
+  }
+]

@@ -1,5 +1,43 @@
 [
 {
+  "id": "00db7660e568a2f311c0dc6812fbe299",
+  "section": "會員名單",
+  "raw": "湯婉君（國立台灣藝術大學兼任講師）",
+  "keywords": [
+    {
+      "label": "鋼琴獨奏",
+      "source": "https://cmusic.ntua.edu.tw/Front/Faculty/Faculty1-3/Members.aspx?id=1zIHtihbLDw%3D&PID=0000000093"
+    },
+    {
+      "label": "鋼琴合作",
+      "source": "https://cmusic.ntua.edu.tw/Front/Faculty/Faculty1-3/Members.aspx?id=1zIHtihbLDw%3D&PID=0000000093"
+    },
+    {
+      "label": "室內樂",
+      "source": "https://cmusic.ntua.edu.tw/Front/Faculty/Faculty1-3/Members.aspx?id=1zIHtihbLDw%3D&PID=0000000093"
+    }
+  ]
+},
+{
+  "id": "5d387db0979c291c005f05e901921d0a",
+  "section": "會員名單",
+  "raw": "黃婉綸（國立臺灣藝術大學兼任講師）",
+  "keywords": [
+    {
+      "label": "媒體與性別",
+      "source": "https://rtv.ntua.edu.tw/portal_a1.php?owner_num=a1_67264&button_num=a1"
+    },
+    {
+      "label": "媒體識讀",
+      "source": "https://rtv.ntua.edu.tw/portal_a1.php?owner_num=a1_67264&button_num=a1"
+    },
+    {
+      "label": "新媒體研究",
+      "source": "https://rtv.ntua.edu.tw/portal_a1.php?owner_num=a1_67264&button_num=a1"
+    }
+  ]
+},
+{
   "id": "d24c16eccb711c4c7ae0726b0f64b4af",
   "section": "會員名單",
   "raw": "顏仕宇（瑞典斯德哥爾摩大學社會人類學博士候選人）",
@@ -5003,6 +5041,10 @@
     "section": "會員名單",
     "raw": "吳洛纓（臺北藝術大學電影系兼任助理教授）",
     "keywords": [
+      {
+        "label": "編劇導演",
+        "source": "https://filmmaking.tnua.edu.tw/faculty/adjunct/EWKz9lJl8B"
+      },
       {
         "label": "編劇",
         "source": "https://filmmaking.tnua.edu.tw/faculty/adjunct/EWKz9lJl8B"
@@ -11123,6 +11165,22 @@
     "raw": "吳懷晨（台北藝術大學人文學院教授）",
     "keywords": [
       {
+        "label": "哲學",
+        "source": "https://literature.tnua.edu.tw/teacher/"
+      },
+      {
+        "label": "文學",
+        "source": "https://literature.tnua.edu.tw/teacher/"
+      },
+      {
+        "label": "當代思想與文學",
+        "source": "https://literature.tnua.edu.tw/teacher/"
+      },
+      {
+        "label": "邊界書寫",
+        "source": "https://literature.tnua.edu.tw/teacher/"
+      },
+      {
         "label": "思想與影像",
         "source": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
       },
@@ -11206,6 +11264,18 @@
     "section": "會員名單",
     "raw": "游富凱（國立臺北藝術大學戲劇系兼任助理教授）",
     "keywords": [
+      {
+        "label": "晚清戲曲",
+        "source": "https://theatre.tnua.edu.tw/faculty/parttime/yK1c2W9nFI"
+      },
+      {
+        "label": "戲曲改良",
+        "source": "https://theatre.tnua.edu.tw/faculty/parttime/yK1c2W9nFI"
+      },
+      {
+        "label": "晚清宮廷劇團",
+        "source": "https://theatre.tnua.edu.tw/faculty/parttime/yK1c2W9nFI"
+      },
       {
         "label": "中國戲劇史",
         "source": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
@@ -11347,6 +11417,10 @@
     "raw": "王盈勛（國立臺北藝術大學教授）",
     "keywords": [
       {
+        "label": "本國語文",
+        "source": "https://cfge.tnua.edu.tw/web/team/team_in.jsp?lang=tw&fp_id=FP1722834401859"
+      },
+      {
         "label": "資訊與傳播科技",
         "source": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
       },
@@ -11416,6 +11490,14 @@
     "section": "會員名單",
     "raw": "蔣薇華（台北藝術大學副教授）",
     "keywords": [
+      {
+        "label": "表演",
+        "source": "https://theatre.tnua.edu.tw/faculty/fulltime/HpsEEPbLYZ"
+      },
+      {
+        "label": "導演",
+        "source": "https://theatre.tnua.edu.tw/faculty/fulltime/HpsEEPbLYZ"
+      },
       {
         "label": "踢踏舞表演",
         "source": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
@@ -11523,6 +11605,18 @@
     "section": "會員名單",
     "raw": "陳佳穗（國立臺北藝術大學電影創作學系兼任助理教授）",
     "keywords": [
+      {
+        "label": "寫實表演",
+        "source": "https://filmmaking.tnua.edu.tw/faculty/adjunct/MyyWd9HFPb"
+      },
+      {
+        "label": "聲音與說話",
+        "source": "https://filmmaking.tnua.edu.tw/faculty/adjunct/MyyWd9HFPb"
+      },
+      {
+        "label": "鏡頭表演",
+        "source": "https://filmmaking.tnua.edu.tw/faculty/adjunct/MyyWd9HFPb"
+      },
       {
         "label": "角色分析與選角",
         "source": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
@@ -11796,6 +11890,10 @@
     "raw": "何婉甄（國立臺南藝術大學音樂系副教授）",
     "keywords": [
       {
+        "label": "鋼琴演奏",
+        "source": "https://music.tnnua.edu.tw/p/406-1026-8171,r968.php?Lang=zh-tw"
+      },
+      {
         "label": "鋼琴演奏教學",
         "source": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
       }
@@ -11806,6 +11904,18 @@
     "section": "會員名單",
     "raw": "朱夢慈（國立臺南藝術大學民族音樂學研究所副教授）",
     "keywords": [
+      {
+        "label": "搖滾樂",
+        "source": "https://apmusicology.tnnua.edu.tw/p/406-1072-37175,r1912.php"
+      },
+      {
+        "label": "品味研究",
+        "source": "https://apmusicology.tnnua.edu.tw/p/406-1072-37175,r1912.php"
+      },
+      {
+        "label": "唱片工業",
+        "source": "https://apmusicology.tnnua.edu.tw/p/406-1072-37175,r1912.php"
+      },
       {
         "label": "民族音樂學",
         "source": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
@@ -11839,6 +11949,18 @@
     "section": "會員名單",
     "raw": "袁子賢（國立臺南藝術大學動畫藝術與影像美學研究所助理教授）",
     "keywords": [
+      {
+        "label": "影視與流行文化",
+        "source": "https://filmanimation.tnnua.edu.tw/p/412-1042-2960.php"
+      },
+      {
+        "label": "戰爭與記憶研究",
+        "source": "https://filmanimation.tnnua.edu.tw/p/412-1042-2960.php"
+      },
+      {
+        "label": "性別研究",
+        "source": "https://filmanimation.tnnua.edu.tw/p/412-1042-2960.php"
+      },
       {
         "label": "影像美學",
         "source": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
@@ -16290,6 +16412,10 @@
     "raw": "張雅晴（國立台灣藝術大學音樂系助理教授）",
     "keywords": [
       {
+        "label": "小提琴",
+        "source": "https://music.ntua.edu.tw/web/about/team_in.jsp?dm_no=DM1635931072185&fp_no=FP1635938026640"
+      },
+      {
         "label": "小提琴演奏",
         "source": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
       }
@@ -16300,6 +16426,14 @@
     "section": "會員名單",
     "raw": "曾蘇銘（國立台灣藝術大學 戲劇學系客座教授）",
     "keywords": [
+      {
+        "label": "演出製作",
+        "source": "https://drama.ntua.edu.tw/teacher/%E6%9B%BE%E8%98%87%E9%8A%98-2/"
+      },
+      {
+        "label": "劇場佈景設計",
+        "source": "https://drama.ntua.edu.tw/teacher/%E6%9B%BE%E8%98%87%E9%8A%98-2/"
+      },
       {
         "label": "舞台設計",
         "source": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
@@ -16469,6 +16603,10 @@
     "raw": "蔡佾玲（國立臺灣藝術大學戲劇學系助理教授）",
     "keywords": [
       {
+        "label": "演出製作",
+        "source": "https://drama.ntua.edu.tw/teacher/%E8%94%A1%E4%BD%BE%E7%8E%B2/"
+      },
+      {
         "label": "表演",
         "source": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
       },
@@ -16506,6 +16644,14 @@
     "section": "會員名單",
     "raw": "林億明（國立嘉義大學應用經濟學系教授）",
     "keywords": [
+      {
+        "label": "國際貿易",
+        "source": "https://website.ncyu.edu.tw/dpae/Contents?nodeId=15773"
+      },
+      {
+        "label": "計量經濟學",
+        "source": "https://website.ncyu.edu.tw/dpae/Contents?nodeId=15773"
+      },
       {
         "label": "生產力與效率",
         "source": "https://udb.moe.edu.tw/ulist/Resource/download/ulist_teacher?extension=csv"
@@ -33729,6 +33875,14 @@
     "section": "會員名單",
     "raw": "楊汗如（台大戲劇、北藝大戲劇、音樂、傳音系講師）",
     "keywords": [
+      {
+        "label": "崑劇",
+        "source": "https://theatre.tnua.edu.tw/faculty/parttime/sBPawD4ZSe"
+      },
+      {
+        "label": "戲曲賞析",
+        "source": "https://theatre.tnua.edu.tw/faculty/parttime/sBPawD4ZSe"
+      },
       {
         "label": "崑劇表演",
         "source": "https://theatre.ntu.edu.tw/faculty/%E6%A5%8A%E6%B1%97%E5%A6%82"
