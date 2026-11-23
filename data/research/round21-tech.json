@@ -1,0 +1,92 @@
+[
+  {
+    "section": "會員名單",
+    "raw": "徐文信（國立屏東科技大學土木系教授）",
+    "sources": [
+      {
+        "label": "國立屏東科技大學土木工程系教師頁",
+        "description": "土木工程系教師頁列徐文信（Wen-Shinn Shyu），專長標示為土壤動力學、地震工程與地震學等，並附單人照片；該校教師資料查詢平台（fps.npust.edu.tw）職稱為教授。",
+        "url": "https://ce.npust.edu.tw/teacher/%E5%BE%90%E6%96%87%E4%BF%A1-2/",
+        "institutions": [
+          "國立屏東科技大學"
+        ],
+        "department": "土木工程系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "陳雍正（南臺科技大學副教授）",
+    "sources": [
+      {
+        "label": "南臺科技大學多媒體與電腦娛樂科學系教師頁",
+        "description": "多媒體與電腦娛樂科學系教師頁列陳雍正為專任副教授（2025/8 起），國立成功大學工業設計碩士；研究專長標示為企業形象識別系統設計、電腦動畫、電腦輔助設計、產品設計、使用者介面，並附單人照片（圖檔由頁面連結外部圖床）。",
+        "url": "https://mes.stust.edu.tw/tc/node/jaychen",
+        "institutions": [
+          "南臺科技大學"
+        ],
+        "department": "多媒體與電腦娛樂科學系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "張偉德（樹德科技大學 電腦與通訊系特聘教授）",
+    "sources": [
+      {
+        "label": "樹德科技大學電腦與通訊系系所成員頁",
+        "description": "電腦與通訊系系所成員頁列張偉德（Wei-Der Chang）為特聘教授，並附單人照片；系所個人頁標示專長為智慧型訊號處理、演化式計算、數位濾波器設計、智慧型控制、混沌通訊保密。",
+        "url": "https://www.comd.stu.edu.tw/%E7%B3%BB%E6%89%80%E6%88%90%E5%93%A1/",
+        "institutions": [
+          "樹德科技大學"
+        ],
+        "department": "電腦與通訊系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "黃盈斐（南臺科技大學助理教授）",
+    "sources": [
+      {
+        "label": "南臺科技大學幼兒保育系教師頁",
+        "description": "幼兒保育系教師頁列黃盈斐為兼任助理教授，國立臺南大學教育經營與管理博士；專長領域標示為國際蒙特梭利教學法、國際親子課程與活動規劃、幼教機構管理與行銷服務等，並附單人照片。",
+        "url": "https://childcare.stust.edu.tw/tc/node/Ying-Fei-Huang",
+        "institutions": [
+          "南臺科技大學"
+        ],
+        "department": "幼兒保育系"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "林世凌（國立高雄科技大學 博雅教育中心教授）",
+    "sources": [
+      {
+        "label": "國立高雄科技大學博雅教育中心專任教師頁與產學媒合平台專家頁",
+        "description": "博雅教育中心專任教師頁（cla.nkust.edu.tw）與校方產學媒合平台專家頁列林世凌為教授，美國俄亥俄州立大學音樂藝術博士；專長標示為音樂藝術通識課程與教學、小提琴演奏與教學、室內樂演奏與教學、藝術展覽演出規劃。",
+        "url": "https://mmp.nkust.edu.tw/Expert/ExpertContent/815",
+        "institutions": [
+          "國立高雄科技大學"
+        ],
+        "department": "博雅教育中心"
+      }
+    ]
+  },
+  {
+    "section": "會員名單",
+    "raw": "羅友志（國立勤益科技大學 健康產業科技研發與管理系教授）",
+    "sources": [
+      {
+        "label": "靜宜大學英國語文學系系友頁",
+        "description": "靜宜大學英國語文學系系友專頁載羅友志（2002 年畢業）目前為國立勤益科技大學健康產業科技研發與管理系教授，並附本人照片；勤益該系師資頁（hitm.ncut.edu.tw）亦列其為專任教師。",
+        "url": "https://english.pu.edu.tw/p/405-1112-48941,c4879.php?Lang=zh-tw",
+        "institutions": [
+          "國立勤益科技大學"
+        ],
+        "department": "健康產業科技研發與管理系"
+      }
+    ]
+  }
+]
